@@ -1,0 +1,67 @@
+
+maps:
+create the minotaurs dungeon
+add traps
+add chests and map loot
+improve cave and dungeon floors
+better map names
+create maps to fill in the 'unknown location' from the alpha maps - add some uber bossses in there for after game completion
+add some sort of game ending to the alpha demo maps
+more thoughtful enemy placement on the later maps
+
+
+enemies:
+create bosses for a few maps
+create end bosses
+setup enemy stat points appropriate for map and level
+setup enemy powers
+give a small % fear chance to basic enemy attack power
+super power the alpha demo enemies
+
+
+powers:
+Setup appropriate stat points for spawned allies
+Setup ally powers
+ghost spwn to have fear and conversion effects on attack power
+ghost to have spawn undead abvility at higher level
+stats for transform creatures
+give a small % fear chance to basic ally attack power
+runes graphics for the transformation effect
+
+
+Development:
+give requires_not to an npc to make it non visible at the correct times
+give visible_requires_status to powers in the menu - powers hidden until quest completion
+give set_status after converting a quest enemy - for the first quest
+allow levels greater than 32
+powers to require_power multiple times
+allow ghosts to initiate combat from behind a wall
+when transforming, keep the player level and stats on the transformed creature
+after ubnlocking next level power, auto replace the previous one
+make sure multiple levels of the same spawn power cant be used simultaneously
+keep passives when transformed
+auto pause when speaking to an npc
+
+
+npcs & quests:
+Bryn to create some rare items in return for components
+add some non quest npc's in the town, asylum and goblin cave
+names for places and people referred to
+create missing text for the quest log
+add some dialogue with the two main end bosses
+
+
+Items:
+All items still to be created
+artifacts from +1 up to +5 to stat points
+ranged weapons to go in main hand slot
+block power to be linked to equipped shields
+
+
+graphics:
+Appropriate icons for player powers
+graphics for the barricade enemy and the fire tower
+appropriate icons for the quest items
+"effect" graphics for the curses & fear affects
+hazard graphics that allow you to see the real power radius for relevant powers
+
