@@ -1,0 +1,13 @@
+
+[quest]
+requires_status=evan_init
+requires_not=horse_tamed
+quest_text=Head to the woods north of town and use the apples Evan gave you to coax the beast. (needs dev - for now just slay the horse)
+
+[quest]
+requires_status=horse_tamed
+requires_not=horse_tamer_complete
+quest_text=Go back to town and tell Evan of your deeds.
+
+
+

@@ -1,0 +1,149 @@
+# Ieuan
+name=Ieuan
+
+portrait=male03
+
+talker=true
+
+# animation info
+gfx=wandering_trader1
+
+#game start initial dialogue
+[dialog]
+requires_not=ieuan_valley_init
+him=Thank heavens your safe! That was a close call back there. Are you hurt?
+you=A few bruises maybe. I can handle myself.
+him=Hah! I dont doubt it my friend. But dont get careless. We arent safe yet.
+you=What are we facing?
+him=A few of the x got through ahead of us. No doubt we can expect a few of their undead minions.
+you=Could be tricky.
+him=There will still be a few of the x behind us. Ill guard the rear and make sure none make it through.
+him=Up ahead is a small settlement. We should be safe there for the moment.
+you=I'll go on ahead and clear a path. Meet me at the settlement when your ready.
+him=Understood.
+reward_xp=15000
+set_status=ieuan_valley_init
+
+#initial dialogue follow up
+[dialog]
+requires=ieuan_valley_init
+requires_not=progress_arrived_town
+him=Be careful out there. I'll meet you at the settlement.
+
+#town arrival
+[dialog]
+requires=progress_arrived_town
+requires_not=ieuan_town_init
+him=What took you so long? Had a little trouble?
+you=What the...
+him=Never mind that now. What are we going to do about the x scum.
+you=Keep your head Ieuan.
+him=I know, i know.
+you=Its unusual to see them this far south. What are they up to?
+him=Before we left x, I spoke to y. He thinks that this was just a scout party and that the x will be back with a greater force.
+you=Just a scout party? If thats true then we're in trouble. Theres no way we could withstand a larger force.
+him=Our best chance is to increase our own numbers. It could be difficult since theres not much civilisation around these parts.
+you=I'll talk to the folk around here and see what we can find out about the area.
+him=The Woodsman at the north of town is handy with a bow. It might be worth talking to him.
+you=Ok thanks for the tip. We will have a small army before you know it.
+him=I wouldn't count on it. But in the mean time, I suggest you get more familiar with your weapon. If we are going to face the x again, we will need to be much better prepared.
+him=x sees a lot of potential in you but your still lacking in combat experience.
+set_status=ieuan_town_init
+
+#town arrival follow up
+[dialog]
+requires=ieuan_town_init
+requires_not=evan_init
+him=We need to prepare for battle. Lets see if we can find some help.
+
+[dialog]
+requires=evan_init
+requires_not=horse_tamer_complete
+him=I hear that Evan has you running around the woods after a horse. That must be a sight.
+
+[dialog]
+requires=horse_tamer_complete
+requires_not=leaving_town
+you=I think its time to move on.
+him=Yes I fear you are right. Theres no telling when the x might be on us again.
+him=Alas I'll be staying here a while longer. I want to get a message back to x before I leave here.
+him=x tells me of an asylum built in a desert to the north. A couple of the x generals were supposedly previous residents of the asylum. I bet we would find out more information from there.
+you=Okay I'll head north from here.
+him=I dont know how long I will stay here but I'll catch up to you on the road.
+you=Got it.
+set_status=leaving_town
+set_status=ieuan_chatter1
+
+[dialog]
+requires=ieuan_chatter1
+requires_not=ieuan_chatter2
+requires_not=bethan_quests_complete
+him=Take care of yourself.
+unset_status=ieuan_chatter1
+set_status=ieuan_chatter2
+
+[dialog]
+requires=ieuan_chatter2
+requires_not=ieuan_chatter3
+requires_not=bethan_quests_complete
+him=The asylum is on the eastern side of a desert to the north of here.
+unset_status=ieuan_chatter2
+set_status=ieuan_chatter3
+
+[dialog]
+requires=ieuan_chatter3
+requires_not=ieuan_chatter4
+requires_not=bethan_quests_complete
+him=Keep up your training. When you reach your potential, you will be a force to be reckoned with.
+unset_status=ieuan_chatter3
+set_status=ieuan_chatter4
+
+[dialog]
+requires=ieuan_chatter4
+requires_not=ieuan_chatter1
+requires_not=bethan_quests_complete
+him=Dont forget about our goal. We will need to be prepared when we meet the x again.
+unset_status=ieuan_chatter4
+set_status=ieuan_chatter1
+
+[dialog]
+requires=bethan_quests_complete
+requires_not=minotaur_intro
+him=Good to see you again.
+you=Its about time you got here.
+him=Hey! I havent been sitting on my laurels.
+him=It looks like you have been busy too. How are battle preparations?
+you=I have learned a thing or two on my travels.
+him=You seem much stronger than the last time I saw you. How fares the search for allies?
+you=I met a few friends on my journey and have a few troops to fight with me.
+him=Thats good news. I hope it will be enough. I come with news of the x.
+him=They are advancing already. We need to make our final battle preperations soon.
+you=We knew this day would come. This is the time to show our worth. Is there anything else we can do?
+him=Lets see what you've got here...
+him=Hmm. I'm sure theres some better equipment for you to get hold of yet.
+him=But first, theres a dungeon not too far from here. I found an old tome back in the town.
+him=It tells of an ancient guardian locked away at the bottom of the dungeon.
+him=If we had such an ancient power fighting with us, I'm sure it would give us an advantage.
+you=So its a friendly guardian? I just toddle down the dungeon and ask it if it wants to join us?
+him=Okay I admit, the text was not too clear on all the details. You could have a fight on your hands.
+you=Well it'll be some sword practice in any case.
+him=The dungeon is to the west of here, beyond the marshlands.
+you=I'll head there now.
+him=Next time we meet, we will be heading into battle.
+him=Good luck.
+set_status=minotaur_intro
+
+[dialog]
+requires=minotaur_intro
+requires_not=minotaur_complete
+him=The dungeon is to the west of here, beyond the marshlands.
+
+[dialog]
+requires=minotaur_complete
+him=You made it!
+him=I hope your prepared for battle. We have been holding them back up to now.
+him=Our line is holding, but we dont have the force to make an advance.
+him=We need to push them back. We are all counting on you.
+you=No pressure then.
+him=I know you can do it. You have become a powerhouse since we first started on this.
+

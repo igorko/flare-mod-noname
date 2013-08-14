@@ -1,0 +1,71 @@
+
+name=Bryn
+
+portrait=male18
+
+talker=true
+
+gfx=peasant_man2
+
+[dialog]
+requires_not=bryn_init
+him=Back foul beast!
+you=Take it easy feller
+him=Wait? Your of this world?
+you=Last time I checked. Whats going on here?
+him=Its not good. Spirits started appearing 3 days back.
+him=It all started when x left the asylum. He was taken away by a group of x.
+him=After a while, the governor started acting strange and talking to himself. Then the spirits started to appear.
+him=Before long, the whole place was overrun by undead.
+you=You seem to be unharmed. How did you survive?
+him=The wardens started getting edgy when the spirits appeared. They started losing their minds after a while and I havent seen them now for a couple of days.
+him=Somehow the asylum residents didnt seem to be affected by the dark presence.
+him=Either that or their minds were too far gone to begin with.
+you=Your mind seems to be intact. What are you here for?
+him=At the moment im fine. Not all days are so good.
+him=If your planning to investigate the goings on, you should head towards the governors office at the end of the asylum.
+you=What about you? Will you be okay?
+him=Ill be fine. Ill make my way out as soon as... well never mind that now. Go on ahead.
+you=Okay. Ill be back.
+set_status=bryn_init
+
+[dialog]
+requires=bryn_init
+requires_not=wyvern_complete
+him=I'm sure the governor knows something about this.
+
+[dialog]
+requires=wyvern_complete
+requires_not=werebear_complete
+him=Hello again.
+you=Hey you made it out of the asylum. What on earth are you doing here.
+him=After I left the asylum, I needed to find a safe place to hide out.
+you=You had better be careful. There was a wild bear on the loose around here.
+him=Dont worry about that.
+you=You have taken care of one?
+him=Not exactly. Theres nothing in here except for me.
+him=That bear you saw. That would be me. That was quite a performance last time.
+him=I go through a physical transformation, causing me to take the form of a bear. I was inflicted with this many years ago when I was attacked by such a creature.
+you=So does that mean that im going to be affected.
+him=Its possibly yes.
+you=So im going to get hairy and grow big teeth?
+him=With training, some can control the beast, but it requires great physical strength.
+him=Come and see me if you run into trouble. I may be able to offer some assistance, but for now, I need to get back on my feet.
+you=Okay. Stay out of trouble.
+set_status=werebear_complete
+
+[dialog]
+requires=werebear_complete
+requires_not=minotaur_complete
+him=Use the transformation effect to youir advantage in battle. The beast is fierce and powerful if controlled properly.
+
+[dialog]
+requires=minotaur_complete
+him=Well met brother.
+you=Good to see you again. Thanks for joining us.
+him=Its my pleasure. Allow me to offer my serices as a crafter.
+him=Back before I lived in solitude, I used to spend my time creating magical artifacts.
+him=Its been some time since I created anything but I still have a few tricks up my sleeve.
+him=I remember a formula for a magic ring. I dont know how useful it will be but I need a bit of practice again before I will be able to perform the most powerful craftings.
+him=To create the ring, I will need a spider leg, a yellow rose and a vial of dew.
+him=Bring these to me, and I will craft the ring.

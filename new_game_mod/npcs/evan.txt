@@ -1,0 +1,113 @@
+name=Evan
+
+portrait=male16
+
+talker=true
+
+gfx=guild_man1
+
+[dialog]
+requires_not=evan_init
+you=Are you the local woodsman?
+him=Indeed I am. And your with the party from x.
+him=Well met neighbour. I heared about the troubles in x. What news from there?
+you=Its not looking good im afraid. Theres word of a larger force on its way.
+him=In that case we are all in danger. If I could be of any assistance...
+you=Actually we are looking for some good men to join us in combat.
+him=My bow has not seen that kind of combat. Im afraid I would be of no use to you. I am a hunter not a fighter.
+you=I understand.
+him=Hmm, I wonder...
+him=Perhaps I can be of some help. During my years I have gained an affinity with the local wildlife.
+him=I have come to think of some as comrades. If treated right, they can be the most loyal of companions.
+you=Thanks all the same but im not sure how much help a few woodland critters would be.
+him=Dont underestimate the power of nature. Some of these creatures are fierce.
+him=Humor me if you will. Lets see if youve got what it takes.
+him=In the woods to the north lives a stallion named x. He's a little flighty but can be friendly if he trusts you.
+him=Here take these apples. If you can get close to him, give him one of these.
+reward_item=201,20
+him=Getting close to him might not be so easy. Take a few of these traps aswell. They wont hurt him but will give you a chance to get close.
+reward_item=200,20
+him=Come back and see me when you manage to gain his trust.
+you=Sounds easy enough
+set_status=evan_init
+
+[dialog]
+requires=evan_init
+requires_not=horse_tamed
+requires_item=201
+requires_item=200
+him=If your having trouble catching x, use the traps I gave you to slow him down.
+him=When you get the chance, give him some apples. Come and see me when your successful.
+
+[dialog]
+requires_not=horse_tamed
+requires_item=201
+him=So how are you getting on?
+you=Not so good. I used all of the traps already.
+him=Ok heres a couple more. Try to anticipate where he is moving to and place the trap in his path.
+reward_item=200,20
+you=Thanks.
+
+[dialog]
+requires_not=horse_tamed
+him=Have you tamed x yet?
+you=No not yet. I dont have any apples left.
+him=Make sure your close enough to give them to him. If you cant catch him, try to use those traps I gave you to slow him down. Heres a couple more apples.
+reward_item=201,20
+him=And try not to eat them!
+
+[dialog]
+requires=horse_tamed
+requires_not=horse_tamer_complete
+you=Are you impressed?
+him=Congratulations. See if you can do it a bit faster next time.
+you=Are you kidding?
+him=Hah I knew you had it in you.
+him=Keep improving and it will become more natural to you. I heared that the best tamers can apply their skill to undead or even people. I dont know if thats true or not.
+you=Okay it has some promise.
+him=Of course. Whats your next move?
+you=I dont know. I guess its time to head out.
+him=Ok good luck out there. If you happen by Vlad on your way north, say hi from me.
+you=Thanks for your help.
+set_status=horse_tamer_complete
+set_status=evan_chatter1
+
+[dialog]
+requires=evan_chatter1
+requires_not=evan_chatter2
+requires_not=minotaur_complete
+him=Keep training hard. The road ahead wont be easy
+unset_status=evan_chatter1
+set_status=evan_chatter2
+
+[dialog]
+requires=evan_chatter2
+requires_not=evan_chatter3
+requires_not=minotaur_complete
+him=Good luck on your journey.
+unset_status=evan_chatter2
+set_status=evan_chatter3
+
+[dialog]
+requires=evan_chatter3
+requires_not=evan_chatter4
+requires_not=minotaur_complete
+him=I once heared a rumour of a great beast to the north beyond the desert. I wonder if such a creature could be tamed?
+unset_status=evan_chatter3
+set_status=evan_chatter4
+
+[dialog]
+requires=evan_chatter4
+requires_not=evan_chatter1
+requires_not=minotaur_complete
+him=Curse these spiders hiding in my log pile.
+unset_status=evan_chatter4
+set_status=evan_chatter1
+
+[dialog]
+requires=minotaur_complete
+you=You came.
+him=I couldnt leave you to face the x alone.
+him=It looks like you have quite a gathering here. You must have made quite an impression.
+
+

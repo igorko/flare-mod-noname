@@ -1,0 +1,36 @@
+
+name=The Governor
+
+portrait=male12
+
+talker=true
+
+gfx=zombie
+
+[dialog]
+requires_not=asylum_complete
+him=Stop! Dont attack!
+you=Your alive?
+him=For now.
+you=Who are you?
+him=I was the governor of the asylum.
+you=What happened here?
+him=It all happened so fast.
+him=A talisman. Left behind by an ex inmate.
+him=The artifact contains a dark and mysterious power.
+him=With it, I was able to call on lost souls.
+him=Before I knew it, the power grew out of control and we were overrun with undead.
+him=Here. Take it. Take it far away from here.
+you=Are you okay?
+him=Get out before its too late.
+set_status=asylum_complete
+
+[dialog]
+requires=asylum_complete
+him=I can feel it. My mind and body are becoming consumed by the darkness. Get out before I lose control completely.
+
+
+
+
+
+

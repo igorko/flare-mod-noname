@@ -1,0 +1,120 @@
+
+name=Bethan
+
+portrait=female01
+
+talker=true
+
+gfx=peasant_woman1
+
+[dialog]
+requires_not=bethan_init
+you=Good day.
+him=Oh a visitor. I dont get many around here. Now where did you come from?
+you=I have travelled from x in the south.
+him=Impressive. You must have come through the Wyvern cave. Not many can make it through. Now what brings you up here?
+you=Battle preparations. x was attacked by the y some time ago and we are expecting a larger attack soon.
+him=Now that wont do at all. I'll have none of that fighting nonsense here.
+you=Indeed...
+him=If they think they can throw their weight around here, theyll find a jolly good talking to waiting for them.
+you=Thats one approach.
+him=So what are you doing about it?
+you=Im looking for allies to help tip the balance
+him=I might be able to help with that. Let me consult my spell book now...
+him=Yes here it is. The wyverns power can be harnessed. All I need is a wyvern tail from each of the elemental wyverns. If you didnt get those, you had better go back to the Wyvern cave.
+him=I will also need a catalyst of some kind. Hmm yes that should work.
+him=Head into the woods east of here and collect a Fire Antlion heart.
+you=Collect one? You mean take one from a Fire Antlion?
+him=Well of course the Fire Antlions might not hand it to you willingly. Dont be so squeamish.
+you=Okay im going.
+set_status=bethan_init
+
+[dialog]
+requires=bethan_init
+requires_not=wyvern_complete
+requires_item=202
+requires_item=203
+requires_item=204
+requires_item=205
+requires_item=206
+you=Ive got everything.
+him=Okay give them here.
+remove_item=202
+remove_item=203
+remove_item=204
+remove_item=205
+remove_item=206
+you=Now what?
+him=Dont be so impatient young man.
+you=Young man? Im older than you.
+him=Whats that got to do with it? Now let me see.
+him=Put this here... Rub this... turn this... Whats this part?...
+him=Hey presto.
+you=Whats that?
+him=You need to drink this. Here. Make sure it all goes down.
+you=Bleaugh. That tastes foul.
+him=Dont be such a baby. Its done.
+him=You might need to invest a little training in it before you can get the full benefit.
+him=Now time for payment.
+you=I dont remember anything about payment.
+him=you dont expect something for nothing. Dont worry I just need a small errand taken care of.
+you=What errand?
+him=In the woods I have recently seen a large beast roaming around. I dont know what it is but I think its coming from a cave in the southeast part of the wood.
+him=Go and check it out for me.
+set_status=wyvern_complete
+
+[dialog]
+requires=bethan_init
+requires_not=wyvern_complete
+requires_item=206
+him=You dont have the Wyvern tails? Well you had better get back into the caves.
+
+[dialog]
+requires=bethan_init
+requires_not=wyvern_complete
+him=The fire ants live in the woods to the east of here. Go and fetch one a Fire Ant heart for the spell.
+
+[dialog]
+requires=wyvern_complete
+requires_not=werebear_defeated
+him=Find the beast.
+
+[dialog]
+requires=werebear_defeated
+requires_not=werebear_complete
+him=What did you find?
+you=There was some kind of bear.
+him=Strange. We dont usually get bears in these woods.
+you=It seemed a little strange. Its eyes seemed almost human. I feel a bit funny after fighting it.
+him=Could it be...
+you=What is it?
+him=Im not certain but I think you should go back and check on it again.
+you=(Time for round 2)
+
+[dialog]
+requires=werebear_complete
+requires_not=bethan_quests_complete
+you=You wont believe it. When I got back there, there was...
+him=A man.
+you=You knew?
+him=I couldnt be certain. So does that mean you were affected?
+you=Yes.
+him=It could have its advantages on the battlefield.
+him=Thanks for taking care of that. Good luck on the rest of your journey.
+set_status=bethan_quests_complete
+
+[dialog]
+requires=bethan_quests_complete
+requires_not=minotaur_complete
+him=Specialise in your favourite skills. You will get more benefit from investing a lot of training into a small set of skills, rather than a small amount of training in a lot of skills.
+
+[dialog]
+requires=minotaur_complete
+him=About time you got here.
+you=Good to see you too.
+him=Dont get all sentamental now. Time to focus.
+him=The troops we encountered so far are probably the advance party.
+him=The main force wont be far behind and the elite forces will probably be following at the rear.
+him=This will be your biggest challenge yet. Good luck.
+
+

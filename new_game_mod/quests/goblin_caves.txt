@@ -1,0 +1,11 @@
+
+[quest]
+requires_status=vlad_init
+requires_not=goblin_cave_clear
+quest_text=Clear the goblin caves of the infestation
+
+[quest]
+requires_status=goblin_cave_clear
+requires_not=goblin_complete
+quest_text=Return to Vlad
+

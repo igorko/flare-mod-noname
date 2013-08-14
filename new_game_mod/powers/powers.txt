@@ -1,0 +1,4115 @@
+﻿# Power Definitions
+
+[power]
+id=1
+name=Swing
+type=fixed
+icon=1
+description=Basic melee attack
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+
+[power]
+id=2
+name=Channel
+type=missile
+icon=2
+description=Basic magic attack
+new_state=swing
+requires_mental_weapon=true
+face=true
+directional=true
+animation=channel.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=8
+radius=64
+speed=24
+starting_pos=melee
+
+[power]
+id=3
+name=Block
+icon=4
+description=Raise your shield to double your avoidance and absorb
+new_state=block
+face=true
+
+[power]
+id=4
+name=Immobilize
+type=missile
+icon=3
+description=Pin an enemy down for 3 seconds
+new_state=shoot
+face=true
+requires_offense_weapon=true
+requires_mp=1
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+post_effect=201,0,90
+
+[power]
+id=5
+name=Blood Strike
+type=fixed
+icon=5
+description=Inflict a bleeding wound that causes additional damage over 5 seconds
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+requires_mp=1
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+post_power=127
+allow_power_mod=true
+post_effect=200,5,150
+
+[power]
+id=6
+name=Shock
+type=missile
+icon=7
+description=Electrocute an enemy from a distance; +25% crit chance against movement-impaired enemies.
+new_state=cast
+requires_mp=1
+face=true
+directional=true
+animation=lightning.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=24
+radius=64
+speed=32
+trait_elemental=wind
+trait_crits_impaired=25
+post_power=126
+wall_power=126
+
+[power]
+id=7
+name=Heal
+type=fixed
+icon=11
+description=Restore HP
+new_state=cast
+requires_mp=1
+soundfx=heal.ogg
+trait_elemental=light
+buff=true
+post_effect=228,0,0
+
+[power]
+id=8
+name=Piercing Shot
+type=missile
+icon=16
+description=Fire a shot that ignores armor and goes through multiple enemies
+new_state=shoot
+face=true
+requires_offense_weapon=true
+requires_mp=3
+multitarget=true
+base_damage=ranged
+aim_assist=true
+trait_armor_penetration=true
+allow_power_mod=true
+
+[power]
+id=9
+name=Warcry
+type=fixed
+icon=12
+description=Remove debuffs and become immune to debuffs for 10 seconds
+new_state=cast
+requires_mp=2
+soundfx=warcry.ogg
+trait_elemental=light
+buff=true
+post_effect=226,0,300
+
+[power]
+id=10
+name=Quake
+type=fixed
+icon=10
+description=Stun nearby enemies
+new_state=cast
+requires_mp=2
+animation=quake.txt
+soundfx=quake.ogg
+use_hazard=true
+base_damage=ment
+lifespan=12
+radius=128
+floor=true
+trait_elemental=earth
+starting_pos=source
+multitarget=true
+cooldown=90
+post_effect=203,0,30
+
+[power]
+id=11
+name=Shield
+type=fixed
+icon=15
+description=Create a force field that absorbs damage
+new_state=cast
+requires_mp=2
+soundfx=shield.ogg
+buff=true
+post_effect=227,0,0
+
+[power]
+id=12
+name=Haste
+icon=9
+description=Double run and attack speed for 8 seconds
+type=fixed
+new_state=cast
+face=false
+requires_mp=1
+buff=true
+post_effect=229,200,240
+
+[power]
+id=13
+name=Cleave
+type=fixed
+icon=22
+description=Attack all enemies in a wide arc
+new_state=swing
+face=true
+use_hazard=true
+requires_mp=2
+multitarget=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=128
+starting_pos=melee
+allow_power_mod=true
+
+[power]
+id=14
+name=Freeze
+type=repeater
+icon=14
+description=Create a ray of piercing cold that slows enemies
+new_state=cast
+face=true
+requires_mp=2
+animation=freeze.txt
+soundfx=freeze.ogg
+speed=32
+trait_elemental=ice
+radius=64
+lifespan=12
+base_damage=ment
+delay=3
+visual_random=3
+complete_animation=true
+count=10
+post_effect=202,50,90
+
+[power]
+id=15
+name=Teleport
+type=fixed
+icon=19
+description=Blink to a nearby location
+new_state=cast
+requires_mp=3
+requires_empty_target=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+no_attack=true
+lifespan=16
+floor=true
+starting_pos=source
+buff_teleport=true
+range=512
+target_neighbor=1
+
+[power]
+id=16
+name=Multishot
+type=missile
+icon=8
+description=Shoot three projectiles simultaneously
+new_state=shoot
+face=true
+count=3
+missile_angle=15
+requires_offense_weapon=true
+requires_mp=2
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+
+[power]
+id=18
+name=Burn
+type=fixed
+icon=18
+description=Blast enemies in a distant area with fire
+new_state=cast
+face=true
+requires_mp=3
+requires_los=true
+requires_targeting=true
+animation=blast.txt
+soundfx=burn.ogg
+use_hazard=true
+base_damage=ment
+lifespan=18
+radius=128
+floor=true
+trait_elemental=fire
+starting_pos=target
+multitarget=true
+post_power=125
+range=512
+
+[power]
+id=19
+name=Time Stop
+type=fixed
+icon=0
+description=Stun nearby enemies for 5 seconds
+new_state=cast
+requires_mp=1
+soundfx=timestop.ogg
+use_hazard=true
+lifespan=1
+radius=512
+multitarget=true
+base_damage=none
+post_effect=203,0,150
+
+[power]
+id=20
+name=Heroic Swing
+type=fixed
+icon=1
+description=Melee attack with 10% HP steal
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+hp_steal=10
+
+[power]
+id=21
+name=Greater Channel
+type=missile
+icon=2
+description=Magic attack with 10% MP steal
+new_state=swing
+requires_mental_weapon=true
+face=true
+directional=true
+animation=channel.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=8
+radius=64
+speed=24
+starting_pos=melee
+mp_steal=10
+
+[power]
+id=22
+name=Shoot
+type=missile
+icon=3
+description=Basic ranged attack
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+starting_pos=melee
+aim_assist=true
+allow_power_mod=true
+
+[power]
+id=23
+name=Rapid Fire
+type=missile
+icon=23
+description=Fire five low power missiles in quick succession
+new_state=shoot
+face=true
+requires_offense_weapon=true
+requires_mp=3
+base_damage=ranged
+starting_pos=melee
+aim_assist=true
+allow_power_mod=true
+count=5
+delay=2
+damage_multiplier=75
+angle_variance=5
+cooldown=2s
+
+[power]
+id=24
+name=Ember Shot
+type=missile
+icon=23
+description=Fire a spray of burning embers at close range
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+#starting_pos=melee
+aim_assist=true
+trait_armor_penetration=true
+count=10
+damage_multiplier=15
+angle_variance=15
+speed_variance=15
+animation=ember.txt
+use_hazard=true
+lifespan=8
+radius=48
+speed=48
+directional=true
+soundfx=shoot.ogg
+post_power=125
+trait_elemental=fire
+
+
+[power]
+id=30
+#name=Ice Shard [enemy]
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+requires_los=true
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=26
+radius=64
+speed=30
+trait_elemental=ice
+post_power=126
+wall_power=126
+post_effect=202,50,60
+
+[power]
+id=31
+#name=Fireshot [enemy]
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+requires_los=true
+animation=fireball.txt
+soundfx=fireball.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=26
+radius=64
+speed=30
+trait_elemental=fire
+post_power=125
+wall_power=125
+
+[power]
+id=32
+#name=Goblin Spear [enemy]
+#description=Crude goblin spear toss
+type=missile
+icon=0
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=spear.txt
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=27
+radius=64
+speed=24
+angle_variance=15
+
+[power]
+id=33
+#name=Fireburst [enemy]
+#description=Burn nearby enemies
+type=fixed
+icon=0
+new_state=cast
+animation=quake.txt
+soundfx=quake.ogg
+use_hazard=true
+base_damage=ment
+lifespan=12
+radius=128
+floor=true
+trait_elemental=fire
+starting_pos=source
+multitarget=true
+visual_option=1
+post_power=125
+post_effect=202,50,15
+
+[power]
+id=34
+#name=Arrow Shoot [enemy]
+#description=Bow shoot
+type=missile
+icon=3
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=arrows.txt
+soundfx=shoot.ogg
+use_hazard=true
+aim_assist=true
+requires_offense_weapon=true
+base_damage=ranged
+lifespan=16
+radius=64
+speed=48
+wall_power=124
+
+[power]
+id=35
+#name=Maddox's Ice Storm [enemy]
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=32
+radius=64
+speed=30
+trait_elemental=ice
+post_power=126
+wall_power=126
+#missile num needs to be odd, or the player can avoid just by standing there
+count=9
+missile_angle=40
+post_effect=202,50,60
+
+[power]
+id=36
+#name=Vampiric Strike [enemy]
+#description=Turn 50% of damage you deal into HP
+type=fixed
+icon=1
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+hp_steal=50
+
+[power]
+id=37
+#name=Zombie Bite [enemy]
+#description=Deal melee damage and cause bleeding for 3 seconds
+type=fixed
+icon=1
+new_state=cast
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_effect=200,5,90
+
+[power]
+id=38
+#name=Chill Touch [enemy]
+#description=Melee strike immobilizes target for 5 seconds
+type=fixed
+icon=0
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_effect=201,0,150
+
+[power]
+id=39
+#name=Piercing Strike [enemy]
+#description=Melee strike ignores armor
+type=fixed
+icon=0
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+trait_armor_penetration=true
+
+[power]
+id=40
+#name=Explode [enemy]
+#description=Damage everything nearby
+type=fixed
+icon=0
+new_state=cast
+face=true
+requires_los=true
+animation=blast.txt
+soundfx=burn.ogg
+use_hazard=true
+source_type=neutral
+base_damage=ment
+lifespan=18
+radius=128
+floor=true
+trait_elemental=fire
+starting_pos=source
+multitarget=true
+post_power=125
+
+[power]
+id=41
+#name=Paralyzing Spit [enemy]
+#description=Poison spit that stuns the target for 1 second
+type=missile
+icon=0
+new_state=swing
+face=true
+directional=true
+animation=channel.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=8
+radius=64
+speed=24
+starting_pos=melee
+post_effect=203,0,30
+
+[power]
+id=42
+#name=Multishot [enemy]
+#description=Shoot three projectiles simultaneously
+type=missile
+icon=8
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=arrows.txt
+soundfx=shoot.ogg
+use_hazard=true
+aim_assist=true
+requires_offense_weapon=true
+base_damage=ranged
+lifespan=16
+radius=64
+speed=48
+wall_power=124
+count=3
+missile_angle=15
+
+[power]
+id=43
+name=Throw Knife
+type=missile
+icon=32
+description=Throw a knife to deal 75% of melee weapon damage
+new_state=swing
+requires_mp=1
+face=true
+directional=true
+animation=throw_knife.txt
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=16
+radius=64
+speed=24
+damage_multiplier=75
+
+[power]
+id=44
+name=Throw Axe
+type=missile
+icon=33
+description=Throw an axe to deal 150% of melee weapon damage
+new_state=swing
+requires_mp=2
+face=true
+directional=true
+animation=throw_axe.txt
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=23
+radius=64
+speed=24
+damage_multiplier=150
+
+[power]
+id=45
+name=Caltrops
+type=fixed
+icon=20
+description=This trap deals 75% ranged weapon damage and slows the target.
+new_state=swing
+requires_mp=2
+face=true
+directional=true
+starting_pos=melee
+animation=caltrops.txt
+use_hazard=true
+base_damage=ranged
+lifespan=300
+cooldown=300
+radius=64
+damage_multiplier=75
+post_effect=202,50,90
+
+
+[power]
+id=46
+name=Bear Trap
+type=fixed
+icon=21
+description=This trap deals 150% ranged weapon damage and immobilizes the target.
+new_state=swing
+requires_mp=3
+face=true
+directional=true
+starting_pos=melee
+animation=bear_trap.txt
+use_hazard=true
+base_damage=ranged
+lifespan=300
+cooldown=300
+radius=64
+damage_multiplier=150
+post_effect=201,0,90
+post_power=47
+
+[power]
+id=47
+# animated bear trap trigger
+type=fixed
+animation=bear_trap_trigger.txt
+use_hazard=true
+no_attack=true
+directional=true
+lifespan=90
+starting_pos=target
+
+[power]
+id=100
+type=fixed
+icon=64
+name=Health Potion
+soundfx=potion.ogg
+new_state=instant
+requires_item=1
+cooldown=15
+buff=true
+post_effect=230,100,1
+
+[power]
+id=101
+type=fixed
+icon=65
+name=Mana Potion
+new_state=instant
+soundfx=potion.ogg
+requires_item=2
+cooldown=15
+buff=true
+post_effect=231,100,1
+
+[power]
+id=118
+name=Melee Fire
+icon=20
+trait_elemental=fire
+post_power=125
+base_damage=melee
+starting_pos=melee
+
+[power]
+id=119
+name=Melee Ice
+icon=20
+trait_elemental=ice
+post_power=126
+base_damage=melee
+starting_pos=melee
+
+[power]
+id=120
+name=Slingshot Shoot
+type=missile
+icon=0
+description=Basic ranged attack (requires a ranged weapon)
+new_state=shoot
+face=true
+directional=false
+animation=stone.txt
+soundfx=shoot.ogg
+use_hazard=true
+aim_assist=true
+requires_offense_weapon=true
+base_damage=ranged
+lifespan=16
+radius=64
+speed=48
+
+[power]
+id=121
+name=Arrow Shoot
+type=missile
+icon=0
+description=Basic ranged attack (requires a ranged weapon)
+new_state=shoot
+face=true
+directional=true
+animation=arrows.txt
+soundfx=shoot.ogg
+use_hazard=true
+aim_assist=true
+requires_offense_weapon=true
+base_damage=ranged
+lifespan=16
+radius=64
+speed=48
+wall_power=124
+
+[power]
+id=122
+name=Fire Ammo
+type=missile
+icon=0
+new_state=shoot
+face=true
+directional=true
+animation=fireball.txt
+soundfx=fireball.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=25
+radius=64
+speed=30
+trait_elemental=fire
+post_power=125
+wall_power=125
+
+[power]
+id=123
+name=Ice Ammo
+type=missile
+icon=0
+new_state=shoot
+face=true
+directional=true
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=25
+radius=64
+speed=30
+trait_elemental=ice
+post_power=126
+wall_power=126
+
+[power]
+id=124
+name=Arrow Wall Strike
+type=fixed
+icon=0
+animation=arrow_stuck.txt
+use_hazard=true
+no_attack=true
+directional=true
+lifespan=90
+starting_pos=target
+
+[power]
+id=125
+name=Orange Spark
+type=fixed
+icon=0
+animation=spark_orange.txt
+use_hazard=true
+no_attack=true
+lifespan=12
+starting_pos=target
+visual_random=2
+
+[power]
+id=126
+name=Blue Spark
+type=fixed
+icon=0
+animation=spark_blue.txt
+use_hazard=true
+no_attack=true
+lifespan=12
+starting_pos=target
+visual_random=2
+
+[power]
+id=127
+name=Red Spark
+type=fixed
+icon=0
+animation=spark_red.txt
+use_hazard=true
+no_attack=true
+lifespan=12
+starting_pos=target
+visual_random=2
+
+[power]
+id=128
+#name=Necrotic Bolt [enemy]
+type=missile
+icon=0
+new_state=shoot
+face=true
+animation=plasmaball.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=32
+radius=64
+speed=30
+trait_elemental=shadow
+post_power=126
+wall_power=126
+
+[power]
+id=129
+name=Scroll of Teleport
+type=fixed
+icon=72
+description=Blink to a nearby location
+new_state=cast
+requires_empty_target=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+no_attack=true
+lifespan=16
+floor=true
+starting_pos=source
+buff_teleport=true
+requires_item=12
+range=512
+
+[power]
+id=130
+name=Scroll of Time Stop
+type=fixed
+icon=73
+description=Stun nearby enemies for 10 seconds
+new_state=cast
+soundfx=timestop.ogg
+use_hazard=true
+lifespan=1
+radius=512
+multitarget=true
+base_damage=none
+requires_item=13
+post_effect=203,0,300
+
+[power]
+id=131
+name=Scroll of Haste
+icon=74
+description=Double run and attack speed for 20 seconds
+type=fixed
+new_state=cast
+face=false
+requires_item=14
+buff=true
+post_effect=237,200,600
+
+[power]
+id=132
+#name=Enemy Beacon [enemy]
+#description=Bring other enemies into the fight with a dummy attack
+type=fixed
+icon=0
+use_hazard=true
+lifespan=1
+radius=256
+multitarget=true
+source_type=hero
+beacon=true
+
+[power]
+id=133
+#name=Summon Antlion
+type=spawn
+icon=0
+spawn_type=antlion
+new_state=cast
+starting_pos=source
+target_neighbor=1
+
+[power]
+id=134
+#name=Summon Antlion Hatchling
+type=spawn
+icon=0
+spawn_type=antlion_hatchling
+new_state=cast
+starting_pos=source
+target_neighbor=1
+
+[power]
+id=135
+name=Transform into Antlion Freezer
+description=Transform into Antlion Freezer for 5 seconds
+type=transform
+icon=0
+new_state=cast
+spawn_type=antlion_freezer
+requires_mp=5
+soundfx=quake.ogg
+transform_duration=150
+manual_untransform=true
+
+[power]
+id=136
+name=Revert Form
+type=transform
+icon=0
+new_state=instant
+spawn_type=untransform
+description=Transform back to human
+
+[power]
+id=137
+#name=Summon Rotting Zombie
+type=spawn
+icon=0
+spawn_type=zombie_rotting
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,4
+
+[power]
+id=138
+#name=Transform into Antlion Freezer permanently
+#description=Transform into Antlion Freezer permanently
+type=transform
+icon=0
+new_state=cast
+spawn_type=antlion_freezer
+requires_mp=5
+soundfx=quake.ogg
+transform_duration=0
+manual_untransform=false
+
+[power]
+id=139
+name=Disenchant [item]
+type=transform
+icon=0
+new_state=instant
+spawn_type=untransform
+description=Transform back to human
+requires_item=948
+soundfx=quake.ogg
+
+[power]
+id=140
+name=Æther Walkers
+type=fixed
+icon=176
+description=Blink to a nearby location
+new_state=cast
+requires_mp=3
+requires_empty_target=true
+requires_targeting=true
+requires_item=126
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+no_attack=true
+lifespan=16
+floor=true
+starting_pos=source
+buff_teleport=true
+range=512
+target_neighbor=1
+cooldown=450
+
+[power]
+id=141
+name=Stealth
+type=transform
+icon=6
+new_state=instant
+spawn_type=stealth
+requires_mp=5
+description=Move undetected with the opportunity to perform a sneak attack
+transform_duration=300
+manual_untransform=true
+keep_equipment=true
+cooldown=300
+keep_equipment=true
+
+[power]
+id=142
+name=Sneak Attack
+type=fixed
+icon=1
+description=Melee attack while stealthed for a high chance to crit
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=136
+
+[power]
+id=143
+icon=6
+#name=Stealth Effects
+type=fixed
+buff=true
+passive=true
+post_effect=216,100,0
+post_effect=236,50,0
+post_effect=233,90,0
+post_effect=235,1,300
+
+[power]
+id=160
+#name=Spikes
+#description=Spikes Trap
+type=fixed
+animation=spikes.txt
+use_hazard=true
+lifespan=16
+radius=48
+starting_pos=source
+complete_animation=true
+base_damage=melee
+visual_random=4
+soundfx=spikes.ogg
+
+[power]
+id=170
+#name=Ouroboros Ring
+#description=Revive upon death
+type=fixed
+buff=true
+requires_equipped_item=112
+passive=true
+passive_trigger=on_death
+post_effect=234,0,1
+
+#
+# Status Effects
+#
+
+[power]
+id=200
+#name=Bleeding
+type=effect
+icon=25
+effect_type=damage
+animation=spark_red_loop.txt
+
+[power]
+id=201
+#name=Speed (Immobilize)
+type=effect
+icon=24
+effect_type=speed
+
+[power]
+id=202
+#name=Speed (50% slow)
+type=effect
+icon=24
+effect_type=speed
+
+[power]
+id=203
+#name=Stunned
+type=effect
+icon=26
+effect_type=stun
+
+[power]
+id=210
+#name=HP bonus
+tag=HP
+type=effect
+effect_type=hp
+effect_additive=true
+
+[power]
+id=211
+#name=HP regen bonus
+tag=HP regen
+type=effect
+effect_type=hp_regen
+effect_additive=true
+
+[power]
+id=212
+#name=MP bonus
+tag=MP
+type=effect
+effect_type=mp
+effect_additive=true
+
+[power]
+id=213
+#name=MP regen bonus
+tag=MP regen
+type=effect
+effect_type=mp_regen
+effect_additive=true
+
+[power]
+id=214
+#name=Accuracy bonus
+tag=accuracy
+type=effect
+effect_type=accuracy
+effect_additive=true
+
+[power]
+id=215
+#name=Avoidance bonus
+tag=avoidance
+type=effect
+effect_type=avoidance
+effect_additive=true
+
+[power]
+id=216
+#name=Crit bonus
+tag=crit
+type=effect
+effect_type=crit
+effect_additive=true
+
+[power]
+id=217
+#name=Speed (Boots of Speed)
+tag=speed
+type=effect
+effect_type=speed
+
+[power]
+id=218
+#name=Offense bonus
+tag=offense
+type=effect
+effect_type=offense
+effect_additive=true
+
+[power]
+id=219
+#name=Defense bonus
+tag=defense
+type=effect
+effect_type=defense
+effect_additive=true
+
+[power]
+id=220
+#name=Physical bonus
+tag=physical
+type=effect
+effect_type=physical
+effect_additive=true
+
+[power]
+id=221
+#name=Mental bonus
+tag=mental
+type=effect
+effect_type=mental
+effect_additive=true
+
+[power]
+id=222
+#name=XP bonus
+tag=XP gain
+type=effect
+effect_type=xp
+effect_additive=true
+
+[power]
+id=223
+#name=Gold find bonus
+tag=gold find
+type=effect
+effect_type=currency
+effect_additive=true
+
+[power]
+id=224
+#name=Fire Resist bonus
+tag=fire resist
+type=effect
+effect_type=fire_resist
+effect_additive=true
+
+[power]
+id=225
+#name=Ice Resist bonus
+tag=ice resist
+type=effect
+effect_type=ice_resist
+effect_additive=true
+
+[power]
+id=226
+#name=Immunity
+type=effect
+icon=12
+effect_type=immunity
+
+[power]
+id=227
+#name=Shield
+type=effect
+icon=15
+effect_type=shield
+animation=shield.txt
+
+[power]
+id=228
+#name=Heal
+type=effect
+icon=11
+effect_type=heal
+animation=heal.txt
+
+[power]
+id=229
+#name=Speed (Haste)
+type=effect
+icon=9
+effect_type=speed
+
+[power]
+id=230
+#name=HP over time
+type=effect
+effect_type=hpot
+
+[power]
+id=231
+#name=MP over time
+type=effect
+effect_type=mpot
+
+[power]
+id=232
+#name=Item find bonus
+tag=item find
+type=effect
+effect_type=item_find
+effect_additive=true
+
+[power]
+id=233
+#name=Stealth bonus
+tag=stealth
+type=effect
+effect_type=stealth
+effect_additive=true
+
+[power]
+id=234
+#name=Revive
+type=effect
+effect_type=revive
+
+[power]
+id=235
+#name=Stealth time remaining icon
+icon=6
+
+[power]
+id=236
+#name=Speed (Stealth)
+type=effect
+effect_type=speed
+
+[power]
+id=237
+#name=Speed (Scroll of Haste)
+type=effect
+effect_type=speed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################################################################################
+
+##################################################################################
+
+##################################################################################
+
+##################################################################################
+
+#Effects - 500-550
+
+##################################################################################
+
+##################################################################################
+
+[power]
+id=500
+name=Knockback
+type=effect
+effect_type=forced_move
+
+[power]
+id=501
+name=Convert
+type=effect
+effect_type=convert
+animation=spark_red_loop.txt
+
+[power]
+id=502
+name=Death Sentence
+type=effect
+effect_type=death_sentence
+
+[power]
+id=503
+name=Lower Absorb min
+type=effect
+effect_type=absorb_min
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=504
+name=Lower Absorb max
+type=effect
+effect_type=absorb_max
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=505
+name=Lower Avoidance
+type=effect
+effect_type=avoidance
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=506
+name=Lower Poise
+type=effect
+effect_type=poise
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=507
+name=Lower Fire Resist
+type=effect
+effect_type=fire_resist
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=508
+name=Lower Ice Resist
+type=effect
+effect_type=ice_resist
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=509
+name=Lower Earth Resist
+type=effect
+effect_type=earth_resist
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=510
+name=Lower Lightning Resist
+type=effect
+effect_type=lightning_resist
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=511
+name=Lower Melee Damage min
+type=effect
+effect_type=dmg_melee_min
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=512
+name=Lower Melee Damage max
+type=effect
+effect_type=dmg_melee_max
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=513
+name=Lower Ranged Damage min
+type=effect
+effect_type=dmg_ranged_min
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=514
+name=Lower Ranged Damage max
+type=effect
+effect_type=dmg_ranged_max
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=515
+name=Lower Mental Damage min
+type=effect
+effect_type=dmg_ment_min
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=516
+name=Lower Mental Damage max
+type=effect
+effect_type=dmg_ment_max
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=517
+name=Lower Critical Hit Rate
+type=effect
+effect_type=crit
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=518
+name=Lower Accuracy
+type=effect
+effect_type=accuracy
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=519
+name=Fear
+type=effect
+effect_type=fear
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=520
+name=Fear Immobilise
+type=effect
+effect_type=stun
+effect_additive=true
+animation=spark_red_loop.txt
+
+[power]
+id=521
+#name=HP bonus
+type=effect
+effect_type=hp
+effect_additive=true
+
+[power]
+id=522
+name=Raise Melee Damage min
+type=effect
+effect_type=dmg_melee_min
+effect_additive=true
+
+[power]
+id=523
+name=Raise Melee Damage max
+type=effect
+effect_type=dmg_melee_max
+effect_additive=true
+
+[power]
+id=524
+#name=HP Buff bonus - protection power
+type=effect
+effect_type=hp
+effect_additive=true
+animation=shield.txt
+
+[power]
+id=525
+#name=Raise Absorb min - protection power
+type=effect
+effect_type=absorb_min
+effect_additive=true
+
+[power]
+id=526
+#name=Raise Absorb max - protection power
+type=effect
+effect_type=absorb_max
+effect_additive=true
+
+[power]
+id=527
+#name=Raise Avoidance - protection power
+type=effect
+effect_type=avoidance
+effect_additive=true
+
+[power]
+id=528
+#name=Raise Fire Resist - protection power
+type=effect
+effect_type=fire_resist
+effect_additive=true
+
+[power]
+id=529
+#name=Raise Ice Resist - protection power
+type=effect
+effect_type=ice_resist
+effect_additive=true
+
+[power]
+id=530
+#name=Raise Earth Resist - protection power
+type=effect
+effect_type=earth_resist
+effect_additive=true
+
+[power]
+id=531
+#name=Raise Lightning Resist - protection power
+type=effect
+effect_type=lightning_resist
+effect_additive=true
+
+
+##################################################################################
+
+##################################################################################
+
+#Player Powers
+
+##################################################################################
+
+##################################################################################
+
+#Attack - 600-650
+
+##################################################################################
+
+##################################################################################
+
+#Melee Attack
+
+##################################################################################
+
+
+[power]
+id=600
+name=Swing
+type=fixed
+icon=1
+description=Basic melee attack
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+
+[power]
+id=601
+name=Swing 2
+type=fixed
+icon=1
+description=150% Attack Damage
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_damage=multiply,150,0
+
+[power]
+id=602
+name=Swing 3
+type=fixed
+icon=1
+description=200% Attack Damage
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_damage=multiply,200,0
+
+[power]
+id=603
+name=Swing 4
+type=fixed
+icon=1
+description=Attack multiple enemies in range
+new_state=swing
+face=true
+use_hazard=true
+multitarget=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=128
+starting_pos=melee
+allow_power_mod=true
+modifier_damage=multiply,200,0
+
+[power]
+id=604
+name=Swing 5
+type=fixed
+icon=1
+description=Attack multiple enemies in range
+new_state=swing
+face=true
+use_hazard=true
+multitarget=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=128
+starting_pos=melee
+allow_power_mod=true
+modifier_damage=multiply,300,0
+
+
+##################################################################################
+
+#Ranged Attack
+
+##################################################################################
+
+
+[power]
+id=605
+name=Shoot
+type=missile
+icon=3
+description=Basic ranged attack
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+starting_pos=melee
+aim_assist=true
+allow_power_mod=true
+
+
+[power]
+id=606
+name=Shoot 2
+type=missile
+icon=3
+description=120% Damage
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+starting_pos=melee
+aim_assist=true
+allow_power_mod=true
+modifier_damage=multiply,120,0
+
+[power]
+id=607
+name=Shoot 3
+type=missile
+icon=3
+description=150% Damage
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+starting_pos=melee
+aim_assist=true
+allow_power_mod=true
+modifier_damage=multiply,150,0
+
+[power]
+id=608
+name=Shoot 4
+type=missile
+icon=3
+description=Missiles pass through multiple enemies
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+multitarget=true
+modifier_damage=multiply,150,0
+
+
+[power]
+id=609
+name=Shoot 5
+type=missile
+icon=3
+description=Missiles pierce enemy armour and deal 180% damage
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+multitarget=true
+trait_armor_penetration=true
+modifier_damage=multiply,180,0
+
+
+##################################################################################
+
+#Multi Shot
+
+##################################################################################
+
+[power]
+id=610
+name=Multishot
+type=missile
+icon=8
+description=Shoot three projectiles simultaneously
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+multitarget=true
+trait_armor_penetration=true
+modifier_damage=multiply,180,0
+count=3
+missile_angle=15
+
+[power]
+id=611
+name=Multishot 2
+type=missile
+icon=8
+description=Shoot five projectiles simultaneously
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+multitarget=true
+trait_armor_penetration=true
+modifier_damage=multiply,180,0
+count=5
+missile_angle=14
+
+[power]
+id=612
+name=Multishot 3
+type=missile
+icon=8
+description=Shoot seven projectiles simultaneously
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+multitarget=true
+trait_armor_penetration=true
+modifier_damage=multiply,180,0
+count=7
+missile_angle=13
+
+[power]
+id=613
+name=Multishot 4
+type=missile
+icon=8
+description=Shoot nine projectiles simultaneously
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+multitarget=true
+trait_armor_penetration=true
+modifier_damage=multiply,180,0
+count=9
+missile_angle=11
+
+[power]
+id=614
+name=Multishot 5
+type=missile
+icon=8
+description=Shoot eleven projectiles simultaneously
+new_state=shoot
+face=true
+requires_offense_weapon=true
+base_damage=ranged
+aim_assist=true
+allow_power_mod=true
+multitarget=true
+trait_armor_penetration=true
+modifier_damage=multiply,180,0
+count=11
+missile_angle=8
+
+##################################################################################
+
+#Quake
+
+##################################################################################
+
+[power]
+id=615
+name=Quake
+type=fixed
+icon=10
+description=Earth attack damaging surrounding enemies
+new_state=cast
+requires_mp=2
+animation=quake.txt
+soundfx=quake.ogg
+use_hazard=true
+base_damage=ment
+lifespan=12
+radius=128
+floor=true
+trait_elemental=earth
+starting_pos=source
+multitarget=true
+cooldown=90
+target_categories=ground
+
+[power]
+id=616
+name=Quake 2
+type=fixed
+icon=10
+description=More powerful earth atack
+new_state=cast
+requires_mp=3
+animation=quake.txt
+soundfx=quake.ogg
+use_hazard=true
+base_damage=ment
+lifespan=12
+radius=160
+floor=true
+trait_elemental=earth
+starting_pos=source
+multitarget=true
+cooldown=90
+target_categories=ground
+modifier_damage=multiply,150,0
+
+[power]
+id=617
+name=Quake 3
+type=fixed
+icon=10
+description=Adds stun chance to attack
+new_state=cast
+requires_mp=4
+animation=quake.txt
+soundfx=quake.ogg
+use_hazard=true
+base_damage=ment
+lifespan=12
+radius=160
+floor=true
+trait_elemental=earth
+starting_pos=source
+multitarget=true
+cooldown=60
+target_categories=ground
+modifier_damage=multiply,170,0
+post_power=618
+
+[power]
+id=618
+name=Quake Stun Effect
+type=fixed
+icon=1
+description=Applied the stun effect for 617 with accuracy mod
+use_hazard=true
+lifespan=1
+radius=160
+starting_pos=source
+multitarget=true
+post_effect=203,0,30
+modifier_accuracy=absolute,10,1
+target_categories=ground
+
+[power]
+id=619
+name=Quake 4
+type=fixed
+icon=10
+description=More Powerful Attack
+new_state=cast
+requires_mp=5
+animation=quake.txt
+soundfx=quake.ogg
+use_hazard=true
+base_damage=ment
+lifespan=12
+radius=192
+floor=true
+trait_elemental=earth
+starting_pos=source
+multitarget=true
+cooldown=60
+target_categories=ground
+modifier_damage=multiply,200,0
+post_power=620
+
+[power]
+id=620
+name=Quake Stun Effect
+type=fixed
+icon=1
+description=Applied the stun effect for 619 with accuracy mod
+use_hazard=true
+lifespan=1
+radius=192
+starting_pos=source
+multitarget=true
+post_effect=203,0,60
+modifier_accuracy=absolute,20,1
+target_categories=ground
+
+[power]
+id=621
+name=Quake 5
+type=fixed
+icon=10
+description=More Powerful Attack
+new_state=cast
+requires_mp=6
+animation=quake.txt
+soundfx=quake.ogg
+use_hazard=true
+base_damage=ment
+lifespan=12
+radius=224
+floor=true
+trait_elemental=earth
+starting_pos=source
+multitarget=true
+cooldown=30
+target_categories=ground
+modifier_damage=multiply,300,0
+post_power=622
+
+[power]
+id=622
+name=Quake stun Effect
+type=fixed
+icon=1
+description=Applied the stun effect for 621 with accuracy mod
+use_hazard=true
+lifespan=1
+radius=224
+starting_pos=source
+multitarget=true
+post_effect=203,0,90
+modifier_accuracy=absolute,25,1
+target_categories=ground
+post_power=623
+
+[power]
+id=623
+name=Quake knockback Effect
+type=fixed
+icon=1
+description=Applied the knockback effect for 621 with accuracy mod
+use_hazard=true
+lifespan=1
+radius=224
+starting_pos=source
+multitarget=true
+post_effect=500,1,30
+modifier_accuracy=absolute,25,1
+target_categories=ground
+
+##################################################################################
+
+#Ice Bolt
+
+##################################################################################
+
+[power]
+id=624
+name=Ice Bolt
+description=Blast enemies with ice
+type=missile
+icon=14
+new_state=cast
+face=true
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=30
+radius=64
+speed=15
+trait_elemental=ice
+post_power=625
+wall_power=625
+post_effect=202,20,60
+requires_mp=4
+
+[power]
+id=625
+name=Blue Spark
+type=fixed
+icon=0
+animation=spark_blue.txt
+use_hazard=true
+no_attack=true
+lifespan=12
+starting_pos=target
+visual_random=2
+
+[power]
+id=626
+name=Ice Bolt 2
+description=More powerful attack
+type=missile
+icon=14
+new_state=cast
+face=true
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=60
+radius=128
+speed=20
+trait_elemental=ice
+post_power=625
+wall_power=625
+post_effect=202,30,60
+modifier_damage=multiply,150,0
+requires_mp=5
+
+[power]
+id=627
+name=Ice Bolt 3
+description=Fires 3 bolts
+type=missile
+icon=14
+new_state=cast
+face=true
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=60
+radius=128
+speed=20
+trait_elemental=ice
+post_power=625
+wall_power=625
+post_effect=202,40,60
+modifier_damage=multiply,200,0
+count=3
+missile_angle=15
+requires_mp=6
+
+[power]
+id=628
+name=Ice Bolt 4
+description=Adds a chance of freezing target
+type=missile
+icon=14
+new_state=cast
+face=true
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=90
+radius=160
+speed=25
+trait_elemental=ice
+post_power=625
+wall_power=625
+post_effect=202,50,60
+modifier_damage=multiply,250,0
+count=3
+missile_angle=15
+post_power=629
+requires_mp=7
+
+[power]
+id=629
+name=Ice bolt freeze effect
+type=fixed
+icon=1
+description=Applied the freeze effect for 628 with accuracy mod
+use_hazard=true
+lifespan=1
+radius=160
+post_effect=203,0,30
+modifier_accuracy=absolute,25,1
+
+[power]
+id=630
+name=Ice Bolt 5
+description=Fires 5 bolts
+type=missile
+icon=14
+new_state=cast
+face=true
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=90
+radius=160
+speed=25
+trait_elemental=ice
+post_power=625
+wall_power=625
+post_effect=202,60,90
+modifier_damage=multiply,300,0
+count=5
+missile_angle=14
+post_power=631
+requires_mp=8
+
+[power]
+id=631
+name=Ice bolt freeze effect
+type=fixed
+icon=1
+description=Applied the freeze effect for 628 with accuracy mod
+use_hazard=true
+lifespan=1
+radius=160
+post_effect=203,0,60
+modifier_accuracy=absolute,35,1
+
+##################################################################################
+
+#Apocalypse
+
+##################################################################################
+
+[power]
+id=632
+name=Apocalypse
+type=fixed
+icon=10
+description=Call the elements to destroy your enemies
+new_state=cast
+requires_mp=50
+animation=quake.txt
+soundfx=quake.ogg
+use_hazard=true
+base_damage=ment
+lifespan=12
+radius=128
+floor=true
+trait_elemental=earth
+multitarget=true
+cooldown=90
+target_categories=ground
+modifier_damage=multiply,150,0
+count=8
+target_neighbor=6
+post_power=633
+starting_pos=target
+
+[power]
+id=633
+name=Burn
+type=fixed
+icon=18
+description=Blast enemies in a distant area with fire
+new_state=cast
+animation=blast.txt
+soundfx=burn.ogg
+use_hazard=true
+base_damage=ment
+lifespan=18
+radius=128
+floor=true
+trait_elemental=fire
+multitarget=true
+post_power=634
+count=2
+target_neighbor=6
+starting_pos=target
+
+[power]
+id=634
+name=Ice Bolt 3
+description=Fires 3 bolts
+type=missile
+icon=14
+new_state=cast
+animation=icicle.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=60
+radius=128
+speed=20
+trait_elemental=ice
+post_power=635
+wall_power=635
+post_effect=202,40,60
+modifier_damage=multiply,200,0
+count=4
+missile_angle=90
+starting_pos=target
+
+[power]
+id=635
+name=Shock
+type=missile
+icon=7
+description=Electrocute an enemy from a distance; +25% crit chance against movement-impaired enemies.
+new_state=cast
+face=true
+directional=true
+animation=lightning.txt
+soundfx=shock.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=24
+radius=64
+speed=32
+trait_elemental=lightning
+trait_crits_impaired=25
+post_power=126
+wall_power=126
+count=8
+missile_angle=45
+starting_pos=target
+
+
+##################################################################################
+
+##################################################################################
+
+#Spawn - 650-700
+
+##################################################################################
+
+##################################################################################
+
+#Convert
+
+##################################################################################
+
+[power]
+id=650
+name=Conversion
+type=fixed
+icon=6
+description=Convert undead enemies to fight for you
+new_state=cast
+face=true
+requires_mp=10
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=128
+floor=true
+starting_pos=target
+range=512
+target_categories=undead
+cooldown=900
+modifier_accuracy=absolute,35,1
+post_effect=501,0,1800
+
+[power]
+id=651
+name=Conversion 2
+type=fixed
+icon=6
+description=Increased duration, Higher success rate and convert multiple enemies
+new_state=cast
+face=true
+requires_mp=15
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=128
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+target_categories=undead
+cooldown=750
+modifier_accuracy=absolute,40,1
+post_effect=501,0,2700
+
+[power]
+id=652
+name=Conversion 3
+type=fixed
+icon=6
+description=Gain ability to convert animals
+new_state=cast
+face=true
+requires_mp=20
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=128
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+target_categories=undead,animal
+cooldown=750
+modifier_accuracy=absolute,40,1
+post_effect=501,0,2700
+
+[power]
+id=653
+name=Conversion 4
+type=fixed
+icon=6
+description=Better range and sucess rate
+new_state=cast
+face=true
+requires_mp=25
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=192
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+target_categories=undead,animal
+cooldown=750
+modifier_accuracy=absolute,45,1
+post_effect=501,0,2700
+
+[power]
+id=654
+name=Conversion 5
+type=fixed
+icon=6
+description=Convert humanoids, better success rate, larger range and greater duration
+new_state=cast
+face=true
+requires_mp=30
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=256
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+target_categories=undead,animal,humanoid
+cooldown=600
+modifier_accuracy=absolute,50,1
+post_effect=501,0,5400
+
+##################################################################################
+
+#Spawn Goblin
+
+##################################################################################
+
+[power]
+id=655
+name=Summon Goblin Ally
+type=spawn
+icon=9
+description=Call a goblin ally to fight by your side
+spawn_type=ng_ally_goblin1
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,defense
+cooldown=150
+requires_mp=4
+
+[power]
+id=656
+name=Summon Goblin Ally 2
+type=spawn
+icon=9
+description=More powerful ally which gets stronger along with your defense stat
+spawn_type=ng_ally_goblin2
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,defense
+cooldown=150
+requires_mp=8
+
+[power]
+id=657
+name=Summon Goblin Ally 3
+type=spawn
+icon=9
+description=More powerful ally
+spawn_type=ng_ally_goblin3
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,2
+spawn_level=stat,2,1,defense
+cooldown=150
+requires_mp=12
+
+[power]
+id=658
+name=Summon Goblin Ally 4
+type=spawn
+icon=9
+description=More powerful ally
+spawn_type=ng_ally_goblin4
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,2
+spawn_level=stat,2,1,defense
+cooldown=150
+requires_mp=16
+
+[power]
+id=659
+name=Summon Goblin Ally 5
+type=spawn
+icon=9
+description=More powerful ally
+spawn_type=ng_ally_goblin5
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=stat,1,4,defense
+spawn_level=stat,2,1,defense
+cooldown=150
+requires_mp=20
+
+##################################################################################
+
+#Spawn Ghost
+
+##################################################################################
+
+[power]
+id=660
+name=Summon Ghost Ally
+type=spawn
+icon=12
+description=Call a Ghost ally to fight by your side
+spawn_type=ng_ally_ghost1
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,mental
+cooldown=180
+requires_mp=5
+
+[power]
+id=661
+name=Summon Ghost Ally 2
+type=spawn
+icon=12
+description=More powerful ally which gets stronger along with your mental stat
+spawn_type=ng_ally_ghost2
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,mental
+cooldown=180
+requires_mp=10
+
+[power]
+id=662
+name=Summon Ghost Ally 3
+type=spawn
+icon=12
+description=More powerful ally
+spawn_type=ng_ally_ghost3
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,mental
+cooldown=180
+requires_mp=15
+
+[power]
+id=663
+name=Summon Ghost Ally 4
+type=spawn
+icon=12
+description=More powerful ally
+spawn_type=ng_ally_ghost4
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,mental
+cooldown=180
+requires_mp=20
+
+[power]
+id=664
+name=Summon Ghost Ally 5
+type=spawn
+icon=12
+description=More powerful ally
+spawn_type=ng_ally_ghost5
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,mental
+cooldown=180
+requires_mp=25
+
+##################################################################################
+
+#Spawn Wyvern
+
+##################################################################################
+
+[power]
+id=665
+name=Summon Wyvern Ally
+type=spawn
+icon=23
+description=Call a Wyvern ally to fight by your side
+spawn_type=ng_ally_wyvern1
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,offense
+cooldown=210
+requires_mp=6
+
+[power]
+id=666
+name=Summon Wyvern Ally 2
+type=spawn
+icon=23
+description=More powerful ally which gets stronger along with your offense stat
+spawn_type=ng_ally_wyvern2
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,offense
+cooldown=210
+requires_mp=12
+
+[power]
+id=667
+name=Summon Wyvern Ally 3
+type=spawn
+icon=23
+description=More powerful ally
+spawn_type=ng_ally_wyvern3
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,offense
+cooldown=210
+requires_mp=18
+
+[power]
+id=668
+name=Summon Wyvern Ally 4
+type=spawn
+icon=23
+description=More powerful ally
+spawn_type=ng_ally_wyvern4
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,offense
+cooldown=210
+requires_mp=24
+
+[power]
+id=669
+name=Summon Wyvern Ally 5
+type=spawn
+icon=23
+description=Call a second Wyvern
+spawn_type=ng_ally_wyvern5
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=stat,1,6,offense
+spawn_level=stat,2,1,offense
+cooldown=210
+requires_mp=30
+
+
+##################################################################################
+
+#Spawn Minotaur
+
+##################################################################################
+
+[power]
+id=670
+name=Summon Minotaur Ally
+type=spawn
+icon=19
+description=Call a Minotaur ally to fight by your side
+spawn_type=ng_ally_minotaur1
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,physical
+cooldown=240
+requires_mp=8
+
+[power]
+id=671
+name=Summon Minotaur Ally 2
+type=spawn
+icon=19
+description=More powerful ally which gets stronger along with your physical stat
+spawn_type=ng_ally_minotaur2
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,physical
+cooldown=240
+requires_mp=16
+
+[power]
+id=672
+name=Summon Minotaur Ally 3
+type=spawn
+icon=19
+description=More powerful ally
+spawn_type=ng_ally_minotaur3
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,physical
+cooldown=240
+requires_mp=24
+
+[power]
+id=673
+name=Summon Minotaur Ally 4
+type=spawn
+icon=19
+description=More powerful ally
+spawn_type=ng_ally_minotaur4
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+spawn_level=stat,2,1,physical
+cooldown=240
+requires_mp=32
+
+[power]
+id=674
+name=Summon Minotaur Ally 5
+type=spawn
+icon=19
+description=More powerful ally
+spawn_type=ng_ally_minotaur5
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=stat,1,10,physical
+spawn_level=stat,2,1,physical
+cooldown=240
+requires_mp=40
+
+##################################################################################
+
+#Permanent convert
+
+##################################################################################
+
+[power]
+id=675
+name=Recruit
+type=fixed
+icon=6
+description=Convert an enemy that remains loyal until death - limit of 2
+new_state=cast
+face=true
+requires_mp=50
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=128
+floor=true
+starting_pos=target
+range=512
+cooldown=3600
+modifier_accuracy=absolute,100
+post_effect=501,0,0
+
+
+##################################################################################
+
+##################################################################################
+
+#Tactical - 700-750
+
+##################################################################################
+
+##################################################################################
+
+#Debuff defense
+
+##################################################################################
+
+[power]
+id=700
+name=Curse
+type=fixed
+icon=6
+description=Enemies take more damage from attacks
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=64
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+post_effect=503,-10,300
+post_effect=504,-10,300
+modifier_damage=multiply,0,0
+
+[power]
+id=701
+name=Curse 2
+type=fixed
+icon=6
+description=Increased radius, duration and potency
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=128
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+post_effect=503,-20,450
+post_effect=504,-20,450
+modifier_damage=multiply,0,0
+
+[power]
+id=702
+name=Curse 3
+type=fixed
+icon=6
+description=Additional reduction of enemy avoidance
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=256
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+post_effect=503,-30,600
+post_effect=504,-30,600
+post_effect=505,-30,600
+modifier_damage=multiply,0,0
+
+[power]
+id=703
+name=Curse 4
+type=fixed
+icon=6
+description=Increased range and lowers poise
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=256
+floor=true
+starting_pos=target
+multitarget=true
+range=1024
+post_effect=503,-40,600
+post_effect=504,-40,600
+post_effect=505,-40,600
+post_effect=506,-40,600
+modifier_damage=multiply,0,0
+
+[power]
+id=704
+name=Curse 5
+type=fixed
+icon=6
+description=Massively increased radius, lower elemental resistance and increased potency
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=512
+floor=true
+starting_pos=target
+multitarget=true
+range=1024
+post_effect=503,-50,900
+post_effect=504,-50,900
+post_effect=505,-50,900
+post_effect=506,-50,900
+post_effect=507,-50,900
+post_effect=508,-50,900
+post_effect=509,-50,900
+post_effect=510,-50,900
+modifier_damage=multiply,0,0
+
+##################################################################################
+
+#Debuff offense
+
+##################################################################################
+
+[power]
+id=705
+name=Weaken
+type=fixed
+icon=6
+description=Enemies deal less damage
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=64
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+post_effect=511,-10,300
+post_effect=512,-10,300
+post_effect=513,-10,300
+post_effect=514,-10,300
+post_effect=515,-10,300
+post_effect=516,-10,300
+modifier_damage=multiply,0,0
+
+[power]
+id=706
+name=Weaken 2
+type=fixed
+icon=6
+description=More potent
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=128
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+post_effect=511,-20,450
+post_effect=512,-20,450
+post_effect=513,-20,450
+post_effect=514,-20,450
+post_effect=515,-20,450
+post_effect=516,-20,450
+modifier_damage=multiply,0,0
+
+[power]
+id=707
+name=Weaken 3
+type=fixed
+icon=6
+description=Additional lower critical hit rate
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=256
+floor=true
+starting_pos=target
+multitarget=true
+range=512
+post_effect=511,-30,600
+post_effect=512,-30,600
+post_effect=513,-30,600
+post_effect=514,-30,600
+post_effect=515,-30,600
+post_effect=516,-30,600
+post_effect=517,-30,600
+modifier_damage=multiply,0,0
+
+[power]
+id=708
+name=Weaken 4
+type=fixed
+icon=6
+description=More potent
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=256
+floor=true
+starting_pos=target
+multitarget=true
+range=1024
+post_effect=511,-40,600
+post_effect=512,-40,600
+post_effect=513,-40,600
+post_effect=514,-40,600
+post_effect=515,-40,600
+post_effect=516,-40,600
+post_effect=517,-40,600
+modifier_damage=multiply,0,0
+
+[power]
+id=709
+name=Weaken 5
+type=fixed
+icon=6
+description=Additionally reduces accuracy
+new_state=cast
+face=true
+requires_mp=2
+requires_los=true
+requires_targeting=true
+animation=runes.txt
+soundfx=teleport.ogg
+use_hazard=true
+lifespan=18
+radius=512
+floor=true
+starting_pos=target
+multitarget=true
+range=1024
+post_effect=511,-50,900
+post_effect=512,-50,900
+post_effect=513,-50,900
+post_effect=514,-50,900
+post_effect=515,-50,900
+post_effect=516,-50,900
+post_effect=517,-50,900
+post_effect=518,-40,900
+modifier_damage=multiply,0,0
+
+##################################################################################
+
+#Warcry
+
+##################################################################################
+
+[power]
+id=710
+name=Warcry
+type=fixed
+icon=12
+description=Let out a warcry causing surrounding enemies to flee
+new_state=cast
+requires_mp=2
+soundfx=warcry.ogg
+use_hazard=true
+lifespan=12
+radius=128
+starting_pos=source
+multitarget=true
+post_effect=519,0,60
+
+[power]
+id=711
+name=Warcry 2
+type=fixed
+icon=12
+description=Increased radius and duration
+new_state=cast
+requires_mp=2
+soundfx=warcry.ogg
+use_hazard=true
+lifespan=12
+radius=192
+starting_pos=source
+multitarget=true
+post_effect=519,0,90
+
+[power]
+id=712
+name=Warcry 3
+type=fixed
+icon=12
+description=Increased radius and duration
+new_state=cast
+requires_mp=2
+soundfx=warcry.ogg
+use_hazard=true
+lifespan=12
+radius=256
+starting_pos=source
+multitarget=true
+post_effect=519,0,120
+
+[power]
+id=713
+name=Warcry 4
+type=fixed
+icon=12
+description=Enemies are stunned with fear before fleeing
+new_state=cast
+requires_mp=2
+soundfx=warcry.ogg
+use_hazard=true
+lifespan=12
+radius=256
+starting_pos=source
+multitarget=true
+post_effect=519,0,210
+post_effect=520,0,90
+
+[power]
+id=714
+name=Warcry 5
+type=fixed
+icon=12
+description=Increased radius and duration
+new_state=cast
+requires_mp=2
+soundfx=warcry.ogg
+use_hazard=true
+lifespan=12
+radius=384
+starting_pos=source
+multitarget=true
+post_effect=519,0,270
+post_effect=520,0,150
+
+##################################################################################
+
+#Traps
+
+##################################################################################
+
+[power]
+id=715
+name=Traps
+type=fixed
+icon=21
+description=Lay a bear trap which immobilizes the target and deals 1-40 damage
+new_state=swing
+requires_mp=2
+face=true
+directional=true
+starting_pos=melee
+animation=bear_trap.txt
+use_hazard=true
+lifespan=200
+cooldown=90
+radius=64
+post_effect=201,0,60
+post_power=716
+base_damage=ranged
+modifier_damage=absolute,1,40
+trait_armor_penetration=true
+
+[power]
+id=716
+# animated bear trap trigger
+type=fixed
+animation=bear_trap_trigger.txt
+use_hazard=true
+no_attack=true
+directional=true
+lifespan=90
+starting_pos=target
+
+[power]
+id=717
+name=Traps 2
+type=fixed
+icon=21
+description=Lay 2 bear traps dealing 1-60 damage
+new_state=swing
+requires_mp=4
+animation=bear_trap.txt
+use_hazard=true
+lifespan=300
+cooldown=90
+radius=64
+post_power=716
+base_damage=ranged
+modifier_damage=absolute,1,60
+trait_armor_penetration=true
+count=2
+target_neighbor=1
+post_effect=201,0,90
+
+[power]
+id=718
+name=Traps 3
+type=fixed
+icon=21
+description=Lay 4 bear traps dealing 1-80 damage
+new_state=swing
+requires_mp=6
+animation=bear_trap.txt
+use_hazard=true
+lifespan=400
+cooldown=90
+radius=64
+post_power=716
+base_damage=ranged
+modifier_damage=absolute,1,80
+trait_armor_penetration=true
+count=4
+target_neighbor=2
+post_effect=201,0,120
+
+[power]
+id=719
+name=Traps 4
+type=fixed
+icon=21
+description=Lay 6 bear traps dealing 1-100 damage
+new_state=swing
+requires_mp=8
+animation=bear_trap.txt
+use_hazard=true
+lifespan=500
+cooldown=90
+radius=64
+post_power=716
+base_damage=ranged
+modifier_damage=absolute,1,100
+trait_armor_penetration=true
+count=6
+target_neighbor=3
+post_effect=201,0,150
+
+[power]
+id=720
+name=Traps 5
+type=fixed
+icon=21
+description=Lay 10 bear traps dealing 1-150 damage
+new_state=swing
+requires_mp=10
+animation=bear_trap.txt
+use_hazard=true
+lifespan=600
+cooldown=90
+radius=64
+post_power=716
+base_damage=ranged
+modifier_damage=absolute,1,150
+trait_armor_penetration=true
+count=10
+target_neighbor=3
+post_effect=201,0,180
+
+##################################################################################
+
+#Fire Tower
+
+##################################################################################
+
+[power]
+id=721
+name=Fire Tower
+type=spawn
+icon=9
+description=Raise a single tower which shoots fireballs at your enemies
+spawn_type=ng_ally_firetower1
+new_state=cast
+starting_pos=target
+spawn_limit=fixed,1
+cooldown=150
+requires_mp=6
+post_effect=502,0,150
+
+[power]
+id=722
+name=Fire Tower 2
+type=spawn
+icon=9
+description=The tower shoots multiple fireballs
+spawn_type=ng_ally_firetower2
+new_state=cast
+starting_pos=target
+spawn_limit=fixed,1
+cooldown=150
+requires_mp=10
+post_effect=502,0,300
+
+[power]
+id=723
+name=Fire Tower 3
+type=spawn
+icon=9
+description=Allows two towers to be raised
+spawn_type=ng_ally_firetower3
+new_state=cast
+starting_pos=target
+spawn_limit=fixed,2
+cooldown=150
+requires_mp=14
+post_effect=502,0,450
+
+[power]
+id=724
+name=Fire Tower 4
+type=spawn
+icon=9
+description=Fires even more fireballs
+spawn_type=ng_ally_firetower4
+new_state=cast
+starting_pos=target
+spawn_limit=fixed,2
+cooldown=150
+requires_mp=18
+post_effect=502,0,450
+
+[power]
+id=725
+name=Fire Tower 5
+type=spawn
+icon=9
+description=Allows three towers to be raised, deals more damage and can take more damage
+spawn_type=ng_ally_firetower5
+new_state=cast
+starting_pos=target
+spawn_limit=fixed,3
+cooldown=150
+requires_mp=25
+post_effect=502,0,600
+
+
+##################################################################################
+
+#Decoy
+
+##################################################################################
+
+[power]
+id=726
+name=Decoy
+type=spawn
+icon=9
+description=Create a decoy which takes enemy attacks and tries to snare them
+spawn_type=ng_ally_decoy
+new_state=cast
+starting_pos=target
+spawn_limit=fixed,1
+cooldown=150
+requires_mp=50
+
+
+##################################################################################
+
+##################################################################################
+
+#Buff - 750-800
+
+##################################################################################
+
+##################################################################################
+
+#HP Boost
+
+##################################################################################
+
+[power]
+id=750
+name=HP Boost
+type=fixed
+description=Raises HP by 50
+icon=0
+passive=true
+post_effect=521,50,0
+buff=true
+
+[power]
+id=751
+name=HP Boost 2
+type=fixed
+description=Raises HP boost to 100
+icon=0
+passive=true
+post_effect=521,50,0
+buff=true
+
+[power]
+id=752
+name=HP Boost 3
+type=fixed
+description=Raises HP boost to 150
+icon=0
+passive=true
+post_effect=521,50,0
+buff=true
+
+[power]
+id=753
+name=HP Boost 4
+type=fixed
+description=Raises HP boost to 200
+icon=0
+passive=true
+post_effect=521,50,0
+buff=true
+
+[power]
+id=754
+name=HP Boost 5
+type=fixed
+description=Raises HP boost to 300
+icon=0
+passive=true
+post_effect=521,100,0
+buff=true
+
+##################################################################################
+
+#Damage Boost
+
+##################################################################################
+
+[power]
+id=755
+name=Melee Boost
+type=fixed
+description=Raises Melee damage by 5
+icon=0
+passive=true
+post_effect=522,5,0
+post_effect=523,5,0
+buff=true
+
+[power]
+id=756
+name=Melee Boost 2
+type=fixed
+description=Raises Melee damage boost to 10
+icon=0
+passive=true
+post_effect=522,5,0
+post_effect=523,5,0
+buff=true
+
+[power]
+id=757
+name=Melee Boost 3
+type=fixed
+description=Raises Melee damage boost to 20
+icon=0
+passive=true
+post_effect=522,10,0
+post_effect=523,10,0
+buff=true
+
+[power]
+id=758
+name=Melee Boost 4
+type=fixed
+description=Raises Melee damage boost to 30
+icon=0
+passive=true
+post_effect=522,10,0
+post_effect=523,10,0
+buff=true
+
+[power]
+id=759
+name=Melee Boost 5
+type=fixed
+description=Raises Melee damage boost to 50
+icon=0
+passive=true
+post_effect=522,20,0
+post_effect=523,20,0
+buff=true
+
+##################################################################################
+
+#Party Buff
+
+##################################################################################
+
+[power]
+id=760
+name=Protection
+type=fixed
+description=Raises all allies hp by 50
+icon=0
+post_effect=524,50,300
+buff_party=true
+requires_mp=5
+new_state=cast
+
+[power]
+id=761
+name=Protection 2
+type=fixed
+description=Additional bonus to damage absorb
+icon=0
+post_effect=524,50,600
+post_effect=525,10,600
+post_effect=526,10,600
+buff_party=true
+requires_mp=5
+new_state=cast
+
+[power]
+id=762
+name=Protection 3
+type=fixed
+description=Additional bonus to avoidance
+icon=0
+post_effect=524,50,900
+post_effect=525,10,900
+post_effect=526,10,900
+post_effect=527,15,900
+buff_party=true
+requires_mp=10
+new_state=cast
+
+[power]
+id=763
+name=Protection 4
+type=fixed
+description=Additional bonus to Elemental resistances
+icon=0
+post_effect=524,50,1200
+post_effect=525,10,1200
+post_effect=526,10,1200
+post_effect=527,15,1200
+post_effect=528,10,1200
+post_effect=529,10,1200
+post_effect=530,10,1200
+post_effect=531,10,1200
+buff_party=true
+requires_mp=15
+new_state=cast
+
+[power]
+id=764
+name=Protection 5
+type=fixed
+description=More effective and longer duration
+icon=0
+post_effect=524,100,1800
+post_effect=525,20,1800
+post_effect=526,20,1800
+post_effect=527,30,1800
+post_effect=528,20,1800
+post_effect=529,20,1800
+post_effect=530,20,1800
+post_effect=531,20,1800
+buff_party=true
+requires_mp=20
+new_state=cast
+
+##################################################################################
+
+#Werebear
+
+##################################################################################
+
+[power]
+id=765
+name=Revert Form
+type=transform
+icon=0
+new_state=instant
+spawn_type=untransform
+description=Transform back to human
+
+[power]
+id=766
+name=Werebear
+description=Transform into Werebear
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werebear1
+requires_mp=20
+soundfx=quake.ogg
+transform_duration=1800
+manual_untransform=true
+keep_equipment=true
+
+[power]
+id=767
+name=Werebear 2
+description=Transform into Werebear
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werebear2
+requires_mp=30
+soundfx=quake.ogg
+transform_duration=2700
+manual_untransform=true
+keep_equipment=true
+
+[power]
+id=768
+name=Werebear 3
+description=Transform into Werebear
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werebear3
+requires_mp=40
+soundfx=quake.ogg
+transform_duration=3600
+manual_untransform=true
+keep_equipment=true
+
+[power]
+id=769
+name=Werebear 4
+description=Transform into Werebear
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werebear4
+requires_mp=50
+soundfx=quake.ogg
+transform_duration=4500
+manual_untransform=true
+keep_equipment=true
+
+[power]
+id=770
+name=Werebear 5
+description=Transform into Werebear
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werebear5
+requires_mp=60
+soundfx=quake.ogg
+transform_duration=0
+manual_untransform=true
+keep_equipment=true
+
+##################################################################################
+
+#Transform Wyvern
+
+##################################################################################
+
+[power]
+id=771
+name=Werewyvern
+description=Transform into Werewyvern
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werewyvern1
+requires_mp=60
+soundfx=quake.ogg
+transform_duration=0
+manual_untransform=true
+keep_equipment=true
+
+[power]
+id=772
+name=Werewyvern 2
+description=Transform into Werewyvern
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werewyvern2
+requires_mp=70
+soundfx=quake.ogg
+transform_duration=0
+manual_untransform=true
+keep_equipment=true
+
+[power]
+id=773
+name=Werewyvern 3
+description=Transform into Werewyvern
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werewyvern3
+requires_mp=80
+soundfx=quake.ogg
+transform_duration=0
+manual_untransform=true
+keep_equipment=true
+
+[power]
+id=774
+name=Werewyvern 4
+description=Transform into Werewyvern
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werewyvern4
+requires_mp=90
+soundfx=quake.ogg
+transform_duration=0
+manual_untransform=true
+keep_equipment=true
+
+[power]
+id=775
+name=Werewyvern 5
+description=Transform into Werewyvern
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_werewyvern5
+requires_mp=100
+soundfx=quake.ogg
+transform_duration=0
+manual_untransform=true
+keep_equipment=true
+
+##################################################################################
+
+#Transform Ghost
+
+##################################################################################
+
+[power]
+id=776
+name=Channel Spirit
+description=Take the form of a ghost
+type=transform
+icon=0
+new_state=cast
+spawn_type=ng_transform_ghost
+requires_mp=100
+soundfx=quake.ogg
+transform_duration=0
+manual_untransform=true
+keep_equipment=true
+
+
+##################################################################################
+
+##################################################################################
+
+#Ally Powers - 800-900
+
+##################################################################################
+
+##################################################################################
+
+#Goblin - 800-820
+
+##################################################################################
+
+##################################################################################
+
+#Melee Attack
+
+##################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################################################################################
+
+##################################################################################
+
+#Items - 900-1000
+
+##################################################################################
+
+##################################################################################
+
+#Quest - 900-915
+
+##################################################################################
+
+##################################################################################
+
+#
+
+##################################################################################
+
+
+[power]
+id=900
+name=Bear Trap
+type=fixed
+icon=21
+description=Lay a bear trap which immobilizes the target
+new_state=swing
+face=true
+directional=true
+starting_pos=melee
+animation=bear_trap.txt
+use_hazard=true
+lifespan=300
+radius=128
+post_effect=201,0,150
+post_power=716
+base_damage=ranged
+modifier_damage=absolute,1,1
+trait_armor_penetration=true
+requires_item=200
+modifier_accuracy=absolute,100
+trait_ignore_avoidance=true
+
+[power]
+id=901
+name=Apple
+type=fixed
+icon=0
+description=Tastes good
+new_state=swing
+face=true
+aim_assist=true
+use_hazard=true
+lifespan=1
+radius=128
+target_categories=equine
+post_effect=501,0,0
+starting_pos=melee
+requires_item=201
+modifier_damage=absolute,1,1
+trait_armor_penetration=true
+modifier_accuracy=absolute,100
+trait_ignore_avoidance=true
+
+
+
+##################################################################################
+
+##################################################################################
+
+#Boss Powers - 1000-1100
+
+##################################################################################
+
+##################################################################################
+
+#
+
+##################################################################################
+
+##################################################################################
+
+#
+
+##################################################################################
+
+
+
+
+
+
+
+
+##################################################################################
+
+##################################################################################
+
+#Enemy Powers - 1100+
+
+##################################################################################
+
+##################################################################################
+
+
+
+[power]
+id=1100
+name=Swing
+type=fixed
+icon=1
+description=Basic melee attack
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+
+[power]
+id=1101
+#name=Enemy Beacon [enemy]
+#description=Bring other enemies into the fight with a dummy attack
+type=fixed
+icon=0
+use_hazard=true
+lifespan=1
+radius=256
+multitarget=true
+source_type=hero
+beacon=true
+
+[power]
+id=1102
+#name=Spear [enemy]
+#description=spear toss
+type=missile
+icon=0
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=spear.txt
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=27
+radius=64
+speed=24
+angle_variance=15
+
+[power]
+id=1103
+name=Channel
+type=missile
+icon=2
+description=Basic magic attack
+new_state=swing
+face=true
+directional=true
+animation=channel.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=30
+radius=64
+speed=24
+starting_pos=melee
+
+
+
+
+
+
+
+
