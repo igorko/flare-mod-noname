@@ -1,7 +1,7 @@
 name=Ghost
 level=10
 categories=ghost,spirit,undead,ground,desert,asylum
-xp=50
+xp=120
 intangible=true
 
 sfx_prefix=antlion
@@ -9,8 +9,8 @@ animations=pirate_ghost_crewman
 
 # combat stats
 hp=100
-speed=10
-dspeed=7
+speed=7
+dspeed=5
 melee_range=76
 threat_range=512
 turn_delay=6
@@ -21,9 +21,9 @@ power_beacon=1101
 
 accuracy=75
 avoidance=25
-absorb_min=1
-absorb_max=10
+absorb_min=6
+absorb_max=12
 
-dmg_melee_min=10
+dmg_melee_min=20
 dmg_melee_max=35
 cooldown=10

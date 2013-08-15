@@ -1,7 +1,7 @@
 name=Ghost Captain
 level=14
 categories=ghost_captain,spirit,undead,ground,asylum
-xp=50
+xp=180
 intangible=true
 rarity=rare
 
@@ -9,9 +9,9 @@ sfx_prefix=antlion
 animations=pirate_ghost_captain
 
 # combat stats
-hp=100
-speed=10
-dspeed=7
+hp=160
+speed=8
+dspeed=5
 melee_range=76
 threat_range=512
 turn_delay=6
@@ -22,9 +22,9 @@ power_beacon=1101
 
 accuracy=75
 avoidance=25
-absorb_min=1
-absorb_max=10
+absorb_min=10
+absorb_max=15
 
-dmg_melee_min=10
-dmg_melee_max=35
+dmg_melee_min=20
+dmg_melee_max=40
 cooldown=10

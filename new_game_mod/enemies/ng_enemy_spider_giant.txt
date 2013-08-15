@@ -1,7 +1,7 @@
 name=Giant Spider
 level=10
 categories=giant_spider,arachnid,animal,ground
-xp=10
+xp=50
 rarity=uncommon
 
 sfx_prefix=antlion
@@ -10,8 +10,8 @@ animations=spider_giant
 
 # combat stats
 hp=70
-speed=11
-dspeed=8
+speed=10
+dspeed=7
 melee_range=76
 threat_range=512
 turn_delay=5
@@ -23,10 +23,10 @@ power_beacon=132
 accuracy=72
 avoidance=22
 absorb_min=1
-absorb_max=12
+absorb_max=4
 
 dmg_melee_min=10
-dmg_melee_max=35
+dmg_melee_max=15
 cooldown=10
 
 

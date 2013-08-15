@@ -15,6 +15,7 @@ lifespan=1
 radius=64
 starting_pos=melee
 allow_power_mod=true
+post_power=1104
 
 [power]
 id=2
@@ -4055,6 +4056,7 @@ lifespan=1
 radius=64
 starting_pos=melee
 allow_power_mod=true
+post_power=1104
 
 [power]
 id=1101
@@ -4106,10 +4108,20 @@ radius=64
 speed=24
 starting_pos=melee
 
-
-
-
-
-
+[power]
+id=1104
+name=Swing flee effect
+type=fixed
+description=Chance of flee effect
+face=true
+use_hazard=true
+aim_assist=true
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_accuracy=absolute,4
+trait_ignore_avoidance=true
+post_effect=519,0,150
 
 

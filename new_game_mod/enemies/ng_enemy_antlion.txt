@@ -1,13 +1,13 @@
 name=Antlion
 level=18
 categories=antlion,animal,ground,wyvern_cave,woods2,marshlands
-xp=50
+xp=200
 
 sfx_prefix=antlion
 animations=antlion
 
 # combat stats
-hp=100
+hp=200
 speed=10
 dspeed=7
 melee_range=76
@@ -20,9 +20,9 @@ power_beacon=1101
 
 accuracy=75
 avoidance=25
-absorb_min=1
-absorb_max=10
+absorb_min=10
+absorb_max=20
 
-dmg_melee_min=10
+dmg_melee_min=20
 dmg_melee_max=35
 cooldown=10

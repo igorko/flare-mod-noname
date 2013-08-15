@@ -1,15 +1,15 @@
 name=Skeleton
 level=10
 categories=skeleton,skeletal,undead,ground,desert
-xp=50
+xp=120
 
 sfx_prefix=antlion
 animations=skeleton_weak
 
 # combat stats
 hp=100
-speed=10
-dspeed=7
+speed=9
+dspeed=6
 melee_range=76
 threat_range=512
 turn_delay=6

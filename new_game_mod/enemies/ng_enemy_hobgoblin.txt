@@ -8,8 +8,8 @@ animations=hobgoblin
 
 # combat stats
 hp=100
-speed=10
-dspeed=7
+speed=8
+dspeed=5
 melee_range=76
 threat_range=512
 turn_delay=6
@@ -21,8 +21,8 @@ power_beacon=1101
 accuracy=75
 avoidance=25
 absorb_min=1
-absorb_max=10
+absorb_max=5
 
 dmg_melee_min=10
-dmg_melee_max=35
+dmg_melee_max=20
 cooldown=10

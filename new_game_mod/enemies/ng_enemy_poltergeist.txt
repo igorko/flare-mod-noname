@@ -1,7 +1,7 @@
 name=Poltergeist
 level=15
 categories=poltergeist,spirit,undead,ground,asylum
-xp=50
+xp=150
 rarity=uncommon
 
 sfx_prefix=antlion
@@ -20,10 +20,10 @@ power_melee_phys=1100
 power_beacon=1101
 
 accuracy=75
-avoidance=25
+avoidance=45
 absorb_min=1
-absorb_max=10
+absorb_max=8
 
-dmg_melee_min=10
+dmg_melee_min=15
 dmg_melee_max=35
 cooldown=10

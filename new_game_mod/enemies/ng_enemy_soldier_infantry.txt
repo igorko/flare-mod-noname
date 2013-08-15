@@ -1,13 +1,13 @@
 name=Infantry
 level=25
 categories=ground,battlefield
-xp=50
+xp=900
 
 sfx_prefix=antlion
 animations=orc_heavy
 
 # combat stats
-hp=100
+hp=700
 speed=10
 dspeed=7
 melee_range=76
@@ -20,9 +20,9 @@ power_beacon=1101
 
 accuracy=75
 avoidance=25
-absorb_min=1
-absorb_max=10
+absorb_min=10
+absorb_max=30
 
-dmg_melee_min=10
-dmg_melee_max=35
+dmg_melee_min=50
+dmg_melee_max=80
 cooldown=10

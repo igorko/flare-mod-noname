@@ -8,7 +8,7 @@ sfx_prefix=antlion
 animations=hobgoblin
 
 # combat stats
-hp=100
+hp=80
 speed=10
 dspeed=7
 melee_range=76
@@ -24,10 +24,12 @@ power_ranged_phys=1102
 accuracy=75
 avoidance=25
 absorb_min=1
-absorb_max=10
+absorb_max=3
 
-dmg_melee_min=10
-dmg_melee_max=35
+dmg_ranged_min=6
+dmg_ranged_max=12
+dmg_melee_min=8
+dmg_melee_max=16
 cooldown=20
 
 chance_flee=5

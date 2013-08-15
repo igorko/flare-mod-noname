@@ -1,13 +1,13 @@
 name=Skeleton Archer
 level=25
 categories=ground,battlefield
-xp=50
+xp=650
 
 sfx_prefix=antlion
 animations=skeleton_archer
 
 # combat stats
-hp=100
+hp=450
 speed=10
 dspeed=7
 melee_range=76
@@ -15,7 +15,9 @@ threat_range=512
 turn_delay=6
 chance_pursue=20
 chance_melee_phys=15
+chance_ranged_phys=30
 power_melee_phys=1100
+power_ranged_phys=1102
 power_beacon=1101
 
 accuracy=75
@@ -23,6 +25,10 @@ avoidance=25
 absorb_min=1
 absorb_max=10
 
+dmg_ranged_min=30
+dmg_ranged_max=60
 dmg_melee_min=10
 dmg_melee_max=35
 cooldown=10
+
+chance_flee=35

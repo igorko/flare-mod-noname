@@ -674,13 +674,13 @@
     <property name="number" value="5,6"/>
    </properties>
   </object>
-  <object name="Undead" type="undead" x="288" y="1920" width="896" height="960">
+  <object name="Undead" type="fern_valley_undead" x="288" y="1920" width="896" height="960">
    <properties>
     <property name="level" value="1,5"/>
     <property name="number" value="6,8"/>
    </properties>
   </object>
-  <object name="Undead" type="undead" x="160" y="1024" width="1056" height="864">
+  <object name="Undead" type="fern_valley_undead" x="160" y="1024" width="1056" height="864">
    <properties>
     <property name="level" value="1,5"/>
     <property name="number" value="8,10"/>
