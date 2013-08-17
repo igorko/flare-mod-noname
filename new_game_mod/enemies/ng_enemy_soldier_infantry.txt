@@ -8,6 +8,7 @@ animations=orc_heavy
 
 # combat stats
 hp=700
+hp_regen=50
 speed=10
 dspeed=7
 melee_range=76

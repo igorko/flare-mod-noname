@@ -8,6 +8,7 @@ animations=skeleton_knight
 
 # combat stats
 hp=1500
+hp_regen=50
 speed=11
 dspeed=8
 melee_range=76

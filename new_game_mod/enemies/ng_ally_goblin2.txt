@@ -33,3 +33,5 @@ dmg_ment_max=35
 cooldown=20
 absorb_min=3
 absorb_max=3
+
+hp_regen=50

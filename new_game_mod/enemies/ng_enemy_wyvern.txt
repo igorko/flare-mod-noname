@@ -10,6 +10,7 @@ animations=wyvern
 
 # combat stats
 hp=300
+hp_regen=50
 speed=10
 dspeed=7
 flying=1

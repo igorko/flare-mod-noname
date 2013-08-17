@@ -34,13 +34,4 @@ absorb_max=5
 
 cooldown=20
 
-# loot
-loot=currency,33,2,8
-
-# cloth set, healing pot
-loot=64,5
-loot=65,5
-loot=66,5
-loot=67,5
-loot=1,5
-
+hp_regen=50

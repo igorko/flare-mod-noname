@@ -8,6 +8,7 @@ animations=fire_ant
 
 # combat stats
 hp=140
+hp_regen=50
 speed=10
 dspeed=7
 melee_range=76

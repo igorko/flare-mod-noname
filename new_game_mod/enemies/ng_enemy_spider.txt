@@ -8,6 +8,7 @@ animations=spider_large
 
 # combat stats
 hp=30
+hp_regen=50
 speed=8
 dspeed=5
 melee_range=76

@@ -8,6 +8,7 @@ animations=pirate_ghost_captain
 
 # combat stats
 hp=40
+hp_regen=50
 speed=6
 dspeed=4
 melee_range=72
@@ -34,13 +35,4 @@ absorb_max=3
 
 cooldown=20
 
-# loot
-loot=currency,33,2,8
-
-# cloth set, healing pot
-loot=64,5
-loot=65,5
-loot=66,5
-loot=67,5
-loot=1,5
 

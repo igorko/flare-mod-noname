@@ -8,6 +8,7 @@ animations=hobgoblin_charger
 
 # combat stats
 hp=250
+hp_regen=50
 speed=10
 dspeed=7
 melee_range=76

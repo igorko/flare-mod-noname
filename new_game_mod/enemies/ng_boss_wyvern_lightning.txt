@@ -43,3 +43,4 @@ cooldown_ranged_ment=90
 
 quest_loot=progress_arrived_town,wyvern_complete,205
 
+hp_regen=50

@@ -10,6 +10,7 @@ animations=pirate_ghost_captain
 
 # combat stats
 hp=160
+hp_regen=50
 speed=8
 dspeed=5
 melee_range=76

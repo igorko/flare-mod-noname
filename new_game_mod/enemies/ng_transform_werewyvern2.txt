@@ -10,6 +10,7 @@ animations=wyvern
 
 # combat stats
 hp=200
+hp_regen=50
 speed=18
 dspeed=12
 flying=1
@@ -41,6 +42,4 @@ absorb_max=15
 cooldown=30
 cooldown_ranged_ment=90
 
-# loot
-loot=currency,33,6,24
 

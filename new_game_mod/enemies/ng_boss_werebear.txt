@@ -37,3 +37,5 @@ absorb_max=21
 cooldown=20
 
 defeat_status=werebear_defeated
+
+hp_regen=50

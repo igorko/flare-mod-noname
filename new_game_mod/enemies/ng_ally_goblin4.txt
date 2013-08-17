@@ -36,3 +36,4 @@ absorb_max=9
 cooldown=25
 cooldown_ranged_phys=90
 
+hp_regen=50

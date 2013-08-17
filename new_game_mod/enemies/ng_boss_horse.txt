@@ -33,4 +33,4 @@ defeat_status=horse_tamed
 #chance_flee=50
 waypoint_pause=1
 
-hp_regen_base=40
+hp_regen=50

@@ -10,6 +10,7 @@ animations=spider_giant
 
 # combat stats
 hp=70
+hp_regen=50
 speed=10
 dspeed=7
 melee_range=76

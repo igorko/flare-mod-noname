@@ -34,3 +34,4 @@ absorb_min=6
 absorb_max=6
 cooldown=25
 
+hp_regen=50

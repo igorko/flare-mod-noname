@@ -31,4 +31,4 @@ cooldown=10
 
 defeat_status=goblin_cave_clear
 
-
+hp_regen=50

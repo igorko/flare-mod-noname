@@ -9,6 +9,7 @@ animations=pirate_ghost_crewman
 
 # combat stats
 hp=100
+hp_regen=50
 speed=7
 dspeed=5
 melee_range=76

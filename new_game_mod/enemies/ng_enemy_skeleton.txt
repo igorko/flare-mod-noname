@@ -8,6 +8,7 @@ animations=skeleton_weak
 
 # combat stats
 hp=100
+hp_regen=50
 speed=9
 dspeed=6
 melee_range=76

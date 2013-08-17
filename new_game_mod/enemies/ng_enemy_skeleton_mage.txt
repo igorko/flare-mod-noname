@@ -8,6 +8,7 @@ animations=skeleton_mage
 
 # combat stats
 hp=450
+hp_regen=50
 speed=10
 dspeed=7
 melee_range=76

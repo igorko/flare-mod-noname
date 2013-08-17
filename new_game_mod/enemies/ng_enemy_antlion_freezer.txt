@@ -8,6 +8,7 @@ animations=ice_ant
 
 # combat stats
 hp=350
+hp_regen=50
 speed=10
 dspeed=7
 melee_range=76

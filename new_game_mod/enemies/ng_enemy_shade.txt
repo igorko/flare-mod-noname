@@ -10,6 +10,7 @@ animations=shadow
 
 # combat stats
 hp=60
+hp_regen=50
 speed=7
 dspeed=5
 melee_range=76

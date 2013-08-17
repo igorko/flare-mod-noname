@@ -8,6 +8,7 @@ animations=zombie
 
 # combat stats
 hp=60
+hp_regen=50
 speed=5
 dspeed=3
 melee_range=76

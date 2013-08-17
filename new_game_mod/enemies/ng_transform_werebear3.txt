@@ -10,6 +10,7 @@ animations=werebear
 
 # combat stats
 hp=180
+hp_regen=50
 speed=11
 dspeed=8
 melee_range=76
@@ -37,12 +38,3 @@ absorb_min=21
 absorb_max=21
 cooldown=20
 
-# loot
-loot=currency,33,8,32
-
-# healing potion
-loot=1,5
-
-# Bear Figurine, Ouroboros Ring
-loot=119,1
-loot=112,1

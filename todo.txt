@@ -13,7 +13,6 @@ more thoughtful enemy placement on the later maps
 enemies:
 create bosses for a few maps
 create end bosses
-setup enemy stat points appropriate for map and level
 setup enemy powers
 give a small % fear chance to basic enemy attack power
 super power the alpha demo enemies

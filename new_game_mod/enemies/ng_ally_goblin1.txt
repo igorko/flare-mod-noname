@@ -27,3 +27,4 @@ dmg_melee_min=5
 dmg_melee_max=15
 cooldown=30
 
+hp_regen=50

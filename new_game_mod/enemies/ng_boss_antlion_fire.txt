@@ -37,3 +37,4 @@ cooldown=25
 
 quest_loot=bethan_init,wyvern_complete,206
 
+hp_regen=50

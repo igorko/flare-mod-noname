@@ -33,3 +33,5 @@ dmg_ranged_max=100
 absorb_min=10
 absorb_max=40
 cooldown=25
+
+hp_regen=50
