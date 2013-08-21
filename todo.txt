@@ -14,7 +14,6 @@ enemies:
 create bosses for a few maps
 create end bosses
 setup enemy powers
-give a small % fear chance to basic enemy attack power
 super power the alpha demo enemies
 
 
@@ -22,7 +21,7 @@ powers:
 Setup appropriate stat points for spawned allies
 Setup ally powers
 ghost spwn to have fear and conversion effects on attack power
-ghost to have spawn undead abvility at higher level
+ghost to have spawn undead ability at higher level
 stats for transform creatures
 give a small % fear chance to basic ally attack power
 runes graphics for the transformation effect

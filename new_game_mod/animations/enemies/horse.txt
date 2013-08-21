@@ -18,21 +18,21 @@ duration=2
 type=looped
 
 
-[ranged]
+[shoot]
 position=12
 frames=4
 duration=4
 type=play_once
 
 
-[ment]
+[cast]
 position=12
 frames=4
 duration=3
 type=play_once
 
 
-[melee]
+[swing]
 position=12
 frames=4
 duration=3
