@@ -265,9 +265,13 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" width="70" height="70">
-  <object name="Bryn" type="bryn" x="608" y="1760" width="32" height="32"/>
+  <object name="Bryn" type="bryn" x="608" y="1760" width="32" height="32">
+   <properties>
+    <property name="requires_not" value="asylum_complete"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="enemygroup" width="70" height="70">
+ <objectgroup name="enemygroup" width="70" height="70" visible="0">
   <object name="Spirit" type="spirit" x="320" y="160" width="1632" height="960">
    <properties>
     <property name="level" value="10,16"/>

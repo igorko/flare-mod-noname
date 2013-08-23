@@ -9,9 +9,9 @@ animations=wyvern
 
 
 # combat stats
-hp=200
-speed=18
-dspeed=12
+hp=100
+speed=14
+dspeed=10
 flying=1
 melee_range=72
 threat_range=512
@@ -32,9 +32,9 @@ accuracy=82
 avoidance=32
 
 dmg_melee_min=20
-dmg_melee_max=40
-dmg_ment_min=30
-dmg_ment_max=60
+dmg_melee_max=30
+dmg_ment_min=10
+dmg_ment_max=70
 absorb_min=15
 absorb_max=15
 
@@ -42,4 +42,4 @@ cooldown=30
 cooldown_ranged_ment=90
 
 hp_regen=50
-
+poise=50

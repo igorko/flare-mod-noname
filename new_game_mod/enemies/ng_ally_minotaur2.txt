@@ -9,14 +9,14 @@ animations=minotaur
 
 
 # combat stats
-hp=180
+hp=600
 speed=11
 dspeed=8
 melee_range=76
 threat_range=512
 turn_delay=5
 chance_pursue=30
-chance_melee_phys=10
+chance_melee_phys=15
 chance_melee_ment=25
 chance_ranged_phys=0
 chance_ranged_ment=0
@@ -29,12 +29,14 @@ cooldown_melee_ment=45
 accuracy=90
 avoidance=40
 
-dmg_melee_min=20
-dmg_melee_max=55
-dmg_ment_min=10
-dmg_ment_max=30
+dmg_melee_min=40
+dmg_melee_max=100
+dmg_ment_min=20
+dmg_ment_max=80
 absorb_min=21
 absorb_max=21
 cooldown=20
 
 hp_regen=50
+
+poise=70

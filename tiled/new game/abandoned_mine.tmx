@@ -187,6 +187,11 @@
   <object name="Werebear" type="ng_boss_werebear" x="416" y="512" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="npc" width="50" height="50">
-  <object name="Bryn" type="bryn" x="480" y="512" width="32" height="32"/>
+  <object name="Bryn" type="bryn" x="480" y="512" width="32" height="32">
+   <properties>
+    <property name="requires_not" value="minotaur_complete"/>
+    <property name="requires_status" value="werebear_returning"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

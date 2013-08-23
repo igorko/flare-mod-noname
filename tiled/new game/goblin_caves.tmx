@@ -339,7 +339,11 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" width="100" height="100">
-  <object name="Vlad" type="vlad" x="1632" y="2464" width="32" height="32"/>
+  <object name="Vlad" type="vlad" x="1632" y="2464" width="32" height="32">
+   <properties>
+    <property name="requires_not" value="minotaur_complete"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="100" height="100">
   <object name="Spiders" type="arachnid" x="1792" y="320" width="480" height="736">

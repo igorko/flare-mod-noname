@@ -9,9 +9,9 @@ animations=wyvern_adult
 
 
 # combat stats
-hp=200
-speed=18
-dspeed=12
+hp=800
+speed=14
+dspeed=10
 flying=1
 melee_range=72
 threat_range=512
@@ -20,7 +20,7 @@ chance_pursue=10
 chance_melee_phys=15
 chance_melee_ment=0
 chance_ranged_phys=0
-chance_ranged_ment=2
+chance_ranged_ment=10
 power_beacon=132
 
 # bleed sting
@@ -31,10 +31,10 @@ power_ranged_ment=31
 accuracy=82
 avoidance=32
 
-dmg_melee_min=20
-dmg_melee_max=40
-dmg_ment_min=30
-dmg_ment_max=60
+dmg_melee_min=60
+dmg_melee_max=100
+dmg_ment_min=50
+dmg_ment_max=150
 absorb_min=15
 absorb_max=15
 
@@ -42,4 +42,4 @@ cooldown=30
 cooldown_ranged_ment=90
 
 hp_regen=50
-
+poise=50

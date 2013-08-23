@@ -179,7 +179,16 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" width="40" height="40">
-  <object name="Bethan" type="bethan" x="480" y="512" width="32" height="32"/>
-  <object name="Ieuan" type="ieuan" x="640" y="352" width="32" height="32"/>
+  <object name="Bethan" type="bethan" x="480" y="512" width="32" height="32">
+   <properties>
+    <property name="requires_not" value="minotaur_complete"/>
+   </properties>
+  </object>
+  <object name="Ieuan" type="ieuan" x="640" y="352" width="32" height="32">
+   <properties>
+    <property name="requires_not" value="minotaur_complete"/>
+    <property name="requires_status" value="bethan_quests_complete"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

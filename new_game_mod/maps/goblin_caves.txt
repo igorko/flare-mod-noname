@@ -8,9 +8,9 @@ tileset=tileset_cave.txt
 title=Goblin Caves
 
 [tilesets]
-tileset=../../../../tiled/cave/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/cave/tiled_cave.png,64,128,0,0
-tileset=../../../../tiled/cave/set_rules.png,64,32,0,0
+tileset=../../tiled/cave/tiled_collision.png,64,32,0,0
+tileset=../../tiled/cave/tiled_cave.png,64,128,0,0
+tileset=../../tiled/cave/set_rules.png,64,32,0,0
 
 [layer]
 type=background
@@ -340,6 +340,7 @@ intermap=desert.txt,42,97
 # Vlad
 type=vlad
 location=51,77,1,1
+requires_not=minotaur_complete
 
 [enemygroup]
 # Spiders

@@ -11,8 +11,8 @@ animations=goblin
 
 # combat stats
 hp=350
-speed=6
-dspeed=5
+speed=9
+dspeed=6
 melee_range=76
 threat_range=512
 turn_delay=12

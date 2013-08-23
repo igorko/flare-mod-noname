@@ -7,14 +7,14 @@ sfx_prefix=zombie
 animations=pirate_ghost_captain
 
 # combat stats
-hp=200
-speed=6
-dspeed=4
+hp=500
+speed=11
+dspeed=8
 melee_range=72
 threat_range=512
 turn_delay=10
 chance_pursue=10
-chance_melee_phys=2
+chance_melee_phys=10
 chance_melee_ment=3
 chance_ranged_phys=0
 chance_ranged_ment=0
@@ -23,7 +23,7 @@ power_melee_ment=1
 power_beacon=132
 
 accuracy=75
-avoidance=25
+avoidance=50
 
 dmg_melee_min=45
 dmg_melee_max=65

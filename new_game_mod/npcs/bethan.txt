@@ -90,6 +90,7 @@ him=Could it be...
 you=What is it?
 him=Im not certain but I think you should go back and check on it again.
 you=(Time for round 2)
+set_status=werebear_returning
 
 [dialog]
 requires=werebear_complete
