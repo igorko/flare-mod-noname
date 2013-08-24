@@ -28,7 +28,7 @@ runes graphics for the transformation effect
 
 
 Development:
-give requires_not to an npc to make it non visible at the correct times
+requires_not for enemies
 give visible_requires_status to powers in the menu - powers hidden until quest completion
 give set_status after converting a quest enemy - for the first quest
 allow levels greater than 32
@@ -62,4 +62,4 @@ graphics for the barricade enemy and the fire tower
 appropriate icons for the quest items
 "effect" graphics for the curses & fear affects
 hazard graphics that allow you to see the real power radius for relevant powers
-
+die animation for stealth

@@ -3432,7 +3432,6 @@ description=Raise a single tower which shoots fireballs at your enemies
 spawn_type=ng_ally_firetower1
 new_state=cast
 starting_pos=target
-spawn_limit=fixed,1
 cooldown=150
 requires_mp=6
 post_effect=502,0,150
@@ -3446,8 +3445,7 @@ description=The tower shoots multiple fireballs
 spawn_type=ng_ally_firetower2
 new_state=cast
 starting_pos=target
-spawn_limit=fixed,1
-cooldown=150
+cooldown=140
 requires_mp=10
 post_effect=502,0,300
 
@@ -3456,12 +3454,11 @@ id=723
 name=Fire Tower 3
 type=spawn
 icon=9
-description=Allows two towers to be raised
+description=More powerful tower
 spawn_type=ng_ally_firetower3
 new_state=cast
 starting_pos=target
-spawn_limit=fixed,2
-cooldown=150
+cooldown=130
 requires_mp=14
 post_effect=502,0,450
 
@@ -3474,8 +3471,7 @@ description=Fires even more fireballs
 spawn_type=ng_ally_firetower4
 new_state=cast
 starting_pos=target
-spawn_limit=fixed,2
-cooldown=150
+cooldown=120
 requires_mp=18
 post_effect=502,0,450
 
@@ -3484,12 +3480,11 @@ id=725
 name=Fire Tower 5
 type=spawn
 icon=9
-description=Allows three towers to be raised, deals more damage and can take more damage
+description=More powerful tower
 spawn_type=ng_ally_firetower5
 new_state=cast
 starting_pos=target
-spawn_limit=fixed,3
-cooldown=150
+cooldown=100
 requires_mp=25
 post_effect=502,0,600
 
@@ -3911,21 +3906,130 @@ keep_equipment=true
 
 ##################################################################################
 
-#Goblin - 800-820
+[power]
+id=800
+#name=Firetower Fireball
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+requires_los=true
+animation=fireball.txt
+soundfx=fireball.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=26
+radius=64
+speed=30
+trait_elemental=fire
+post_power=801
+wall_power=801
 
-##################################################################################
+[power]
+id=801
+name=Orange Spark
+type=fixed
+icon=0
+animation=spark_orange.txt
+use_hazard=true
+no_attack=true
+lifespan=12
+starting_pos=target
+visual_random=2
 
-##################################################################################
+[power]
+id=802
+#name=Firetower Fireball 3 directions
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+requires_los=true
+animation=fireball.txt
+soundfx=fireball.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=26
+radius=64
+speed=30
+trait_elemental=fire
+post_power=801
+wall_power=801
+count=3
+missile_angle=120
 
-#Melee Attack
+[power]
+id=803
+#name=Firetower Fireball 5 directions
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+requires_los=true
+animation=fireball.txt
+soundfx=fireball.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=26
+radius=64
+speed=30
+trait_elemental=fire
+post_power=801
+wall_power=801
+count=5
+missile_angle=72
 
-##################################################################################
+[power]
+id=804
+#name=Firetower Fireball 7 directions
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+requires_los=true
+animation=fireball.txt
+soundfx=fireball.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=26
+radius=64
+speed=30
+trait_elemental=fire
+post_power=801
+wall_power=801
+count=7
+missile_angle=51
 
-
-
-
-
-
+[power]
+id=805
+#name=Firetower Fireball 9 directions
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+requires_los=true
+animation=fireball.txt
+soundfx=fireball.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=26
+radius=64
+speed=30
+trait_elemental=fire
+post_power=801
+wall_power=801
+count=9
+missile_angle=40
 
 
 
