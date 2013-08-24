@@ -1,6 +1,6 @@
 name=Berserker
 level=25
-categories=ground,battlefield
+categories=ground,battlefield,living_humanoid
 xp=1000
 
 sfx_prefix=antlion

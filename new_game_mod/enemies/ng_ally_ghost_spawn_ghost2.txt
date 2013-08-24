@@ -7,9 +7,9 @@ sfx_prefix=zombie
 animations=pirate_ghost_crewman
 
 # combat stats
-hp=200
-speed=9
-dspeed=6
+hp=300
+speed=10
+dspeed=7
 melee_range=72
 threat_range=512
 turn_delay=10
@@ -17,24 +17,23 @@ chance_pursue=10
 chance_melee_phys=20
 chance_melee_ment=20
 chance_ranged_phys=1
-chance_ranged_ment=1
+chance_ranged_ment=0
 power_melee_phys=812
-power_melee_ment=820
-power_ranged_phys=830
-power_ranged_ment=833
+power_melee_ment=822
+power_ranged_phys=831
 power_beacon=132
 
 accuracy=75
-avoidance=35
+avoidance=40
 
-dmg_melee_min=15
+dmg_melee_min=25
 dmg_melee_max=35
 dmg_ment_min=15
 dmg_ment_max=30
-absorb_min=5
-absorb_max=5
+absorb_min=6
+absorb_max=8
 
 cooldown=20
 
-hp_regen=75
+hp_regen=100
 poise=50

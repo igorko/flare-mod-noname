@@ -1,6 +1,6 @@
 name=Archer
 level=25
-categories=ground,battlefield
+categories=ground,battlefield,living_humanoid
 xp=600
 
 sfx_prefix=antlion

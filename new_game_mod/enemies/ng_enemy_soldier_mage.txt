@@ -1,6 +1,6 @@
 name=Battle Mage
 level=25
-categories=ground,battlefield
+categories=ground,battlefield,living_humanoid
 xp=850
 
 sfx_prefix=antlion

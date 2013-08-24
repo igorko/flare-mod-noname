@@ -14,12 +14,13 @@ melee_range=72
 threat_range=512
 turn_delay=10
 chance_pursue=10
-chance_melee_phys=10
-chance_melee_ment=3
+chance_melee_phys=20
+chance_melee_ment=20
 chance_ranged_phys=0
-chance_ranged_ment=0
-power_melee_phys=1
-power_melee_ment=1
+chance_ranged_ment=1
+power_melee_phys=810
+power_melee_ment=820
+power_ranged_ment=830
 power_beacon=132
 
 accuracy=75
@@ -35,4 +36,4 @@ absorb_max=3
 cooldown=20
 
 hp_regen=50
-
+poise=50

@@ -1,6 +1,6 @@
 name=Hobgoblin Elite
 level=20
-categories=ground,woods2,marshlands
+categories=ground,woods2,marshlands,living_humanoid
 xp=350
 
 sfx_prefix=antlion

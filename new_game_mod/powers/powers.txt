@@ -3906,6 +3906,12 @@ keep_equipment=true
 
 ##################################################################################
 
+#Fire Tower
+
+##################################################################################
+
+##################################################################################
+
 [power]
 id=800
 #name=Firetower Fireball
@@ -4031,13 +4037,420 @@ wall_power=801
 count=9
 missile_angle=40
 
+##################################################################################
+
+##################################################################################
+
+#Ghost
+
+##################################################################################
+
+##################################################################################
+
+#Fear Attack: 810 - 820
+
+##################################################################################
+
+##################################################################################
+
+[power]
+id=810
+name=Fear Swing
+type=fixed
+icon=1
+description=Melee attack with chance of fear
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=811
+
+[power]
+id=811
+name=Swing flee effect
+type=fixed
+description=Chance of flee effect
+face=true
+use_hazard=true
+aim_assist=true
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_accuracy=absolute,20
+trait_ignore_avoidance=true
+post_effect=519,0,150
+
+[power]
+id=812
+name=Fear Swing 2
+type=fixed
+icon=1
+description=Melee attack with greater chance of fear
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=813
+
+[power]
+id=813
+name=Swing flee effect
+type=fixed
+description=Chance of flee effect
+face=true
+use_hazard=true
+aim_assist=true
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_accuracy=absolute,35
+trait_ignore_avoidance=true
+post_effect=519,0,150
+
+[power]
+id=814
+name=Fear Swing 3
+type=fixed
+icon=1
+description=Melee attack with greater chance of fear
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=815
+
+[power]
+id=815
+name=Swing flee effect
+type=fixed
+description=Chance of flee effect
+face=true
+use_hazard=true
+aim_assist=true
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_accuracy=absolute,50
+trait_ignore_avoidance=true
+post_effect=519,0,150
 
 
+##################################################################################
 
+##################################################################################
 
+#Convert Attack: 820 - 830
 
+##################################################################################
 
+##################################################################################
 
+[power]
+id=820
+name=Conversion Swing
+type=fixed
+icon=1
+description=Melee attack with chance of conversion
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=821
+
+[power]
+id=821
+name=Swing conversion effect
+type=fixed
+description=Chance of conversion effect
+face=true
+use_hazard=true
+aim_assist=true
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_accuracy=absolute,30
+trait_ignore_avoidance=true
+post_effect=501,0,1800
+target_categories=undead
+
+[power]
+id=822
+name=Conversion Swing 2
+type=fixed
+icon=1
+description=Melee attack with chance of conversion
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=823
+
+[power]
+id=823
+name=Swing conversion effect
+type=fixed
+description=Chance of conversion effect
+face=true
+use_hazard=true
+aim_assist=true
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_accuracy=absolute,50
+trait_ignore_avoidance=true
+post_effect=501,0,3600
+target_categories=undead
+
+[power]
+id=824
+name=Conversion Swing 3
+type=fixed
+icon=1
+description=Melee attack with chance of conversion
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=825
+
+[power]
+id=825
+name=Swing conversion effect
+type=fixed
+description=Chance of conversion effect
+face=true
+use_hazard=true
+aim_assist=true
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+modifier_accuracy=absolute,70
+trait_ignore_avoidance=true
+post_effect=501,0,5400
+target_categories=undead,living_humanoid
+
+##################################################################################
+
+##################################################################################
+
+#Spawns: 830 - 850
+
+##################################################################################
+
+##################################################################################
+
+[power]
+id=830
+name=Summon Zombie1
+type=spawn
+icon=9
+description=spawn zombie1
+spawn_type=ng_ally_ghost_spawn_zombie1
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,3
+post_effect=502,0,450
+
+[power]
+id=831
+name=Summon Zombie2
+type=spawn
+icon=9
+description=spawn zombie2
+spawn_type=ng_ally_ghost_spawn_zombie2
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,3
+post_effect=502,0,600
+
+[power]
+id=832
+name=Summon Zombie3
+type=spawn
+icon=9
+description=spawn zombie3
+spawn_type=ng_ally_ghost_spawn_zombie3
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,5
+post_effect=502,0,900
+
+[power]
+id=833
+name=Summon Skeleton 1
+type=spawn
+icon=9
+description=spawn skeleton 1
+spawn_type=ng_ally_ghost_spawn_skeleton1
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,2
+post_effect=502,0,600
+
+[power]
+id=834
+name=Summon Skeleton 2
+type=spawn
+icon=9
+description=spawn skeleton 2
+spawn_type=ng_ally_ghost_spawn_skeleton2
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,2
+post_effect=502,0,1800
+
+[power]
+id=835
+name=Summon Skeleton 3
+type=spawn
+icon=9
+description=spawn skeleton 3
+spawn_type=ng_ally_ghost_spawn_skeleton3
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+post_effect=502,0,1800
+
+[power]
+id=836
+name=Summon Skeleton archer 1
+type=spawn
+icon=9
+description=spawn skeleton archer 1
+spawn_type=ng_ally_ghost_spawn_skeleton_archer1
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,2
+post_effect=502,0,900
+
+[power]
+id=837
+name=Summon Skeleton archer 2
+type=spawn
+icon=9
+description=spawn skeleton archer 2
+spawn_type=ng_ally_ghost_spawn_skeleton_archer2
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,2
+post_effect=502,0,1800
+
+[power]
+id=838
+name=Summon Horseman
+type=spawn
+icon=9
+description=spawn horseman
+spawn_type=ng_ally_ghost_spawn_horseman
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+post_effect=502,0,1800
+
+[power]
+id=839
+name=Summon Ghost1
+type=spawn
+icon=9
+description=spawn ghost1
+spawn_type=ng_ally_ghost_spawn_ghost1
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+
+[power]
+id=840
+name=Summon Ghost2
+type=spawn
+icon=9
+description=spawn ghost2
+spawn_type=ng_ally_ghost_spawn_ghost2
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+
+[power]
+id=841
+name=Summon Ghost3
+type=spawn
+icon=9
+description=spawn ghost3
+spawn_type=ng_ally_ghost_spawn_ghost3
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+
+[power]
+id=842
+name=Summon Ghost4
+type=spawn
+icon=9
+description=spawn ghost4
+spawn_type=ng_ally_ghost_spawn_ghost4
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+
+[power]
+id=843
+name=Summon Ghost5
+type=spawn
+icon=9
+description=spawn ghost5
+spawn_type=ng_ally_ghost_spawn_ghost5
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
 
 ##################################################################################
 

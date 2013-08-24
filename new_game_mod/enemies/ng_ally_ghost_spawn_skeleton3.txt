@@ -1,29 +1,29 @@
-name=Hobgoblin
-level=7
-categories=hobgoblin,ground,living_humanoid
-xp=50
+name=Skeleton Knight
+level=10
+categories=undead,ground
+xp=120
 
 sfx_prefix=antlion
-animations=hobgoblin
+animations=skeleton_knight
 
 # combat stats
-hp=100
+hp=700
 hp_regen=50
-speed=8
-dspeed=5
+speed=11
+dspeed=8
 melee_range=76
 threat_range=512
 turn_delay=6
 chance_pursue=20
-chance_melee_phys=15
+chance_melee_phys=20
 power_melee_phys=1100
 power_beacon=1101
 
 accuracy=75
 avoidance=25
 absorb_min=1
-absorb_max=5
+absorb_max=10
 
-dmg_melee_min=10
-dmg_melee_max=20
+dmg_melee_min=50
+dmg_melee_max=100
 cooldown=10

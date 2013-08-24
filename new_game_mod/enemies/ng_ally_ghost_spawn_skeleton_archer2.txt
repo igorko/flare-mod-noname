@@ -1,13 +1,13 @@
-name=Hobgoblin Elite Archer
-level=20
-categories=ground,woods2,marshlands,living_humanoid
-xp=50
+name=Skeleton Archer
+level=25
+categories=ground,undead
+xp=650
 
 sfx_prefix=antlion
-animations=hobgoblin_charger
+animations=skeleton_archer
 
 # combat stats
-hp=180
+hp=300
 hp_regen=50
 speed=10
 dspeed=7
@@ -16,10 +16,9 @@ threat_range=512
 turn_delay=6
 chance_pursue=20
 chance_melee_phys=15
-chance_ranged_phys=20
+chance_ranged_phys=30
 power_melee_phys=1100
 power_ranged_phys=1102
-
 power_beacon=1101
 
 accuracy=75
@@ -28,9 +27,9 @@ absorb_min=1
 absorb_max=10
 
 dmg_ranged_min=30
-dmg_ranged_max=50
-dmg_melee_min=20
+dmg_ranged_max=60
+dmg_melee_min=10
 dmg_melee_max=35
 cooldown=10
 
-chance_flee=15
+chance_flee=35

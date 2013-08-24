@@ -1,6 +1,6 @@
 name=Hobgoblin Mage
 level=9
-categories=hobgoblin_mage,hobgoblin,ground
+categories=hobgoblin_mage,hobgoblin,ground,living_humanoid
 xp=70
 rarity=rare
 
