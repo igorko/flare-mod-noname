@@ -22,6 +22,7 @@ avoidance_per_level=1
 avoidance_per_defense=5
 crit=5
 crit_per_physical=1
+poise_per_defense=1
 
 dmg_melee_min=5
 dmg_melee_max=15

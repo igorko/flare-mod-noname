@@ -303,6 +303,7 @@ position=50,80
 requires_mental=2
 requires_point=true
 requires_level=5
+visible_requires_status=horse_tamer_complete
 
 # Conversion
 [power]
@@ -313,6 +314,7 @@ requires_mental=3
 requires_point=true
 requires_power=650
 requires_level=6
+visible_requires_status=horse_tamer_complete
 
 # Conversion
 [power]
@@ -323,6 +325,7 @@ requires_offense=4
 requires_point=true
 requires_power=651
 requires_level=8
+visible_requires_status=horse_tamer_complete
 
 # Conversion
 [power]
@@ -333,6 +336,7 @@ requires_offense=5
 requires_point=true
 requires_power=652
 requires_level=10
+visible_requires_status=horse_tamer_complete
 
 # Conversion
 [power]
@@ -343,6 +347,7 @@ requires_offense=6
 requires_point=true
 requires_power=653
 requires_level=15
+visible_requires_status=horse_tamer_complete
 
 ####################
 # Spawn Goblin
@@ -353,6 +358,7 @@ position=50,130
 requires_defense=4
 requires_point=true
 requires_level=4
+visible_requires_status=goblin_complete
 
 # Spawn Goblin
 [power]
@@ -363,6 +369,7 @@ requires_defense=6
 requires_point=true
 requires_power=655
 requires_level=6
+visible_requires_status=goblin_complete
 
 # Spawn Goblin
 [power]
@@ -373,6 +380,7 @@ requires_defense=8
 requires_point=true
 requires_power=656
 requires_level=8
+visible_requires_status=goblin_complete
 
 # Spawn Goblin
 [power]
@@ -383,6 +391,7 @@ requires_defense=10
 requires_point=true
 requires_power=657
 requires_level=10
+visible_requires_status=goblin_complete
 
 # Spawn Goblin
 [power]
@@ -393,6 +402,7 @@ requires_defense=12
 requires_point=true
 requires_power=658
 requires_level=12
+visible_requires_status=goblin_complete
 
 ####################
 
@@ -404,6 +414,7 @@ position=50,180
 requires_mental=4
 requires_point=true
 requires_level=10
+visible_requires_status=asylum_complete
 
 # Spawn Ghost
 [power]
@@ -414,6 +425,7 @@ requires_mental=6
 requires_point=true
 requires_power=660
 requires_level=12
+visible_requires_status=asylum_complete
 
 # Spawn Ghost
 [power]
@@ -424,6 +436,7 @@ requires_mental=8
 requires_point=true
 requires_power=661
 requires_level=14
+visible_requires_status=asylum_complete
 
 # Spawn Ghost
 [power]
@@ -434,6 +447,7 @@ requires_mental=10
 requires_point=true
 requires_power=662
 requires_level=16
+visible_requires_status=asylum_complete
 
 # Spawn Ghost
 [power]
@@ -444,6 +458,7 @@ requires_mental=12
 requires_point=true
 requires_power=663
 requires_level=20
+visible_requires_status=asylum_complete
 
 ####################
 
@@ -455,6 +470,7 @@ position=50,230
 requires_offense=4
 requires_point=true
 requires_level=6
+visible_requires_status=wyvern_complete
 
 # Spawn Wyvern
 [power]
@@ -465,6 +481,7 @@ requires_offense=6
 requires_point=true
 requires_power=665
 requires_level=8
+visible_requires_status=wyvern_complete
 
 # Spawn Wyvern
 [power]
@@ -475,6 +492,7 @@ requires_offense=8
 requires_point=true
 requires_power=666
 requires_level=10
+visible_requires_status=wyvern_complete
 
 # Spawn Wyvern
 [power]
@@ -485,6 +503,7 @@ requires_offense=10
 requires_point=true
 requires_power=667
 requires_level=12
+visible_requires_status=wyvern_complete
 
 # Spawn Wyvern
 [power]
@@ -495,6 +514,7 @@ requires_offense=12
 requires_point=true
 requires_power=668
 requires_level=14
+visible_requires_status=wyvern_complete
 
 ####################
 
@@ -506,6 +526,7 @@ position=50,280
 requires_physical=4
 requires_point=true
 requires_level=8
+visible_requires_status=minotaur_complete
 
 # Spawn Minotaur
 [power]
@@ -516,6 +537,7 @@ requires_physical=6
 requires_point=true
 requires_power=670
 requires_level=11
+visible_requires_status=minotaur_complete
 
 # Spawn Minotaur
 [power]
@@ -526,6 +548,7 @@ requires_physical=8
 requires_point=true
 requires_power=671
 requires_level=14
+visible_requires_status=minotaur_complete
 
 # Spawn Minotaur
 [power]
@@ -536,6 +559,7 @@ requires_physical=10
 requires_point=true
 requires_power=672
 requires_level=18
+visible_requires_status=minotaur_complete
 
 # Spawn Minotaur
 [power]
@@ -546,6 +570,7 @@ requires_physical=12
 requires_point=true
 requires_power=673
 requires_level=22
+visible_requires_status=minotaur_complete
 
 ####################
 
@@ -987,6 +1012,7 @@ position=50,230
 requires_physical=2
 requires_point=true
 requires_level=4
+visible_requires_status=werebear_complete
 
 # Werebear
 [power]
@@ -997,6 +1023,7 @@ requires_physical=3
 requires_point=true
 requires_power=766
 requires_level=6
+visible_requires_status=werebear_complete
 
 # Werebear
 [power]
@@ -1007,6 +1034,7 @@ requires_physical=4
 requires_point=true
 requires_power=767
 requires_level=10
+visible_requires_status=werebear_complete
 
 # Werebear
 [power]
@@ -1017,6 +1045,7 @@ requires_physical=6
 requires_point=true
 requires_power=768
 requires_level=14
+visible_requires_status=werebear_complete
 
 # Werebear
 [power]
@@ -1027,6 +1056,7 @@ requires_physical=8
 requires_point=true
 requires_power=769
 requires_level=18
+visible_requires_status=werebear_complete
 
 ####################
 
@@ -1039,6 +1069,7 @@ requires_mental=4
 requires_point=true
 requires_power=770
 requires_level=14
+visible_requires_status=werebear_complete
 
 # Werewyvern
 [power]
@@ -1049,6 +1080,7 @@ requires_mental=6
 requires_point=true
 requires_power=771
 requires_level=18
+visible_requires_status=werebear_complete
 
 # Werewyvern
 [power]
@@ -1059,6 +1091,7 @@ requires_mental=8
 requires_point=true
 requires_power=772
 requires_level=22
+visible_requires_status=werebear_complete
 
 # Werewyvern
 [power]
@@ -1069,6 +1102,7 @@ requires_mental=12
 requires_point=true
 requires_power=773
 requires_level=26
+visible_requires_status=werebear_complete
 
 # Werewyvern
 [power]
@@ -1079,6 +1113,7 @@ requires_mental=16
 requires_point=true
 requires_power=774
 requires_level=30
+visible_requires_status=werebear_complete
 
 ####################
 
