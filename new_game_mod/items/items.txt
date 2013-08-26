@@ -1011,7 +1011,7 @@ max_quantity=50
 [item]
 id=202
 name=Earth Wyvern Tail
-icon=225
+icon=232
 power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
@@ -1020,7 +1020,7 @@ loot_animation=book
 [item]
 id=203
 name=Fire Wyvern Tail
-icon=225
+icon=232
 power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
@@ -1029,7 +1029,7 @@ loot_animation=book
 [item]
 id=204
 name=Ice Wyvern Tail
-icon=225
+icon=232
 power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
@@ -1038,7 +1038,7 @@ loot_animation=book
 [item]
 id=205
 name=Lightning Wyvern Tail
-icon=225
+icon=232
 power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
@@ -1047,7 +1047,7 @@ loot_animation=book
 [item]
 id=206
 name=Fire Antlion Heart
-icon=225
+icon=233
 power_desc=An Antlion Heart
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
