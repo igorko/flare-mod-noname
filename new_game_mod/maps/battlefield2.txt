@@ -8,13 +8,13 @@ tileset=tileset_grassland.txt
 title=Battlefield 2
 
 [tilesets]
-tileset=../../../../tiled/grassland/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/grassland/grassland.png,64,128,0,0
-tileset=../../../../tiled/grassland/grassland_water.png,64,64,0,32
-tileset=../../../../tiled/grassland/grassland_structures.png,64,256,0,0
-tileset=../../../../tiled/grassland/grassland_trees.png,128,256,-32,0
-tileset=../../../../tiled/grassland/set_rules.png,64,32,0,0
-tileset=../../../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
+tileset=../../tiled/grassland/tiled_collision.png,64,32,0,0
+tileset=../../tiled/grassland/grassland.png,64,128,0,0
+tileset=../../tiled/grassland/grassland_water.png,64,64,0,32
+tileset=../../tiled/grassland/grassland_structures.png,64,256,0,0
+tileset=../../tiled/grassland/grassland_trees.png,128,256,-32,0
+tileset=../../tiled/grassland/set_rules.png,64,32,0,0
+tileset=../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
 
 [layer]
 type=background
@@ -240,8 +240,28 @@ data=
 
 [enemy]
 # barricade
-type=barricade
+type=ng_enemy_stone_barricade
 location=35,16,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_stone_barricade
+location=35,15,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_stone_barricade
+location=35,17,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_stone_barricade
+location=45,36,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_stone_barricade
+location=45,37,1,1
 
 [event]
 # to battlefield 1
@@ -258,7 +278,28 @@ intermap=battlefield3.txt,126,49
 [enemygroup]
 # battlefield
 type=battlefield
-location=5,6,94,51
+location=9,6,20,51
 level=20,30
-number=35,40
+number=10,15
+
+[enemygroup]
+# battlefield
+type=battlefield
+location=54,8,47,44
+level=20,30
+number=15,20
+
+[enemygroup]
+# archers
+type=soldier_archer
+location=38,29,6,12
+level=20,30
+number=8,10
+
+[enemygroup]
+# archers
+type=soldier_archer
+location=30,10,5,12
+level=20,30
+number=10,15
 

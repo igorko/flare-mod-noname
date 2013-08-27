@@ -1,0 +1,26 @@
+name=Wooden Barricade
+level=3
+xp=0
+categories=ground
+
+sfx_prefix=none
+animations=wooden_barricade
+
+
+# combat stats
+hp=2000
+speed=0
+dspeed=0
+facing=0
+melee_range=152
+threat_range=512
+
+chance_pursue=0
+
+chance_ranged_ment=0
+chance_melee_ment=0
+
+avoidance=0
+
+cooldown=90
+

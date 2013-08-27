@@ -252,7 +252,11 @@
 </data>
  </layer>
  <objectgroup name="enemy" width="125" height="70">
-  <object name="barricade" type="barricade" x="1120" y="512" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade" x="1120" y="512" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade" x="1120" y="480" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade" x="1120" y="544" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade" x="1440" y="1152" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade" x="1440" y="1184" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="event" width="125" height="70">
   <object name="to battlefield 1" type="on_trigger" x="3584" y="1024" width="32" height="128">
@@ -267,10 +271,28 @@
   </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="125" height="70">
-  <object name="battlefield" type="battlefield" x="160" y="192" width="3008" height="1632">
+  <object name="battlefield" type="battlefield" x="288" y="192" width="640" height="1632">
    <properties>
     <property name="level" value="20,30"/>
-    <property name="number" value="35,40"/>
+    <property name="number" value="10,15"/>
+   </properties>
+  </object>
+  <object name="battlefield" type="battlefield" x="1728" y="256" width="1504" height="1408">
+   <properties>
+    <property name="level" value="20,30"/>
+    <property name="number" value="15,20"/>
+   </properties>
+  </object>
+  <object name="archers" type="soldier_archer" x="1216" y="928" width="192" height="384">
+   <properties>
+    <property name="level" value="20,30"/>
+    <property name="number" value="8,10"/>
+   </properties>
+  </object>
+  <object name="archers" type="soldier_archer" x="960" y="320" width="160" height="384">
+   <properties>
+    <property name="level" value="20,30"/>
+    <property name="number" value="10,15"/>
    </properties>
   </object>
  </objectgroup>

@@ -32,4 +32,4 @@ dmg_melee_min=10
 dmg_melee_max=35
 cooldown=10
 
-chance_flee=35
+chance_flee=50

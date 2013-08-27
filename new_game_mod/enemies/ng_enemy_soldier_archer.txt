@@ -1,6 +1,6 @@
 name=Archer
 level=25
-categories=ground,battlefield,living_humanoid
+categories=soldier_archer,ground,battlefield,living_humanoid
 xp=600
 
 sfx_prefix=antlion
@@ -32,4 +32,4 @@ dmg_melee_min=10
 dmg_melee_max=35
 cooldown=10
 
-chance_flee=20
+chance_flee=35

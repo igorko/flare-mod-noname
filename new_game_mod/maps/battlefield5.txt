@@ -8,13 +8,13 @@ tileset=tileset_grassland.txt
 title=Battlefield 5
 
 [tilesets]
-tileset=../../../../tiled/grassland/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/grassland/grassland.png,64,128,0,0
-tileset=../../../../tiled/grassland/grassland_water.png,64,64,0,32
-tileset=../../../../tiled/grassland/grassland_structures.png,64,256,0,0
-tileset=../../../../tiled/grassland/grassland_trees.png,128,256,-32,0
-tileset=../../../../tiled/grassland/set_rules.png,64,32,0,0
-tileset=../../../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
+tileset=../../tiled/grassland/tiled_collision.png,64,32,0,0
+tileset=../../tiled/grassland/grassland.png,64,128,0,0
+tileset=../../tiled/grassland/grassland_water.png,64,64,0,32
+tileset=../../tiled/grassland/grassland_structures.png,64,256,0,0
+tileset=../../tiled/grassland/grassland_trees.png,128,256,-32,0
+tileset=../../tiled/grassland/set_rules.png,64,32,0,0
+tileset=../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
 
 [layer]
 type=background
@@ -253,7 +253,104 @@ intermap=battlefield6.txt,67,28
 [enemygroup]
 # battlefield
 type=battlefield
-location=9,5,95,58
+location=9,5,50,58
 level=20,30
-number=30,35
+number=20,25
+
+[enemygroup]
+# battlefield
+type=battlefield
+location=81,8,24,48
+level=20,30
+number=10,15
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,34,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,33,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,32,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,31,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,30,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,29,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,28,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,27,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,26,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,25,1,1
+
+[enemy]
+# barricade
+type=ng_enemy_wooden_barricade
+location=76,24,1,1
+
+[enemy]
+# barbarian
+type=ng_enemy_soldier_barbarian
+location=76,22,1,1
+
+[enemy]
+# barbarian
+type=ng_enemy_soldier_barbarian
+location=74,23,1,1
+
+[enemy]
+# barbarian
+type=ng_enemy_soldier_barbarian
+location=74,21,1,1
+
+[enemy]
+# skirmisher
+type=ng_enemy_soldier_skirmisher
+location=74,31,1,1
+
+[enemy]
+# skirmisher
+type=ng_enemy_soldier_skirmisher
+location=74,29,1,1
+
+[enemy]
+# skirmisher
+type=ng_enemy_soldier_skirmisher
+location=74,27,1,1
+
+[enemy]
+# skirmisher
+type=ng_enemy_soldier_skirmisher
+location=74,25,1,1
 
