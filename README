@@ -1,3 +1,47 @@
+﻿# Flare Mod
+
+This is an as yet nameless mod for Clint Bellangers Flare engine. The basic goals are to create a small game which will work on the v1 flare engine, which can be completed with an achievable scope, which shows off some of the newer engine features and shows off some of the previously unused flare art from opengameart.org.
+
+# Instructions
+
+This mod has the same requirements as the flare-game project but the mod folder new_game_mod needs to be included and the mod needs to run on top of the fantasycore and alpha_demo mods.
+
+# Credits
+
+Many thanks to VWolfdog and Mumu for direct contributions of required artwork, the Flare engine development team for continuous improvement of the engine and general support of the project, to the artists of opengameart.org for their Flare artwork and of course to Clint Bellanger for starting such an awesome project.
+
+All of the original art assets from clintbellanger/flare-game have been used and the original credits can be found at https://github.com/clintbellanger/flare-game/wiki/Credits. Additional artwork used is listed below.
+
+Vwolfdog (http://opengameart.org/users/vwolfdog)
+http://opengameart.org/content/barricades-stone-and-wood
+http://opengameart.org/content/shadow
+http://opengameart.org/content/flare-model-horse
+http://opengameart.org/content/flare-mod-hobgoblin
+http://opengameart.org/content/flare-mod-high-skeleton-mage
+http://opengameart.org/content/flare-skeleton-mod-skeletal-occultist
+http://opengameart.org/content/flare-skeleton-mod-skeletal-knight
+http://opengameart.org/content/flare-zombie-mod-pirate-officer-ghost
+http://opengameart.org/content/flare-zombie-mod-pirate-crewman-ghost
+
+Mumu (http://opengameart.org/users/mumu)
+http://opengameart.org/content/flare-item-variation-60x60-only
+http://opengameart.org/forumtopic/new-flare-mod-contributors-wanted#comment-22455
+
+Amstrad (http://opengameart.org/users/amstrad)
+http://opengameart.org/content/desert-tileset
+
+johndh (http://opengameart.org/users/johndh)
+http://opengameart.org/content/orc-flare-sprite-sheets
+http://opengameart.org/content/werebear-flare-sprite-sheets
+http://opengameart.org/content/spider-flare-sprite-sheets
+
+# License
+
+All of Flare's art and data files are released under CC-BY-SA 3.0. Later versions are permitted.
+
+
+
+---Original Readme from clintbellanger/flare-game---
 # Flare
 
 Flare is a a single-player 2D action RPG with fast-paced action and a dark fantasy style.
