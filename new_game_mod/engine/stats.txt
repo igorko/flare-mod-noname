@@ -2,6 +2,8 @@
 # Values should be integer
 
 max_points_per_stat=20
+max_level=64
+
 hp=100
 hp_per_level=25
 hp_per_physical=50
