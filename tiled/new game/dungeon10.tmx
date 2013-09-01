@@ -200,6 +200,6 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
-  <object name="Minotaur" type="ng_boss_minotaur" x="896" y="448" width="32" height="32"/>
+  <object name="Minotaur" type="ng_boss_minotaur" x="704" y="192" width="32" height="32"/>
  </objectgroup>
 </map>
