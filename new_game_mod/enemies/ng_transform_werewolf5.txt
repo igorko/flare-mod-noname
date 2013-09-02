@@ -1,11 +1,11 @@
-name=Werebear
+name=Werewolf
 humanoid=true
 level=8
 categories=minotaur,dungeon,ground
 xp=200
 
 sfx_prefix=minotaur
-animations=werebear
+animations=werewolf
 
 
 # combat stats
@@ -38,3 +38,4 @@ absorb_min=21
 absorb_max=21
 cooldown=20
 
+passive_powers=777

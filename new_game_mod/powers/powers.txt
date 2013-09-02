@@ -1685,6 +1685,26 @@ type=effect
 effect_type=lightning_resist
 effect_additive=true
 
+[power]
+id=532
+#name=Increase Speed - werewolf
+type=effect
+effect_type=speed
+effect_additive=true
+
+[power]
+id=533
+#name=Raise Avoidance - werewolf
+type=effect
+effect_type=avoidance
+effect_additive=true
+
+[power]
+id=534
+#name=Raise Accuracy - werewolf
+type=effect
+effect_type=accuracy
+effect_additive=true
 
 ##################################################################################
 
@@ -3731,12 +3751,12 @@ description=Transform back to human
 
 [power]
 id=766
-name=Werebear
-description=Transform into Werebear
+name=Werewolf
+description=Transform into Werewolf
 type=transform
 icon=29
 new_state=cast
-spawn_type=ng_transform_werebear1
+spawn_type=ng_transform_werewolf1
 requires_mp=20
 soundfx=quake.ogg
 transform_duration=1800
@@ -3745,12 +3765,12 @@ keep_equipment=true
 
 [power]
 id=767
-name=Werebear 2
-description=Transform into Werebear
+name=Werewolf 2
+description=Transform into Werewolf
 type=transform
 icon=29
 new_state=cast
-spawn_type=ng_transform_werebear2
+spawn_type=ng_transform_werewolf2
 requires_mp=30
 soundfx=quake.ogg
 transform_duration=2700
@@ -3759,12 +3779,12 @@ keep_equipment=true
 
 [power]
 id=768
-name=Werebear 3
-description=Transform into Werebear
+name=Werewolf 3
+description=Transform into Werewolf
 type=transform
 icon=29
 new_state=cast
-spawn_type=ng_transform_werebear3
+spawn_type=ng_transform_werewolf3
 requires_mp=40
 soundfx=quake.ogg
 transform_duration=3600
@@ -3773,12 +3793,12 @@ keep_equipment=true
 
 [power]
 id=769
-name=Werebear 4
-description=Transform into Werebear
+name=Werewolf 4
+description=Transform into Werewolf
 type=transform
 icon=29
 new_state=cast
-spawn_type=ng_transform_werebear4
+spawn_type=ng_transform_werewolf4
 requires_mp=50
 soundfx=quake.ogg
 transform_duration=4500
@@ -3787,12 +3807,12 @@ keep_equipment=true
 
 [power]
 id=770
-name=Werebear 5
-description=Transform into Werebear
+name=Werewolf 5
+description=Transform into Werewolf
 type=transform
 icon=29
 new_state=cast
-spawn_type=ng_transform_werebear5
+spawn_type=ng_transform_werewolf5
 requires_mp=60
 soundfx=quake.ogg
 transform_duration=0
@@ -3895,6 +3915,22 @@ transform_duration=0
 manual_untransform=true
 keep_equipment=true
 
+#################################################################################
+
+#Transformations passive powers
+
+#################################################################################
+
+[power]
+id=777
+icon=6
+#name=Werewolf 1 Effects
+type=fixed
+buff=true
+passive=true
+post_effect=532,150,0
+post_effect=533,120,0
+post_effect=534,120,0
 
 ##################################################################################
 
