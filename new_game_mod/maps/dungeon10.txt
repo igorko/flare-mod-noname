@@ -184,6 +184,12 @@ type=on_trigger
 location=6,43,1,2
 intermap=dungeon9.txt,6,39
 
+[event]
+# wp
+type=on_trigger
+location=44,3,2,2
+intermap=town.txt,14,47
+
 [enemy]
 # Minotaur
 type=ng_boss_minotaur

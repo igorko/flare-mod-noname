@@ -198,6 +198,11 @@
     <property name="intermap" value="dungeon9.txt,6,39"/>
    </properties>
   </object>
+  <object name="wp" type="on_trigger" x="1408" y="96" width="64" height="64">
+   <properties>
+    <property name="intermap" value="town.txt,14,47"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
   <object name="Minotaur" type="ng_boss_minotaur" x="704" y="192" width="32" height="32"/>

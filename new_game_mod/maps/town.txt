@@ -353,10 +353,32 @@ location=13,51,2,2
 intermap=end.txt,11,8
 
 [event]
+# set arrive status
 type=on_load
 location=24,69,1,1
 requires_not=progress_arrived_town
 set_status=progress_arrived_town
+
+[event]
+# sage home wp
+type=on_trigger
+location=17,51,2,2
+intermap=sage_home.txt,16,22
+requires_status=wp_sage_home
+tooltip=Sage Home
+
+[event]
+# wp mapmod sage home
+type=on_load
+location=16,53,1,1
+mapmod=object,17,52,265
+requires_status=wp_sage_home
+
+[event]
+# dungeon 10 wp
+type=on_trigger
+location=13,44,2,2
+intermap=dungeon10.txt,42,4
 
 [npc]
 # Ieuan

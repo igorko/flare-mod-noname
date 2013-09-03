@@ -362,10 +362,28 @@
     <property name="intermap" value="end.txt,11,8"/>
    </properties>
   </object>
-  <object type="on_load" x="768" y="2208" width="32" height="32">
+  <object name="set arrive status" type="on_load" x="768" y="2208" width="32" height="32">
    <properties>
     <property name="requires_not" value="progress_arrived_town"/>
     <property name="set_status" value="progress_arrived_town"/>
+   </properties>
+  </object>
+  <object name="sage home wp" type="on_trigger" x="544" y="1632" width="64" height="64">
+   <properties>
+    <property name="intermap" value="sage_home.txt,16,22"/>
+    <property name="requires_status" value="wp_sage_home"/>
+    <property name="tooltip" value="Sage Home"/>
+   </properties>
+  </object>
+  <object name="wp mapmod sage home" type="on_load" x="512" y="1696" width="32" height="32">
+   <properties>
+    <property name="mapmod" value="object,17,52,265"/>
+    <property name="requires_status" value="wp_sage_home"/>
+   </properties>
+  </object>
+  <object name="dungeon 10 wp" type="on_trigger" x="416" y="1408" width="64" height="64">
+   <properties>
+    <property name="intermap" value="dungeon10.txt,42,4"/>
    </properties>
   </object>
  </objectgroup>
