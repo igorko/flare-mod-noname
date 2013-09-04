@@ -203,6 +203,21 @@
     <property name="intermap" value="town.txt,14,47"/>
    </properties>
   </object>
+  <object name="wp activate" type="on_trigger" x="1344" y="32" width="192" height="192">
+   <properties>
+    <property name="mapmod" value="object,44,4,265"/>
+    <property name="msg" value="Waypoint discovered"/>
+    <property name="repeat" value="false"/>
+    <property name="requires_not" value="wp_dungeon_10"/>
+    <property name="set_status" value="wp_dungeon_10"/>
+   </properties>
+  </object>
+  <object name="wp mapmod" type="on_load" x="1312" y="224" width="32" height="32">
+   <properties>
+    <property name="mapmod" value="object,44,4,265"/>
+    <property name="requires_status" value="wp_dungeon_10"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
   <object name="Minotaur" type="ng_boss_minotaur" x="704" y="192" width="32" height="32"/>

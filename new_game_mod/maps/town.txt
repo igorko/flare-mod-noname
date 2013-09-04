@@ -345,12 +345,14 @@ intermap=woods.txt,165,184
 type=on_trigger
 location=8,48,2,2
 intermap=river_road.txt,18,15
+requires_status=wp_end
 
 [event]
 # end wp
 type=on_trigger
 location=13,51,2,2
 intermap=end.txt,11,8
+requires_status=wp_end
 
 [event]
 # set arrive status
@@ -379,6 +381,42 @@ requires_status=wp_sage_home
 type=on_trigger
 location=13,44,2,2
 intermap=dungeon10.txt,42,4
+requires_status=wp_dungeon_10
+
+[event]
+# dungeon way wp
+type=on_trigger
+location=17,44,2,2
+intermap=dungeon_way.txt,15,26
+requires_status=wp_dungeon_way
+
+[event]
+# wp mapmod dungeon way
+type=on_load
+location=16,46,1,1
+mapmod=object,17,45,265
+requires_status=wp_dungeon_way
+
+[event]
+# wp mapmod dungeon 10
+type=on_load
+location=12,46,1,1
+mapmod=object,13,45,265
+requires_status=wp_dungeon_10
+
+[event]
+# wp mapmod end
+type=on_load
+location=12,53,1,1
+mapmod=object,13,52,265
+requires_status=wp_end
+
+[event]
+# wp mapmod river road
+type=on_load
+location=7,50,1,1
+mapmod=object,8,49,265
+requires_status=wp_end
 
 [npc]
 # Ieuan

@@ -8,13 +8,13 @@ tileset=tileset_grassland.txt
 title=End
 
 [tilesets]
-tileset=../../../../tiled/grassland/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/grassland/grassland.png,64,128,0,0
-tileset=../../../../tiled/grassland/grassland_water.png,64,64,0,32
-tileset=../../../../tiled/grassland/grassland_structures.png,64,256,0,0
-tileset=../../../../tiled/grassland/grassland_trees.png,128,256,-32,0
-tileset=../../../../tiled/grassland/set_rules.png,64,32,0,0
-tileset=../../../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
+tileset=../../tiled/grassland/tiled_collision.png,64,32,0,0
+tileset=../../tiled/grassland/grassland.png,64,128,0,0
+tileset=../../tiled/grassland/grassland_water.png,64,64,0,32
+tileset=../../tiled/grassland/grassland_structures.png,64,256,0,0
+tileset=../../tiled/grassland/grassland_trees.png,128,256,-32,0
+tileset=../../tiled/grassland/set_rules.png,64,32,0,0
+tileset=../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
 
 [layer]
 type=background
@@ -159,4 +159,21 @@ intermap=battlefield6.txt,6,16
 type=on_trigger
 location=13,7,2,2
 intermap=town.txt,14,49
+
+[event]
+# wp activate
+type=on_trigger
+location=11,5,6,6
+mapmod=object,13,8,265
+msg=Waypoint discovered
+repeat=false
+requires_not=wp_end
+set_status=wp_end
+
+[event]
+# wp mapmod
+type=on_load
+location=10,11,1,1
+mapmod=object,13,8,265
+requires_status=wp_end
 

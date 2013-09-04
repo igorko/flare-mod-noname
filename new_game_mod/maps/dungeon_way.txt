@@ -8,13 +8,13 @@ tileset=tileset_grassland.txt
 title=Dungeon Way
 
 [tilesets]
-tileset=../../../../tiled/grassland/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/grassland/grassland.png,64,128,0,0
-tileset=../../../../tiled/grassland/grassland_water.png,64,64,0,32
-tileset=../../../../tiled/grassland/grassland_structures.png,64,256,0,0
-tileset=../../../../tiled/grassland/grassland_trees.png,128,256,-32,0
-tileset=../../../../tiled/grassland/set_rules.png,64,32,0,0
-tileset=../../../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
+tileset=../../tiled/grassland/tiled_collision.png,64,32,0,0
+tileset=../../tiled/grassland/grassland.png,64,128,0,0
+tileset=../../tiled/grassland/grassland_water.png,64,64,0,32
+tileset=../../tiled/grassland/grassland_structures.png,64,256,0,0
+tileset=../../tiled/grassland/grassland_trees.png,128,256,-32,0
+tileset=../../tiled/grassland/set_rules.png,64,32,0,0
+tileset=../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
 
 [layer]
 type=background
@@ -195,4 +195,27 @@ intermap=dungeon1.txt,9,43
 type=on_trigger
 location=4,20,1,2
 intermap=battlefield1.txt,92,17
+
+[event]
+# wp
+type=on_trigger
+location=14,28,2,2
+intermap=town.txt,21,45
+
+[event]
+# wp activate
+type=on_trigger
+location=12,26,6,6
+mapmod=object,14,29,265
+msg=Waypoint discovered
+repeat=false
+requires_not=wp_dungeon_way
+set_status=wp_dungeon_way
+
+[event]
+# wp mapmod
+type=on_load
+location=11,25,1,1
+mapmod=object,14,29,265
+requires_status=wp_dungeon_way
 

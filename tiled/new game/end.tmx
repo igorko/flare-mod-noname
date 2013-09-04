@@ -172,5 +172,20 @@
     <property name="intermap" value="town.txt,14,49"/>
    </properties>
   </object>
+  <object name="wp activate" type="on_trigger" x="352" y="160" width="192" height="192">
+   <properties>
+    <property name="mapmod" value="object,13,8,265"/>
+    <property name="msg" value="Waypoint discovered"/>
+    <property name="repeat" value="false"/>
+    <property name="requires_not" value="wp_end"/>
+    <property name="set_status" value="wp_end"/>
+   </properties>
+  </object>
+  <object name="wp mapmod" type="on_load" x="320" y="352" width="32" height="32">
+   <properties>
+    <property name="mapmod" value="object,13,8,265"/>
+    <property name="requires_status" value="wp_end"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

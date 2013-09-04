@@ -190,6 +190,23 @@ type=on_trigger
 location=44,3,2,2
 intermap=town.txt,14,47
 
+[event]
+# wp activate
+type=on_trigger
+location=42,1,6,6
+mapmod=object,44,4,265
+msg=Waypoint discovered
+repeat=false
+requires_not=wp_dungeon_10
+set_status=wp_dungeon_10
+
+[event]
+# wp mapmod
+type=on_load
+location=41,7,1,1
+mapmod=object,44,4,265
+requires_status=wp_dungeon_10
+
 [enemy]
 # Minotaur
 type=ng_boss_minotaur
