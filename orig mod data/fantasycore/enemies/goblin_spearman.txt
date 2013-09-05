@@ -1,0 +1,49 @@
+name=Goblin Spearman
+humanoid=true
+level=3
+categories=goblin,dungeon
+rarity=uncommon
+xp=5
+
+sfx_prefix=goblin
+animations=goblin
+
+
+# combat stats
+hp=60
+speed=4
+dspeed=3
+melee_range=76
+threat_range=512
+turn_delay=12
+chance_pursue=15
+chance_melee_phys=6
+chance_ranged_phys=2
+power_melee_phys=1
+power_ranged_phys=32
+power_beacon=132
+
+accuracy=80
+avoidance=25
+
+dmg_melee_min=5
+dmg_melee_max=25
+dmg_ranged_min=10
+dmg_ranged_max=35
+absorb_min=6
+absorb_max=6
+cooldown=25
+
+# loot
+loot=currency,33,3,12
+
+# slingshot, leather chest, leather pants, health pot
+loot=48,5
+loot=81,5
+loot=83,5
+loot=1,5
+
+# short bow
+loot=49,1
+
+

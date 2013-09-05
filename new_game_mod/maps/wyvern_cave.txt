@@ -8,9 +8,9 @@ tileset=tileset_cave.txt
 title=Wyvern Cave
 
 [tilesets]
-tileset=../../../../tiled/cave/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/cave/tiled_cave.png,64,128,0,0
-tileset=../../../../tiled/cave/set_rules.png,64,32,0,0
+tileset=../../tiled/cave/tiled_collision.png,64,32,0,0
+tileset=../../tiled/cave/tiled_cave.png,64,128,0,0
+tileset=../../tiled/cave/set_rules.png,64,32,0,0
 
 [layer]
 type=background
@@ -337,9 +337,16 @@ location=7,13,1,2
 intermap=wyvern_cave2.txt,76,66
 
 [enemygroup]
-# Wyvern Cave
-type=wyvern_cave
-location=8,9,71,78
+# antlion
+type=antlion
+location=35,9,45,78
+level=18,18
+number=20,30
+
+[enemygroup]
+# wyvern
+type=wyvern
+location=16,43,16,37
 level=15,20
-number=30,40
+number=8,12
 

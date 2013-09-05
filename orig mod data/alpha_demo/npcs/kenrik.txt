@@ -1,0 +1,24 @@
+# wandering trader
+name=Kenrik, Trade Guild
+level=hero
+
+# shop info
+vendor=true
+constant_stock=3,4,5,6,35,43,51,59,104,105,107,108,109,110,115,116,117,118,125
+#
+
+# animation info
+gfx=wandering_trader1
+
+# voiceover files
+vox_intro=male_merchant_01.ogg
+vox_intro=male_merchant_02.ogg
+vox_intro=male_merchant_03.ogg
+vox_intro=male_merchant_04.ogg
+
+# chat info
+#talker=true
+#portrait=male11
+
+#[dialog]
+#him=Looking to buy something?

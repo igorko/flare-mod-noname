@@ -1,0 +1,57 @@
+name=Skeletal Occultist
+humanoid=true
+level=7
+categories=skeleton,undead,dungeon,ice
+xp=100
+
+sfx_prefix=skeleton
+animations=skeleton_mage
+
+
+# combat stats
+hp=160
+speed=7
+dspeed=5
+melee_range=76
+threat_range=512
+turn_delay=6
+
+chance_pursue=15
+chance_melee_phys=10
+chance_ranged_ment=10
+
+# channel
+power_melee_phys=2
+# freeze
+power_ranged_ment=14
+
+power_beacon=132
+
+accuracy=87
+avoidance=37
+
+dmg_melee_min=15
+dmg_melee_max=45
+dmg_ment_min=20
+dmg_ment_max=50
+absorb_min=18
+absorb_max=18
+
+vulnerable_fire=200
+vulnerable_ice=50
+cooldown=15
+
+# loot
+loot=currency,33,7,28
+
+# staff, mana pot
+loot=42,5
+loot=2,5
+
+# ring of concentration, owl figurine, sapphire, sage mantle, sage frock
+loot=108,1
+loot=120,1
+loot=3,1
+loot=123,1
+loot=124,1
+

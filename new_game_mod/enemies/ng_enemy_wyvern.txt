@@ -1,4 +1,4 @@
-name=Venom Wyvern
+name=Wyvern
 level=18
 categories=wyvern,animal,wyvern_cave
 rarity=common

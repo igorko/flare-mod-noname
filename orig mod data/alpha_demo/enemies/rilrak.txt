@@ -1,0 +1,49 @@
+name=Rilrak, Goblin Shaman
+level=4
+xp=40
+
+sfx_prefix=goblin
+animations=goblin
+
+defeat_status=fr_rilrak_defeated
+
+
+# combat stats
+hp=190
+speed=4
+dspeed=3
+melee_range=152
+threat_range=512
+turn_delay=6
+chance_pursue=10
+chance_melee_phys=0
+chance_melee_ment=5
+chance_ranged_phys=5
+chance_ranged_ment=10
+power_melee_ment=6
+power_ranged_phys=11
+power_ranged_ment=6
+power_beacon=132
+
+accuracy=84
+avoidance=34
+
+dmg_ment_min=15
+dmg_ment_max=45
+absorb_min=5
+absorb_max=5
+cooldown=25
+cooldown_ranged_phys=90
+
+# loot
+loot=currency,33,4,16
+
+# wand, mana potion
+loot=40,5
+loot=2,5
+
+# rod, mage gloves, mage boots
+loot=41,1
+loot=74,1
+loot=76,1
+

@@ -279,10 +279,22 @@
   </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="80" height="80">
-  <object name="Wyvern Cave" type="wyvern_cave" x="160" y="32" width="1920" height="2336">
+  <object name="wyvern" type="wyvern" x="640" y="832" width="608" height="576">
    <properties>
     <property name="level" value="15,20"/>
-    <property name="number" value="25,35"/>
+    <property name="number" value="8,12"/>
+   </properties>
+  </object>
+  <object name="antlion" type="antlion" x="448" y="1536" width="1440" height="896">
+   <properties>
+    <property name="level" value="18,18"/>
+    <property name="number" value="20,25"/>
+   </properties>
+  </object>
+  <object name="antlion" type="antlion" x="256" y="96" width="1696" height="704">
+   <properties>
+    <property name="level" value="18,18"/>
+    <property name="number" value="15,25"/>
    </properties>
   </object>
  </objectgroup>

@@ -1,0 +1,17 @@
+# captured trader
+name=Talrych, Captured Trader
+level=7
+
+# shop info
+vendor=true
+constant_stock=1,2,3,4,5,6,106,111,112,113,114,119,120,121,122,123,124,126,
+random_stock=40
+
+# animation info
+gfx=wandering_trader1
+
+# voiceover files
+vox_intro=male_merchant_01.ogg
+vox_intro=male_merchant_02.ogg
+vox_intro=male_merchant_03.ogg
+vox_intro=male_merchant_04.ogg

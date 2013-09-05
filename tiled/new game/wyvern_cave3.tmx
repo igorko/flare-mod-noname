@@ -254,4 +254,12 @@
   <object name="Earth Wyvern" type="ng_boss_wyvern_earth" x="608" y="1184" width="32" height="32"/>
   <object name="Lightning Wyvern" type="ng_boss_wyvern_lightning" x="608" y="608" width="32" height="32"/>
  </objectgroup>
+ <objectgroup name="enemygroup" width="70" height="70">
+  <object name="wyvern" type="wyvern" x="544" y="736" width="320" height="320">
+   <properties>
+    <property name="level" value="18,18"/>
+    <property name="number" value="10,10"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

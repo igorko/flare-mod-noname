@@ -264,11 +264,50 @@
   </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="200" height="75">
-  <object name="Desert" type="desert" x="480" y="256" width="4960" height="1728">
+  <object name="zombie" type="zombie" x="1984" y="672" width="512" height="768">
    <properties>
-    <property name="level" value="8,12"/>
-    <property name="number" value="50,60"/>
+    <property name="level" value="10,12"/>
+    <property name="number" value="20,25"/>
    </properties>
   </object>
+  <object name="antlion" type="antlion" x="608" y="1088" width="1024" height="448">
+   <properties>
+    <property name="level" value="10,13"/>
+    <property name="number" value="10,12"/>
+   </properties>
+  </object>
+  <object name="skeleton" type="skeleton" x="3648" y="576" width="896" height="544">
+   <properties>
+    <property name="level" value="10,13"/>
+    <property name="number" value="10,15"/>
+   </properties>
+  </object>
+  <object name="ghost" type="ghost" x="3168" y="992" width="352" height="384">
+   <properties>
+    <property name="level" value="5,8"/>
+    <property name="number" value="10,15"/>
+   </properties>
+  </object>
+  <object name="zombie" type="zombie" x="608" y="448" width="512" height="320">
+   <properties>
+    <property name="level" value="10,12"/>
+    <property name="number" value="15,18"/>
+   </properties>
+  </object>
+  <object name="desert" type="desert" x="4544" y="224" width="832" height="1920">
+   <properties>
+    <property name="level" value="10,15"/>
+    <property name="number" value="8,12"/>
+   </properties>
+  </object>
+  <object name="spirit" type="spirit" x="2720" y="928" width="160" height="480">
+   <properties>
+    <property name="level" value="10,20"/>
+    <property name="number" value="5,7"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="enemy" width="200" height="75">
+  <object name="ghost captain" type="ng_enemy_ghost_captain" x="2944" y="1120" width="32" height="32"/>
  </objectgroup>
 </map>

@@ -271,17 +271,23 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="enemygroup" width="70" height="70" visible="0">
-  <object name="Spirit" type="spirit" x="320" y="160" width="1632" height="960">
+ <objectgroup name="enemygroup" width="70" height="70">
+  <object name="Spirit" type="spirit" x="352" y="384" width="576" height="640">
    <properties>
     <property name="level" value="10,16"/>
-    <property name="number" value="20,30"/>
+    <property name="number" value="8,10"/>
    </properties>
   </object>
   <object name="Spirit" type="spirit" x="64" y="1184" width="1920" height="704">
    <properties>
     <property name="level" value="10,16"/>
     <property name="number" value="10,20"/>
+   </properties>
+  </object>
+  <object name="spirit" type="spirit" x="1024" y="192" width="928" height="864">
+   <properties>
+    <property name="level" value="10,16"/>
+    <property name="number" value="15,20"/>
    </properties>
   </object>
  </objectgroup>

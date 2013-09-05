@@ -1,0 +1,52 @@
+name=Skeletal Prophet
+level=9
+xp=500
+
+sfx_prefix=skeleton
+animations=skeleton_mage
+
+
+# combat stats
+hp=250
+speed=7
+dspeed=5
+melee_range=76
+threat_range=512
+turn_delay=6
+
+chance_pursue=15
+chance_melee_phys=5
+chance_melee_ment=0
+chance_ranged_phys=1
+chance_ranged_ment=10
+power_melee_phys=1
+power_ranged_phys=19
+power_ranged_ment=30
+power_beacon=132
+
+accuracy=87
+avoidance=37
+
+dmg_melee_min=10
+dmg_melee_max=30
+dmg_ment_min=15
+dmg_ment_max=40
+
+vulnerable_fire=200
+vulnerable_ice=50
+cooldown=15
+
+# loot
+loot=currency,33,7,28
+
+# staff, mana pot
+loot=42,5
+loot=2,5
+
+# ring of concentration, owl figurine, sapphire, sage mantle, sage frock
+loot=108,1
+loot=120,1
+loot=3,1
+loot=123,1
+loot=124,1
+

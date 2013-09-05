@@ -259,9 +259,9 @@ requires_not=asylum_complete
 [enemygroup]
 # Spirit
 type=spirit
-location=10,5,51,30
+location=11,12,18,20
 level=10,16
-number=20,30
+number=8,10
 
 [enemygroup]
 # Spirit
@@ -269,4 +269,11 @@ type=spirit
 location=2,37,60,22
 level=10,16
 number=10,20
+
+[enemygroup]
+# spirit
+type=spirit
+location=32,6,29,27
+level=10,16
+number=15,20
 

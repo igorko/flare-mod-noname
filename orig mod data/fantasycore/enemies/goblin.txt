@@ -1,0 +1,35 @@
+name=Goblin
+humanoid=true
+level=1
+categories=goblin,dungeon
+rarity=common
+xp=1
+
+sfx_prefix=goblin
+animations=goblin
+
+# combat stats
+hp=30
+speed=4
+dspeed=3
+melee_range=72
+threat_range=512
+turn_delay=12
+chance_pursue=10
+chance_melee_phys=2
+power_beacon=132
+power_melee_phys=1
+
+accuracy=69
+avoidance=19
+
+dmg_melee_min=5
+dmg_melee_max=15
+cooldown=30
+
+# loot
+loot=currency,33,1,4
+# dagger
+loot=32,5
+
+

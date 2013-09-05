@@ -1,6 +1,6 @@
 name=Antlion Blinker
 level=18
-categories=antlion_blinker,ground,wyvern_cave
+categories=antlion,antlion_blinker,ground,wyvern_cave
 xp=250
 
 sfx_prefix=antlion

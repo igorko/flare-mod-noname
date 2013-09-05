@@ -1,0 +1,37 @@
+name=Ukkonen, Goblin Chieftain
+level=4
+xp=40
+
+sfx_prefix=goblin
+animations=goblin_elite_runner
+
+defeat_status=ak_ukkonen_defeated
+
+
+# combat stats
+hp=180
+speed=13
+dspeed=9
+melee_range=76
+threat_range=512
+turn_delay=4
+chance_pursue=30
+chance_melee_phys=20
+power_melee_phys=1
+
+accuracy=78
+avoidance=28
+
+dmg_melee_min=10
+dmg_melee_max=30
+cooldown=4
+
+# loot
+loot=currency,33,2,8
+# dagger, leather gloves, leather boots, healing pot
+loot=32,5
+loot=82,5
+loot=84,5
+loot=1,5
+
+
