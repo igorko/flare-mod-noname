@@ -1,6 +1,6 @@
 name=Skeleton Mage Elite
 level=25
-categories=ground,battlefield
+categories=ground,battlefield,battlefield_mage
 xp=800
 
 sfx_prefix=antlion

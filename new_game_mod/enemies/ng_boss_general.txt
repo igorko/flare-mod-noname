@@ -1,0 +1,29 @@
+name=Semi Big Boss
+level=30
+categories=ground
+xp=10000
+
+sfx_prefix=antlion
+animations=gribson
+
+# combat stats
+hp=15000
+hp_regen=100
+speed=13
+dspeed=9
+melee_range=76
+threat_range=512
+turn_delay=6
+chance_pursue=30
+chance_melee_phys=40
+power_melee_phys=1100
+power_beacon=1101
+
+accuracy=90
+avoidance=50
+absorb_min=50
+absorb_max=100
+
+dmg_melee_min=150
+dmg_melee_max=300
+cooldown=10

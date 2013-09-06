@@ -1,6 +1,6 @@
 name=Hobgoblin Elite Mage
 level=20
-categories=ground,woods2,marshlands,living_humanoid
+categories=hobgoblin,ground,woods2,marshlands,living_humanoid
 xp=450
 
 sfx_prefix=antlion

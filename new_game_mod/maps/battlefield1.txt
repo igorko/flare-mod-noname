@@ -223,7 +223,21 @@ requires_status=minotaur_complete
 [enemygroup]
 # battlefield
 type=battlefield
-location=4,3,73,41
+location=10,3,30,41
 level=20,30
-number=30,35
+number=15,25
+
+[enemygroup]
+# barricades
+type=wooden_barricade
+location=66,8,1,28
+level=20,30
+number=28,28
+
+[enemygroup]
+# scouts
+type=scout
+location=54,11,10,21
+level=22,30
+number=10,15
 

@@ -1,7 +1,8 @@
 name=Skirmisher
 level=25
-categories=ground,battlefield,living_humanoid
+categories=ground,battlefield,living_humanoid,battlefield_human,battlefield_archer,skirmisher
 xp=800
+rarity=uncommon
 
 sfx_prefix=antlion
 animations=orc_archer

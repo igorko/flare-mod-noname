@@ -1,7 +1,7 @@
 name=Cursed Grave
-level=10
+level=22
 categories=ground
-xp=50
+xp=200
 
 sfx_prefix=antlion
 animations=cursed_grave

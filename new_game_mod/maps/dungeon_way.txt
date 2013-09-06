@@ -219,3 +219,10 @@ location=11,25,1,1
 mapmod=object,14,29,265
 requires_status=wp_dungeon_way
 
+[enemygroup]
+# skeleton
+type=skeleton
+location=28,11,49,27
+level=24,24
+number=15,20
+

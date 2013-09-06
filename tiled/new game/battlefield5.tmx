@@ -264,16 +264,46 @@
   </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="125" height="70">
-  <object name="battlefield" type="battlefield" x="288" y="160" width="1600" height="1856">
-   <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="20,25"/>
-   </properties>
-  </object>
   <object name="battlefield" type="battlefield" x="2592" y="256" width="768" height="1536">
    <properties>
     <property name="level" value="20,30"/>
     <property name="number" value="10,15"/>
+   </properties>
+  </object>
+  <object name="infantry squad" type="infantry" x="1408" y="672" width="128" height="288">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="36,36"/>
+   </properties>
+  </object>
+  <object name="archer row" type="skirmisher" x="1920" y="448" width="32" height="768">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="24,24"/>
+   </properties>
+  </object>
+  <object name="skirmishers" type="skirmisher" x="448" y="768" width="64" height="64">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="4,4"/>
+   </properties>
+  </object>
+  <object name="skirmishers" type="skirmisher" x="448" y="1184" width="64" height="64">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="4,4"/>
+   </properties>
+  </object>
+  <object name="skeleton knights" type="skeleton_knight_elite" x="544" y="960" width="32" height="160">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="5,5"/>
+   </properties>
+  </object>
+  <object name="berserker squad" type="berserker" x="1120" y="1120" width="96" height="256">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="24"/>
    </properties>
   </object>
  </objectgroup>
@@ -296,5 +326,12 @@
   <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="928" width="32" height="32"/>
   <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="864" width="32" height="32"/>
   <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="800" width="32" height="32"/>
+  <object name="mage" type="ng_enemy_soldier_mage" x="1568" y="800" width="32" height="32"/>
+  <object name="Boss" type="ng_boss_general" x="608" y="1024" width="32" height="32"/>
+  <object name="skeleton mage" type="ng_enemy_skeleton_mage_elite" x="576" y="896" width="32" height="32"/>
+  <object name="skeleton mage" type="ng_enemy_skeleton_mage_elite" x="576" y="1152" width="32" height="32"/>
+  <object name="mage" type="ng_enemy_soldier_mage" x="448" y="896" width="32" height="32"/>
+  <object name="mage" type="ng_enemy_soldier_mage" x="448" y="1088" width="32" height="32"/>
+  <object name="mage" type="ng_enemy_soldier_mage" x="1248" y="1248" width="32" height="32"/>
  </objectgroup>
 </map>

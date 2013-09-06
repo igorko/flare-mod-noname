@@ -1,7 +1,7 @@
 name=Wooden Barricade
-level=3
+level=25
 xp=0
-categories=ground
+categories=ground,wooden_barricade
 
 sfx_prefix=none
 animations=wooden_barricade

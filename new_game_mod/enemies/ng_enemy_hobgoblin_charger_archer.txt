@@ -1,6 +1,6 @@
 name=Hobgoblin Elite Archer
 level=20
-categories=ground,woods2,marshlands,living_humanoid
+categories=hobgoblin,hobgoblin_archer,ground,woods2,marshlands,living_humanoid
 xp=50
 
 sfx_prefix=antlion

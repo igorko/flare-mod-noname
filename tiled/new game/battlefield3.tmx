@@ -354,11 +354,72 @@
   </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="150" height="100">
-  <object name="battlefield" type="battlefield" x="224" y="320" width="3712" height="2432">
+  <object name="archers" type="battlefield_archer" x="960" y="672" width="1184" height="768">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="30,40"/>
+    <property name="level" value="22,30"/>
+    <property name="number" value="25,30"/>
+   </properties>
+  </object>
+  <object name="archers" type="battlefield_archer" x="2560" y="1280" width="1088" height="704">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="15,25"/>
+   </properties>
+  </object>
+  <object name="barricade" type="wooden_barricade" x="1472" y="1472" width="32" height="320">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="10,10"/>
+   </properties>
+  </object>
+  <object name="barricade" type="wooden_barricade" x="2112" y="1536" width="32" height="480">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="15,15"/>
+   </properties>
+  </object>
+  <object name="barricade" type="wooden_barricade" x="1696" y="1664" width="32" height="384">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="12,12"/>
+   </properties>
+  </object>
+  <object name="barricade" type="wooden_barricade" x="1152" y="1568" width="32" height="448">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="14,14"/>
+   </properties>
+  </object>
+  <object name="barricade" type="wooden_barricade" x="1376" y="1728" width="32" height="416">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="13,13"/>
+   </properties>
+  </object>
+  <object name="mage" type="battlefield_mage" x="1216" y="1504" width="128" height="608">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="4,8"/>
+   </properties>
+  </object>
+  <object name="mage" type="battlefield_mage" x="1504" y="1504" width="160" height="640">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="6,12"/>
+   </properties>
+  </object>
+  <object name="mage" type="battlefield_mage" x="1824" y="1504" width="288" height="544">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="8,12"/>
+   </properties>
+  </object>
+  <object name="battlefield" type="battlefield" x="2240" y="480" width="1376" height="768">
+   <properties>
+    <property name="level" value="22,30"/>
+    <property name="number" value="8,12"/>
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="enemy" width="150" height="100"/>
 </map>

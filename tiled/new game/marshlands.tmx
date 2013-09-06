@@ -359,10 +359,46 @@
   </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="100" height="100">
-  <object name="Marshlands" type="marshlands" x="288" y="320" width="2432" height="2464">
+  <object name="archers" type="hobgoblin_archer" x="1408" y="448" width="416" height="256">
    <properties>
-    <property name="level" value="15,25"/>
-    <property name="number" value="25,30"/>
+    <property name="level" value="18,22"/>
+    <property name="number" value="5,8"/>
+   </properties>
+  </object>
+  <object name="antlion" type="antlion" x="128" y="192" width="672" height="1376">
+   <properties>
+    <property name="level" value="18,22"/>
+    <property name="number" value="10,15"/>
+   </properties>
+  </object>
+  <object name="hobgoblin" type="hobgoblin" x="1312" y="1504" width="416" height="896">
+   <properties>
+    <property name="level" value="18,22"/>
+    <property name="number" value="6,10"/>
+   </properties>
+  </object>
+  <object name="hobgoblin" type="hobgoblin" x="832" y="864" width="224" height="448">
+   <properties>
+    <property name="level" value="18,22"/>
+    <property name="number" value="4,8"/>
+   </properties>
+  </object>
+  <object name="hobgoblin" type="hobgoblin" x="1280" y="736" width="352" height="352">
+   <properties>
+    <property name="level" value="18,22"/>
+    <property name="number" value="8,10"/>
+   </properties>
+  </object>
+  <object name="hobgoblin" type="hobgoblin" x="2304" y="1600" width="224" height="288">
+   <properties>
+    <property name="level" value="18,22"/>
+    <property name="number" value="4,8"/>
+   </properties>
+  </object>
+  <object name="antlion" type="antlion" x="2176" y="2208" width="352" height="64">
+   <properties>
+    <property name="level" value="18,22"/>
+    <property name="number" value="2,4"/>
    </properties>
   </object>
  </objectgroup>

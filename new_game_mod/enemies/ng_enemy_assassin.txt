@@ -1,7 +1,8 @@
 name=Assassin
 level=25
-categories=ground,battlefield,living_humanoid
+categories=ground,battlefield,living_humanoid,assassin
 xp=600
+rarity=rare
 
 sfx_prefix=antlion
 animations=stealth
@@ -12,18 +13,18 @@ hp_regen=50
 speed=4
 dspeed=3
 melee_range=76
-threat_range=512
+threat_range=1024
 turn_delay=6
 chance_pursue=20
-chance_melee_phys=15
+chance_melee_phys=35
 power_melee_phys=1100
 power_beacon=1101
 
-accuracy=55
+accuracy=85
 avoidance=15
 absorb_min=1
 absorb_max=5
 
 dmg_melee_min=150
-dmg_melee_max=250
+dmg_melee_max=350
 cooldown=10

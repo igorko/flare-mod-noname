@@ -1,6 +1,6 @@
 name=Skeleton Archer
 level=25
-categories=ground,battlefield
+categories=ground,battlefield,battlefield_archer
 xp=650
 
 sfx_prefix=antlion

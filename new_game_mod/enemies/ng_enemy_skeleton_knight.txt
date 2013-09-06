@@ -1,6 +1,6 @@
 name=Skeleton Knight
-level=10
-categories=ground
+level=24
+categories=ground,skeleton,skeleton_knight,undead,dungeon
 xp=700
 
 sfx_prefix=antlion

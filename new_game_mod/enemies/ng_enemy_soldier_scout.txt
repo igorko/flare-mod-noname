@@ -1,6 +1,6 @@
 name=Scout
 level=25
-categories=ground,battlefield,living_humanoid
+categories=ground,battlefield,living_humanoid,battlefield_human,scout
 xp=500
 
 sfx_prefix=antlion

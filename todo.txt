@@ -6,13 +6,11 @@ improve cave and dungeon floors
 better map names
 create maps to fill in the 'unknown location' from the alpha maps - add some uber bossses in there for after game completion
 add some sort of game ending to the alpha demo maps
-more thoughtful enemy placement on the later maps
 
 
 enemies:
 enemies in minotaur dungeon
 create bosses for a few maps
-create end bosses
 setup enemy powers
 super power the alpha demo enemies
 

@@ -8,13 +8,13 @@ tileset=tileset_grassland.txt
 title=Battlefield 6
 
 [tilesets]
-tileset=../../../../tiled/grassland/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/grassland/grassland.png,64,128,0,0
-tileset=../../../../tiled/grassland/grassland_water.png,64,64,0,32
-tileset=../../../../tiled/grassland/grassland_structures.png,64,256,0,0
-tileset=../../../../tiled/grassland/grassland_trees.png,128,256,-32,0
-tileset=../../../../tiled/grassland/set_rules.png,64,32,0,0
-tileset=../../../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
+tileset=../../tiled/grassland/tiled_collision.png,64,32,0,0
+tileset=../../tiled/grassland/grassland.png,64,128,0,0
+tileset=../../tiled/grassland/grassland_water.png,64,64,0,32
+tileset=../../tiled/grassland/grassland_structures.png,64,256,0,0
+tileset=../../tiled/grassland/grassland_trees.png,128,256,-32,0
+tileset=../../tiled/grassland/set_rules.png,64,32,0,0
+tileset=../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
 
 [layer]
 type=background
@@ -189,4 +189,58 @@ intermap=battlefield5.txt,4,31
 type=on_trigger
 location=4,16,1,2
 intermap=end.txt,32,32
+
+[enemy]
+# Boss
+type=ng_boss_big
+location=22,18,1,1
+
+[enemy]
+# assassins
+type=assassin
+location=20,9,2,2
+level=20,30
+number=4,4
+
+[enemy]
+# assassins
+type=assassin
+location=20,26,2,2
+level=22,30
+number=4,4
+
+[enemygroup]
+# skeleton knights
+type=skeleton_knight_elite
+location=23,13,1,11
+level=22,30
+number=11,11
+
+[enemygroup]
+# skirmishers
+type=skirmisher
+location=18,11,1,15
+level=22,30
+number=15
+
+[enemygroup]
+# barricades
+type=wooden_barricade
+location=27,21,1,8
+level=20,30
+number=8,8
+
+[enemygroup]
+# barricades
+type=wooden_barricade
+location=27,8,1,8
+level=20,30
+number=8,8
+
+[enemygroup]
+# barricades
+type=wooden_barricade
+location=31,13,1,11
+level=20,30
+number=11
 

@@ -1,0 +1,35 @@
+name=Big Boss
+level=35
+categories=ground
+xp=10000
+
+sfx_prefix=antlion
+animations=scathelocke
+
+# combat stats
+hp=25000
+hp_regen=200
+speed=14
+dspeed=9
+melee_range=76
+threat_range=512
+turn_delay=6
+chance_pursue=10
+chance_melee_phys=15
+chance_ranged_ment=50
+power_melee_phys=1100
+power_ranged_ment=1103
+power_beacon=1101
+
+accuracy=95
+avoidance=55
+absorb_min=50
+absorb_max=200
+
+dmg_ment_min=150
+dmg_ment_max=400
+dmg_melee_min=100
+dmg_melee_max=350
+cooldown=10
+
+chance_flee=50

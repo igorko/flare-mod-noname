@@ -8,13 +8,13 @@ tileset=tileset_grassland.txt
 title=Marshlands
 
 [tilesets]
-tileset=../../../../tiled/grassland/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/grassland/grassland.png,64,128,0,0
-tileset=../../../../tiled/grassland/grassland_water.png,64,64,0,32
-tileset=../../../../tiled/grassland/grassland_structures.png,64,256,0,0
-tileset=../../../../tiled/grassland/grassland_trees.png,128,256,-32,0
-tileset=../../../../tiled/grassland/set_rules.png,64,32,0,0
-tileset=../../../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
+tileset=../../tiled/grassland/tiled_collision.png,64,32,0,0
+tileset=../../tiled/grassland/grassland.png,64,128,0,0
+tileset=../../tiled/grassland/grassland_water.png,64,64,0,32
+tileset=../../tiled/grassland/grassland_structures.png,64,256,0,0
+tileset=../../tiled/grassland/grassland_trees.png,128,256,-32,0
+tileset=../../tiled/grassland/set_rules.png,64,32,0,0
+tileset=../../tiled/grassland/tiled_grassland_2x2.png,128,64,0,16
 
 [layer]
 type=background
@@ -347,9 +347,51 @@ location=18,55,1,2
 intermap=dungeon_way.txt,89,31
 
 [enemygroup]
-# Marshlands
-type=marshlands
-location=9,10,76,77
-level=15,25
-number=25,30
+# archers
+type=hobgoblin_archer
+location=44,14,13,8
+level=18,22
+number=5,8
+
+[enemygroup]
+# antlion
+type=antlion
+location=4,6,21,43
+level=18,22
+number=10,15
+
+[enemygroup]
+# hobgoblin
+type=hobgoblin
+location=41,47,13,28
+level=18,22
+number=6,10
+
+[enemygroup]
+# hobgoblin
+type=hobgoblin
+location=26,27,7,14
+level=18,22
+number=4,8
+
+[enemygroup]
+# hobgoblin
+type=hobgoblin
+location=40,23,11,11
+level=18,22
+number=8,10
+
+[enemygroup]
+# hobgoblin
+type=hobgoblin
+location=72,50,7,9
+level=18,22
+number=4,8
+
+[enemygroup]
+# antlion
+type=antlion
+location=68,69,11,2
+level=18,22
+number=2,4
 

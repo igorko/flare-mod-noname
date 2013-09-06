@@ -1,6 +1,6 @@
 name=Skeleton Apprentice
 level=25
-categories=ground,battlefield
+categories=ground,battlefield,battlefield_mage
 xp=550
 
 sfx_prefix=antlion

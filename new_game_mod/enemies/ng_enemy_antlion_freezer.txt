@@ -1,6 +1,6 @@
 name=Antlion Freezer
 level=20
-categories=ground,woods2,marshlands
+categories=antlion,ground,woods2,marshlands
 xp=400
 
 sfx_prefix=antlion

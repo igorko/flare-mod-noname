@@ -253,16 +253,51 @@ intermap=battlefield6.txt,67,28
 [enemygroup]
 # battlefield
 type=battlefield
-location=9,5,50,58
-level=20,30
-number=20,25
-
-[enemygroup]
-# battlefield
-type=battlefield
 location=81,8,24,48
 level=20,30
 number=10,15
+
+[enemygroup]
+# infantry squad
+type=infantry
+location=44,21,4,9
+level=22,30
+number=36,36
+
+[enemygroup]
+# archer row
+type=skirmisher
+location=60,14,1,24
+level=22,30
+number=24,24
+
+[enemygroup]
+# skirmishers
+type=skirmisher
+location=14,24,2,2
+level=22,30
+number=4,4
+
+[enemygroup]
+# skirmishers
+type=skirmisher
+location=14,37,2,2
+level=22,30
+number=4,4
+
+[enemygroup]
+# skeleton knights
+type=skeleton_knight_elite
+location=17,30,1,5
+level=22,30
+number=5,5
+
+[enemygroup]
+# berserker squad
+type=berserker
+location=35,35,3,8
+level=22,30
+number=24
 
 [enemy]
 # barricade
@@ -353,4 +388,39 @@ location=74,27,1,1
 # skirmisher
 type=ng_enemy_soldier_skirmisher
 location=74,25,1,1
+
+[enemy]
+# mage
+type=ng_enemy_soldier_mage
+location=49,25,1,1
+
+[enemy]
+# Boss
+type=ng_boss_general
+location=19,32,1,1
+
+[enemy]
+# skeleton mage
+type=ng_enemy_skeleton_mage_elite
+location=18,28,1,1
+
+[enemy]
+# skeleton mage
+type=ng_enemy_skeleton_mage_elite
+location=18,36,1,1
+
+[enemy]
+# mage
+type=ng_enemy_soldier_mage
+location=14,28,1,1
+
+[enemy]
+# mage
+type=ng_enemy_soldier_mage
+location=14,34,1,1
+
+[enemy]
+# mage
+type=ng_enemy_soldier_mage
+location=39,39,1,1
 
