@@ -4678,3 +4678,19 @@ trait_ignore_avoidance=true
 post_effect=519,0,150
 
 
+[power]
+id=1105
+#name=Summon Fresh Zombie
+type=spawn
+icon=0
+spawn_type=ng_enemy_zombie_fresh
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,10
+
+
+
+
+
+

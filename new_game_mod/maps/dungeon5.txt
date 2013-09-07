@@ -190,3 +190,10 @@ type=on_trigger
 location=5,44,2,1
 intermap=dungeon6.txt,5,43
 
+[enemygroup]
+# skeletons
+type=dungeon_skeleton
+location=12,6,37,43
+level=20,30
+number=10,20
+

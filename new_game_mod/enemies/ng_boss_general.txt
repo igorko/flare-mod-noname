@@ -4,11 +4,11 @@ categories=ground
 xp=10000
 
 sfx_prefix=antlion
-animations=gribson
+animations=grisbon
 
 # combat stats
 hp=15000
-hp_regen=100
+hp_regen=50
 speed=13
 dspeed=9
 melee_range=76
@@ -21,9 +21,11 @@ power_beacon=1101
 
 accuracy=90
 avoidance=50
-absorb_min=50
+absorb_min=20
 absorb_max=100
 
 dmg_melee_min=150
 dmg_melee_max=300
 cooldown=10
+
+poise=80

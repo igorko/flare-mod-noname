@@ -7,13 +7,9 @@ better map names
 create maps to fill in the 'unknown location' from the alpha maps - add some uber bossses in there for after game completion
 add some sort of game ending to the alpha demo maps
 
-
 enemies:
-enemies in minotaur dungeon
-create bosses for a few maps
 setup enemy powers
 super power the alpha demo enemies
-
 
 powers:
 Setup level scaling stats for spawned allies
@@ -21,8 +17,8 @@ Setup ally powers
 stats for transform creatures
 runes graphics for the transformation effect
 
-
 Development:
+enemy rarity has reverse effect
 requires_not for enemies
 give set_status after converting a quest enemy - for the first quest
 powers to require_power multiple times
@@ -31,7 +27,7 @@ after ubnlocking next level power, auto replace the previous one
 make sure multiple levels of the same spawn power cant be used simultaneously
 keep passives when transformed
 auto pause when speaking to an npc
-
+better targeting from allies
 
 npcs & quests:
 Bryn to create some rare items in return for components
@@ -40,13 +36,11 @@ names for places and people referred to
 create missing text for the quest log
 add some dialogue with the two main end bosses
 
-
 Items:
 All items still to be created
 artifacts from +1 up to +5 to stat points
 ranged weapons to go in main hand slot
 block power to be linked to equipped shields
-
 
 graphics:
 Appropriate icons for player powers

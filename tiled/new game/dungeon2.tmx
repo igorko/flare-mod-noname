@@ -204,4 +204,25 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="enemy" width="50" height="50">
+  <object name="Cursed Grave" type="ng_enemy_cursed_grave" x="512" y="864" width="32" height="32"/>
+  <object name="cursed grave" type="ng_enemy_cursed_grave" x="672" y="864" width="32" height="32"/>
+  <object name="cursed grave" type="ng_enemy_cursed_grave" x="832" y="864" width="32" height="32"/>
+  <object name="cursed grave" type="ng_enemy_cursed_grave" x="992" y="864" width="32" height="32"/>
+  <object name="cursed grave" type="ng_enemy_cursed_grave" x="1152" y="864" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="enemygroup" width="50" height="50">
+  <object name="skeletons" type="dungeon_skeleton" x="64" y="192" width="160" height="992">
+   <properties>
+    <property name="level" value="20,30"/>
+    <property name="number" value="5,10"/>
+   </properties>
+  </object>
+  <object name="skeletons" type="dungeon_skeleton" x="416" y="992" width="928" height="384">
+   <properties>
+    <property name="level" value="20,30"/>
+    <property name="number" value="8,16"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

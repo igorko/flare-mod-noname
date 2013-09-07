@@ -1,15 +1,15 @@
 name=Minotaur
 humanoid=true
-level=8
-categories=minotaur,dungeon,ground
-xp=200
+level=25
+categories=ground
+xp=1500
 
 sfx_prefix=minotaur
 animations=minotaur
 
 
 # combat stats
-hp=180
+hp=4000
 speed=11
 dspeed=8
 melee_range=76

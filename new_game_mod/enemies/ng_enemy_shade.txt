@@ -3,7 +3,6 @@ level=13
 categories=shade,spirit,undead,ground,asylum
 xp=180
 intangible=true
-rarity=uncommon
 
 sfx_prefix=antlion
 animations=shadow

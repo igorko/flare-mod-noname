@@ -13,7 +13,7 @@ speed=0
 dspeed=0
 facing=0
 melee_range=152
-threat_range=512
+threat_range=256
 
 chance_pursue=0
 

@@ -2,7 +2,6 @@ name=Poltergeist
 level=15
 categories=poltergeist,spirit,undead,ground,asylum
 xp=150
-rarity=uncommon
 
 sfx_prefix=antlion
 animations=longsword

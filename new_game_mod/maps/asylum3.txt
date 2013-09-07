@@ -8,13 +8,13 @@ tileset=tileset_dungeon.txt
 title=Asylum3
 
 [tilesets]
-tileset=../../../../tiled/dungeon/tiled_collision.png,64,32,0,0
-tileset=../../../../tiled/dungeon/tiled_dungeon.png,64,128,0,0
-tileset=../../../../tiled/dungeon/set_rules.png,64,32,0,0
-tileset=../../../../tiled/dungeon/tiled_dungeon_2x2.png,128,64,0,16
-tileset=../../../../tiled/dungeon/door_left.png,64,128,-16,-8
-tileset=../../../../tiled/dungeon/door_right.png,64,128,16,-8
-tileset=../../../../tiled/dungeon/stairs.png,256,256,0,48
+tileset=../../tiled/dungeon/tiled_collision.png,64,32,0,0
+tileset=../../tiled/dungeon/tiled_dungeon.png,64,128,0,0
+tileset=../../tiled/dungeon/set_rules.png,64,32,0,0
+tileset=../../tiled/dungeon/tiled_dungeon_2x2.png,128,64,0,16
+tileset=../../tiled/dungeon/door_left.png,64,128,-16,-8
+tileset=../../tiled/dungeon/door_right.png,64,128,16,-8
+tileset=../../tiled/dungeon/stairs.png,256,256,0,48
 
 [layer]
 type=background
@@ -211,13 +211,6 @@ level=18,18
 number=3,3
 
 [enemygroup]
-# Ghost Captain
-type=ghost_captain
-location=19,15,3,14
-level=14,14
-number=4,6
-
-[enemygroup]
 # Spirit
 type=spirit
 location=12,4,10,5
@@ -237,4 +230,9 @@ type=poltergeist
 location=14,13,1,17
 level=15,15
 number=4,6
+
+[enemy]
+# commander
+type=ng_boss_ghost_commander
+location=19,20,1,1
 

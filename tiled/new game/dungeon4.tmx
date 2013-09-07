@@ -204,4 +204,18 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="enemygroup" width="50" height="50">
+  <object name="skeletons" type="dungeon_skeleton" x="32" y="896" width="1536" height="672">
+   <properties>
+    <property name="level" value="20,30"/>
+    <property name="number" value="8,12"/>
+   </properties>
+  </object>
+  <object name="skeletons" type="dungeon_skeleton" x="480" y="32" width="768" height="864">
+   <properties>
+    <property name="level" value="20,30"/>
+    <property name="number" value="6,12"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -212,3 +212,69 @@ requires_status=wp_dungeon_10
 type=ng_boss_minotaur
 location=22,6,1,1
 
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=15,2,1,1
+
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=19,2,1,1
+
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=23,2,1,1
+
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=27,2,1,1
+
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=31,2,1,1
+
+[enemy]
+# skeleton mage
+type=ng_enemy_skeleton_mage
+location=18,5,1,1
+
+[enemy]
+# skeleton mage
+type=ng_enemy_skeleton_mage
+location=26,5,1,1
+
+[enemy]
+# skeleton knight
+type=ng_enemy_skeleton_knight
+location=17,9,1,1
+
+[enemy]
+# skeleton knight
+type=ng_enemy_skeleton_knight
+location=27,9,1,1
+
+[enemygroup]
+# skeletons
+type=dungeon_skeleton
+location=18,20,9,25
+level=20,30
+number=6,12
+
+[enemygroup]
+# skeletons
+type=dungeon_skeleton
+location=32,21,15,26
+level=20,30
+number=8,16
+
+[enemygroup]
+# skeletons
+type=dungeon_skeleton
+location=2,21,12,12
+level=20,30
+number=4,6
+

@@ -190,3 +190,44 @@ type=on_trigger
 location=14,35,2,1
 intermap=dungeon7.txt,12,36
 
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=12,17,1,1
+
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=19,11,1,1
+
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=26,33,1,1
+
+[enemy]
+# cursed grave
+type=ng_enemy_cursed_grave
+location=33,23,1,1
+
+[enemygroup]
+# skeletons
+type=dungeon_skeleton
+location=19,12,13,19
+level=20,30
+number=6,12
+
+[enemygroup]
+# skeletons
+type=dungeon_skeleton
+location=1,1,48,10
+level=20,30
+number=6,12
+
+[enemygroup]
+# skeletons
+type=dungeon_skeleton
+location=34,31,15,18
+level=20,30
+number=4,8
+

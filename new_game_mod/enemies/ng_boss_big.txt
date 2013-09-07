@@ -8,7 +8,7 @@ animations=scathelocke
 
 # combat stats
 hp=25000
-hp_regen=200
+hp_regen=100
 speed=14
 dspeed=9
 melee_range=76
@@ -23,8 +23,8 @@ power_beacon=1101
 
 accuracy=95
 avoidance=55
-absorb_min=50
-absorb_max=200
+absorb_min=20
+absorb_max=100
 
 dmg_ment_min=150
 dmg_ment_max=400
@@ -33,3 +33,5 @@ dmg_melee_max=350
 cooldown=10
 
 chance_flee=50
+
+poise=90

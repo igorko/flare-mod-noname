@@ -1,6 +1,6 @@
 name=Skeleton Mage
 level=24
-categories=ground,skeleton,skeleton_mage,undead,dungeon
+categories=ground,skeleton,skeleton_mage,undead,dungeon_skeleton
 xp=700
 
 sfx_prefix=antlion

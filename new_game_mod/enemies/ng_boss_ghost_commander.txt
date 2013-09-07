@@ -1,14 +1,14 @@
-name=Ghost Captain
-level=14
-categories=ghost_captain,spirit,undead,ground,asylum
-xp=180
+name=Ghostly Commander
+level=18
+categories=ground
+xp=1800
 intangible=true
 
 sfx_prefix=antlion
 animations=pirate_ghost_captain
 
 # combat stats
-hp=160
+hp=2600
 hp_regen=50
 speed=8
 dspeed=5

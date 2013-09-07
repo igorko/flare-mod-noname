@@ -9,7 +9,7 @@ animations=wyvern_water
 
 
 # combat stats
-hp=70
+hp=2000
 speed=10
 dspeed=7
 flying=1

@@ -8,7 +8,7 @@ sfx_prefix=minotaur
 animations=werebear
 
 # combat stats
-hp=180
+hp=1800
 speed=11
 dspeed=8
 melee_range=76
