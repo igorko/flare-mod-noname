@@ -430,3 +430,8 @@ type=evan
 location=48,20,1,1
 requires_not=minotaur_complete
 
+[npc]
+# Branwen
+type=branwen
+location=59,54,1,1
+

@@ -431,5 +431,6 @@
     <property name="requires_not" value="minotaur_complete"/>
    </properties>
   </object>
+  <object name="Branwen" type="branwen" x="1888" y="1728" width="32" height="32"/>
  </objectgroup>
 </map>

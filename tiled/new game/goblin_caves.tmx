@@ -344,6 +344,7 @@
     <property name="requires_not" value="minotaur_complete"/>
    </properties>
   </object>
+  <object name="Ivan" type="ivan" x="736" y="2176" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="enemygroup" width="100" height="100">
   <object name="Spiders" type="arachnid" x="1792" y="320" width="480" height="736">
