@@ -3,7 +3,7 @@ level=4
 
 # shop info
 vendor=true
-constant_stock=32,33,34,56,57,58,88,89,90,91,92
+constant_stock=1,2,33,49,57,84,250
 
 # animation info
 gfx=peddler_goblin

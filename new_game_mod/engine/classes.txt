@@ -1,0 +1,11 @@
+# Hero classes
+# name must be first
+# physical/mental/offense/defense points should total to no greater than the max available points
+
+[class]
+name=Adventurer
+description=Your basic sword wielding, dragon slaying adventurer
+currency=20
+equipment=64,66,67,32
+powers=600
+actionbar=0,0,0,0,0,0,0,0,0,0,600,0

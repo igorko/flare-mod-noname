@@ -27,3 +27,5 @@ absorb_max=8
 dmg_melee_min=15
 dmg_melee_max=35
 cooldown=10
+
+loot=currency,5,10,20

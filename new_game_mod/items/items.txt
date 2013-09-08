@@ -10,7 +10,7 @@ power_desc=Restore 100 HP
 item_type=consumable
 soundfx=soundfx/inventory/inventory_potion.ogg
 loot_animation=hp_potion
-price=25
+price=100
 max_quantity=10
 rand_vendor=3
 
@@ -24,7 +24,7 @@ power_desc=Restore 100 MP
 item_type=consumable
 soundfx=soundfx/inventory/inventory_potion.ogg
 loot_animation=mp_potion
-price=25
+price=100
 max_quantity=10
 rand_vendor=3
 
@@ -78,6 +78,20 @@ price=1000
 price_sell=1000
 max_quantity=100
 
+[item]
+id=10
+name=Gold
+quality=normal
+icon=88
+item_type=other
+price=1
+price_sell=1
+max_quantity=5000
+soundfx=soundfx/inventory/inventory_coins.ogg
+loot_animation=coins5,0,9
+loot_animation=coins25,10,24
+loot_animation=coins100,25,0
+
 # Basic Melee Weapons #################
 
 [item]
@@ -85,35 +99,38 @@ id=32
 name=Dagger
 quality=normal
 item_type=main
+equip_flags=melee
 icon=96
 dmg_melee=10,30
-req=p,2
+req=p,1
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=dagger
 loot_animation=dagger
-price=20
+price=100
 
 [item]
 id=33
 name=Shortsword
 quality=normal
 item_type=main
+equip_flags=melee
 icon=97
-dmg_melee=15,40
+dmg_melee=25,50
 req=p,3
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=shortsword
 loot_animation=shortsword
-price=100
+price=250
 
 [item]
 id=34
 name=Longsword
 quality=normal
 item_type=main
+equip_flags=melee
 icon=98
-dmg_melee=20,50
-req=p,4
+dmg_melee=50,80
+req=p,6
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=longsword
 loot_animation=longsword
@@ -124,9 +141,10 @@ id=35
 name=Greatsword
 quality=normal
 item_type=main
+equip_flags=melee
 icon=99
-dmg_melee=25,60
-req=p,5
+dmg_melee=75,100
+req=p,10
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=greatsword
 loot_animation=greatsword
@@ -139,6 +157,7 @@ id=40
 name=Wand
 quality=normal
 item_type=main
+equip_flags=mental
 icon=104
 dmg_ment=10,30
 req=m,2
@@ -152,6 +171,7 @@ id=41
 name=Rod
 quality=normal
 item_type=main
+equip_flags=mental
 icon=105
 dmg_ment=15,40
 req=m,3
@@ -165,6 +185,7 @@ id=42
 name=Staff
 quality=normal
 item_type=main
+equip_flags=mental
 icon=106
 dmg_ment=20,50
 req=m,4
@@ -178,6 +199,7 @@ id=43
 name=Greatstaff
 quality=normal
 item_type=main
+equip_flags=mental
 icon=107
 dmg_ment=25,60
 req=m,5
@@ -192,57 +214,61 @@ price=2240
 id=48
 name=Slingshot
 quality=normal
-item_type=off
+item_type=main
+equip_flags=ranged
 icon=112
-dmg_ranged=10,30
+dmg_ranged=5,15
 power_mod=120
 req=o,2
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=slingshot
 loot_animation=slingshot
-price=16
+price=100
 
 [item]
 id=49
 name=Shortbow
 quality=normal
-item_type=off
+item_type=main
+equip_flags=ranged
 icon=113
-dmg_ranged=15,40
+dmg_ranged=10,25
 power_mod=121
-req=o,3
+req=o,4
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=shortbow
 loot_animation=shortbow
-price=88
+price=288
 
 [item]
 id=50
 name=Longbow
 quality=normal
-item_type=off
+item_type=main
+equip_flags=ranged
 icon=114
-dmg_ranged=20,50
+dmg_ranged=20,40
 power_mod=121
-req=o,4
+req=o,7
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=longbow
 loot_animation=longbow
-price=450
+price=650
 
 [item]
 id=51
 name=Greatbow
 quality=normal
-item_type=off
+item_type=main
+equip_flags=ranged
 icon=115
-dmg_ranged=25,60
+dmg_ranged=25,50
 power_mod=121
-req=o,5
+req=o,10
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=greatbow
 loot_animation=greatbow
-price=1950
+price=2450
 
 # Basic Shields #######################
 
@@ -251,48 +277,56 @@ id=56
 name=Wood Buckler
 quality=normal
 item_type=off
+equip_flags=shield
 icon=120
-abs=0,10
+abs=0,6
 req=d,2
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=buckler
 loot_animation=buckler
-price=30
+power=916
+power_desc=Use: Raise your shield to double your avoidance and absorb
+price=180
 
 [item]
 id=57
 name=Iron Buckler
 quality=normal
 item_type=off
+equip_flags=shield
 icon=121
-abs=5,15
-req=d,3
+abs=2,12
+req=d,4
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=iron_buckler
 loot_animation=buckler
-price=140
+power=917
+power_desc=Use: Raise your shield to double your avoidance and absorb
+price=340
 
 [item]
 id=58
 name=Crest Shield
 quality=normal
 item_type=off
+equip_flags=shield
 icon=122
 abs=10,20
-req=d,4
+req=d,6
 soundfx=soundfx/inventory/inventory_heavy.ogg
 gfx=shield
 loot_animation=shield
-price=560
+price=660
 
 [item]
 id=59
 name=Tower Shield
 quality=normal
 item_type=off
+equip_flags=shield
 icon=122
 abs=15,25
-req=d,5
+req=d,8
 soundfx=soundfx/inventory/inventory_heavy.ogg
 gfx=shield
 loot_animation=shield
@@ -306,6 +340,7 @@ name=Cloth Shirt
 quality=normal
 item_type=chest
 icon=129
+abs=0,1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_shirt
 loot_animation=clothes
@@ -317,6 +352,7 @@ name=Cloth Gloves
 quality=normal
 item_type=hands
 icon=130
+abs=0,1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_gloves
 loot_animation=clothes
@@ -324,10 +360,11 @@ price=2
 
 [item]
 id=66
-name=Cloth Pants
+name=Cloth Trousers
 quality=normal
 item_type=legs
 icon=131
+abs=0,1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_pants
 loot_animation=clothes
@@ -339,6 +376,7 @@ name=Cloth Sandals
 quality=normal
 item_type=feet
 icon=132
+abs=0,1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_sandals
 loot_animation=clothes
@@ -429,12 +467,12 @@ name=Leather Hood
 quality=normal
 item_type=head
 icon=144
-abs=1
+abs=1,2
 req=d,2
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=leather_hood
 loot_animation=leather_armor
-price=14
+price=140
 
 [item]
 id=81
@@ -442,12 +480,12 @@ name=Leather Chest
 quality=normal
 item_type=chest
 icon=145
-abs=2
+abs=2,4
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_chest
 loot_animation=leather_armor
-price=20
+price=200
 
 [item]
 id=82
@@ -455,25 +493,25 @@ name=Leather Gloves
 quality=normal
 item_type=hands
 icon=146
-abs=1
+abs=1,2
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_gloves
 loot_animation=leather_armor
-price=12
+price=120
 
 [item]
 id=83
-name=Leather Pants
+name=Leather Trousers
 quality=normal
 item_type=legs
 icon=147
-abs=2
+abs=2,3
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_pants
 loot_animation=leather_armor
-price=18
+price=180
 
 [item]
 id=84
@@ -481,12 +519,12 @@ name=Leather Boots
 quality=normal
 item_type=feet
 icon=148
-abs=1
+abs=1,2
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_boots
 loot_animation=leather_armor
-price=16
+price=160
 stepfx=leather
 
 # Chain Armor #########################
@@ -927,6 +965,7 @@ name=Ashwood Wand
 flavor=The secrets to harvesting Yggdrasil twigs are known only to traitorous dryads.
 quality=high
 item_type=main
+equip_flags=mental
 icon=104
 dmg_ment=15,35
 bonus=MP,5
@@ -943,6 +982,7 @@ name=Lawman's Sidearm
 flavor=The workmanship on this blade appears hurried, as if forged under the fever of vigilance.
 quality=high
 item_type=main
+equip_flags=melee
 icon=96
 dmg_melee=15,35
 bonus=avoidance,5
@@ -967,6 +1007,8 @@ price=50
 
 
 
+
+
 #############################################################################################
 
 #############################################################################################
@@ -977,7 +1019,7 @@ price=50
 
 #############################################################################################
 
-#Quest
+#Quest 200 - 250
 
 #############################################################################################
 
@@ -1059,7 +1101,22 @@ loot_animation=book
 
 
 
+###########################################
 
+# 250+
+
+###########################################
+
+[item]
+id=250
+name=Ring of Protection
+quality=high
+item_type=ring
+icon=198
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=defense,1
+price=2000
 
 
 

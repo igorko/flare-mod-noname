@@ -4557,6 +4557,30 @@ trait_ignore_avoidance=true
 
 ##################################################################################
 
+#Shield - 916
+
+##################################################################################
+
+#wood buckler
+[power]
+id=916
+name=Block
+icon=120
+description=Raise your shield to double your avoidance and absorb
+new_state=block
+face=true
+
+#iron buckler
+[power]
+id=917
+name=Block
+icon=121
+description=Raise your shield to double your avoidance and absorb
+new_state=block
+face=true
+
+##################################################################################
+
 ##################################################################################
 
 #Boss Powers - 1000-1100

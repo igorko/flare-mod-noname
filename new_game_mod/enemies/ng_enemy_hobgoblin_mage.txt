@@ -33,3 +33,5 @@ dmg_melee_max=10
 cooldown=10
 
 chance_flee=15
+
+loot=currency,8,8,16
