@@ -1,0 +1,9 @@
+image=images/powers/fear.png
+
+[power]
+frames=3
+duration=3
+type=looped
+frame=0,0,0,0,52,41,26,65
+frame=1,0,53,0,52,41,26,65
+frame=2,0,106,0,52,41,26,65

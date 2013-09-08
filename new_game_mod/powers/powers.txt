@@ -1597,7 +1597,7 @@ name=Fear
 type=effect
 effect_type=fear
 effect_additive=true
-animation=spark_red_loop.txt
+animation=fear.txt
 
 [power]
 id=520
