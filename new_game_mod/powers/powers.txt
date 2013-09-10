@@ -1455,7 +1455,10 @@ id=501
 name=Convert
 type=effect
 effect_type=convert
-animation=spark_red_loop.txt
+#animation=spark_red_loop.txt
+animation=runes_green.txt
+floor=true
+
 
 [power]
 id=502
