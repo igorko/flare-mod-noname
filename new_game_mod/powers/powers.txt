@@ -1536,7 +1536,7 @@ name=Lower Melee Damage min
 type=effect
 effect_type=dmg_melee_min
 effect_additive=true
-animation=spark_red_loop.txt
+animation=smoke_black.txt
 
 [power]
 id=512
@@ -1544,7 +1544,6 @@ name=Lower Melee Damage max
 type=effect
 effect_type=dmg_melee_max
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=513
@@ -1552,7 +1551,6 @@ name=Lower Ranged Damage min
 type=effect
 effect_type=dmg_ranged_min
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=514
@@ -1560,7 +1558,6 @@ name=Lower Ranged Damage max
 type=effect
 effect_type=dmg_ranged_max
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=515
@@ -1568,7 +1565,6 @@ name=Lower Mental Damage min
 type=effect
 effect_type=dmg_ment_min
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=516
@@ -1576,7 +1572,6 @@ name=Lower Mental Damage max
 type=effect
 effect_type=dmg_ment_max
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=517
@@ -1584,7 +1579,6 @@ name=Lower Critical Hit Rate
 type=effect
 effect_type=crit
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=518
@@ -1592,7 +1586,6 @@ name=Lower Accuracy
 type=effect
 effect_type=accuracy
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=519
@@ -3096,7 +3089,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=smoke_black_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
@@ -3124,7 +3117,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=smoke_black_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
@@ -3152,7 +3145,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=smoke_black_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
@@ -3181,7 +3174,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=smoke_black_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
@@ -3210,7 +3203,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=smoke_black_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
