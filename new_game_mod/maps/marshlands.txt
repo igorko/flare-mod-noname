@@ -395,3 +395,8 @@ location=68,69,11,2
 level=18,22
 number=2,4
 
+[enemy]
+# Troll
+type=ng_enemy_troll
+location=57,32,1,1
+

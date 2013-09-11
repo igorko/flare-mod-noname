@@ -19,14 +19,14 @@ type=looped
 
 
 [shoot]
-position=11
+position=12
 frames=4
 duration=3
 type=play_once
 
 
 [cast]
-position=11
+position=12
 frames=4
 duration=3
 type=play_once
@@ -40,7 +40,7 @@ type=play_once
 
 
 [swing]
-position=11
+position=12
 frames=4
 duration=4
 type=play_once

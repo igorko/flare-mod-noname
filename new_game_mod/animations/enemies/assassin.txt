@@ -1,5 +1,5 @@
 
-image=images/enemies/pirate_ghost_crewman.png
+image=images/enemies/assassin.png
 
 render_size=128,128
 render_offset=64,96
@@ -19,21 +19,21 @@ type=looped
 
 
 [shoot]
-position=12
+position=28
 frames=4
 duration=3
 type=play_once
 
 
 [cast]
-position=12
+position=24
 frames=4
 duration=3
 type=play_once
 
 
 [die]
-position=22
+position=18
 frames=6
 duration=2
 type=play_once
@@ -47,21 +47,21 @@ type=play_once
 
 
 [critdie]
-position=28
-frames=8
+position=18
+frames=6
 duration=3
 type=play_once
 
 
 [hit]
-position=0
+position=16
 frames=2
 duration=2
 type=back_forth
 
 
 [block]
-position=0
+position=16
 frames=2
 duration=3
 type=play_once
