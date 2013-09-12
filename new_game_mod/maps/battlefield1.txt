@@ -220,6 +220,12 @@ type=bethan
 location=83,15,1,1
 requires_status=minotaur_complete
 
+[npc]
+# ivan
+type=ivan3
+location=85,13,1,1
+requires_status=minotaur_complete
+
 [enemygroup]
 # battlefield
 type=battlefield

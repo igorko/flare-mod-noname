@@ -1,0 +1,10 @@
+name=Ivan
+level=4
+
+# shop info
+vendor=true
+constant_stock=1,2,33,34,49,50,57,58,80,84,89,250,119,120,121,122
+
+# animation info
+gfx=peddler_goblin
+

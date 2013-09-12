@@ -535,12 +535,12 @@ name=Chain Coif
 quality=normal
 item_type=head
 icon=152
-abs=2
+abs=2,4
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_coif
 loot_animation=steel_armor
-price=75
+price=475
 
 [item]
 id=89
@@ -548,12 +548,12 @@ name=Chain Cuirass
 quality=normal
 item_type=chest
 icon=153
-abs=4
+abs=4,8
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_cuirass
 loot_animation=steel_armor
-price=100
+price=600
 
 [item]
 id=90
@@ -561,12 +561,12 @@ name=Chain Gloves
 quality=normal
 item_type=hands
 icon=154
-abs=2
+abs=2,4
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_gloves
 loot_animation=steel_armor
-price=60
+price=360
 
 [item]
 id=91
@@ -574,12 +574,12 @@ name=Chain Greaves
 quality=normal
 item_type=legs
 icon=155
-abs=3
+abs=3,5
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_greaves
 loot_animation=steel_armor
-price=90
+price=390
 
 [item]
 id=92
@@ -587,12 +587,12 @@ name=Chain Boots
 quality=normal
 item_type=feet
 icon=156
-abs=2
+abs=2,4
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_boots
 loot_animation=steel_armor
-price=80
+price=380
 stepfx=metal
 
 # Plate Armor #########################
@@ -864,7 +864,7 @@ icon=216
 soundfx=soundfx/inventory/inventory_gem.ogg
 loot_animation=gem
 bonus=physical,1
-price=2500
+price=1500
 
 [item]
 id=120
@@ -875,7 +875,7 @@ icon=217
 soundfx=soundfx/inventory/inventory_gem.ogg
 loot_animation=gem
 bonus=mental,1
-price=2500
+price=1500
 
 [item]
 id=121
@@ -886,7 +886,7 @@ icon=218
 soundfx=soundfx/inventory/inventory_gem.ogg
 loot_animation=gem
 bonus=offense,1
-price=2500
+price=1500
 
 [item]
 id=122
@@ -897,7 +897,7 @@ icon=219
 soundfx=soundfx/inventory/inventory_gem.ogg
 loot_animation=gem
 bonus=defense,1
-price=2500
+price=1500
 
 [item]
 id=123
@@ -1118,7 +1118,49 @@ loot_animation=gem
 bonus=defense,1
 price=2000
 
+[item]
+id=251
+name=Bear Figurine +1
+quality=epic
+item_type=artifact
+icon=216
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=physical,2
+price=3000
 
+[item]
+id=252
+name=Owl Figurine +1
+quality=epic
+item_type=artifact
+icon=217
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=mental,2
+price=3000
+
+[item]
+id=253
+name=Cat Figurine +1
+quality=epic
+item_type=artifact
+icon=218
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=offense,2
+price=3000
+
+[item]
+id=254
+name=Turtle Figurine +1
+quality=epic
+item_type=artifact
+icon=219
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=defense,2
+price=3000
 
 
 

@@ -229,6 +229,11 @@
     <property name="requires_status" value="minotaur_complete"/>
    </properties>
   </object>
+  <object name="ivan" type="ivan3" x="2720" y="416" width="32" height="32">
+   <properties>
+    <property name="requires_status" value="minotaur_complete"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="100" height="50">
   <object name="battlefield" type="battlefield" x="320" y="96" width="960" height="1312">

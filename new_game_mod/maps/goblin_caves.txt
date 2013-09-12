@@ -346,6 +346,7 @@ requires_not=minotaur_complete
 # Ivan
 type=ivan
 location=23,68,1,1
+requires_not=werebear_complete
 
 [enemygroup]
 # Spiders

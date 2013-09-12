@@ -202,3 +202,10 @@ location=20,11,1,1
 requires_not=minotaur_complete
 requires_status=werebear_complete
 
+[npc]
+# ivan
+type=ivan2
+location=9,14,1,1
+requires_not=minotaur_complete
+requires_status=werebear_complete
+
