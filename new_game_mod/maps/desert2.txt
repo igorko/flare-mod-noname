@@ -5,7 +5,7 @@ tilewidth=64
 tileheight=32
 music=overworld_theme.ogg
 tileset=tileset_desert.txt
-title=Desert 2
+title=Desert North
 
 [tilesets]
 tileset=../../tiled/desert/tiled_collision.png,64,32,0,0

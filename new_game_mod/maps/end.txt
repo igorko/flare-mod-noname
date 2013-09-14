@@ -5,7 +5,7 @@ tilewidth=64
 tileheight=32
 music=overworld_theme.ogg
 tileset=tileset_grassland.txt
-title=End
+title=Journeys End
 
 [tilesets]
 tileset=../../tiled/grassland/tiled_collision.png,64,32,0,0

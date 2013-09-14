@@ -5,7 +5,7 @@ tilewidth=64
 tileheight=32
 music=cave_theme.ogg
 tileset=tileset_cave.txt
-title=New Cave Map
+title=Collapsed Mine
 
 [tilesets]
 tileset=../../tiled/cave/tiled_collision.png,64,32,0,0

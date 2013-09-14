@@ -3,7 +3,7 @@
  <properties>
   <property name="music" value="overworld_theme.ogg"/>
   <property name="tileset" value="tileset_grassland.txt"/>
-  <property name="title" value="Battlefield 4"/>
+  <property name="title" value="Bloody Fields Camp"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
   <image source="../grassland/tiled_collision.png" width="960" height="32"/>
