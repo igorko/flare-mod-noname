@@ -1472,7 +1472,7 @@ name=Lower Absorb min
 type=effect
 effect_type=absorb_min
 effect_additive=true
-animation=spark_red_loop.txt
+animation=runes_orange.txt
 
 [power]
 id=504
@@ -1480,7 +1480,6 @@ name=Lower Absorb max
 type=effect
 effect_type=absorb_max
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=505
@@ -1488,7 +1487,6 @@ name=Lower Avoidance
 type=effect
 effect_type=avoidance
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=506
@@ -1496,7 +1494,6 @@ name=Lower Poise
 type=effect
 effect_type=poise
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=507
@@ -1504,7 +1501,6 @@ name=Lower Fire Resist
 type=effect
 effect_type=fire_resist
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=508
@@ -1512,7 +1508,6 @@ name=Lower Ice Resist
 type=effect
 effect_type=ice_resist
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=509
@@ -1520,7 +1515,6 @@ name=Lower Earth Resist
 type=effect
 effect_type=earth_resist
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=510
@@ -1528,7 +1522,6 @@ name=Lower Lightning Resist
 type=effect
 effect_type=lightning_resist
 effect_additive=true
-animation=spark_red_loop.txt
 
 [power]
 id=511
@@ -2954,7 +2947,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=runes_orange_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
@@ -2978,7 +2971,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=runes_orange_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
@@ -3002,7 +2995,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=runes_orange_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
@@ -3027,7 +3020,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=runes_orange_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
@@ -3053,7 +3046,7 @@ face=true
 requires_mp=2
 requires_los=true
 requires_targeting=true
-animation=runes.txt
+animation=runes_orange_once.txt
 soundfx=teleport.ogg
 use_hazard=true
 lifespan=18
