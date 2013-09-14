@@ -146,4 +146,4 @@ him=Our line is holding, but we dont have the force to make an advance.
 him=We need to push them back. We are all counting on you.
 you=No pressure then.
 him=I know you can do it. You have become a powerhouse since we first started on this.
-
+set_status=battle_intro

@@ -202,5 +202,11 @@
     <property name="intermap" value="town.txt,11,48"/>
    </properties>
   </object>
+  <object name="set arrive status" type="on_load" x="544" y="448" width="32" height="32">
+   <properties>
+    <property name="requires_not" value="progress_arrived_river_road"/>
+    <property name="set_status" value="progress_arrived_river_road"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

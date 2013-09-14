@@ -190,6 +190,13 @@ type=on_trigger
 location=25,3,2,1
 intermap=asylum2.txt,58,65
 
+[event]
+# set arrival status
+type=on_load
+location=15,45,1,1
+requires_not=progress_arrived_asylum
+set_status=progress_arrived_asylum
+
 [enemygroup]
 # Spirits
 type=spirit

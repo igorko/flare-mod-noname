@@ -1,0 +1,14 @@
+[quest]
+requires_status=minotaur_complete
+requires_not=battle_intro
+quest_text=Unlocked the 'Summon Minotaur Ally' skill. Continue north past the Ancient Pass and meet Ieuan at the approaching battle front.
+
+[quest]
+requires_status=battle_intro
+requires_not=battle_complete
+quest_text=Prepare for battle and push back the advancing forces.
+
+[quest]
+requires_status=battle_complete
+requires_not=progress_arrived_river_road
+quest_text=You have halted the advancing forces. Return to Greenwood Point and use the final waypoint to continue your adventure in distant lands.

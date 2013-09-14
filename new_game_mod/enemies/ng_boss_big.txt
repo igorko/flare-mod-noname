@@ -34,4 +34,6 @@ cooldown=10
 
 chance_flee=50
 
-poise=90
+poise=95
+
+defeat_status=battle_complete

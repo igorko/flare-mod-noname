@@ -1,0 +1,9 @@
+[quest]
+requires_status=asylum_complete
+requires_not=bethan_init
+quest_text=Unlocked the 'Summon Ghost Ally' skill. Continue exploring North beyond the desert and through the Wyrmwold Caves.
+
+[quest]
+requires_status=bethan_init
+requires_not=wyvern_complete
+quest_text=Find a Fire Antlion heart in the Northwood and return to Bethan with the heart and the elemental wyvern tails.

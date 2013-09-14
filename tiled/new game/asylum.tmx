@@ -203,6 +203,12 @@
     <property name="intermap" value="asylum2.txt,58,65"/>
    </properties>
   </object>
+  <object name="set arrival status" type="on_load" x="480" y="1440" width="32" height="32">
+   <properties>
+    <property name="requires_not" value="progress_arrived_asylum"/>
+    <property name="set_status" value="progress_arrived_asylum"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="50" height="50">
   <object name="Spirits" type="spirit" x="160" y="448" width="512" height="288">
