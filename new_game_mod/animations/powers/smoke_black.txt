@@ -1,5 +1,5 @@
 
-image=images/powers/smoke_black.png
+image=images/powers/fx10_smoke_black.png
 
 [power]
 frames=4
