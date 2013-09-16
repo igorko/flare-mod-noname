@@ -1,0 +1,11 @@
+
+image=images/powers/fx7_aura_test.png
+
+render_size=80,67
+render_offset=40,55
+
+[power]
+position=0
+frames=32
+duration=1
+type=play_once

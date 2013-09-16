@@ -1,0 +1,11 @@
+
+image=images/powers/fx2_decap_1_zoomblur.png
+
+render_size=186,83
+render_offset=93,70
+
+[power]
+position=0
+frames=35
+duration=1
+type=play_once

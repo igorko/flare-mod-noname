@@ -1,0 +1,11 @@
+
+image=images/powers/fx9_raindrops.png
+
+render_size=65,63
+render_offset=32,55
+
+[power]
+position=0
+frames=30
+duration=1
+type=play_once

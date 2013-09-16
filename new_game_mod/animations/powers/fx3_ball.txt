@@ -1,0 +1,11 @@
+
+image=images/powers/fx3_decap_2_ball.png
+
+render_size=184,85
+render_offset=92,70
+
+[power]
+position=0
+frames=20
+duration=1
+type=play_once

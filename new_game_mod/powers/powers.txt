@@ -4702,8 +4702,3 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,10
 
-
-
-
-
-

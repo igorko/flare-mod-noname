@@ -1,0 +1,11 @@
+
+image=images/powers/fx4_signoffire.png
+
+render_size=177,156
+render_offset=88,130
+
+[power]
+position=0
+frames=20
+duration=1
+type=play_once

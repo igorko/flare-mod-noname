@@ -1,0 +1,11 @@
+
+image=images/powers/fx5_twoflames.png
+
+render_size=133,169
+render_offset=66,150
+
+[power]
+position=0
+frames=13
+duration=1
+type=play_once

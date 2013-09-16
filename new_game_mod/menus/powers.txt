@@ -28,7 +28,8 @@ tab_tree=powers_tree.png
 # First tab has index=0 
 # Don't add tab_title=, tab_tree=, and tab= keys if you use only 1 tab
 
-### Attack Tab ###############################################################
+### Attack Tab 
+###############################################################
 # swing
 [power]
 id=600
@@ -292,7 +293,6 @@ requires_point=true
 requires_level=20
 requires_power=630
 requires_power=621
-
 
 ### Spawn Tab ###############################################################
 # Conversion

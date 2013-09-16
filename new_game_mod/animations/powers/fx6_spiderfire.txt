@@ -1,0 +1,11 @@
+
+image=images/powers/fx6_spiderfire.png
+
+render_size=168,148
+render_offset=84,130
+
+[power]
+position=0
+frames=20
+duration=1
+type=play_once
