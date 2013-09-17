@@ -4690,7 +4690,6 @@ modifier_accuracy=absolute,4
 trait_ignore_avoidance=true
 post_effect=519,0,150
 
-
 [power]
 id=1105
 #name=Summon Fresh Zombie
@@ -4701,8 +4700,6 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,10
-
-
 
 [power]
 id=1106
@@ -4737,8 +4734,73 @@ directional=true
 lifespan=90
 starting_pos=target
 
+[power]
+id=1108
+name=Static (end boss)
+type=fixed
+icon=0
+new_state=cast
+animation=fx8_lightningball.txt
+soundfx=shock.ogg
+use_hazard=true
+lifespan=60
+cooldown=90
+trait_elemental=lightning
+radius=64
+base_damage=ment
+count=10
+target_neighbor=3
+multitarget=true
 
+[power]
+id=1109
+#spawn skeleton knight (end boss)
+type=spawn
+icon=0
+spawn_type=ng_enemy_skelton_knight_elite
+new_state=cast
+starting_pos=source
+target_neighbor=2
+spawn_limit=fixed,20
 
+[power]
+id=1110
+name=Swing (end boss)
+type=fixed
+icon=1
+description=Basic melee attack
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=1104
+multitarget=true
+radius=128
+post_effect=519,0,90
 
-
+[power]
+id=1111
+#name=Fireball (end boss)
+type=missile
+icon=0
+new_state=cast
+face=true
+directional=true
+requires_los=true
+animation=fireball.txt
+soundfx=fireball.ogg
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=26
+radius=64
+speed=30
+trait_elemental=fire
+post_power=801
+wall_power=801
 

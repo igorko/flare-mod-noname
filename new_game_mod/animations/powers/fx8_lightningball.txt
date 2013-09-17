@@ -8,4 +8,4 @@ render_offset=28,55
 position=0
 frames=20
 duration=1
-type=play_once
+type=back_forth

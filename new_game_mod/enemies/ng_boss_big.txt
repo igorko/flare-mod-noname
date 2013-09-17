@@ -16,13 +16,17 @@ threat_range=512
 turn_delay=6
 chance_pursue=10
 chance_melee_phys=15
+chance_melee_ment=10
 chance_ranged_ment=50
-power_melee_phys=1100
-power_ranged_ment=1103
+chance_ranged_phys=20
+power_melee_phys=1110
+power_melee_ment=1109
+power_ranged_ment=1111
+power_ranged_phys=1108
 power_beacon=1101
 
 accuracy=95
-avoidance=55
+avoidance=45
 absorb_min=20
 absorb_max=100
 
