@@ -1,12 +1,12 @@
 # Ieuan
 name=Ieuan
 
-portrait=male03
+portrait=knight01
 
 talker=true
 
 # animation info
-gfx=wandering_trader1
+gfx=knight
 
 #game start initial dialogue
 [dialog]
