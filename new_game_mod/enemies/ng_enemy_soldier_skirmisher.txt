@@ -19,7 +19,7 @@ chance_pursue=20
 chance_melee_phys=15
 chance_ranged_phys=35
 power_melee_phys=1100
-power_ranged_phys=1102
+power_ranged_phys=1106
 power_beacon=1101
 
 accuracy=80

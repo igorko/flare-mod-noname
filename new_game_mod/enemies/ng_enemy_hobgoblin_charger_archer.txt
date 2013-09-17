@@ -1,4 +1,4 @@
-name=Hobgoblin Elite Archer
+name=Hobgoblin Elite Spearman
 level=20
 categories=hobgoblin,hobgoblin_archer,ground,woods2,marshlands,living_humanoid
 xp=50

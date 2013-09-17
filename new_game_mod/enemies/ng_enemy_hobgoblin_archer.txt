@@ -1,4 +1,4 @@
-name=Hobgoblin Archer
+name=Hobgoblin Spearman
 level=8
 categories=hobgoblin_archer,hobgoblin,ground,living_humanoid
 xp=50

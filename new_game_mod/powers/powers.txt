@@ -4702,3 +4702,43 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,10
 
+
+
+[power]
+id=1106
+#name=Arrow Shoot [enemy]
+#description=Bow shoot
+type=missile
+icon=3
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=arrows.txt
+soundfx=shoot.ogg
+use_hazard=true
+aim_assist=true
+requires_offense_weapon=true
+base_damage=ranged
+lifespan=16
+radius=64
+speed=48
+wall_power=1107
+
+[power]
+id=1107
+name=Arrow Wall Strike
+type=fixed
+icon=0
+animation=arrow_stuck.txt
+use_hazard=true
+no_attack=true
+directional=true
+lifespan=90
+starting_pos=target
+
+
+
+
+
+
