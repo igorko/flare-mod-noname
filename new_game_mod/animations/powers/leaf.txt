@@ -1,0 +1,11 @@
+
+image=images/powers/leaf.png
+
+render_size=100,100
+render_offset=50,80
+
+[power]
+position=0
+frames=50
+duration=1
+type=play_once

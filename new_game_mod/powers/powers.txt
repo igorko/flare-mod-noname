@@ -4882,4 +4882,25 @@ starting_pos=target
 multitarget=true
 range=512
 
+[power]
+id=1116
+name=Leaf Storm
+type=fixed
+icon=18
+description=Leaf Storm
+new_state=cast
+face=true
+requires_los=true
+requires_targeting=true
+animation=leaf.txt
+soundfx=shock.ogg
+use_hazard=true
+base_damage=ment
+lifespan=50
+radius=128
+trait_elemental=earth
+starting_pos=target
+multitarget=true
+range=512
+
 
