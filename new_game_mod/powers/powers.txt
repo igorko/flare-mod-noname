@@ -5062,7 +5062,78 @@ starting_pos=target
 multitarget=true
 range=512
 
+[power]
+id=1124
+name=Freeze
+type=repeater
+icon=14
+description=Create a ray of piercing cold that slows enemies
+new_state=cast
+face=true
+animation=fx5_twoflames.txt
+soundfx=freeze.ogg
+speed=32
+trait_elemental=ice
+radius=64
+lifespan=12
+base_damage=ment
+delay=2
+#visual_random=3
+complete_animation=true
+count=10
 
+[power]
+id=1125
+#spawn ghost enemy
+type=spawn
+icon=0
+spawn_type=ng_enemy_ghost
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,3
 
+[power]
+id=1126
+#spawn ghost captain enemy
+type=spawn
+icon=0
+spawn_type=ng_enemy_ghost_captain
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,2
 
+[power]
+id=1127
+#spawn antlion hatchling
+type=spawn
+icon=0
+spawn_type=ng_enemy_antlion_hatchling
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,10
+
+[power]
+id=1128
+#spawn shade
+type=spawn
+icon=0
+spawn_type=ng_enemy_shade
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,1
+
+[power]
+id=1129
+#spawn skeleton apprentice
+type=spawn
+icon=0
+spawn_type=ng_enemy_skeleton_apprentice
+new_state=cast
+starting_pos=source
+target_neighbor=1
+spawn_limit=fixed,3
 
