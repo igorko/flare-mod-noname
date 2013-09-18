@@ -4804,3 +4804,82 @@ trait_elemental=fire
 post_power=801
 wall_power=801
 
+[power]
+id=1112
+name=Throw Axe
+type=missile
+icon=33
+description=Throw an axe to deal 150% of melee weapon damage
+new_state=swing
+face=true
+directional=true
+animation=throw_axe.txt
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=23
+radius=64
+speed=24
+
+[power]
+id=1113
+name=Fire Storm
+type=fixed
+icon=0
+new_state=cast
+animation=fx6_spiderfire.txt
+soundfx=burn.ogg
+use_hazard=true
+lifespan=20
+cooldown=90
+trait_elemental=fire
+radius=64
+base_damage=ment
+count=6
+target_neighbor=4
+multitarget=true
+starting_pos=target
+
+[power]
+id=1114
+name=Lightning ball
+type=fixed
+icon=18
+description=Lightning ball
+new_state=cast
+face=true
+requires_los=true
+requires_targeting=true
+animation=fx3_ball.txt
+soundfx=shock.ogg
+use_hazard=true
+base_damage=ment
+lifespan=20
+radius=128
+trait_elemental=lightning
+starting_pos=target
+multitarget=true
+range=512
+
+[power]
+id=1115
+name=Lightning Bolt
+type=fixed
+icon=18
+description=Lightning Bolt
+new_state=cast
+face=true
+requires_los=true
+requires_targeting=true
+animation=fx1_lightning_bolt.txt
+soundfx=shock.ogg
+use_hazard=true
+base_damage=ment
+lifespan=22
+radius=128
+trait_elemental=lightning
+starting_pos=target
+multitarget=true
+range=512
+
+
