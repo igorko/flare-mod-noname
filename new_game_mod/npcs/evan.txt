@@ -9,8 +9,8 @@ gfx=guild_man1
 [dialog]
 requires_not=evan_init
 you=Are you the local woodsman?
-him=Indeed I am. And your with the party from x.
-him=Well met neighbour. I heared about the troubles in x. What news from there?
+him=Indeed I am. And your with the party from Cambria.
+him=Well met neighbour. I heared about the troubles in Cambria. What news from there?
 you=Its not looking good im afraid. Theres word of a larger force on its way.
 him=In that case we are all in danger. If I could be of any assistance...
 you=Actually we are looking for some good men to join us in combat.

@@ -40,14 +40,14 @@ him=Never mind that now. What are we going to do about the x scum.
 you=Keep your head Ieuan.
 him=I know, i know.
 you=Its unusual to see them this far south. What are they up to?
-him=Before we left x, I spoke to y. He thinks that this was just a scout party and that the x will be back with a greater force.
+him=Before we left Cambria, I spoke to Kai. He thinks that this was just a scout party and that the x will be back with a greater force.
 you=Just a scout party? If thats true then we're in trouble. Theres no way we could withstand a larger force.
 him=Our best chance is to increase our own numbers. It could be difficult since theres not much civilisation around these parts.
 you=I'll talk to the folk around here and see what we can find out about the area.
 him=The Woodsman at the north of town is handy with a bow. It might be worth talking to him.
 you=Ok thanks for the tip. We will have a small army before you know it.
 him=I wouldn't count on it. But in the mean time, I suggest you get more familiar with your weapon. If we are going to face the x again, we will need to be much better prepared.
-him=x sees a lot of potential in you but your still lacking in combat experience.
+him=Kai sees a lot of potential in you but your still lacking in combat experience.
 set_status=ieuan_town_init
 
 #town arrival follow up
@@ -66,8 +66,8 @@ requires=horse_tamer_complete
 requires_not=leaving_town
 you=I think its time to move on.
 him=Yes I fear you are right. Theres no telling when the x might be on us again.
-him=Alas I'll be staying here a while longer. I want to get a message back to x before I leave here.
-him=x tells me of an asylum built in a desert to the north. A couple of the x generals were supposedly previous residents of the asylum. I bet we would find out more information from there.
+him=Alas I'll be staying here a while longer. I want to get a message back to Kai before I leave here.
+him=Evan tells me of an asylum built in a desert to the north. A couple of the x generals were supposedly previous residents of the asylum. I bet we would find out more information from there.
 you=Okay I'll head north from here.
 him=I dont know how long I will stay here but I'll catch up to you on the road.
 you=Got it.

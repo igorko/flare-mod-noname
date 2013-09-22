@@ -5091,7 +5091,7 @@ spawn_type=ng_enemy_ghost
 new_state=cast
 starting_pos=source
 target_neighbor=1
-spawn_limit=fixed,3
+spawn_limit=fixed,2
 
 [power]
 id=1126
@@ -5136,4 +5136,40 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,3
+
+[power]
+id=1130
+#name=sting shot
+type=missile
+icon=0
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=stinger.txt
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=27
+radius=64
+speed=24
+angle_variance=15
+
+[power]
+id=1131
+#name=acid spit
+type=missile
+icon=0
+new_state=shoot
+face=true
+directional=true
+requires_los=true
+animation=spit.txt
+use_hazard=true
+aim_assist=true
+base_damage=ranged
+lifespan=27
+radius=64
+speed=24
+angle_variance=15
 

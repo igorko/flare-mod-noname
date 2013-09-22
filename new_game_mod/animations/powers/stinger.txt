@@ -1,0 +1,11 @@
+
+image=images/powers/stinger.png
+
+render_size=128,128
+render_offset=64,100
+
+[power]
+position=0
+frames=5
+duration=3
+type=back_forth
