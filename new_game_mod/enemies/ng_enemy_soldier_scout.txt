@@ -29,3 +29,6 @@ dmg_melee_max=55
 cooldown=10
 
 loot=currency,8,50,100
+
+#plate greaves
+loot=99,1

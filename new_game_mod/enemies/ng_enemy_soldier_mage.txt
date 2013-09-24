@@ -40,3 +40,9 @@ cooldown=10
 chance_flee=20
 
 loot=currency,8,50,100
+
+#figurines + 2
+loot=256,1
+loot=257,1
+loot=258,1
+loot=259,1

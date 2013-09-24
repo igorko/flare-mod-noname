@@ -4568,6 +4568,24 @@ description=Raise your shield to double your avoidance and absorb
 new_state=block
 face=true
 
+#crest shield
+[power]
+id=918
+name=Block
+icon=122
+description=Raise your shield to double your avoidance and absorb
+new_state=block
+face=true
+
+#tower shield
+[power]
+id=919
+name=Block
+icon=122
+description=Raise your shield to double your avoidance and absorb
+new_state=block
+face=true
+
 ##################################################################################
 
 ##################################################################################

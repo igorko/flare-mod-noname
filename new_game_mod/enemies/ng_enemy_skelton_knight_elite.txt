@@ -29,3 +29,6 @@ dmg_melee_max=150
 cooldown=10
 
 loot=currency,8,100,200
+
+loot=35,1
+

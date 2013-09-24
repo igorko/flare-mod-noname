@@ -94,6 +94,7 @@ loot_animation=coins100,25,0
 
 # Basic Melee Weapons #################
 
+#vendor branwen
 [item]
 id=32
 name=Dagger
@@ -108,6 +109,7 @@ gfx=dagger
 loot_animation=dagger
 price=100
 
+#vendor ivan
 [item]
 id=33
 name=Shortsword
@@ -122,6 +124,7 @@ gfx=shortsword
 loot_animation=shortsword
 price=250
 
+#vendor ivan 2
 [item]
 id=34
 name=Longsword
@@ -136,6 +139,7 @@ gfx=longsword
 loot_animation=longsword
 price=500
 
+#skeleton knight elite
 [item]
 id=35
 name=Greatsword
@@ -210,6 +214,7 @@ price=2240
 
 # Basic Ranged Weapons ################
 
+#branwen
 [item]
 id=48
 name=Slingshot
@@ -225,6 +230,7 @@ gfx=slingshot
 loot_animation=slingshot
 price=100
 
+#ivan
 [item]
 id=49
 name=Shortbow
@@ -240,6 +246,7 @@ gfx=shortbow
 loot_animation=shortbow
 price=288
 
+#ivan 2
 [item]
 id=50
 name=Longbow
@@ -255,6 +262,7 @@ gfx=longbow
 loot_animation=longbow
 price=650
 
+#skirmisher
 [item]
 id=51
 name=Greatbow
@@ -272,6 +280,7 @@ price=2450
 
 # Basic Shields #######################
 
+#branwen
 [item]
 id=56
 name=Wood Buckler
@@ -288,6 +297,7 @@ power=916
 power_desc=Use: Raise your shield to double your avoidance and absorb
 price=180
 
+#ivan
 [item]
 id=57
 name=Iron Buckler
@@ -304,6 +314,7 @@ power=917
 power_desc=Use: Raise your shield to double your avoidance and absorb
 price=340
 
+#ivan 2
 [item]
 id=58
 name=Crest Shield
@@ -316,8 +327,11 @@ req=d,6
 soundfx=soundfx/inventory/inventory_heavy.ogg
 gfx=shield
 loot_animation=shield
+power=918
+power_desc=Use: Raise your shield to double your avoidance and absorb
 price=660
 
+#berserker
 [item]
 id=59
 name=Tower Shield
@@ -330,10 +344,13 @@ req=d,8
 soundfx=soundfx/inventory/inventory_heavy.ogg
 gfx=shield
 loot_animation=shield
+power=919
+power_desc=Use: Raise your shield to double your avoidance and absorb
 price=3000
 
 # Clothes #############################
 
+#starting
 [item]
 id=64
 name=Cloth Shirt
@@ -346,6 +363,7 @@ gfx=cloth_shirt
 loot_animation=clothes
 price=6
 
+#starting
 [item]
 id=65
 name=Cloth Gloves
@@ -358,6 +376,7 @@ gfx=cloth_gloves
 loot_animation=clothes
 price=2
 
+#starting
 [item]
 id=66
 name=Cloth Trousers
@@ -370,6 +389,7 @@ gfx=cloth_pants
 loot_animation=clothes
 price=4
 
+#starting
 [item]
 id=67
 name=Cloth Sandals
@@ -461,6 +481,7 @@ stepfx=cloth
 
 # Leather Armor #######################
 
+#branwen
 [item]
 id=80
 name=Leather Hood
@@ -474,6 +495,7 @@ gfx=leather_hood
 loot_animation=leather_armor
 price=140
 
+#branwen
 [item]
 id=81
 name=Leather Chest
@@ -487,6 +509,7 @@ gfx=leather_chest
 loot_animation=leather_armor
 price=200
 
+#branwen
 [item]
 id=82
 name=Leather Gloves
@@ -500,6 +523,7 @@ gfx=leather_gloves
 loot_animation=leather_armor
 price=120
 
+#branwen
 [item]
 id=83
 name=Leather Trousers
@@ -513,6 +537,7 @@ gfx=leather_pants
 loot_animation=leather_armor
 price=180
 
+#branwen
 [item]
 id=84
 name=Leather Boots
@@ -529,6 +554,7 @@ stepfx=leather
 
 # Chain Armor #########################
 
+#ivan 3
 [item]
 id=88
 name=Chain Coif
@@ -542,6 +568,7 @@ gfx=chain_coif
 loot_animation=steel_armor
 price=475
 
+#ivan 2
 [item]
 id=89
 name=Chain Cuirass
@@ -555,6 +582,7 @@ gfx=chain_cuirass
 loot_animation=steel_armor
 price=600
 
+#ivan 3
 [item]
 id=90
 name=Chain Gloves
@@ -568,6 +596,7 @@ gfx=chain_gloves
 loot_animation=steel_armor
 price=360
 
+#ivan 3
 [item]
 id=91
 name=Chain Greaves
@@ -581,6 +610,7 @@ gfx=chain_greaves
 loot_animation=steel_armor
 price=390
 
+#ivan 3
 [item]
 id=92
 name=Chain Boots
@@ -597,6 +627,7 @@ stepfx=metal
 
 # Plate Armor #########################
 
+#infantry
 [item]
 id=96
 name=Plate Helmet
@@ -610,6 +641,7 @@ gfx=plate_helm
 loot_animation=steel_armor
 price=350
 
+#barbarian
 [item]
 id=97
 name=Plate Cuirass
@@ -623,6 +655,7 @@ gfx=plate_cuirass
 loot_animation=steel_armor
 price=500
 
+#archer
 [item]
 id=98
 name=Plate Gauntlets
@@ -636,6 +669,7 @@ gfx=plate_gauntlets
 loot_animation=steel_armor
 price=325
 
+#scout
 [item]
 id=99
 name=Plate Greaves
@@ -649,6 +683,7 @@ gfx=plate_greaves
 loot_animation=steel_armor
 price=425
 
+#skeleton archer
 [item]
 id=100
 name=Plate Boots
@@ -855,6 +890,7 @@ loot_animation=leather_armor
 bonus=accuracy,15
 price=75
 
+#ivan 2
 [item]
 id=119
 name=Bear Figurine
@@ -866,6 +902,7 @@ loot_animation=gem
 bonus=physical,1
 price=1500
 
+#ivan 2
 [item]
 id=120
 name=Owl Figurine
@@ -877,6 +914,7 @@ loot_animation=gem
 bonus=mental,1
 price=1500
 
+#ivan 2
 [item]
 id=121
 name=Cat Figurine
@@ -888,6 +926,7 @@ loot_animation=gem
 bonus=offense,1
 price=1500
 
+#ivan 2
 [item]
 id=122
 name=Turtle Figurine
@@ -1107,6 +1146,7 @@ loot_animation=book
 
 ###########################################
 
+#ivan
 [item]
 id=250
 name=Ring of Protection
@@ -1118,6 +1158,7 @@ loot_animation=gem
 bonus=defense,1
 price=2000
 
+#ivan 3
 [item]
 id=251
 name=Bear Figurine +1
@@ -1129,6 +1170,7 @@ loot_animation=gem
 bonus=physical,2
 price=3000
 
+#ivan 3
 [item]
 id=252
 name=Owl Figurine +1
@@ -1140,6 +1182,7 @@ loot_animation=gem
 bonus=mental,2
 price=3000
 
+#ivan 3
 [item]
 id=253
 name=Cat Figurine +1
@@ -1151,6 +1194,7 @@ loot_animation=gem
 bonus=offense,2
 price=3000
 
+#ivan 3
 [item]
 id=254
 name=Turtle Figurine +1
@@ -1162,5 +1206,102 @@ loot_animation=gem
 bonus=defense,2
 price=3000
 
+#troll
+[item]
+id=255
+name=Gauntlets of Ogre Power
+quality=epic
+item_type=hands
+icon=162
+abs=3
+req=p,7
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=plate_gauntlets
+loot_animation=steel_armor
+bonus=physical,1
+price=2625
 
+#soldier mage
+[item]
+id=256
+name=Bear Figurine +2
+quality=epic
+item_type=artifact
+icon=216
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=physical,3
+price=3000
+
+#soldier mage
+[item]
+id=257
+name=Owl Figurine +2
+quality=epic
+item_type=artifact
+icon=217
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=mental,3
+price=3000
+
+#soldier mage
+[item]
+id=258
+name=Cat Figurine +2
+quality=epic
+item_type=artifact
+icon=218
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=offense,3
+price=3000
+
+#soldier mage
+[item]
+id=259
+name=Turtle Figurine +2
+quality=epic
+item_type=artifact
+icon=219
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=defense,3
+price=3000
+
+#skeleton mage elite
+[item]
+id=260
+name=Ring of Strength
+quality=epic
+item_type=ring
+icon=200
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=physical,1
+price=3000
+
+#skeleton mage elite
+[item]
+id=261
+name=Ring of Dexterity
+quality=epic
+item_type=ring
+icon=201
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=offense,1
+price=3000
+
+#skeleton mage elite
+[item]
+id=262
+name=Ring of Magic
+quality=epic
+item_type=ring
+icon=202
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=gem
+bonus=mental,1
+price=3000
 

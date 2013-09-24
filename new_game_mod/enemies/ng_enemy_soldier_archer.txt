@@ -35,3 +35,6 @@ cooldown=10
 chance_flee=35
 
 loot=currency,8,50,100
+
+#plate gauntlets
+loot=98,1

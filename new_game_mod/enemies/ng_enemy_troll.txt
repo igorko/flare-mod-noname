@@ -31,3 +31,7 @@ cooldown=20
 loot=currency,8,100,150
 
 poise=100
+
+#gauntlets of ogre power
+loot=255,2
+

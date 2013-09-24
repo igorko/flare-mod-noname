@@ -35,3 +35,8 @@ cooldown=10
 chance_flee=25
 
 loot=currency,8,50,100
+
+#stat rings
+loot=260,1
+loot=261,1
+loot=262,1
