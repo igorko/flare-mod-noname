@@ -2190,6 +2190,7 @@ post_power=625
 wall_power=625
 post_effect=202,20,60
 requires_mp=4
+directional=true
 
 [power]
 id=625
@@ -2225,6 +2226,7 @@ wall_power=625
 post_effect=202,30,60
 modifier_damage=multiply,150,0
 requires_mp=5
+directional=true
 
 [power]
 id=627
@@ -2250,6 +2252,7 @@ modifier_damage=multiply,200,0
 count=3
 missile_angle=15
 requires_mp=6
+directional=true
 
 [power]
 id=628
@@ -2276,6 +2279,7 @@ count=3
 missile_angle=15
 post_power=629
 requires_mp=7
+directional=true
 
 [power]
 id=629
@@ -2314,6 +2318,7 @@ count=5
 missile_angle=14
 post_power=631
 requires_mp=8
+directional=true
 
 [power]
 id=631
