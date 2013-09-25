@@ -204,3 +204,18 @@ location=15,1,24,27
 level=20,30
 number=6,12
 
+[enemy]
+# demon statue
+type=ng_enemy_demon_statue
+location=2,9,1,1
+
+[enemy]
+# demon statue
+type=ng_enemy_demon_statue
+location=2,3,1,1
+
+[enemy]
+# demon statue
+type=ng_enemy_demon_statue
+location=2,6,1,1
+
