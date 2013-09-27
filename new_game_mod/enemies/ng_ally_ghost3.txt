@@ -8,10 +8,9 @@ animations=pirate_ghost_captain
 
 # combat stats
 hp=300
-speed=10
-dspeed=7
-melee_range=72
-threat_range=512
+speed=5.0
+melee_range=1.125
+threat_range=8.0
 turn_delay=10
 chance_pursue=10
 chance_melee_phys=20

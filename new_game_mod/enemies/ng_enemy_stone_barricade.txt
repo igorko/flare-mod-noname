@@ -10,10 +10,9 @@ animations=barricade_stone
 # combat stats
 hp=4000
 speed=0
-dspeed=0
 facing=0
-melee_range=152
-threat_range=256
+melee_range=2.375
+threat_range=4.0
 
 chance_pursue=0
 

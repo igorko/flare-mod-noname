@@ -9,10 +9,9 @@ animations=orc_regular
 # combat stats
 hp=500
 hp_regen=50
-speed=12
-dspeed=9
-melee_range=76
-threat_range=512
+speed=6
+melee_range=1.1875
+threat_range=8.0
 turn_delay=6
 chance_pursue=20
 chance_melee_phys=35
