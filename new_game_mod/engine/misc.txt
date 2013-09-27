@@ -1,0 +1,5 @@
+
+# The game prefix makes sure to have new save slots,
+# so it doesn't comflict with the default slots of
+# flare-game
+game_prefix=noname_mod_by_ryan_dansie
