@@ -1,0 +1,6 @@
+name=Garth
+level=4
+
+# animation info
+gfx=farmer_pitchfork_working
+

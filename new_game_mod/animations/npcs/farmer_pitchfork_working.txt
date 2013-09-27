@@ -1,0 +1,12 @@
+
+image=images/npcs/farmer_pitchfork_working.png
+
+render_size=128,128
+render_offset=64,96
+
+[stance]
+position=0
+frames=30
+duration=2
+type=looped
+

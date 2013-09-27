@@ -212,4 +212,5 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="enemy" width="50" height="50"/>
 </map>
