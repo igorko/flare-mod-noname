@@ -5250,3 +5250,20 @@ radius=64
 speed=24
 angle_variance=15
 
+[power]
+id=1132
+name=Swing2
+type=fixed
+icon=1
+description=Use on second swing animation
+new_state=swing2
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=64
+starting_pos=melee
+allow_power_mod=true
+post_power=1104
+

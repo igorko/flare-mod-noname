@@ -193,7 +193,12 @@ intermap=dungeon6.txt,5,43
 [enemygroup]
 # skeletons
 type=dungeon_skeleton
-location=12,6,37,43
+location=12,6,37,25
 level=20,30
-number=10,20
+number=8,15
+
+[enemy]
+# demon
+type=ng_enemy_demon
+location=15,35,1,1
 

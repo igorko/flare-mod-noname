@@ -205,12 +205,14 @@
   </object>
  </objectgroup>
  <objectgroup name="enemygroup" width="50" height="50">
-  <object name="skeletons" type="dungeon_skeleton" x="384" y="192" width="1184" height="1376">
+  <object name="skeletons" type="dungeon_skeleton" x="384" y="192" width="1184" height="800">
    <properties>
     <property name="level" value="20,30"/>
-    <property name="number" value="10,20"/>
+    <property name="number" value="8,15"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="enemy" width="50" height="50"/>
+ <objectgroup name="enemy" width="50" height="50">
+  <object name="demon" type="ng_enemy_demon" x="480" y="1120" width="32" height="32"/>
+ </objectgroup>
 </map>
