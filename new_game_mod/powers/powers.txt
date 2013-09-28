@@ -3518,10 +3518,9 @@ description=Create a decoy which takes enemy attacks and tries to snare them
 spawn_type=ng_ally_decoy
 new_state=cast
 starting_pos=target
-spawn_limit=fixed,1
 cooldown=150
 requires_mp=50
-
+post_effect=502,0,600
 
 ##################################################################################
 
@@ -4481,6 +4480,61 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
+
+
+##################################################################################
+
+##################################################################################
+
+#misc: 850 - 900
+
+##################################################################################
+
+##################################################################################
+
+
+[power]
+id=850
+name=Decoy Bear Trap
+type=fixed
+icon=21
+description=Lay 2 bear traps dealing 1-60 damage
+new_state=swing
+animation=bear_trap.txt
+use_hazard=true
+lifespan=300
+cooldown=90
+radius=64
+post_power=716
+base_damage=ranged
+modifier_damage=absolute,1,50
+trait_armor_penetration=true
+count=1
+target_neighbor=3
+post_effect=201,0,90
+
+[power]
+id=851
+name=Caltrops
+type=fixed
+icon=20
+description=This trap deals 75% ranged weapon damage and slows the target.
+new_state=swing
+directional=true
+animation=caltrops.txt
+use_hazard=true
+base_damage=ranged
+lifespan=300
+cooldown=300
+radius=64
+modifier_damage=absolute,1,50
+trait_armor_penetration=true
+count=1
+target_neighbor=3
+post_effect=202,50,90
+
+
+
 
 ##################################################################################
 
