@@ -10,10 +10,9 @@ animations=orc_archer
 # combat stats
 hp=500
 hp_regen=50
-speed=11
-dspeed=8
-melee_range=76
-threat_range=512
+speed=5.5
+melee_range=1.1875
+threat_range=8.0
 turn_delay=6
 chance_pursue=20
 chance_melee_phys=15

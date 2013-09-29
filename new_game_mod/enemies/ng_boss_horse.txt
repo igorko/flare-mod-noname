@@ -11,10 +11,9 @@ animations=horse
 
 # combat stats
 hp=200
-speed=15
-dspeed=11
-melee_range=76
-threat_range=128
+speed=7.5
+melee_range=1.1875
+threat_range=2.0
 turn_delay=4
 chance_pursue=1
 chance_melee_phys=8
