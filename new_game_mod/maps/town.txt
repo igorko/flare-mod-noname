@@ -422,13 +422,13 @@ requires_status=wp_end
 # Ieuan
 type=ieuan
 location=36,55,1,1
-requires_not=bethan_quests_complete
+requires_not_status=bethan_quests_complete
 
 [npc]
 # Evan
 type=evan
 location=48,20,1,1
-requires_not=minotaur_complete
+requires_not_status=minotaur_complete
 
 [npc]
 # Branwen

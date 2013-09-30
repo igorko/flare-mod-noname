@@ -340,13 +340,13 @@ intermap=desert.txt,42,97
 # Vlad
 type=vlad
 location=51,77,1,1
-requires_not=minotaur_complete
+requires_not_status=minotaur_complete
 
 [npc]
 # Ivan
 type=ivan
 location=23,68,1,1
-requires_not=werebear_complete
+requires_not_status=werebear_complete
 
 [enemygroup]
 # Spiders

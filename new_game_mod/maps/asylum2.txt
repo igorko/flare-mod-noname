@@ -254,7 +254,7 @@ intermap=asylum3.txt,84,30
 # Bryn
 type=bryn
 location=19,55,1,1
-requires_not=asylum_complete
+requires_not_status=asylum_complete
 
 [enemygroup]
 # Spirit
