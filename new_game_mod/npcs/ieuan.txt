@@ -10,7 +10,7 @@ gfx=knight
 
 #game start initial dialogue
 [dialog]
-requires_not=ieuan_valley_init
+requires_not_status=ieuan_valley_init
 him=Thank heavens your safe! That was a close call back there. Are you hurt?
 you=A few bruises maybe. I can handle myself.
 him=Hah! I dont doubt it my friend. But dont get careless. We arent safe yet.
@@ -27,13 +27,13 @@ set_status=ieuan_valley_init
 #initial dialogue follow up
 [dialog]
 requires=ieuan_valley_init
-requires_not=progress_arrived_town
+requires_not_status=progress_arrived_town
 him=Be careful out there. I'll meet you at the settlement.
 
 #town arrival
 [dialog]
 requires=progress_arrived_town
-requires_not=ieuan_town_init
+requires_not_status=ieuan_town_init
 him=What took you so long? Had a little trouble?
 you=What the...
 him=Never mind that now. What are we going to do about the x scum.
@@ -53,17 +53,17 @@ set_status=ieuan_town_init
 #town arrival follow up
 [dialog]
 requires=ieuan_town_init
-requires_not=evan_init
+requires_not_status=evan_init
 him=We need to prepare for battle. Lets see if we can find some help.
 
 [dialog]
 requires=evan_init
-requires_not=horse_tamer_complete
+requires_not_status=horse_tamer_complete
 him=I hear that Evan has you running around the woods after a horse. That must be a sight.
 
 [dialog]
 requires=horse_tamer_complete
-requires_not=leaving_town
+requires_not_status=leaving_town
 you=I think its time to move on.
 him=Yes I fear you are right. Theres no telling when the x might be on us again.
 him=Alas I'll be staying here a while longer. I want to get a message back to Kai before I leave here.
@@ -76,39 +76,39 @@ set_status=ieuan_chatter1
 
 [dialog]
 requires=ieuan_chatter1
-requires_not=ieuan_chatter2
-requires_not=bethan_quests_complete
+requires_not_status=ieuan_chatter2
+requires_not_status=bethan_quests_complete
 him=Take care of yourself.
 unset_status=ieuan_chatter1
 set_status=ieuan_chatter2
 
 [dialog]
 requires=ieuan_chatter2
-requires_not=ieuan_chatter3
-requires_not=bethan_quests_complete
+requires_not_status=ieuan_chatter3
+requires_not_status=bethan_quests_complete
 him=The asylum is on the eastern side of a desert to the north of here.
 unset_status=ieuan_chatter2
 set_status=ieuan_chatter3
 
 [dialog]
 requires=ieuan_chatter3
-requires_not=ieuan_chatter4
-requires_not=bethan_quests_complete
+requires_not_status=ieuan_chatter4
+requires_not_status=bethan_quests_complete
 him=Keep up your training. When you reach your potential, you will be a force to be reckoned with.
 unset_status=ieuan_chatter3
 set_status=ieuan_chatter4
 
 [dialog]
 requires=ieuan_chatter4
-requires_not=ieuan_chatter1
-requires_not=bethan_quests_complete
+requires_not_status=ieuan_chatter1
+requires_not_status=bethan_quests_complete
 him=Dont forget about our goal. We will need to be prepared when we meet the x again.
 unset_status=ieuan_chatter4
 set_status=ieuan_chatter1
 
 [dialog]
 requires=bethan_quests_complete
-requires_not=minotaur_intro
+requires_not_status=minotaur_intro
 him=Good to see you again.
 you=Its about time you got here.
 him=Hey! I havent been sitting on my laurels.
@@ -135,7 +135,7 @@ set_status=minotaur_intro
 
 [dialog]
 requires=minotaur_intro
-requires_not=minotaur_complete
+requires_not_status=minotaur_complete
 him=The dungeon is to the west of here, beyond the marshlands.
 
 [dialog]

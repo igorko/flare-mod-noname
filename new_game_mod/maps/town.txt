@@ -358,7 +358,7 @@ requires_status=wp_end
 # set arrive status
 type=on_load
 location=24,69,1,1
-requires_not=progress_arrived_town
+requires_not_status=progress_arrived_town
 set_status=progress_arrived_town
 
 [event]

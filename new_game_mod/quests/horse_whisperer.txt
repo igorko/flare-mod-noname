@@ -1,26 +1,26 @@
 
 [quest]
-requires_not=ieuan_valley_init
+requires_not_status=ieuan_valley_init
 quest_text=Speak to Ieuan
 
 [quest]
 requires_status=ieuan_valley_init
-requires_not=ieuan_town_init
+requires_not_status=ieuan_town_init
 quest_text=Meet Ieuan at the settlement at the end of Fern Valley
 
 [quest]
 requires_status=ieuan_town_init
-requires_not=evan_init
+requires_not_status=evan_init
 quest_text=Speak to the woodsman
 
 [quest]
 requires_status=evan_init
-requires_not=horse_tamed
+requires_not_status=horse_tamed
 quest_text=Head to the woods north of town and use the apples Evan gave you to coax the beast.
 
 [quest]
 requires_status=horse_tamed
-requires_not=horse_tamer_complete
+requires_not_status=horse_tamer_complete
 quest_text=Go back to town and tell Evan of your deeds.
 
 

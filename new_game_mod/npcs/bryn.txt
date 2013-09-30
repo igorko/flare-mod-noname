@@ -8,7 +8,7 @@ talker=true
 gfx=peasant_man2
 
 [dialog]
-requires_not=bryn_init
+requires_not_status=bryn_init
 him=Back foul beast!
 you=Take it easy feller
 him=Wait? Your of this world?
@@ -31,12 +31,12 @@ set_status=bryn_init
 
 [dialog]
 requires=bryn_init
-requires_not=wyvern_complete
+requires_not_status=wyvern_complete
 him=I'm sure the governor knows something about this.
 
 [dialog]
 requires=wyvern_complete
-requires_not=werebear_complete
+requires_not_status=werebear_complete
 him=Hello again.
 you=Hey you made it out of the asylum. What on earth are you doing here.
 him=After I left the asylum, I needed to find a safe place to hide out.
@@ -56,7 +56,7 @@ set_status=werebear_complete
 
 [dialog]
 requires=werebear_complete
-requires_not=minotaur_complete
+requires_not_status=minotaur_complete
 him=Use the transformation effect to youir advantage in battle. The beast is fierce and powerful if controlled properly.
 
 [dialog]

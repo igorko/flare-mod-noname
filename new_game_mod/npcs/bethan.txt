@@ -8,7 +8,7 @@ talker=true
 gfx=peasant_woman1
 
 [dialog]
-requires_not=bethan_init
+requires_not_status=bethan_init
 you=Good day.
 him=Oh a visitor. I dont get many around here. Now where did you come from?
 you=I have travelled from Cambria in the south.
@@ -31,7 +31,7 @@ set_status=bethan_init
 
 [dialog]
 requires=bethan_init
-requires_not=wyvern_complete
+requires_not_status=wyvern_complete
 requires_item=202
 requires_item=203
 requires_item=204
@@ -65,23 +65,23 @@ set_status=wyvern_complete
 
 [dialog]
 requires=bethan_init
-requires_not=wyvern_complete
+requires_not_status=wyvern_complete
 requires_item=206
 him=You dont have the Wyvern tails? Well you had better get back into the caves.
 
 [dialog]
 requires=bethan_init
-requires_not=wyvern_complete
+requires_not_status=wyvern_complete
 him=The fire ants live in the woods to the east of here. Go and fetch one a Fire Ant heart for the spell.
 
 [dialog]
 requires=wyvern_complete
-requires_not=werebear_defeated
+requires_not_status=werebear_defeated
 him=Find the beast.
 
 [dialog]
 requires=werebear_defeated
-requires_not=werebear_complete
+requires_not_status=werebear_complete
 him=What did you find?
 you=There was some kind of bear.
 him=Strange. We dont usually get bears in these woods.
@@ -94,7 +94,7 @@ set_status=werebear_returning
 
 [dialog]
 requires=werebear_complete
-requires_not=bethan_quests_complete
+requires_not_status=bethan_quests_complete
 you=You wont believe it. When I got back there, there was...
 him=A man.
 you=You knew?
@@ -106,7 +106,7 @@ set_status=bethan_quests_complete
 
 [dialog]
 requires=bethan_quests_complete
-requires_not=minotaur_complete
+requires_not_status=minotaur_complete
 him=Specialise in your favourite skills. You will get more benefit from investing a lot of training into a small set of skills, rather than a small amount of training in a lot of skills.
 
 [dialog]

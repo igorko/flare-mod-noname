@@ -1,19 +1,19 @@
 [quest]
 requires_status=werebear_complete
-requires_not=bethan_quests_complete
+requires_not_status=bethan_quests_complete
 quest_text=Unlocked the 'Werewolf' skill. Go and report your findings to Bethan
 
 [quest]
 requires_status=bethan_quests_complete
-requires_not=minotaur_intro
+requires_not_status=minotaur_intro
 quest_text=Talk to Ieuan at the Northwood Cottage
 
 [quest]
 requires_status=minotaur_intro
-requires_not=progress_arrived_dungeon
+requires_not_status=progress_arrived_dungeon
 quest_text=Head west through the marshlands and look for the entrance to the ancient dungeon
 
 [quest]
 requires_status=progress_arrived_dungeon
-requires_not=minotaur_complete
+requires_not_status=minotaur_complete
 quest_text=Explore the dungeon and locate the legendary guardian

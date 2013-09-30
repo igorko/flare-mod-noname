@@ -366,7 +366,7 @@
   </object>
   <object name="set arrive status" type="on_load" x="768" y="2208" width="32" height="32">
    <properties>
-    <property name="requires_not" value="progress_arrived_town"/>
+    <property name="requires_not_status" value="progress_arrived_town"/>
     <property name="set_status" value="progress_arrived_town"/>
    </properties>
   </object>

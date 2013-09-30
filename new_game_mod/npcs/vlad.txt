@@ -7,7 +7,7 @@ talker=true
 gfx=goblin_elite
 
 [dialog]
-requires_not=vlad_init
+requires_not_status=vlad_init
 him=Where ye bin Evan?
 you=um...
 him=Well? Where be this so called aa-pel?
@@ -29,12 +29,12 @@ set_status=vlad_init
 
 [dialog]
 requires=vlad_init
-requires_not=goblin_cave_clear
+requires_not_status=goblin_cave_clear
 him=What are ye waitin for? Go and get them critters.
 
 [dialog]
 requires=goblin_cave_clear
-requires_not=goblin_complete
+requires_not_status=goblin_complete
 him=What ye doin back here?
 you=I got rid of the spiders.
 him=Aha! Ye den gid manthing.
@@ -49,32 +49,32 @@ set_status=vlad_chatter1
 
 [dialog]
 requires=vlad_chatter1
-requires_not=vlad_chatter2
-requires_not=minotaur_complete
+requires_not_status=vlad_chatter2
+requires_not_status=minotaur_complete
 him=If ye be needing a good goblin axe to cover ye out there, call the name Vlad.
 unset_status=vlad_chatter1
 set_status=vlad_chatter2
 
 [dialog]
 requires=vlad_chatter2
-requires_not=vlad_chatter3
-requires_not=minotaur_complete
+requires_not_status=vlad_chatter3
+requires_not_status=minotaur_complete
 him=Ye can count on Vlad the impaler
 unset_status=vlad_chatter2
 set_status=vlad_chatter3
 
 [dialog]
 requires=vlad_chatter3
-requires_not=vlad_chatter4
-requires_not=minotaur_complete
+requires_not_status=vlad_chatter4
+requires_not_status=minotaur_complete
 him=Keep yer nasty aa-pels
 unset_status=vlad_chatter3
 set_status=vlad_chatter4
 
 [dialog]
 requires=vlad_chatter4
-requires_not=vlad_chatter1
-requires_not=minotaur_complete
+requires_not_status=vlad_chatter1
+requires_not_status=minotaur_complete
 him=Where ye bin Evan?
 unset_status=vlad_chatter4
 set_status=vlad_chatter1

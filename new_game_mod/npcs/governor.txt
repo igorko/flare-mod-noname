@@ -8,7 +8,7 @@ talker=true
 gfx=zombie
 
 [dialog]
-requires_not=asylum_complete
+requires_not_status=asylum_complete
 him=Stop! Dont attack!
 you=Your alive?
 him=For now.

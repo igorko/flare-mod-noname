@@ -7,7 +7,7 @@ talker=true
 gfx=guild_man1
 
 [dialog]
-requires_not=evan_init
+requires_not_status=evan_init
 you=Are you the local woodsman?
 him=Indeed I am. And your with the party from Cambria.
 him=Well met neighbour. I heared about the troubles in Cambria. What news from there?
@@ -33,14 +33,14 @@ set_status=evan_init
 
 [dialog]
 requires=evan_init
-requires_not=horse_tamed
+requires_not_status=horse_tamed
 requires_item=201
 requires_item=200
 him=If your having trouble catching x, use the traps I gave you to slow him down.
 him=When you get the chance, give him some apples. Come and see me when your successful.
 
 [dialog]
-requires_not=horse_tamed
+requires_not_status=horse_tamed
 requires_item=201
 him=So how are you getting on?
 you=Not so good. I used all of the traps already.
@@ -49,7 +49,7 @@ reward_item=200,20
 you=Thanks.
 
 [dialog]
-requires_not=horse_tamed
+requires_not_status=horse_tamed
 him=Have you tamed x yet?
 you=No not yet. I dont have any apples left.
 him=Make sure your close enough to give them to him. If you cant catch him, try to use those traps I gave you to slow him down. Heres a couple more apples.
@@ -58,7 +58,7 @@ him=And try not to eat them!
 
 [dialog]
 requires=horse_tamed
-requires_not=horse_tamer_complete
+requires_not_status=horse_tamer_complete
 you=Are you impressed?
 him=Congratulations. See if you can do it a bit faster next time.
 you=Are you kidding?
@@ -74,32 +74,32 @@ set_status=evan_chatter1
 
 [dialog]
 requires=evan_chatter1
-requires_not=evan_chatter2
-requires_not=minotaur_complete
+requires_not_status=evan_chatter2
+requires_not_status=minotaur_complete
 him=Keep training hard. The road ahead wont be easy
 unset_status=evan_chatter1
 set_status=evan_chatter2
 
 [dialog]
 requires=evan_chatter2
-requires_not=evan_chatter3
-requires_not=minotaur_complete
+requires_not_status=evan_chatter3
+requires_not_status=minotaur_complete
 him=Good luck on your journey.
 unset_status=evan_chatter2
 set_status=evan_chatter3
 
 [dialog]
 requires=evan_chatter3
-requires_not=evan_chatter4
-requires_not=minotaur_complete
+requires_not_status=evan_chatter4
+requires_not_status=minotaur_complete
 him=I once heared a rumour of a great beast to the north beyond the desert. I wonder if such a creature could be tamed?
 unset_status=evan_chatter3
 set_status=evan_chatter4
 
 [dialog]
 requires=evan_chatter4
-requires_not=evan_chatter1
-requires_not=minotaur_complete
+requires_not_status=evan_chatter1
+requires_not_status=minotaur_complete
 him=Curse these spiders hiding in my log pile.
 unset_status=evan_chatter4
 set_status=evan_chatter1
