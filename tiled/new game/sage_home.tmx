@@ -187,7 +187,7 @@
     <property name="mapmod" value="object,15,25,265"/>
     <property name="msg" value="Waypoint discovered"/>
     <property name="repeat" value="false"/>
-    <property name="requires_not" value="wp_sage_home"/>
+    <property name="requires_not_status" value="wp_sage_home"/>
     <property name="set_status" value="wp_sage_home"/>
    </properties>
   </object>

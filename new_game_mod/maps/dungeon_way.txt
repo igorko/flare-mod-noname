@@ -209,7 +209,7 @@ location=12,26,6,6
 mapmod=object,14,29,265
 msg=Waypoint discovered
 repeat=false
-requires_not=wp_dungeon_way
+requires_not_status=wp_dungeon_way
 set_status=wp_dungeon_way
 
 [event]

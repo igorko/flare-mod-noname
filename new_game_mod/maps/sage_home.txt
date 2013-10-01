@@ -179,7 +179,7 @@ location=13,22,6,6
 mapmod=object,15,25,265
 msg=Waypoint discovered
 repeat=false
-requires_not=wp_sage_home
+requires_not_status=wp_sage_home
 set_status=wp_sage_home
 
 [event]

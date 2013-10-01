@@ -194,7 +194,7 @@ intermap=asylum2.txt,58,65
 # set arrival status
 type=on_load
 location=15,45,1,1
-requires_not=progress_arrived_asylum
+requires_not_status=progress_arrived_asylum
 set_status=progress_arrived_asylum
 
 [enemygroup]

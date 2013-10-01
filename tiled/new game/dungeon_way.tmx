@@ -217,7 +217,7 @@
     <property name="mapmod" value="object,14,29,265"/>
     <property name="msg" value="Waypoint discovered"/>
     <property name="repeat" value="false"/>
-    <property name="requires_not" value="wp_dungeon_way"/>
+    <property name="requires_not_status" value="wp_dungeon_way"/>
     <property name="set_status" value="wp_dungeon_way"/>
    </properties>
   </object>

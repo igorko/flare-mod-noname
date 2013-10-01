@@ -167,7 +167,7 @@ location=11,5,6,6
 mapmod=object,13,8,265
 msg=Waypoint discovered
 repeat=false
-requires_not=wp_end
+requires_not_status=wp_end
 set_status=wp_end
 
 [event]

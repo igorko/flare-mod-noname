@@ -205,7 +205,7 @@
   </object>
   <object name="set arrive status" type="on_load" x="128" y="1344" width="32" height="32">
    <properties>
-    <property name="requires_not" value="progress_arrived_dungeon"/>
+    <property name="requires_not_status" value="progress_arrived_dungeon"/>
     <property name="set_status" value="progress_arrived_dungeon"/>
    </properties>
   </object>
