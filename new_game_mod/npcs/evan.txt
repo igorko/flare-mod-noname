@@ -22,7 +22,7 @@ him=I have come to think of some as comrades. If treated right, they can be the 
 you=Thanks all the same but im not sure how much help a few woodland critters would be.
 him=Dont underestimate the power of nature. Some of these creatures are fierce.
 him=Humor me if you will. Lets see if youve got what it takes.
-him=In the woods to the north lives a stallion named x. He's a little flighty but can be friendly if he trusts you.
+him=In the woods to the north lives a stallion. He's a little flighty but can be friendly if he trusts you.
 him=Here take these apples. If you can get close to him, give him one of these.
 reward_item=201,20
 him=Getting close to him might not be so easy. Take a few of these traps aswell. They wont hurt him but will give you a chance to get close.
@@ -36,7 +36,7 @@ requires=evan_init
 requires_not_status=horse_tamed
 requires_item=201
 requires_item=200
-him=If your having trouble catching x, use the traps I gave you to slow him down.
+him=If your having trouble catching the horse, use the traps I gave you to slow him down.
 him=When you get the chance, give him some apples. Come and see me when your successful.
 
 [dialog]
@@ -50,7 +50,7 @@ you=Thanks.
 
 [dialog]
 requires_not_status=horse_tamed
-him=Have you tamed x yet?
+him=Have you tamed the beast yet?
 you=No not yet. I dont have any apples left.
 him=Make sure your close enough to give them to him. If you cant catch him, try to use those traps I gave you to slow him down. Heres a couple more apples.
 reward_item=201,20
@@ -107,7 +107,7 @@ set_status=evan_chatter1
 [dialog]
 requires=minotaur_complete
 you=You came.
-him=I couldnt leave you to face the x alone.
+him=I couldnt leave you to face the Sarlinian hordes alone.
 him=It looks like you have quite a gathering here. You must have made quite an impression.
 
 

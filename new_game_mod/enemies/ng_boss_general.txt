@@ -1,4 +1,4 @@
-name=Semi Big Boss
+name=Tarlek the Cruel
 level=30
 categories=ground
 xp=10000

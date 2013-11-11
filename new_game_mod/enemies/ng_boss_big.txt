@@ -1,4 +1,4 @@
-name=Big Boss
+name=Zaltor the Bloody
 level=35
 categories=ground
 xp=10000
