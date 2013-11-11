@@ -359,6 +359,10 @@ requires_defense=4
 requires_point=true
 requires_level=4
 visible_requires_status=goblin_complete
+replaced_by_power=656
+replaced_by_power=657
+replaced_by_power=658
+replaced_by_power=659
 
 # Spawn Goblin
 [power]
@@ -370,6 +374,9 @@ requires_point=true
 requires_power=655
 requires_level=6
 visible_requires_status=goblin_complete
+replaced_by_power=657
+replaced_by_power=658
+replaced_by_power=659
 
 # Spawn Goblin
 [power]
@@ -381,6 +388,8 @@ requires_point=true
 requires_power=656
 requires_level=8
 visible_requires_status=goblin_complete
+replaced_by_power=658
+replaced_by_power=659
 
 # Spawn Goblin
 [power]
@@ -392,6 +401,7 @@ requires_point=true
 requires_power=657
 requires_level=10
 visible_requires_status=goblin_complete
+replaced_by_power=659
 
 # Spawn Goblin
 [power]
@@ -860,6 +870,10 @@ position=50,80
 requires_defense=2
 requires_point=true
 requires_level=1
+replaced_by_power=751
+replaced_by_power=752
+replaced_by_power=753
+replaced_by_power=754
 
 # HP Boost
 [power]
@@ -870,6 +884,9 @@ requires_defense=3
 requires_point=true
 requires_power=750
 requires_level=3
+replaced_by_power=752
+replaced_by_power=753
+replaced_by_power=754
 
 # HP Boost
 [power]
@@ -880,6 +897,8 @@ requires_defense=4
 requires_point=true
 requires_power=751
 requires_level=5
+replaced_by_power=753
+replaced_by_power=754
 
 # HP Boost
 [power]
@@ -890,6 +909,7 @@ requires_defense=5
 requires_point=true
 requires_power=752
 requires_level=7
+replaced_by_power=754
 
 # HP Boost
 [power]

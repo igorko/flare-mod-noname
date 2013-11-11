@@ -184,7 +184,11 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
-  <object name="Werebear" type="ng_boss_werebear" x="416" y="512" width="32" height="32"/>
+  <object name="Werebear" type="ng_boss_werebear" x="416" y="512" width="32" height="32">
+   <properties>
+    <property name="requires_not_status" value="werebear_defeated"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="npc" width="50" height="50">
   <object name="Bryn" type="bryn" x="480" y="512" width="32" height="32">

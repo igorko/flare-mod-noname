@@ -28,7 +28,7 @@ absorb_min=20
 absorb_max=20
 cooldown=15
 
-defeat_status=horse_tamed
+convert_status=horse_tamed
 #chance_flee=50
 waypoint_pause=1
 

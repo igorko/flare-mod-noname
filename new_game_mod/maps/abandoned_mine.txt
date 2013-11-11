@@ -184,6 +184,7 @@ intermap=woods2.txt,146,111
 # Werebear
 type=ng_boss_werebear
 location=13,16,1,1
+requires_not_status=werebear_defeated
 
 [npc]
 # Bryn
