@@ -3,7 +3,6 @@ level=25
 xp=500
 categories=ground
 
-sfx_prefix=none
 animations=animations/enemies/demon_statue.txt
 
 # combat stats

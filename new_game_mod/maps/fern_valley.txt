@@ -632,7 +632,7 @@ data=
 # to Town
 type=on_trigger
 location=15,0,5,1
-intermap=town.txt,39,88
+intermap=maps/town.txt,39,88
 
 [npc]
 # Ieuan

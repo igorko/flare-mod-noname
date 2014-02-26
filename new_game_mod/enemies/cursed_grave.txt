@@ -3,7 +3,6 @@ level=3
 xp=5
 categories=ground
 
-sfx_prefix=none
 animations=animations/enemies/cursed_grave.txt
 
 

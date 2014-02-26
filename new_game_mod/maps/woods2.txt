@@ -632,13 +632,13 @@ data=
 # to Sage Home
 type=on_trigger
 location=47,137,2,1
-intermap=sage_home.txt,12,5
+intermap=maps/sage_home.txt,12,5
 
 [event]
 # to abandoned mine
 type=on_trigger
 location=146,109,2,1
-intermap=abandoned_mine.txt,26,39
+intermap=maps/abandoned_mine.txt,26,39
 
 [enemy]
 # Fire Antlion Quest

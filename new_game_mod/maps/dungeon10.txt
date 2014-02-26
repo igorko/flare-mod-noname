@@ -182,13 +182,13 @@ data=
 # to dungeon 9
 type=on_trigger
 location=6,43,1,2
-intermap=dungeon9.txt,6,39
+intermap=maps/dungeon9.txt,6,39
 
 [event]
 # wp
 type=on_trigger
 location=44,3,2,2
-intermap=town.txt,14,47
+intermap=maps/town.txt,14,47
 
 [event]
 # wp activate

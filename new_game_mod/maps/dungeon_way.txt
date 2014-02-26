@@ -182,25 +182,25 @@ data=
 # to marshlands
 type=on_trigger
 location=91,31,1,2
-intermap=marshlands.txt,20,55
+intermap=maps/marshlands.txt,20,55
 
 [event]
 # to dungeon1
 type=on_trigger
 location=14,18,1,3
-intermap=dungeon1.txt,9,43
+intermap=maps/dungeon1.txt,9,43
 
 [event]
 # to battlefield 1
 type=on_trigger
 location=4,20,1,2
-intermap=battlefield1.txt,92,17
+intermap=maps/battlefield1.txt,92,17
 
 [event]
 # wp
 type=on_trigger
 location=14,28,2,2
-intermap=town.txt,21,45
+intermap=maps/town.txt,21,45
 
 [event]
 # wp activate

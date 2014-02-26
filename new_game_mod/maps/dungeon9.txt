@@ -182,13 +182,13 @@ data=
 # to dungeon 8
 type=on_trigger
 location=42,3,2,1
-intermap=dungeon8.txt,41,6
+intermap=maps/dungeon8.txt,41,6
 
 [event]
 # to dungeon 10
 type=on_trigger
 location=5,41,2,1
-intermap=dungeon10.txt,8,44
+intermap=maps/dungeon10.txt,8,44
 
 [enemygroup]
 # skeletons

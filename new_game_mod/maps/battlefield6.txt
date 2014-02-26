@@ -182,13 +182,13 @@ data=
 # to battlefield 5
 type=on_trigger
 location=69,28,1,2
-intermap=battlefield5.txt,4,31
+intermap=maps/battlefield5.txt,4,31
 
 [event]
 # to end
 type=on_trigger
 location=4,16,1,2
-intermap=end.txt,32,32
+intermap=maps/end.txt,32,32
 
 [enemy]
 # Boss

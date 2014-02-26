@@ -332,19 +332,19 @@ data=
 # to sage home
 type=on_trigger
 location=75,78,1,2
-intermap=sage_home.txt,5,19
+intermap=maps/sage_home.txt,5,19
 
 [event]
 # to secret cave
 type=on_trigger
 location=45,11,2,1
-intermap=secret_cave.txt,7,12
+intermap=maps/secret_cave.txt,7,12
 
 [event]
 # to dungeon way
 type=on_trigger
 location=18,55,1,2
-intermap=dungeon_way.txt,89,31
+intermap=maps/dungeon_way.txt,89,31
 
 [enemygroup]
 # archers

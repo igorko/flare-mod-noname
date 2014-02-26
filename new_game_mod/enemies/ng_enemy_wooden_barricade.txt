@@ -3,7 +3,6 @@ level=25
 xp=0
 categories=ground,wooden_barricade
 
-sfx_prefix=none
 animations=animations/enemies/wooden_barricade.txt
 
 

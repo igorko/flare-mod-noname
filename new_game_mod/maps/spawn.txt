@@ -9,4 +9,4 @@ location=0,0,3
 [event]
 type=on_load
 location=0,0,1,1
-intermap=maps/fern_valley.txt,15,193
+intermap=maps/maps/fern_valley.txt,15,193

@@ -182,13 +182,13 @@ data=
 # to Desert
 type=on_trigger
 location=16,46,2,1
-intermap=desert.txt,63,4
+intermap=maps/desert.txt,63,4
 
 [event]
 # to asylum 2
 type=on_trigger
 location=25,3,2,1
-intermap=asylum2.txt,58,65
+intermap=maps/asylum2.txt,58,65
 
 [event]
 # set arrival status

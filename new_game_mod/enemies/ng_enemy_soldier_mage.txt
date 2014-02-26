@@ -4,10 +4,11 @@ categories=ground,battlefield,living_humanoid,battlefield_human,battlefield_mage
 rarity=uncommon
 xp=850
 
-sfx_phys=soundfx/enemies/antlion_phys.ogg
-sfx_hit=soundfx/enemies/antlion_hit.ogg
-sfx_die=soundfx/enemies/antlion_die.ogg
-sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 
 animations=animations/enemies/vesuvvio.txt
 

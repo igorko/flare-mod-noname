@@ -182,7 +182,7 @@ data=
 # to asylum 2
 type=on_trigger
 location=84,32,2,1
-intermap=asylum2.txt,13,6
+intermap=maps/asylum2.txt,13,6
 
 [npc]
 # The Governor

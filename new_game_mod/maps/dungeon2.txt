@@ -182,13 +182,13 @@ data=
 # to dungeon 1
 type=on_trigger
 location=40,4,2,1
-intermap=dungeon1.txt,41,4
+intermap=maps/dungeon1.txt,41,4
 
 [event]
 # to dungeon 3
 type=on_trigger
 location=16,17,2,1
-intermap=dungeon3.txt,20,21
+intermap=maps/dungeon3.txt,20,21
 
 [enemy]
 # Cursed Grave

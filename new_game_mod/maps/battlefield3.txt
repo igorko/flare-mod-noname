@@ -332,13 +332,13 @@ data=
 # to battlefield 2
 type=on_trigger
 location=128,46,1,7
-intermap=battlefield2.txt,5,22
+intermap=maps/battlefield2.txt,5,22
 
 [event]
 # to battlefield 4
 type=on_trigger
 location=5,26,1,11
-intermap=battlefield4.txt,166,63
+intermap=maps/battlefield4.txt,166,63
 
 [enemygroup]
 # archers

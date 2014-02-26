@@ -632,13 +632,13 @@ data=
 # to Town
 type=on_trigger
 location=165,186,2,1
-intermap=town.txt,37,14
+intermap=maps/town.txt,37,14
 
 [event]
 # to Goblin Caves
 type=on_trigger
 location=22,22,2,1
-intermap=goblin_caves.txt,52,87
+intermap=maps/goblin_caves.txt,52,87
 
 [enemy]
 # Running Horse

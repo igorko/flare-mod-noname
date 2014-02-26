@@ -267,13 +267,13 @@ location=45,37,1,1
 # to battlefield 1
 type=on_trigger
 location=112,32,1,4
-intermap=battlefield1.txt,5,20
+intermap=maps/battlefield1.txt,5,20
 
 [event]
 # to battlefield 3
 type=on_trigger
 location=3,19,1,5
-intermap=battlefield3.txt,126,49
+intermap=maps/battlefield3.txt,126,49
 
 [enemygroup]
 # battlefield

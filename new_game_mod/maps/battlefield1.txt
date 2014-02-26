@@ -182,13 +182,13 @@ data=
 # to dungeon way
 type=on_trigger
 location=94,17,1,2
-intermap=dungeon_way.txt,6,20
+intermap=maps/dungeon_way.txt,6,20
 
 [event]
 # to battlefield 2
 type=on_trigger
 location=3,18,1,4
-intermap=battlefield2.txt,110,35
+intermap=maps/battlefield2.txt,110,35
 
 [npc]
 # Evan

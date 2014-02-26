@@ -3,7 +3,6 @@ level=3
 xp=0
 categories=ground
 
-sfx_prefix=none
 animations=animations/enemies/barricade_stone.txt
 
 

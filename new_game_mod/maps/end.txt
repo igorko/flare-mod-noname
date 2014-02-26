@@ -152,13 +152,13 @@ data=
 # to battlefield 6
 type=on_trigger
 location=34,32,1,2
-intermap=battlefield6.txt,6,16
+intermap=maps/battlefield6.txt,6,16
 
 [event]
 # town wp
 type=on_trigger
 location=13,7,2,2
-intermap=town.txt,14,49
+intermap=maps/town.txt,14,49
 
 [event]
 # wp activate

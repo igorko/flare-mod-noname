@@ -238,13 +238,13 @@ data=
 # to wyvern cave 2
 type=on_trigger
 location=62,41,1,7
-intermap=wyvern_cave2.txt,3,27
+intermap=maps/wyvern_cave2.txt,3,27
 
 [event]
 # to sage home
 type=on_trigger
 location=7,21,1,2
-intermap=sage_home.txt,34,23
+intermap=maps/sage_home.txt,34,23
 
 [enemy]
 # Fire Wyvern

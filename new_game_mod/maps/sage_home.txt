@@ -152,25 +152,25 @@ data=
 # to wyvern cave 3
 type=on_trigger
 location=36,23,1,2
-intermap=wyvern_cave3.txt,9,21
+intermap=maps/wyvern_cave3.txt,9,21
 
 [event]
 # to woods2
 type=on_trigger
 location=12,3,2,1
-intermap=woods2.txt,47,135
+intermap=maps/woods2.txt,47,135
 
 [event]
 # to marshlands
 type=on_trigger
 location=3,19,1,2
-intermap=marshlands.txt,73,78
+intermap=maps/marshlands.txt,73,78
 
 [event]
 # wp
 type=on_trigger
 location=15,24,2,2
-intermap=town.txt,20,50
+intermap=maps/town.txt,20,50
 
 [event]
 # Activate

@@ -268,13 +268,13 @@ data=
 # to wyvern cave
 type=on_trigger
 location=78,66,1,2
-intermap=wyvern_cave.txt,9,13
+intermap=maps/wyvern_cave.txt,9,13
 
 [event]
 # to wyvern cave 3
 type=on_trigger
 location=1,24,1,7
-intermap=wyvern_cave3.txt,60,44
+intermap=maps/wyvern_cave3.txt,60,44
 
 [enemygroup]
 # wyvern

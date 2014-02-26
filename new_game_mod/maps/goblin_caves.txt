@@ -328,13 +328,13 @@ data=
 # to Woods
 type=on_trigger
 location=52,89,2,1
-intermap=woods.txt,22,24
+intermap=maps/woods.txt,22,24
 
 [event]
 # to Desert
 type=on_trigger
 location=35,2,4,1
-intermap=desert.txt,42,97
+intermap=maps/desert.txt,42,97
 
 [npc]
 # Vlad

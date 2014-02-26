@@ -253,13 +253,13 @@ data=
 # to desert
 type=on_trigger
 location=186,44,1,3
-intermap=desert.txt,2,34
+intermap=maps/desert.txt,2,34
 
 [event]
 # to Wyvern cave
 type=on_trigger
 location=6,18,1,2
-intermap=wyvern_cave.txt,92,69
+intermap=maps/wyvern_cave.txt,92,69
 
 [enemygroup]
 # zombie

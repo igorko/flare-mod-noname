@@ -182,13 +182,13 @@ data=
 # to frontier outpost
 type=on_trigger
 location=32,2,4,1
-intermap=frontier_outpost.txt,45,60
+intermap=maps/frontier_outpost.txt,45,60
 
 [event]
 # town wp
 type=on_trigger
 location=15,15,2,2
-intermap=town.txt,11,48
+intermap=maps/town.txt,11,48
 
 [event]
 # set arrive status

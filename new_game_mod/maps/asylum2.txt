@@ -242,13 +242,13 @@ data=
 # to asylum
 type=on_trigger
 location=58,67,2,1
-intermap=asylum.txt,25,5
+intermap=maps/asylum.txt,25,5
 
 [event]
 # to asylum 3
 type=on_trigger
 location=13,4,2,1
-intermap=asylum3.txt,84,30
+intermap=maps/asylum3.txt,84,30
 
 [npc]
 # Bryn

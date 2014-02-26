@@ -178,7 +178,7 @@ data=
 # to woods 2
 type=on_trigger
 location=24,41,4,1
-intermap=woods2.txt,146,111
+intermap=maps/woods2.txt,146,111
 
 [enemy]
 # Werebear

@@ -407,13 +407,13 @@ data=
 # to battlefield 3
 type=on_trigger
 location=168,60,1,9
-intermap=battlefield3.txt,7,29
+intermap=maps/battlefield3.txt,7,29
 
 [event]
 # to battlefield 5
 type=on_trigger
 location=9,42,1,6
-intermap=battlefield5.txt,109,35
+intermap=maps/battlefield5.txt,109,35
 
 [enemygroup]
 # soldiers

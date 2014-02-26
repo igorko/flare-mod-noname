@@ -332,26 +332,26 @@ data=
 # to Fern Valley
 type=on_trigger
 location=39,90,4,1
-intermap=fern_valley.txt,17,2
+intermap=maps/fern_valley.txt,17,2
 
 [event]
 # to Woods
 type=on_trigger
 location=37,12,2,1
-intermap=woods.txt,165,184
+intermap=maps/woods.txt,165,184
 
 [event]
 # river road wp
 type=on_trigger
 location=8,48,2,2
-intermap=river_road.txt,18,15
+intermap=maps/river_road.txt,18,15
 requires_status=wp_end
 
 [event]
 # end wp
 type=on_trigger
 location=13,51,2,2
-intermap=end.txt,11,8
+intermap=maps/end.txt,11,8
 requires_status=wp_end
 
 [event]
@@ -365,7 +365,7 @@ set_status=progress_arrived_town
 # sage home wp
 type=on_trigger
 location=17,51,2,2
-intermap=sage_home.txt,16,22
+intermap=maps/sage_home.txt,16,22
 requires_status=wp_sage_home
 tooltip=Sage Home
 
@@ -380,14 +380,14 @@ requires_status=wp_sage_home
 # dungeon 10 wp
 type=on_trigger
 location=13,44,2,2
-intermap=dungeon10.txt,42,4
+intermap=maps/dungeon10.txt,42,4
 requires_status=wp_dungeon_10
 
 [event]
 # dungeon way wp
 type=on_trigger
 location=17,44,2,2
-intermap=dungeon_way.txt,15,26
+intermap=maps/dungeon_way.txt,15,26
 requires_status=wp_dungeon_way
 
 [event]

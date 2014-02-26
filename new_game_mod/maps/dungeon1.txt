@@ -182,13 +182,13 @@ data=
 # to dungeon way
 type=on_trigger
 location=3,43,1,2
-intermap=dungeon_way.txt,14,22
+intermap=maps/dungeon_way.txt,14,22
 
 [event]
 # to Dungeon 2
 type=on_trigger
 location=43,3,1,2
-intermap=dungeon2.txt,41,6
+intermap=maps/dungeon2.txt,41,6
 
 [event]
 # set arrive status
