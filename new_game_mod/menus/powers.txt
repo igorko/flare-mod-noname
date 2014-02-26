@@ -5,7 +5,13 @@
 # Mental + Offense grants elemental spell attacks
 # Mental + Defense grants healing and magical protection
 
-caption=160,8,center,top
+[header]
+pos=0,0,320,416
+align=right
+soundfx_open=soundfx/inventory/inventory_page.ogg
+soundfx_close=soundfx/inventory/inventory_book.ogg
+
+label_title=160,8,center,top
 close=294,2
 unspent_points=160,396,center,top
 #unspent_points=hidden
@@ -14,16 +20,16 @@ tabs=4
 tab_area=32,30,240,348
 
 tab_title=Attack
-tab_tree=powers_tree.png
+tab_tree=images/menus/powers_tree.png
 
 tab_title=Spawn
-tab_tree=powers_tree.png
+tab_tree=images/menus/powers_tree.png
 
 tab_title=Tactics
-tab_tree=powers_tree.png
+tab_tree=images/menus/powers_tree.png
 
 tab_title=Passive
-tab_tree=powers_tree.png
+tab_tree=images/menus/powers_tree.png
 
 # First tab has index=0 
 # Don't add tab_title=, tab_tree=, and tab= keys if you use only 1 tab
@@ -34,45 +40,38 @@ tab_tree=powers_tree.png
 [power]
 id=600
 tab=0
-position=50,80
+position=140,80
 requires_physical=1
 requires_level=1
+upgrades=601,602,603,604
 
 # swing2
-[power]
+[upgrade]
 id=601
-tab=0
-position=95,80
 requires_physical=1
 requires_point=true
 requires_power=600
 requires_level=2
 
 # swing3
-[power]
+[upgrade]
 id=602
-tab=0
-position=140,80
 requires_physical=2
 requires_point=true
 requires_power=601
 requires_level=3
 
 # swing4
-[power]
+[upgrade]
 id=603
-tab=0
-position=185,80
 requires_physical=3
 requires_point=true
 requires_power=602
 requires_level=5
 
 # swing5
-[power]
+[upgrade]
 id=604
-tab=0
-position=230,80
 requires_physical=4
 requires_point=true
 requires_power=603
@@ -83,46 +82,39 @@ requires_level=7
 [power]
 id=605
 tab=0
-position=50,130
+position=140,130
 requires_offense=1
 requires_point=true
 requires_level=1
+upgrades=606,607,608,609
 
 # Shoot
-[power]
+[upgrade]
 id=606
-tab=0
-position=95,130
 requires_offense=1
 requires_point=true
 requires_power=605
 requires_level=2
 
 # Shoot
-[power]
+[upgrade]
 id=607
-tab=0
-position=140,130
 requires_offense=2
 requires_point=true
 requires_power=606
 requires_level=3
 
 # Shoot
-[power]
+[upgrade]
 id=608
-tab=0
-position=185,130
 requires_offense=3
 requires_point=true
 requires_power=607
 requires_level=5
 
 # Shoot
-[power]
+[upgrade]
 id=609
-tab=0
-position=230,130
 requires_offense=4
 requires_point=true
 requires_power=608
@@ -134,47 +126,40 @@ requires_level=7
 [power]
 id=610
 tab=0
-position=50,180
+position=140,180
 requires_offense=4
 requires_point=true
 requires_level=10
 requires_power=609
+upgrades=611,612,613,614
 
 # Multishot
-[power]
+[upgrade]
 id=611
-tab=0
-position=95,180
 requires_offense=5
 requires_point=true
 requires_power=610
 requires_level=12
 
 # Multishot
-[power]
+[upgrade]
 id=612
-tab=0
-position=140,180
 requires_offense=6
 requires_point=true
 requires_power=611
 requires_level=14
 
 # Multishot
-[power]
+[upgrade]
 id=613
-tab=0
-position=185,180
 requires_offense=8
 requires_point=true
 requires_power=612
 requires_level=16
 
 # Multishot
-[power]
+[upgrade]
 id=614
-tab=0
-position=230,180
 requires_offense=10
 requires_point=true
 requires_power=613
@@ -186,46 +171,39 @@ requires_level=20
 [power]
 id=615
 tab=0
-position=50,230
+position=140,230
 requires_mental=1
 requires_point=true
 requires_level=4
+upgrades=616,617,619,621
 
 # Quake
-[power]
+[upgrade]
 id=616
-tab=0
-position=95,230
 requires_mental=2
 requires_point=true
 requires_power=615
 requires_level=5
 
 # Quake
-[power]
+[upgrade]
 id=617
-tab=0
-position=140,230
 requires_mental=3
 requires_point=true
 requires_power=616
 requires_level=6
 
 # Quake
-[power]
+[upgrade]
 id=619
-tab=0
-position=185,230
 requires_mental=4
 requires_point=true
 requires_power=617
 requires_level=8
 
 # Quake
-[power]
+[upgrade]
 id=621
-tab=0
-position=230,230
 requires_mental=5
 requires_point=true
 requires_power=619
@@ -236,16 +214,15 @@ requires_level=10
 # Ice Bolt
 [power]
 id=624
-tab=0
-position=50,280
+position=140,280
 requires_mental=5
 requires_point=true
 requires_level=6
+upgrades=626,627,628,630
 
 # Ice Bolt
-[power]
+[upgrade]
 id=626
-tab=0
 position=95,280
 requires_mental=6
 requires_point=true
@@ -253,9 +230,8 @@ requires_power=624
 requires_level=8
 
 # Ice Bolt
-[power]
+[upgrade]
 id=627
-tab=0
 position=140,280
 requires_mental=7
 requires_point=true
@@ -263,9 +239,8 @@ requires_power=626
 requires_level=11
 
 # Ice Bolt
-[power]
+[upgrade]
 id=628
-tab=0
 position=185,280
 requires_mental=8
 requires_point=true
@@ -273,9 +248,8 @@ requires_power=627
 requires_level=14
 
 # Ice Bolt
-[power]
+[upgrade]
 id=630
-tab=0
 position=230,280
 requires_mental=10
 requires_point=true
@@ -299,17 +273,16 @@ requires_power=621
 [power]
 id=650
 tab=1
-position=50,80
+position=140,80
 requires_mental=2
 requires_point=true
 requires_level=5
 visible_requires_status=horse_tamer_complete
+upgrades=651,652,653,654
 
 # Conversion
-[power]
+[upgrade]
 id=651
-tab=1
-position=95,80
 requires_mental=3
 requires_point=true
 requires_power=650
@@ -317,10 +290,8 @@ requires_level=6
 visible_requires_status=horse_tamer_complete
 
 # Conversion
-[power]
+[upgrade]
 id=652
-tab=1
-position=140,80
 requires_offense=4
 requires_point=true
 requires_power=651
@@ -328,10 +299,8 @@ requires_level=8
 visible_requires_status=horse_tamer_complete
 
 # Conversion
-[power]
+[upgrade]
 id=653
-tab=1
-position=185,80
 requires_offense=5
 requires_point=true
 requires_power=652
@@ -339,10 +308,8 @@ requires_level=10
 visible_requires_status=horse_tamer_complete
 
 # Conversion
-[power]
+[upgrade]
 id=654
-tab=1
-position=230,80
 requires_offense=6
 requires_point=true
 requires_power=653
@@ -354,60 +321,43 @@ visible_requires_status=horse_tamer_complete
 [power]
 id=655
 tab=1
-position=50,130
+position=140,130
 requires_defense=4
 requires_point=true
 requires_level=4
 visible_requires_status=goblin_complete
-replaced_by_power=656
-replaced_by_power=657
-replaced_by_power=658
-replaced_by_power=659
+upgrades=656,657,658,659
 
 # Spawn Goblin
-[power]
+[upgrade]
 id=656
-tab=1
-position=95,130
 requires_defense=6
 requires_point=true
 requires_power=655
 requires_level=6
 visible_requires_status=goblin_complete
-replaced_by_power=657
-replaced_by_power=658
-replaced_by_power=659
 
 # Spawn Goblin
-[power]
+[upgrade]
 id=657
-tab=1
-position=140,130
 requires_defense=8
 requires_point=true
 requires_power=656
 requires_level=8
 visible_requires_status=goblin_complete
-replaced_by_power=658
-replaced_by_power=659
 
 # Spawn Goblin
-[power]
+[upgrade]
 id=658
-tab=1
-position=185,130
 requires_defense=10
 requires_point=true
 requires_power=657
 requires_level=10
 visible_requires_status=goblin_complete
-replaced_by_power=659
 
 # Spawn Goblin
-[power]
+[upgrade]
 id=659
-tab=1
-position=230,130
 requires_defense=12
 requires_point=true
 requires_power=658
@@ -420,17 +370,16 @@ visible_requires_status=goblin_complete
 [power]
 id=660
 tab=1
-position=50,180
+position=140,180
 requires_mental=4
 requires_point=true
 requires_level=10
 visible_requires_status=asylum_complete
+upgrades=661,662,663,664
 
 # Spawn Ghost
-[power]
+[upgrade]
 id=661
-tab=1
-position=95,180
 requires_mental=6
 requires_point=true
 requires_power=660
@@ -438,10 +387,8 @@ requires_level=12
 visible_requires_status=asylum_complete
 
 # Spawn Ghost
-[power]
+[upgrade]
 id=662
-tab=1
-position=140,180
 requires_mental=8
 requires_point=true
 requires_power=661
@@ -449,10 +396,8 @@ requires_level=14
 visible_requires_status=asylum_complete
 
 # Spawn Ghost
-[power]
+[upgrade]
 id=663
-tab=1
-position=185,180
 requires_mental=10
 requires_point=true
 requires_power=662
@@ -460,10 +405,8 @@ requires_level=16
 visible_requires_status=asylum_complete
 
 # Spawn Ghost
-[power]
+[upgrade]
 id=664
-tab=1
-position=230,180
 requires_mental=12
 requires_point=true
 requires_power=663
@@ -476,17 +419,16 @@ visible_requires_status=asylum_complete
 [power]
 id=665
 tab=1
-position=50,230
+position=140,230
 requires_offense=4
 requires_point=true
 requires_level=6
 visible_requires_status=wyvern_complete
+upgrades=666,667,668,669
 
 # Spawn Wyvern
-[power]
+[upgrade]
 id=666
-tab=1
-position=95,230
 requires_offense=6
 requires_point=true
 requires_power=665
@@ -494,10 +436,8 @@ requires_level=8
 visible_requires_status=wyvern_complete
 
 # Spawn Wyvern
-[power]
+[upgrade]
 id=667
-tab=1
-position=140,230
 requires_offense=8
 requires_point=true
 requires_power=666
@@ -505,10 +445,8 @@ requires_level=10
 visible_requires_status=wyvern_complete
 
 # Spawn Wyvern
-[power]
+[upgrade]
 id=668
-tab=1
-position=185,230
 requires_offense=10
 requires_point=true
 requires_power=667
@@ -516,10 +454,8 @@ requires_level=12
 visible_requires_status=wyvern_complete
 
 # Spawn Wyvern
-[power]
+[upgrade]
 id=669
-tab=1
-position=230,230
 requires_offense=12
 requires_point=true
 requires_power=668
@@ -532,17 +468,16 @@ visible_requires_status=wyvern_complete
 [power]
 id=670
 tab=1
-position=50,280
+position=140,280
 requires_physical=4
 requires_point=true
 requires_level=8
 visible_requires_status=minotaur_complete
+upgrades=671,672,673,674
 
 # Spawn Minotaur
-[power]
+[upgrade]
 id=671
-tab=1
-position=95,280
 requires_physical=6
 requires_point=true
 requires_power=670
@@ -550,10 +485,8 @@ requires_level=11
 visible_requires_status=minotaur_complete
 
 # Spawn Minotaur
-[power]
+[upgrade]
 id=672
-tab=1
-position=140,280
 requires_physical=8
 requires_point=true
 requires_power=671
@@ -561,10 +494,8 @@ requires_level=14
 visible_requires_status=minotaur_complete
 
 # Spawn Minotaur
-[power]
+[upgrade]
 id=673
-tab=1
-position=185,280
 requires_physical=10
 requires_point=true
 requires_power=672
@@ -572,10 +503,8 @@ requires_level=18
 visible_requires_status=minotaur_complete
 
 # Spawn Minotaur
-[power]
+[upgrade]
 id=674
-tab=1
-position=230,280
 requires_physical=12
 requires_point=true
 requires_power=673
