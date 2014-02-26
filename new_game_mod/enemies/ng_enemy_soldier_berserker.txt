@@ -3,7 +3,11 @@ level=25
 categories=ground,battlefield,living_humanoid,battlefield_human,berserker
 xp=1000
 
-sfx_prefix=antlion
+sfx_phys=soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+
 animations=animations/enemies/orc_elite.txt
 
 # combat stats

@@ -3,7 +3,11 @@ level=12
 categories=ghoul,spirit,undead,ground,asylum
 xp=150
 
-sfx_prefix=antlion
+sfx_phys=soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+
 animations=animations/enemies/necromancer.txt
 
 # combat stats

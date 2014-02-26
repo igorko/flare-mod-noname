@@ -5,7 +5,7 @@ portrait=images/portraits/male18.png
 
 talker=true
 
-gfx=peasant_man2
+gfx=animations/npcs/peasant_man2.txt
 
 [dialog]
 requires_not_status=bryn_init

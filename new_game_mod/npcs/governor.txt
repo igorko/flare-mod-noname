@@ -5,7 +5,7 @@ portrait=images/portraits/male12.png
 
 talker=true
 
-gfx=zombie
+gfx=animations/npcs/zombie.txt
 
 [dialog]
 requires_not_status=asylum_complete

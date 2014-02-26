@@ -1,0 +1,438 @@
+## Status Effects
+
+# Primary stats
+[effect]
+name=physical
+type=physical
+additive=true
+
+[effect]
+name=mental
+type=mental
+additive=true
+
+[effect]
+name=offense
+type=offense
+additive=true
+
+[effect]
+name=defense
+type=defense
+additive=true
+
+
+
+# Base stats
+[effect]
+name=HP
+type=hp
+additive=true
+
+[effect]
+name=HP regen
+type=hp_regen
+additive=true
+
+[effect]
+name=MP
+type=mp
+additive=true
+
+[effect]
+name=MP regen
+type=mp_regen
+additive=true
+
+[effect]
+name=accuracy
+type=accuracy
+additive=true
+
+[effect]
+name=avoidance
+type=avoidance
+additive=true
+
+[effect]
+name=crit
+type=crit
+additive=true
+
+[effect]
+name=poise
+type=poise
+additive=true
+
+[effect]
+name=XP gain
+type=xp_gain
+additive=true
+
+[effect]
+name=gold find
+type=currency_find
+additive=true
+
+[effect]
+name=item find
+type=item_find
+additive=true
+
+[effect]
+name=stealth
+type=stealth
+additive=true
+
+[effect]
+name=speed
+type=speed
+
+
+
+# Elemental affinity
+[effect]
+name=fire resist
+type=fire_resist
+additive=true
+
+[effect]
+name=ice resist
+type=ice_resist
+additive=true
+
+
+
+# Special-case effects
+[effect]
+name=shield
+type=shield
+icon=15
+animation=animations/powers/shield.txt
+
+[effect]
+name=heal
+type=heal
+icon=11
+animation=animations/powers/heal.txt
+
+
+
+# Other effects
+[effect]
+name=bleeding
+type=damage
+icon=25
+animation=animations/powers/spark_red_loop.txt
+
+[effect]
+name=immobilize
+type=speed
+icon=24
+
+[effect]
+name=slow
+type=speed
+icon=24
+
+[effect]
+name=stun
+type=stun
+icon=26
+
+[effect]
+name=immunity
+type=immunity
+icon=12
+
+[effect]
+name=haste
+type=speed
+icon=9
+
+[effect]
+name=HP restore
+type=hpot
+
+[effect]
+name=MP restore
+type=mpot
+
+[effect]
+name=revive
+type=revive
+
+[effect]
+name=stealth icon
+icon=6
+
+[effect]
+name=stealth speed
+type=speed
+
+
+
+##################################################################################
+
+##################################################################################
+
+##################################################################################
+
+##################################################################################
+
+#Effects - 500-550
+
+##################################################################################
+
+##################################################################################
+
+[power]
+id=500
+name=Knockback
+type=effect
+effect_type=forced_move
+
+[power]
+id=501
+name=Convert
+type=effect
+effect_type=convert
+#animation=animations/powers/spark_red_loop.txt
+animation=animations/powers/runes_green.txt
+floor=true
+
+
+[power]
+id=502
+name=Death Sentence
+type=effect
+effect_type=death_sentence
+
+[power]
+id=503
+name=Lower Absorb min
+type=effect
+effect_type=absorb_min
+effect_additive=true
+animation=animations/powers/runes_orange.txt
+
+[power]
+id=504
+name=Lower Absorb max
+type=effect
+effect_type=absorb_max
+effect_additive=true
+
+[power]
+id=505
+name=Lower Avoidance
+type=effect
+effect_type=avoidance
+effect_additive=true
+
+[power]
+id=506
+name=Lower Poise
+type=effect
+effect_type=poise
+effect_additive=true
+
+[power]
+id=507
+name=Lower Fire Resist
+type=effect
+effect_type=fire_resist
+effect_additive=true
+
+[power]
+id=508
+name=Lower Ice Resist
+type=effect
+effect_type=ice_resist
+effect_additive=true
+
+[power]
+id=509
+name=Lower Earth Resist
+type=effect
+effect_type=earth_resist
+effect_additive=true
+
+[power]
+id=510
+name=Lower Lightning Resist
+type=effect
+effect_type=lightning_resist
+effect_additive=true
+
+[power]
+id=511
+name=Lower Melee Damage min
+type=effect
+effect_type=dmg_melee_min
+effect_additive=true
+animation=animations/powers/smoke_black.txt
+
+[power]
+id=512
+name=Lower Melee Damage max
+type=effect
+effect_type=dmg_melee_max
+effect_additive=true
+
+[power]
+id=513
+name=Lower Ranged Damage min
+type=effect
+effect_type=dmg_ranged_min
+effect_additive=true
+
+[power]
+id=514
+name=Lower Ranged Damage max
+type=effect
+effect_type=dmg_ranged_max
+effect_additive=true
+
+[power]
+id=515
+name=Lower Mental Damage min
+type=effect
+effect_type=dmg_ment_min
+effect_additive=true
+
+[power]
+id=516
+name=Lower Mental Damage max
+type=effect
+effect_type=dmg_ment_max
+effect_additive=true
+
+[power]
+id=517
+name=Lower Critical Hit Rate
+type=effect
+effect_type=crit
+effect_additive=true
+
+[power]
+id=518
+name=Lower Accuracy
+type=effect
+effect_type=accuracy
+effect_additive=true
+
+[power]
+id=519
+name=Fear
+type=effect
+effect_type=fear
+effect_additive=true
+animation=animations/powers/fear.txt
+
+[power]
+id=520
+name=Fear Immobilise
+type=effect
+effect_type=stun
+effect_additive=true
+animation=animations/powers/spark_red_loop.txt
+
+[power]
+id=521
+#name=HP bonus
+type=effect
+effect_type=hp
+effect_additive=true
+
+[power]
+id=522
+name=Raise Melee Damage min
+type=effect
+effect_type=dmg_melee_min
+effect_additive=true
+
+[power]
+id=523
+name=Raise Melee Damage max
+type=effect
+effect_type=dmg_melee_max
+effect_additive=true
+
+[power]
+id=524
+#name=HP Buff bonus - protection power
+type=effect
+effect_type=hp
+effect_additive=true
+animation=animations/powers/shield.txt
+
+[power]
+id=525
+#name=Raise Absorb min - protection power
+type=effect
+effect_type=absorb_min
+effect_additive=true
+
+[power]
+id=526
+#name=Raise Absorb max - protection power
+type=effect
+effect_type=absorb_max
+effect_additive=true
+
+[power]
+id=527
+#name=Raise Avoidance - protection power
+type=effect
+effect_type=avoidance
+effect_additive=true
+
+[power]
+id=528
+#name=Raise Fire Resist - protection power
+type=effect
+effect_type=fire_resist
+effect_additive=true
+
+[power]
+id=529
+#name=Raise Ice Resist - protection power
+type=effect
+effect_type=ice_resist
+effect_additive=true
+
+[power]
+id=530
+#name=Raise Earth Resist - protection power
+type=effect
+effect_type=earth_resist
+effect_additive=true
+
+[power]
+id=531
+#name=Raise Lightning Resist - protection power
+type=effect
+effect_type=lightning_resist
+effect_additive=true
+
+[power]
+id=532
+#name=Increase Speed - werewolf
+type=effect
+effect_type=speed
+effect_additive=true
+
+[power]
+id=533
+#name=Raise Avoidance - werewolf
+type=effect
+effect_type=avoidance
+effect_additive=true
+
+[power]
+id=534
+#name=Raise Accuracy - werewolf
+type=effect
+effect_type=accuracy
+effect_additive=true

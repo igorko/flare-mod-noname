@@ -6,7 +6,7 @@ portrait=images/portraits/knight01.png
 talker=true
 
 # animation info
-gfx=knight
+gfx=animations/npcs/knight.txt
 
 #game start initial dialogue
 [dialog]

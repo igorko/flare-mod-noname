@@ -2,5 +2,5 @@ name=Garth
 level=4
 
 # animation info
-gfx=farmer_pitchfork_working
+gfx=animations/npcs/farmer_pitchfork_working.txt
 

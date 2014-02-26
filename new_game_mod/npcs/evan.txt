@@ -4,7 +4,7 @@ portrait=images/portraits/male16.png
 
 talker=true
 
-gfx=guild_man1
+gfx=animations/npcs/guild_man1.txt
 
 [dialog]
 requires_not_status=evan_init

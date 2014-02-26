@@ -5,7 +5,7 @@ portrait=images/portraits/female01.png
 
 talker=true
 
-gfx=peasant_woman1
+gfx=animations/npcs/peasant_woman1.txt
 
 [dialog]
 requires_not_status=bethan_init

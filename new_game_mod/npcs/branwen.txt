@@ -7,5 +7,5 @@ constant_stock=1,2,32,48,56,80,81,82,83,84
 
 
 # animation info
-gfx=raider
+gfx=animations/npcs/raider.txt
 

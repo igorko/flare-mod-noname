@@ -33,7 +33,7 @@ aim_assist=true
 base_damage=ment
 lifespan=8
 radius=1.0
-speed=12.0
+speed=12
 starting_pos=melee
 
 [power]
@@ -43,6 +43,7 @@ icon=4
 description=Raise your shield to double your avoidance and absorb
 new_state=block
 face=true
+requires_flags=shield
 
 [power]
 id=4
@@ -57,7 +58,7 @@ requires_mp=1
 base_damage=ranged
 aim_assist=true
 allow_power_mod=true
-post_effect=201,0,90
+post_effect=immobilize,0,90
 
 [power]
 id=5
@@ -76,7 +77,7 @@ radius=1.0
 starting_pos=melee
 post_power=127
 allow_power_mod=true
-post_effect=200,5,150
+post_effect=bleeding,5,150
 
 [power]
 id=6
@@ -95,7 +96,7 @@ aim_assist=true
 base_damage=ment
 lifespan=24
 radius=1.0
-speed=16.0
+speed=16
 trait_elemental=wind
 trait_crits_impaired=25
 post_power=126
@@ -112,7 +113,7 @@ requires_mp=1
 soundfx=soundfx/powers/heal.ogg
 trait_elemental=light
 buff=true
-post_effect=228,0,0
+post_effect=heal,0,0
 
 [power]
 id=8
@@ -141,7 +142,7 @@ requires_mp=2
 soundfx=soundfx/powers/warcry.ogg
 trait_elemental=light
 buff=true
-post_effect=226,0,300
+post_effect=immunity,0,300
 
 [power]
 id=10
@@ -162,7 +163,7 @@ trait_elemental=earth
 starting_pos=source
 multitarget=true
 cooldown=90
-post_effect=203,0,30
+post_effect=stun,0,30
 
 [power]
 id=11
@@ -174,7 +175,7 @@ new_state=cast
 requires_mp=2
 soundfx=soundfx/powers/shield.ogg
 buff=true
-post_effect=227,0,0
+post_effect=shield,0,0
 
 [power]
 id=12
@@ -186,7 +187,7 @@ new_state=cast
 face=false
 requires_mp=1
 buff=true
-post_effect=229,200,240
+post_effect=haste,200,240
 
 [power]
 id=13
@@ -217,7 +218,7 @@ face=true
 requires_mp=2
 animation=animations/powers/freeze.txt
 soundfx=soundfx/powers/freeze.ogg
-speed=16.0
+speed=16
 trait_elemental=ice
 radius=1.0
 lifespan=12
@@ -226,7 +227,7 @@ delay=3
 visual_random=3
 complete_animation=true
 count=10
-post_effect=202,50,90
+post_effect=slow,50,90
 
 [power]
 id=15
@@ -246,7 +247,7 @@ lifespan=16
 floor=true
 starting_pos=source
 buff_teleport=true
-range=8.0
+target_range=8.0
 target_neighbor=1
 
 [power]
@@ -287,7 +288,7 @@ trait_elemental=fire
 starting_pos=target
 multitarget=true
 post_power=125
-range=8.0
+target_range=8.0
 
 [power]
 id=19
@@ -303,7 +304,7 @@ lifespan=1
 radius=8.0
 multitarget=true
 base_damage=none
-post_effect=203,0,150
+post_effect=stun,0,150
 
 [power]
 id=20
@@ -338,7 +339,7 @@ aim_assist=true
 base_damage=ment
 lifespan=8
 radius=1.0
-speed=12.0
+speed=12
 starting_pos=melee
 mp_steal=10
 
@@ -372,7 +373,7 @@ aim_assist=true
 allow_power_mod=true
 count=5
 delay=2
-damage_multiplier=75
+modifier_damage=multiply,75,0
 angle_variance=5
 cooldown=2s
 
@@ -390,14 +391,14 @@ base_damage=ranged
 aim_assist=true
 trait_armor_penetration=true
 count=10
-damage_multiplier=15
+modifier_damage=multiply,15,0
 angle_variance=15
 speed_variance=7.0
 animation=animations/powers/ember.txt
 use_hazard=true
 lifespan=8
 radius=0.75
-speed=24.0
+speed=24
 directional=true
 soundfx=soundfx/powers/shoot.ogg
 post_power=125
@@ -420,11 +421,11 @@ aim_assist=true
 base_damage=ment
 lifespan=26
 radius=1.0
-speed=15.0
+speed=15
 trait_elemental=ice
 post_power=126
 wall_power=126
-post_effect=202,50,60
+post_effect=slow,50,60
 
 [power]
 id=31
@@ -442,7 +443,7 @@ aim_assist=true
 base_damage=ment
 lifespan=26
 radius=1.0
-speed=15.0
+speed=15
 trait_elemental=fire
 post_power=125
 wall_power=125
@@ -463,7 +464,7 @@ aim_assist=true
 base_damage=ranged
 lifespan=27
 radius=1.0
-speed=12.0
+speed=12
 angle_variance=15
 
 [power]
@@ -485,7 +486,7 @@ starting_pos=source
 multitarget=true
 visual_option=1
 post_power=125
-post_effect=202,50,15
+post_effect=slow,50,15
 
 [power]
 id=34
@@ -505,7 +506,7 @@ requires_flags=ranged
 base_damage=ranged
 lifespan=16
 radius=1.0
-speed=24.0
+speed=24
 wall_power=124
 
 [power]
@@ -523,14 +524,14 @@ aim_assist=true
 base_damage=ment
 lifespan=32
 radius=1.0
-speed=15.0
+speed=15
 trait_elemental=ice
 post_power=126
 wall_power=126
 #missile num needs to be odd, or the player can avoid just by standing there
 count=9
 missile_angle=40
-post_effect=202,50,60
+post_effect=slow,50,60
 
 [power]
 id=36
@@ -564,7 +565,7 @@ lifespan=1
 radius=1.0
 starting_pos=melee
 allow_power_mod=true
-post_effect=200,5,90
+post_effect=bleeding,5,90
 
 [power]
 id=38
@@ -581,7 +582,7 @@ lifespan=1
 radius=1.0
 starting_pos=melee
 allow_power_mod=true
-post_effect=201,0,150
+post_effect=immobilize,0,150
 
 [power]
 id=39
@@ -637,9 +638,9 @@ aim_assist=true
 base_damage=ment
 lifespan=8
 radius=1.0
-speed=12.0
+speed=12
 starting_pos=melee
-post_effect=203,0,30
+post_effect=stun,0,30
 
 [power]
 id=42
@@ -659,7 +660,7 @@ requires_flags=ranged
 base_damage=ranged
 lifespan=16
 radius=1.0
-speed=24.0
+speed=24
 wall_power=124
 count=3
 missile_angle=15
@@ -680,8 +681,8 @@ aim_assist=true
 base_damage=melee
 lifespan=16
 radius=1.0
-speed=12.0
-damage_multiplier=75
+speed=12
+modifier_damage=multiply,75,0
 
 [power]
 id=44
@@ -699,8 +700,8 @@ aim_assist=true
 base_damage=melee
 lifespan=23
 radius=1.0
-speed=12.0
-damage_multiplier=150
+speed=12
+modifier_damage=multiply,150,0
 
 [power]
 id=45
@@ -719,8 +720,8 @@ base_damage=ranged
 lifespan=300
 cooldown=300
 radius=1.0
-damage_multiplier=75
-post_effect=202,50,90
+modifier_damage=multiply,75,0
+post_effect=slow,50,90
 
 
 [power]
@@ -740,8 +741,8 @@ base_damage=ranged
 lifespan=300
 cooldown=300
 radius=1.0
-damage_multiplier=150
-post_effect=201,0,90
+modifier_damage=multiply,150,0
+post_effect=immobilize,0,90
 post_power=47
 
 [power]
@@ -765,7 +766,7 @@ new_state=instant
 requires_item=1
 cooldown=15
 buff=true
-post_effect=230,100,1
+post_effect=HP restore,100,1
 
 [power]
 id=101
@@ -777,7 +778,7 @@ soundfx=soundfx/powers/potion.ogg
 requires_item=2
 cooldown=15
 buff=true
-post_effect=231,100,1
+post_effect=MP restore,100,1
 
 [power]
 id=118
@@ -814,7 +815,7 @@ requires_flags=ranged
 base_damage=ranged
 lifespan=16
 radius=1.0
-speed=24.0
+speed=24
 
 [power]
 id=121
@@ -833,7 +834,7 @@ requires_flags=ranged
 base_damage=ranged
 lifespan=16
 radius=1.0
-speed=24.0
+speed=24
 wall_power=124
 
 [power]
@@ -851,7 +852,7 @@ aim_assist=true
 base_damage=ranged
 lifespan=25
 radius=1.0
-speed=15.0
+speed=15
 trait_elemental=fire
 post_power=125
 wall_power=125
@@ -871,7 +872,7 @@ aim_assist=true
 base_damage=ranged
 lifespan=25
 radius=1.0
-speed=15.0
+speed=15
 trait_elemental=ice
 post_power=126
 wall_power=126
@@ -938,7 +939,7 @@ aim_assist=true
 base_damage=ment
 lifespan=32
 radius=1.0
-speed=15.0
+speed=15
 trait_elemental=shadow
 post_power=126
 wall_power=126
@@ -961,7 +962,7 @@ floor=true
 starting_pos=source
 buff_teleport=true
 requires_item=12
-range=8.0
+target_range=8.0
 
 [power]
 id=130
@@ -977,7 +978,7 @@ radius=8.0
 multitarget=true
 base_damage=none
 requires_item=13
-post_effect=203,0,300
+post_effect=stun,0,300
 
 [power]
 id=131
@@ -989,7 +990,7 @@ new_state=cast
 face=false
 requires_item=14
 buff=true
-post_effect=237,200,600
+post_effect=haste,200,600
 
 [power]
 id=132
@@ -1100,7 +1101,7 @@ lifespan=16
 floor=true
 starting_pos=source
 buff_teleport=true
-range=8.0
+target_range=8.0
 target_neighbor=1
 cooldown=450
 
@@ -1143,10 +1144,10 @@ icon=6
 type=fixed
 buff=true
 passive=true
-post_effect=216,100,0
-post_effect=236,50,0
-post_effect=233,90,0
-post_effect=235,1,300
+post_effect=crit,100,0
+post_effect=stealth,90,0
+post_effect=stealth speed,50,0
+post_effect=stealth icon,1,300
 
 [power]
 id=160
@@ -1158,7 +1159,7 @@ use_hazard=true
 lifespan=16
 radius=0.75
 starting_pos=source
-complete_animation=animations/powers/true
+complete_animation=true
 base_damage=melee
 visual_random=4
 soundfx=soundfx/powers/spikes.ogg
@@ -1172,528 +1173,8 @@ buff=true
 requires_equipped_item=112
 passive=true
 passive_trigger=on_death
-post_effect=234,0,1
+post_effect=revive,0,1
 
-#
-# Status Effects
-#
-
-[power]
-id=200
-#name=Bleeding
-type=effect
-icon=25
-effect_type=damage
-animation=animations/powers/spark_red_loop.txt
-
-[power]
-id=201
-#name=Speed (Immobilize)
-type=effect
-icon=24
-effect_type=speed
-
-[power]
-id=202
-#name=Speed (50% slow)
-type=effect
-icon=24
-effect_type=speed
-
-[power]
-id=203
-#name=Stunned
-type=effect
-icon=26
-effect_type=stun
-
-[power]
-id=210
-#name=HP bonus
-tag=HP
-type=effect
-effect_type=hp
-effect_additive=true
-
-[power]
-id=211
-#name=HP regen bonus
-tag=HP regen
-type=effect
-effect_type=hp_regen
-effect_additive=true
-
-[power]
-id=212
-#name=MP bonus
-tag=MP
-type=effect
-effect_type=mp
-effect_additive=true
-
-[power]
-id=213
-#name=MP regen bonus
-tag=MP regen
-type=effect
-effect_type=mp_regen
-effect_additive=true
-
-[power]
-id=214
-#name=Accuracy bonus
-tag=accuracy
-type=effect
-effect_type=accuracy
-effect_additive=true
-
-[power]
-id=215
-#name=Avoidance bonus
-tag=avoidance
-type=effect
-effect_type=avoidance
-effect_additive=true
-
-[power]
-id=216
-#name=Crit bonus
-tag=crit
-type=effect
-effect_type=crit
-effect_additive=true
-
-[power]
-id=217
-#name=Speed (Boots of Speed)
-tag=speed
-type=effect
-effect_type=speed
-
-[power]
-id=218
-#name=Offense bonus
-tag=offense
-type=effect
-effect_type=offense
-effect_additive=true
-
-[power]
-id=219
-#name=Defense bonus
-tag=defense
-type=effect
-effect_type=defense
-effect_additive=true
-
-[power]
-id=220
-#name=Physical bonus
-tag=physical
-type=effect
-effect_type=physical
-effect_additive=true
-
-[power]
-id=221
-#name=Mental bonus
-tag=mental
-type=effect
-effect_type=mental
-effect_additive=true
-
-[power]
-id=222
-#name=XP bonus
-tag=XP gain
-type=effect
-effect_type=xp
-effect_additive=true
-
-[power]
-id=223
-#name=Gold find bonus
-tag=gold find
-type=effect
-effect_type=currency
-effect_additive=true
-
-[power]
-id=224
-#name=Fire Resist bonus
-tag=fire resist
-type=effect
-effect_type=fire_resist
-effect_additive=true
-
-[power]
-id=225
-#name=Ice Resist bonus
-tag=ice resist
-type=effect
-effect_type=ice_resist
-effect_additive=true
-
-[power]
-id=226
-#name=Immunity
-type=effect
-icon=12
-effect_type=immunity
-
-[power]
-id=227
-#name=Shield
-type=effect
-icon=15
-effect_type=shield
-animation=animations/powers/shield.txt
-
-[power]
-id=228
-#name=Heal
-type=effect
-icon=11
-effect_type=heal
-animation=animations/powers/heal.txt
-
-[power]
-id=229
-#name=Speed (Haste)
-type=effect
-icon=9
-effect_type=speed
-
-[power]
-id=230
-#name=HP over time
-type=effect
-effect_type=hpot
-
-[power]
-id=231
-#name=MP over time
-type=effect
-effect_type=mpot
-
-[power]
-id=232
-#name=Item find bonus
-tag=item find
-type=effect
-effect_type=item_find
-effect_additive=true
-
-[power]
-id=233
-#name=Stealth bonus
-tag=stealth
-type=effect
-effect_type=stealth
-effect_additive=true
-
-[power]
-id=234
-#name=Revive
-type=effect
-effect_type=revive
-
-[power]
-id=235
-#name=Stealth time remaining icon
-icon=6
-
-[power]
-id=236
-#name=Speed (Stealth)
-type=effect
-effect_type=speed
-
-[power]
-id=237
-#name=Speed (Scroll of Haste)
-type=effect
-effect_type=speed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##################################################################################
-
-##################################################################################
-
-##################################################################################
-
-##################################################################################
-
-#Effects - 500-550
-
-##################################################################################
-
-##################################################################################
-
-[power]
-id=500
-name=Knockback
-type=effect
-effect_type=forced_move
-
-[power]
-id=501
-name=Convert
-type=effect
-effect_type=convert
-#animation=animations/powers/spark_red_loop.txt
-animation=animations/powers/runes_green.txt
-floor=true
-
-
-[power]
-id=502
-name=Death Sentence
-type=effect
-effect_type=death_sentence
-
-[power]
-id=503
-name=Lower Absorb min
-type=effect
-effect_type=absorb_min
-effect_additive=true
-animation=animations/powers/runes_orange.txt
-
-[power]
-id=504
-name=Lower Absorb max
-type=effect
-effect_type=absorb_max
-effect_additive=true
-
-[power]
-id=505
-name=Lower Avoidance
-type=effect
-effect_type=avoidance
-effect_additive=true
-
-[power]
-id=506
-name=Lower Poise
-type=effect
-effect_type=poise
-effect_additive=true
-
-[power]
-id=507
-name=Lower Fire Resist
-type=effect
-effect_type=fire_resist
-effect_additive=true
-
-[power]
-id=508
-name=Lower Ice Resist
-type=effect
-effect_type=ice_resist
-effect_additive=true
-
-[power]
-id=509
-name=Lower Earth Resist
-type=effect
-effect_type=earth_resist
-effect_additive=true
-
-[power]
-id=510
-name=Lower Lightning Resist
-type=effect
-effect_type=lightning_resist
-effect_additive=true
-
-[power]
-id=511
-name=Lower Melee Damage min
-type=effect
-effect_type=dmg_melee_min
-effect_additive=true
-animation=animations/powers/smoke_black.txt
-
-[power]
-id=512
-name=Lower Melee Damage max
-type=effect
-effect_type=dmg_melee_max
-effect_additive=true
-
-[power]
-id=513
-name=Lower Ranged Damage min
-type=effect
-effect_type=dmg_ranged_min
-effect_additive=true
-
-[power]
-id=514
-name=Lower Ranged Damage max
-type=effect
-effect_type=dmg_ranged_max
-effect_additive=true
-
-[power]
-id=515
-name=Lower Mental Damage min
-type=effect
-effect_type=dmg_ment_min
-effect_additive=true
-
-[power]
-id=516
-name=Lower Mental Damage max
-type=effect
-effect_type=dmg_ment_max
-effect_additive=true
-
-[power]
-id=517
-name=Lower Critical Hit Rate
-type=effect
-effect_type=crit
-effect_additive=true
-
-[power]
-id=518
-name=Lower Accuracy
-type=effect
-effect_type=accuracy
-effect_additive=true
-
-[power]
-id=519
-name=Fear
-type=effect
-effect_type=fear
-effect_additive=true
-animation=animations/powers/fear.txt
-
-[power]
-id=520
-name=Fear Immobilise
-type=effect
-effect_type=stun
-effect_additive=true
-animation=animations/powers/spark_red_loop.txt
-
-[power]
-id=521
-#name=HP bonus
-type=effect
-effect_type=hp
-effect_additive=true
-
-[power]
-id=522
-name=Raise Melee Damage min
-type=effect
-effect_type=dmg_melee_min
-effect_additive=true
-
-[power]
-id=523
-name=Raise Melee Damage max
-type=effect
-effect_type=dmg_melee_max
-effect_additive=true
-
-[power]
-id=524
-#name=HP Buff bonus - protection power
-type=effect
-effect_type=hp
-effect_additive=true
-animation=animations/powers/shield.txt
-
-[power]
-id=525
-#name=Raise Absorb min - protection power
-type=effect
-effect_type=absorb_min
-effect_additive=true
-
-[power]
-id=526
-#name=Raise Absorb max - protection power
-type=effect
-effect_type=absorb_max
-effect_additive=true
-
-[power]
-id=527
-#name=Raise Avoidance - protection power
-type=effect
-effect_type=avoidance
-effect_additive=true
-
-[power]
-id=528
-#name=Raise Fire Resist - protection power
-type=effect
-effect_type=fire_resist
-effect_additive=true
-
-[power]
-id=529
-#name=Raise Ice Resist - protection power
-type=effect
-effect_type=ice_resist
-effect_additive=true
-
-[power]
-id=530
-#name=Raise Earth Resist - protection power
-type=effect
-effect_type=earth_resist
-effect_additive=true
-
-[power]
-id=531
-#name=Raise Lightning Resist - protection power
-type=effect
-effect_type=lightning_resist
-effect_additive=true
-
-[power]
-id=532
-#name=Increase Speed - werewolf
-type=effect
-effect_type=speed
-effect_additive=true
-
-[power]
-id=533
-#name=Raise Avoidance - werewolf
-type=effect
-effect_type=avoidance
-effect_additive=true
-
-[power]
-id=534
-#name=Raise Accuracy - werewolf
-type=effect
-effect_type=accuracy
-effect_additive=true
 
 ##################################################################################
 
@@ -2466,7 +1947,7 @@ lifespan=18
 radius=2.0
 floor=true
 starting_pos=target
-range=8.0
+target_range=8.0
 target_categories=undead
 cooldown=900
 modifier_accuracy=absolute,35,1
@@ -2491,7 +1972,7 @@ radius=2.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 target_categories=undead
 cooldown=750
 modifier_accuracy=absolute,40,1
@@ -2516,7 +1997,7 @@ radius=2.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 target_categories=undead,animal
 cooldown=750
 modifier_accuracy=absolute,40,1
@@ -2541,7 +2022,7 @@ radius=3.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 target_categories=undead,animal
 cooldown=750
 modifier_accuracy=absolute,45,1
@@ -2566,7 +2047,7 @@ radius=4.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 target_categories=undead,animal,humanoid
 cooldown=600
 modifier_accuracy=absolute,50,1
@@ -2921,7 +2402,7 @@ lifespan=18
 radius=2.0
 floor=true
 starting_pos=target
-range=8.0
+target_range=8.0
 cooldown=3600
 modifier_accuracy=absolute,100
 post_effect=501,0,0
@@ -2960,7 +2441,7 @@ radius=1.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 post_effect=503,-10,300
 post_effect=504,-10,300
 modifier_damage=multiply,0,0
@@ -2984,7 +2465,7 @@ radius=2.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 post_effect=503,-20,450
 post_effect=504,-20,450
 modifier_damage=multiply,0,0
@@ -3008,7 +2489,7 @@ radius=4.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 post_effect=503,-30,600
 post_effect=504,-30,600
 post_effect=505,-30,600
@@ -3033,7 +2514,7 @@ radius=4.0
 floor=true
 starting_pos=target
 multitarget=true
-range=16.0
+target_range=16.0
 post_effect=503,-40,600
 post_effect=504,-40,600
 post_effect=505,-40,600
@@ -3059,7 +2540,7 @@ radius=8.0
 floor=true
 starting_pos=target
 multitarget=true
-range=16.0
+target_range=16.0
 post_effect=503,-50,900
 post_effect=504,-50,900
 post_effect=505,-50,900
@@ -3095,7 +2576,7 @@ radius=1.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 post_effect=511,-10,300
 post_effect=512,-10,300
 post_effect=513,-10,300
@@ -3123,7 +2604,7 @@ radius=2.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 post_effect=511,-20,450
 post_effect=512,-20,450
 post_effect=513,-20,450
@@ -3151,7 +2632,7 @@ radius=4.0
 floor=true
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 post_effect=511,-30,600
 post_effect=512,-30,600
 post_effect=513,-30,600
@@ -3180,7 +2661,7 @@ radius=4.0
 floor=true
 starting_pos=target
 multitarget=true
-range=16.0
+target_range=16.0
 post_effect=511,-40,600
 post_effect=512,-40,600
 post_effect=513,-40,600
@@ -3209,7 +2690,7 @@ radius=8.0
 floor=true
 starting_pos=target
 multitarget=true
-range=16.0
+target_range=16.0
 post_effect=511,-50,900
 post_effect=512,-50,900
 post_effect=513,-50,900
@@ -4112,7 +3593,7 @@ radius=1.0
 starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,20
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 post_effect=519,0,150
 
 [power]
@@ -4145,7 +3626,7 @@ radius=1.0
 starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,35
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 post_effect=519,0,150
 
 [power]
@@ -4178,7 +3659,7 @@ radius=1.0
 starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,50
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 post_effect=519,0,150
 
 
@@ -4222,7 +3703,7 @@ radius=1.0
 starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,30
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 post_effect=501,0,1800
 target_categories=undead
 
@@ -4256,7 +3737,7 @@ radius=1.0
 starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,50
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 post_effect=501,0,3600
 target_categories=undead
 
@@ -4290,7 +3771,7 @@ radius=1.0
 starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,70
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 post_effect=501,0,5400
 target_categories=undead,living_humanoid
 
@@ -4578,7 +4059,7 @@ modifier_damage=absolute,1,1
 trait_armor_penetration=true
 requires_item=200
 modifier_accuracy=absolute,100
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 
 [power]
 id=901
@@ -4599,7 +4080,7 @@ requires_item=201
 modifier_damage=absolute,1,1
 trait_armor_penetration=true
 modifier_accuracy=absolute,100
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 
 
 
@@ -4764,7 +4245,7 @@ radius=1.0
 starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,4
-trait_ignore_avoidance=true
+trait_avoidance_ignore=true
 post_effect=519,0,150
 
 [power]
@@ -4936,7 +4417,7 @@ radius=2.0
 trait_elemental=lightning
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 
 [power]
 id=1115
@@ -4957,7 +4438,7 @@ radius=2.0
 trait_elemental=lightning
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 
 [power]
 id=1116
@@ -4978,7 +4459,7 @@ radius=2.0
 trait_elemental=earth
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 
 [power]
 id=1117
@@ -4997,7 +4478,7 @@ lifespan=12
 base_damage=ment
 delay=3
 visual_random=3
-complete_animation=animations/powers/true
+complete_animation=true
 count=10
 post_effect=202,50,90
 
@@ -5022,7 +4503,7 @@ trait_elemental=ice
 starting_pos=target
 multitarget=true
 post_power=125
-range=8.0
+target_range=8.0
 
 [power]
 id=1119
@@ -5037,7 +4518,7 @@ base_damage=ment
 aim_assist=true
 trait_armor_penetration=true
 count=10
-damage_multiplier=15
+modifier_damage=multiply,15,0
 angle_variance=15
 speed_variance=7.0
 animation=animations/powers/ember.txt
@@ -5072,7 +4553,7 @@ trait_elemental=fire
 starting_pos=target
 multitarget=true
 post_power=125
-range=8.0
+target_range=8.0
 
 [power]
 id=1121
@@ -5093,7 +4574,7 @@ radius=2.0
 trait_elemental=lightning
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 
 [power]
 id=1122
@@ -5137,7 +4618,7 @@ radius=2.0
 trait_elemental=earth
 starting_pos=target
 multitarget=true
-range=8.0
+target_range=8.0
 
 [power]
 id=1124
@@ -5156,7 +4637,7 @@ lifespan=12
 base_damage=ment
 delay=2
 #visual_random=3
-complete_animation=animations/powers/true
+complete_animation=true
 count=10
 
 [power]
