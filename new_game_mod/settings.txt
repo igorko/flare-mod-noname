@@ -1,0 +1,2 @@
+description=Campaign without the name
+requires=fantasycore,alpha_demo

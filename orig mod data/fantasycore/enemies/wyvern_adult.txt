@@ -4,17 +4,21 @@ categories=wyvern
 rarity=common
 xp=50
 
-sfx_prefix=wyvern
-animations=wyvern_adult
+sfx_phys=soundfx/enemies/wyvern_phys.ogg
+sfx_ment=soundfx/enemies/wyvern_ment.ogg
+sfx_hit=soundfx/enemies/wyvern_hit.ogg
+sfx_die=soundfx/enemies/wyvern_die.ogg
+sfx_critdie=soundfx/enemies/wyvern_critdie.ogg
+
+animations=animations/enemies/wyvern_adult.txt
 
 
 # combat stats
 hp=200
-speed=18
-dspeed=12
+speed=9
 flying=1
-melee_range=72
-threat_range=512
+melee_range=1.125
+threat_range=8.0
 turn_delay=3
 chance_pursue=10
 chance_melee_phys=15

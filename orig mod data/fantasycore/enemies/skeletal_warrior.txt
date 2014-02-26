@@ -4,18 +4,22 @@ level=5
 categories=skeleton,undead,dungeon
 xp=20
 
-sfx_prefix=skeleton
-animations=skeleton
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton.txt
 
 
 waypoint_pause=30
 
 # combat stats
 hp=130
-speed=10
-dspeed=7
-melee_range=76
-threat_range=512
+speed=5
+melee_range=1.1875
+threat_range=8.0
 turn_delay=6
 
 chance_pursue=25

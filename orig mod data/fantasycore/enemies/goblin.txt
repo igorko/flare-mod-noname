@@ -5,15 +5,19 @@ categories=goblin,dungeon
 rarity=common
 xp=1
 
-sfx_prefix=goblin
-animations=goblin
+sfx_phys=soundfx/enemies/goblin_phys.ogg
+sfx_ment=soundfx/enemies/goblin_ment.ogg
+sfx_hit=soundfx/enemies/goblin_hit.ogg
+sfx_die=soundfx/enemies/goblin_die.ogg
+sfx_critdie=soundfx/enemies/goblin_critdie.ogg
+
+animations=animations/enemies/goblin.txt
 
 # combat stats
 hp=30
-speed=4
-dspeed=3
-melee_range=72
-threat_range=512
+speed=2
+melee_range=1.125
+threat_range=8.0
 turn_delay=12
 chance_pursue=10
 chance_melee_phys=2
