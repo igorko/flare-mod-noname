@@ -4,7 +4,7 @@ categories=hobgoblin,ground,woods2,marshlands,living_humanoid
 xp=350
 
 sfx_prefix=antlion
-animations=hobgoblin_charger
+animations=animations/enemies/hobgoblin_charger.txt
 
 # combat stats
 hp=420

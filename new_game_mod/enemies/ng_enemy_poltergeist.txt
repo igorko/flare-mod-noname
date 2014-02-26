@@ -4,7 +4,7 @@ categories=poltergeist,spirit,undead,ground,asylum
 xp=150
 
 sfx_prefix=antlion
-animations=longsword
+animations=animations/enemies/longsword.txt
 
 # combat stats
 hp=100

@@ -4,7 +4,7 @@ categories=antlion,antlion_blinker,ground,wyvern_cave
 xp=250
 
 sfx_prefix=antlion
-animations=antlion
+animations=animations/enemies/antlion.txt
 
 # combat stats
 hp=250

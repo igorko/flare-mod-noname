@@ -4,7 +4,7 @@ categories=small_spider,arachnid,animal,ground
 xp=5
 
 sfx_prefix=antlion
-animations=spider
+animations=animations/enemies/spider.txt
 
 # combat stats
 hp=10

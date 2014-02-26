@@ -4,7 +4,7 @@ xp=0
 categories=ground
 
 sfx_prefix=none
-animations=barricade_stone
+animations=animations/enemies/barricade_stone.txt
 
 
 # combat stats

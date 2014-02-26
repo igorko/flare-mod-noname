@@ -4,7 +4,7 @@ categories=hobgoblin_mage,hobgoblin,ground,living_humanoid
 xp=70
 
 sfx_prefix=antlion
-animations=hobgoblin
+animations=animations/enemies/hobgoblin.txt
 
 # combat stats
 hp=60

@@ -5,7 +5,7 @@ categories=minotaur,dungeon,ground
 xp=200
 
 sfx_prefix=minotaur
-animations=werewolf
+animations=animations/enemies/werewolf.txt
 
 
 # combat stats

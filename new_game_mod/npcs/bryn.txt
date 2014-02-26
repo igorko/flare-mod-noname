@@ -1,7 +1,7 @@
 
 name=Bryn
 
-portrait=male18
+portrait=images/portraits/male18.png
 
 talker=true
 
@@ -30,12 +30,12 @@ you=Okay. Ill be back.
 set_status=bryn_init
 
 [dialog]
-requires=bryn_init
+requires_status=bryn_init
 requires_not_status=wyvern_complete
 him=I'm sure the governor knows something about this.
 
 [dialog]
-requires=wyvern_complete
+requires_status=wyvern_complete
 requires_not_status=werebear_complete
 him=Hello again.
 you=Hey you made it out of the asylum. What on earth are you doing here.
@@ -55,12 +55,12 @@ you=Okay. Stay out of trouble.
 set_status=werebear_complete
 
 [dialog]
-requires=werebear_complete
+requires_status=werebear_complete
 requires_not_status=minotaur_complete
 him=Use the transformation effect to youir advantage in battle. The beast is fierce and powerful if controlled properly.
 
 [dialog]
-requires=minotaur_complete
+requires_status=minotaur_complete
 him=Well met brother.
 you=Good to see you again. Thanks for joining us.
 him=Its my pleasure. Allow me to offer my serices as a crafter.

@@ -4,7 +4,7 @@ categories=ground
 xp=40
 
 sfx_prefix=goblin
-animations=goblin
+animations=animations/enemies/goblin.txt
 
 defeat_status=fr_rilrak_defeated
 

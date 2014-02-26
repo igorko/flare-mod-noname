@@ -4,7 +4,7 @@ categories=ground
 xp=1000
 
 sfx_prefix=antlion
-animations=troll
+animations=animations/enemies/troll.txt
 
 # combat stats
 hp=3000

@@ -4,7 +4,7 @@ categories=antlion,animal,ground,wyvern_cave,woods2,marshlands
 xp=200
 
 sfx_prefix=antlion
-animations=antlion
+animations=animations/enemies/antlion.txt
 
 # combat stats
 hp=200

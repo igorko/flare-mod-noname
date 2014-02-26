@@ -4,7 +4,7 @@ categories=soldier_archer,ground,battlefield,living_humanoid,battlefield_human,b
 xp=600
 
 sfx_prefix=antlion
-animations=orc_archer
+animations=animations/enemies/orc_archer.txt
 
 # combat stats
 hp=400

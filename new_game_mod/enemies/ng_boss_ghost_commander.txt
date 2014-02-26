@@ -5,7 +5,7 @@ xp=1800
 intangible=true
 
 sfx_prefix=antlion
-animations=pirate_ghost_captain
+animations=animations/enemies/pirate_ghost_captain.txt
 
 # combat stats
 hp=2600

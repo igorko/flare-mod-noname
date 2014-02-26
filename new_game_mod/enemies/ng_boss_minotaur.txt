@@ -5,7 +5,7 @@ categories=ground
 xp=1500
 
 sfx_prefix=minotaur
-animations=minotaur
+animations=animations/enemies/minotaur.txt
 
 
 # combat stats

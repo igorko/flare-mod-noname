@@ -1,6 +1,6 @@
 name=Evan
 
-portrait=male16
+portrait=images/portraits/male16.png
 
 talker=true
 
@@ -32,7 +32,7 @@ you=Sounds easy enough
 set_status=evan_init
 
 [dialog]
-requires=evan_init
+requires_status=evan_init
 requires_not_status=horse_tamed
 requires_item=201
 requires_item=200
@@ -57,7 +57,7 @@ reward_item=201,20
 him=And try not to eat them!
 
 [dialog]
-requires=horse_tamed
+requires_status=horse_tamed
 requires_not_status=horse_tamer_complete
 you=Are you impressed?
 him=Congratulations. See if you can do it a bit faster next time.
@@ -73,7 +73,7 @@ set_status=horse_tamer_complete
 set_status=evan_chatter1
 
 [dialog]
-requires=evan_chatter1
+requires_status=evan_chatter1
 requires_not_status=evan_chatter2
 requires_not_status=minotaur_complete
 him=Keep training hard. The road ahead wont be easy
@@ -81,7 +81,7 @@ unset_status=evan_chatter1
 set_status=evan_chatter2
 
 [dialog]
-requires=evan_chatter2
+requires_status=evan_chatter2
 requires_not_status=evan_chatter3
 requires_not_status=minotaur_complete
 him=Good luck on your journey.
@@ -89,7 +89,7 @@ unset_status=evan_chatter2
 set_status=evan_chatter3
 
 [dialog]
-requires=evan_chatter3
+requires_status=evan_chatter3
 requires_not_status=evan_chatter4
 requires_not_status=minotaur_complete
 him=I once heared a rumour of a great beast to the north beyond the desert. I wonder if such a creature could be tamed?
@@ -97,7 +97,7 @@ unset_status=evan_chatter3
 set_status=evan_chatter4
 
 [dialog]
-requires=evan_chatter4
+requires_status=evan_chatter4
 requires_not_status=evan_chatter1
 requires_not_status=minotaur_complete
 him=Curse these spiders hiding in my log pile.
@@ -105,7 +105,7 @@ unset_status=evan_chatter4
 set_status=evan_chatter1
 
 [dialog]
-requires=minotaur_complete
+requires_status=minotaur_complete
 you=You came.
 him=I couldnt leave you to face the Sarlinian hordes alone.
 him=It looks like you have quite a gathering here. You must have made quite an impression.

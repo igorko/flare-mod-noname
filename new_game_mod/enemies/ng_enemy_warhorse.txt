@@ -5,7 +5,7 @@ categories=equine,ground,warhorse
 xp=500
 
 sfx_prefix=goblin
-animations=horse_tack
+animations=animations/enemies/horse_tack.txt
 
 
 # combat stats

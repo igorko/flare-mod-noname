@@ -5,7 +5,7 @@ categories=ground
 xp=200
 
 sfx_prefix=minotaur
-animations=werebear
+animations=animations/enemies/werebear.txt
 
 # combat stats
 hp=1800

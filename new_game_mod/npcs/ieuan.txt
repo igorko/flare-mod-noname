@@ -1,7 +1,7 @@
 # Ieuan
 name=Ieuan
 
-portrait=knight01
+portrait=images/portraits/knight01.png
 
 talker=true
 
@@ -26,13 +26,13 @@ set_status=ieuan_valley_init
 
 #initial dialogue follow up
 [dialog]
-requires=ieuan_valley_init
+requires_status=ieuan_valley_init
 requires_not_status=progress_arrived_town
 him=Be careful out there. I'll meet you at the settlement.
 
 #town arrival
 [dialog]
-requires=progress_arrived_town
+requires_status=progress_arrived_town
 requires_not_status=ieuan_town_init
 him=What took you so long? Had a little trouble?
 you=What the...
@@ -52,17 +52,17 @@ set_status=ieuan_town_init
 
 #town arrival follow up
 [dialog]
-requires=ieuan_town_init
+requires_status=ieuan_town_init
 requires_not_status=evan_init
 him=We need to prepare for battle. Lets see if we can find some help.
 
 [dialog]
-requires=evan_init
+requires_status=evan_init
 requires_not_status=horse_tamer_complete
 him=I hear that Evan has you running around the woods after a horse. That must be a sight.
 
 [dialog]
-requires=horse_tamer_complete
+requires_status=horse_tamer_complete
 requires_not_status=leaving_town
 you=I think its time to move on.
 him=Yes I fear you are right. Theres no telling when the Sarlinian might be on us again.
@@ -75,7 +75,7 @@ set_status=leaving_town
 set_status=ieuan_chatter1
 
 [dialog]
-requires=ieuan_chatter1
+requires_status=ieuan_chatter1
 requires_not_status=ieuan_chatter2
 requires_not_status=bethan_quests_complete
 him=Take care of yourself.
@@ -83,7 +83,7 @@ unset_status=ieuan_chatter1
 set_status=ieuan_chatter2
 
 [dialog]
-requires=ieuan_chatter2
+requires_status=ieuan_chatter2
 requires_not_status=ieuan_chatter3
 requires_not_status=bethan_quests_complete
 him=The asylum is on the eastern side of a desert to the north of here.
@@ -91,7 +91,7 @@ unset_status=ieuan_chatter2
 set_status=ieuan_chatter3
 
 [dialog]
-requires=ieuan_chatter3
+requires_status=ieuan_chatter3
 requires_not_status=ieuan_chatter4
 requires_not_status=bethan_quests_complete
 him=Keep up your training. When you reach your potential, you will be a force to be reckoned with.
@@ -99,7 +99,7 @@ unset_status=ieuan_chatter3
 set_status=ieuan_chatter4
 
 [dialog]
-requires=ieuan_chatter4
+requires_status=ieuan_chatter4
 requires_not_status=ieuan_chatter1
 requires_not_status=bethan_quests_complete
 him=Dont forget about our goal. We will need to be prepared when we meet the Sarlinian again.
@@ -107,7 +107,7 @@ unset_status=ieuan_chatter4
 set_status=ieuan_chatter1
 
 [dialog]
-requires=bethan_quests_complete
+requires_status=bethan_quests_complete
 requires_not_status=minotaur_intro
 him=Good to see you again.
 you=Its about time you got here.
@@ -134,12 +134,12 @@ him=Good luck.
 set_status=minotaur_intro
 
 [dialog]
-requires=minotaur_intro
+requires_status=minotaur_intro
 requires_not_status=minotaur_complete
 him=The dungeon is to the west of here, beyond the marshlands.
 
 [dialog]
-requires=minotaur_complete
+requires_status=minotaur_complete
 him=You made it!
 him=I hope your prepared for battle. We have been holding them back up to now.
 him=Our line is holding, but we dont have the force to make an advance.

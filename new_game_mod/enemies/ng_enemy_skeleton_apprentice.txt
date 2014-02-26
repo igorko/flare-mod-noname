@@ -4,7 +4,7 @@ categories=ground,battlefield,battlefield_mage
 xp=550
 
 sfx_prefix=antlion
-animations=skeleton_occultist
+animations=animations/enemies/skeleton_occultist.txt
 
 # combat stats
 hp=450

@@ -4,7 +4,7 @@ categories=ground,skeleton,skeleton_mage,undead,dungeon_skeleton
 xp=700
 
 sfx_prefix=antlion
-animations=skeleton_mage
+animations=animations/enemies/skeleton_mage.txt
 
 # combat stats
 hp=450

@@ -4,7 +4,7 @@ categories=old_skeleton,skeleton,undead,ground,fern_valley_undead
 xp=20
 
 sfx_prefix=antlion
-animations=skeleton_weak
+animations=animations/enemies/skeleton_weak.txt
 
 # combat stats
 hp=50

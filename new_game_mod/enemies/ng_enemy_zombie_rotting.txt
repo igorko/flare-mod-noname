@@ -4,7 +4,7 @@ categories=rotting_zombie,zombie,undead,ground,fern_valley_undead
 xp=16
 
 sfx_prefix=antlion
-animations=zombie
+animations=animations/enemies/zombie.txt
 
 # combat stats
 hp=60

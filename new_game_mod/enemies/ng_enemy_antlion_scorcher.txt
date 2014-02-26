@@ -4,7 +4,7 @@ categories=antlion_scorcher,antlion,animal,ground,desert
 xp=100
 
 sfx_prefix=antlion
-animations=fire_ant
+animations=animations/enemies/fire_ant.txt
 
 # combat stats
 hp=140

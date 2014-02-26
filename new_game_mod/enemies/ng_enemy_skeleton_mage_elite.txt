@@ -4,7 +4,7 @@ categories=ground,battlefield,battlefield_mage
 xp=800
 
 sfx_prefix=antlion
-animations=skeleton_mage_high
+animations=animations/enemies/skeleton_mage_high.txt
 
 # combat stats
 hp=600

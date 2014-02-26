@@ -5,7 +5,7 @@ rarity=common
 xp=5
 
 sfx_prefix=wyvern
-animations=wyvern_fire
+animations=animations/enemies/wyvern_fire.txt
 
 
 # combat stats

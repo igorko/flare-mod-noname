@@ -4,7 +4,7 @@ xp=0
 categories=ground,wooden_barricade
 
 sfx_prefix=none
-animations=wooden_barricade
+animations=animations/enemies/wooden_barricade.txt
 
 
 # combat stats

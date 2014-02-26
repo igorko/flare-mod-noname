@@ -4,7 +4,7 @@ categories=ground,battlefield,skeleton_knight_elite
 xp=1000
 
 sfx_prefix=antlion
-animations=skeleton_knight
+animations=animations/enemies/skeleton_knight.txt
 
 # combat stats
 hp=1500

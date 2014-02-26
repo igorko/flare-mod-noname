@@ -4,7 +4,7 @@ categories=ground,skeleton,skeleton_knight,undead,dungeon_skeleton
 xp=700
 
 sfx_prefix=antlion
-animations=skeleton
+animations=animations/enemies/skeleton.txt
 
 # combat stats
 hp=1000

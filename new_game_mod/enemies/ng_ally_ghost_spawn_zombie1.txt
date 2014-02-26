@@ -4,7 +4,7 @@ categories=undead,ground
 xp=50
 
 sfx_prefix=antlion
-animations=zombie
+animations=animations/enemies/zombie.txt
 
 # combat stats
 hp=100

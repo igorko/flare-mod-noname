@@ -4,7 +4,7 @@ categories=undead
 xp=2
 
 sfx_prefix=zombie
-animations=pirate_ghost_crewman
+animations=animations/enemies/pirate_ghost_crewman.txt
 
 # combat stats
 hp=100

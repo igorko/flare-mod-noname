@@ -9,7 +9,7 @@ power=100
 power_desc=Restore 100 HP
 item_type=consumable
 soundfx=soundfx/inventory/inventory_potion.ogg
-loot_animation=hp_potion
+loot_animation=animations/loot/hp_potion.txt
 price=100
 max_quantity=10
 rand_vendor=3
@@ -23,7 +23,7 @@ power=101
 power_desc=Restore 100 MP
 item_type=consumable
 soundfx=soundfx/inventory/inventory_potion.ogg
-loot_animation=mp_potion
+loot_animation=animations/loot/mp_potion.txt
 price=100
 max_quantity=10
 rand_vendor=3
@@ -37,7 +37,7 @@ quality=high
 icon=68
 item_type=gem
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 price=100
 price_sell=100
 max_quantity=100
@@ -49,7 +49,7 @@ quality=high
 icon=69
 item_type=gem
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 price=200
 price_sell=200
 max_quantity=100
@@ -61,7 +61,7 @@ quality=high
 icon=70
 item_type=gem
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 price=500
 price_sell=500
 max_quantity=100
@@ -73,7 +73,7 @@ quality=high
 icon=71
 item_type=gem
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 price=1000
 price_sell=1000
 max_quantity=100
@@ -88,9 +88,9 @@ price=1
 price_sell=1
 max_quantity=5000
 soundfx=soundfx/inventory/inventory_coins.ogg
-loot_animation=coins5,0,9
-loot_animation=coins25,10,24
-loot_animation=coins100,25,0
+loot_animation=animations/loot/coins5.txt,0,9
+loot_animation=animations/loot/coins25.txt,10,24
+loot_animation=animations/loot/coins100.txt,25,0
 
 # Basic Melee Weapons #################
 
@@ -106,7 +106,7 @@ dmg_melee=10,30
 req=p,1
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=dagger
-loot_animation=dagger
+loot_animation=animations/loot/dagger.txt
 price=100
 
 #vendor ivan
@@ -121,7 +121,7 @@ dmg_melee=25,50
 req=p,3
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=shortsword
-loot_animation=shortsword
+loot_animation=animations/loot/shortsword.txt
 price=250
 
 #vendor ivan 2
@@ -136,7 +136,7 @@ dmg_melee=50,80
 req=p,6
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=longsword
-loot_animation=longsword
+loot_animation=animations/loot/longsword.txt
 price=500
 
 #skeleton knight elite
@@ -151,7 +151,7 @@ dmg_melee=75,100
 req=p,10
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=greatsword
-loot_animation=greatsword
+loot_animation=animations/loot/greatsword.txt
 price=2000
 
 # Basic Magic Weapons #################
@@ -167,7 +167,7 @@ dmg_ment=10,30
 req=m,2
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=wand
-loot_animation=wand
+loot_animation=animations/loot/wand.txt
 price=24
 
 [item]
@@ -181,7 +181,7 @@ dmg_ment=15,40
 req=m,3
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=rod
-loot_animation=rod
+loot_animation=animations/loot/rod.txt
 price=115
 
 [item]
@@ -195,7 +195,7 @@ dmg_ment=20,50
 req=m,4
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=staff
-loot_animation=staff
+loot_animation=animations/loot/staff.txt
 price=620
 
 [item]
@@ -209,7 +209,7 @@ dmg_ment=25,60
 req=m,5
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=greatstaff
-loot_animation=greatstaff
+loot_animation=animations/loot/greatstaff.txt
 price=2240
 
 # Basic Ranged Weapons ################
@@ -227,7 +227,7 @@ power_mod=120
 req=o,2
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=slingshot
-loot_animation=slingshot
+loot_animation=animations/loot/slingshot.txt
 price=100
 
 #ivan
@@ -243,7 +243,7 @@ power_mod=121
 req=o,4
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=shortbow
-loot_animation=shortbow
+loot_animation=animations/loot/shortbow.txt
 price=288
 
 #ivan 2
@@ -259,7 +259,7 @@ power_mod=121
 req=o,7
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=longbow
-loot_animation=longbow
+loot_animation=animations/loot/longbow.txt
 price=650
 
 #skirmisher
@@ -275,7 +275,7 @@ power_mod=121
 req=o,10
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=greatbow
-loot_animation=greatbow
+loot_animation=animations/loot/greatbow.txt
 price=2450
 
 # Basic Shields #######################
@@ -292,7 +292,7 @@ abs=0,6
 req=d,2
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=buckler
-loot_animation=buckler
+loot_animation=animations/loot/buckler.txt
 power=916
 power_desc=Use: Raise your shield to double your avoidance and absorb
 price=180
@@ -309,7 +309,7 @@ abs=2,12
 req=d,4
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=iron_buckler
-loot_animation=buckler
+loot_animation=animations/loot/buckler.txt
 power=917
 power_desc=Use: Raise your shield to double your avoidance and absorb
 price=340
@@ -326,7 +326,7 @@ abs=10,20
 req=d,6
 soundfx=soundfx/inventory/inventory_heavy.ogg
 gfx=shield
-loot_animation=shield
+loot_animation=animations/loot/shield.txt
 power=918
 power_desc=Use: Raise your shield to double your avoidance and absorb
 price=660
@@ -343,7 +343,7 @@ abs=15,25
 req=d,8
 soundfx=soundfx/inventory/inventory_heavy.ogg
 gfx=shield
-loot_animation=shield
+loot_animation=animations/loot/shield.txt
 power=919
 power_desc=Use: Raise your shield to double your avoidance and absorb
 price=3000
@@ -360,7 +360,7 @@ icon=129
 abs=0,1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_shirt
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=6
 
 #starting
@@ -373,7 +373,7 @@ icon=130
 abs=0,1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_gloves
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=2
 
 #starting
@@ -386,7 +386,7 @@ icon=131
 abs=0,1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_pants
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=4
 
 #starting
@@ -399,7 +399,7 @@ icon=132
 abs=0,1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_sandals
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=3
 stepfx=cloth
 
@@ -416,7 +416,7 @@ req=m,2
 bonus=MP regen,10
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=mage_hood
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=55
 
 [item]
@@ -431,7 +431,7 @@ req=m,2
 bonus=ice resist,10
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=mage_vest
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=65
 
 [item]
@@ -445,7 +445,7 @@ bonus=fire resist,10
 req=m,2
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=mage_sleeves
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=45
 
 [item]
@@ -460,7 +460,7 @@ bonus=MP,15
 req=m,2
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=mage_skirt
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=90
 
 [item]
@@ -475,7 +475,7 @@ bonus=fire resist,5
 bonus=ice resist,5
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=mage_boots
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=70
 stepfx=cloth
 
@@ -492,7 +492,7 @@ abs=1,2
 req=d,2
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=leather_hood
-loot_animation=leather_armor
+loot_animation=animations/loot/leather_armor.txt
 price=140
 
 #branwen
@@ -506,7 +506,7 @@ abs=2,4
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_chest
-loot_animation=leather_armor
+loot_animation=animations/loot/leather_armor.txt
 price=200
 
 #branwen
@@ -520,7 +520,7 @@ abs=1,2
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_gloves
-loot_animation=leather_armor
+loot_animation=animations/loot/leather_armor.txt
 price=120
 
 #branwen
@@ -534,7 +534,7 @@ abs=2,3
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_pants
-loot_animation=leather_armor
+loot_animation=animations/loot/leather_armor.txt
 price=180
 
 #branwen
@@ -548,7 +548,7 @@ abs=1,2
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_boots
-loot_animation=leather_armor
+loot_animation=animations/loot/leather_armor.txt
 price=160
 stepfx=leather
 
@@ -565,7 +565,7 @@ abs=2,4
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_coif
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=475
 
 #ivan 2
@@ -579,7 +579,7 @@ abs=4,8
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_cuirass
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=600
 
 #ivan 3
@@ -593,7 +593,7 @@ abs=2,4
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_gloves
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=360
 
 #ivan 3
@@ -607,7 +607,7 @@ abs=3,5
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_greaves
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=390
 
 #ivan 3
@@ -621,7 +621,7 @@ abs=2,4
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_boots
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=380
 stepfx=metal
 
@@ -638,7 +638,7 @@ abs=4
 req=d,4
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=plate_helm
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=350
 
 #barbarian
@@ -652,7 +652,7 @@ abs=6
 req=d,4
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=plate_cuirass
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=500
 
 #archer
@@ -666,7 +666,7 @@ abs=3
 req=d,4
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=plate_gauntlets
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=325
 
 #scout
@@ -680,7 +680,7 @@ abs=4
 req=d,4
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=plate_greaves
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=425
 
 #skeleton archer
@@ -694,7 +694,7 @@ abs=3
 req=d,4
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=plate_boots
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 price=375
 stepfx=metal
 
@@ -711,7 +711,7 @@ abs=2
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=mage_boots
-loot_animation=boots
+loot_animation=animations/loot/boots.txt
 stepfx=leather
 bonus=speed,125
 price=250
@@ -726,7 +726,7 @@ icon=130
 abs=1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_gloves
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 bonus=gold find,25
 price=333
 
@@ -738,7 +738,7 @@ quality=epic
 item_type=ring
 icon=199
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=stealth,100
 price=5000
 
@@ -749,7 +749,7 @@ quality=high
 item_type=ring
 icon=205
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=HP regen,25
 price=750
 
@@ -760,7 +760,7 @@ quality=high
 item_type=ring
 icon=204
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=MP regen,35
 price=850
 
@@ -771,7 +771,7 @@ quality=high
 item_type=ring
 icon=207
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=fire resist,25
 price=2000
 
@@ -782,7 +782,7 @@ quality=high
 item_type=ring
 icon=206
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=ice resist,25
 price=2000
 
@@ -793,7 +793,7 @@ quality=epic
 item_type=ring
 icon=200
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 price=1000
 bonus=XP gain,25
 
@@ -804,7 +804,7 @@ quality=epic
 item_type=ring
 icon=203
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 price=1000
 power=170
 power_desc=One-time protection from death
@@ -816,7 +816,7 @@ quality=epic
 item_type=ring
 icon=201
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=item find,25
 price=4000
 
@@ -830,7 +830,7 @@ abs=2
 req=d,2
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=leather_boots
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 bonus=stealth,50
 price=500
 
@@ -844,7 +844,7 @@ abs=3
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_gloves
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 bonus=crit,5
 price=200
 
@@ -858,7 +858,7 @@ abs=5
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_cuirass
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 bonus=HP,50
 price=400
 
@@ -872,7 +872,7 @@ abs=4
 req=d,3
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=chain_greaves
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 bonus=HP regen,25
 price=350
 
@@ -886,7 +886,7 @@ abs=2
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=leather_gloves
-loot_animation=leather_armor
+loot_animation=animations/loot/leather_armor.txt
 bonus=accuracy,15
 price=75
 
@@ -898,7 +898,7 @@ quality=epic
 item_type=artifact
 icon=216
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=physical,1
 price=1500
 
@@ -910,7 +910,7 @@ quality=epic
 item_type=artifact
 icon=217
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=mental,1
 price=1500
 
@@ -922,7 +922,7 @@ quality=epic
 item_type=artifact
 icon=218
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=offense,1
 price=1500
 
@@ -934,7 +934,7 @@ quality=epic
 item_type=artifact
 icon=219
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=defense,1
 price=1500
 
@@ -948,7 +948,7 @@ abs=3
 req=m,3
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=mage_vest
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 bonus=MP,50
 bonus=ice resist,15
 price=500
@@ -963,7 +963,7 @@ abs=3
 req=m,3
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=mage_skirt
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 bonus=MP regen,25
 bonus=fire resist,15
 price=500
@@ -977,7 +977,7 @@ icon=132
 abs=1
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_sandals
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 stepfx=cloth
 bonus=avoidance,15
 price=125
@@ -992,7 +992,7 @@ abs=2
 req=d,2
 soundfx=soundfx/inventory/inventory_leather.ogg
 gfx=mage_boots
-loot_animation=boots
+loot_animation=animations/loot/boots.txt
 stepfx=leather
 power=140
 power_desc=Use: Blink to a nearby location
@@ -1012,7 +1012,7 @@ bonus=accuracy,2
 req=m,2
 soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=wand
-loot_animation=wand
+loot_animation=animations/loot/wand.txt
 price=80
 
 [item]
@@ -1029,7 +1029,7 @@ bonus=HP,3
 req=p,2
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=dagger
-loot_animation=dagger
+loot_animation=animations/loot/dagger.txt
 price=100
 
 [item]
@@ -1041,7 +1041,7 @@ icon=130
 bonus=HP,5
 soundfx=soundfx/inventory/inventory_cloth.ogg
 gfx=cloth_gloves
-loot_animation=clothes
+loot_animation=animations/loot/clothes.txt
 price=50
 
 
@@ -1072,7 +1072,7 @@ power=900
 power_desc=Immobilizes the target
 item_type=consumable
 soundfx=soundfx/inventory/inventory_potion.ogg
-loot_animation=hp_potion
+loot_animation=animations/loot/hp_potion.txt
 price=100
 max_quantity=50
 
@@ -1085,7 +1085,7 @@ power=901
 power_desc=Tastes Good
 item_type=consumable
 soundfx=soundfx/inventory/inventory_potion.ogg
-loot_animation=hp_potion
+loot_animation=animations/loot/hp_potion.txt
 price=100
 max_quantity=50
 
@@ -1096,7 +1096,7 @@ icon=232
 power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
-loot_animation=book
+loot_animation=animations/loot/book.txt
 
 [item]
 id=203
@@ -1105,7 +1105,7 @@ icon=232
 power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
-loot_animation=book
+loot_animation=animations/loot/book.txt
 
 [item]
 id=204
@@ -1114,7 +1114,7 @@ icon=232
 power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
-loot_animation=book
+loot_animation=animations/loot/book.txt
 
 [item]
 id=205
@@ -1123,7 +1123,7 @@ icon=232
 power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
-loot_animation=book
+loot_animation=animations/loot/book.txt
 
 [item]
 id=206
@@ -1132,7 +1132,7 @@ icon=233
 power_desc=An Antlion Heart
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
-loot_animation=book
+loot_animation=animations/loot/book.txt
 
 
 
@@ -1154,7 +1154,7 @@ quality=high
 item_type=ring
 icon=198
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=defense,1
 price=2000
 
@@ -1166,7 +1166,7 @@ quality=epic
 item_type=artifact
 icon=216
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=physical,2
 price=3000
 
@@ -1178,7 +1178,7 @@ quality=epic
 item_type=artifact
 icon=217
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=mental,2
 price=3000
 
@@ -1190,7 +1190,7 @@ quality=epic
 item_type=artifact
 icon=218
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=offense,2
 price=3000
 
@@ -1202,7 +1202,7 @@ quality=epic
 item_type=artifact
 icon=219
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=defense,2
 price=3000
 
@@ -1217,7 +1217,7 @@ abs=3
 req=p,7
 soundfx=soundfx/inventory/inventory_maille.ogg
 gfx=plate_gauntlets
-loot_animation=steel_armor
+loot_animation=animations/loot/steel_armor.txt
 bonus=physical,1
 price=2625
 
@@ -1229,7 +1229,7 @@ quality=epic
 item_type=artifact
 icon=216
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=physical,3
 price=3000
 
@@ -1241,7 +1241,7 @@ quality=epic
 item_type=artifact
 icon=217
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=mental,3
 price=3000
 
@@ -1253,7 +1253,7 @@ quality=epic
 item_type=artifact
 icon=218
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=offense,3
 price=3000
 
@@ -1265,7 +1265,7 @@ quality=epic
 item_type=artifact
 icon=219
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=defense,3
 price=3000
 
@@ -1277,7 +1277,7 @@ quality=epic
 item_type=ring
 icon=200
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=physical,1
 price=3000
 
@@ -1289,7 +1289,7 @@ quality=epic
 item_type=ring
 icon=201
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=offense,1
 price=3000
 
@@ -1301,7 +1301,7 @@ quality=epic
 item_type=ring
 icon=202
 soundfx=soundfx/inventory/inventory_gem.ogg
-loot_animation=gem
+loot_animation=animations/loot/gem.txt
 bonus=mental,1
 price=3000
 

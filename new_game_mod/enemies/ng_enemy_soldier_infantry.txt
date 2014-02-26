@@ -4,7 +4,7 @@ categories=ground,battlefield,living_humanoid,battlefield_human,infantry
 xp=900
 
 sfx_prefix=antlion
-animations=orc_heavy
+animations=animations/enemies/orc_heavy.txt
 
 # combat stats
 hp=700

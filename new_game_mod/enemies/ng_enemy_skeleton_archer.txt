@@ -4,7 +4,7 @@ categories=ground,battlefield,battlefield_archer
 xp=650
 
 sfx_prefix=antlion
-animations=skeleton_archer
+animations=animations/enemies/skeleton_archer.txt
 
 # combat stats
 hp=450

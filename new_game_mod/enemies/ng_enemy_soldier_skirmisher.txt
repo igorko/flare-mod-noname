@@ -5,7 +5,7 @@ xp=800
 rarity=uncommon
 
 sfx_prefix=antlion
-animations=orc_archer
+animations=animations/enemies/orc_archer.txt
 
 # combat stats
 hp=500

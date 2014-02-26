@@ -5,7 +5,7 @@ categories=skeleton,undead,dungeon,ground
 xp=200
 
 sfx_prefix=skeleton
-animations=skeleton
+animations=animations/enemies/skeleton.txt
 
 
 # combat stats

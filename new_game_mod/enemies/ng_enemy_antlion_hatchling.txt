@@ -4,7 +4,7 @@ categories=antlion_hatchling,antlion,animal,ground
 xp=50
 
 sfx_prefix=antlion
-animations=antlion_small
+animations=animations/enemies/antlion_small.txt
 
 # combat stats
 hp=100

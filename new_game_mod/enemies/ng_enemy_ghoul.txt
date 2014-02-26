@@ -4,7 +4,7 @@ categories=ghoul,spirit,undead,ground,asylum
 xp=150
 
 sfx_prefix=antlion
-animations=necromancer
+animations=animations/enemies/necromancer.txt
 
 # combat stats
 hp=100

@@ -1,7 +1,7 @@
 
 name=The Governor
 
-portrait=male12
+portrait=images/portraits/male12.png
 
 talker=true
 
@@ -26,7 +26,7 @@ him=Get out before its too late.
 set_status=asylum_complete
 
 [dialog]
-requires=asylum_complete
+requires_status=asylum_complete
 him=I can feel it. My mind and body are becoming consumed by the darkness. Get out before I lose control completely.
 
 

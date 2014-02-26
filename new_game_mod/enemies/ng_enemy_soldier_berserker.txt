@@ -4,7 +4,7 @@ categories=ground,battlefield,living_humanoid,battlefield_human,berserker
 xp=1000
 
 sfx_prefix=antlion
-animations=orc_elite
+animations=animations/enemies/orc_elite.txt
 
 # combat stats
 hp=650

@@ -4,7 +4,7 @@ categories=skeleton,skeletal,undead,ground,desert
 xp=120
 
 sfx_prefix=antlion
-animations=skeleton_weak
+animations=animations/enemies/skeleton_weak.txt
 
 # combat stats
 hp=100

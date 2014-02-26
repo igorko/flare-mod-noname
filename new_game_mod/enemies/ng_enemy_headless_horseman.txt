@@ -4,7 +4,7 @@ categories=headless_horseman,undead,ground,asylum
 xp=250
 
 sfx_prefix=antlion
-animations=steel_armor
+animations=animations/enemies/steel_armor.txt
 
 # combat stats
 hp=400

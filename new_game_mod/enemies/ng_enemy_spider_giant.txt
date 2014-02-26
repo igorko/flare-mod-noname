@@ -5,7 +5,7 @@ xp=50
 rarity=uncommon
 
 sfx_prefix=antlion
-animations=spider_giant
+animations=animations/enemies/spider_giant.txt
 
 
 # combat stats

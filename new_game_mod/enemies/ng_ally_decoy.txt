@@ -4,7 +4,7 @@ categories=ground
 xp=20
 
 sfx_prefix=none
-animations=training_dummy
+animations=animations/enemies/training_dummy.txt
 
 # combat stats
 hp=2000

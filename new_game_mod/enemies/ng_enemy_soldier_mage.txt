@@ -5,7 +5,7 @@ rarity=uncommon
 xp=850
 
 sfx_prefix=antlion
-animations=vesuvvio
+animations=animations/enemies/vesuvvio.txt
 
 # combat stats
 hp=600

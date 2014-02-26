@@ -4,7 +4,7 @@ xp=500
 categories=ground
 
 sfx_prefix=none
-animations=demon_statue
+animations=animations/enemies/demon_statue.txt
 
 # combat stats
 hp=2000

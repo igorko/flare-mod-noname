@@ -4,7 +4,7 @@ categories=ground
 xp=75
 
 sfx_prefix=zombie
-animations=zombie
+animations=animations/enemies/zombie.txt
 speed=150
 
 

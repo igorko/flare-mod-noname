@@ -4,7 +4,7 @@ categories=ground
 xp=1000
 
 sfx_prefix=antlion
-animations=demon
+animations=animations/enemies/demon.txt
 
 # combat stats
 hp=5000

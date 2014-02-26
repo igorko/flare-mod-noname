@@ -4,7 +4,7 @@ categories=ground
 xp=10000
 
 sfx_prefix=antlion
-animations=scathelocke
+animations=animations/enemies/scathelocke.txt
 
 # combat stats
 hp=25000

@@ -5,7 +5,7 @@ xp=50
 rarity=uncommon
 
 sfx_prefix=antlion
-animations=hobgoblin
+animations=animations/enemies/hobgoblin.txt
 
 # combat stats
 hp=80

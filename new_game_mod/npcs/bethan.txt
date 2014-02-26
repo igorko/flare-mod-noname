@@ -1,7 +1,7 @@
 
 name=Bethan
 
-portrait=female01
+portrait=images/portraits/female01.png
 
 talker=true
 
@@ -30,7 +30,7 @@ you=Okay im going.
 set_status=bethan_init
 
 [dialog]
-requires=bethan_init
+requires_status=bethan_init
 requires_not_status=wyvern_complete
 requires_item=202
 requires_item=203
@@ -64,23 +64,23 @@ him=Go and check it out for me.
 set_status=wyvern_complete
 
 [dialog]
-requires=bethan_init
+requires_status=bethan_init
 requires_not_status=wyvern_complete
 requires_item=206
 him=You dont have the Wyvern tails? Well you had better get back into the caves.
 
 [dialog]
-requires=bethan_init
+requires_status=bethan_init
 requires_not_status=wyvern_complete
 him=The fire ants live in the woods to the east of here. Go and fetch one a Fire Ant heart for the spell.
 
 [dialog]
-requires=wyvern_complete
+requires_status=wyvern_complete
 requires_not_status=werebear_defeated
 him=Find the beast.
 
 [dialog]
-requires=werebear_defeated
+requires_status=werebear_defeated
 requires_not_status=werebear_complete
 him=What did you find?
 you=There was some kind of bear.
@@ -93,7 +93,7 @@ you=(Time for round 2)
 set_status=werebear_returning
 
 [dialog]
-requires=werebear_complete
+requires_status=werebear_complete
 requires_not_status=bethan_quests_complete
 you=You wont believe it. When I got back there, there was...
 him=A man.
@@ -105,12 +105,12 @@ him=Thanks for taking care of that. Good luck on the rest of your journey.
 set_status=bethan_quests_complete
 
 [dialog]
-requires=bethan_quests_complete
+requires_status=bethan_quests_complete
 requires_not_status=minotaur_complete
 him=Specialise in your favourite skills. You will get more benefit from investing a lot of training into a small set of skills, rather than a small amount of training in a lot of skills.
 
 [dialog]
-requires=minotaur_complete
+requires_status=minotaur_complete
 him=About time you got here.
 you=Good to see you too.
 him=Dont get all sentamental now. Time to focus.
