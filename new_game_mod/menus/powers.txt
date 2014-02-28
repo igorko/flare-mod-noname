@@ -40,7 +40,7 @@ tab_tree=images/menus/powers_tree.png
 [power]
 id=600
 tab=0
-position=140,80
+position=50,80
 requires_physical=1
 requires_level=1
 upgrades=601,602,603,604
@@ -82,7 +82,7 @@ requires_level=7
 [power]
 id=605
 tab=0
-position=140,130
+position=95,130
 requires_offense=1
 requires_point=true
 requires_level=1
@@ -171,7 +171,7 @@ requires_level=20
 [power]
 id=615
 tab=0
-position=140,230
+position=185,230
 requires_mental=1
 requires_point=true
 requires_level=4
@@ -214,7 +214,7 @@ requires_level=10
 # Ice Bolt
 [power]
 id=624
-position=140,280
+position=230,280
 requires_mental=5
 requires_point=true
 requires_level=6
@@ -223,7 +223,6 @@ upgrades=626,627,628,630
 # Ice Bolt
 [upgrade]
 id=626
-position=95,280
 requires_mental=6
 requires_point=true
 requires_power=624
@@ -232,7 +231,6 @@ requires_level=8
 # Ice Bolt
 [upgrade]
 id=627
-position=140,280
 requires_mental=7
 requires_point=true
 requires_power=626
@@ -241,7 +239,6 @@ requires_level=11
 # Ice Bolt
 [upgrade]
 id=628
-position=185,280
 requires_mental=8
 requires_point=true
 requires_power=627
@@ -250,7 +247,6 @@ requires_level=14
 # Ice Bolt
 [upgrade]
 id=630
-position=230,280
 requires_mental=10
 requires_point=true
 requires_power=628
@@ -273,7 +269,7 @@ requires_power=621
 [power]
 id=650
 tab=1
-position=140,80
+position=50,80
 requires_mental=2
 requires_point=true
 requires_level=5
@@ -321,7 +317,7 @@ visible_requires_status=horse_tamer_complete
 [power]
 id=655
 tab=1
-position=140,130
+position=95,130
 requires_defense=4
 requires_point=true
 requires_level=4
@@ -419,7 +415,7 @@ visible_requires_status=asylum_complete
 [power]
 id=665
 tab=1
-position=140,230
+position=185,230
 requires_offense=4
 requires_point=true
 requires_level=6
@@ -468,7 +464,7 @@ visible_requires_status=wyvern_complete
 [power]
 id=670
 tab=1
-position=140,280
+position=230,280
 requires_physical=4
 requires_point=true
 requires_level=8
@@ -533,42 +529,35 @@ position=50,80
 requires_mental=1
 requires_point=true
 requires_level=1
+upgrades=701,702,703,704
 
 # Curse
-[power]
+[upgrade]
 id=701
-tab=2
-position=95,80
 requires_mental=2
 requires_point=true
 requires_power=700
 requires_level=3
 
 # Curse
-[power]
+[upgrade]
 id=702
-tab=2
-position=140,80
 requires_mental=3
 requires_point=true
 requires_power=701
 requires_level=5
 
 # Curse
-[power]
+[upgrade]
 id=703
-tab=2
-position=185,80
 requires_mental=4
 requires_point=true
 requires_power=702
 requires_level=7
 
 # Curse
-[power]
+[upgrade]
 id=704
-tab=2
-position=230,80
 requires_mental=5
 requires_point=true
 requires_power=703
@@ -579,46 +568,39 @@ requires_level=10
 [power]
 id=705
 tab=2
-position=50,130
+position=95,130
 requires_defense=1
 requires_point=true
 requires_level=1
+upgrades=706,707,708,709
 
 # Weaken
-[power]
+[upgrade]
 id=706
-tab=2
-position=95,130
 requires_defense=2
 requires_point=true
 requires_power=705
 requires_level=3
 
 # Weaken
-[power]
+[upgrade]
 id=707
-tab=2
-position=140,130
 requires_defense=3
 requires_point=true
 requires_power=706
 requires_level=5
 
 # Weaken
-[power]
+[upgrade]
 id=708
-tab=2
-position=185,130
 requires_defense=4
 requires_point=true
 requires_power=707
 requires_level=7
 
 # Weaken
-[power]
+[upgrade]
 id=709
-tab=2
-position=230,130
 requires_defense=5
 requires_point=true
 requires_power=708
@@ -630,46 +612,39 @@ requires_level=10
 [power]
 id=710
 tab=2
-position=50,180
+position=140,180
 requires_physical=1
 requires_point=true
 requires_level=1
+upgrades=711,712,713,714
 
 # Warcry
-[power]
+[upgrade]
 id=711
-tab=2
-position=95,180
 requires_physical=2
 requires_point=true
 requires_power=710
 requires_level=3
 
 # Warcry
-[power]
+[upgrade]
 id=712
-tab=2
-position=140,180
 requires_physical=3
 requires_point=true
 requires_power=711
 requires_level=5
 
 # Warcry
-[power]
+[upgrade]
 id=713
-tab=2
-position=185,180
 requires_physical=4
 requires_point=true
 requires_power=712
 requires_level=7
 
 # Warcry
-[power]
+[upgrade]
 id=714
-tab=2
-position=230,180
 requires_physical=5
 requires_point=true
 requires_power=713
@@ -681,46 +656,39 @@ requires_level=10
 [power]
 id=715
 tab=2
-position=50,230
+position=185,230
 requires_offense=2
 requires_point=true
 requires_level=4
+upgrades=717,718,719,720
 
 # Traps
-[power]
+[upgrade]
 id=717
-tab=2
-position=95,230
 requires_offense=3
 requires_point=true
 requires_power=715
 requires_level=6
 
 # Traps
-[power]
+[upgrade]
 id=718
-tab=2
-position=140,230
 requires_offense=4
 requires_point=true
 requires_power=717
 requires_level=10
 
 # Traps
-[power]
+[upgrade]
 id=719
-tab=2
-position=185,230
 requires_offense=6
 requires_point=true
 requires_power=718
 requires_level=14
 
 # Traps
-[power]
+[upgrade]
 id=720
-tab=2
-position=230,230
 requires_offense=10
 requires_point=true
 requires_power=719
@@ -732,46 +700,39 @@ requires_level=18
 [power]
 id=721
 tab=2
-position=50,280
+position=230,280
 requires_mental=4
 requires_point=true
 requires_level=6
+upgrades=722,723,724,725
 
 # Fire Tower
-[power]
+[upgrade]
 id=722
-tab=2
-position=95,280
 requires_mental=6
 requires_point=true
 requires_power=721
 requires_level=10
 
 # Fire Tower
-[power]
+[upgrade]
 id=723
-tab=2
-position=140,280
 requires_mental=8
 requires_point=true
 requires_power=722
 requires_level=14
 
 # Fire Tower
-[power]
+[upgrade]
 id=724
-tab=2
-position=185,280
 requires_mental=12
 requires_point=true
 requires_power=723
 requires_level=18
 
 # Fire Tower
-[power]
+[upgrade]
 id=725
-tab=2
-position=230,280
 requires_mental=16
 requires_point=true
 requires_power=724
@@ -795,56 +756,39 @@ requires_power=725
 [power]
 id=750
 tab=3
-position=50,80
+position=95,80
 requires_defense=2
 requires_point=true
 requires_level=1
-replaced_by_power=751
-replaced_by_power=752
-replaced_by_power=753
-replaced_by_power=754
+upgrades=751,752,753,754
 
 # HP Boost
-[power]
+[upgrade]
 id=751
-tab=3
-position=95,80
 requires_defense=3
 requires_point=true
 requires_power=750
 requires_level=3
-replaced_by_power=752
-replaced_by_power=753
-replaced_by_power=754
 
 # HP Boost
-[power]
+[upgrade]
 id=752
-tab=3
-position=140,80
 requires_defense=4
 requires_point=true
 requires_power=751
 requires_level=5
-replaced_by_power=753
-replaced_by_power=754
 
 # HP Boost
-[power]
+[upgrade]
 id=753
-tab=3
-position=185,80
 requires_defense=5
 requires_point=true
 requires_power=752
 requires_level=7
-replaced_by_power=754
 
 # HP Boost
-[power]
+[upgrade]
 id=754
-tab=3
-position=230,80
 requires_defense=6
 requires_point=true
 requires_power=753
@@ -855,46 +799,39 @@ requires_level=10
 [power]
 id=755
 tab=3
-position=50,130
+position=95,130
 requires_physical=2
 requires_point=true
 requires_level=1
+upgrades=756,757,758,759
 
 # Melee Boost
-[power]
+[upgrade]
 id=756
-tab=3
-position=95,130
 requires_physical=4
 requires_point=true
 requires_power=755
 requires_level=3
 
 # Melee Boost
-[power]
+[upgrade]
 id=757
-tab=3
-position=140,130
 requires_physical=6
 requires_point=true
 requires_power=756
 requires_level=5
 
 # Melee Boost
-[power]
+[upgrade]
 id=758
-tab=3
-position=185,130
 requires_physical=8
 requires_point=true
 requires_power=757
 requires_level=7
 
 # Melee Boost
-[power]
+[upgrade]
 id=759
-tab=3
-position=230,130
 requires_physical=10
 requires_point=true
 requires_power=758
@@ -906,46 +843,39 @@ requires_level=10
 [power]
 id=760
 tab=3
-position=50,180
+position=185,180
 requires_defense=2
 requires_point=true
 requires_level=3
+upgrades=761,762,763,764
 
 # Protection
-[power]
+[upgrade]
 id=761
-tab=3
-position=95,180
 requires_defense=4
 requires_point=true
 requires_power=760
 requires_level=6
 
 # Protection
-[power]
+[upgrade]
 id=762
-tab=3
-position=140,180
 requires_defense=6
 requires_point=true
 requires_power=761
 requires_level=9
 
 # Protection
-[power]
+[upgrade]
 id=763
-tab=3
-position=185,180
 requires_defense=8
 requires_point=true
 requires_power=762
 requires_level=12
 
 # Protection
-[power]
+[upgrade]
 id=764
-tab=3
-position=230,180
 requires_defense=10
 requires_point=true
 requires_power=763
@@ -957,17 +887,16 @@ requires_level=15
 [power]
 id=766
 tab=3
-position=50,230
+position=185,230
 requires_physical=2
 requires_point=true
 requires_level=4
 visible_requires_status=werebear_complete
+upgrades=767,768,769,770
 
 # Werebear
-[power]
+[upgrade]
 id=767
-tab=3
-position=95,230
 requires_physical=3
 requires_point=true
 requires_power=766
@@ -975,10 +904,8 @@ requires_level=6
 visible_requires_status=werebear_complete
 
 # Werebear
-[power]
+[upgrade]
 id=768
-tab=3
-position=140,230
 requires_physical=4
 requires_point=true
 requires_power=767
@@ -986,10 +913,8 @@ requires_level=10
 visible_requires_status=werebear_complete
 
 # Werebear
-[power]
+[upgrade]
 id=769
-tab=3
-position=185,230
 requires_physical=6
 requires_point=true
 requires_power=768
@@ -997,10 +922,8 @@ requires_level=14
 visible_requires_status=werebear_complete
 
 # Werebear
-[power]
+[upgrade]
 id=770
-tab=3
-position=230,230
 requires_physical=8
 requires_point=true
 requires_power=769
@@ -1013,18 +936,17 @@ visible_requires_status=werebear_complete
 [power]
 id=771
 tab=3
-position=50,280
+position=185,280
 requires_mental=4
 requires_point=true
 requires_power=770
 requires_level=14
 visible_requires_status=werebear_complete
+upgrades=772,773,774,775
 
 # Werewyvern
-[power]
+[upgrade]
 id=772
-tab=3
-position=95,280
 requires_mental=6
 requires_point=true
 requires_power=771
@@ -1032,10 +954,8 @@ requires_level=18
 visible_requires_status=werebear_complete
 
 # Werewyvern
-[power]
+[upgrade]
 id=773
-tab=3
-position=140,280
 requires_mental=8
 requires_point=true
 requires_power=772
@@ -1043,10 +963,8 @@ requires_level=22
 visible_requires_status=werebear_complete
 
 # Werewyvern
-[power]
+[upgrade]
 id=774
-tab=3
-position=185,280
 requires_mental=12
 requires_point=true
 requires_power=773
@@ -1054,10 +972,8 @@ requires_level=26
 visible_requires_status=werebear_complete
 
 # Werewyvern
-[power]
+[upgrade]
 id=775
-tab=3
-position=230,280
 requires_mental=16
 requires_point=true
 requires_power=774
@@ -1070,7 +986,7 @@ visible_requires_status=werebear_complete
 [power]
 id=776
 tab=3
-position=140,330
+position=185,330
 requires_point=true
 requires_level=20
 requires_power=770
