@@ -1548,7 +1548,7 @@ lifespan=1
 radius=2.5
 starting_pos=source
 multitarget=true
-post_effect=203,0,30
+post_effect=stun,0,30
 modifier_accuracy=absolute,10,1
 target_categories=ground
 
@@ -1586,7 +1586,7 @@ lifespan=1
 radius=3.0
 starting_pos=source
 multitarget=true
-post_effect=203,0,60
+post_effect=stun,0,60
 modifier_accuracy=absolute,20,1
 target_categories=ground
 
@@ -1624,7 +1624,7 @@ lifespan=1
 radius=3.5
 starting_pos=source
 multitarget=true
-post_effect=203,0,90
+post_effect=stun,0,90
 modifier_accuracy=absolute,25,1
 target_categories=ground
 post_power=623
@@ -1640,7 +1640,7 @@ lifespan=1
 radius=3.5
 starting_pos=source
 multitarget=true
-post_effect=500,1,30
+post_effect=Knockback,1,30
 modifier_accuracy=absolute,25,1
 target_categories=ground
 
@@ -1669,7 +1669,7 @@ speed=7.5
 trait_elemental=ice
 post_power=625
 wall_power=625
-post_effect=202,20,60
+post_effect=slow,20,60
 requires_mp=4
 directional=true
 
@@ -1704,7 +1704,7 @@ speed=10.0
 trait_elemental=ice
 post_power=625
 wall_power=625
-post_effect=202,30,60
+post_effect=slow,30,60
 modifier_damage=multiply,150,0
 requires_mp=5
 directional=true
@@ -1728,7 +1728,7 @@ speed=10.0
 trait_elemental=ice
 post_power=625
 wall_power=625
-post_effect=202,40,60
+post_effect=slow,40,60
 modifier_damage=multiply,200,0
 count=3
 missile_angle=15
@@ -1754,7 +1754,7 @@ speed=12.5
 trait_elemental=ice
 post_power=625
 wall_power=625
-post_effect=202,50,60
+post_effect=slow,50,60
 modifier_damage=multiply,250,0
 count=3
 missile_angle=15
@@ -1771,7 +1771,7 @@ description=Applied the freeze effect for 628 with accuracy mod
 use_hazard=true
 lifespan=1
 radius=2.5
-post_effect=203,0,30
+post_effect=stun,0,30
 modifier_accuracy=absolute,25,1
 
 [power]
@@ -1793,7 +1793,7 @@ speed=12.5
 trait_elemental=ice
 post_power=625
 wall_power=625
-post_effect=202,60,90
+post_effect=slow,60,90
 modifier_damage=multiply,300,0
 count=5
 missile_angle=14
@@ -1810,7 +1810,7 @@ description=Applied the freeze effect for 628 with accuracy mod
 use_hazard=true
 lifespan=1
 radius=2.5
-post_effect=203,0,60
+post_effect=stun,0,60
 modifier_accuracy=absolute,35,1
 
 ##################################################################################
@@ -1883,7 +1883,7 @@ speed=10.0
 trait_elemental=ice
 post_power=635
 wall_power=635
-post_effect=202,40,60
+post_effect=slow,40,60
 modifier_damage=multiply,200,0
 count=4
 missile_angle=90
@@ -1951,7 +1951,7 @@ target_range=8.0
 target_categories=undead
 cooldown=900
 modifier_accuracy=absolute,35,1
-post_effect=501,0,1800
+post_effect=Convert,0,1800
 
 [power]
 id=651
@@ -1976,7 +1976,7 @@ target_range=8.0
 target_categories=undead
 cooldown=750
 modifier_accuracy=absolute,40,1
-post_effect=501,0,2700
+post_effect=Convert,0,2700
 
 [power]
 id=652
@@ -2001,7 +2001,7 @@ target_range=8.0
 target_categories=undead,animal
 cooldown=750
 modifier_accuracy=absolute,40,1
-post_effect=501,0,2700
+post_effect=Convert,0,2700
 
 [power]
 id=653
@@ -2026,7 +2026,7 @@ target_range=8.0
 target_categories=undead,animal
 cooldown=750
 modifier_accuracy=absolute,45,1
-post_effect=501,0,2700
+post_effect=Convert,0,2700
 
 [power]
 id=654
@@ -2051,7 +2051,7 @@ target_range=8.0
 target_categories=undead,animal,humanoid
 cooldown=600
 modifier_accuracy=absolute,50,1
-post_effect=501,0,5400
+post_effect=Convert,0,5400
 
 ##################################################################################
 
@@ -2405,7 +2405,7 @@ starting_pos=target
 target_range=8.0
 cooldown=3600
 modifier_accuracy=absolute,100
-post_effect=501,0,0
+post_effect=Convert,0,0
 
 
 ##################################################################################
@@ -2442,8 +2442,8 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=8.0
-post_effect=503,-10,300
-post_effect=504,-10,300
+post_effect=Lower Absorb min,-10,300
+post_effect=Lower Absorb max,-10,300
 modifier_damage=multiply,0,0
 
 [power]
@@ -2466,8 +2466,8 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=8.0
-post_effect=503,-20,450
-post_effect=504,-20,450
+post_effect=Lower Absorb min,-20,450
+post_effect=Lower Absorb max,-20,450
 modifier_damage=multiply,0,0
 
 [power]
@@ -2490,9 +2490,9 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=8.0
-post_effect=503,-30,600
-post_effect=504,-30,600
-post_effect=505,-30,600
+post_effect=Lower Absorb min,-30,600
+post_effect=Lower Absorb max,-30,600
+post_effect=Lower Avoidance,-30,600
 modifier_damage=multiply,0,0
 
 [power]
@@ -2515,10 +2515,10 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=16.0
-post_effect=503,-40,600
-post_effect=504,-40,600
-post_effect=505,-40,600
-post_effect=506,-40,600
+post_effect=Lower Absorb min,-40,600
+post_effect=Lower Absorb max,-40,600
+post_effect=Lower Avoidance,-40,600
+post_effect=Lower Poise,-40,600
 modifier_damage=multiply,0,0
 
 [power]
@@ -2541,14 +2541,14 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=16.0
-post_effect=503,-50,900
-post_effect=504,-50,900
-post_effect=505,-50,900
-post_effect=506,-50,900
-post_effect=507,-50,900
-post_effect=508,-50,900
-post_effect=509,-50,900
-post_effect=510,-50,900
+post_effect=Lower Absorb min,-50,900
+post_effect=Lower Absorb max,-50,900
+post_effect=Lower Avoidance,-50,900
+post_effect=Lower Poise,-50,900
+post_effect=Lower Fire Resist,-50,900
+post_effect=Lower Ice Resist,-50,900
+post_effect=Lower Earth Resist,-50,900
+post_effect=Lower Lightning Resist,-50,900
 modifier_damage=multiply,0,0
 
 ##################################################################################
@@ -2577,12 +2577,12 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=8.0
-post_effect=511,-10,300
-post_effect=512,-10,300
-post_effect=513,-10,300
-post_effect=514,-10,300
-post_effect=515,-10,300
-post_effect=516,-10,300
+post_effect=Lower Melee Damage min,-10,300
+post_effect=Lower Melee Damage max,-10,300
+post_effect=Lower Ranged Damage min,-10,300
+post_effect=Lower Ranged Damage max,-10,300
+post_effect=Lower Mental Damage min,-10,300
+post_effect=Lower Mental Damage max,-10,300
 modifier_damage=multiply,0,0
 
 [power]
@@ -2605,12 +2605,12 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=8.0
-post_effect=511,-20,450
-post_effect=512,-20,450
-post_effect=513,-20,450
-post_effect=514,-20,450
-post_effect=515,-20,450
-post_effect=516,-20,450
+post_effect=Lower Melee Damage min,-20,450
+post_effect=Lower Melee Damage max,-20,450
+post_effect=Lower Ranged Damage min,-20,450
+post_effect=Lower Ranged Damage max,-20,450
+post_effect=Lower Mental Damage min,-20,450
+post_effect=Lower Mental Damage max,-20,450
 modifier_damage=multiply,0,0
 
 [power]
@@ -2633,13 +2633,13 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=8.0
-post_effect=511,-30,600
-post_effect=512,-30,600
-post_effect=513,-30,600
-post_effect=514,-30,600
-post_effect=515,-30,600
-post_effect=516,-30,600
-post_effect=517,-30,600
+post_effect=Lower Melee Damage min,-30,600
+post_effect=Lower Melee Damage max,-30,600
+post_effect=Lower Ranged Damage min,-30,600
+post_effect=Lower Ranged Damage max,-30,600
+post_effect=Lower Mental Damage min,-30,600
+post_effect=Lower Mental Damage max,-30,600
+post_effect=Lower Critical Hit Rate,-30,600
 modifier_damage=multiply,0,0
 
 [power]
@@ -2662,13 +2662,13 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=16.0
-post_effect=511,-40,600
-post_effect=512,-40,600
-post_effect=513,-40,600
-post_effect=514,-40,600
-post_effect=515,-40,600
-post_effect=516,-40,600
-post_effect=517,-40,600
+post_effect=Lower Melee Damage min,-40,600
+post_effect=Lower Melee Damage max,-40,600
+post_effect=Lower Ranged Damage min,-40,600
+post_effect=Lower Ranged Damage max,-40,600
+post_effect=Lower Mental Damage min,-40,600
+post_effect=Lower Mental Damage max,-40,600
+post_effect=Lower Critical Hit Rate,-40,600
 modifier_damage=multiply,0,0
 
 [power]
@@ -2691,14 +2691,14 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=16.0
-post_effect=511,-50,900
-post_effect=512,-50,900
-post_effect=513,-50,900
-post_effect=514,-50,900
-post_effect=515,-50,900
-post_effect=516,-50,900
-post_effect=517,-50,900
-post_effect=518,-40,900
+post_effect=Lower Melee Damage min,-50,900
+post_effect=Lower Melee Damage max,-50,900
+post_effect=Lower Ranged Damage min,-50,900
+post_effect=Lower Ranged Damage max,-50,900
+post_effect=Lower Mental Damage min,-50,900
+post_effect=Lower Mental Damage max,-50,900
+post_effect=Lower Critical Hit Rate,-50,900
+post_effect=Lower Accuracy,-50,900
 modifier_damage=multiply,0,0
 
 ##################################################################################
@@ -2721,7 +2721,7 @@ lifespan=12
 radius=2.0
 starting_pos=source
 multitarget=true
-post_effect=519,0,60
+post_effect=Fear,0,60
 
 [power]
 id=711
@@ -2737,7 +2737,7 @@ lifespan=12
 radius=3.0
 starting_pos=source
 multitarget=true
-post_effect=519,0,90
+post_effect=Fear,0,90
 
 [power]
 id=712
@@ -2753,7 +2753,7 @@ lifespan=12
 radius=4.0
 starting_pos=source
 multitarget=true
-post_effect=519,0,120
+post_effect=Fear,0,120
 
 [power]
 id=713
@@ -2769,8 +2769,8 @@ lifespan=12
 radius=4.0
 starting_pos=source
 multitarget=true
-post_effect=519,0,210
-post_effect=520,0,90
+post_effect=Fear,0,210
+post_effect=Fear Immobilise,0,90
 
 [power]
 id=714
@@ -2786,8 +2786,8 @@ lifespan=12
 radius=6.0
 starting_pos=source
 multitarget=true
-post_effect=519,0,270
-post_effect=520,0,150
+post_effect=Fear,0,270
+post_effect=Fear Immobilise,0,150
 
 ##################################################################################
 
@@ -2811,7 +2811,7 @@ use_hazard=true
 lifespan=200
 cooldown=90
 radius=1.0
-post_effect=201,0,60
+post_effect=immobilize,0,60
 post_power=716
 base_damage=ranged
 modifier_damage=absolute,1,40
@@ -2847,7 +2847,7 @@ modifier_damage=absolute,1,60
 trait_armor_penetration=true
 count=2
 target_neighbor=1
-post_effect=201,0,90
+post_effect=immobilize,0,90
 
 [power]
 id=718
@@ -2868,7 +2868,7 @@ modifier_damage=absolute,1,80
 trait_armor_penetration=true
 count=4
 target_neighbor=2
-post_effect=201,0,120
+post_effect=immobilize,0,120
 
 [power]
 id=719
@@ -2889,7 +2889,7 @@ modifier_damage=absolute,1,100
 trait_armor_penetration=true
 count=6
 target_neighbor=3
-post_effect=201,0,150
+post_effect=immobilize,0,150
 
 [power]
 id=720
@@ -2910,7 +2910,7 @@ modifier_damage=absolute,1,150
 trait_armor_penetration=true
 count=10
 target_neighbor=3
-post_effect=201,0,180
+post_effect=immobilize,0,180
 
 ##################################################################################
 
@@ -2929,7 +2929,7 @@ new_state=cast
 starting_pos=target
 cooldown=150
 requires_mp=6
-post_effect=502,0,150
+post_effect=Death Sentence,0,150
 
 [power]
 id=722
@@ -2942,7 +2942,7 @@ new_state=cast
 starting_pos=target
 cooldown=140
 requires_mp=10
-post_effect=502,0,300
+post_effect=Death Sentence,0,300
 
 [power]
 id=723
@@ -2955,7 +2955,7 @@ new_state=cast
 starting_pos=target
 cooldown=130
 requires_mp=14
-post_effect=502,0,450
+post_effect=Death Sentence,0,450
 
 [power]
 id=724
@@ -2968,7 +2968,7 @@ new_state=cast
 starting_pos=target
 cooldown=120
 requires_mp=18
-post_effect=502,0,450
+post_effect=Death Sentence,0,450
 
 [power]
 id=725
@@ -2981,7 +2981,7 @@ new_state=cast
 starting_pos=target
 cooldown=100
 requires_mp=25
-post_effect=502,0,600
+post_effect=Death Sentence,0,600
 
 
 ##################################################################################
@@ -3001,7 +3001,7 @@ new_state=cast
 starting_pos=target
 cooldown=150
 requires_mp=50
-post_effect=502,0,600
+post_effect=Death Sentence,0,600
 
 ##################################################################################
 
@@ -3024,7 +3024,7 @@ type=fixed
 description=Raises HP by 50
 icon=11
 passive=true
-post_effect=521,50,0
+post_effect=HP bonus,50,0
 buff=true
 
 [power]
@@ -3034,7 +3034,7 @@ type=fixed
 description=Raises HP boost to 100
 icon=11
 passive=true
-post_effect=521,50,0
+post_effect=HP bonus,50,0
 buff=true
 
 [power]
@@ -3044,7 +3044,7 @@ type=fixed
 description=Raises HP boost to 150
 icon=11
 passive=true
-post_effect=521,50,0
+post_effect=HP bonus,50,0
 buff=true
 
 [power]
@@ -3054,7 +3054,7 @@ type=fixed
 description=Raises HP boost to 200
 icon=11
 passive=true
-post_effect=521,50,0
+post_effect=HP bonus,50,0
 buff=true
 
 [power]
@@ -3064,7 +3064,7 @@ type=fixed
 description=Raises HP boost to 300
 icon=11
 passive=true
-post_effect=521,100,0
+post_effect=HP bonus,100,0
 buff=true
 
 ##################################################################################
@@ -3080,8 +3080,8 @@ type=fixed
 description=Raises Melee damage by 5
 icon=31
 passive=true
-post_effect=522,5,0
-post_effect=523,5,0
+post_effect=Raise Melee Damage min,5,0
+post_effect=Raise Melee Damage max,5,0
 buff=true
 
 [power]
@@ -3091,8 +3091,8 @@ type=fixed
 description=Raises Melee damage boost to 10
 icon=31
 passive=true
-post_effect=522,5,0
-post_effect=523,5,0
+post_effect=Raise Melee Damage min,5,0
+post_effect=Raise Melee Damage max,5,0
 buff=true
 
 [power]
@@ -3102,8 +3102,8 @@ type=fixed
 description=Raises Melee damage boost to 20
 icon=31
 passive=true
-post_effect=522,10,0
-post_effect=523,10,0
+post_effect=Raise Melee Damage min,10,0
+post_effect=Raise Melee Damage max,10,0
 buff=true
 
 [power]
@@ -3113,8 +3113,8 @@ type=fixed
 description=Raises Melee damage boost to 30
 icon=31
 passive=true
-post_effect=522,10,0
-post_effect=523,10,0
+post_effect=Raise Melee Damage min,10,0
+post_effect=Raise Melee Damage max,10,0
 buff=true
 
 [power]
@@ -3124,8 +3124,8 @@ type=fixed
 description=Raises Melee damage boost to 50
 icon=31
 passive=true
-post_effect=522,20,0
-post_effect=523,20,0
+post_effect=Raise Melee Damage min,20,0
+post_effect=Raise Melee Damage max,20,0
 buff=true
 
 ##################################################################################
@@ -3140,7 +3140,7 @@ name=Protection
 type=fixed
 description=Raises all allies hp by 50
 icon=15
-post_effect=524,50,300
+post_effect=HP Buff bonus - protection,50,300
 buff_party=true
 requires_mp=5
 new_state=cast
@@ -3151,9 +3151,9 @@ name=Protection 2
 type=fixed
 description=Additional bonus to damage absorb
 icon=15
-post_effect=524,50,600
-post_effect=525,10,600
-post_effect=526,10,600
+post_effect=HP Buff bonus - protection,50,600
+post_effect=Raise Absorb min - protection,10,600
+post_effect=Raise Absorb max - protection,10,600
 buff_party=true
 requires_mp=5
 new_state=cast
@@ -3164,10 +3164,10 @@ name=Protection 3
 type=fixed
 description=Additional bonus to avoidance
 icon=15
-post_effect=524,50,900
-post_effect=525,10,900
-post_effect=526,10,900
-post_effect=527,15,900
+post_effect=HP Buff bonus - protection,50,900
+post_effect=Raise Absorb min - protection,10,900
+post_effect=Raise Absorb max - protection,10,900
+post_effect=Raise Avoidance - protection,15,900
 buff_party=true
 requires_mp=10
 new_state=cast
@@ -3178,14 +3178,14 @@ name=Protection 4
 type=fixed
 description=Additional bonus to Elemental resistances
 icon=15
-post_effect=524,50,1200
-post_effect=525,10,1200
-post_effect=526,10,1200
-post_effect=527,15,1200
-post_effect=528,10,1200
-post_effect=529,10,1200
-post_effect=530,10,1200
-post_effect=531,10,1200
+post_effect=HP Buff bonus - protection,50,1200
+post_effect=Raise Absorb min - protection,10,1200
+post_effect=Raise Absorb max - protection,10,1200
+post_effect=Raise Avoidance - protection,15,1200
+post_effect=Raise Fire Resist - protection,10,1200
+post_effect=Raise Ice Resist - protection,10,1200
+post_effect=Raise Earth Resist - protection,10,1200
+post_effect=Raise Lightning Resist - protection,10,1200
 buff_party=true
 requires_mp=15
 new_state=cast
@@ -3196,14 +3196,14 @@ name=Protection 5
 type=fixed
 description=More effective and longer duration
 icon=15
-post_effect=524,100,1800
-post_effect=525,20,1800
-post_effect=526,20,1800
-post_effect=527,30,1800
-post_effect=528,20,1800
-post_effect=529,20,1800
-post_effect=530,20,1800
-post_effect=531,20,1800
+post_effect=HP Buff bonus - protection,100,1800
+post_effect=Raise Absorb min - protection,20,1800
+post_effect=Raise Absorb max - protection,20,1800
+post_effect=Raise Avoidance - protection,30,1800
+post_effect=Raise Fire Resist - protection,20,1800
+post_effect=Raise Ice Resist - protection,20,1800
+post_effect=Raise Earth Resist - protection,20,1800
+post_effect=Raise Lightning Resist - protection,20,1800
 buff_party=true
 requires_mp=20
 new_state=cast
@@ -3402,9 +3402,9 @@ icon=6
 type=fixed
 buff=true
 passive=true
-post_effect=532,150,0
-post_effect=533,120,0
-post_effect=534,120,0
+post_effect=Increase Speed - werewolf,150,0
+post_effect=Raise Avoidance - werewolf,120,0
+post_effect=Raise Accuracy - werewolf,120,0
 
 ##################################################################################
 
@@ -3594,7 +3594,7 @@ starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,20
 trait_avoidance_ignore=true
-post_effect=519,0,150
+post_effect=Fear,0,150
 
 [power]
 id=812
@@ -3627,7 +3627,7 @@ starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,35
 trait_avoidance_ignore=true
-post_effect=519,0,150
+post_effect=Fear,0,150
 
 [power]
 id=814
@@ -3660,7 +3660,7 @@ starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,50
 trait_avoidance_ignore=true
-post_effect=519,0,150
+post_effect=Fear,0,150
 
 
 ##################################################################################
@@ -3704,7 +3704,7 @@ starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,30
 trait_avoidance_ignore=true
-post_effect=501,0,1800
+post_effect=Convert,0,1800
 target_categories=undead
 
 [power]
@@ -3738,7 +3738,7 @@ starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,50
 trait_avoidance_ignore=true
-post_effect=501,0,3600
+post_effect=Convert,0,3600
 target_categories=undead
 
 [power]
@@ -3772,7 +3772,7 @@ starting_pos=melee
 allow_power_mod=true
 modifier_accuracy=absolute,70
 trait_avoidance_ignore=true
-post_effect=501,0,5400
+post_effect=Convert,0,5400
 target_categories=undead,living_humanoid
 
 ##################################################################################
@@ -3796,7 +3796,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,3
-post_effect=502,0,450
+post_effect=Death Sentence,0,450
 
 [power]
 id=831
@@ -3809,7 +3809,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,3
-post_effect=502,0,600
+post_effect=Death Sentence,0,600
 
 [power]
 id=832
@@ -3822,7 +3822,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,5
-post_effect=502,0,900
+post_effect=Death Sentence,0,900
 
 [power]
 id=833
@@ -3835,7 +3835,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,2
-post_effect=502,0,600
+post_effect=Death Sentence,0,600
 
 [power]
 id=834
@@ -3848,7 +3848,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,2
-post_effect=502,0,1800
+post_effect=Death Sentence,0,1800
 
 [power]
 id=835
@@ -3861,7 +3861,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
-post_effect=502,0,1800
+post_effect=Death Sentence,0,1800
 
 [power]
 id=836
@@ -3874,7 +3874,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,2
-post_effect=502,0,900
+post_effect=Death Sentence,0,900
 
 [power]
 id=837
@@ -3887,7 +3887,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,2
-post_effect=502,0,1800
+post_effect=Death Sentence,0,1800
 
 [power]
 id=838
@@ -3900,7 +3900,7 @@ new_state=cast
 starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
-post_effect=502,0,1800
+post_effect=Death Sentence,0,1800
 
 [power]
 id=839
@@ -3992,7 +3992,7 @@ modifier_damage=absolute,1,50
 trait_armor_penetration=true
 count=1
 target_neighbor=3
-post_effect=201,0,90
+post_effect=immobilize,0,90
 
 [power]
 id=851
@@ -4012,7 +4012,7 @@ modifier_damage=absolute,1,50
 trait_armor_penetration=true
 count=1
 target_neighbor=3
-post_effect=202,50,90
+post_effect=slow,50,90
 
 
 
