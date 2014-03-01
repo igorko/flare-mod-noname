@@ -1305,3 +1305,15 @@ loot_animation=animations/loot/gem.txt
 bonus=mental,1
 price=3000
 
+#governor talisman
+[item]
+id=263
+name=Dark Talisman
+flavor=Better not know how to use this
+quality=epic
+item_type=artifact
+icon=486
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+price=4000
+price_sell=4000

@@ -21,6 +21,7 @@ him=The artifact contains a dark and mysterious power.
 him=With it, I was able to call on lost souls.
 him=Before I knew it, the power grew out of control and we were overrun with undead.
 him=Here. Take it. Take it far away from here.
+reward_item=263,1
 you=Are you okay?
 him=Get out before its too late.
 set_status=asylum_complete
