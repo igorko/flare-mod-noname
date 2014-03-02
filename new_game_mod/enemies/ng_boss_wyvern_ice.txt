@@ -45,7 +45,7 @@ absorb_max=6
 cooldown=30
 cooldown_ranged_ment=90
 
-quest_loot=progress_arrived_town,wyvern_complete,204
+quest_loot=progress_arrived_town,ice_tail,204
 
 hp_regen=50
 chance_flee=10

@@ -1097,6 +1097,7 @@ power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
 loot_animation=animations/loot/book.txt
+pickup_status=earth_tail
 
 [item]
 id=203
@@ -1106,6 +1107,7 @@ power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
 loot_animation=animations/loot/book.txt
+pickup_status=fire_tail
 
 [item]
 id=204
@@ -1115,6 +1117,7 @@ power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
 loot_animation=animations/loot/book.txt
+pickup_status=ice_tail
 
 [item]
 id=205
@@ -1124,6 +1127,7 @@ power_desc=A Wyverns Tail
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
 loot_animation=animations/loot/book.txt
+pickup_status=light_tail
 
 [item]
 id=206
@@ -1133,6 +1137,7 @@ power_desc=An Antlion Heart
 item_type=quest
 soundfx=soundfx/inventory/inventory_object.ogg
 loot_animation=animations/loot/book.txt
+pickup_status=ant_heart
 
 
 
