@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" width="200" height="75" tilewidth="64" tileheight="32">
  <properties>
-  <property name="music" value="overworld_theme.ogg"/>
-  <property name="tileset" value="tileset_desert.txt"/>
+  <property name="music" value="music/overworld_theme.ogg"/>
+  <property name="tileset" value="tilesetdefs/tileset_desert.txt"/>
   <property name="title" value="Desert North"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
@@ -254,12 +254,12 @@
  <objectgroup name="event" width="200" height="75">
   <object name="to desert" type="on_trigger" x="5952" y="1408" width="32" height="96">
    <properties>
-    <property name="intermap" value="desert.txt,2,34"/>
+    <property name="intermap" value="maps/desert.txt,2,34"/>
    </properties>
   </object>
   <object name="to Wyvern cave" type="on_trigger" x="192" y="576" width="32" height="64">
    <properties>
-    <property name="intermap" value="wyvern_cave.txt,92,69"/>
+    <property name="intermap" value="maps/wyvern_cave.txt,92,69"/>
    </properties>
   </object>
  </objectgroup>

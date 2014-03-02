@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" width="100" height="50" tilewidth="64" tileheight="32">
  <properties>
-  <property name="music" value="overworld_theme.ogg"/>
-  <property name="tileset" value="tileset_grassland.txt"/>
+  <property name="music" value="music/overworld_theme.ogg"/>
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
   <property name="title" value="Bloody Fields"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
@@ -194,12 +194,12 @@
  <objectgroup name="event" width="100" height="50">
   <object name="to dungeon way" type="on_trigger" x="3008" y="544" width="32" height="64">
    <properties>
-    <property name="intermap" value="dungeon_way.txt,6,20"/>
+    <property name="intermap" value="maps/dungeon_way.txt,6,20"/>
    </properties>
   </object>
   <object name="to battlefield 2" type="on_trigger" x="96" y="576" width="32" height="128">
    <properties>
-    <property name="intermap" value="battlefield2.txt,110,35"/>
+    <property name="intermap" value="maps/battlefield2.txt,110,35"/>
    </properties>
   </object>
  </objectgroup>

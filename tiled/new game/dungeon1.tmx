@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" width="50" height="50" tilewidth="64" tileheight="32">
  <properties>
-  <property name="music" value="dungeon_theme.ogg"/>
-  <property name="tileset" value="tileset_dungeon.txt"/>
+  <property name="music" value="music/dungeon_theme.ogg"/>
+  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt"/>
   <property name="title" value="Ancient Dungeon Level 1"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
@@ -195,12 +195,12 @@
  <objectgroup name="event" width="50" height="50">
   <object name="to dungeon way" type="on_trigger" x="96" y="1376" width="32" height="64">
    <properties>
-    <property name="intermap" value="dungeon_way.txt,14,22"/>
+    <property name="intermap" value="maps/dungeon_way.txt,14,22"/>
    </properties>
   </object>
   <object name="to Dungeon 2" type="on_trigger" x="1376" y="96" width="32" height="64">
    <properties>
-    <property name="intermap" value="dungeon2.txt,41,6"/>
+    <property name="intermap" value="maps/dungeon2.txt,41,6"/>
    </properties>
   </object>
   <object name="set arrive status" type="on_load" x="128" y="1344" width="32" height="32">

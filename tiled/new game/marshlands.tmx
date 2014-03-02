@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" width="100" height="100" tilewidth="64" tileheight="32">
  <properties>
-  <property name="music" value="overworld_theme.ogg"/>
-  <property name="tileset" value="tileset_grassland.txt"/>
+  <property name="music" value="music/overworld_theme.ogg"/>
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
   <property name="title" value="Marshlands"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
@@ -344,17 +344,17 @@
  <objectgroup name="event" width="100" height="100">
   <object name="to sage home" type="on_trigger" x="2400" y="2496" width="32" height="64">
    <properties>
-    <property name="intermap" value="sage_home.txt,5,19"/>
+    <property name="intermap" value="maps/sage_home.txt,5,19"/>
    </properties>
   </object>
   <object name="to secret cave" type="on_trigger" x="1440" y="352" width="64" height="32">
    <properties>
-    <property name="intermap" value="secret_cave.txt,7,12"/>
+    <property name="intermap" value="maps/secret_cave.txt,7,12"/>
    </properties>
   </object>
   <object name="to dungeon way" type="on_trigger" x="576" y="1760" width="32" height="64">
    <properties>
-    <property name="intermap" value="dungeon_way.txt,89,31"/>
+    <property name="intermap" value="maps/dungeon_way.txt,89,31"/>
    </properties>
   </object>
  </objectgroup>

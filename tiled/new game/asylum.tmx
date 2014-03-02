@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" width="50" height="50" tilewidth="64" tileheight="32">
  <properties>
-  <property name="music" value="dungeon_theme.ogg"/>
-  <property name="tileset" value="tileset_dungeon.txt"/>
+  <property name="music" value="music/dungeon_theme.ogg"/>
+  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt"/>
   <property name="title" value="Asylum"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
@@ -195,12 +195,12 @@
  <objectgroup name="event" width="50" height="50">
   <object name="to Desert" type="on_trigger" x="512" y="1472" width="64" height="32">
    <properties>
-    <property name="intermap" value="desert.txt,63,4"/>
+    <property name="intermap" value="maps/desert.txt,63,4"/>
    </properties>
   </object>
   <object name="to asylum 2" type="on_trigger" x="800" y="96" width="64" height="32">
    <properties>
-    <property name="intermap" value="asylum2.txt,58,65"/>
+    <property name="intermap" value="maps/asylum2.txt,58,65"/>
    </properties>
   </object>
   <object name="set arrival status" type="on_load" x="480" y="1440" width="32" height="32">

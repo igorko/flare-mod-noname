@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" width="100" height="100" tilewidth="64" tileheight="32">
  <properties>
-  <property name="music" value="cave_theme.ogg"/>
-  <property name="tileset" value="tileset_cave.txt"/>
+  <property name="music" value="music/cave_theme.ogg"/>
+  <property name="tileset" value="tilesetdefs/tileset_cave.txt"/>
   <property name="title" value="Goblin Caves"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
@@ -329,12 +329,12 @@
  <objectgroup name="event" width="100" height="100">
   <object name="to Woods" type="on_trigger" x="1664" y="2848" width="64" height="32">
    <properties>
-    <property name="intermap" value="woods.txt,22,24"/>
+    <property name="intermap" value="maps/woods.txt,22,24"/>
    </properties>
   </object>
   <object name="to Desert" type="on_trigger" x="1120" y="64" width="128" height="32">
    <properties>
-    <property name="intermap" value="desert.txt,42,97"/>
+    <property name="intermap" value="maps/desert.txt,42,97"/>
    </properties>
   </object>
  </objectgroup>

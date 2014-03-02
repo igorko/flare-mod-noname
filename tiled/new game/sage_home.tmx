@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" width="40" height="40" tilewidth="64" tileheight="32">
  <properties>
-  <property name="music" value="overworld_theme.ogg"/>
-  <property name="tileset" value="tileset_grassland.txt"/>
+  <property name="music" value="music/overworld_theme.ogg"/>
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
   <property name="title" value="Northwood Cottage"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
@@ -164,22 +164,22 @@
  <objectgroup name="event" width="40" height="40">
   <object name="to wyvern cave 3" type="on_trigger" x="1152" y="736" width="32" height="64">
    <properties>
-    <property name="intermap" value="wyvern_cave3.txt,9,21"/>
+    <property name="intermap" value="maps/wyvern_cave3.txt,9,21"/>
    </properties>
   </object>
   <object name="to woods2" type="on_trigger" x="384" y="96" width="64" height="32">
    <properties>
-    <property name="intermap" value="woods2.txt,47,135"/>
+    <property name="intermap" value="maps/woods2.txt,47,135"/>
    </properties>
   </object>
   <object name="to marshlands" type="on_trigger" x="96" y="608" width="32" height="64">
    <properties>
-    <property name="intermap" value="marshlands.txt,73,78"/>
+    <property name="intermap" value="maps/marshlands.txt,73,78"/>
    </properties>
   </object>
   <object name="wp" type="on_trigger" x="480" y="768" width="64" height="64">
    <properties>
-    <property name="intermap" value="town.txt,20,50"/>
+    <property name="intermap" value="maps/town.txt,20,50"/>
    </properties>
   </object>
   <object name="Activate" type="on_trigger" x="416" y="704" width="192" height="192">

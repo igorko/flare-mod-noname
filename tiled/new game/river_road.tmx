@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" width="70" height="50" tilewidth="64" tileheight="32">
  <properties>
-  <property name="music" value="overworld_theme.ogg"/>
-  <property name="tileset" value="tileset_grassland.txt"/>
+  <property name="music" value="music/overworld_theme.ogg"/>
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
   <property name="title" value="River Road"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
@@ -194,12 +194,12 @@
  <objectgroup name="event" width="70" height="50">
   <object name="to frontier outpost" type="on_trigger" x="1024" y="64" width="128" height="32">
    <properties>
-    <property name="intermap" value="frontier_outpost.txt,45,60"/>
+    <property name="intermap" value="maps/frontier_outpost.txt,45,60"/>
    </properties>
   </object>
   <object name="town wp" type="on_trigger" x="480" y="480" width="64" height="64">
    <properties>
-    <property name="intermap" value="town.txt,11,48"/>
+    <property name="intermap" value="maps/town.txt,11,48"/>
    </properties>
   </object>
   <object name="set arrive status" type="on_load" x="544" y="448" width="32" height="32">
