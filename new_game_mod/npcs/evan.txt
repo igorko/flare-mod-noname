@@ -28,6 +28,7 @@ reward_item=201,20
 him=Getting close to him might not be so easy. Take a few of these traps aswell. They wont hurt him but will give you a chance to get close.
 reward_item=200,20
 him=Come back and see me when you manage to gain his trust.
+him=And please, do not kill him. Use only apples and traps.
 you=Sounds easy enough
 set_status=evan_init
 
@@ -38,6 +39,7 @@ requires_item=201
 requires_item=200
 him=If your having trouble catching the horse, use the traps I gave you to slow him down.
 him=When you get the chance, give him some apples. Come and see me when your successful.
+him=And please, do not kill him. Use only apples and traps.
 
 [dialog]
 requires_not_status=horse_tamed
@@ -45,6 +47,7 @@ requires_item=201
 him=So how are you getting on?
 you=Not so good. I used all of the traps already.
 him=Ok heres a couple more. Try to anticipate where he is moving to and place the trap in his path.
+him=And please, do not kill him. Use only apples and traps.
 reward_item=200,20
 you=Thanks.
 
@@ -53,6 +56,7 @@ requires_not_status=horse_tamed
 him=Have you tamed the beast yet?
 you=No not yet. I dont have any apples left.
 him=Make sure your close enough to give them to him. If you cant catch him, try to use those traps I gave you to slow him down. Heres a couple more apples.
+him=And please, do not kill him. Use only apples and traps.
 reward_item=201,20
 him=And try not to eat them!
 
