@@ -213,6 +213,8 @@ requires_status=wp_dungeon_10
 # Minotaur
 type=ng_boss_minotaur
 location=22,6,1,1
+requires_status=progress_arrived_dungeon
+requires_not_status=minotaur_complete
 
 [enemy]
 # cursed grave

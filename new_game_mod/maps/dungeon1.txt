@@ -195,6 +195,7 @@ intermap=maps/dungeon2.txt,41,6
 type=on_load
 location=4,42,1,1
 requires_not_status=progress_arrived_dungeon
+requires_status=minotaur_intro
 set_status=progress_arrived_dungeon
 
 [enemygroup]
