@@ -69,3 +69,4 @@ him=Its been some time since I created anything but I still have a few tricks up
 him=I remember a formula for a magic ring. I dont know how useful it will be but I need a bit of practice again before I will be able to perform the most powerful craftings.
 him=To create the ring, I will need a spider leg, a yellow rose and a vial of dew.
 him=Bring these to me, and I will craft the ring.
+him=#TODO. Item crafting not yet implemented.
