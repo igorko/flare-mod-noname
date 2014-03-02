@@ -185,10 +185,12 @@ location=32,2,4,1
 intermap=maps/frontier_outpost.txt,45,60
 
 [event]
-# town wp
+# Greenwood Point wp
 type=on_trigger
 location=15,15,2,2
+hotspot=location
 intermap=maps/town.txt,11,48
+tooltip=Greenwood Point
 
 [event]
 # set arrive status

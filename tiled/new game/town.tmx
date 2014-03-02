@@ -352,16 +352,20 @@
     <property name="intermap" value="maps/woods.txt,165,184"/>
    </properties>
   </object>
-  <object name="river road wp" type="on_trigger" x="256" y="1536" width="64" height="64">
+  <object name="River Road wp" type="on_trigger" x="256" y="1536" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/river_road.txt,18,15"/>
     <property name="requires_status" value="wp_end"/>
+    <property name="tooltip" value="River Road"/>
    </properties>
   </object>
-  <object name="end wp" type="on_trigger" x="416" y="1632" width="64" height="64">
+  <object name="Journeys End wp" type="on_trigger" x="416" y="1632" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/end.txt,11,8"/>
     <property name="requires_status" value="wp_end"/>
+    <property name="tooltip" value="Journeys End"/>
    </properties>
   </object>
   <object name="set arrive status" type="on_load" x="768" y="2208" width="32" height="32">
@@ -370,11 +374,12 @@
     <property name="set_status" value="progress_arrived_town"/>
    </properties>
   </object>
-  <object name="sage home wp" type="on_trigger" x="544" y="1632" width="64" height="64">
+  <object name="Northwood Cottage wp" type="on_trigger" x="544" y="1632" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/sage_home.txt,16,22"/>
     <property name="requires_status" value="wp_sage_home"/>
-    <property name="tooltip" value="Sage Home"/>
+    <property name="tooltip" value="Northwood Cottage"/>
    </properties>
   </object>
   <object name="wp mapmod sage home" type="on_load" x="512" y="1696" width="32" height="32">
@@ -383,16 +388,20 @@
     <property name="requires_status" value="wp_sage_home"/>
    </properties>
   </object>
-  <object name="dungeon 10 wp" type="on_trigger" x="416" y="1408" width="64" height="64">
+  <object name="Ancient Dungeon Level 10 wp" type="on_trigger" x="416" y="1408" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/dungeon10.txt,42,4"/>
     <property name="requires_status" value="wp_dungeon_10"/>
+    <property name="tooltip" value="Ancient Dungeon Level 10"/>
    </properties>
   </object>
-  <object name="dungeon way wp" type="on_trigger" x="544" y="1408" width="64" height="64">
+  <object name="Ancient Pass wp" type="on_trigger" x="544" y="1408" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/dungeon_way.txt,15,26"/>
     <property name="requires_status" value="wp_dungeon_way"/>
+    <property name="tooltip" value="Ancient Pass"/>
    </properties>
   </object>
   <object name="wp mapmod dungeon way" type="on_load" x="512" y="1472" width="32" height="32">

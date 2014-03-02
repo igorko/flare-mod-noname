@@ -197,9 +197,11 @@
     <property name="intermap" value="maps/frontier_outpost.txt,45,60"/>
    </properties>
   </object>
-  <object name="town wp" type="on_trigger" x="480" y="480" width="64" height="64">
+  <object name="Greenwood Point wp" type="on_trigger" x="480" y="480" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/town.txt,11,48"/>
+    <property name="tooltip" value="Greenwood Point"/>
    </properties>
   </object>
   <object name="set arrive status" type="on_load" x="544" y="448" width="32" height="32">

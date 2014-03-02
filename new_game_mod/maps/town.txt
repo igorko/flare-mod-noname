@@ -341,18 +341,22 @@ location=37,12,2,1
 intermap=maps/woods.txt,165,184
 
 [event]
-# river road wp
+# River Road wp
 type=on_trigger
 location=8,48,2,2
+hotspot=location
 intermap=maps/river_road.txt,18,15
 requires_status=wp_end
+tooltip=River Road
 
 [event]
-# end wp
+# Journeys End wp
 type=on_trigger
 location=13,51,2,2
+hotspot=location
 intermap=maps/end.txt,11,8
 requires_status=wp_end
+tooltip=Journeys End
 
 [event]
 # set arrive status
@@ -362,12 +366,13 @@ requires_not_status=progress_arrived_town
 set_status=progress_arrived_town
 
 [event]
-# sage home wp
+# Northwood Cottage wp
 type=on_trigger
 location=17,51,2,2
+hotspot=location
 intermap=maps/sage_home.txt,16,22
 requires_status=wp_sage_home
-tooltip=Sage Home
+tooltip=Northwood Cottage
 
 [event]
 # wp mapmod sage home
@@ -377,18 +382,22 @@ mapmod=object,17,52,265
 requires_status=wp_sage_home
 
 [event]
-# dungeon 10 wp
+# Ancient Dungeon Level 10 wp
 type=on_trigger
 location=13,44,2,2
+hotspot=location
 intermap=maps/dungeon10.txt,42,4
 requires_status=wp_dungeon_10
+tooltip=Ancient Dungeon Level 10
 
 [event]
-# dungeon way wp
+# Ancient Pass wp
 type=on_trigger
 location=17,44,2,2
+hotspot=location
 intermap=maps/dungeon_way.txt,15,26
 requires_status=wp_dungeon_way
+tooltip=Ancient Pass
 
 [event]
 # wp mapmod dungeon way

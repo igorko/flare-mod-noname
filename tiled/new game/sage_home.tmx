@@ -177,9 +177,11 @@
     <property name="intermap" value="maps/marshlands.txt,73,78"/>
    </properties>
   </object>
-  <object name="wp" type="on_trigger" x="480" y="768" width="64" height="64">
+  <object name="Greenwood Point wp" type="on_trigger" x="480" y="768" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/town.txt,20,50"/>
+    <property name="tooltip" value="Greenwood Point"/>
    </properties>
   </object>
   <object name="Activate" type="on_trigger" x="416" y="704" width="192" height="192">

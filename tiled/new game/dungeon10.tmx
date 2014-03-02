@@ -198,9 +198,11 @@
     <property name="intermap" value="maps/dungeon9.txt,6,39"/>
    </properties>
   </object>
-  <object name="wp" type="on_trigger" x="1408" y="96" width="64" height="64">
+  <object name="Greenwood Point wp" type="on_trigger" x="1408" y="96" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/town.txt,14,47"/>
+    <property name="tooltip" value="Greenwood Point"/>
    </properties>
   </object>
   <object name="wp activate" type="on_trigger" x="1344" y="32" width="192" height="192">

@@ -185,10 +185,12 @@ location=6,43,1,2
 intermap=maps/dungeon9.txt,6,39
 
 [event]
-# wp
+# Greenwood Point wp
 type=on_trigger
 location=44,3,2,2
+hotspot=location
 intermap=maps/town.txt,14,47
+tooltip=Greenwood Point
 
 [event]
 # wp activate

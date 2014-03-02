@@ -197,10 +197,12 @@ location=4,20,1,2
 intermap=maps/battlefield1.txt,92,17
 
 [event]
-# wp
+# Greenwood Point wp
 type=on_trigger
 location=14,28,2,2
+hotspot=location
 intermap=maps/town.txt,21,45
+tooltip=Greenwood Point
 
 [event]
 # wp activate

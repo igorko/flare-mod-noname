@@ -167,9 +167,11 @@
     <property name="intermap" value="maps/battlefield6.txt,6,16"/>
    </properties>
   </object>
-  <object name="town wp" type="on_trigger" x="416" y="224" width="64" height="64">
+  <object name="Greenwood Point wp" type="on_trigger" x="416" y="224" width="64" height="64">
    <properties>
+    <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/town.txt,14,49"/>
+    <property name="tooltip" value="Greenwood Point"/>
    </properties>
   </object>
   <object name="wp activate" type="on_trigger" x="352" y="160" width="192" height="192">

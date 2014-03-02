@@ -167,10 +167,12 @@ location=3,19,1,2
 intermap=maps/marshlands.txt,73,78
 
 [event]
-# wp
+# Greenwood Point wp
 type=on_trigger
 location=15,24,2,2
+hotspot=location
 intermap=maps/town.txt,20,50
+tooltip=Greenwood Point
 
 [event]
 # Activate
