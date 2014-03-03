@@ -1,4 +1,4 @@
-﻿# Power Definitions
+# Power Definitions
 
 [power]
 id=1

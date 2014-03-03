@@ -51,4 +51,4 @@ bonus_per_mental=5
 bonus_per_offense=5
 bonus_per_defense=5
 
-#sfx_step=cloth
+sfx_step=cloth
