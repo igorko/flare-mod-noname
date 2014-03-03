@@ -196,6 +196,6 @@ tooltip=Greenwood Point
 # set arrive status
 type=on_load
 location=17,14,1,1
-requires_not=progress_arrived_river_road
+requires_not_status=progress_arrived_river_road
 set_status=progress_arrived_river_road
 

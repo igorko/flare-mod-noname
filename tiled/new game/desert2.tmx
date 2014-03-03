@@ -284,8 +284,8 @@
   </object>
   <object name="ghost" type="ghost" x="3168" y="992" width="352" height="384">
    <properties>
-    <property name="level" value="5,8"/>
-    <property name="number" value="10,15"/>
+    <property name="level" value="10,15"/>
+    <property name="number" value="5,8"/>
    </properties>
   </object>
   <object name="zombie" type="zombie" x="608" y="448" width="512" height="320">

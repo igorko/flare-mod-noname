@@ -286,8 +286,8 @@ number=10,15
 # ghost
 type=ghost
 location=99,31,11,12
-level=5,8
-number=10,15
+level=10,15
+number=5,8
 
 [enemygroup]
 # zombie
