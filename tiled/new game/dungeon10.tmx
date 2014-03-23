@@ -222,16 +222,16 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
-  <object name="Minotaur" type="ng_boss_minotaur" x="704" y="192" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="480" y="64" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="608" y="64" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="736" y="64" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="864" y="64" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="992" y="64" width="32" height="32"/>
-  <object name="skeleton mage" type="ng_enemy_skeleton_mage" x="576" y="160" width="32" height="32"/>
-  <object name="skeleton mage" type="ng_enemy_skeleton_mage" x="832" y="160" width="32" height="32"/>
-  <object name="skeleton knight" type="ng_enemy_skeleton_knight" x="544" y="288" width="32" height="32"/>
-  <object name="skeleton knight" type="ng_enemy_skeleton_knight" x="864" y="288" width="32" height="32"/>
+  <object name="Minotaur" type="enemies/ng_boss_minotaur.txt" x="704" y="192" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="480" y="64" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="608" y="64" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="736" y="64" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="864" y="64" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="992" y="64" width="32" height="32"/>
+  <object name="skeleton mage" type="enemies/ng_enemy_skeleton_mage.txt" x="576" y="160" width="32" height="32"/>
+  <object name="skeleton mage" type="enemies/ng_enemy_skeleton_mage.txt" x="832" y="160" width="32" height="32"/>
+  <object name="skeleton knight" type="enemies/ng_enemy_skeleton_knight.txt" x="544" y="288" width="32" height="32"/>
+  <object name="skeleton knight" type="enemies/ng_enemy_skeleton_knight.txt" x="864" y="288" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="enemygroup" width="50" height="50">
   <object name="skeletons" type="dungeon_skeleton" x="576" y="640" width="288" height="800">

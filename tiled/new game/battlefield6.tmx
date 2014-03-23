@@ -204,14 +204,14 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="80" height="50">
-  <object name="Boss" type="ng_boss_big" x="704" y="576" width="32" height="32"/>
-  <object name="assassins" type="assassin" x="640" y="288" width="64" height="64">
+  <object name="Boss" type="enemies/ng_boss_big.txt" x="704" y="576" width="32" height="32"/>
+  <object name="assassins" type="enemies/assassin.txt" x="640" y="288" width="64" height="64">
    <properties>
     <property name="level" value="20,30"/>
     <property name="number" value="4,4"/>
    </properties>
   </object>
-  <object name="assassins" type="assassin" x="640" y="832" width="64" height="64">
+  <object name="assassins" type="enemies/assassin.txt" x="640" y="832" width="64" height="64">
    <properties>
     <property name="level" value="22,30"/>
     <property name="number" value="4,4"/>
