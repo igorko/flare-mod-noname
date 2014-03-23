@@ -648,17 +648,17 @@ waypoints=121,165;77,159;52,114;107,83;145,120
 
 [enemy]
 # HG Mage
-type=enemies/hobgoblin_mage.txt
+type=enemies/ng_enemy_hobgoblin_mage.txt
 location=93,145,1,1
 
 [enemy]
 # HG Archer
-type=enemies/hobgoblin_archer.txt
+type=enemies/ng_enemy_hobgoblin_archer.txt
 location=92,150,1,1
 
 [enemy]
 # HG Archer
-type=enemies/hobgoblin_archer.txt
+type=enemies/ng_enemy_hobgoblin_archer.txt
 location=97,152,1,1
 
 [enemygroup]

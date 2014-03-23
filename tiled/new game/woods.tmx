@@ -659,9 +659,9 @@
     <property name="waypoints" value="121,165;77,159;52,114;107,83;145,120"/>
    </properties>
   </object>
-  <object name="HG Mage" type="enemies/hobgoblin_mage.txt" x="2976" y="4640" width="32" height="32"/>
-  <object name="HG Archer" type="enemies/hobgoblin_archer.txt" x="2944" y="4800" width="32" height="32"/>
-  <object name="HG Archer" type="enemies/hobgoblin_archer.txt" x="3104" y="4864" width="32" height="32"/>
+  <object name="HG Mage" type="enemies/ng_enemy_hobgoblin_mage.txt" x="2976" y="4640" width="32" height="32"/>
+  <object name="HG Archer" type="enemies/ng_enemy_hobgoblin_archer.txt" x="2944" y="4800" width="32" height="32"/>
+  <object name="HG Archer" type="enemies/ng_enemy_hobgoblin_archer.txt" x="3104" y="4864" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="enemygroup" width="200" height="200">
   <object name="Spiders" type="arachnid" x="3936" y="4064" width="608" height="640">
