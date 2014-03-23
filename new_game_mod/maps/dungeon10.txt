@@ -211,54 +211,54 @@ requires_status=wp_dungeon_10
 
 [enemy]
 # Minotaur
-type=ng_boss_minotaur
+type=enemies/ng_boss_minotaur.txt
 location=22,6,1,1
-requires_status=progress_arrived_dungeon
 requires_not_status=minotaur_complete
+requires_status=progress_arrived_dungeon
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemies/ng_enemy_cursed_grave.txt
 location=15,2,1,1
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemies/ng_enemy_cursed_grave.txt
 location=19,2,1,1
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemies/ng_enemy_cursed_grave.txt
 location=23,2,1,1
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemies/ng_enemy_cursed_grave.txt
 location=27,2,1,1
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemies/ng_enemy_cursed_grave.txt
 location=31,2,1,1
 
 [enemy]
 # skeleton mage
-type=ng_enemy_skeleton_mage
+type=enemies/ng_enemy_skeleton_mage.txt
 location=18,5,1,1
 
 [enemy]
 # skeleton mage
-type=ng_enemy_skeleton_mage
+type=enemies/ng_enemy_skeleton_mage.txt
 location=26,5,1,1
 
 [enemy]
 # skeleton knight
-type=ng_enemy_skeleton_knight
+type=enemies/ng_enemy_skeleton_knight.txt
 location=17,9,1,1
 
 [enemy]
 # skeleton knight
-type=ng_enemy_skeleton_knight
+type=enemies/ng_enemy_skeleton_knight.txt
 location=27,9,1,1
 
 [enemygroup]

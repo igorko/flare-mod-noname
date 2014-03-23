@@ -222,7 +222,12 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
-  <object name="Minotaur" type="enemies/ng_boss_minotaur.txt" x="704" y="192" width="32" height="32"/>
+  <object name="Minotaur" type="enemies/ng_boss_minotaur.txt" x="704" y="192" width="32" height="32">
+   <properties>
+    <property name="requires_not_status" value="minotaur_complete"/>
+    <property name="requires_status" value="progress_arrived_dungeon"/>
+   </properties>
+  </object>
   <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="480" y="64" width="32" height="32"/>
   <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="608" y="64" width="32" height="32"/>
   <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="736" y="64" width="32" height="32"/>

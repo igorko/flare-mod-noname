@@ -233,6 +233,6 @@ number=4,6
 
 [enemy]
 # commander
-type=ng_boss_ghost_commander
+type=enemies/ng_boss_ghost_commander.txt
 location=19,20,1,1
 

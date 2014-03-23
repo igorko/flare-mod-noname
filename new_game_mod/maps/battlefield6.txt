@@ -192,19 +192,19 @@ intermap=maps/end.txt,32,32
 
 [enemy]
 # Boss
-type=ng_boss_big
+type=enemies/ng_boss_big.txt
 location=22,18,1,1
 
 [enemy]
 # assassins
-type=assassin
+type=enemies/assassin.txt
 location=20,9,2,2
 level=20,30
 number=4,4
 
 [enemy]
 # assassins
-type=assassin
+type=enemies/assassin.txt
 location=20,26,2,2
 level=22,30
 number=4,4

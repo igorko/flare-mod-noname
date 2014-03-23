@@ -312,6 +312,6 @@ number=5,7
 
 [enemy]
 # ghost captain
-type=ng_enemy_ghost_captain
+type=enemies/ng_enemy_ghost_captain.txt
 location=92,35,1,1
 

@@ -480,36 +480,36 @@ number=6,8
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemies/ng_enemy_soldier_mage.txt
 location=45,36,1,1
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemies/ng_enemy_soldier_mage.txt
 location=33,70,1,1
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemies/ng_enemy_soldier_mage.txt
 location=53,91,1,1
 
 [enemy]
 # assassin
-type=ng_enemy_assassin
+type=enemies/ng_enemy_assassin.txt
 location=23,37,1,1
 
 [enemy]
 # assassin
-type=ng_enemy_assassin
+type=enemies/ng_enemy_assassin.txt
 location=76,95,1,1
 
 [enemy]
 # assassin
-type=ng_enemy_assassin
+type=enemies/ng_enemy_assassin.txt
 location=85,34,1,1
 
 [enemy]
 # assassin
-type=ng_enemy_assassin
+type=enemies/ng_enemy_assassin.txt
 location=124,52,1,1
 
