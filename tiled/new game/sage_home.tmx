@@ -199,6 +199,14 @@
     <property name="requires_status" value="wp_sage_home"/>
    </properties>
   </object>
+  <object name="Shared stash" type="on_trigger" x="480" y="448" width="32" height="32">
+   <properties>
+    <property name="hotspot" value="location"/>
+    <property name="soundfx" value="soundfx/wood_open.ogg"/>
+    <property name="stash" value="true"/>
+    <property name="tooltip" value="Shared Stash"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="npc" width="40" height="40">
   <object name="Bethan" type="bethan" x="480" y="512" width="32" height="32">

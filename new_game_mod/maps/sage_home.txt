@@ -191,6 +191,15 @@ location=12,28,1,1
 mapmod=object,15,25,265
 requires_status=wp_sage_home
 
+[event]
+# Shared stash
+type=on_trigger
+location=15,14,1,1
+hotspot=location
+soundfx=soundfx/wood_open.ogg
+stash=true
+tooltip=Shared Stash
+
 [npc]
 # Bethan
 type=bethan

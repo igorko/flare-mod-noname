@@ -427,6 +427,24 @@ location=7,50,1,1
 mapmod=object,8,49,265
 requires_status=wp_end
 
+[event]
+# Shared stash
+type=on_trigger
+location=90,37,1,1
+hotspot=location
+soundfx=soundfx/wood_open.ogg
+stash=true
+tooltip=Shared Stash
+
+[event]
+# Shared stash
+type=on_trigger
+location=39,53,1,1
+hotspot=location
+soundfx=soundfx/wood_open.ogg
+stash=true
+tooltip=Shared Stash
+
 [npc]
 # Ieuan
 type=ieuan
