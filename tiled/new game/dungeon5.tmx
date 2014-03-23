@@ -213,6 +213,6 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
-  <object name="demon" type="ng_enemy_demon" x="480" y="1120" width="32" height="32"/>
+  <object name="demon" type="enemies/ng_enemy_demon.txt" x="480" y="1120" width="32" height="32"/>
  </objectgroup>
 </map>

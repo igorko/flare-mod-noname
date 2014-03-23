@@ -205,11 +205,11 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
-  <object name="Cursed Grave" type="ng_enemy_cursed_grave" x="512" y="864" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="672" y="864" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="832" y="864" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="992" y="864" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="1152" y="864" width="32" height="32"/>
+  <object name="Cursed Grave" type="enemies/ng_enemy_cursed_grave.txt" x="512" y="864" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="672" y="864" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="832" y="864" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="992" y="864" width="32" height="32"/>
+  <object name="cursed grave" type="enemies/ng_enemy_cursed_grave.txt" x="1152" y="864" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="enemygroup" width="50" height="50">
   <object name="skeletons" type="dungeon_skeleton" x="64" y="192" width="160" height="992">

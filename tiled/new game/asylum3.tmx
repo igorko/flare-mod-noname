@@ -241,6 +241,6 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="100" height="50">
-  <object name="commander" type="ng_boss_ghost_commander" x="608" y="640" width="32" height="32"/>
+  <object name="commander" type="enemies/ng_boss_ghost_commander.txt" x="608" y="640" width="32" height="32"/>
  </objectgroup>
 </map>

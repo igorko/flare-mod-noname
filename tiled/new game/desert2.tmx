@@ -308,6 +308,6 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="200" height="75">
-  <object name="ghost captain" type="ng_enemy_ghost_captain" x="2944" y="1120" width="32" height="32"/>
+  <object name="ghost captain" type="enemies/ng_enemy_ghost_captain.txt" x="2944" y="1120" width="32" height="32"/>
  </objectgroup>
 </map>

@@ -308,30 +308,30 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="125" height="70">
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="1088" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="1056" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="1024" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="992" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="960" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="928" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="896" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="864" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="832" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="800" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="768" width="32" height="32"/>
-  <object name="barbarian" type="ng_enemy_soldier_barbarian" x="2432" y="704" width="32" height="32"/>
-  <object name="barbarian" type="ng_enemy_soldier_barbarian" x="2368" y="736" width="32" height="32"/>
-  <object name="barbarian" type="ng_enemy_soldier_barbarian" x="2368" y="672" width="32" height="32"/>
-  <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="992" width="32" height="32"/>
-  <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="928" width="32" height="32"/>
-  <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="864" width="32" height="32"/>
-  <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="800" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="1568" y="800" width="32" height="32"/>
-  <object name="Boss" type="ng_boss_general" x="608" y="1024" width="32" height="32"/>
-  <object name="skeleton mage" type="ng_enemy_skeleton_mage_elite" x="576" y="896" width="32" height="32"/>
-  <object name="skeleton mage" type="ng_enemy_skeleton_mage_elite" x="576" y="1152" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="448" y="896" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="448" y="1088" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="1248" y="1248" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="1088" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="1056" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="1024" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="992" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="960" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="928" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="896" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="864" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="832" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="800" width="32" height="32"/>
+  <object name="barricade" type="enemies/ng_enemy_wooden_barricade.txt" x="2432" y="768" width="32" height="32"/>
+  <object name="barbarian" type="enemies/ng_enemy_soldier_barbarian.txt" x="2432" y="704" width="32" height="32"/>
+  <object name="barbarian" type="enemies/ng_enemy_soldier_barbarian.txt" x="2368" y="736" width="32" height="32"/>
+  <object name="barbarian" type="enemies/ng_enemy_soldier_barbarian.txt" x="2368" y="672" width="32" height="32"/>
+  <object name="skirmisher" type="enemies/ng_enemy_soldier_skirmisher.txt" x="2368" y="992" width="32" height="32"/>
+  <object name="skirmisher" type="enemies/ng_enemy_soldier_skirmisher.txt" x="2368" y="928" width="32" height="32"/>
+  <object name="skirmisher" type="enemies/ng_enemy_soldier_skirmisher.txt" x="2368" y="864" width="32" height="32"/>
+  <object name="skirmisher" type="enemies/ng_enemy_soldier_skirmisher.txt" x="2368" y="800" width="32" height="32"/>
+  <object name="mage" type="enemies/ng_enemy_soldier_mage.txt" x="1568" y="800" width="32" height="32"/>
+  <object name="Boss" type="enemies/ng_boss_general.txt" x="608" y="1024" width="32" height="32"/>
+  <object name="skeleton mage" type="enemies/ng_enemy_skeleton_mage_elite.txt" x="576" y="896" width="32" height="32"/>
+  <object name="skeleton mage" type="enemies/ng_enemy_skeleton_mage_elite.txt" x="576" y="1152" width="32" height="32"/>
+  <object name="mage" type="enemies/ng_enemy_soldier_mage.txt" x="448" y="896" width="32" height="32"/>
+  <object name="mage" type="enemies/ng_enemy_soldier_mage.txt" x="448" y="1088" width="32" height="32"/>
+  <object name="mage" type="enemies/ng_enemy_soldier_mage.txt" x="1248" y="1248" width="32" height="32"/>
  </objectgroup>
 </map>
