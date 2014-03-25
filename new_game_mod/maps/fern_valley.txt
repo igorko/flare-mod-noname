@@ -636,7 +636,7 @@ intermap=maps/town.txt,39,88
 
 [npc]
 # Ieuan
-type=ieuan
+type=npcs/ieuan.txt
 location=17,184,1,1
 requires_not_status=progress_arrived_town
 

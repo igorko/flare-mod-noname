@@ -252,7 +252,7 @@ intermap=maps/asylum3.txt,84,30
 
 [npc]
 # Bryn
-type=bryn
+type=npcs/bryn.txt
 location=19,55,1,1
 requires_not_status=asylum_complete
 

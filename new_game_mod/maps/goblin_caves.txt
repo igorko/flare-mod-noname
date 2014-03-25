@@ -338,13 +338,13 @@ intermap=maps/desert.txt,42,97
 
 [npc]
 # Vlad
-type=vlad
+type=npcs/vlad.txt
 location=51,77,1,1
 requires_not_status=minotaur_complete
 
 [npc]
 # Ivan
-type=ivan
+type=npcs/ivan.txt
 location=23,68,1,1
 requires_not_status=werebear_complete
 

@@ -192,37 +192,37 @@ intermap=maps/battlefield2.txt,110,35
 
 [npc]
 # Evan
-type=evan
+type=npcs/evan.txt
 location=83,21,1,1
 requires_status=minotaur_complete
 
 [npc]
 # Ieuan
-type=ieuan
+type=npcs/ieuan.txt
 location=82,26,1,1
 requires_status=minotaur_complete
 
 [npc]
 # Vlad
-type=vlad
+type=npcs/vlad.txt
 location=86,10,1,1
 requires_status=minotaur_complete
 
 [npc]
 # Bryn
-type=bryn
+type=npcs/bryn.txt
 location=90,29,1,1
 requires_status=minotaur_complete
 
 [npc]
 # Bethan
-type=bethan
+type=npcs/bethan.txt
 location=83,15,1,1
 requires_status=minotaur_complete
 
 [npc]
 # ivan
-type=ivan3
+type=npcs/ivan3.txt
 location=85,13,1,1
 requires_status=minotaur_complete
 

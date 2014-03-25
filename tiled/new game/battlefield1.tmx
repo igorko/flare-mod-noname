@@ -204,32 +204,32 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" width="100" height="50">
-  <object name="Evan" type="evan" x="2656" y="672" width="32" height="32">
+  <object name="Evan" type="npcs/evan.txt" x="2656" y="672" width="32" height="32">
    <properties>
     <property name="requires_status" value="minotaur_complete"/>
    </properties>
   </object>
-  <object name="Ieuan" type="ieuan" x="2624" y="832" width="32" height="32">
+  <object name="Ieuan" type="npcs/ieuan.txt" x="2624" y="832" width="32" height="32">
    <properties>
     <property name="requires_status" value="minotaur_complete"/>
    </properties>
   </object>
-  <object name="Vlad" type="vlad" x="2752" y="320" width="32" height="32">
+  <object name="Vlad" type="npcs/vlad.txt" x="2752" y="320" width="32" height="32">
    <properties>
     <property name="requires_status" value="minotaur_complete"/>
    </properties>
   </object>
-  <object name="Bryn" type="bryn" x="2880" y="928" width="32" height="32">
+  <object name="Bryn" type="npcs/bryn.txt" x="2880" y="928" width="32" height="32">
    <properties>
     <property name="requires_status" value="minotaur_complete"/>
    </properties>
   </object>
-  <object name="Bethan" type="bethan" x="2656" y="480" width="32" height="32">
+  <object name="Bethan" type="npcs/bethan.txt" x="2656" y="480" width="32" height="32">
    <properties>
     <property name="requires_status" value="minotaur_complete"/>
    </properties>
   </object>
-  <object name="ivan" type="ivan3" x="2720" y="416" width="32" height="32">
+  <object name="ivan" type="npcs/ivan3.txt" x="2720" y="416" width="32" height="32">
    <properties>
     <property name="requires_status" value="minotaur_complete"/>
    </properties>

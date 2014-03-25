@@ -188,7 +188,7 @@ requires_not_status=werebear_defeated
 
 [npc]
 # Bryn
-type=bryn
+type=npcs/bryn.txt
 location=15,16,1,1
 requires_not_status=minotaur_complete
 requires_status=werebear_returning

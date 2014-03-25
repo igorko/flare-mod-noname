@@ -649,7 +649,7 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" width="40" height="200">
-  <object name="Ieuan" type="ieuan" x="544" y="5888" width="32" height="32">
+  <object name="Ieuan" type="npcs/ieuan.txt" x="544" y="5888" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="progress_arrived_town"/>
    </properties>

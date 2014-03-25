@@ -200,7 +200,7 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" width="100" height="50">
-  <object name="The Governor" type="governor" x="128" y="704" width="32" height="32"/>
+  <object name="The Governor" type="npcs/governor.txt" x="128" y="704" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="enemygroup" width="100" height="50">
   <object name="Spirit" type="spirit" x="896" y="384" width="320" height="800">

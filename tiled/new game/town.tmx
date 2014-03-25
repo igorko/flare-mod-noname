@@ -446,18 +446,18 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" width="100" height="100">
-  <object name="Ieuan" type="ieuan" x="1152" y="1760" width="32" height="32">
+  <object name="Ieuan" type="npcs/ieuan.txt" x="1152" y="1760" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="bethan_quests_complete"/>
    </properties>
   </object>
-  <object name="Evan" type="evan" x="1536" y="640" width="32" height="32">
+  <object name="Evan" type="npcs/evan.txt" x="1536" y="640" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="minotaur_complete"/>
    </properties>
   </object>
-  <object name="Branwen" type="branwen" x="1888" y="1728" width="32" height="32"/>
-  <object name="farmer" type="farmer_pitchfork_working" x="2752" y="1280" width="32" height="32"/>
-  <object name="horse" type="horse_southeast" x="2624" y="928" width="32" height="32"/>
+  <object name="Branwen" type="npcs/branwen.txt" x="1888" y="1728" width="32" height="32"/>
+  <object name="farmer" type="npcs/farmer_pitchfork_working.txt" x="2752" y="1280" width="32" height="32"/>
+  <object name="horse" type="npcs/horse_southeast.txt" x="2624" y="928" width="32" height="32"/>
  </objectgroup>
 </map>

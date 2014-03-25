@@ -209,18 +209,18 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" width="40" height="40">
-  <object name="Bethan" type="bethan" x="480" y="512" width="32" height="32">
+  <object name="Bethan" type="npcs/bethan.txt" x="480" y="512" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="minotaur_complete"/>
    </properties>
   </object>
-  <object name="Ieuan" type="ieuan" x="640" y="352" width="32" height="32">
+  <object name="Ieuan" type="npcs/ieuan.txt" x="640" y="352" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="minotaur_complete"/>
     <property name="requires_status" value="werebear_complete"/>
    </properties>
   </object>
-  <object name="ivan" type="ivan2" x="288" y="448" width="32" height="32">
+  <object name="ivan" type="npcs/ivan2.txt" x="288" y="448" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="minotaur_complete"/>
     <property name="requires_status" value="werebear_complete"/>
