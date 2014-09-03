@@ -218,7 +218,7 @@ trait_elemental=ice
 radius=1.0
 lifespan=400ms
 base_damage=ment
-delay=3
+delay=100ms
 visual_random=3
 complete_animation=true
 count=10
@@ -363,7 +363,7 @@ base_damage=ranged
 starting_pos=melee
 aim_assist=true
 count=5
-delay=2
+delay=66ms
 modifier_damage=multiply,75,0
 angle_variance=5
 cooldown=2s
@@ -477,7 +477,7 @@ starting_pos=source
 multitarget=true
 visual_option=1
 post_power=125
-post_effect=slow,50,15
+post_effect=slow,50,500ms
 
 [power]
 id=34
@@ -753,7 +753,7 @@ new_state=instant
 requires_item=1
 cooldown=500ms
 buff=true
-post_effect=HP restore,100,1
+post_effect=HP restore,100,33ms
 
 [power]
 id=101
@@ -765,7 +765,7 @@ soundfx=soundfx/powers/potion.ogg
 requires_item=2
 cooldown=500ms
 buff=true
-post_effect=MP restore,100,1
+post_effect=MP restore,100,33ms
 
 [power]
 id=118
@@ -1163,7 +1163,7 @@ buff=true
 requires_equipped_item=112
 passive=true
 passive_trigger=on_death
-post_effect=revive,0,1
+post_effect=revive,0,33ms
 
 
 ##################################################################################
@@ -1523,7 +1523,7 @@ lifespan=33ms
 radius=2.5
 starting_pos=source
 multitarget=true
-post_effect=stun,0,30
+post_effect=stun,0,1s
 modifier_accuracy=absolute,10,1
 target_categories=ground
 
@@ -1615,7 +1615,7 @@ lifespan=33ms
 radius=3.5
 starting_pos=source
 multitarget=true
-post_effect=Knockback,1,30
+post_effect=Knockback,1,1s
 modifier_accuracy=absolute,25,1
 target_categories=ground
 
@@ -1746,7 +1746,7 @@ description=Applied the freeze effect for 628 with accuracy mod
 use_hazard=true
 lifespan=33ms
 radius=2.5
-post_effect=stun,0,30
+post_effect=stun,0,1s
 modifier_accuracy=absolute,25,1
 
 [power]
@@ -2728,7 +2728,7 @@ lifespan=400ms
 radius=4.0
 starting_pos=source
 multitarget=true
-post_effect=Fear,0,120
+post_effect=Fear,0,4s
 
 [power]
 id=713
@@ -4436,7 +4436,7 @@ trait_elemental=ice
 radius=1.0
 lifespan=400ms
 base_damage=ment
-delay=3
+delay=100ms
 visual_random=3
 complete_animation=true
 count=10
@@ -4595,7 +4595,7 @@ trait_elemental=ice
 radius=1.0
 lifespan=400ms
 base_damage=ment
-delay=2
+delay=66ms
 #visual_random=3
 complete_animation=true
 count=10

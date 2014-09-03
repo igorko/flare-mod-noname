@@ -13,7 +13,7 @@ sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/skeleton.txt
 
 
-waypoint_pause=30
+waypoint_pause=1s
 
 # combat stats
 hp=130

@@ -35,6 +35,6 @@ cooldown=500ms
 
 convert_status=horse_tamed
 #chance_flee=50
-waypoint_pause=1
+waypoint_pause=33ms
 
 hp_regen=50
