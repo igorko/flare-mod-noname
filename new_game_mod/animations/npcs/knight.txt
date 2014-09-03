@@ -3,7 +3,7 @@ image=images/npcs/knight.png
 
 [stance]
 frames=194
-duration=3
+duration=18s
 type=looped
 frame=0,0,0,0,128,128,64,90
 frame=1,0,128,0,128,128,64,90

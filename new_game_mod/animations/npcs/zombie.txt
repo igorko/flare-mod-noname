@@ -3,7 +3,7 @@ image=images/npcs/zombie.png
 
 [stance]
 frames=4
-duration=4
+duration=480ms
 type=back_forth
 frame=0,0,3591,0,26,56,11,50
 frame=0,1,4668,0,31,54,14,51

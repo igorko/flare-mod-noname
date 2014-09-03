@@ -7,5 +7,5 @@ render_offset=64,100
 [power]
 position=0
 frames=5
-duration=3
+duration=400ms
 type=back_forth

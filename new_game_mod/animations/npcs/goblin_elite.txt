@@ -3,7 +3,7 @@ image=images/npcs/goblin_elite.png
 
 [stance]
 frames=4
-duration=6
+duration=720ms
 type=back_forth
 frame=0,0,143,1213,47,41,29,36
 frame=0,1,213,2802,35,43,15,39

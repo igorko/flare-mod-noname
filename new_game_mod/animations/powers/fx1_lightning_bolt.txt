@@ -7,5 +7,5 @@ render_offset=50,170
 [power]
 position=0
 frames=22
-duration=1
+duration=633ms
 type=play_once

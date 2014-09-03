@@ -3,7 +3,7 @@ image=images/powers/runes.png
 
 [power]
 frames=4
-duration=4
+duration=480ms
 type=play_once
 frame=0,0,0,32,55,27,29,11
 frame=1,0,245,0,50,30,20,15
