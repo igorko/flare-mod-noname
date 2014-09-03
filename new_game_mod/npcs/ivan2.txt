@@ -1,5 +1,4 @@
 name=Ivan
-level=4
 
 # shop info
 vendor=true

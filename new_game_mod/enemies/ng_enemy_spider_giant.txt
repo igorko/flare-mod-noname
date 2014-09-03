@@ -18,7 +18,7 @@ hp_regen=50
 speed=5.0
 melee_range=1.1875
 threat_range=8.0
-turn_delay=5
+turn_delay=166ms
 chance_pursue=30
 chance_melee_phys=20
 power_melee_phys=1
@@ -31,7 +31,7 @@ absorb_max=4
 
 dmg_melee_min=10
 dmg_melee_max=15
-cooldown=10
+cooldown=333ms
 
 loot=currency,5,8,20
 

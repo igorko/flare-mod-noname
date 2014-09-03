@@ -19,7 +19,7 @@ hp=700
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
-turn_delay=9
+turn_delay=300ms
 chance_pursue=20
 chance_melee_phys=6
 chance_ranged_phys=30
@@ -36,6 +36,6 @@ dmg_ranged_min=60
 dmg_ranged_max=100
 absorb_min=10
 absorb_max=40
-cooldown=25
+cooldown=833ms
 
 hp_regen=50

@@ -26,5 +26,5 @@ avoidance=0
 dmg_ment_min=50
 dmg_ment_max=70
 
-cooldown=40
+cooldown=1333ms
 poise=100

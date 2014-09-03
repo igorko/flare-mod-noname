@@ -1,5 +1,4 @@
 name=Horse
-level=4
 
 # animation info
 gfx=animations/npcs/horse_southeast.txt

@@ -17,7 +17,7 @@ hp_regen=50
 speed=5.0
 melee_range=1.1875
 threat_range=8.0
-turn_delay=6
+turn_delay=400ms
 chance_pursue=20
 chance_melee_phys=15
 chance_ranged_phys=20
@@ -35,7 +35,7 @@ dmg_ranged_min=30
 dmg_ranged_max=50
 dmg_melee_min=20
 dmg_melee_max=35
-cooldown=10
+cooldown=333ms
 
 chance_flee=15
 

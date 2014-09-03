@@ -3,7 +3,7 @@ image=images/enemies/steel_armor.png
 
 [stance]
 frames=4
-duration=6
+duration=800ms
 type=back_forth
 frame=0,0,43,3440,37,46,16,41
 frame=0,1,0,3884,42,42,17,39
@@ -40,7 +40,7 @@ frame=3,7,53,414,27,50,11,41
 
 [run]
 frames=8
-duration=2
+duration=533ms
 type=looped
 frame=0,0,0,5483,32,48,6,45
 frame=0,1,0,5621,31,50,8,45
@@ -109,7 +109,7 @@ frame=7,7,44,2892,36,49,14,44
 
 [shoot]
 frames=4
-duration=3
+duration=400ms
 type=play_once
 frame=0,0,0,5258,36,47,16,42
 frame=0,1,41,4530,39,45,19,42
@@ -146,7 +146,7 @@ frame=3,7,54,149,26,52,10,44
 
 [cast]
 frames=4
-duration=3
+duration=400ms
 type=play_once
 frame=0,0,41,4150,39,50,21,45
 frame=0,1,0,2834,44,46,20,43
@@ -183,7 +183,7 @@ frame=3,7,51,810,29,63,8,54
 
 [die]
 frames=6
-duration=4
+duration=800ms
 type=play_once
 frame=0,0,41,4393,39,46,16,41
 frame=0,1,0,5031,38,42,15,39
@@ -236,7 +236,7 @@ frame=5,7,0,1202,49,46,20,37
 
 [critdie]
 frames=6
-duration=4
+duration=800ms
 type=play_once
 frame=0,0,41,4393,39,46,16,41
 frame=0,1,0,5031,38,42,15,39
@@ -289,7 +289,7 @@ frame=5,7,0,1202,49,46,20,37
 
 [swing]
 frames=4
-duration=3
+duration=400ms
 type=play_once
 frame=0,0,42,3649,38,57,16,52
 frame=0,1,41,4095,39,55,19,52
@@ -326,7 +326,7 @@ frame=3,7,45,2633,35,46,17,37
 
 [hit]
 frames=2
-duration=2
+duration=533ms
 type=play_once
 frame=0,0,41,4393,39,46,16,41
 frame=0,1,0,5031,38,42,15,39
@@ -347,7 +347,7 @@ frame=1,7,56,49,24,49,12,40
 
 [block]
 frames=2
-duration=1
+duration=66ms
 type=play_once
 frame=0,0,0,5165,37,45,15,40
 frame=0,1,0,4491,41,41,16,38

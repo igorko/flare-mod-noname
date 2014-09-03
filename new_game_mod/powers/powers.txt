@@ -14,7 +14,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=1104
 
 [power]
@@ -57,7 +56,6 @@ requires_flags=ranged
 requires_mp=1
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 post_effect=immobilize,0,90
 
 [power]
@@ -76,7 +74,6 @@ lifespan=1
 radius=1.0
 starting_pos=melee
 post_power=127
-allow_power_mod=true
 post_effect=bleeding,5,150
 
 [power]
@@ -129,7 +126,6 @@ multitarget=true
 base_damage=ranged
 aim_assist=true
 trait_armor_penetration=true
-allow_power_mod=true
 
 [power]
 id=9
@@ -162,7 +158,7 @@ floor=true
 trait_elemental=earth
 starting_pos=source
 multitarget=true
-cooldown=90
+cooldown=3s
 post_effect=stun,0,30
 
 [power]
@@ -205,7 +201,6 @@ base_damage=melee
 lifespan=1
 radius=2.0
 starting_pos=melee
-allow_power_mod=true
 
 [power]
 id=14
@@ -264,7 +259,6 @@ requires_flags=ranged
 requires_mp=2
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 
 [power]
 id=18
@@ -320,7 +314,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 hp_steal=10
 
 [power]
@@ -355,7 +348,6 @@ requires_flags=ranged
 base_damage=ranged
 starting_pos=melee
 aim_assist=true
-allow_power_mod=true
 
 [power]
 id=23
@@ -370,7 +362,6 @@ requires_mp=3
 base_damage=ranged
 starting_pos=melee
 aim_assist=true
-allow_power_mod=true
 count=5
 delay=2
 modifier_damage=multiply,75,0
@@ -547,7 +538,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 hp_steal=50
 
 [power]
@@ -564,7 +554,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_effect=bleeding,5,90
 
 [power]
@@ -581,7 +570,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_effect=immobilize,0,150
 
 [power]
@@ -598,7 +586,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 trait_armor_penetration=true
 
 [power]
@@ -718,7 +705,7 @@ animation=animations/powers/caltrops.txt
 use_hazard=true
 base_damage=ranged
 lifespan=300
-cooldown=300
+cooldown=10s
 radius=1.0
 modifier_damage=multiply,75,0
 post_effect=slow,50,90
@@ -739,7 +726,7 @@ animation=animations/powers/bear_trap.txt
 use_hazard=true
 base_damage=ranged
 lifespan=300
-cooldown=300
+cooldown=10s
 radius=1.0
 modifier_damage=multiply,150,0
 post_effect=immobilize,0,90
@@ -798,39 +785,43 @@ post_power=126
 base_damage=melee
 starting_pos=melee
 
+# slingshot/rock
 [power]
 id=120
-name=Slingshot Shoot
+name=Shoot
 type=missile
-icon=0
-description=Basic ranged attack (requires a ranged weapon)
+icon=3
+description=Basic ranged attack (requires a slingshot)
 new_state=shoot
 face=true
 directional=false
 animation=animations/powers/stone.txt
 soundfx=soundfx/powers/shoot.ogg
 use_hazard=true
+starting_pos=melee
 aim_assist=true
-requires_flags=ranged
+requires_flags=ranged,slingshot
 base_damage=ranged
 lifespan=16
 radius=1.0
 speed=24
 
+# bow/arrow
 [power]
 id=121
-name=Arrow Shoot
+name=Shoot
 type=missile
-icon=0
-description=Basic ranged attack (requires a ranged weapon)
+icon=3
+description=Basic ranged attack (requires a bow)
 new_state=shoot
 face=true
 directional=true
 animation=animations/powers/arrows.txt
 soundfx=soundfx/powers/shoot.ogg
 use_hazard=true
+starting_pos=melee
 aim_assist=true
-requires_flags=ranged
+requires_flags=ranged,bow
 base_damage=ranged
 lifespan=16
 radius=1.0
@@ -1103,7 +1094,7 @@ starting_pos=source
 buff_teleport=true
 target_range=8.0
 target_neighbor=1
-cooldown=450
+cooldown=15s
 
 [power]
 id=141
@@ -1117,7 +1108,7 @@ description=Move undetected with the opportunity to perform a sneak attack
 transform_duration=300
 manual_untransform=true
 keep_equipment=true
-cooldown=300
+cooldown=10s
 keep_equipment=true
 
 [power]
@@ -1134,7 +1125,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=136
 
 [power]
@@ -1211,7 +1201,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 
 [power]
 id=601
@@ -1227,7 +1216,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_damage=multiply,150,0
 
 [power]
@@ -1244,7 +1232,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_damage=multiply,200,0
 
 [power]
@@ -1262,7 +1249,6 @@ base_damage=melee
 lifespan=1
 radius=2.0
 starting_pos=melee
-allow_power_mod=true
 modifier_damage=multiply,200,0
 
 [power]
@@ -1280,7 +1266,6 @@ base_damage=melee
 lifespan=1
 radius=2.0
 starting_pos=melee
-allow_power_mod=true
 modifier_damage=multiply,300,0
 
 
@@ -1303,7 +1288,6 @@ requires_flags=ranged
 base_damage=ranged
 starting_pos=melee
 aim_assist=true
-allow_power_mod=true
 
 
 [power]
@@ -1318,7 +1302,6 @@ requires_flags=ranged
 base_damage=ranged
 starting_pos=melee
 aim_assist=true
-allow_power_mod=true
 modifier_damage=multiply,120,0
 
 [power]
@@ -1333,7 +1316,6 @@ requires_flags=ranged
 base_damage=ranged
 starting_pos=melee
 aim_assist=true
-allow_power_mod=true
 modifier_damage=multiply,150,0
 
 [power]
@@ -1347,7 +1329,6 @@ face=true
 requires_flags=ranged
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 multitarget=true
 modifier_damage=multiply,150,0
 
@@ -1363,7 +1344,6 @@ face=true
 requires_flags=ranged
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 multitarget=true
 trait_armor_penetration=true
 modifier_damage=multiply,180,0
@@ -1386,7 +1366,6 @@ face=true
 requires_flags=ranged
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 multitarget=true
 trait_armor_penetration=true
 modifier_damage=multiply,180,0
@@ -1404,7 +1383,6 @@ face=true
 requires_flags=ranged
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 multitarget=true
 trait_armor_penetration=true
 modifier_damage=multiply,180,0
@@ -1422,7 +1400,6 @@ face=true
 requires_flags=ranged
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 multitarget=true
 trait_armor_penetration=true
 modifier_damage=multiply,180,0
@@ -1440,7 +1417,6 @@ face=true
 requires_flags=ranged
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 multitarget=true
 trait_armor_penetration=true
 modifier_damage=multiply,180,0
@@ -1458,7 +1434,6 @@ face=true
 requires_flags=ranged
 base_damage=ranged
 aim_assist=true
-allow_power_mod=true
 multitarget=true
 trait_armor_penetration=true
 modifier_damage=multiply,180,0
@@ -1489,7 +1464,7 @@ floor=true
 trait_elemental=earth
 starting_pos=source
 multitarget=true
-cooldown=90
+cooldown=3s
 target_categories=ground
 
 [power]
@@ -1510,7 +1485,7 @@ floor=true
 trait_elemental=earth
 starting_pos=source
 multitarget=true
-cooldown=90
+cooldown=3s
 target_categories=ground
 modifier_damage=multiply,150,0
 
@@ -1532,7 +1507,7 @@ floor=true
 trait_elemental=earth
 starting_pos=source
 multitarget=true
-cooldown=60
+cooldown=2s
 target_categories=ground
 modifier_damage=multiply,170,0
 post_power=618
@@ -1570,7 +1545,7 @@ floor=true
 trait_elemental=earth
 starting_pos=source
 multitarget=true
-cooldown=60
+cooldown=2s
 target_categories=ground
 modifier_damage=multiply,200,0
 post_power=620
@@ -1608,7 +1583,7 @@ floor=true
 trait_elemental=earth
 starting_pos=source
 multitarget=true
-cooldown=30
+cooldown=1s
 target_categories=ground
 modifier_damage=multiply,300,0
 post_power=622
@@ -1836,7 +1811,7 @@ radius=2.0
 floor=true
 trait_elemental=earth
 multitarget=true
-cooldown=90
+cooldown=3s
 target_categories=ground
 modifier_damage=multiply,150,0
 count=8
@@ -1949,7 +1924,7 @@ floor=true
 starting_pos=target
 target_range=8.0
 target_categories=undead
-cooldown=900
+cooldown=30s
 modifier_accuracy=absolute,35,1
 post_effect=Convert,0,1800
 
@@ -1974,7 +1949,7 @@ starting_pos=target
 multitarget=true
 target_range=8.0
 target_categories=undead
-cooldown=750
+cooldown=25s
 modifier_accuracy=absolute,40,1
 post_effect=Convert,0,2700
 
@@ -1999,7 +1974,7 @@ starting_pos=target
 multitarget=true
 target_range=8.0
 target_categories=undead,animal
-cooldown=750
+cooldown=25s
 modifier_accuracy=absolute,40,1
 post_effect=Convert,0,2700
 
@@ -2024,7 +1999,7 @@ starting_pos=target
 multitarget=true
 target_range=8.0
 target_categories=undead,animal
-cooldown=750
+cooldown=25s
 modifier_accuracy=absolute,45,1
 post_effect=Convert,0,2700
 
@@ -2049,7 +2024,7 @@ starting_pos=target
 multitarget=true
 target_range=8.0
 target_categories=undead,animal,humanoid
-cooldown=600
+cooldown=20s
 modifier_accuracy=absolute,50,1
 post_effect=Convert,0,5400
 
@@ -2071,7 +2046,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,defense
-cooldown=150
+cooldown=5s
 requires_mp=4
 
 [power]
@@ -2086,7 +2061,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,defense
-cooldown=150
+cooldown=5s
 requires_mp=8
 
 [power]
@@ -2101,7 +2076,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,2
 spawn_level=stat,2,1,defense
-cooldown=150
+cooldown=5s
 requires_mp=12
 
 [power]
@@ -2116,7 +2091,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,2
 spawn_level=stat,2,1,defense
-cooldown=150
+cooldown=5s
 requires_mp=16
 
 [power]
@@ -2131,7 +2106,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=stat,1,4,defense
 spawn_level=stat,2,1,defense
-cooldown=150
+cooldown=5s
 requires_mp=20
 
 ##################################################################################
@@ -2152,7 +2127,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,mental
-cooldown=180
+cooldown=6s
 requires_mp=5
 
 [power]
@@ -2167,7 +2142,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,mental
-cooldown=180
+cooldown=6s
 requires_mp=10
 
 [power]
@@ -2182,7 +2157,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,mental
-cooldown=180
+cooldown=6s
 requires_mp=15
 
 [power]
@@ -2197,7 +2172,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,mental
-cooldown=180
+cooldown=6s
 requires_mp=20
 
 [power]
@@ -2212,7 +2187,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,mental
-cooldown=180
+cooldown=6s
 requires_mp=25
 
 ##################################################################################
@@ -2233,7 +2208,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,offense
-cooldown=210
+cooldown=7s
 requires_mp=6
 
 [power]
@@ -2248,7 +2223,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,offense
-cooldown=210
+cooldown=7s
 requires_mp=12
 
 [power]
@@ -2263,7 +2238,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,offense
-cooldown=210
+cooldown=7s
 requires_mp=18
 
 [power]
@@ -2278,7 +2253,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=fixed,1
 spawn_level=stat,2,1,offense
-cooldown=210
+cooldown=7s
 requires_mp=24
 
 [power]
@@ -2293,7 +2268,7 @@ starting_pos=source
 target_neighbor=1
 spawn_limit=stat,1,6,offense
 spawn_level=stat,2,1,offense
-cooldown=210
+cooldown=7s
 requires_mp=30
 
 
@@ -2403,7 +2378,7 @@ radius=2.0
 floor=true
 starting_pos=target
 target_range=8.0
-cooldown=3600
+cooldown=120s
 modifier_accuracy=absolute,100
 post_effect=Convert,0,0
 
@@ -2541,14 +2516,14 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=16.0
-post_effect=Lower Absorb min,-50,900
-post_effect=Lower Absorb max,-50,900
-post_effect=Lower Avoidance,-50,900
-post_effect=Lower Poise,-50,900
-post_effect=Lower Fire Resist,-50,900
-post_effect=Lower Ice Resist,-50,900
-post_effect=Lower Earth Resist,-50,900
-post_effect=Lower Lightning Resist,-50,900
+post_effect=Lower Absorb min,-50,30s
+post_effect=Lower Absorb max,-50,30s
+post_effect=Lower Avoidance,-50,30s
+post_effect=Lower Poise,-50,30s
+post_effect=Lower Fire Resist,-50,30s
+post_effect=Lower Ice Resist,-50,30s
+post_effect=Lower Earth Resist,-50,30s
+post_effect=Lower Lightning Resist,-50,30s
 modifier_damage=multiply,0,0
 
 ##################################################################################
@@ -2577,12 +2552,12 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=8.0
-post_effect=Lower Melee Damage min,-10,300
-post_effect=Lower Melee Damage max,-10,300
-post_effect=Lower Ranged Damage min,-10,300
-post_effect=Lower Ranged Damage max,-10,300
-post_effect=Lower Mental Damage min,-10,300
-post_effect=Lower Mental Damage max,-10,300
+post_effect=Lower Melee Damage min,-10,10s
+post_effect=Lower Melee Damage max,-10,10s
+post_effect=Lower Ranged Damage min,-10,10s
+post_effect=Lower Ranged Damage max,-10,10s
+post_effect=Lower Mental Damage min,-10,10s
+post_effect=Lower Mental Damage max,-10,10s
 modifier_damage=multiply,0,0
 
 [power]
@@ -2605,12 +2580,12 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=8.0
-post_effect=Lower Melee Damage min,-20,450
-post_effect=Lower Melee Damage max,-20,450
-post_effect=Lower Ranged Damage min,-20,450
-post_effect=Lower Ranged Damage max,-20,450
-post_effect=Lower Mental Damage min,-20,450
-post_effect=Lower Mental Damage max,-20,450
+post_effect=Lower Melee Damage min,-20,15s
+post_effect=Lower Melee Damage max,-20,15s
+post_effect=Lower Ranged Damage min,-20,15s
+post_effect=Lower Ranged Damage max,-20,15s
+post_effect=Lower Mental Damage min,-20,15s
+post_effect=Lower Mental Damage max,-20,15s
 modifier_damage=multiply,0,0
 
 [power]
@@ -2662,13 +2637,13 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=16.0
-post_effect=Lower Melee Damage min,-40,600
-post_effect=Lower Melee Damage max,-40,600
-post_effect=Lower Ranged Damage min,-40,600
-post_effect=Lower Ranged Damage max,-40,600
-post_effect=Lower Mental Damage min,-40,600
-post_effect=Lower Mental Damage max,-40,600
-post_effect=Lower Critical Hit Rate,-40,600
+post_effect=Lower Melee Damage min,-40,20s
+post_effect=Lower Melee Damage max,-40,20s
+post_effect=Lower Ranged Damage min,-40,20s
+post_effect=Lower Ranged Damage max,-40,20s
+post_effect=Lower Mental Damage min,-40,20s
+post_effect=Lower Mental Damage max,-40,20s
+post_effect=Lower Critical Hit Rate,-40,20s
 modifier_damage=multiply,0,0
 
 [power]
@@ -2691,14 +2666,14 @@ floor=true
 starting_pos=target
 multitarget=true
 target_range=16.0
-post_effect=Lower Melee Damage min,-50,900
-post_effect=Lower Melee Damage max,-50,900
-post_effect=Lower Ranged Damage min,-50,900
-post_effect=Lower Ranged Damage max,-50,900
-post_effect=Lower Mental Damage min,-50,900
-post_effect=Lower Mental Damage max,-50,900
-post_effect=Lower Critical Hit Rate,-50,900
-post_effect=Lower Accuracy,-50,900
+post_effect=Lower Melee Damage min,-50,30s
+post_effect=Lower Melee Damage max,-50,30s
+post_effect=Lower Ranged Damage min,-50,30s
+post_effect=Lower Ranged Damage max,-50,30s
+post_effect=Lower Mental Damage min,-50,30s
+post_effect=Lower Mental Damage max,-50,30s
+post_effect=Lower Critical Hit Rate,-50,30s
+post_effect=Lower Accuracy,-50,30s
 modifier_damage=multiply,0,0
 
 ##################################################################################
@@ -2809,7 +2784,7 @@ starting_pos=melee
 animation=animations/powers/bear_trap.txt
 use_hazard=true
 lifespan=200
-cooldown=90
+cooldown=3s
 radius=1.0
 post_effect=immobilize,0,60
 post_power=716
@@ -2839,7 +2814,7 @@ requires_mp=4
 animation=animations/powers/bear_trap.txt
 use_hazard=true
 lifespan=300
-cooldown=90
+cooldown=3s
 radius=1.0
 post_power=716
 base_damage=ranged
@@ -2860,7 +2835,7 @@ requires_mp=6
 animation=animations/powers/bear_trap.txt
 use_hazard=true
 lifespan=400
-cooldown=90
+cooldown=3s
 radius=1.0
 post_power=716
 base_damage=ranged
@@ -2881,7 +2856,7 @@ requires_mp=8
 animation=animations/powers/bear_trap.txt
 use_hazard=true
 lifespan=500
-cooldown=90
+cooldown=3s
 radius=1.0
 post_power=716
 base_damage=ranged
@@ -2902,7 +2877,7 @@ requires_mp=10
 animation=animations/powers/bear_trap.txt
 use_hazard=true
 lifespan=600
-cooldown=90
+cooldown=3s
 radius=1.0
 post_power=716
 base_damage=ranged
@@ -2927,7 +2902,7 @@ description=Raise a single tower which shoots fireballs at your enemies
 spawn_type=enemies/ng_ally_firetower1.txt
 new_state=cast
 starting_pos=target
-cooldown=150
+cooldown=5s
 requires_mp=6
 post_effect=Death Sentence,0,150
 
@@ -2999,7 +2974,7 @@ description=Create a decoy which takes enemy attacks and tries to snare them
 spawn_type=enemies/ng_ally_decoy.txt
 new_state=cast
 starting_pos=target
-cooldown=150
+cooldown=5s
 requires_mp=50
 post_effect=Death Sentence,0,600
 
@@ -3164,10 +3139,10 @@ name=Protection 3
 type=fixed
 description=Additional bonus to avoidance
 icon=15
-post_effect=HP Buff bonus - protection,50,900
-post_effect=Raise Absorb min - protection,10,900
-post_effect=Raise Absorb max - protection,10,900
-post_effect=Raise Avoidance - protection,15,900
+post_effect=HP Buff bonus - protection,50,30s
+post_effect=Raise Absorb min - protection,10,30s
+post_effect=Raise Absorb max - protection,10,30s
+post_effect=Raise Avoidance - protection,15,30s
 buff_party=true
 requires_mp=10
 new_state=cast
@@ -3178,14 +3153,14 @@ name=Protection 4
 type=fixed
 description=Additional bonus to Elemental resistances
 icon=15
-post_effect=HP Buff bonus - protection,50,1200
-post_effect=Raise Absorb min - protection,10,1200
-post_effect=Raise Absorb max - protection,10,1200
-post_effect=Raise Avoidance - protection,15,1200
-post_effect=Raise Fire Resist - protection,10,1200
-post_effect=Raise Ice Resist - protection,10,1200
-post_effect=Raise Earth Resist - protection,10,1200
-post_effect=Raise Lightning Resist - protection,10,1200
+post_effect=HP Buff bonus - protection,50,40s
+post_effect=Raise Absorb min - protection,10,40s
+post_effect=Raise Absorb max - protection,10,40s
+post_effect=Raise Avoidance - protection,15,40s
+post_effect=Raise Fire Resist - protection,10,40s
+post_effect=Raise Ice Resist - protection,10,40s
+post_effect=Raise Earth Resist - protection,10,40s
+post_effect=Raise Lightning Resist - protection,10,40s
 buff_party=true
 requires_mp=15
 new_state=cast
@@ -3577,7 +3552,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=811
 
 [power]
@@ -3591,7 +3565,6 @@ aim_assist=true
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_accuracy=absolute,20
 trait_avoidance_ignore=true
 post_effect=Fear,0,150
@@ -3610,7 +3583,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=813
 
 [power]
@@ -3624,7 +3596,6 @@ aim_assist=true
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_accuracy=absolute,35
 trait_avoidance_ignore=true
 post_effect=Fear,0,150
@@ -3643,7 +3614,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=815
 
 [power]
@@ -3657,7 +3627,6 @@ aim_assist=true
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_accuracy=absolute,50
 trait_avoidance_ignore=true
 post_effect=Fear,0,150
@@ -3687,7 +3656,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=821
 
 [power]
@@ -3701,7 +3669,6 @@ aim_assist=true
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_accuracy=absolute,30
 trait_avoidance_ignore=true
 post_effect=Convert,0,1800
@@ -3721,7 +3688,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=823
 
 [power]
@@ -3735,7 +3701,6 @@ aim_assist=true
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_accuracy=absolute,50
 trait_avoidance_ignore=true
 post_effect=Convert,0,3600
@@ -3755,7 +3720,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=825
 
 [power]
@@ -3769,7 +3733,6 @@ aim_assist=true
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_accuracy=absolute,70
 trait_avoidance_ignore=true
 post_effect=Convert,0,5400
@@ -3984,7 +3947,7 @@ new_state=swing
 animation=animations/powers/bear_trap.txt
 use_hazard=true
 lifespan=300
-cooldown=90
+cooldown=3s
 radius=1.0
 post_power=716
 base_damage=ranged
@@ -4006,7 +3969,7 @@ animation=animations/powers/caltrops.txt
 use_hazard=true
 base_damage=ranged
 lifespan=300
-cooldown=300
+cooldown=10s
 radius=1.0
 modifier_damage=absolute,1,50
 trait_armor_penetration=true
@@ -4179,7 +4142,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=1104
 
 [power]
@@ -4243,7 +4205,6 @@ aim_assist=true
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 modifier_accuracy=absolute,4
 trait_avoidance_ignore=true
 post_effect=Fear,0,150
@@ -4302,7 +4263,7 @@ animation=animations/powers/fx8_lightningball.txt
 soundfx=soundfx/powers/shock.ogg
 use_hazard=true
 lifespan=60
-cooldown=90
+cooldown=3s
 trait_elemental=lightning
 radius=1.0
 base_damage=ment
@@ -4335,7 +4296,6 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=1104
 multitarget=true
 radius=2.0
@@ -4389,7 +4349,7 @@ animation=animations/powers/fx6_spiderfire.txt
 soundfx=soundfx/powers/burn.ogg
 use_hazard=true
 lifespan=20
-cooldown=90
+cooldown=3s
 trait_elemental=fire
 radius=1.0
 base_damage=ment
@@ -4745,6 +4705,5 @@ base_damage=melee
 lifespan=1
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=1104
 
