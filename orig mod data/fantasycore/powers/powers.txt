@@ -9,12 +9,10 @@ description=Basic melee attack
 new_state=swing
 face=true
 use_hazard=true
-aim_assist=true
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 
 [power]
 id=2
@@ -30,7 +28,7 @@ animation=animations/powers/channel.txt
 use_hazard=true
 aim_assist=true
 base_damage=ment
-lifespan=8
+lifespan=266ms
 radius=1.0
 speed=12
 starting_pos=melee
@@ -50,14 +48,8 @@ name=Immobilize
 type=missile
 icon=3
 description=Pin an enemy down for 3 seconds
-new_state=shoot
-face=true
 requires_flags=ranged
-requires_mp=1
-base_damage=ranged
-aim_assist=true
-allow_power_mod=true
-post_effect=immobilize,0,90
+meta_power=true
 
 [power]
 id=5
@@ -68,15 +60,13 @@ description=Inflict a bleeding wound that causes additional damage over 5 second
 new_state=swing
 face=true
 use_hazard=true
-aim_assist=true
 requires_mp=1
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=1.0
 starting_pos=melee
 post_power=127
-allow_power_mod=true
-post_effect=bleeding,5,150
+post_effect=bleeding,5,5s
 
 [power]
 id=6
@@ -93,7 +83,7 @@ soundfx=soundfx/powers/shock.ogg
 use_hazard=true
 aim_assist=true
 base_damage=ment
-lifespan=24
+lifespan=800ms
 radius=1.0
 speed=16
 trait_elemental=wind
@@ -120,15 +110,8 @@ name=Piercing Shot
 type=missile
 icon=16
 description=Fire a shot that ignores armor and goes through multiple enemies
-new_state=shoot
-face=true
 requires_flags=ranged
-requires_mp=3
-multitarget=true
-base_damage=ranged
-aim_assist=true
-trait_armor_penetration=true
-allow_power_mod=true
+meta_power=true
 
 [power]
 id=9
@@ -141,7 +124,7 @@ requires_mp=2
 soundfx=soundfx/powers/warcry.ogg
 trait_elemental=light
 buff=true
-post_effect=immunity,0,300
+post_effect=immunity,0,10s
 
 [power]
 id=10
@@ -155,14 +138,14 @@ animation=animations/powers/quake.txt
 soundfx=soundfx/powers/quake.ogg
 use_hazard=true
 base_damage=ment
-lifespan=12
+lifespan=400ms
 radius=2.0
 floor=true
 trait_elemental=earth
 starting_pos=source
 multitarget=true
-cooldown=90
-post_effect=stun,0,30
+cooldown=3s
+post_effect=stun,0,1s
 
 [power]
 id=11
@@ -186,7 +169,7 @@ new_state=cast
 face=false
 requires_mp=1
 buff=true
-post_effect=haste,200,240
+post_effect=haste,200,8s
 
 [power]
 id=13
@@ -199,12 +182,10 @@ face=true
 use_hazard=true
 requires_mp=2
 multitarget=true
-aim_assist=true
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=2.0
 starting_pos=melee
-allow_power_mod=true
 
 [power]
 id=14
@@ -220,13 +201,13 @@ soundfx=soundfx/powers/freeze.ogg
 speed=16
 trait_elemental=ice
 radius=1.0
-lifespan=12
+lifespan=400ms
 base_damage=ment
-delay=3
+delay=100ms
 visual_random=3
 complete_animation=true
 count=10
-post_effect=slow,50,90
+post_effect=slow,50,3s
 
 [power]
 id=15
@@ -242,7 +223,7 @@ animation=animations/powers/runes.txt
 soundfx=soundfx/powers/teleport.ogg
 use_hazard=true
 no_attack=true
-lifespan=16
+lifespan=533ms
 floor=true
 starting_pos=source
 buff_teleport=true
@@ -255,15 +236,8 @@ name=Multishot
 type=missile
 icon=8
 description=Shoot three projectiles simultaneously
-new_state=shoot
-face=true
-count=3
-missile_angle=15
 requires_flags=ranged
-requires_mp=2
-base_damage=ranged
-aim_assist=true
-allow_power_mod=true
+meta_power=true
 
 [power]
 id=18
@@ -280,7 +254,7 @@ animation=animations/powers/blast.txt
 soundfx=soundfx/powers/burn.ogg
 use_hazard=true
 base_damage=ment
-lifespan=18
+lifespan=600ms
 radius=2.0
 floor=true
 trait_elemental=fire
@@ -299,11 +273,11 @@ new_state=cast
 requires_mp=1
 soundfx=soundfx/powers/timestop.ogg
 use_hazard=true
-lifespan=1
+lifespan=33ms
 radius=8.0
 multitarget=true
 base_damage=none
-post_effect=stun,0,150
+post_effect=stun,0,5s
 
 [power]
 id=20
@@ -314,12 +288,10 @@ description=Melee attack with 10% HP steal
 new_state=swing
 face=true
 use_hazard=true
-aim_assist=true
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 hp_steal=10
 
 [power]
@@ -336,7 +308,7 @@ animation=animations/powers/channel.txt
 use_hazard=true
 aim_assist=true
 base_damage=ment
-lifespan=8
+lifespan=266ms
 radius=1.0
 speed=12
 starting_pos=melee
@@ -348,13 +320,8 @@ name=Shoot
 type=missile
 icon=3
 description=Basic ranged attack
-new_state=shoot
-face=true
 requires_flags=ranged
-base_damage=ranged
-starting_pos=melee
-aim_assist=true
-allow_power_mod=true
+meta_power=true
 
 [power]
 id=23
@@ -362,19 +329,8 @@ name=Rapid Fire
 type=missile
 icon=23
 description=Fire five low power missiles in quick succession
-new_state=shoot
-face=true
 requires_flags=ranged
-requires_mp=3
-base_damage=ranged
-starting_pos=melee
-aim_assist=true
-allow_power_mod=true
-count=5
-delay=2
-modifier_damage=multiply,75,0
-angle_variance=5
-cooldown=2s
+meta_power=true
 
 [power]
 id=24
@@ -396,7 +352,7 @@ angle_variance=15
 speed_variance=0.15
 animation=animations/powers/ember.txt
 use_hazard=true
-lifespan=8
+lifespan=266ms
 radius=0.75
 speed=24
 directional=true
@@ -419,14 +375,14 @@ animation=animations/powers/thunderstrike.txt
 soundfx=soundfx/powers/thunder.ogg
 use_hazard=true
 base_damage=ment
-lifespan=6
+lifespan=200ms
 radius=1.5
 trait_elemental=air
 starting_pos=target
 multitarget=true
 post_power=126
 target_range=8.0
-post_effect=stun,0,45
+post_effect=stun,0,1500ms
 
 [power]
 id=30
@@ -442,13 +398,13 @@ soundfx=soundfx/powers/shock.ogg
 use_hazard=true
 aim_assist=true
 base_damage=ment
-lifespan=26
+lifespan=866ms
 radius=1.0
 speed=15
 trait_elemental=ice
 post_power=126
 wall_power=126
-post_effect=slow,50,60
+post_effect=slow,50,2s
 
 [power]
 id=31
@@ -464,7 +420,7 @@ soundfx=soundfx/powers/fireball.ogg
 use_hazard=true
 aim_assist=true
 base_damage=ment
-lifespan=26
+lifespan=866ms
 radius=1.0
 speed=15
 trait_elemental=fire
@@ -485,7 +441,7 @@ animation=animations/powers/spear.txt
 use_hazard=true
 aim_assist=true
 base_damage=ranged
-lifespan=27
+lifespan=900ms
 radius=1.0
 speed=12
 angle_variance=15
@@ -501,7 +457,7 @@ animation=animations/powers/quake.txt
 soundfx=soundfx/powers/quake.ogg
 use_hazard=true
 base_damage=ment
-lifespan=12
+lifespan=400ms
 radius=2.0
 floor=true
 trait_elemental=fire
@@ -509,7 +465,7 @@ starting_pos=source
 multitarget=true
 visual_option=1
 post_power=125
-post_effect=slow,50,15
+post_effect=slow,50,500ms
 
 [power]
 id=34
@@ -527,7 +483,7 @@ use_hazard=true
 aim_assist=true
 requires_flags=ranged
 base_damage=ranged
-lifespan=16
+lifespan=533ms
 radius=1.0
 speed=24
 wall_power=124
@@ -545,7 +501,7 @@ soundfx=soundfx/powers/shock.ogg
 use_hazard=true
 aim_assist=true
 base_damage=ment
-lifespan=32
+lifespan=1066ms
 radius=1.0
 speed=15
 trait_elemental=ice
@@ -554,7 +510,7 @@ wall_power=126
 #missile num needs to be odd, or the player can avoid just by standing there
 count=9
 missile_angle=40
-post_effect=slow,50,60
+post_effect=slow,50,2s
 
 [power]
 id=36
@@ -565,12 +521,10 @@ icon=1
 new_state=swing
 face=true
 use_hazard=true
-aim_assist=true
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 hp_steal=50
 
 [power]
@@ -582,13 +536,11 @@ icon=1
 new_state=cast
 face=true
 use_hazard=true
-aim_assist=true
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
-post_effect=bleeding,5,90
+post_effect=bleeding,5,3s
 
 [power]
 id=38
@@ -599,13 +551,11 @@ icon=0
 new_state=swing
 face=true
 use_hazard=true
-aim_assist=true
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
-post_effect=immobilize,0,150
+post_effect=immobilize,0,5s
 
 [power]
 id=39
@@ -616,12 +566,10 @@ icon=0
 new_state=swing
 face=true
 use_hazard=true
-aim_assist=true
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 trait_armor_penetration=true
 
 [power]
@@ -638,7 +586,7 @@ soundfx=soundfx/powers/burn.ogg
 use_hazard=true
 source_type=neutral
 base_damage=ment
-lifespan=18
+lifespan=600ms
 radius=2.0
 floor=true
 trait_elemental=fire
@@ -657,13 +605,12 @@ face=true
 directional=true
 animation=animations/powers/channel.txt
 use_hazard=true
-aim_assist=true
 base_damage=ment
-lifespan=8
+lifespan=266ms
 radius=1.0
 speed=12
 starting_pos=melee
-post_effect=stun,0,30
+post_effect=stun,0,1s
 
 [power]
 id=42
@@ -681,7 +628,7 @@ use_hazard=true
 aim_assist=true
 requires_flags=ranged
 base_damage=ranged
-lifespan=16
+lifespan=533ms
 radius=1.0
 speed=24
 wall_power=124
@@ -702,7 +649,7 @@ animation=animations/powers/throw_knife.txt
 use_hazard=true
 aim_assist=true
 base_damage=melee
-lifespan=16
+lifespan=533ms
 radius=1.0
 speed=12
 modifier_damage=multiply,75,0
@@ -721,7 +668,7 @@ animation=animations/powers/throw_axe.txt
 use_hazard=true
 aim_assist=true
 base_damage=melee
-lifespan=23
+lifespan=766ms
 radius=1.0
 speed=12
 modifier_damage=multiply,150,0
@@ -740,11 +687,11 @@ starting_pos=melee
 animation=animations/powers/caltrops.txt
 use_hazard=true
 base_damage=ranged
-lifespan=300
-cooldown=300
+lifespan=10s
+cooldown=10s
 radius=1.0
 modifier_damage=multiply,75,0
-post_effect=slow,50,90
+post_effect=slow,50,3s
 
 
 [power]
@@ -761,11 +708,11 @@ starting_pos=melee
 animation=animations/powers/bear_trap.txt
 use_hazard=true
 base_damage=ranged
-lifespan=300
-cooldown=300
+lifespan=10s
+cooldown=10s
 radius=1.0
 modifier_damage=multiply,150,0
-post_effect=immobilize,0,90
+post_effect=immobilize,0,3s
 post_power=47
 
 [power]
@@ -776,7 +723,7 @@ animation=animations/powers/bear_trap_trigger.txt
 use_hazard=true
 no_attack=true
 directional=true
-lifespan=90
+lifespan=3s
 starting_pos=target
 
 [power]
@@ -787,9 +734,9 @@ name=Health Potion
 soundfx=soundfx/powers/potion.ogg
 new_state=instant
 requires_item=1
-cooldown=15
+cooldown=500ms
 buff=true
-post_effect=HP restore,100,1
+post_effect=HP restore,100,33ms
 
 [power]
 id=101
@@ -799,9 +746,9 @@ name=Mana Potion
 new_state=instant
 soundfx=soundfx/powers/potion.ogg
 requires_item=2
-cooldown=15
+cooldown=500ms
 buff=true
-post_effect=MP restore,100,1
+post_effect=MP restore,100,33ms
 
 [power]
 id=118
@@ -821,41 +768,45 @@ post_power=126
 base_damage=melee
 starting_pos=melee
 
+# slingshot/rock
 [power]
 id=120
-name=Slingshot Shoot
+name=Shoot
 type=missile
-icon=0
-description=Basic ranged attack (requires a ranged weapon)
+icon=3
+description=Basic ranged attack (requires a slingshot)
 new_state=shoot
 face=true
 directional=false
 animation=animations/powers/stone.txt
 soundfx=soundfx/powers/shoot.ogg
 use_hazard=true
+starting_pos=melee
 aim_assist=true
-requires_flags=ranged
+requires_flags=ranged,slingshot
 base_damage=ranged
-lifespan=16
+lifespan=533ms
 radius=1.0
 speed=24
 
+# bow/arrow
 [power]
 id=121
-name=Arrow Shoot
+name=Shoot
 type=missile
-icon=0
-description=Basic ranged attack (requires a ranged weapon)
+icon=3
+description=Basic ranged attack (requires a bow)
 new_state=shoot
 face=true
 directional=true
 animation=animations/powers/arrows.txt
 soundfx=soundfx/powers/shoot.ogg
 use_hazard=true
+starting_pos=melee
 aim_assist=true
-requires_flags=ranged
+requires_flags=ranged,bow
 base_damage=ranged
-lifespan=16
+lifespan=533ms
 radius=1.0
 speed=24
 wall_power=124
@@ -873,7 +824,7 @@ soundfx=soundfx/powers/fireball.ogg
 use_hazard=true
 aim_assist=true
 base_damage=ranged
-lifespan=25
+lifespan=833ms
 radius=1.0
 speed=15
 trait_elemental=fire
@@ -893,7 +844,7 @@ soundfx=soundfx/powers/shock.ogg
 use_hazard=true
 aim_assist=true
 base_damage=ranged
-lifespan=25
+lifespan=833ms
 radius=1.0
 speed=15
 trait_elemental=ice
@@ -909,7 +860,7 @@ animation=animations/powers/arrow_stuck.txt
 use_hazard=true
 no_attack=true
 directional=true
-lifespan=90
+lifespan=3s
 starting_pos=target
 
 [power]
@@ -920,7 +871,7 @@ icon=0
 animation=animations/powers/spark_orange.txt
 use_hazard=true
 no_attack=true
-lifespan=12
+lifespan=400ms
 starting_pos=target
 visual_random=2
 
@@ -932,7 +883,7 @@ icon=0
 animation=animations/powers/spark_blue.txt
 use_hazard=true
 no_attack=true
-lifespan=12
+lifespan=400ms
 starting_pos=target
 visual_random=2
 
@@ -944,7 +895,7 @@ icon=0
 animation=animations/powers/spark_red.txt
 use_hazard=true
 no_attack=true
-lifespan=12
+lifespan=400ms
 starting_pos=target
 visual_random=2
 
@@ -960,7 +911,7 @@ soundfx=soundfx/powers/shock.ogg
 use_hazard=true
 aim_assist=true
 base_damage=ment
-lifespan=32
+lifespan=1066ms
 radius=1.0
 speed=15
 trait_elemental=shadow
@@ -980,7 +931,7 @@ animation=animations/powers/runes.txt
 soundfx=soundfx/powers/teleport.ogg
 use_hazard=true
 no_attack=true
-lifespan=16
+lifespan=533ms
 floor=true
 starting_pos=source
 buff_teleport=true
@@ -996,12 +947,12 @@ description=Stun nearby enemies for 10 seconds
 new_state=cast
 soundfx=soundfx/powers/timestop.ogg
 use_hazard=true
-lifespan=1
+lifespan=33ms
 radius=8.0
 multitarget=true
 base_damage=none
 requires_item=13
-post_effect=stun,0,300
+post_effect=stun,0,10s
 
 [power]
 id=131
@@ -1013,7 +964,7 @@ new_state=cast
 face=false
 requires_item=14
 buff=true
-post_effect=haste,200,600
+post_effect=haste,200,20s
 
 [power]
 id=132
@@ -1022,7 +973,7 @@ id=132
 type=fixed
 icon=0
 use_hazard=true
-lifespan=1
+lifespan=33ms
 radius=4.0
 multitarget=true
 source_type=hero
@@ -1058,7 +1009,7 @@ new_state=cast
 spawn_type=enemies/antlion_freezer.txt
 requires_mp=5
 soundfx=soundfx/powers/quake.ogg
-transform_duration=150
+transform_duration=5s
 manual_untransform=true
 
 [power]
@@ -1119,13 +1070,13 @@ animation=animations/powers/runes.txt
 soundfx=soundfx/powers/teleport.ogg
 use_hazard=true
 no_attack=true
-lifespan=16
+lifespan=533ms
 floor=true
 starting_pos=source
 buff_teleport=true
 target_range=8.0
 target_neighbor=1
-cooldown=450
+cooldown=15s
 
 [power]
 id=141
@@ -1136,10 +1087,10 @@ new_state=instant
 spawn_type=enemies/stealth.txt
 requires_mp=5
 description=Move undetected with the opportunity to perform a sneak attack
-transform_duration=300
+transform_duration=10s
 manual_untransform=true
 keep_equipment=true
-cooldown=300
+cooldown=10s
 keep_equipment=true
 
 [power]
@@ -1151,12 +1102,10 @@ description=Melee attack while stealthed for a high chance to crit
 new_state=swing
 face=true
 use_hazard=true
-aim_assist=true
 base_damage=melee
-lifespan=1
+lifespan=33ms
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
 post_power=136
 
 [power]
@@ -1169,7 +1118,7 @@ passive=true
 post_effect=crit,100,0
 post_effect=stealth,90,0
 post_effect=stealth speed,50,0
-post_effect=stealth icon,1,300
+post_effect=stealth icon,1,10s
 
 [power]
 id=160
@@ -1178,7 +1127,7 @@ id=160
 type=fixed
 animation=animations/powers/spikes.txt
 use_hazard=true
-lifespan=16
+lifespan=533ms
 radius=0.75
 starting_pos=source
 complete_animation=true
@@ -1195,5 +1144,203 @@ buff=true
 requires_equipped_item=112
 passive=true
 passive_trigger=on_death
-post_effect=revive,0,1
+post_effect=revive,0,33s
+
+
+# slingshot (rock) powers
+[power]
+id=180
+name=Immobilize
+type=missile
+icon=3
+description=Pin an enemy down for 3 seconds
+new_state=shoot
+face=true
+requires_flags=ranged,slingshot
+requires_mp=1
+base_damage=ranged
+aim_assist=true
+post_effect=immobilize,0,3s
+directional=false
+animation=animations/powers/stone.txt
+soundfx=soundfx/powers/shoot.ogg
+use_hazard=true
+starting_pos=melee
+lifespan=533ms
+radius=1.0
+speed=24
+
+[power]
+id=181
+name=Piercing Shot
+type=missile
+icon=16
+description=Fire a shot that ignores armor and goes through multiple enemies
+new_state=shoot
+face=true
+requires_flags=ranged,slingshot
+requires_mp=3
+multitarget=true
+base_damage=ranged
+aim_assist=true
+trait_armor_penetration=true
+directional=false
+animation=animations/powers/stone.txt
+soundfx=soundfx/powers/shoot.ogg
+use_hazard=true
+starting_pos=melee
+lifespan=533ms
+radius=1.0
+speed=24
+
+[power]
+id=182
+name=Multishot
+type=missile
+icon=8
+description=Shoot three projectiles simultaneously
+new_state=shoot
+face=true
+count=3
+missile_angle=15
+requires_flags=ranged,slingshot
+requires_mp=2
+base_damage=ranged
+aim_assist=true
+directional=false
+animation=animations/powers/stone.txt
+soundfx=soundfx/powers/shoot.ogg
+use_hazard=true
+starting_pos=melee
+lifespan=533ms
+radius=1.0
+speed=24
+
+[power]
+id=183
+name=Rapid Fire
+type=missile
+icon=23
+description=Fire five low power missiles in quick succession
+new_state=shoot
+face=true
+requires_flags=ranged,slingshot
+requires_mp=3
+base_damage=ranged
+starting_pos=melee
+aim_assist=true
+count=5
+delay=66ms
+modifier_damage=multiply,75,0
+angle_variance=5
+cooldown=2s
+directional=false
+animation=animations/powers/stone.txt
+soundfx=soundfx/powers/shoot.ogg
+use_hazard=true
+starting_pos=melee
+lifespan=533ms
+radius=1.0
+speed=24
+
+
+# bow (arrow) powers
+[power]
+id=190
+name=Immobilize
+type=missile
+icon=3
+description=Pin an enemy down for 3 seconds
+new_state=shoot
+face=true
+requires_flags=ranged,bow
+requires_mp=1
+base_damage=ranged
+aim_assist=true
+post_effect=immobilize,0,3s
+directional=true
+animation=animations/powers/arrows.txt
+soundfx=soundfx/powers/shoot.ogg
+use_hazard=true
+starting_pos=melee
+lifespan=533ms
+radius=1.0
+speed=24
+wall_power=124
+
+[power]
+id=191
+name=Piercing Shot
+type=missile
+icon=16
+description=Fire a shot that ignores armor and goes through multiple enemies
+new_state=shoot
+face=true
+requires_flags=ranged,bow
+requires_mp=3
+multitarget=true
+base_damage=ranged
+aim_assist=true
+trait_armor_penetration=true
+directional=true
+animation=animations/powers/arrows.txt
+soundfx=soundfx/powers/shoot.ogg
+use_hazard=true
+starting_pos=melee
+lifespan=533ms
+radius=1.0
+speed=24
+wall_power=124
+
+[power]
+id=192
+name=Multishot
+type=missile
+icon=8
+description=Shoot three projectiles simultaneously
+new_state=shoot
+face=true
+count=3
+missile_angle=15
+requires_flags=ranged,bow
+requires_mp=2
+base_damage=ranged
+aim_assist=true
+directional=true
+animation=animations/powers/arrows.txt
+soundfx=soundfx/powers/shoot.ogg
+use_hazard=true
+starting_pos=melee
+lifespan=533ms
+radius=1.0
+speed=24
+wall_power=124
+
+[power]
+id=193
+name=Rapid Fire
+type=missile
+icon=23
+description=Fire five low power missiles in quick succession
+new_state=shoot
+face=true
+requires_flags=ranged,bow
+requires_mp=3
+base_damage=ranged
+starting_pos=melee
+aim_assist=true
+count=5
+delay=66ms
+modifier_damage=multiply,75,0
+angle_variance=5
+cooldown=2s
+directional=true
+animation=animations/powers/arrows.txt
+soundfx=soundfx/powers/shoot.ogg
+use_hazard=true
+starting_pos=melee
+lifespan=533ms
+radius=1.0
+speed=24
+wall_power=124
 

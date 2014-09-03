@@ -210,13 +210,13 @@ requires_status=lb_ice_unlocked
 # brazier sound effect
 type=on_trigger
 location=4,6,8,5
-cooldown=120
+cooldown=4s
 soundfx=soundfx/environment/open_fire.ogg
 
 [event]
 type=on_trigger
 location=3,32,13,6
-cooldown=60
+cooldown=2s
 power=6
 power_damage=25,50
 power_path=11,34,hero
@@ -225,7 +225,7 @@ requires_status=lb_wind_attack
 [event]
 type=on_trigger
 location=3,32,13,6
-cooldown=60
+cooldown=2s
 power=122
 power_damage=25,50
 power_path=9,34,hero
@@ -234,7 +234,7 @@ requires_status=lb_fire_attack
 [event]
 type=on_trigger
 location=3,32,13,6
-cooldown=60
+cooldown=2s
 power=123
 power_damage=25,50
 power_path=7,34,hero
@@ -253,14 +253,17 @@ type=npcs/statue_guardian_wind.txt
 location=11,34,1,1
 
 [enemy]
-type=enemies/grisbon.txt
+type=grisbon
 location=9,13,1,1
+wander_area=0
 
 [enemy]
-type=enemies/scathelocke.txt
+type=scathelocke
 location=7,10,1,1
+wander_area=0
 
 [enemy]
-type=enemies/vesuvvio.txt
+type=vesuvvio
 location=11,10,1,1
+wander_area=0
 

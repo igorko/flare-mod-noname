@@ -1,6 +1,7 @@
 name=Grisbon
 level=11
 xp=2000
+categories=grisbon
 
 sfx_phys=soundfx/melee_attack.ogg
 sfx_hit=soundfx/male_hit.ogg
@@ -17,7 +18,7 @@ hp=350
 speed=6
 melee_range=1.1875
 threat_range=8.0
-turn_delay=5
+turn_delay=166ms
 chance_pursue=60
 chance_melee_phys=15
 chance_melee_ment=0
@@ -39,7 +40,7 @@ absorb_max=15
 #resistant to both
 vulnerable_fire=75
 vulnerable_ice=75
-cooldown=20
+cooldown=666ms
 
 # loot
 loot=currency,33,8,32
