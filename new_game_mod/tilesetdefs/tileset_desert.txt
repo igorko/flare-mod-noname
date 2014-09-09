@@ -1,6 +1,6 @@
 # desert area
 
-img=tileset_desert.png
+img=images/tilesets/tileset_desert.png
 
 # desert tiles (use in a 4x4 repeating grid for best results)
 tile=24,0,0,64,96,32,80

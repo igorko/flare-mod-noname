@@ -1,7 +1,0 @@
-horse_whisperer.txt
-goblin_caves.txt
-asylum.txt
-wyvern.txt
-lycanthropy.txt
-minotaur.txt
-battle.txt
