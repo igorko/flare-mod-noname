@@ -206,16 +206,16 @@ number=6,12
 
 [enemy]
 # demon statue
-type=enemies/ng_enemy_demon_statue.txt
+type=ng_enemy_demon_statue.txt
 location=2,9,1,1
 
 [enemy]
 # demon statue
-type=enemies/ng_enemy_demon_statue.txt
+type=ng_enemy_demon_statue.txt
 location=2,3,1,1
 
 [enemy]
 # demon statue
-type=enemies/ng_enemy_demon_statue.txt
+type=ng_enemy_demon_statue.txt
 location=2,6,1,1
 

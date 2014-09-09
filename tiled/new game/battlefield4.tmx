@@ -485,12 +485,12 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="175" height="125">
-  <object name="mage" type="enemies/ng_enemy_soldier_mage.txt" x="1440" y="1152" width="32" height="32"/>
-  <object name="mage" type="enemies/ng_enemy_soldier_mage.txt" x="1056" y="2240" width="32" height="32"/>
-  <object name="mage" type="enemies/ng_enemy_soldier_mage.txt" x="1696" y="2912" width="32" height="32"/>
-  <object name="assassin" type="enemies/ng_enemy_assassin.txt" x="736" y="1184" width="32" height="32"/>
-  <object name="assassin" type="enemies/ng_enemy_assassin.txt" x="2432" y="3040" width="32" height="32"/>
-  <object name="assassin" type="enemies/ng_enemy_assassin.txt" x="2720" y="1088" width="32" height="32"/>
-  <object name="assassin" type="enemies/ng_enemy_assassin.txt" x="3968" y="1664" width="32" height="32"/>
+  <object name="mage" type="ng_enemy_soldier_mage.txt" x="1440" y="1152" width="32" height="32"/>
+  <object name="mage" type="ng_enemy_soldier_mage.txt" x="1056" y="2240" width="32" height="32"/>
+  <object name="mage" type="ng_enemy_soldier_mage.txt" x="1696" y="2912" width="32" height="32"/>
+  <object name="assassin" type="ng_enemy_assassin.txt" x="736" y="1184" width="32" height="32"/>
+  <object name="assassin" type="ng_enemy_assassin.txt" x="2432" y="3040" width="32" height="32"/>
+  <object name="assassin" type="ng_enemy_assassin.txt" x="2720" y="1088" width="32" height="32"/>
+  <object name="assassin" type="ng_enemy_assassin.txt" x="3968" y="1664" width="32" height="32"/>
  </objectgroup>
 </map>

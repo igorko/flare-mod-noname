@@ -301,126 +301,126 @@ number=24
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,34,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,33,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,32,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,31,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,30,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,29,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,28,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,27,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,26,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,25,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_wooden_barricade.txt
+type=ng_enemy_wooden_barricade.txt
 location=76,24,1,1
 
 [enemy]
 # barbarian
-type=enemies/ng_enemy_soldier_barbarian.txt
+type=ng_enemy_soldier_barbarian.txt
 location=76,22,1,1
 
 [enemy]
 # barbarian
-type=enemies/ng_enemy_soldier_barbarian.txt
+type=ng_enemy_soldier_barbarian.txt
 location=74,23,1,1
 
 [enemy]
 # barbarian
-type=enemies/ng_enemy_soldier_barbarian.txt
+type=ng_enemy_soldier_barbarian.txt
 location=74,21,1,1
 
 [enemy]
 # skirmisher
-type=enemies/ng_enemy_soldier_skirmisher.txt
+type=ng_enemy_soldier_skirmisher.txt
 location=74,31,1,1
 
 [enemy]
 # skirmisher
-type=enemies/ng_enemy_soldier_skirmisher.txt
+type=ng_enemy_soldier_skirmisher.txt
 location=74,29,1,1
 
 [enemy]
 # skirmisher
-type=enemies/ng_enemy_soldier_skirmisher.txt
+type=ng_enemy_soldier_skirmisher.txt
 location=74,27,1,1
 
 [enemy]
 # skirmisher
-type=enemies/ng_enemy_soldier_skirmisher.txt
+type=ng_enemy_soldier_skirmisher.txt
 location=74,25,1,1
 
 [enemy]
 # mage
-type=enemies/ng_enemy_soldier_mage.txt
+type=ng_enemy_soldier_mage.txt
 location=49,25,1,1
 
 [enemy]
 # Boss
-type=enemies/ng_boss_general.txt
+type=ng_boss_general.txt
 location=19,32,1,1
 
 [enemy]
 # skeleton mage
-type=enemies/ng_enemy_skeleton_mage_elite.txt
+type=ng_enemy_skeleton_mage_elite.txt
 location=18,28,1,1
 
 [enemy]
 # skeleton mage
-type=enemies/ng_enemy_skeleton_mage_elite.txt
+type=ng_enemy_skeleton_mage_elite.txt
 location=18,36,1,1
 
 [enemy]
 # mage
-type=enemies/ng_enemy_soldier_mage.txt
+type=ng_enemy_soldier_mage.txt
 location=14,28,1,1
 
 [enemy]
 # mage
-type=enemies/ng_enemy_soldier_mage.txt
+type=ng_enemy_soldier_mage.txt
 location=14,34,1,1
 
 [enemy]
 # mage
-type=enemies/ng_enemy_soldier_mage.txt
+type=ng_enemy_soldier_mage.txt
 location=39,39,1,1
 

@@ -654,7 +654,7 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="200" height="200">
-  <object name="Fire Antlion Quest" type="enemies/ng_boss_antlion_fire.txt" x="1408" y="1824" width="32" height="32"/>
+  <object name="Fire Antlion Quest" type="ng_boss_antlion_fire.txt" x="1408" y="1824" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="enemygroup" width="200" height="200">
   <object name="Woods2" type="woods2" x="736" y="1440" width="4960" height="4640">

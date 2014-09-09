@@ -378,6 +378,6 @@ number=5,6
 
 [enemy]
 # Shelob
-type=enemies/ng_boss_shelob.txt
+type=ng_boss_shelob.txt
 location=27,15,1,1
 

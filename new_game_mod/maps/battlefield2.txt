@@ -240,27 +240,27 @@ data=
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_stone_barricade.txt
+type=ng_enemy_stone_barricade.txt
 location=35,16,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_stone_barricade.txt
+type=ng_enemy_stone_barricade.txt
 location=35,15,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_stone_barricade.txt
+type=ng_enemy_stone_barricade.txt
 location=35,17,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_stone_barricade.txt
+type=ng_enemy_stone_barricade.txt
 location=45,36,1,1
 
 [enemy]
 # barricade
-type=enemies/ng_enemy_stone_barricade.txt
+type=ng_enemy_stone_barricade.txt
 location=45,37,1,1
 
 [event]

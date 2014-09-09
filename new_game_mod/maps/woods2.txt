@@ -642,7 +642,7 @@ intermap=maps/abandoned_mine.txt,26,39
 
 [enemy]
 # Fire Antlion Quest
-type=enemies/ng_boss_antlion_fire.txt
+type=ng_boss_antlion_fire.txt
 location=44,57,1,1
 
 [enemygroup]

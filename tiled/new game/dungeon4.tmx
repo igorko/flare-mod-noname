@@ -219,8 +219,8 @@
   </object>
  </objectgroup>
  <objectgroup name="enemy" width="50" height="50">
-  <object name="demon statue" type="enemies/ng_enemy_demon_statue.txt" x="64" y="288" width="32" height="32"/>
-  <object name="demon statue" type="enemies/ng_enemy_demon_statue.txt" x="64" y="96" width="32" height="32"/>
-  <object name="demon statue" type="enemies/ng_enemy_demon_statue.txt" x="64" y="192" width="32" height="32"/>
+  <object name="demon statue" type="ng_enemy_demon_statue.txt" x="64" y="288" width="32" height="32"/>
+  <object name="demon statue" type="ng_enemy_demon_statue.txt" x="64" y="96" width="32" height="32"/>
+  <object name="demon statue" type="ng_enemy_demon_statue.txt" x="64" y="192" width="32" height="32"/>
  </objectgroup>
 </map>

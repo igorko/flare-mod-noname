@@ -252,11 +252,11 @@
 </data>
  </layer>
  <objectgroup name="enemy" width="125" height="70">
-  <object name="barricade" type="enemies/ng_enemy_stone_barricade.txt" x="1120" y="512" width="32" height="32"/>
-  <object name="barricade" type="enemies/ng_enemy_stone_barricade.txt" x="1120" y="480" width="32" height="32"/>
-  <object name="barricade" type="enemies/ng_enemy_stone_barricade.txt" x="1120" y="544" width="32" height="32"/>
-  <object name="barricade" type="enemies/ng_enemy_stone_barricade.txt" x="1440" y="1152" width="32" height="32"/>
-  <object name="barricade" type="enemies/ng_enemy_stone_barricade.txt" x="1440" y="1184" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade.txt" x="1120" y="512" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade.txt" x="1120" y="480" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade.txt" x="1120" y="544" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade.txt" x="1440" y="1152" width="32" height="32"/>
+  <object name="barricade" type="ng_enemy_stone_barricade.txt" x="1440" y="1184" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="event" width="125" height="70">
   <object name="to battlefield 1" type="on_trigger" x="3584" y="1024" width="32" height="128">
