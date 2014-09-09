@@ -1,6 +1,6 @@
 name=Demon
 level=25
-categories=ground
+categories=ng_enemy_demon,ground
 xp=1000
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

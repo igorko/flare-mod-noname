@@ -1,6 +1,6 @@
 name=Skeleton
 level=10
-categories=undead,ground
+categories=ng_ally_ghost_spawn_skeleton1,undead,ground
 xp=120
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

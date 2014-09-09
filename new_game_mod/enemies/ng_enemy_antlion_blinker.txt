@@ -1,6 +1,6 @@
 name=Antlion Blinker
 level=18
-categories=antlion,antlion_blinker,ground,wyvern_cave
+categories=ng_enemy_antlion_blinker,antlion,antlion_blinker,ground,wyvern_cave
 xp=250
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

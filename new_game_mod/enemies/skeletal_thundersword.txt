@@ -1,6 +1,6 @@
 name=Skeletal Thundersword
 level=10
-categories=ground
+categories=skeletal_thundersword,ground
 xp=1000
 
 sfx_prefix=skeleton

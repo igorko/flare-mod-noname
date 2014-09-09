@@ -1,6 +1,6 @@
 name=Rilrak, Goblin Shaman
 level=4
-categories=ground
+categories=rilrak,ground
 xp=40
 
 sfx_phys=soundfx/enemies/goblin_phys.ogg

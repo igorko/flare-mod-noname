@@ -1,6 +1,6 @@
 name=Antlion Freezer
 level=20
-categories=antlion,ground,woods2,marshlands
+categories=ng_enemy_antlion_freezer,antlion,ground,woods2,marshlands
 xp=400
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

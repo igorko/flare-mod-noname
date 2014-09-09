@@ -1,6 +1,6 @@
 name=Barbarian
 level=25
-categories=ground,battlefield,living_humanoid,battlefield_human
+categories=ng_enemy_soldier_barbarian,ground,battlefield,living_humanoid,battlefield_human
 xp=1000
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

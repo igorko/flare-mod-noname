@@ -1,7 +1,7 @@
 name=Living Statue
 level=25
 xp=500
-categories=ground
+categories=ng_enemy_demon_statue,ground
 
 animations=animations/enemies/demon_statue.txt
 

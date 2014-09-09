@@ -1,6 +1,6 @@
 name=Small Spider
 level=2
-categories=small_spider,arachnid,animal,ground
+categories=ng_enemy_spider_small,small_spider,arachnid,animal,ground
 xp=5
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

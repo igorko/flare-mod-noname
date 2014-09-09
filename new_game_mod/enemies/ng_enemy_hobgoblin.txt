@@ -1,6 +1,6 @@
 name=Hobgoblin
 level=7
-categories=hobgoblin,ground,living_humanoid
+categories=ng_enemy_hobgoblin,hobgoblin,ground,living_humanoid
 xp=50
 
 sfx_phys=soundfx/enemies/goblin_phys.ogg

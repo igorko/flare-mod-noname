@@ -1,7 +1,7 @@
 name=Skeletal Archer
 humanoid=true
 level=3
-categories=skeleton,undead,dungeon,ground
+categories=skeletal_archer,skeleton,undead,dungeon,ground
 xp=5
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

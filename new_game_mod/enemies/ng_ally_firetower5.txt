@@ -1,6 +1,6 @@
 name=Fire Tower
 level=3
-categories=ground
+categories=ng_ally_firetower5,ground
 xp=5
 
 sfx_prefix=none

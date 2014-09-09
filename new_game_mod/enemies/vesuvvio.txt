@@ -1,6 +1,6 @@
 name=Vesuvvio (the Destroyer)
 level=11
-categories=ground
+categories=vesuvvio,ground
 xp=2000
 
 sfx_phys=soundfx/melee_attack.ogg

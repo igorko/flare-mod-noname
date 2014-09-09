@@ -1,7 +1,7 @@
 name=Wooden Barricade
 level=25
 xp=0
-categories=ground,wooden_barricade
+categories=ng_enemy_wooden_barricade,ground,wooden_barricade
 
 animations=animations/enemies/wooden_barricade.txt
 

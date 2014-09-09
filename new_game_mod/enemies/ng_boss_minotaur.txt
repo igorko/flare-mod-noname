@@ -1,7 +1,7 @@
 name=Minotaur
 humanoid=true
 level=25
-categories=ground
+categories=ng_boss_minotaur,ground
 xp=1500
 
 sfx_phys=soundfx/enemies/minotaur_phys.ogg

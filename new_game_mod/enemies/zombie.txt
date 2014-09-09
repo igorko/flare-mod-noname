@@ -1,6 +1,6 @@
 name=Zombie
 level=2
-categories=zombie,undead,dungeon,ground
+categories=zombie_normal,zombie,undead,dungeon,ground
 xp=2
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

@@ -1,6 +1,6 @@
 name=Skeleton Mage Elite
 level=25
-categories=ground,battlefield,battlefield_mage
+categories=ng_enemy_skeleton_mage_elite,ground,battlefield,battlefield_mage
 xp=800
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

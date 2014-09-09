@@ -1,7 +1,7 @@
 name=Goblin Spearman
 humanoid=true
 level=3
-categories=goblin,dungeon,ground
+categories=ng_ally_goblin3,goblin,dungeon,ground
 rarity=uncommon
 xp=5
 

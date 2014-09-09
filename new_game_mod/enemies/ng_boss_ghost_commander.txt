@@ -1,6 +1,6 @@
 name=Ghostly Commander
 level=18
-categories=ground
+categories=ng_boss_ghost_commander,ground
 xp=1800
 intangible=true
 

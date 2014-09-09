@@ -1,6 +1,6 @@
 name=Headless Horseman
 level=18
-categories=headless_horseman,undead,ground,asylum
+categories=ng_enemy_headless_horseman,headless_horseman,undead,ground,asylum
 xp=250
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

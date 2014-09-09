@@ -1,6 +1,6 @@
 name=Shelob
 level=10
-categories=ground
+categories=ng_boss_shelob,ground
 xp=10
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

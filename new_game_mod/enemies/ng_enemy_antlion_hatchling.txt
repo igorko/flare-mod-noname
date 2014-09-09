@@ -1,6 +1,6 @@
 name=Antlion Hatchling
 level=6
-categories=antlion_hatchling,antlion,animal,ground
+categories=ng_enemy_antlion_hatchling,antlion_hatchling,antlion,animal,ground
 xp=50
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

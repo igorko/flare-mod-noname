@@ -1,6 +1,6 @@
 name=Battle Mage
 level=25
-categories=ground,battlefield,living_humanoid,battlefield_human,battlefield_mage
+categories=ng_enemy_soldier_mage,ground,battlefield,living_humanoid,battlefield_human,battlefield_mage
 rarity=uncommon
 xp=850
 

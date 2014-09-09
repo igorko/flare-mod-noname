@@ -1,7 +1,7 @@
 name=Goblin Spearman Elite
 humanoid=true
 level=3
-categories=goblin_elite,ground
+categories=ng_ally_goblin5,goblin_elite,ground
 rarity=rare
 xp=20
 

@@ -1,6 +1,6 @@
 name=Skeleton Knight
 level=24
-categories=ground,skeleton,skeleton_knight,undead,dungeon_skeleton
+categories=ng_enemy_skeleton_knight,ground,skeleton,skeleton_knight,undead,dungeon_skeleton
 xp=700
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

@@ -1,7 +1,7 @@
 name=Warhorse
 humanoid=false
 level=26
-categories=equine,ground,warhorse
+categories=ng_enemy_warhorse,equine,ground,warhorse
 xp=500
 
 sfx_phys=soundfx/enemies/goblin_phys.ogg

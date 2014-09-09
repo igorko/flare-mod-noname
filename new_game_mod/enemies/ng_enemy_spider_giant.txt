@@ -1,6 +1,6 @@
 name=Giant Spider
 level=10
-categories=giant_spider,arachnid,animal,ground
+categories=ng_enemy_spider_giant,giant_spider,arachnid,animal,ground
 xp=50
 rarity=uncommon
 

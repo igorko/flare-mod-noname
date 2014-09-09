@@ -1,6 +1,6 @@
 name=Ghost Captain
 level=2
-categories=undead
+categories=ng_ally_ghost4,undead
 xp=2
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

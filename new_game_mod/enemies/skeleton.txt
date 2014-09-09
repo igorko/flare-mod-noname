@@ -1,7 +1,7 @@
 name=Skeleton
 humanoid=true
 level=2
-categories=skeleton,undead,dungeon,ground
+categories=skeleton_normal,skeleton,undead,dungeon,ground
 xp=2
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

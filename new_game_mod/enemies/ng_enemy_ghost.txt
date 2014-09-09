@@ -1,6 +1,6 @@
 name=Ghost
 level=10
-categories=ghost,spirit,undead,ground,desert,asylum
+categories=ng_enemy_ghost,ghost,spirit,undead,ground,desert,asylum
 xp=120
 intangible=true
 

@@ -1,7 +1,7 @@
 name=Goblin Charger
 humanoid=true
 level=2
-categories=goblin,dungeon,ground
+categories=goblin_charger,goblin,dungeon,ground
 rarity=uncommon
 xp=2
 

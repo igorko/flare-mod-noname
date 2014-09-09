@@ -1,6 +1,6 @@
 name=Hobgoblin Elite
 level=20
-categories=hobgoblin,ground,woods2,marshlands,living_humanoid
+categories=ng_enemy_hobgoblin_charger,hobgoblin,ground,woods2,marshlands,living_humanoid
 xp=350
 
 sfx_phys=soundfx/enemies/goblin_phys.ogg

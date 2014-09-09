@@ -1,5 +1,5 @@
 name=Krakatoa, Antlion Burster
-categories=ground
+categories=krakatoa,ground
 level=10
 xp=1000
 

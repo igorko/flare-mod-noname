@@ -1,6 +1,6 @@
 name=Skeleton Mage
 level=24
-categories=ground,skeleton,skeleton_mage,undead,dungeon_skeleton
+categories=ng_enemy_skeleton_mage,ground,skeleton,skeleton_mage,undead,dungeon_skeleton
 xp=700
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

@@ -1,6 +1,6 @@
 name=Wyvern
 level=18
-categories=wyvern,animal,wyvern_cave
+categories=ng_enemy_wyvern,wyvern,animal,wyvern_cave
 rarity=common
 xp=350
 

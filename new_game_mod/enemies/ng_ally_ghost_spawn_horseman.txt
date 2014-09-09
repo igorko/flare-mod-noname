@@ -1,6 +1,6 @@
 name=Headless Horseman
 level=18
-categories=undead
+categories=ng_ally_ghost_spawn_horseman,undead
 xp=250
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

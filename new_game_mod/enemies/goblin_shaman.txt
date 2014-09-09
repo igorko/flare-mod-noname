@@ -1,7 +1,7 @@
 name=Goblin Shaman
 humanoid=true
 level=4
-categories=goblin,dungeon,lightning,ground
+categories=goblin_shaman,goblin,dungeon,lightning,ground
 rarity=rare
 xp=10
 

@@ -1,6 +1,6 @@
 name=Antlion Hatcher
 level=18
-categories=antlion,animal,ground,wyvern_cave,woods2,marshlands
+categories=ng_enemy_antlion_hatcher,antlion,animal,ground,wyvern_cave,woods2,marshlands
 xp=200
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

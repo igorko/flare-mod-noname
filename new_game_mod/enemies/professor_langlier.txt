@@ -1,6 +1,6 @@
 name=Professor Langlier
 level=6
-categories=ground
+categories=professor_langlier,ground
 xp=200
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

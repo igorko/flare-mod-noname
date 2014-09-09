@@ -1,7 +1,7 @@
 name=Goblin Spearman
 humanoid=true
 level=3
-categories=goblin,dungeon,ground
+categories=goblin_spearman,goblin,dungeon,ground
 rarity=uncommon
 xp=5
 

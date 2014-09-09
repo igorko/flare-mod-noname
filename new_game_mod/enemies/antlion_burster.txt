@@ -1,6 +1,6 @@
 name=Antlion Burster
 level=8
-categories=antlion,dungeon,cave,fire,ground
+categories=antlion_burster,antlion,dungeon,cave,fire,ground
 xp=200
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

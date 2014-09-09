@@ -1,6 +1,6 @@
 name=Skeleton
 level=10
-categories=skeleton,skeletal,undead,ground,desert
+categories=ng_enemy_skeleton,skeleton,skeletal,undead,ground,desert
 xp=120
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

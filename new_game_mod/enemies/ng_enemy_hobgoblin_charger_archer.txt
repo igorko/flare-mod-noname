@@ -1,6 +1,6 @@
 name=Hobgoblin Elite Spearman
 level=20
-categories=hobgoblin,hobgoblin_archer,ground,woods2,marshlands,living_humanoid
+categories=ng_enemy_hobgoblin_charger_archer,hobgoblin,hobgoblin_archer,ground,woods2,marshlands,living_humanoid
 xp=50
 
 sfx_phys=soundfx/enemies/goblin_phys.ogg

@@ -1,6 +1,6 @@
 name=Werewyvern
 level=6
-categories=wyvern
+categories=ng_transform_werewyvern3,wyvern
 rarity=common
 xp=50
 

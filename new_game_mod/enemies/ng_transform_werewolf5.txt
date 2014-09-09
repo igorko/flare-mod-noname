@@ -1,7 +1,7 @@
 name=Werewolf
 humanoid=true
 level=8
-categories=minotaur,dungeon,ground
+categories=ng_transform_werewolf5,minotaur,dungeon,ground
 xp=200
 
 sfx_phys=soundfx/enemies/minotaur_phys.ogg

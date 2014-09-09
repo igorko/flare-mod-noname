@@ -1,6 +1,6 @@
 name=Ukkonen, Goblin Chieftain
 level=4
-categories=ground
+categories=ukkonen,ground
 xp=40
 
 sfx_phys=soundfx/enemies/goblin_phys.ogg

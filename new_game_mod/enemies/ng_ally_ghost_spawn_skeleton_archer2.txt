@@ -1,6 +1,6 @@
 name=Skeleton Archer
 level=25
-categories=ground,undead
+categories=ng_ally_ghost_spawn_skeleton_archer2,ground,undead
 xp=650
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

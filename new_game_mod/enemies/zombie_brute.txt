@@ -1,6 +1,6 @@
 name=Zombie Brute
 level=3
-categories=zombie,undead,dungeon,ground
+categories=zombie_brute,zombie,undead,dungeon,ground
 xp=5
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

@@ -1,6 +1,6 @@
 name=Ice Wyvern
 level=3
-categories=wyvern
+categories=ng_boss_wyvern_ice,wyvern
 rarity=common
 xp=5
 

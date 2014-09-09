@@ -1,6 +1,6 @@
 name=Infantry
 level=25
-categories=ground,battlefield,living_humanoid,battlefield_human,infantry
+categories=ng_enemy_soldier_infantry,ground,battlefield,living_humanoid,battlefield_human,infantry
 xp=900
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

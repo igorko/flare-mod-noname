@@ -1,6 +1,6 @@
 name=Ravenous Zombie
 level=10
-categories=undead,ground
+categories=ng_ally_ghost_spawn_zombie3,undead,ground
 xp=50
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

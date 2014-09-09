@@ -1,6 +1,6 @@
 name=Skeleton Archer
 level=25
-categories=ground,battlefield,battlefield_archer
+categories=ng_enemy_skeleton_archer,ground,battlefield,battlefield_archer
 xp=650
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

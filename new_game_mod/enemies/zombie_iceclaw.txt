@@ -1,6 +1,6 @@
 name=Iceclaw Zombie
 level=4
-categories=zombie,undead,dungeon,ground
+categories=zombie_iceclaw,zombie,undead,dungeon,ground
 xp=10
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

@@ -1,6 +1,6 @@
 name=Skeleton Apprentice
 level=25
-categories=ground,battlefield,battlefield_mage
+categories=ng_enemy_skeleton_apprentice,ground,battlefield,battlefield_mage
 xp=550
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

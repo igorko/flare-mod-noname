@@ -1,7 +1,7 @@
 name=Minotaur
 humanoid=true
 level=8
-categories=minotaur,dungeon,ground
+categories=minotaur_normal,minotaur,dungeon,ground
 xp=200
 
 sfx_phys=soundfx/enemies/minotaur_phys.ogg

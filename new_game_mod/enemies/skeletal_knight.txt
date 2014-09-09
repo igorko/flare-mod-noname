@@ -1,7 +1,7 @@
 name=Skeletal Knight
 humanoid=true
 level=8
-categories=skeleton,undead,dungeon,ground
+categories=skeletal_knight,skeleton,undead,dungeon,ground
 xp=200
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

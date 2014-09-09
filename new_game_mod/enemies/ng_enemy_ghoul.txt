@@ -1,6 +1,6 @@
 name=Ghoul
 level=12
-categories=ghoul,spirit,undead,ground,asylum
+categories=ng_enemy_ghoul,ghoul,spirit,undead,ground,asylum
 xp=150
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

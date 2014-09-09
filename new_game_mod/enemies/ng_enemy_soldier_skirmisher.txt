@@ -1,6 +1,6 @@
 name=Skirmisher
 level=25
-categories=ground,battlefield,living_humanoid,battlefield_human,battlefield_archer,skirmisher
+categories=ng_enemy_soldier_skirmisher,ground,battlefield,living_humanoid,battlefield_human,battlefield_archer,skirmisher
 xp=800
 rarity=uncommon
 

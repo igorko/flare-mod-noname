@@ -1,6 +1,6 @@
 name=Fresh Zombie
 level=22
-categories=ground
+categories=ng_enemy_zombie_fresh,ground
 xp=50
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

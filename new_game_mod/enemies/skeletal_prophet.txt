@@ -1,6 +1,6 @@
 name=Skeletal Prophet
 level=9
-categories=ground
+categories=skeletal_prophet,ground
 xp=500
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

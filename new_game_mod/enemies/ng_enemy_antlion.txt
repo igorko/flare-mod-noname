@@ -1,6 +1,6 @@
 name=Antlion
 level=18
-categories=antlion,animal,ground,wyvern_cave,woods2,marshlands
+categories=ng_enemy_antlion,antlion,animal,ground,wyvern_cave,woods2,marshlands
 xp=200
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

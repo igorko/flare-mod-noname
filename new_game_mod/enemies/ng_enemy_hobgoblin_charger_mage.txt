@@ -1,6 +1,6 @@
 name=Hobgoblin Elite Mage
 level=20
-categories=hobgoblin,ground,woods2,marshlands,living_humanoid
+categories=ng_enemy_hobgoblin_charger_mage,hobgoblin,ground,woods2,marshlands,living_humanoid
 xp=450
 
 sfx_phys=soundfx/enemies/goblin_phys.ogg

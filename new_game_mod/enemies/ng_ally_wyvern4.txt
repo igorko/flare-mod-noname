@@ -1,6 +1,6 @@
 name=Adult Wyvern
 level=6
-categories=wyvern
+categories=ng_ally_wyvern4,wyvern
 rarity=common
 xp=50
 

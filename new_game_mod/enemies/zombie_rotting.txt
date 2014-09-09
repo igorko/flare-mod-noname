@@ -1,6 +1,6 @@
 name=Rotting Zombie
 level=1
-categories=zombie,undead,dungeon,ground
+categories=zombie_rotting,zombie,undead,dungeon,ground
 xp=1
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

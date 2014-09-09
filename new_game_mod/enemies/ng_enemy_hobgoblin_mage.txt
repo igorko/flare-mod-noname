@@ -1,6 +1,6 @@
 name=Hobgoblin Mage
 level=9
-categories=hobgoblin_mage,hobgoblin,ground,living_humanoid
+categories=ng_enemy_hobgoblin_mage,hobgoblin_mage,hobgoblin,ground,living_humanoid
 xp=70
 
 sfx_phys=soundfx/enemies/goblin_phys.ogg

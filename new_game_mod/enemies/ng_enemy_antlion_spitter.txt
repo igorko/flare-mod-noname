@@ -1,6 +1,6 @@
 name=Antlion Spitter
 level=18
-categories=antlion,antlion_spitter,ground,wyvern_cave,woods2,marshlands
+categories=ng_enemy_antlion_spitter,antlion,antlion_spitter,ground,wyvern_cave,woods2,marshlands
 xp=50
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

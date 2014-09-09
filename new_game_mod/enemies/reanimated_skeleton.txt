@@ -1,7 +1,7 @@
 name=Reanimated Skeleton
 humanoid=true
 level=2
-categories=ground
+categories=reanimated_skeleton,ground
 xp=10
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

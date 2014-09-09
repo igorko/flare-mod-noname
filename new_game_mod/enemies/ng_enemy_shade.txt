@@ -1,6 +1,6 @@
 name=Shade
 level=13
-categories=shade,spirit,undead,ground,asylum
+categories=ng_enemy_shade,shade,spirit,undead,ground,asylum
 xp=180
 intangible=true
 

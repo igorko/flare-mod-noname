@@ -1,7 +1,7 @@
 name=Goblin
 humanoid=true
 level=1
-categories=goblin,dungeon,ground
+categories=goblin_normal,goblin,dungeon,ground
 rarity=common
 xp=1
 

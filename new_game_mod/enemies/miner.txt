@@ -1,6 +1,6 @@
 name=Miner
 level=1
-categories=miner,ground
+categories=miner_normal,miner,ground
 xp=1
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

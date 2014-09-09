@@ -1,6 +1,6 @@
 name=Ghost Captain
 level=14
-categories=ghost_captain,spirit,undead,ground,asylum
+categories=ng_enemy_ghost_captain,ghost_captain,spirit,undead,ground,asylum
 xp=180
 intangible=true
 

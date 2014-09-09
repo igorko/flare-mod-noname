@@ -1,6 +1,6 @@
 name=Skeleton Knight Elite
 level=25
-categories=ground,battlefield,skeleton_knight_elite
+categories=ng_enemy_skelton_knight_elite,ground,battlefield,skeleton_knight_elite
 xp=1000
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

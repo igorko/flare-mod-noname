@@ -1,6 +1,6 @@
 name=Decoy
 level=3
-categories=ground
+categories=ng_ally_decoy,ground
 xp=20
 
 sfx_prefix=none

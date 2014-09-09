@@ -1,7 +1,7 @@
 name=Stone Barricade
 level=3
 xp=0
-categories=ground
+categories=ng_enemy_stone_barricade,ground
 
 animations=animations/enemies/barricade_stone.txt
 

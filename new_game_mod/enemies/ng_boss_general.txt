@@ -1,6 +1,6 @@
 name=Tarlek the Cruel
 level=30
-categories=ground
+categories=ng_boss_general,ground
 xp=10000
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

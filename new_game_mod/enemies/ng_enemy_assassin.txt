@@ -1,6 +1,6 @@
 name=Assassin
 level=25
-categories=ground,battlefield,living_humanoid,assassin
+categories=ng_enemy_assassin,ground,battlefield,living_humanoid,assassin
 xp=600
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

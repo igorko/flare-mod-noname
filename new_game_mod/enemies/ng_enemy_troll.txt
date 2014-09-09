@@ -1,6 +1,6 @@
 name=Troll
 level=20
-categories=ground
+categories=ng_enemy_troll,ground
 xp=1000
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

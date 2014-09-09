@@ -1,6 +1,6 @@
 name=Archer
 level=25
-categories=soldier_archer,ground,battlefield,living_humanoid,battlefield_human,battlefield_archer
+categories=ng_enemy_soldier_archer,soldier_archer,ground,battlefield,living_humanoid,battlefield_human,battlefield_archer
 xp=600
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

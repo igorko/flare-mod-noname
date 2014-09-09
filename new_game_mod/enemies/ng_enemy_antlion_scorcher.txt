@@ -1,6 +1,6 @@
 name=Antlion Scorcher
 level=10
-categories=antlion_scorcher,antlion,animal,ground,desert
+categories=ng_enemy_antlion_scorcher,antlion_scorcher,antlion,animal,ground,desert
 xp=100
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

@@ -1,6 +1,6 @@
 name=Old Skeleton
 level=5
-categories=old_skeleton,skeleton,undead,ground,fern_valley_undead
+categories=ng_enemy_skeleton_old,old_skeleton,skeleton,undead,ground,fern_valley_undead
 xp=20
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg

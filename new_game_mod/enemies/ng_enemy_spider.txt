@@ -1,6 +1,6 @@
 name=Spider
 level=4
-categories=spider,arachnid,animal,ground
+categories=ng_enemy_spider,spider,arachnid,animal,ground
 xp=10
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

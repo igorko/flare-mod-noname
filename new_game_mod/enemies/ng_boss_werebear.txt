@@ -1,7 +1,7 @@
 name=Werebear
 humanoid=true
 level=8
-categories=ground
+categories=ng_boss_werebear,ground
 xp=200
 
 sfx_phys=soundfx/enemies/minotaur_phys.ogg

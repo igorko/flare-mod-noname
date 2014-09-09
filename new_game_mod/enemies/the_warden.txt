@@ -1,6 +1,6 @@
 name=The Warden
 level=5
-categories=ground
+categories=the_warden,ground
 xp=75
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

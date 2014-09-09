@@ -1,6 +1,6 @@
 name=Rotting Zombie
 level=3
-categories=rotting_zombie,zombie,undead,ground,fern_valley_undead
+categories=ng_enemy_zombie_rotting,rotting_zombie,zombie,undead,ground,fern_valley_undead
 xp=16
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

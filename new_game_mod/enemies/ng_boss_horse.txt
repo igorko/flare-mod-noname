@@ -1,7 +1,7 @@
 name=Horse
 humanoid=false
 level=8
-categories=equine,ground
+categories=ng_boss_horse,equine,ground
 rarity=rare
 xp=30
 

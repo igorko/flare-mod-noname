@@ -1,6 +1,6 @@
 name=Hobgoblin Spearman
 level=8
-categories=hobgoblin_archer,hobgoblin,ground,living_humanoid
+categories=ng_enemy_hobgoblin_archer,hobgoblin_archer,hobgoblin,ground,living_humanoid
 xp=50
 rarity=uncommon
 

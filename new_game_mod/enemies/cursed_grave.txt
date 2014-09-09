@@ -1,7 +1,7 @@
 name=Cursed Grave
 level=3
 xp=5
-categories=ground
+categories=cursed_grave,ground
 
 animations=animations/enemies/cursed_grave.txt
 

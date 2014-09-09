@@ -1,6 +1,6 @@
 name=Zaltor the Bloody
 level=35
-categories=ground
+categories=ng_boss_big,ground
 xp=10000
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

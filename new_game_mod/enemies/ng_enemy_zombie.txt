@@ -1,6 +1,6 @@
 name=Zombie
 level=10
-categories=zombie,undead,ground,desert
+categories=ng_enemy_zombie,zombie,undead,ground,desert
 xp=50
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

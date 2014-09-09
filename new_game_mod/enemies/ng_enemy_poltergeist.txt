@@ -1,6 +1,6 @@
 name=Poltergeist
 level=15
-categories=poltergeist,spirit,undead,ground,asylum
+categories=ng_enemy_poltergeist,poltergeist,spirit,undead,ground,asylum
 xp=150
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg

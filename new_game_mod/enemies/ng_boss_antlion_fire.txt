@@ -1,6 +1,6 @@
 name=Antlion Spitter
 level=7
-categories=antlion,dungeon,cave,fire,ground
+categories=ng_boss_antlion_fire,antlion,dungeon,cave,fire,ground
 xp=100
 
 sfx_phys=soundfx/enemies/antlion_phys.ogg

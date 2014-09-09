@@ -1,6 +1,6 @@
 name=Sir Evan Maddox
 level=7
-categories=ground
+categories=sir_evan_maddox,ground
 xp=500
 
 sfx_phys=soundfx/enemies/skeleton_phys.ogg
