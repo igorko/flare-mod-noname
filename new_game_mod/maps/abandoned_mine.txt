@@ -182,7 +182,7 @@ intermap=maps/woods2.txt,146,111
 
 [enemy]
 # Werebear
-type=ng_boss_werebear.txt
+type=ng_boss_werebear
 location=13,16,1,1
 requires_not_status=werebear_defeated
 

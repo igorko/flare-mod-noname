@@ -397,6 +397,6 @@ number=2,4
 
 [enemy]
 # Troll
-type=ng_enemy_troll.txt
+type=ng_enemy_troll
 location=57,32,1,1
 

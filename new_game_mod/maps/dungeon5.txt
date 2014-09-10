@@ -199,6 +199,6 @@ number=8,15
 
 [enemy]
 # demon
-type=ng_enemy_demon.txt
+type=ng_enemy_demon
 location=15,35,1,1
 

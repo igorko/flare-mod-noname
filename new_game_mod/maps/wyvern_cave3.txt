@@ -248,22 +248,22 @@ intermap=maps/sage_home.txt,34,23
 
 [enemy]
 # Fire Wyvern
-type=ng_boss_wyvern_fire.txt
+type=ng_boss_wyvern_fire
 location=13,23,1,1
 
 [enemy]
 # Ice wyvern
-type=ng_boss_wyvern_ice.txt
+type=ng_boss_wyvern_ice
 location=14,31,1,1
 
 [enemy]
 # Earth Wyvern
-type=ng_boss_wyvern_earth.txt
+type=ng_boss_wyvern_earth
 location=19,37,1,1
 
 [enemy]
 # Lightning Wyvern
-type=ng_boss_wyvern_lightning.txt
+type=ng_boss_wyvern_lightning
 location=19,19,1,1
 
 [enemygroup]

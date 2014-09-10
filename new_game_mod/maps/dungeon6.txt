@@ -192,22 +192,22 @@ intermap=maps/dungeon7.txt,12,36
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave.txt
+type=ng_enemy_cursed_grave
 location=12,17,1,1
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave.txt
+type=ng_enemy_cursed_grave
 location=19,11,1,1
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave.txt
+type=ng_enemy_cursed_grave
 location=26,33,1,1
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave.txt
+type=ng_enemy_cursed_grave
 location=33,23,1,1
 
 [enemygroup]

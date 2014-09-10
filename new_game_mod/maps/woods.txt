@@ -642,23 +642,23 @@ intermap=maps/goblin_caves.txt,52,87
 
 [enemy]
 # Running Horse
-type=ng_boss_horse.txt
+type=ng_boss_horse
 location=121,165,1,1
 waypoints=121,165;77,159;52,114;107,83;145,120
 
 [enemy]
 # HG Mage
-type=ng_enemy_hobgoblin_mage.txt
+type=ng_enemy_hobgoblin_mage
 location=93,145,1,1
 
 [enemy]
 # HG Archer
-type=ng_enemy_hobgoblin_archer.txt
+type=ng_enemy_hobgoblin_archer
 location=92,150,1,1
 
 [enemy]
 # HG Archer
-type=ng_enemy_hobgoblin_archer.txt
+type=ng_enemy_hobgoblin_archer
 location=97,152,1,1
 
 [enemygroup]
