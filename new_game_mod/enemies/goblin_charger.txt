@@ -19,7 +19,7 @@ hp=50
 speed=5
 melee_range=1.1875
 threat_range=8.0
-turn_delay=400ms
+turn_delay=200ms
 chance_pursue=10
 chance_melee_phys=3
 chance_melee_ment=1
@@ -39,11 +39,10 @@ absorb_min=3
 absorb_max=3
 
 # loot
-loot=currency,33,2,8
-# dagger, leather gloves, leather boots, healing pot
+loot=loot/leveled_low.txt
+
+# dagger, leather gloves, leather boots
 loot=32,5
 loot=82,5
 loot=84,5
-loot=1,5
-
 

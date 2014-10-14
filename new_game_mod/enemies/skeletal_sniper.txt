@@ -18,7 +18,7 @@ hp=150
 speed=3.5
 melee_range=1.1875
 threat_range=8.0
-turn_delay=400ms
+turn_delay=200ms
 chance_pursue=5
 chance_melee_phys=5
 chance_melee_ment=0
@@ -43,15 +43,14 @@ absorb_min=15
 absorb_max=15
 
 cooldown=500ms
-cooldown_ranged_ment=45
+cooldown_ranged_ment=1500ms
 
 # loot
-loot=currency,33,6,24
+loot=loot/leveled_mid.txt
 
-# long bow, chain coif, health pot
+# long bow, chain coif
 loot=50,5
 loot=88,5
-loot=1,5
 
 # cat figurine, relic hunter's ring
 loot=121,1

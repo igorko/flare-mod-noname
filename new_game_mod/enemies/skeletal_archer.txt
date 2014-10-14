@@ -18,7 +18,7 @@ hp=75
 speed=3.5
 melee_range=1.1875
 threat_range=8.0
-turn_delay=400ms
+turn_delay=200ms
 chance_pursue=5
 chance_melee_phys=5
 chance_melee_ment=0
@@ -41,11 +41,10 @@ absorb_max=6
 cooldown=1s
 
 # loot
-loot=currency,33,3,12
+loot=loot/leveled_low.txt
 
-# short bow, leather hood, health pot
+# short bow, leather hood
 loot=49,5
 loot=80,5
-loot=1,5
 
 

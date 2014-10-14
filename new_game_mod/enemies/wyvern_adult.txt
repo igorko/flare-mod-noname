@@ -15,7 +15,7 @@ animations=animations/enemies/wyvern_adult.txt
 
 # combat stats
 hp=200
-speed=9.0
+speed=9
 flying=1
 melee_range=1.125
 threat_range=8.0
@@ -43,8 +43,8 @@ absorb_min=15
 absorb_max=15
 
 cooldown=1s
-cooldown_ranged_ment=90
+cooldown_ranged_ment=3s
 
 # loot
-loot=currency,33,6,24
+loot=loot/leveled_mid.txt
 

@@ -17,7 +17,7 @@ hp=40
 speed=5
 melee_range=0.75
 threat_range=8.0
-turn_delay=400ms
+turn_delay=200ms
 chance_pursue=10
 chance_melee_phys=5
 power_melee_phys=1
@@ -32,4 +32,4 @@ absorb_min=9
 absorb_max=9
 
 # loot
-loot=currency,10,3,12
+loot=loot/leveled_low.txt

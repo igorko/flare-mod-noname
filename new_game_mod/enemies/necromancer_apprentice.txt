@@ -13,10 +13,10 @@ animations=animations/enemies/necromancer.txt
 
 # combat stats
 hp=225
-speed=3.0
+speed=3
 melee_range=1.1875
 threat_range=8.0
-turn_delay=400ms
+turn_delay=200ms
 chance_pursue=30
 chance_melee_phys=5
 chance_melee_ment=0
@@ -40,10 +40,7 @@ vulnerable_ice=50
 cooldown=1s
 
 # loot
-loot=currency,33,5,20
-
-# health pot
-loot=1,5
+loot=loot/leveled_high.txt
 
 # blood gear, ring of regen
 loot=116,1
