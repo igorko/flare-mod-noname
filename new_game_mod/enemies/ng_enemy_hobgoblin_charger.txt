@@ -32,4 +32,4 @@ dmg_melee_min=40
 dmg_melee_max=65
 cooldown=333ms
 
-loot=currency,8,20,50
+loot=loot/leveled_high.txt

@@ -34,4 +34,4 @@ cooldown=500ms
 
 hp_regen=50
 
-loot=currency,5,50,100
+loot=loot/leveled_high.txt

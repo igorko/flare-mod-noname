@@ -38,4 +38,4 @@ cooldown=333ms
 
 chance_flee=20
 
-loot=currency,8,20,50
+loot=loot/leveled_high.txt

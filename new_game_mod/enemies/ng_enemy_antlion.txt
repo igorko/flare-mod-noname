@@ -31,4 +31,4 @@ dmg_melee_min=20
 dmg_melee_max=35
 cooldown=333ms
 
-loot=currency,5,20,40
+loot=loot/leveled_mid.txt

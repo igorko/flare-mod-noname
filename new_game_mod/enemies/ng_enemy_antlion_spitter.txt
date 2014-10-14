@@ -39,4 +39,4 @@ cooldown=333ms
 
 chance_flee=10
 
-loot=currency,5,20,40
+loot=loot/leveled_mid.txt

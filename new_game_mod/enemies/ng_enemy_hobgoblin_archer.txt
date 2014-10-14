@@ -39,4 +39,4 @@ cooldown=666ms
 
 chance_flee=5
 
-loot=currency,8,6,15
+loot=loot/leveled_low.txt

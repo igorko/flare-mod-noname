@@ -43,7 +43,7 @@ cooldown=333ms
 
 chance_flee=20
 
-loot=currency,8,50,100
+loot=loot/leveled_high.txt
 
 #figurines + 2
 loot=256,1

@@ -32,7 +32,7 @@ dmg_melee_min=50
 dmg_melee_max=80
 cooldown=333ms
 
-loot=currency,8,50,100
+loot=loot/leveled_high.txt
 
 #plate helmet
 loot=96,1

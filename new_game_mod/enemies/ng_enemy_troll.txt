@@ -31,7 +31,7 @@ dmg_melee_min=100
 dmg_melee_max=150
 cooldown=666ms
 
-loot=currency,8,100,150
+loot=loot/leveled_high.txt
 
 poise=100
 

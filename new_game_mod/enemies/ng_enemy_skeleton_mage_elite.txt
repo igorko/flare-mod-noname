@@ -38,7 +38,7 @@ cooldown=333ms
 
 chance_flee=25
 
-loot=currency,8,50,100
+loot=loot/leveled_high.txt
 
 #stat rings
 loot=260,1

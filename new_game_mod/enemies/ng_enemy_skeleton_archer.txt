@@ -38,7 +38,7 @@ cooldown=333ms
 
 chance_flee=35
 
-loot=currency,8,50,100
+loot=loot/leveled_high.txt
 
 #plate boots
 loot=100,1
