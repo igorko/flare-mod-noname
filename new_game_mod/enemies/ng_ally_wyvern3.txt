@@ -43,7 +43,7 @@ absorb_min=15
 absorb_max=15
 
 cooldown=1s
-cooldown_ranged_ment=90
+cooldown_ranged_ment=3s
 
 hp_regen=50
 poise=50
