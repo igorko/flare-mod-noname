@@ -1,15 +1,18 @@
-# Settings for the PowersMenu display
+# tab 0
+[tab]
+title=Attack
 
-pos=0,0,320,416
-align=right
-soundfx_open=soundfx/inventory/inventory_page.ogg
-soundfx_close=soundfx/inventory/inventory_book.ogg
+# tab 1
+[tab]
+title=Spawn
 
-label_title=160,8,center,top
-close=294,2
-unspent_points=160,396,center,top
+# tab 2
+[tab]
+title=Tactics
 
-tab_area=32,30,240,348
+# tab 3
+[tab]
+title=Passive
 
 ### Attack Tab 
 ###############################################################
