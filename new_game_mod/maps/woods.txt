@@ -3,6 +3,7 @@ width=200
 height=200
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_grassland.txt
 title=Greenwood Forest
@@ -661,84 +662,84 @@ location=92,150,1,1
 type=ng_enemy_hobgoblin_archer
 location=97,152,1,1
 
-[enemygroup]
+[enemy]
 # Spiders
 type=arachnid
 location=123,127,19,20
 level=1,10
 number=6,10
 
-[enemygroup]
+[enemy]
 # Hobgoblin
 type=hobgoblin
 location=100,90,19,22
 level=1,10
 number=6,8
 
-[enemygroup]
+[enemy]
 # Spiders
 type=arachnid
 location=143,81,30,30
 level=1,10
 number=8,10
 
-[enemygroup]
+[enemy]
 # Hobgoblin
 type=hobgoblin
 location=37,41,13,11
 level=1,10
 number=6,8
 
-[enemygroup]
+[enemy]
 # Spiders
 type=arachnid
 location=42,69,30,27
 level=1,10
 number=10,15
 
-[enemygroup]
+[enemy]
 # Hobgoblin
 type=hobgoblin
 location=48,114,35,29
 level=1,10
 number=10,15
 
-[enemygroup]
+[enemy]
 # Spiders
 type=arachnid
 location=63,168,85,27
 level=1,10
 number=10,20
 
-[enemygroup]
+[enemy]
 # Spiders
 type=arachnid
 location=100,36,20,40
 level=1,10
 number=10,12
 
-[enemygroup]
+[enemy]
 # Spiders
 type=arachnid
 location=122,63,18,61
 level=1,10
 number=10,15
 
-[enemygroup]
+[enemy]
 # Spiders
 type=arachnid
 location=73,81,23,31
 level=1,10
 number=10,20
 
-[enemygroup]
+[enemy]
 # Hobgoblin
 type=hobgoblin
 location=105,120,14,21
 level=1,10
 number=5,7
 
-[enemygroup]
+[enemy]
 # Spider
 type=arachnid
 location=84,114,18,26

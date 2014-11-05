@@ -3,6 +3,7 @@ width=50
 height=50
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/dungeon_theme.ogg
 tileset=tilesetdefs/tileset_dungeon.txt
 title=Ancient Dungeon Level 7
@@ -190,14 +191,14 @@ type=on_trigger
 location=6,4,1,2
 intermap=maps/dungeon8.txt,5,6
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=13,1,36,29
 level=20,30
 number=10,20
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=19,34,27,12

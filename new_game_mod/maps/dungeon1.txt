@@ -3,6 +3,7 @@ width=50
 height=50
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/dungeon_theme.ogg
 tileset=tilesetdefs/tileset_dungeon.txt
 title=Ancient Dungeon Level 1
@@ -195,17 +196,16 @@ intermap=maps/dungeon2.txt,41,6
 type=on_load
 location=4,42,1,1
 requires_not_status=progress_arrived_dungeon
-requires_status=minotaur_intro
 set_status=progress_arrived_dungeon
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=1,1,34,36
 level=20,30
 number=10,20
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=30,11,19,38

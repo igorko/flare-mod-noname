@@ -3,6 +3,7 @@ width=80
 height=80
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/cave_theme.ogg
 tileset=tilesetdefs/tileset_cave.txt
 title=Wyrmwold Tunnels
@@ -276,21 +277,21 @@ type=on_trigger
 location=1,24,1,7
 intermap=maps/wyvern_cave3.txt,60,44
 
-[enemygroup]
+[enemy]
 # wyvern
 type=wyvern
 location=20,26,19,18
 level=15,20
 number=8,12
 
-[enemygroup]
+[enemy]
 # antlion
 type=antlion
 location=14,48,45,28
 level=18,18
 number=20,25
 
-[enemygroup]
+[enemy]
 # antlion
 type=antlion
 location=8,3,53,22

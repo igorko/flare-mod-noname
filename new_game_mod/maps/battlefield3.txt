@@ -3,6 +3,7 @@ width=150
 height=100
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_grassland.txt
 title=Bloody Fields Copse
@@ -340,77 +341,77 @@ type=on_trigger
 location=5,26,1,11
 intermap=maps/battlefield4.txt,166,63
 
-[enemygroup]
+[enemy]
 # archers
 type=battlefield_archer
 location=30,21,37,24
 level=22,30
 number=25,30
 
-[enemygroup]
+[enemy]
 # archers
 type=battlefield_archer
 location=80,40,34,22
 level=22,30
 number=15,25
 
-[enemygroup]
+[enemy]
 # barricade
 type=wooden_barricade
 location=46,46,1,10
 level=22,30
 number=10,10
 
-[enemygroup]
+[enemy]
 # barricade
 type=wooden_barricade
 location=66,48,1,15
 level=22,30
 number=15,15
 
-[enemygroup]
+[enemy]
 # barricade
 type=wooden_barricade
 location=53,52,1,12
 level=22,30
 number=12,12
 
-[enemygroup]
+[enemy]
 # barricade
 type=wooden_barricade
 location=36,49,1,14
 level=22,30
 number=14,14
 
-[enemygroup]
+[enemy]
 # barricade
 type=wooden_barricade
 location=43,54,1,13
 level=22,30
 number=13,13
 
-[enemygroup]
+[enemy]
 # mage
 type=battlefield_mage
 location=38,47,4,19
 level=22,30
 number=4,8
 
-[enemygroup]
+[enemy]
 # mage
 type=battlefield_mage
 location=47,47,5,20
 level=22,30
 number=6,12
 
-[enemygroup]
+[enemy]
 # mage
 type=battlefield_mage
 location=57,47,9,17
 level=22,30
 number=8,12
 
-[enemygroup]
+[enemy]
 # battlefield
 type=battlefield
 location=70,15,43,24

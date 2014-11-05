@@ -3,6 +3,7 @@ width=50
 height=50
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/dungeon_theme.ogg
 tileset=tilesetdefs/tileset_dungeon.txt
 title=Ancient Dungeon Level 2
@@ -215,14 +216,14 @@ location=31,27,1,1
 type=ng_enemy_cursed_grave
 location=36,27,1,1
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=2,6,5,31
 level=20,30
 number=5,10
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=13,31,29,12

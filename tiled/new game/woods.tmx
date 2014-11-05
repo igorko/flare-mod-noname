@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" width="200" height="200" tilewidth="64" tileheight="32">
+<map version="1.0" orientation="isometric" renderorder="right-down" width="200" height="200" tilewidth="64" tileheight="32">
  <properties>
   <property name="music" value="music/overworld_theme.ogg"/>
   <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
@@ -641,7 +641,7 @@
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 </data>
  </layer>
- <objectgroup name="event" width="200" height="200">
+ <objectgroup name="event">
   <object name="to Town" type="on_trigger" x="5280" y="5952" width="64" height="32">
    <properties>
     <property name="intermap" value="maps/town.txt,37,14"/>
@@ -653,7 +653,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="enemy" width="200" height="200">
+ <objectgroup name="enemy">
   <object name="Running Horse" type="ng_boss_horse" x="3872" y="5280" width="32" height="32">
    <properties>
     <property name="waypoints" value="121,165;77,159;52,114;107,83;145,120"/>
@@ -662,8 +662,6 @@
   <object name="HG Mage" type="ng_enemy_hobgoblin_mage" x="2976" y="4640" width="32" height="32"/>
   <object name="HG Archer" type="ng_enemy_hobgoblin_archer" x="2944" y="4800" width="32" height="32"/>
   <object name="HG Archer" type="ng_enemy_hobgoblin_archer" x="3104" y="4864" width="32" height="32"/>
- </objectgroup>
- <objectgroup name="enemygroup" width="200" height="200">
   <object name="Spiders" type="arachnid" x="3936" y="4064" width="608" height="640">
    <properties>
     <property name="level" value="1,10"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" width="80" height="50" tilewidth="64" tileheight="32">
+<map version="1.0" orientation="isometric" renderorder="right-down" width="80" height="50" tilewidth="64" tileheight="32">
  <properties>
   <property name="music" value="music/overworld_theme.ogg"/>
   <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
@@ -191,7 +191,7 @@
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 </data>
  </layer>
- <objectgroup name="event" width="80" height="50">
+ <objectgroup name="event">
   <object name="to battlefield 5" type="on_trigger" x="2208" y="896" width="32" height="64">
    <properties>
     <property name="intermap" value="maps/battlefield5.txt,4,31"/>
@@ -203,7 +203,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="enemy" width="80" height="50">
+ <objectgroup name="enemy">
   <object name="Boss" type="ng_boss_big" x="704" y="576" width="32" height="32"/>
   <object name="assassins" type="assassin" x="640" y="288" width="64" height="64">
    <properties>
@@ -217,8 +217,6 @@
     <property name="number" value="4,4"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="enemygroup" width="80" height="50">
   <object name="skeleton knights" type="skeleton_knight_elite" x="736" y="416" width="32" height="352">
    <properties>
     <property name="level" value="22,30"/>

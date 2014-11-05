@@ -3,6 +3,7 @@ width=200
 height=75
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_desert.txt
 title=Desert North
@@ -261,49 +262,49 @@ type=on_trigger
 location=6,18,1,2
 intermap=maps/wyvern_cave.txt,92,69
 
-[enemygroup]
+[enemy]
 # zombie
 type=zombie
 location=62,21,16,24
 level=10,12
 number=20,25
 
-[enemygroup]
+[enemy]
 # antlion
 type=antlion
 location=19,34,32,14
 level=10,13
 number=10,12
 
-[enemygroup]
+[enemy]
 # skeleton
 type=skeleton
 location=114,18,28,17
 level=10,13
 number=10,15
 
-[enemygroup]
+[enemy]
 # ghost
 type=ghost
 location=99,31,11,12
 level=10,15
 number=5,8
 
-[enemygroup]
+[enemy]
 # zombie
 type=zombie
 location=19,14,16,10
 level=10,12
 number=15,18
 
-[enemygroup]
+[enemy]
 # desert
 type=desert
 location=142,7,26,60
 level=10,15
 number=8,12
 
-[enemygroup]
+[enemy]
 # spirit
 type=spirit
 location=85,29,5,15

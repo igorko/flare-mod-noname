@@ -3,6 +3,7 @@ width=80
 height=50
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_grassland.txt
 title=Death Valley
@@ -209,35 +210,35 @@ location=20,26,2,2
 level=22,30
 number=4,4
 
-[enemygroup]
+[enemy]
 # skeleton knights
 type=skeleton_knight_elite
 location=23,13,1,11
 level=22,30
 number=11,11
 
-[enemygroup]
+[enemy]
 # skirmishers
 type=skirmisher
 location=18,11,1,15
 level=22,30
 number=15
 
-[enemygroup]
+[enemy]
 # barricades
 type=wooden_barricade
 location=27,21,1,8
 level=20,30
 number=8,8
 
-[enemygroup]
+[enemy]
 # barricades
 type=wooden_barricade
 location=27,8,1,8
 level=20,30
 number=8,8
 
-[enemygroup]
+[enemy]
 # barricades
 type=wooden_barricade
 location=31,13,1,11

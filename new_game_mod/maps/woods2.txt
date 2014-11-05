@@ -3,6 +3,7 @@ width=200
 height=200
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_grassland.txt
 title=Northwood
@@ -645,7 +646,7 @@ intermap=maps/abandoned_mine.txt,26,39
 type=ng_boss_antlion_fire
 location=44,57,1,1
 
-[enemygroup]
+[enemy]
 # Woods2
 type=woods2
 location=23,45,155,145

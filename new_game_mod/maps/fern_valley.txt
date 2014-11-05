@@ -3,6 +3,7 @@ width=40
 height=200
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_grassland.txt
 title=Fern Valley
@@ -640,42 +641,42 @@ type=npcs/ieuan.txt
 location=17,184,1,1
 requires_not_status=progress_arrived_town
 
-[enemygroup]
+[enemy]
 # Small Spiders
 type=small_spider
 location=5,145,33,25
 level=1,5
 number=5,6
 
-[enemygroup]
+[enemy]
 # Spiders
 type=spider
 location=9,119,25,25
 level=1,5
 number=3,4
 
-[enemygroup]
+[enemy]
 # Zombies
 type=rotting_zombie
 location=2,91,17,12
 level=1,5
 number=5,6
 
-[enemygroup]
+[enemy]
 # Undead
 type=fern_valley_undead
 location=9,60,28,30
 level=1,5
 number=6,8
 
-[enemygroup]
+[enemy]
 # Undead
 type=fern_valley_undead
 location=5,32,33,27
 level=1,5
 number=8,10
 
-[enemygroup]
+[enemy]
 # Spiders
 type=spider
 location=21,18,15,13

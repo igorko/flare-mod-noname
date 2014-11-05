@@ -3,6 +3,7 @@ width=125
 height=70
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_grassland.txt
 title=Bloody Fields Crossing
@@ -263,6 +264,34 @@ location=45,36,1,1
 type=ng_enemy_stone_barricade
 location=45,37,1,1
 
+[enemy]
+# battlefield
+type=battlefield
+location=9,6,20,51
+level=20,30
+number=10,15
+
+[enemy]
+# battlefield
+type=battlefield
+location=54,8,47,44
+level=20,30
+number=15,20
+
+[enemy]
+# archers
+type=soldier_archer
+location=38,29,6,12
+level=20,30
+number=8,10
+
+[enemy]
+# archers
+type=soldier_archer
+location=30,10,5,12
+level=20,30
+number=10,15
+
 [event]
 # to battlefield 1
 type=on_trigger
@@ -274,32 +303,4 @@ intermap=maps/battlefield1.txt,5,20
 type=on_trigger
 location=3,19,1,5
 intermap=maps/battlefield3.txt,126,49
-
-[enemygroup]
-# battlefield
-type=battlefield
-location=9,6,20,51
-level=20,30
-number=10,15
-
-[enemygroup]
-# battlefield
-type=battlefield
-location=54,8,47,44
-level=20,30
-number=15,20
-
-[enemygroup]
-# archers
-type=soldier_archer
-location=38,29,6,12
-level=20,30
-number=8,10
-
-[enemygroup]
-# archers
-type=soldier_archer
-location=30,10,5,12
-level=20,30
-number=10,15
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" width="50" height="50" tilewidth="64" tileheight="32">
+<map version="1.0" orientation="isometric" renderorder="right-down" width="50" height="50" tilewidth="64" tileheight="32">
  <properties>
   <property name="music" value="music/dungeon_theme.ogg"/>
   <property name="tileset" value="tilesetdefs/tileset_dungeon.txt"/>
@@ -192,7 +192,7 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 </data>
  </layer>
- <objectgroup name="event" width="50" height="50">
+ <objectgroup name="event">
   <object name="to dungeon 8" type="on_trigger" x="1344" y="96" width="64" height="32">
    <properties>
     <property name="intermap" value="maps/dungeon8.txt,41,6"/>
@@ -204,7 +204,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="enemygroup" width="50" height="50">
+ <objectgroup name="enemy">
   <object name="skeletons" type="dungeon_skeleton" x="32" y="32" width="544" height="576">
    <properties>
     <property name="level" value="20,30"/>

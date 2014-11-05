@@ -3,6 +3,7 @@ width=125
 height=70
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_grassland.txt
 title=Bloody Fields Plain
@@ -250,49 +251,49 @@ type=on_trigger
 location=2,31,1,2
 intermap=maps/battlefield6.txt,67,28
 
-[enemygroup]
+[enemy]
 # battlefield
 type=battlefield
 location=81,8,24,48
 level=20,30
 number=10,15
 
-[enemygroup]
+[enemy]
 # infantry squad
 type=infantry
 location=44,21,4,9
 level=22,30
 number=36,36
 
-[enemygroup]
+[enemy]
 # archer row
 type=skirmisher
 location=60,14,1,24
 level=22,30
 number=24,24
 
-[enemygroup]
+[enemy]
 # skirmishers
 type=skirmisher
 location=14,24,2,2
 level=22,30
 number=4,4
 
-[enemygroup]
+[enemy]
 # skirmishers
 type=skirmisher
 location=14,37,2,2
 level=22,30
 number=4,4
 
-[enemygroup]
+[enemy]
 # skeleton knights
 type=skeleton_knight_elite
 location=17,30,1,5
 level=22,30
 number=5,5
 
-[enemygroup]
+[enemy]
 # berserker squad
 type=berserker
 location=35,35,3,8

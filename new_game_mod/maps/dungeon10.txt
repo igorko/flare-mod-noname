@@ -3,6 +3,7 @@ width=50
 height=50
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/dungeon_theme.ogg
 tileset=tilesetdefs/tileset_dungeon.txt
 title=Ancient Dungeon Level 10
@@ -261,21 +262,21 @@ location=17,9,1,1
 type=ng_enemy_skeleton_knight
 location=27,9,1,1
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=18,20,9,25
 level=20,30
 number=6,12
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=32,21,15,26
 level=20,30
 number=8,16
 
-[enemygroup]
+[enemy]
 # skeletons
 type=dungeon_skeleton
 location=2,21,12,12

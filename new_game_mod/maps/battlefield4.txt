@@ -3,6 +3,7 @@ width=175
 height=125
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/overworld_theme.ogg
 tileset=tilesetdefs/tileset_grassland.txt
 title=Bloody Fields Camp
@@ -415,63 +416,63 @@ type=on_trigger
 location=9,42,1,6
 intermap=maps/battlefield5.txt,109,35
 
-[enemygroup]
+[enemy]
 # soldiers
 type=battlefield_human
 location=88,66,19,16
 level=22,30
 number=10,12
 
-[enemygroup]
+[enemy]
 # soldiers
 type=battlefield_human
 location=127,61,13,13
 level=22,30
 number=5,6
 
-[enemygroup]
+[enemy]
 # soldiers
 type=battlefield_human
 location=129,31,13,11
 level=22,30
 number=4,6
 
-[enemygroup]
+[enemy]
 # soldiers
 type=battlefield_human
 location=36,48,18,15
 level=22,30
 number=8,10
 
-[enemygroup]
+[enemy]
 # soldiers
 type=battlefield_human
 location=60,35,14,15
 level=22,30
 number=6,8
 
-[enemygroup]
+[enemy]
 # soldiers
 type=battlefield_human
 location=58,76,12,11
 level=22,30
 number=5,8
 
-[enemygroup]
+[enemy]
 # soldiers
 type=battlefield_human
 location=111,26,13,12
 level=22,30
 number=5,8
 
-[enemygroup]
+[enemy]
 # soldiers
 type=battlefield_human
 location=95,38,12,11
 level=22,30
 number=5,10
 
-[enemygroup]
+[enemy]
 # warhorse
 type=warhorse
 location=63,57,7,8

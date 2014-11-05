@@ -3,6 +3,7 @@ width=100
 height=100
 tilewidth=64
 tileheight=32
+orientation=isometric
 music=music/cave_theme.ogg
 tileset=tilesetdefs/tileset_cave.txt
 title=Wyrmwold Cave
@@ -336,14 +337,14 @@ type=on_trigger
 location=7,13,1,2
 intermap=maps/wyvern_cave2.txt,76,66
 
-[enemygroup]
+[enemy]
 # antlion
 type=antlion
 location=35,9,45,78
 level=18,18
 number=20,30
 
-[enemygroup]
+[enemy]
 # wyvern
 type=wyvern
 location=16,43,16,37
