@@ -15,8 +15,6 @@ name=Convert
 type=convert
 #animation=animations/powers/spark_red_loop.txt
 animation=animations/powers/runes_green.txt
-#what is this?
-floor=true
 
 [effect]
 name=Death Sentence

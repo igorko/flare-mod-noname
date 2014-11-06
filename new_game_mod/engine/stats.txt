@@ -29,12 +29,15 @@ dmg_melee_min=5
 dmg_melee_max=15
 dmg_melee_min_per_physical=1
 dmg_melee_max_per_physical=2
+
 dmg_ment_min=5
 dmg_ment_max=15
 dmg_ment_min_per_mental=5
 dmg_ment_max_per_mental=5
+
 dmg_ment_min_per_level=1
 dmg_ment_max_per_level=1
+
 dmg_ranged_min=5
 dmg_ranged_max=15
 dmg_ranged_min_per_offense=1
@@ -42,12 +45,8 @@ dmg_ranged_max_per_offense=1
 
 absorb_min_per_defense=1
 absorb_max_per_defense=2
+
 #speed=14
 #dspeed=10
-
-bonus_per_physical=5
-bonus_per_mental=5
-bonus_per_offense=5
-bonus_per_defense=5
 
 sfx_step=cloth
