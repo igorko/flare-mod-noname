@@ -27,7 +27,7 @@ power_melee_phys=1
 power_melee_ment=10
 power_beacon=132
 
-cooldown_melee_ment=45
+cooldown_melee_ment=1500ms
 
 accuracy=90
 avoidance=40
