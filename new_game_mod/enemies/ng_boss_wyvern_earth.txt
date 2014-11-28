@@ -1,6 +1,6 @@
 name=Earth Wyvern
 level=3
-categories=ng_boss_wyvern_earth,wyvern
+categories=ng_boss_wyvern_earth
 rarity=common
 xp=5
 

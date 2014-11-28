@@ -1,6 +1,6 @@
 name=Fire Wyvern
 level=3
-categories=ng_boss_wyvern_fire,wyvern
+categories=ng_boss_wyvern_fire
 rarity=common
 xp=5
 

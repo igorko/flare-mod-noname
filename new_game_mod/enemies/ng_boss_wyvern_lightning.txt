@@ -1,6 +1,6 @@
 name=Lightning Wyvern
 level=3
-categories=ng_boss_wyvern_lightning,wyvern
+categories=ng_boss_wyvern_lightning
 rarity=common
 xp=5
 
