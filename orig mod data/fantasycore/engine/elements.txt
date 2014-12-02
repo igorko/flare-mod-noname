@@ -1,7 +1,0 @@
-[element]
-name=fire
-description=Fire Resistance
-
-[element]
-name=ice
-description=Ice Resistance

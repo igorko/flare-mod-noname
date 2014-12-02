@@ -1,3 +1,0 @@
-description=The original alpha game for Flare.
-requires=fantasycore
-game=flare-game

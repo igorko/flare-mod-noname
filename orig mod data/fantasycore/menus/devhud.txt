@@ -1,2 +1,0 @@
-pos=0,64,0,0
-align=topleft

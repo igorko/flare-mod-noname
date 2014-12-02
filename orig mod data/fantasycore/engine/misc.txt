@@ -1,5 +1,0 @@
-# Miscellaneous engine settings
-
-aim_assist=32
-currency_id=10
-
