@@ -73,7 +73,16 @@ soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=slingshot
 loot_animation=animations/loot/slingshot.txt
 price=100
-replace_power=22,120
+replace_power=605,1200
+replace_power=606,1201
+replace_power=607,1202
+replace_power=608,1203
+replace_power=609,1204
+replace_power=610,1210
+replace_power=611,1211
+replace_power=612,1212
+replace_power=613,1213
+replace_power=614,1214
 
 [item]
 id=49
@@ -88,7 +97,16 @@ soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=shortbow
 loot_animation=animations/loot/shortbow.txt
 price=288
-replace_power=22,121
+replace_power=605,1205
+replace_power=606,1206
+replace_power=607,1207
+replace_power=608,1208
+replace_power=609,1209
+replace_power=610,1215
+replace_power=611,1216
+replace_power=612,1217
+replace_power=613,1218
+replace_power=614,1219
 
 [item]
 id=50
@@ -103,7 +121,16 @@ soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=longbow
 loot_animation=animations/loot/longbow.txt
 price=650
-replace_power=22,121
+replace_power=605,1205
+replace_power=606,1206
+replace_power=607,1207
+replace_power=608,1208
+replace_power=609,1209
+replace_power=610,1215
+replace_power=611,1216
+replace_power=612,1217
+replace_power=613,1218
+replace_power=614,1219
 
 [item]
 id=51
@@ -118,7 +145,16 @@ soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=greatbow
 loot_animation=animations/loot/greatbow.txt
 price=2450
-replace_power=22,121
+replace_power=605,1205
+replace_power=606,1206
+replace_power=607,1207
+replace_power=608,1208
+replace_power=609,1209
+replace_power=610,1215
+replace_power=611,1216
+replace_power=612,1217
+replace_power=613,1218
+replace_power=614,1219
 
 # Basic Shields #######################
 
