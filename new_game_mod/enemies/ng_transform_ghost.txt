@@ -2,6 +2,7 @@ name=Ghost
 level=2
 categories=ng_transform_ghost,undead
 xp=2
+intangible=true
 
 sfx_phys=soundfx/enemies/zombie_phys.ogg
 sfx_ment=soundfx/enemies/zombie_ment.ogg
