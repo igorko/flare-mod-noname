@@ -112,34 +112,42 @@ type=dmg_melee_max
 name=HP Buff bonus - protection
 type=hp
 animation=animations/powers/shield.txt
+can_stack=false
 
 [effect]
 name=Raise Absorb min - protection
 type=absorb_min
+can_stack=false
 
 [effect]
 name=Raise Absorb max - protection
 type=absorb_max
+can_stack=false
 
 [effect]
 name=Raise Avoidance - protection
 type=avoidance
+can_stack=false
 
 [effect]
 name=Raise Fire Resist - protection
 type=fire_resist
+can_stack=false
 
 [effect]
 name=Raise Ice Resist - protection
 type=ice_resist
+can_stack=false
 
 [effect]
 name=Raise Earth Resist - protection
 type=earth_resist
+can_stack=false
 
 [effect]
 name=Raise Lightning Resist - protection
 type=lightning_resist
+can_stack=false
 
 [effect]
 name=Increase Speed - werewolf
