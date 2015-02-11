@@ -1,0 +1,5 @@
+image files are downloaded from here
+
+http://opengameart.org/content/isometric-snow-tileset-flare
+
+See CREDITS.txt for details
