@@ -120,3 +120,11 @@ http://opengameart.org/content/medieval-props-pack-2
 
 
 
+additions:
+
+added snowy version of http://opengameart.org/content/broken-tower, CC-BY 3.0, by Clint Bellanger
+			http://opengameart.org/content/temple-entrance, ,CC-BY-SA 3.0 / GPL 2.0 / GPL 3.0 by Clint Bellanger
+			and http://opengameart.org/content/wip-flare-defense-tower (image edited in gimp only),CC-BY-SA 3.0 by Stefan Beller
+
+
+
