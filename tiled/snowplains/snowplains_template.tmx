@@ -30,6 +30,7 @@
   <image source="tiled_snowplains_2x2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="296" name="snowplains_ice" tilewidth="64" tileheight="128">
+  <tileoffset x="0" y="32"/>
   <image source="snowplains_ice.png" width="1024" height="1792"/>
  </tileset>
  <tileset firstgid="520" name="snowplains_other" tilewidth="64" tileheight="128">
