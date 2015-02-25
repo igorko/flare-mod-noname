@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="100" height="100" tilewidth="64" tileheight="32">
+<map version="1.0" orientation="isometric" renderorder="right-down" width="100" height="100" tilewidth="64" tileheight="32" nextobjectid="21">
  <properties>
   <property name="music" value="music/overworld_theme.ogg"/>
   <property name="tileset" value="tilesetdefs/tileset_snowplains.txt"/>
@@ -30,6 +30,7 @@
   <image source="../tiled_snowplains_2x2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="296" name="snowplains_ice" tilewidth="64" tileheight="128">
+  <tileoffset x="0" y="32"/>
   <image source="../snowplains_ice.png" width="1024" height="1792"/>
  </tileset>
  <tileset firstgid="520" name="snowplains_other" tilewidth="64" tileheight="128">
@@ -51,17 +52,17 @@
   </data>
  </layer>
  <objectgroup name="event" visible="0">
-  <object name="to Fern Valley" type="on_trigger" x="1248" y="2880" width="128" height="32">
+  <object id="1" name="to Fern Valley" type="on_trigger" x="1248" y="2880" width="128" height="32">
    <properties>
     <property name="intermap" value="maps/fern_valley.txt,17,2"/>
    </properties>
   </object>
-  <object name="to Woods" type="on_trigger" x="1184" y="384" width="64" height="32">
+  <object id="2" name="to Woods" type="on_trigger" x="1184" y="384" width="64" height="32">
    <properties>
     <property name="intermap" value="maps/woods.txt,165,184"/>
    </properties>
   </object>
-  <object name="River Road wp" type="on_trigger" x="256" y="1536" width="64" height="64">
+  <object id="3" name="River Road wp" type="on_trigger" x="256" y="1536" width="64" height="64">
    <properties>
     <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/river_road.txt,18,15"/>
@@ -69,7 +70,7 @@
     <property name="tooltip" value="River Road"/>
    </properties>
   </object>
-  <object name="Journeys End wp" type="on_trigger" x="416" y="1632" width="64" height="64">
+  <object id="4" name="Journeys End wp" type="on_trigger" x="416" y="1632" width="64" height="64">
    <properties>
     <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/end.txt,11,8"/>
@@ -77,13 +78,13 @@
     <property name="tooltip" value="Journeys End"/>
    </properties>
   </object>
-  <object name="set arrive status" type="on_load" x="768" y="2208" width="32" height="32">
+  <object id="5" name="set arrive status" type="on_load" x="768" y="2208" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="progress_arrived_town"/>
     <property name="set_status" value="progress_arrived_town"/>
    </properties>
   </object>
-  <object name="Northwood Cottage wp" type="on_trigger" x="544" y="1632" width="64" height="64">
+  <object id="6" name="Northwood Cottage wp" type="on_trigger" x="544" y="1632" width="64" height="64">
    <properties>
     <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/sage_home.txt,16,22"/>
@@ -91,13 +92,13 @@
     <property name="tooltip" value="Northwood Cottage"/>
    </properties>
   </object>
-  <object name="wp mapmod sage home" type="on_load" x="512" y="1696" width="32" height="32">
+  <object id="7" name="wp mapmod sage home" type="on_load" x="512" y="1696" width="32" height="32">
    <properties>
     <property name="mapmod" value="object,17,52,265"/>
     <property name="requires_status" value="wp_sage_home"/>
    </properties>
   </object>
-  <object name="Ancient Dungeon Level 10 wp" type="on_trigger" x="416" y="1408" width="64" height="64">
+  <object id="8" name="Ancient Dungeon Level 10 wp" type="on_trigger" x="416" y="1408" width="64" height="64">
    <properties>
     <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/dungeon10.txt,42,4"/>
@@ -105,7 +106,7 @@
     <property name="tooltip" value="Ancient Dungeon Level 10"/>
    </properties>
   </object>
-  <object name="Ancient Pass wp" type="on_trigger" x="544" y="1408" width="64" height="64">
+  <object id="9" name="Ancient Pass wp" type="on_trigger" x="544" y="1408" width="64" height="64">
    <properties>
     <property name="hotspot" value="location"/>
     <property name="intermap" value="maps/dungeon_way.txt,15,26"/>
@@ -113,31 +114,31 @@
     <property name="tooltip" value="Ancient Pass"/>
    </properties>
   </object>
-  <object name="wp mapmod dungeon way" type="on_load" x="512" y="1472" width="32" height="32">
+  <object id="10" name="wp mapmod dungeon way" type="on_load" x="512" y="1472" width="32" height="32">
    <properties>
     <property name="mapmod" value="object,17,45,265"/>
     <property name="requires_status" value="wp_dungeon_way"/>
    </properties>
   </object>
-  <object name="wp mapmod dungeon 10" type="on_load" x="384" y="1472" width="32" height="32">
+  <object id="11" name="wp mapmod dungeon 10" type="on_load" x="384" y="1472" width="32" height="32">
    <properties>
     <property name="mapmod" value="object,13,45,265"/>
     <property name="requires_status" value="wp_dungeon_10"/>
    </properties>
   </object>
-  <object name="wp mapmod end" type="on_load" x="384" y="1696" width="32" height="32">
+  <object id="12" name="wp mapmod end" type="on_load" x="384" y="1696" width="32" height="32">
    <properties>
     <property name="mapmod" value="object,13,52,265"/>
     <property name="requires_status" value="wp_end"/>
    </properties>
   </object>
-  <object name="wp mapmod river road" type="on_load" x="224" y="1600" width="32" height="32">
+  <object id="13" name="wp mapmod river road" type="on_load" x="224" y="1600" width="32" height="32">
    <properties>
     <property name="mapmod" value="object,8,49,265"/>
     <property name="requires_status" value="wp_end"/>
    </properties>
   </object>
-  <object name="Shared stash" type="on_trigger" x="2880" y="1184" width="32" height="32">
+  <object id="14" name="Shared stash" type="on_trigger" x="2880" y="1184" width="32" height="32">
    <properties>
     <property name="hotspot" value="location"/>
     <property name="soundfx" value="soundfx/wood_open.ogg"/>
@@ -145,7 +146,7 @@
     <property name="tooltip" value="Shared Stash"/>
    </properties>
   </object>
-  <object name="Shared stash" type="on_trigger" x="1248" y="1696" width="32" height="32">
+  <object id="15" name="Shared stash" type="on_trigger" x="1248" y="1696" width="32" height="32">
    <properties>
     <property name="hotspot" value="location"/>
     <property name="soundfx" value="soundfx/wood_open.ogg"/>
@@ -155,18 +156,18 @@
   </object>
  </objectgroup>
  <objectgroup name="npc" visible="0">
-  <object name="Ieuan" type="npcs/ieuan.txt" x="1152" y="1760" width="32" height="32">
+  <object id="16" name="Ieuan" type="npcs/ieuan.txt" x="1152" y="1760" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="bethan_quests_complete"/>
    </properties>
   </object>
-  <object name="Evan" type="npcs/evan.txt" x="1536" y="640" width="32" height="32">
+  <object id="17" name="Evan" type="npcs/evan.txt" x="1536" y="640" width="32" height="32">
    <properties>
     <property name="requires_not_status" value="minotaur_complete"/>
    </properties>
   </object>
-  <object name="Branwen" type="npcs/branwen.txt" x="1888" y="1728" width="32" height="32"/>
-  <object name="farmer" type="npcs/farmer_pitchfork_working.txt" x="2752" y="1280" width="32" height="32"/>
-  <object name="horse" type="npcs/horse_southeast.txt" x="2624" y="928" width="32" height="32"/>
+  <object id="18" name="Branwen" type="npcs/branwen.txt" x="1888" y="1728" width="32" height="32"/>
+  <object id="19" name="farmer" type="npcs/farmer_pitchfork_working.txt" x="2752" y="1280" width="32" height="32"/>
+  <object id="20" name="horse" type="npcs/horse_southeast.txt" x="2624" y="928" width="32" height="32"/>
  </objectgroup>
 </map>
