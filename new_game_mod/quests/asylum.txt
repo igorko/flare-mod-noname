@@ -7,6 +7,7 @@ quest_text=Unlocked the 'Summon Goblin Ally' Skill. Continue through the north e
 [quest]
 requires_status=progress_arrived_asylum
 requires_not_status=bryn_init
+requires_not_status=asylum_complete
 quest_text=Find the asylum living quarters and see if anybody has some answers
 
 [quest]
