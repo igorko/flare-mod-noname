@@ -171,7 +171,7 @@ soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=buckler
 loot_animation=animations/loot/buckler.txt
 power=916
-power_desc=Use: Raise your shield to double your avoidance and absorb
+power_desc=Use: Raise your shield to raise your avoidance by 10% and absorb by 1-5. Chance to reflect missiles increased by 50%.
 price=180
 
 [item]
@@ -187,7 +187,7 @@ soundfx=soundfx/inventory/inventory_wood.ogg
 gfx=iron_buckler
 loot_animation=animations/loot/buckler.txt
 power=917
-power_desc=Use: Raise your shield to double your avoidance and absorb
+power_desc=Use: Raise your shield to raise your avoidance by 20% and absorb by 1-5. Chance to reflect missiles increased by 60%.
 price=340
 
 [item]
@@ -203,7 +203,7 @@ soundfx=soundfx/inventory/inventory_heavy.ogg
 gfx=shield
 loot_animation=animations/loot/shield.txt
 power=918
-power_desc=Use: Raise your shield to double your avoidance and absorb
+power_desc=Use: Raise your shield to raise your avoidance by 20% and absorb by 2-5. Chance to reflect missiles increased by 60%.
 price=660
 
 [item]
@@ -219,7 +219,7 @@ soundfx=soundfx/inventory/inventory_heavy.ogg
 gfx=shield
 loot_animation=animations/loot/shield.txt
 power=919
-power_desc=Use: Raise your shield to double your avoidance and absorb
+power_desc=Use: Raise your shield to raise your avoidance by 25% and absorb by 2-5. Chance to reflect missiles increased by 65%.
 price=3000
 
 # Clothes #############################
