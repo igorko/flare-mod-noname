@@ -7,156 +7,156 @@ APPEND
 ##################################################################################
 
 [effect]
-name=Knockback
+id=Knockback
 type=forced_move
 
 [effect]
-name=Convert
+id=Convert
 type=convert
 #animation=animations/powers/spark_red_loop.txt
 animation=animations/powers/runes_green.txt
 
 [effect]
-name=Death Sentence
+id=Death Sentence
 type=death_sentence
 
 [effect]
-name=Lower Absorb min
+id=Lower Absorb min
 type=absorb_min
 animation=animations/powers/runes_orange.txt
 
 [effect]
-name=Lower Absorb max
+id=Lower Absorb max
 type=absorb_max
 
 [effect]
-name=Lower Avoidance
+id=Lower Avoidance
 type=avoidance
 
 [effect]
-name=Lower Poise
+id=Lower Poise
 type=poise
 
 [effect]
-name=Lower Fire Resist
+id=Lower Fire Resist
 type=fire_resist
 
 [effect]
-name=Lower Ice Resist
+id=Lower Ice Resist
 type=ice_resist
 
 [effect]
-name=Lower Earth Resist
+id=Lower Earth Resist
 type=earth_resist
 
 [effect]
-name=Lower Lightning Resist
+id=Lower Lightning Resist
 type=lightning_resist
 
 [effect]
-name=Lower Melee Damage min
+id=Lower Melee Damage min
 type=dmg_melee_min
 animation=animations/powers/smoke_black.txt
 
 [effect]
-name=Lower Melee Damage max
+id=Lower Melee Damage max
 type=dmg_melee_max
 
 [effect]
-name=Lower Ranged Damage min
+id=Lower Ranged Damage min
 type=dmg_ranged_min
 
 [effect]
-name=Lower Ranged Damage max
+id=Lower Ranged Damage max
 type=dmg_ranged_max
 
 [effect]
-name=Lower Mental Damage min
+id=Lower Mental Damage min
 type=dmg_ment_min
 
 [effect]
-name=Lower Mental Damage max
+id=Lower Mental Damage max
 type=dmg_ment_max
 
 [effect]
-name=Lower Critical Hit Rate
+id=Lower Critical Hit Rate
 type=crit
 
 [effect]
-name=Lower Accuracy
+id=Lower Accuracy
 type=accuracy
 
 [effect]
-name=Fear
+id=Fear
 type=fear
 animation=animations/powers/fear.txt
 
 [effect]
-name=Fear Immobilise
+id=Fear Immobilise
 type=stun
 animation=animations/powers/spark_red_loop.txt
 
 [effect]
-name=HP bonus
+id=HP bonus
 type=hp
 
 [effect]
-name=Raise Melee Damage min
+id=Raise Melee Damage min
 type=dmg_melee_min
 
 [effect]
-name=Raise Melee Damage max
+id=Raise Melee Damage max
 type=dmg_melee_max
 
 [effect]
-name=HP Buff bonus - protection
+id=HP Buff bonus - protection
 type=hp
 animation=animations/powers/shield.txt
 can_stack=false
 
 [effect]
-name=Raise Absorb min - protection
+id=Raise Absorb min - protection
 type=absorb_min
 can_stack=false
 
 [effect]
-name=Raise Absorb max - protection
+id=Raise Absorb max - protection
 type=absorb_max
 can_stack=false
 
 [effect]
-name=Raise Avoidance - protection
+id=Raise Avoidance - protection
 type=avoidance
 can_stack=false
 
 [effect]
-name=Raise Fire Resist - protection
+id=Raise Fire Resist - protection
 type=fire_resist
 can_stack=false
 
 [effect]
-name=Raise Ice Resist - protection
+id=Raise Ice Resist - protection
 type=ice_resist
 can_stack=false
 
 [effect]
-name=Raise Earth Resist - protection
+id=Raise Earth Resist - protection
 type=earth_resist
 can_stack=false
 
 [effect]
-name=Raise Lightning Resist - protection
+id=Raise Lightning Resist - protection
 type=lightning_resist
 can_stack=false
 
 [effect]
-name=Increase Speed - werewolf
+id=Increase Speed - werewolf
 type=speed
 
 [effect]
-name=Raise Avoidance - werewolf
+id=Raise Avoidance - werewolf
 type=avoidance
 
 [effect]
-name=Raise Accuracy - werewolf
+id=Raise Accuracy - werewolf
 type=accuracy

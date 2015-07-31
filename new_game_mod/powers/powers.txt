@@ -2799,11 +2799,11 @@ icon=120
 description=Raise your shield to raise your avoidance by 10% and absorb by 1-5. Chance to reflect missiles increased by 50%.
 new_state=block
 face=true
-post_effect=reflect chance,50,0
+post_effect=reflect_chance,50,0
 post_effect=avoidance,10,0
 post_effect=absorb_min,1,0
 post_effect=absorb_max,5,0
-post_effect=block icon,1,0
+post_effect=block_icon,1,0
 
 #iron buckler
 [power]
@@ -2813,11 +2813,11 @@ icon=121
 description=Raise your shield to raise your avoidance by 20% and absorb by 1-5. Chance to reflect missiles increased by 60%.
 new_state=block
 face=true
-post_effect=reflect chance,60,0
+post_effect=reflect_chance,60,0
 post_effect=avoidance,20,0
 post_effect=absorb_min,1,0
 post_effect=absorb_max,5,0
-post_effect=block icon,1,0
+post_effect=block_icon,1,0
 
 #crest shield
 [power]
@@ -2827,11 +2827,11 @@ icon=122
 description=Raise your shield to raise your avoidance by 20% and absorb by 2-5. Chance to reflect missiles increased by 60%.
 new_state=block
 face=true
-post_effect=reflect chance,60,0
+post_effect=reflect_chance,60,0
 post_effect=avoidance,20,0
 post_effect=absorb_min,2,0
 post_effect=absorb_max,5,0
-post_effect=block icon,1,0
+post_effect=block_icon,1,0
 
 #tower shield
 [power]
@@ -2841,11 +2841,11 @@ icon=122
 description=Raise your shield to raise your avoidance by 25% and absorb by 2-5. Chance to reflect missiles increased by 65%.
 new_state=block
 face=true
-post_effect=reflect chance,65,0
+post_effect=reflect_chance,65,0
 post_effect=avoidance,25,0
 post_effect=absorb_min,2,0
 post_effect=absorb_max,5,0
-post_effect=block icon,1,0
+post_effect=block_icon,1,0
 
 ##################################################################################
 
