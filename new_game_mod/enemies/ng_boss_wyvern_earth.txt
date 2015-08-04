@@ -21,16 +21,12 @@ melee_range=1.125
 threat_range=8.0
 turn_delay=400ms
 chance_pursue=35
-chance_melee_phys=15
-chance_melee_ment=0
-chance_ranged_phys=0
-chance_ranged_ment=4
-power_beacon=132
+power=beacon,132,100
 
 # bleed sting
-power_melee_phys=5
+power=melee,5,15
 # fire spit
-power_ranged_ment=1116
+power=ranged,1116,4
 
 accuracy=77
 avoidance=27

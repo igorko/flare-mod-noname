@@ -18,14 +18,10 @@ chance_pursue=0
 avoidance=0
 cooldown=666ms
 
-chance_melee_phys=25
-chance_melee_ment=25
-chance_ranged_phys=25
-chance_ranged_ment=25
-power_melee_phys=851
-power_melee_ment=850
-power_ranged_phys=850
-power_ranged_ment=851
+power=melee,851,25
+power=melee,850,25
+power=ranged,850,25
+power=ranged,851,25
 
 accuracy=75
 

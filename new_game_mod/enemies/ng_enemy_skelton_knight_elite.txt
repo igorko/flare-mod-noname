@@ -19,9 +19,8 @@ melee_range=1.1875
 threat_range=8.0
 turn_delay=400ms
 chance_pursue=30
-chance_melee_phys=30
-power_melee_phys=1100
-power_beacon=1101
+power=melee,1100,30
+power=beacon,1101,100
 
 accuracy=85
 avoidance=35
