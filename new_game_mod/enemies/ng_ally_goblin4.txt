@@ -34,6 +34,5 @@ dmg_ment_max=70
 absorb_min=9
 absorb_max=9
 cooldown=833ms
-cooldown_ranged_phys=3s
 
 hp_regen=50

@@ -40,6 +40,3 @@ absorb_min=15
 absorb_max=15
 
 cooldown=1s
-cooldown_ranged_ment=3s
-
-

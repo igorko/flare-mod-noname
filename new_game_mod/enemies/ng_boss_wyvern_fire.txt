@@ -39,7 +39,6 @@ absorb_min=6
 absorb_max=6
 
 cooldown=1s
-cooldown_ranged_ment=3s
 
 quest_loot=progress_arrived_town,fire_tail,203
 

@@ -40,7 +40,6 @@ absorb_min=6
 absorb_max=12
 
 cooldown=1s
-cooldown_ranged_ment=3s
 
 chance_flee=10
 
