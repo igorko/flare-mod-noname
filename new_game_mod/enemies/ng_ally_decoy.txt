@@ -3,7 +3,6 @@ level=3
 categories=ng_ally_decoy,ground
 xp=20
 
-sfx_prefix=none
 animations=animations/enemies/training_dummy.txt
 
 # combat stats

@@ -3,7 +3,11 @@ level=3
 categories=ng_ally_firetower5,ground
 xp=5
 
-sfx_prefix=none
+sfx_phys=soundfx/powers/fireball.ogg
+sfx_ment=soundfx/powers/fireball.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/cursed_grave.txt
 
 # combat stats
