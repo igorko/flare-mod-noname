@@ -9,7 +9,7 @@ gfx=animations/npcs/guild_man1.txt
 [dialog]
 requires_not_status=evan_init
 you=Are you the local woodsman?
-him=Indeed I am. And your with the party from Cambria.
+him=Indeed I am. And you're with the party from Cambria.
 him=Well met neighbour. I heared about the troubles in Cambria. What news from there?
 you=Its not looking good im afraid. Theres word of a larger force on its way.
 him=In that case we are all in danger. If I could be of any assistance...
@@ -37,8 +37,8 @@ requires_status=evan_init
 requires_not_status=horse_tamed
 requires_item=201
 requires_item=200
-him=If your having trouble catching the horse, use the traps I gave you to slow him down.
-him=When you get the chance, give him some apples. Come and see me when your successful.
+him=If you're having trouble catching the horse, use the traps I gave you to slow him down.
+him=When you get the chance, give him some apples. Come and see me when you're successful.
 him=And please, do not kill him. Use only apples and traps.
 
 [dialog]
@@ -55,7 +55,7 @@ you=Thanks.
 requires_not_status=horse_tamed
 him=Have you tamed the beast yet?
 you=No not yet. I dont have any apples left.
-him=Make sure your close enough to give them to him. If you cant catch him, try to use those traps I gave you to slow him down. Heres a couple more apples.
+him=Make sure you're close enough to give them to him. If you cant catch him, try to use those traps I gave you to slow him down. Heres a couple more apples.
 him=And please, do not kill him. Use only apples and traps.
 reward_item=201,20
 him=And try not to eat them!
