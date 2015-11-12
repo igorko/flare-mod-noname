@@ -10,7 +10,7 @@ gfx=animations/npcs/zombie.txt
 [dialog]
 requires_not_status=asylum_complete
 him=Stop! Dont attack!
-you=Your alive?
+you=You're alive?
 him=For now.
 you=Who are you?
 him=I was the governor of the asylum.

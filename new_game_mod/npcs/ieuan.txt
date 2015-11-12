@@ -11,7 +11,7 @@ gfx=animations/npcs/knight.txt
 #game start initial dialogue
 [dialog]
 requires_not_status=ieuan_valley_init
-him=Thank heavens your safe! That was a close call back there. Are you hurt?
+him=Thank heavens you're safe! That was a close call back there. Are you hurt?
 you=A few bruises maybe. I can handle myself.
 him=Hah! I dont doubt it my friend. But dont get careless. We arent safe yet.
 you=What are we facing?
@@ -19,7 +19,7 @@ him=A few of the Sarlinian got through ahead of us. No doubt we can expect a few
 you=Could be tricky.
 him=There will still be a few of the Sarlinian behind us. Ill guard the rear and make sure none make it through.
 him=Up ahead is a small settlement. We should be safe there for the moment.
-you=I'll go on ahead and clear a path. Meet me at the settlement when your ready.
+you=I'll go on ahead and clear a path. Meet me at the settlement when you're ready.
 him=Understood.
 reward_xp=15000
 set_status=ieuan_valley_init
@@ -47,7 +47,7 @@ you=I'll talk to the folk around here and see what we can find out about the are
 him=The Woodsman at the north of town is handy with a bow. It might be worth talking to him.
 you=Ok thanks for the tip. We will have a small army before you know it.
 him=I wouldn't count on it. But in the mean time, I suggest you get more familiar with your weapon. If we are going to face the Sarlinian again, we will need to be much better prepared.
-him=Kai sees a lot of potential in you but your still lacking in combat experience.
+him=Kai sees a lot of potential in you but you're still lacking in combat experience.
 set_status=ieuan_town_init
 
 #town arrival follow up
@@ -141,7 +141,7 @@ him=The dungeon is to the west of here, beyond the marshlands.
 [dialog]
 requires_status=minotaur_complete
 him=You made it!
-him=I hope your prepared for battle. We have been holding them back up to now.
+him=I hope you're prepared for battle. We have been holding them back up to now.
 him=Our line is holding, but we dont have the force to make an advance.
 him=We need to push them back. We are all counting on you.
 you=No pressure then.

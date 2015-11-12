@@ -11,7 +11,7 @@ gfx=animations/npcs/peasant_man2.txt
 requires_not_status=bryn_init
 him=Back foul beast!
 you=Take it easy feller
-him=Wait? Your of this world?
+him=Wait? You're of this world?
 you=Last time I checked. Whats going on here?
 him=Its not good. Spirits started appearing 3 days back.
 him=It all started when Tarlek left the asylum. He was taken away by a group of the Sarlinian.
@@ -23,7 +23,7 @@ him=Somehow the asylum residents didnt seem to be affected by the dark presence.
 him=Either that or their minds were too far gone to begin with.
 you=Your mind seems to be intact. What are you here for?
 him=At the moment im fine. Not all days are so good.
-him=If your planning to investigate the goings on, you should head towards the governors office at the end of the asylum.
+him=If you're planning to investigate the goings on, you should head towards the governors office at the end of the asylum.
 you=What about you? Will you be okay?
 him=Ill be fine. Ill make my way out as soon as... well never mind that now. Go on ahead.
 you=Okay. Ill be back.
@@ -57,7 +57,7 @@ set_status=werebear_complete
 [dialog]
 requires_status=werebear_complete
 requires_not_status=minotaur_complete
-him=Use the transformation effect to youir advantage in battle. The beast is fierce and powerful if controlled properly.
+him=Use the transformation effect to your advantage in battle. The beast is fierce and powerful if controlled properly.
 
 [dialog]
 requires_status=minotaur_complete
