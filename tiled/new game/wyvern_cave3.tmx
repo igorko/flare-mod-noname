@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="70" height="70" tilewidth="64" tileheight="32">
+<map height="70" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="70">
  <properties>
-  <property name="music" value="music/cave_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_cave.txt"/>
-  <property name="title" value="Wyrmwold Cavern"/>
+  <property name="music" value="music/cave_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_cave.txt" />
+  <property name="title" value="Wyrmwold Cavern" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../cave/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../cave/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="cave" tilewidth="64" tileheight="128">
-  <image source="../cave/tiled_cave.png" width="1024" height="1920"/>
+ <tileset firstgid="16" name="cave" tileheight="128" tilewidth="64">
+  <image height="1920" source="../cave/tiled_cave.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../cave/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../cave/set_rules.png" width="128" />
  </tileset>
- <layer name="background" width="70" height="70">
+ <layer height="70" name="background" width="70">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -88,7 +87,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="70" height="70">
+ <layer height="70" name="object" width="70">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -162,7 +161,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="70" height="70">
+ <layer height="70" name="collision" width="70">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -237,27 +236,27 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to wyvern cave 2" type="on_trigger" x="1984" y="1312" width="32" height="224">
+  <object height="224" name="to wyvern cave 2" type="event" width="32" x="1984" y="1312">
    <properties>
-    <property name="intermap" value="maps/wyvern_cave2.txt,3,27"/>
-   </properties>
+    <property name="intermap" value="maps/wyvern_cave2.txt,3,27" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to sage home" type="on_trigger" x="224" y="672" width="32" height="64">
+  <object height="64" name="to sage home" type="event" width="32" x="224" y="672">
    <properties>
-    <property name="intermap" value="maps/sage_home.txt,34,23"/>
-   </properties>
+    <property name="intermap" value="maps/sage_home.txt,34,23" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="Fire Wyvern" type="ng_boss_wyvern_fire" x="416" y="736" width="32" height="32"/>
-  <object name="Ice wyvern" type="ng_boss_wyvern_ice" x="448" y="992" width="32" height="32"/>
-  <object name="Earth Wyvern" type="ng_boss_wyvern_earth" x="608" y="1184" width="32" height="32"/>
-  <object name="Lightning Wyvern" type="ng_boss_wyvern_lightning" x="608" y="608" width="32" height="32"/>
-  <object name="wyvern" type="wyvern" x="544" y="736" width="320" height="320">
+  <object height="32" name="Fire Wyvern" type="enemy" width="32" x="416" y="736"><properties><property name="category" value="ng_boss_wyvern_fire" /></properties></object>
+  <object height="32" name="Ice wyvern" type="enemy" width="32" x="448" y="992"><properties><property name="category" value="ng_boss_wyvern_ice" /></properties></object>
+  <object height="32" name="Earth Wyvern" type="enemy" width="32" x="608" y="1184"><properties><property name="category" value="ng_boss_wyvern_earth" /></properties></object>
+  <object height="32" name="Lightning Wyvern" type="enemy" width="32" x="608" y="608"><properties><property name="category" value="ng_boss_wyvern_lightning" /></properties></object>
+  <object height="320" name="wyvern" type="enemy" width="320" x="544" y="736">
    <properties>
-    <property name="level" value="18,18"/>
-    <property name="number" value="10,10"/>
-   </properties>
+    <property name="level" value="18,18" />
+    <property name="number" value="10,10" />
+   <property name="category" value="wyvern" /></properties>
   </object>
  </objectgroup>
 </map>

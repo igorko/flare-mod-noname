@@ -267,34 +267,39 @@ data=
 
 [event]
 # to wyvern cave
-type=on_trigger
+type=event
 location=78,66,1,2
+activate=on_trigger
 intermap=maps/wyvern_cave.txt,9,13
 
 [event]
 # to wyvern cave 3
-type=on_trigger
+type=event
 location=1,24,1,7
+activate=on_trigger
 intermap=maps/wyvern_cave3.txt,60,44
 
 [enemy]
 # wyvern
-type=wyvern
+type=enemy
 location=20,26,19,18
+category=wyvern
 level=15,20
 number=8,12
 
 [enemy]
 # antlion
-type=antlion
+type=enemy
 location=14,48,45,28
+category=antlion
 level=18,18
 number=20,25
 
 [enemy]
 # antlion
-type=antlion
+type=enemy
 location=8,3,53,22
+category=antlion
 level=18,18
 number=15,25
 

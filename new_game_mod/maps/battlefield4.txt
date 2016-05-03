@@ -406,111 +406,129 @@ data=
 
 [event]
 # to battlefield 3
-type=on_trigger
+type=event
 location=168,60,1,9
+activate=on_trigger
 intermap=maps/battlefield3.txt,7,29
 
 [event]
 # to battlefield 5
-type=on_trigger
+type=event
 location=9,42,1,6
+activate=on_trigger
 intermap=maps/battlefield5.txt,109,35
 
 [enemy]
 # soldiers
-type=battlefield_human
+type=enemy
 location=88,66,19,16
+category=battlefield_human
 level=22,30
 number=10,12
 
 [enemy]
 # soldiers
-type=battlefield_human
+type=enemy
 location=127,61,13,13
+category=battlefield_human
 level=22,30
 number=5,6
 
 [enemy]
 # soldiers
-type=battlefield_human
+type=enemy
 location=129,31,13,11
+category=battlefield_human
 level=22,30
 number=4,6
 
 [enemy]
 # soldiers
-type=battlefield_human
+type=enemy
 location=36,48,18,15
+category=battlefield_human
 level=22,30
 number=8,10
 
 [enemy]
 # soldiers
-type=battlefield_human
+type=enemy
 location=60,35,14,15
+category=battlefield_human
 level=22,30
 number=6,8
 
 [enemy]
 # soldiers
-type=battlefield_human
+type=enemy
 location=58,76,12,11
+category=battlefield_human
 level=22,30
 number=5,8
 
 [enemy]
 # soldiers
-type=battlefield_human
+type=enemy
 location=111,26,13,12
+category=battlefield_human
 level=22,30
 number=5,8
 
 [enemy]
 # soldiers
-type=battlefield_human
+type=enemy
 location=95,38,12,11
+category=battlefield_human
 level=22,30
 number=5,10
 
 [enemy]
 # warhorse
-type=warhorse
+type=enemy
 location=63,57,7,8
+category=warhorse
 level=22,30
 number=6,8
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemy
 location=45,36,1,1
+category=ng_enemy_soldier_mage
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemy
 location=33,70,1,1
+category=ng_enemy_soldier_mage
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemy
 location=53,91,1,1
+category=ng_enemy_soldier_mage
 
 [enemy]
 # assassin
-type=ng_enemy_assassin
+type=enemy
 location=23,37,1,1
+category=ng_enemy_assassin
 
 [enemy]
 # assassin
-type=ng_enemy_assassin
+type=enemy
 location=76,95,1,1
+category=ng_enemy_assassin
 
 [enemy]
 # assassin
-type=ng_enemy_assassin
+type=enemy
 location=85,34,1,1
+category=ng_enemy_assassin
 
 [enemy]
 # assassin
-type=ng_enemy_assassin
+type=enemy
 location=124,52,1,1
+category=ng_enemy_assassin
 

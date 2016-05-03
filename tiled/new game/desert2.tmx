@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="200" height="75" tilewidth="64" tileheight="32">
+<map height="75" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="200">
  <properties>
-  <property name="music" value="music/overworld_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_desert.txt"/>
-  <property name="title" value="Desert North"/>
+  <property name="music" value="music/overworld_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_desert.txt" />
+  <property name="title" value="Desert North" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../desert/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../desert/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../desert/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="16" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../desert/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="24" name="desert" tilewidth="64" tileheight="96">
-  <image source="../desert/tileset_desert.png" width="1024" height="1152"/>
+ <tileset firstgid="24" name="desert" tileheight="96" tilewidth="64">
+  <image height="1152" source="../desert/tileset_desert.png" width="1024" />
  </tileset>
- <layer name="background" width="200" height="75">
+ <layer height="75" name="background" width="200">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -93,7 +92,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="200" height="75">
+ <layer height="75" name="object" width="200">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -172,7 +171,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="200" height="75" visible="0">
+ <layer height="75" name="collision" visible="0" width="200">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -252,60 +251,60 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to desert" type="on_trigger" x="5952" y="1408" width="32" height="96">
+  <object height="96" name="to desert" type="event" width="32" x="5952" y="1408">
    <properties>
-    <property name="intermap" value="maps/desert.txt,2,34"/>
-   </properties>
+    <property name="intermap" value="maps/desert.txt,2,34" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to Wyvern cave" type="on_trigger" x="192" y="576" width="32" height="64">
+  <object height="64" name="to Wyvern cave" type="event" width="32" x="192" y="576">
    <properties>
-    <property name="intermap" value="maps/wyvern_cave.txt,92,69"/>
-   </properties>
+    <property name="intermap" value="maps/wyvern_cave.txt,92,69" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="zombie" type="zombie" x="1984" y="672" width="512" height="768">
+  <object height="768" name="zombie" type="enemy" width="512" x="1984" y="672">
    <properties>
-    <property name="level" value="10,12"/>
-    <property name="number" value="20,25"/>
-   </properties>
+    <property name="level" value="10,12" />
+    <property name="number" value="20,25" />
+   <property name="category" value="zombie" /></properties>
   </object>
-  <object name="antlion" type="antlion" x="608" y="1088" width="1024" height="448">
+  <object height="448" name="antlion" type="enemy" width="1024" x="608" y="1088">
    <properties>
-    <property name="level" value="10,13"/>
-    <property name="number" value="10,12"/>
-   </properties>
+    <property name="level" value="10,13" />
+    <property name="number" value="10,12" />
+   <property name="category" value="antlion" /></properties>
   </object>
-  <object name="skeleton" type="skeleton" x="3648" y="576" width="896" height="544">
+  <object height="544" name="skeleton" type="enemy" width="896" x="3648" y="576">
    <properties>
-    <property name="level" value="10,13"/>
-    <property name="number" value="10,15"/>
-   </properties>
+    <property name="level" value="10,13" />
+    <property name="number" value="10,15" />
+   <property name="category" value="skeleton" /></properties>
   </object>
-  <object name="ghost" type="ghost" x="3168" y="992" width="352" height="384">
+  <object height="384" name="ghost" type="enemy" width="352" x="3168" y="992">
    <properties>
-    <property name="level" value="10,15"/>
-    <property name="number" value="5,8"/>
-   </properties>
+    <property name="level" value="10,15" />
+    <property name="number" value="5,8" />
+   <property name="category" value="ghost" /></properties>
   </object>
-  <object name="zombie" type="zombie" x="608" y="448" width="512" height="320">
+  <object height="320" name="zombie" type="enemy" width="512" x="608" y="448">
    <properties>
-    <property name="level" value="10,12"/>
-    <property name="number" value="15,18"/>
-   </properties>
+    <property name="level" value="10,12" />
+    <property name="number" value="15,18" />
+   <property name="category" value="zombie" /></properties>
   </object>
-  <object name="desert" type="desert" x="4544" y="224" width="832" height="1920">
+  <object height="1920" name="desert" type="enemy" width="832" x="4544" y="224">
    <properties>
-    <property name="level" value="10,15"/>
-    <property name="number" value="8,12"/>
-   </properties>
+    <property name="level" value="10,15" />
+    <property name="number" value="8,12" />
+   <property name="category" value="desert" /></properties>
   </object>
-  <object name="spirit" type="spirit" x="2720" y="928" width="160" height="480">
+  <object height="480" name="spirit" type="enemy" width="160" x="2720" y="928">
    <properties>
-    <property name="level" value="10,20"/>
-    <property name="number" value="5,7"/>
-   </properties>
+    <property name="level" value="10,20" />
+    <property name="number" value="5,7" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="ghost captain" type="ng_enemy_ghost_captain" x="2944" y="1120" width="32" height="32"/>
+  <object height="32" name="ghost captain" type="enemy" width="32" x="2944" y="1120"><properties><property name="category" value="ng_enemy_ghost_captain" /></properties></object>
  </objectgroup>
 </map>

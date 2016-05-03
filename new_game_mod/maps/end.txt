@@ -151,22 +151,25 @@ data=
 
 [event]
 # to battlefield 6
-type=on_trigger
+type=event
 location=34,32,1,2
+activate=on_trigger
 intermap=maps/battlefield6.txt,6,16
 
 [event]
 # Greenwood Point wp
-type=on_trigger
+type=event
 location=13,7,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/town.txt,14,49
 tooltip=Greenwood Point
 
 [event]
 # wp activate
-type=on_trigger
+type=event
 location=11,5,6,6
+activate=on_trigger
 mapmod=object,13,8,265
 msg=Waypoint discovered
 repeat=false
@@ -175,8 +178,9 @@ set_status=wp_end
 
 [event]
 # wp mapmod
-type=on_load
+type=event
 location=10,11,1,1
+activate=on_load
 mapmod=object,13,8,265
 requires_status=wp_end
 

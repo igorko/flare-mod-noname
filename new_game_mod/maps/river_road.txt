@@ -181,22 +181,25 @@ data=
 
 [event]
 # to frontier outpost
-type=on_trigger
+type=event
 location=32,2,4,1
+activate=on_trigger
 intermap=maps/frontier_outpost.txt,45,60
 
 [event]
 # Greenwood Point wp
-type=on_trigger
+type=event
 location=15,15,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/town.txt,11,48
 tooltip=Greenwood Point
 
 [event]
 # set arrive status
-type=on_load
+type=event
 location=17,14,1,1
+activate=on_load
 requires_not_status=progress_arrived_river_road
 set_status=progress_arrived_river_road
 

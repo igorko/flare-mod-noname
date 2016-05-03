@@ -237,40 +237,47 @@ data=
 
 [event]
 # to wyvern cave 2
-type=on_trigger
+type=event
 location=62,41,1,7
+activate=on_trigger
 intermap=maps/wyvern_cave2.txt,3,27
 
 [event]
 # to sage home
-type=on_trigger
+type=event
 location=7,21,1,2
+activate=on_trigger
 intermap=maps/sage_home.txt,34,23
 
 [enemy]
 # Fire Wyvern
-type=ng_boss_wyvern_fire
+type=enemy
 location=13,23,1,1
+category=ng_boss_wyvern_fire
 
 [enemy]
 # Ice wyvern
-type=ng_boss_wyvern_ice
+type=enemy
 location=14,31,1,1
+category=ng_boss_wyvern_ice
 
 [enemy]
 # Earth Wyvern
-type=ng_boss_wyvern_earth
+type=enemy
 location=19,37,1,1
+category=ng_boss_wyvern_earth
 
 [enemy]
 # Lightning Wyvern
-type=ng_boss_wyvern_lightning
+type=enemy
 location=19,19,1,1
+category=ng_boss_wyvern_lightning
 
 [enemy]
 # wyvern
-type=wyvern
+type=enemy
 location=17,23,10,10
+category=wyvern
 level=18,18
 number=10,10
 

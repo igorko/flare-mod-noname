@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="175" height="125" tilewidth="64" tileheight="32">
+<map height="125" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="175">
  <properties>
-  <property name="music" value="music/overworld_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
-  <property name="title" value="Bloody Fields Camp"/>
+  <property name="music" value="music/overworld_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt" />
+  <property name="title" value="Bloody Fields Camp" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../grassland/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../grassland/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="grassland" tilewidth="64" tileheight="128">
-  <image source="../grassland/grassland.png" width="1024" height="1024"/>
+ <tileset firstgid="16" name="grassland" tileheight="128" tilewidth="64">
+  <image height="1024" source="../grassland/grassland.png" width="1024" />
  </tileset>
- <tileset firstgid="144" name="water" tilewidth="64" tileheight="64">
-  <tileoffset x="0" y="32"/>
-  <image source="../grassland/grassland_water.png" width="1024" height="256"/>
+ <tileset firstgid="144" name="water" tileheight="64" tilewidth="64">
+  <tileoffset x="0" y="32" />
+  <image height="256" source="../grassland/grassland_water.png" width="1024" />
  </tileset>
- <tileset firstgid="208" name="tall structures" tilewidth="64" tileheight="256">
-  <image source="../grassland/grassland_structures.png" width="1024" height="512"/>
+ <tileset firstgid="208" name="tall structures" tileheight="256" tilewidth="64">
+  <image height="512" source="../grassland/grassland_structures.png" width="1024" />
  </tileset>
- <tileset firstgid="240" name="trees" tilewidth="128" tileheight="256">
-  <tileoffset x="-32" y="0"/>
-  <image source="../grassland/grassland_trees.png" width="1024" height="512"/>
+ <tileset firstgid="240" name="trees" tileheight="256" tilewidth="128">
+  <tileoffset x="-32" y="0" />
+  <image height="512" source="../grassland/grassland_trees.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../grassland/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../grassland/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_grassland_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../grassland/tiled_grassland_2x2.png" width="512" height="512"/>
+ <tileset firstgid="264" name="tiled_grassland_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="512" source="../grassland/tiled_grassland_2x2.png" width="512" />
  </tileset>
- <layer name="background" width="175" height="125">
+ <layer height="125" name="background" width="175">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -158,7 +157,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="175" height="125">
+ <layer height="125" name="object" width="175">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -287,7 +286,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="175" height="125">
+ <layer height="125" name="collision" width="175">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -417,78 +416,78 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to battlefield 3" type="on_trigger" x="5376" y="1920" width="32" height="288">
+  <object height="288" name="to battlefield 3" type="event" width="32" x="5376" y="1920">
    <properties>
-    <property name="intermap" value="maps/battlefield3.txt,7,29"/>
-   </properties>
+    <property name="intermap" value="maps/battlefield3.txt,7,29" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to battlefield 5" type="on_trigger" x="288" y="1344" width="32" height="192">
+  <object height="192" name="to battlefield 5" type="event" width="32" x="288" y="1344">
    <properties>
-    <property name="intermap" value="maps/battlefield5.txt,109,35"/>
-   </properties>
+    <property name="intermap" value="maps/battlefield5.txt,109,35" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="soldiers" type="battlefield_human" x="2816" y="2112" width="608" height="512">
+  <object height="512" name="soldiers" type="enemy" width="608" x="2816" y="2112">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="10,12"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="10,12" />
+   <property name="category" value="battlefield_human" /></properties>
   </object>
-  <object name="soldiers" type="battlefield_human" x="4064" y="1952" width="416" height="416">
+  <object height="416" name="soldiers" type="enemy" width="416" x="4064" y="1952">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="5,6"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="5,6" />
+   <property name="category" value="battlefield_human" /></properties>
   </object>
-  <object name="soldiers" type="battlefield_human" x="4128" y="992" width="416" height="352">
+  <object height="352" name="soldiers" type="enemy" width="416" x="4128" y="992">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="4,6"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="4,6" />
+   <property name="category" value="battlefield_human" /></properties>
   </object>
-  <object name="soldiers" type="battlefield_human" x="1152" y="1536" width="576" height="480">
+  <object height="480" name="soldiers" type="enemy" width="576" x="1152" y="1536">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="8,10"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="8,10" />
+   <property name="category" value="battlefield_human" /></properties>
   </object>
-  <object name="soldiers" type="battlefield_human" x="1920" y="1120" width="448" height="480">
+  <object height="480" name="soldiers" type="enemy" width="448" x="1920" y="1120">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="6,8"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="6,8" />
+   <property name="category" value="battlefield_human" /></properties>
   </object>
-  <object name="soldiers" type="battlefield_human" x="1856" y="2432" width="384" height="352">
+  <object height="352" name="soldiers" type="enemy" width="384" x="1856" y="2432">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="5,8"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="5,8" />
+   <property name="category" value="battlefield_human" /></properties>
   </object>
-  <object name="soldiers" type="battlefield_human" x="3552" y="832" width="416" height="384">
+  <object height="384" name="soldiers" type="enemy" width="416" x="3552" y="832">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="5,8"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="5,8" />
+   <property name="category" value="battlefield_human" /></properties>
   </object>
-  <object name="soldiers" type="battlefield_human" x="3040" y="1216" width="384" height="352">
+  <object height="352" name="soldiers" type="enemy" width="384" x="3040" y="1216">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="5,10"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="5,10" />
+   <property name="category" value="battlefield_human" /></properties>
   </object>
-  <object name="warhorse" type="warhorse" x="2016" y="1824" width="224" height="256">
+  <object height="256" name="warhorse" type="enemy" width="224" x="2016" y="1824">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="6,8"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="6,8" />
+   <property name="category" value="warhorse" /></properties>
   </object>
-  <object name="mage" type="ng_enemy_soldier_mage" x="1440" y="1152" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="1056" y="2240" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="1696" y="2912" width="32" height="32"/>
-  <object name="assassin" type="ng_enemy_assassin" x="736" y="1184" width="32" height="32"/>
-  <object name="assassin" type="ng_enemy_assassin" x="2432" y="3040" width="32" height="32"/>
-  <object name="assassin" type="ng_enemy_assassin" x="2720" y="1088" width="32" height="32"/>
-  <object name="assassin" type="ng_enemy_assassin" x="3968" y="1664" width="32" height="32"/>
+  <object height="32" name="mage" type="enemy" width="32" x="1440" y="1152"><properties><property name="category" value="ng_enemy_soldier_mage" /></properties></object>
+  <object height="32" name="mage" type="enemy" width="32" x="1056" y="2240"><properties><property name="category" value="ng_enemy_soldier_mage" /></properties></object>
+  <object height="32" name="mage" type="enemy" width="32" x="1696" y="2912"><properties><property name="category" value="ng_enemy_soldier_mage" /></properties></object>
+  <object height="32" name="assassin" type="enemy" width="32" x="736" y="1184"><properties><property name="category" value="ng_enemy_assassin" /></properties></object>
+  <object height="32" name="assassin" type="enemy" width="32" x="2432" y="3040"><properties><property name="category" value="ng_enemy_assassin" /></properties></object>
+  <object height="32" name="assassin" type="enemy" width="32" x="2720" y="1088"><properties><property name="category" value="ng_enemy_assassin" /></properties></object>
+  <object height="32" name="assassin" type="enemy" width="32" x="3968" y="1664"><properties><property name="category" value="ng_enemy_assassin" /></properties></object>
  </objectgroup>
 </map>

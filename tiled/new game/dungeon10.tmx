@@ -1,36 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="50" height="50" tilewidth="64" tileheight="32">
+<map height="50" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="50">
  <properties>
-  <property name="music" value="music/dungeon_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt"/>
-  <property name="title" value="Ancient Dungeon Level 10"/>
+  <property name="music" value="music/dungeon_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt" />
+  <property name="title" value="Ancient Dungeon Level 10" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../dungeon/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../dungeon/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="dungeon" tilewidth="64" tileheight="128">
-  <image source="../dungeon/tiled_dungeon.png" width="1024" height="1920"/>
+ <tileset firstgid="16" name="dungeon" tileheight="128" tilewidth="64">
+  <image height="1920" source="../dungeon/tiled_dungeon.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../dungeon/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../dungeon/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_dungeon_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../dungeon/tiled_dungeon_2x2.png" width="512" height="256"/>
+ <tileset firstgid="264" name="tiled_dungeon_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="256" source="../dungeon/tiled_dungeon_2x2.png" width="512" />
  </tileset>
- <tileset firstgid="280" name="door_left" tilewidth="64" tileheight="128">
-  <tileoffset x="-16" y="-8"/>
-  <image source="../dungeon/door_left.png" width="128" height="128"/>
+ <tileset firstgid="280" name="door_left" tileheight="128" tilewidth="64">
+  <tileoffset x="-16" y="-8" />
+  <image height="128" source="../dungeon/door_left.png" width="128" />
  </tileset>
- <tileset firstgid="282" name="door_right" tilewidth="64" tileheight="128">
-  <tileoffset x="16" y="-8"/>
-  <image source="../dungeon/door_right.png" width="128" height="128"/>
+ <tileset firstgid="282" name="door_right" tileheight="128" tilewidth="64">
+  <tileoffset x="16" y="-8" />
+  <image height="128" source="../dungeon/door_right.png" width="128" />
  </tileset>
- <tileset firstgid="284" name="stairs" tilewidth="256" tileheight="256">
-  <tileoffset x="0" y="48"/>
-  <image source="../dungeon/stairs.png" width="1024" height="256"/>
+ <tileset firstgid="284" name="stairs" tileheight="256" tilewidth="256">
+  <tileoffset x="0" y="48" />
+  <image height="256" source="../dungeon/stairs.png" width="1024" />
  </tileset>
- <layer name="background" width="50" height="50">
+ <layer height="50" name="background" width="50">
   <data encoding="csv">
 17,18,18,16,18,17,17,16,17,17,17,18,17,17,16,18,17,18,17,17,16,17,18,18,16,18,16,16,17,17,17,18,18,18,16,18,17,18,17,16,17,16,17,17,17,17,18,17,16,16,
 18,18,18,16,18,16,16,16,17,16,16,17,18,16,17,18,17,16,18,16,16,17,17,17,18,16,16,17,18,17,17,16,17,16,18,17,18,17,18,16,17,16,17,18,18,16,17,17,18,17,
@@ -84,7 +83,7 @@
 18,18,17,16,18,18,16,17,18,17,17,16,16,18,17,16,18,17,17,18,17,18,16,16,17,16,17,17,17,17,16,16,17,18,18,16,17,18,16,18,16,18,17,16,18,16,17,17,17,17
 </data>
  </layer>
- <layer name="object" width="50" height="50">
+ <layer height="50" name="object" width="50">
   <data encoding="csv">
 77,65,65,69,69,65,69,69,69,69,78,77,69,65,69,65,65,65,65,69,65,65,69,69,65,69,69,65,69,65,69,65,69,65,78,77,65,65,69,69,69,65,65,65,69,69,69,65,65,78,
 68,0,0,0,0,0,0,0,0,0,66,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,68,0,0,0,0,0,0,0,0,0,0,0,0,0,66,
@@ -138,7 +137,7 @@
 76,67,67,67,67,67,67,67,67,67,67,67,67,67,67,79,76,67,67,67,67,67,67,67,67,67,67,67,67,79,76,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,79
 </data>
  </layer>
- <layer name="collision" width="50" height="50">
+ <layer height="50" name="collision" width="50">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
@@ -193,67 +192,67 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to dungeon 9" type="on_trigger" x="192" y="1376" width="32" height="64">
+  <object height="64" name="to dungeon 9" type="event" width="32" x="192" y="1376">
    <properties>
-    <property name="intermap" value="maps/dungeon9.txt,6,39"/>
-   </properties>
+    <property name="intermap" value="maps/dungeon9.txt,6,39" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="Greenwood Point wp" type="on_trigger" x="1408" y="96" width="64" height="64">
+  <object height="64" name="Greenwood Point wp" type="event" width="64" x="1408" y="96">
    <properties>
-    <property name="hotspot" value="location"/>
-    <property name="intermap" value="maps/town.txt,14,47"/>
-    <property name="tooltip" value="Greenwood Point"/>
-   </properties>
+    <property name="hotspot" value="location" />
+    <property name="intermap" value="maps/town.txt,14,47" />
+    <property name="tooltip" value="Greenwood Point" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="wp activate" type="on_trigger" x="1344" y="32" width="192" height="192">
+  <object height="192" name="wp activate" type="event" width="192" x="1344" y="32">
    <properties>
-    <property name="mapmod" value="object,44,4,265"/>
-    <property name="msg" value="Waypoint discovered"/>
-    <property name="repeat" value="false"/>
-    <property name="requires_not_status" value="wp_dungeon_10"/>
-    <property name="set_status" value="wp_dungeon_10"/>
-   </properties>
+    <property name="mapmod" value="object,44,4,265" />
+    <property name="msg" value="Waypoint discovered" />
+    <property name="repeat" value="false" />
+    <property name="requires_not_status" value="wp_dungeon_10" />
+    <property name="set_status" value="wp_dungeon_10" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="wp mapmod" type="on_load" x="1312" y="224" width="32" height="32">
+  <object height="32" name="wp mapmod" type="event" width="32" x="1312" y="224">
    <properties>
-    <property name="mapmod" value="object,44,4,265"/>
-    <property name="requires_status" value="wp_dungeon_10"/>
-   </properties>
+    <property name="mapmod" value="object,44,4,265" />
+    <property name="requires_status" value="wp_dungeon_10" />
+   <property name="activate" value="on_load" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="Minotaur" type="ng_boss_minotaur" x="704" y="192" width="32" height="32">
+  <object height="32" name="Minotaur" type="enemy" width="32" x="704" y="192">
    <properties>
-    <property name="requires_not_status" value="minotaur_complete"/>
-    <property name="requires_status" value="progress_arrived_dungeon"/>
-   </properties>
+    <property name="requires_not_status" value="minotaur_complete" />
+    <property name="requires_status" value="progress_arrived_dungeon" />
+   <property name="category" value="ng_boss_minotaur" /></properties>
   </object>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="480" y="64" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="608" y="64" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="736" y="64" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="864" y="64" width="32" height="32"/>
-  <object name="cursed grave" type="ng_enemy_cursed_grave" x="992" y="64" width="32" height="32"/>
-  <object name="skeleton mage" type="ng_enemy_skeleton_mage" x="576" y="160" width="32" height="32"/>
-  <object name="skeleton mage" type="ng_enemy_skeleton_mage" x="832" y="160" width="32" height="32"/>
-  <object name="skeleton knight" type="ng_enemy_skeleton_knight" x="544" y="288" width="32" height="32"/>
-  <object name="skeleton knight" type="ng_enemy_skeleton_knight" x="864" y="288" width="32" height="32"/>
-  <object name="skeletons" type="dungeon_skeleton" x="576" y="640" width="288" height="800">
+  <object height="32" name="cursed grave" type="enemy" width="32" x="480" y="64"><properties><property name="category" value="ng_enemy_cursed_grave" /></properties></object>
+  <object height="32" name="cursed grave" type="enemy" width="32" x="608" y="64"><properties><property name="category" value="ng_enemy_cursed_grave" /></properties></object>
+  <object height="32" name="cursed grave" type="enemy" width="32" x="736" y="64"><properties><property name="category" value="ng_enemy_cursed_grave" /></properties></object>
+  <object height="32" name="cursed grave" type="enemy" width="32" x="864" y="64"><properties><property name="category" value="ng_enemy_cursed_grave" /></properties></object>
+  <object height="32" name="cursed grave" type="enemy" width="32" x="992" y="64"><properties><property name="category" value="ng_enemy_cursed_grave" /></properties></object>
+  <object height="32" name="skeleton mage" type="enemy" width="32" x="576" y="160"><properties><property name="category" value="ng_enemy_skeleton_mage" /></properties></object>
+  <object height="32" name="skeleton mage" type="enemy" width="32" x="832" y="160"><properties><property name="category" value="ng_enemy_skeleton_mage" /></properties></object>
+  <object height="32" name="skeleton knight" type="enemy" width="32" x="544" y="288"><properties><property name="category" value="ng_enemy_skeleton_knight" /></properties></object>
+  <object height="32" name="skeleton knight" type="enemy" width="32" x="864" y="288"><properties><property name="category" value="ng_enemy_skeleton_knight" /></properties></object>
+  <object height="800" name="skeletons" type="enemy" width="288" x="576" y="640">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="6,12"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="6,12" />
+   <property name="category" value="dungeon_skeleton" /></properties>
   </object>
-  <object name="skeletons" type="dungeon_skeleton" x="1024" y="672" width="480" height="832">
+  <object height="832" name="skeletons" type="enemy" width="480" x="1024" y="672">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="8,16"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="8,16" />
+   <property name="category" value="dungeon_skeleton" /></properties>
   </object>
-  <object name="skeletons" type="dungeon_skeleton" x="64" y="672" width="384" height="384">
+  <object height="384" name="skeletons" type="enemy" width="384" x="64" y="672">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="4,6"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="4,6" />
+   <property name="category" value="dungeon_skeleton" /></properties>
   </object>
  </objectgroup>
 </map>

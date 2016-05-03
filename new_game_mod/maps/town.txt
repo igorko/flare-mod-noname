@@ -331,20 +331,23 @@ data=
 
 [event]
 # to Fern Valley
-type=on_trigger
+type=event
 location=39,90,4,1
+activate=on_trigger
 intermap=maps/fern_valley.txt,17,2
 
 [event]
 # to Woods
-type=on_trigger
+type=event
 location=37,12,2,1
+activate=on_trigger
 intermap=maps/woods.txt,165,184
 
 [event]
 # River Road wp
-type=on_trigger
+type=event
 location=8,48,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/river_road.txt,18,15
 requires_status=wp_end
@@ -352,8 +355,9 @@ tooltip=River Road
 
 [event]
 # Journeys End wp
-type=on_trigger
+type=event
 location=13,51,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/end.txt,11,8
 requires_status=wp_end
@@ -361,15 +365,17 @@ tooltip=Journeys End
 
 [event]
 # set arrive status
-type=on_load
+type=event
 location=24,69,1,1
+activate=on_load
 requires_not_status=progress_arrived_town
 set_status=progress_arrived_town
 
 [event]
 # Northwood Cottage wp
-type=on_trigger
+type=event
 location=17,51,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/sage_home.txt,16,22
 requires_status=wp_sage_home
@@ -377,15 +383,17 @@ tooltip=Northwood Cottage
 
 [event]
 # wp mapmod sage home
-type=on_load
+type=event
 location=16,53,1,1
+activate=on_load
 mapmod=object,17,52,265
 requires_status=wp_sage_home
 
 [event]
 # Ancient Dungeon Level 10 wp
-type=on_trigger
+type=event
 location=13,44,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/dungeon10.txt,42,4
 requires_status=wp_dungeon_10
@@ -393,8 +401,9 @@ tooltip=Ancient Dungeon Level 10
 
 [event]
 # Ancient Pass wp
-type=on_trigger
+type=event
 location=17,44,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/dungeon_way.txt,15,26
 requires_status=wp_dungeon_way
@@ -402,36 +411,41 @@ tooltip=Ancient Pass
 
 [event]
 # wp mapmod dungeon way
-type=on_load
+type=event
 location=16,46,1,1
+activate=on_load
 mapmod=object,17,45,265
 requires_status=wp_dungeon_way
 
 [event]
 # wp mapmod dungeon 10
-type=on_load
+type=event
 location=12,46,1,1
+activate=on_load
 mapmod=object,13,45,265
 requires_status=wp_dungeon_10
 
 [event]
 # wp mapmod end
-type=on_load
+type=event
 location=12,53,1,1
+activate=on_load
 mapmod=object,13,52,265
 requires_status=wp_end
 
 [event]
 # wp mapmod river road
-type=on_load
+type=event
 location=7,50,1,1
+activate=on_load
 mapmod=object,8,49,265
 requires_status=wp_end
 
 [event]
 # Shared stash
-type=on_trigger
+type=event
 location=90,37,1,1
+activate=on_trigger
 hotspot=location
 soundfx=soundfx/wood_open.ogg
 stash=true
@@ -439,8 +453,9 @@ tooltip=Shared Stash
 
 [event]
 # Shared stash
-type=on_trigger
+type=event
 location=39,53,1,1
+activate=on_trigger
 hotspot=location
 soundfx=soundfx/wood_open.ogg
 stash=true
@@ -448,28 +463,33 @@ tooltip=Shared Stash
 
 [npc]
 # Ieuan
-type=npcs/ieuan.txt
+type=npc
 location=36,55,1,1
+filename=npcs/ieuan.txt
 requires_not_status=bethan_quests_complete
 
 [npc]
 # Evan
-type=npcs/evan.txt
+type=npc
 location=48,20,1,1
+filename=npcs/evan.txt
 requires_not_status=minotaur_complete
 
 [npc]
 # Branwen
-type=npcs/branwen.txt
+type=npc
 location=59,54,1,1
+filename=npcs/branwen.txt
 
 [npc]
 # farmer
-type=npcs/farmer_pitchfork_working.txt
+type=npc
 location=86,40,1,1
+filename=npcs/farmer_pitchfork_working.txt
 
 [npc]
 # horse
-type=npcs/horse_southeast.txt
+type=npc
 location=82,29,1,1
+filename=npcs/horse_southeast.txt
 

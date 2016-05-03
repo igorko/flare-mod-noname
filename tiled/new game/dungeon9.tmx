@@ -1,36 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="50" height="50" tilewidth="64" tileheight="32">
+<map height="50" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="50">
  <properties>
-  <property name="music" value="music/dungeon_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt"/>
-  <property name="title" value="Ancient Dungeon Level 9"/>
+  <property name="music" value="music/dungeon_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt" />
+  <property name="title" value="Ancient Dungeon Level 9" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../dungeon/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../dungeon/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="dungeon" tilewidth="64" tileheight="128">
-  <image source="../dungeon/tiled_dungeon.png" width="1024" height="1920"/>
+ <tileset firstgid="16" name="dungeon" tileheight="128" tilewidth="64">
+  <image height="1920" source="../dungeon/tiled_dungeon.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../dungeon/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../dungeon/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_dungeon_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../dungeon/tiled_dungeon_2x2.png" width="512" height="256"/>
+ <tileset firstgid="264" name="tiled_dungeon_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="256" source="../dungeon/tiled_dungeon_2x2.png" width="512" />
  </tileset>
- <tileset firstgid="280" name="door_left" tilewidth="64" tileheight="128">
-  <tileoffset x="-16" y="-8"/>
-  <image source="../dungeon/door_left.png" width="128" height="128"/>
+ <tileset firstgid="280" name="door_left" tileheight="128" tilewidth="64">
+  <tileoffset x="-16" y="-8" />
+  <image height="128" source="../dungeon/door_left.png" width="128" />
  </tileset>
- <tileset firstgid="282" name="door_right" tilewidth="64" tileheight="128">
-  <tileoffset x="16" y="-8"/>
-  <image source="../dungeon/door_right.png" width="128" height="128"/>
+ <tileset firstgid="282" name="door_right" tileheight="128" tilewidth="64">
+  <tileoffset x="16" y="-8" />
+  <image height="128" source="../dungeon/door_right.png" width="128" />
  </tileset>
- <tileset firstgid="284" name="stairs" tilewidth="256" tileheight="256">
-  <tileoffset x="0" y="48"/>
-  <image source="../dungeon/stairs.png" width="1024" height="256"/>
+ <tileset firstgid="284" name="stairs" tileheight="256" tilewidth="256">
+  <tileoffset x="0" y="48" />
+  <image height="256" source="../dungeon/stairs.png" width="1024" />
  </tileset>
- <layer name="background" width="50" height="50">
+ <layer height="50" name="background" width="50">
   <data encoding="csv">
 17,18,18,16,18,17,17,16,17,17,17,18,17,17,16,18,17,18,17,17,16,17,18,18,16,18,16,16,17,17,17,18,18,18,16,18,17,18,17,16,17,16,17,17,17,17,18,17,16,16,
 18,18,18,16,18,16,16,16,17,16,16,17,18,16,17,18,17,16,18,16,16,17,17,17,18,16,16,17,18,17,17,16,17,16,18,17,18,17,18,16,17,16,17,18,18,16,17,17,18,17,
@@ -84,7 +83,7 @@
 18,18,17,16,18,18,16,17,18,17,17,16,16,18,17,16,18,17,17,18,17,18,16,16,17,16,17,17,17,17,16,16,17,18,18,16,17,18,16,18,16,18,17,16,18,16,17,17,17,17
 </data>
  </layer>
- <layer name="object" width="50" height="50">
+ <layer height="50" name="object" width="50">
   <data encoding="csv">
 77,65,65,69,69,65,69,69,69,69,69,69,69,65,69,65,65,65,65,69,65,65,69,69,65,69,69,65,69,65,69,65,69,65,69,69,65,65,69,69,69,65,65,65,69,69,69,65,65,78,
 68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,
@@ -138,7 +137,7 @@
 76,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,79
 </data>
  </layer>
- <layer name="collision" width="50" height="50">
+ <layer height="50" name="collision" width="50">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,
@@ -193,35 +192,35 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to dungeon 8" type="on_trigger" x="1344" y="96" width="64" height="32">
+  <object height="32" name="to dungeon 8" type="event" width="64" x="1344" y="96">
    <properties>
-    <property name="intermap" value="maps/dungeon8.txt,41,6"/>
-   </properties>
+    <property name="intermap" value="maps/dungeon8.txt,41,6" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to dungeon 10" type="on_trigger" x="160" y="1312" width="64" height="32">
+  <object height="32" name="to dungeon 10" type="event" width="64" x="160" y="1312">
    <properties>
-    <property name="intermap" value="maps/dungeon10.txt,8,44"/>
-   </properties>
+    <property name="intermap" value="maps/dungeon10.txt,8,44" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="skeletons" type="dungeon_skeleton" x="32" y="32" width="544" height="576">
+  <object height="576" name="skeletons" type="enemy" width="544" x="32" y="32">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="8,16"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="8,16" />
+   <property name="category" value="dungeon_skeleton" /></properties>
   </object>
-  <object name="skeleton" type="dungeon_skeleton" x="832" y="864" width="736" height="704">
+  <object height="704" name="skeleton" type="enemy" width="736" x="832" y="864">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="8,16"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="8,16" />
+   <property name="category" value="dungeon_skeleton" /></properties>
   </object>
-  <object name="skeletons" type="dungeon_skeleton" x="512" y="544" width="384" height="384">
+  <object height="384" name="skeletons" type="enemy" width="384" x="512" y="544">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="10,15"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="10,15" />
+   <property name="category" value="dungeon_skeleton" /></properties>
   </object>
  </objectgroup>
 </map>

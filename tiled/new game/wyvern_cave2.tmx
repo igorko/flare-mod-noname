@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="80" height="80" tilewidth="64" tileheight="32">
+<map height="80" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="80">
  <properties>
-  <property name="music" value="music/cave_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_cave.txt"/>
-  <property name="title" value="Wyrmwold Tunnels"/>
+  <property name="music" value="music/cave_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_cave.txt" />
+  <property name="title" value="Wyrmwold Tunnels" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../cave/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../cave/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="cave" tilewidth="64" tileheight="128">
-  <image source="../cave/tiled_cave.png" width="1024" height="1920"/>
+ <tileset firstgid="16" name="cave" tileheight="128" tilewidth="64">
+  <image height="1920" source="../cave/tiled_cave.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../cave/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../cave/set_rules.png" width="128" />
  </tileset>
- <layer name="background" width="80" height="80">
+ <layer height="80" name="background" width="80">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -98,7 +97,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="80" height="80">
+ <layer height="80" name="object" width="80">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -182,7 +181,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="80" height="80">
+ <layer height="80" name="collision" width="80">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -267,35 +266,35 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to wyvern cave" type="on_trigger" x="2496" y="2112" width="32" height="64">
+  <object height="64" name="to wyvern cave" type="event" width="32" x="2496" y="2112">
    <properties>
-    <property name="intermap" value="maps/wyvern_cave.txt,9,13"/>
-   </properties>
+    <property name="intermap" value="maps/wyvern_cave.txt,9,13" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to wyvern cave 3" type="on_trigger" x="32" y="768" width="32" height="224">
+  <object height="224" name="to wyvern cave 3" type="event" width="32" x="32" y="768">
    <properties>
-    <property name="intermap" value="maps/wyvern_cave3.txt,60,44"/>
-   </properties>
+    <property name="intermap" value="maps/wyvern_cave3.txt,60,44" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="wyvern" type="wyvern" x="640" y="832" width="608" height="576">
+  <object height="576" name="wyvern" type="enemy" width="608" x="640" y="832">
    <properties>
-    <property name="level" value="15,20"/>
-    <property name="number" value="8,12"/>
-   </properties>
+    <property name="level" value="15,20" />
+    <property name="number" value="8,12" />
+   <property name="category" value="wyvern" /></properties>
   </object>
-  <object name="antlion" type="antlion" x="448" y="1536" width="1440" height="896">
+  <object height="896" name="antlion" type="enemy" width="1440" x="448" y="1536">
    <properties>
-    <property name="level" value="18,18"/>
-    <property name="number" value="20,25"/>
-   </properties>
+    <property name="level" value="18,18" />
+    <property name="number" value="20,25" />
+   <property name="category" value="antlion" /></properties>
   </object>
-  <object name="antlion" type="antlion" x="256" y="96" width="1696" height="704">
+  <object height="704" name="antlion" type="enemy" width="1696" x="256" y="96">
    <properties>
-    <property name="level" value="18,18"/>
-    <property name="number" value="15,25"/>
-   </properties>
+    <property name="level" value="18,18" />
+    <property name="number" value="15,25" />
+   <property name="category" value="antlion" /></properties>
   </object>
  </objectgroup>
 </map>

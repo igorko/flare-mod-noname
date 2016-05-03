@@ -331,90 +331,103 @@ data=
 
 [event]
 # to battlefield 2
-type=on_trigger
+type=event
 location=128,46,1,7
+activate=on_trigger
 intermap=maps/battlefield2.txt,5,22
 
 [event]
 # to battlefield 4
-type=on_trigger
+type=event
 location=5,26,1,11
+activate=on_trigger
 intermap=maps/battlefield4.txt,166,63
 
 [enemy]
 # archers
-type=battlefield_archer
+type=enemy
 location=30,21,37,24
+category=battlefield_archer
 level=22,30
 number=25,30
 
 [enemy]
 # archers
-type=battlefield_archer
+type=enemy
 location=80,40,34,22
+category=battlefield_archer
 level=22,30
 number=15,25
 
 [enemy]
 # barricade
-type=wooden_barricade
+type=enemy
 location=46,46,1,10
+category=wooden_barricade
 level=22,30
 number=10,10
 
 [enemy]
 # barricade
-type=wooden_barricade
+type=enemy
 location=66,48,1,15
+category=wooden_barricade
 level=22,30
 number=15,15
 
 [enemy]
 # barricade
-type=wooden_barricade
+type=enemy
 location=53,52,1,12
+category=wooden_barricade
 level=22,30
 number=12,12
 
 [enemy]
 # barricade
-type=wooden_barricade
+type=enemy
 location=36,49,1,14
+category=wooden_barricade
 level=22,30
 number=14,14
 
 [enemy]
 # barricade
-type=wooden_barricade
+type=enemy
 location=43,54,1,13
+category=wooden_barricade
 level=22,30
 number=13,13
 
 [enemy]
 # mage
-type=battlefield_mage
+type=enemy
 location=38,47,4,19
+category=battlefield_mage
 level=22,30
 number=4,8
 
 [enemy]
 # mage
-type=battlefield_mage
+type=enemy
 location=47,47,5,20
+category=battlefield_mage
 level=22,30
 number=6,12
 
 [enemy]
 # mage
-type=battlefield_mage
+type=enemy
 location=57,47,9,17
+category=battlefield_mage
 level=22,30
 number=8,12
 
 [enemy]
 # battlefield
-type=battlefield
+type=enemy
 location=70,15,43,24
+category=battlefield
 level=22,30
 number=8,12
 

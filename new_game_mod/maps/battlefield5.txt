@@ -241,187 +241,221 @@ data=
 
 [event]
 # to battlefield 4
-type=on_trigger
+type=event
 location=111,34,1,3
+activate=on_trigger
 intermap=maps/battlefield4.txt,11,45
 
 [event]
 # to battlefield 6
-type=on_trigger
+type=event
 location=2,31,1,2
+activate=on_trigger
 intermap=maps/battlefield6.txt,67,28
 
 [enemy]
 # battlefield
-type=battlefield
+type=enemy
 location=81,8,24,48
+category=battlefield
 level=20,30
 number=10,15
 
 [enemy]
 # infantry squad
-type=infantry
+type=enemy
 location=44,21,4,9
+category=infantry
 level=22,30
 number=36,36
 
 [enemy]
 # archer row
-type=skirmisher
+type=enemy
 location=60,14,1,24
+category=skirmisher
 level=22,30
 number=24,24
 
 [enemy]
 # skirmishers
-type=skirmisher
+type=enemy
 location=14,24,2,2
+category=skirmisher
 level=22,30
 number=4,4
 
 [enemy]
 # skirmishers
-type=skirmisher
+type=enemy
 location=14,37,2,2
+category=skirmisher
 level=22,30
 number=4,4
 
 [enemy]
 # skeleton knights
-type=skeleton_knight_elite
+type=enemy
 location=17,30,1,5
+category=skeleton_knight_elite
 level=22,30
 number=5,5
 
 [enemy]
 # berserker squad
-type=berserker
+type=enemy
 location=35,35,3,8
+category=berserker
 level=22,30
 number=24
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,34,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,33,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,32,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,31,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,30,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,29,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,28,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,27,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,26,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,25,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barricade
-type=ng_enemy_wooden_barricade
+type=enemy
 location=76,24,1,1
+category=ng_enemy_wooden_barricade
 
 [enemy]
 # barbarian
-type=ng_enemy_soldier_barbarian
+type=enemy
 location=76,22,1,1
+category=ng_enemy_soldier_barbarian
 
 [enemy]
 # barbarian
-type=ng_enemy_soldier_barbarian
+type=enemy
 location=74,23,1,1
+category=ng_enemy_soldier_barbarian
 
 [enemy]
 # barbarian
-type=ng_enemy_soldier_barbarian
+type=enemy
 location=74,21,1,1
+category=ng_enemy_soldier_barbarian
 
 [enemy]
 # skirmisher
-type=ng_enemy_soldier_skirmisher
+type=enemy
 location=74,31,1,1
+category=ng_enemy_soldier_skirmisher
 
 [enemy]
 # skirmisher
-type=ng_enemy_soldier_skirmisher
+type=enemy
 location=74,29,1,1
+category=ng_enemy_soldier_skirmisher
 
 [enemy]
 # skirmisher
-type=ng_enemy_soldier_skirmisher
+type=enemy
 location=74,27,1,1
+category=ng_enemy_soldier_skirmisher
 
 [enemy]
 # skirmisher
-type=ng_enemy_soldier_skirmisher
+type=enemy
 location=74,25,1,1
+category=ng_enemy_soldier_skirmisher
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemy
 location=49,25,1,1
+category=ng_enemy_soldier_mage
 
 [enemy]
 # Boss
-type=ng_boss_general
+type=enemy
 location=19,32,1,1
+category=ng_boss_general
 
 [enemy]
 # skeleton mage
-type=ng_enemy_skeleton_mage_elite
+type=enemy
 location=18,28,1,1
+category=ng_enemy_skeleton_mage_elite
 
 [enemy]
 # skeleton mage
-type=ng_enemy_skeleton_mage_elite
+type=enemy
 location=18,36,1,1
+category=ng_enemy_skeleton_mage_elite
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemy
 location=14,28,1,1
+category=ng_enemy_soldier_mage
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemy
 location=14,34,1,1
+category=ng_enemy_soldier_mage
 
 [enemy]
 # mage
-type=ng_enemy_soldier_mage
+type=enemy
 location=39,39,1,1
+category=ng_enemy_soldier_mage
 

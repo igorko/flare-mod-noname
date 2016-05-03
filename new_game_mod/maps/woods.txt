@@ -631,118 +631,136 @@ data=
 
 [event]
 # to Town
-type=on_trigger
+type=event
 location=165,186,2,1
+activate=on_trigger
 intermap=maps/town.txt,37,14
 
 [event]
 # to Goblin Caves
-type=on_trigger
+type=event
 location=22,22,2,1
+activate=on_trigger
 intermap=maps/goblin_caves.txt,52,87
 
 [enemy]
 # Running Horse
-type=ng_boss_horse
+type=enemy
 location=121,165,1,1
+category=ng_boss_horse
 waypoints=121,165;77,159;52,114;107,83;145,120
 
 [enemy]
 # HG Mage
-type=ng_enemy_hobgoblin_mage
+type=enemy
 location=93,145,1,1
+category=ng_enemy_hobgoblin_mage
 
 [enemy]
 # HG Archer
-type=ng_enemy_hobgoblin_archer
+type=enemy
 location=92,150,1,1
+category=ng_enemy_hobgoblin_archer
 
 [enemy]
 # HG Archer
-type=ng_enemy_hobgoblin_archer
+type=enemy
 location=97,152,1,1
+category=ng_enemy_hobgoblin_archer
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=123,127,19,20
+category=arachnid
 level=1,10
 number=6,10
 
 [enemy]
 # Hobgoblin
-type=hobgoblin
+type=enemy
 location=100,90,19,22
+category=hobgoblin
 level=1,10
 number=6,8
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=143,81,30,30
+category=arachnid
 level=1,10
 number=8,10
 
 [enemy]
 # Hobgoblin
-type=hobgoblin
+type=enemy
 location=37,41,13,11
+category=hobgoblin
 level=1,10
 number=6,8
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=42,69,30,27
+category=arachnid
 level=1,10
 number=10,15
 
 [enemy]
 # Hobgoblin
-type=hobgoblin
+type=enemy
 location=48,114,35,29
+category=hobgoblin
 level=1,10
 number=10,15
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=63,168,85,27
+category=arachnid
 level=1,10
 number=10,20
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=100,36,20,40
+category=arachnid
 level=1,10
 number=10,12
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=122,63,18,61
+category=arachnid
 level=1,10
 number=10,15
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=73,81,23,31
+category=arachnid
 level=1,10
 number=10,20
 
 [enemy]
 # Hobgoblin
-type=hobgoblin
+type=enemy
 location=105,120,14,21
+category=hobgoblin
 level=1,10
 number=5,7
 
 [enemy]
 # Spider
-type=arachnid
+type=enemy
 location=84,114,18,26
+category=arachnid
 level=1,10
 number=5,6
 

@@ -241,40 +241,46 @@ data=
 
 [event]
 # to asylum
-type=on_trigger
+type=event
 location=58,67,2,1
+activate=on_trigger
 intermap=maps/asylum.txt,25,5
 
 [event]
 # to asylum 3
-type=on_trigger
+type=event
 location=13,4,2,1
+activate=on_trigger
 intermap=maps/asylum3.txt,84,30
 
 [npc]
 # Bryn
-type=npcs/bryn.txt
+type=npc
 location=19,55,1,1
+filename=npcs/bryn.txt
 requires_not_status=asylum_complete
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=11,12,18,20
+category=spirit
 level=10,16
 number=8,10
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=2,37,60,22
+category=spirit
 level=10,16
 number=10,20
 
 [enemy]
 # spirit
-type=spirit
+type=enemy
 location=32,6,29,27
+category=spirit
 level=10,16
 number=15,20
 

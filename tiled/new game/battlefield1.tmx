@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="100" height="50" tilewidth="64" tileheight="32">
+<map height="50" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="100">
  <properties>
-  <property name="music" value="music/overworld_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
-  <property name="title" value="Bloody Fields"/>
+  <property name="music" value="music/overworld_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt" />
+  <property name="title" value="Bloody Fields" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../grassland/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../grassland/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="grassland" tilewidth="64" tileheight="128">
-  <image source="../grassland/grassland.png" width="1024" height="1024"/>
+ <tileset firstgid="16" name="grassland" tileheight="128" tilewidth="64">
+  <image height="1024" source="../grassland/grassland.png" width="1024" />
  </tileset>
- <tileset firstgid="144" name="water" tilewidth="64" tileheight="64">
-  <tileoffset x="0" y="32"/>
-  <image source="../grassland/grassland_water.png" width="1024" height="256"/>
+ <tileset firstgid="144" name="water" tileheight="64" tilewidth="64">
+  <tileoffset x="0" y="32" />
+  <image height="256" source="../grassland/grassland_water.png" width="1024" />
  </tileset>
- <tileset firstgid="208" name="tall structures" tilewidth="64" tileheight="256">
-  <image source="../grassland/grassland_structures.png" width="1024" height="512"/>
+ <tileset firstgid="208" name="tall structures" tileheight="256" tilewidth="64">
+  <image height="512" source="../grassland/grassland_structures.png" width="1024" />
  </tileset>
- <tileset firstgid="240" name="trees" tilewidth="128" tileheight="256">
-  <tileoffset x="-32" y="0"/>
-  <image source="../grassland/grassland_trees.png" width="1024" height="512"/>
+ <tileset firstgid="240" name="trees" tileheight="256" tilewidth="128">
+  <tileoffset x="-32" y="0" />
+  <image height="512" source="../grassland/grassland_trees.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../grassland/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../grassland/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_grassland_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../grassland/tiled_grassland_2x2.png" width="512" height="512"/>
+ <tileset firstgid="264" name="tiled_grassland_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="512" source="../grassland/tiled_grassland_2x2.png" width="512" />
  </tileset>
- <layer name="background" width="100" height="50">
+ <layer height="50" name="background" width="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -83,7 +82,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="100" height="50">
+ <layer height="50" name="object" width="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -137,7 +136,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="100" height="50">
+ <layer height="50" name="collision" width="100">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -192,67 +191,67 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to dungeon way" type="on_trigger" x="3008" y="544" width="32" height="64">
+  <object height="64" name="to dungeon way" type="event" width="32" x="3008" y="544">
    <properties>
-    <property name="intermap" value="maps/dungeon_way.txt,6,20"/>
-   </properties>
+    <property name="intermap" value="maps/dungeon_way.txt,6,20" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to battlefield 2" type="on_trigger" x="96" y="576" width="32" height="128">
+  <object height="128" name="to battlefield 2" type="event" width="32" x="96" y="576">
    <properties>
-    <property name="intermap" value="maps/battlefield2.txt,110,35"/>
-   </properties>
+    <property name="intermap" value="maps/battlefield2.txt,110,35" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="npc">
-  <object name="Evan" type="npcs/evan.txt" x="2656" y="672" width="32" height="32">
+  <object height="32" name="Evan" type="npc" width="32" x="2656" y="672">
    <properties>
-    <property name="requires_status" value="minotaur_complete"/>
-   </properties>
+    <property name="requires_status" value="minotaur_complete" />
+   <property name="filename" value="npcs/evan.txt" /></properties>
   </object>
-  <object name="Ieuan" type="npcs/ieuan.txt" x="2624" y="832" width="32" height="32">
+  <object height="32" name="Ieuan" type="npc" width="32" x="2624" y="832">
    <properties>
-    <property name="requires_status" value="minotaur_complete"/>
-   </properties>
+    <property name="requires_status" value="minotaur_complete" />
+   <property name="filename" value="npcs/ieuan.txt" /></properties>
   </object>
-  <object name="Vlad" type="npcs/vlad.txt" x="2752" y="320" width="32" height="32">
+  <object height="32" name="Vlad" type="npc" width="32" x="2752" y="320">
    <properties>
-    <property name="requires_status" value="minotaur_complete"/>
-   </properties>
+    <property name="requires_status" value="minotaur_complete" />
+   <property name="filename" value="npcs/vlad.txt" /></properties>
   </object>
-  <object name="Bryn" type="npcs/bryn.txt" x="2880" y="928" width="32" height="32">
+  <object height="32" name="Bryn" type="npc" width="32" x="2880" y="928">
    <properties>
-    <property name="requires_status" value="minotaur_complete"/>
-   </properties>
+    <property name="requires_status" value="minotaur_complete" />
+   <property name="filename" value="npcs/bryn.txt" /></properties>
   </object>
-  <object name="Bethan" type="npcs/bethan.txt" x="2656" y="480" width="32" height="32">
+  <object height="32" name="Bethan" type="npc" width="32" x="2656" y="480">
    <properties>
-    <property name="requires_status" value="minotaur_complete"/>
-   </properties>
+    <property name="requires_status" value="minotaur_complete" />
+   <property name="filename" value="npcs/bethan.txt" /></properties>
   </object>
-  <object name="ivan" type="npcs/ivan3.txt" x="2720" y="416" width="32" height="32">
+  <object height="32" name="ivan" type="npc" width="32" x="2720" y="416">
    <properties>
-    <property name="requires_status" value="minotaur_complete"/>
-   </properties>
+    <property name="requires_status" value="minotaur_complete" />
+   <property name="filename" value="npcs/ivan3.txt" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="battlefield" type="battlefield" x="320" y="96" width="960" height="1312">
+  <object height="1312" name="battlefield" type="enemy" width="960" x="320" y="96">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="15,25"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="15,25" />
+   <property name="category" value="battlefield" /></properties>
   </object>
-  <object name="barricades" type="wooden_barricade" x="2112" y="256" width="32" height="896">
+  <object height="896" name="barricades" type="enemy" width="32" x="2112" y="256">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="28,28"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="28,28" />
+   <property name="category" value="wooden_barricade" /></properties>
   </object>
-  <object name="scouts" type="scout" x="1728" y="352" width="320" height="672">
+  <object height="672" name="scouts" type="enemy" width="320" x="1728" y="352">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="10,15"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="10,15" />
+   <property name="category" value="scout" /></properties>
   </object>
  </objectgroup>
 </map>

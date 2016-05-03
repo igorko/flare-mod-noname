@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" width="20" height="20" tilewidth="64" tileheight="32">
- <tileset firstgid="1" name="tileset_desert1" tilewidth="64" tileheight="96">
-  <image source="tileset_desert1.png" width="1024" height="1529"/>
+<map height="20" orientation="isometric" tileheight="32" tilewidth="64" version="1.0" width="20">
+ <tileset firstgid="1" name="tileset_desert1" tileheight="96" tilewidth="64">
+  <image height="1529" source="tileset_desert1.png" width="1024" />
  </tileset>
- <layer name="Tile Layer 1" width="20" height="20">
-  <data encoding="base64" compression="zlib">
+ <layer height="20" name="Tile Layer 1" width="20">
+  <data compression="zlib" encoding="base64">
    eJxtlVkOwjAMRLMnDbn/eWmlGfEwfFgNsT0eb6GmlLak3/K65dK3SKy/cPfIkPDcJY9tvqVKHv8jydJf0mX5Tp2J/2A16Zp4bZyXzg1xu3xzwMvS+XfD/ZLvAtbR+ej30tc8me9BTONfgZtzqrg/wLC/az2kL3/ytL11B9KEQ54LuZ6QZ0nf9bLevWnor88dsRfwaGe8JS6MzzoM9bIGPM5Xg6/5uVasveduwifiOSf3/AWuOX3Xwnis+UAM4jnHCX6sxQGvmT4zNRDD9ivg2W8Ai3Er8DwPDXjcX+/lDnm7jq6x+fjrOhGH8xH3zTacG78nU3jm7lnasIs4PfSI/aiI4z3mLJb02dMOiX33rnBmCnDoS26RH+/4fvCd5Ptge+5J7A/rvYE/g31Nv7x6uItSYVv/6PgfwTzfYI4H1w==
   </data>
  </layer>
- <objectgroup name="Object Layer 1" width="20" height="20"/>
- <layer name="Tile Layer 2" width="20" height="20">
-  <data encoding="base64" compression="zlib">
+ <objectgroup height="20" name="Object Layer 1" width="20" />
+ <layer height="20" name="Tile Layer 2" width="20">
+  <data compression="zlib" encoding="base64">
    eJytlFsKwkAMRbMVxVqq/gj64fNDBfHdFQhawfWpuD8zOAMhTNK09MJl2iRzmtJ0MgDootsNrD10AnEVQlxTim7V2KfxpP641kae1N+CXE/RKyNvaKibsPuPwnP6+vXprWmp5BxvRHhcoY+tkH9FeFW/7wF9FHKON4B/j1Qbv87QcxLflzwr9GedmZ2Bl3jmDf1Qai/o3Nhf7J2pzkKczw39Pxw3/LNvVncS4lJ/QLh3VsNnooznOBl6zHJXYU+h1KQCq66qnC9WXtPnn5uVTkPuo39tqhun
   </data>
  </layer>

@@ -177,20 +177,23 @@ data=
 
 [event]
 # to woods 2
-type=on_trigger
+type=event
 location=24,41,4,1
+activate=on_trigger
 intermap=maps/woods2.txt,146,111
 
 [enemy]
 # Werebear
-type=ng_boss_werebear
+type=enemy
 location=13,16,1,1
+category=ng_boss_werebear
 requires_not_status=werebear_defeated
 
 [npc]
 # Bryn
-type=npcs/bryn.txt
+type=npc
 location=15,16,1,1
+filename=npcs/bryn.txt
 requires_not_status=minotaur_complete
 requires_status=werebear_returning
 
