@@ -181,34 +181,39 @@ data=
 
 [event]
 # to marshlands
-type=on_trigger
+type=event
 location=91,31,1,2
+activate=on_trigger
 intermap=maps/marshlands.txt,20,55
 
 [event]
 # to dungeon1
-type=on_trigger
+type=event
 location=14,18,1,3
+activate=on_trigger
 intermap=maps/dungeon1.txt,9,43
 
 [event]
 # to battlefield 1
-type=on_trigger
+type=event
 location=4,20,1,2
+activate=on_trigger
 intermap=maps/battlefield1.txt,92,17
 
 [event]
 # Greenwood Point wp
-type=on_trigger
+type=event
 location=14,28,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/town.txt,21,45
 tooltip=Greenwood Point
 
 [event]
 # wp activate
-type=on_trigger
+type=event
 location=12,26,6,6
+activate=on_trigger
 mapmod=object,14,29,265
 msg=Waypoint discovered
 repeat=false
@@ -217,15 +222,17 @@ set_status=wp_dungeon_way
 
 [event]
 # wp mapmod
-type=on_load
+type=event
 location=11,25,1,1
+activate=on_load
 mapmod=object,14,29,265
 requires_status=wp_dungeon_way
 
 [enemy]
 # skeleton
-type=skeleton
+type=enemy
 location=28,11,49,27
+category=skeleton
 level=24,24
 number=15,20
 

@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="125" height="70" tilewidth="64" tileheight="32">
+<map height="70" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="125">
  <properties>
-  <property name="music" value="music/overworld_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
-  <property name="title" value="Bloody Fields Plain"/>
+  <property name="music" value="music/overworld_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt" />
+  <property name="title" value="Bloody Fields Plain" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../grassland/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../grassland/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="grassland" tilewidth="64" tileheight="128">
-  <image source="../grassland/grassland.png" width="1024" height="1024"/>
+ <tileset firstgid="16" name="grassland" tileheight="128" tilewidth="64">
+  <image height="1024" source="../grassland/grassland.png" width="1024" />
  </tileset>
- <tileset firstgid="144" name="water" tilewidth="64" tileheight="64">
-  <tileoffset x="0" y="32"/>
-  <image source="../grassland/grassland_water.png" width="1024" height="256"/>
+ <tileset firstgid="144" name="water" tileheight="64" tilewidth="64">
+  <tileoffset x="0" y="32" />
+  <image height="256" source="../grassland/grassland_water.png" width="1024" />
  </tileset>
- <tileset firstgid="208" name="tall structures" tilewidth="64" tileheight="256">
-  <image source="../grassland/grassland_structures.png" width="1024" height="512"/>
+ <tileset firstgid="208" name="tall structures" tileheight="256" tilewidth="64">
+  <image height="512" source="../grassland/grassland_structures.png" width="1024" />
  </tileset>
- <tileset firstgid="240" name="trees" tilewidth="128" tileheight="256">
-  <tileoffset x="-32" y="0"/>
-  <image source="../grassland/grassland_trees.png" width="1024" height="512"/>
+ <tileset firstgid="240" name="trees" tileheight="256" tilewidth="128">
+  <tileoffset x="-32" y="0" />
+  <image height="512" source="../grassland/grassland_trees.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../grassland/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../grassland/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_grassland_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../grassland/tiled_grassland_2x2.png" width="512" height="512"/>
+ <tileset firstgid="264" name="tiled_grassland_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="512" source="../grassland/tiled_grassland_2x2.png" width="512" />
  </tileset>
- <layer name="background" width="125" height="70">
+ <layer height="70" name="background" width="125">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -103,7 +102,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="125" height="70">
+ <layer height="70" name="object" width="125">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -177,7 +176,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="125" height="70">
+ <layer height="70" name="collision" width="125">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -252,84 +251,84 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to battlefield 4" type="on_trigger" x="3552" y="1088" width="32" height="96">
+  <object height="96" name="to battlefield 4" type="event" width="32" x="3552" y="1088">
    <properties>
-    <property name="intermap" value="maps/battlefield4.txt,11,45"/>
-   </properties>
+    <property name="intermap" value="maps/battlefield4.txt,11,45" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to battlefield 6" type="on_trigger" x="64" y="992" width="32" height="64">
+  <object height="64" name="to battlefield 6" type="event" width="32" x="64" y="992">
    <properties>
-    <property name="intermap" value="maps/battlefield6.txt,67,28"/>
-   </properties>
+    <property name="intermap" value="maps/battlefield6.txt,67,28" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="battlefield" type="battlefield" x="2592" y="256" width="768" height="1536">
+  <object height="1536" name="battlefield" type="enemy" width="768" x="2592" y="256">
    <properties>
-    <property name="level" value="20,30"/>
-    <property name="number" value="10,15"/>
-   </properties>
+    <property name="level" value="20,30" />
+    <property name="number" value="10,15" />
+   <property name="category" value="battlefield" /></properties>
   </object>
-  <object name="infantry squad" type="infantry" x="1408" y="672" width="128" height="288">
+  <object height="288" name="infantry squad" type="enemy" width="128" x="1408" y="672">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="36,36"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="36,36" />
+   <property name="category" value="infantry" /></properties>
   </object>
-  <object name="archer row" type="skirmisher" x="1920" y="448" width="32" height="768">
+  <object height="768" name="archer row" type="enemy" width="32" x="1920" y="448">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="24,24"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="24,24" />
+   <property name="category" value="skirmisher" /></properties>
   </object>
-  <object name="skirmishers" type="skirmisher" x="448" y="768" width="64" height="64">
+  <object height="64" name="skirmishers" type="enemy" width="64" x="448" y="768">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="4,4"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="4,4" />
+   <property name="category" value="skirmisher" /></properties>
   </object>
-  <object name="skirmishers" type="skirmisher" x="448" y="1184" width="64" height="64">
+  <object height="64" name="skirmishers" type="enemy" width="64" x="448" y="1184">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="4,4"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="4,4" />
+   <property name="category" value="skirmisher" /></properties>
   </object>
-  <object name="skeleton knights" type="skeleton_knight_elite" x="544" y="960" width="32" height="160">
+  <object height="160" name="skeleton knights" type="enemy" width="32" x="544" y="960">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="5,5"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="5,5" />
+   <property name="category" value="skeleton_knight_elite" /></properties>
   </object>
-  <object name="berserker squad" type="berserker" x="1120" y="1120" width="96" height="256">
+  <object height="256" name="berserker squad" type="enemy" width="96" x="1120" y="1120">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="24"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="24" />
+   <property name="category" value="berserker" /></properties>
   </object>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="1088" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="1056" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="1024" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="992" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="960" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="928" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="896" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="864" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="832" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="800" width="32" height="32"/>
-  <object name="barricade" type="ng_enemy_wooden_barricade" x="2432" y="768" width="32" height="32"/>
-  <object name="barbarian" type="ng_enemy_soldier_barbarian" x="2432" y="704" width="32" height="32"/>
-  <object name="barbarian" type="ng_enemy_soldier_barbarian" x="2368" y="736" width="32" height="32"/>
-  <object name="barbarian" type="ng_enemy_soldier_barbarian" x="2368" y="672" width="32" height="32"/>
-  <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="992" width="32" height="32"/>
-  <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="928" width="32" height="32"/>
-  <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="864" width="32" height="32"/>
-  <object name="skirmisher" type="ng_enemy_soldier_skirmisher" x="2368" y="800" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="1568" y="800" width="32" height="32"/>
-  <object name="Boss" type="ng_boss_general" x="608" y="1024" width="32" height="32"/>
-  <object name="skeleton mage" type="ng_enemy_skeleton_mage_elite" x="576" y="896" width="32" height="32"/>
-  <object name="skeleton mage" type="ng_enemy_skeleton_mage_elite" x="576" y="1152" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="448" y="896" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="448" y="1088" width="32" height="32"/>
-  <object name="mage" type="ng_enemy_soldier_mage" x="1248" y="1248" width="32" height="32"/>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="1088"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="1056"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="1024"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="992"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="960"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="928"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="896"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="864"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="832"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="800"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barricade" type="enemy" width="32" x="2432" y="768"><properties><property name="category" value="ng_enemy_wooden_barricade" /></properties></object>
+  <object height="32" name="barbarian" type="enemy" width="32" x="2432" y="704"><properties><property name="category" value="ng_enemy_soldier_barbarian" /></properties></object>
+  <object height="32" name="barbarian" type="enemy" width="32" x="2368" y="736"><properties><property name="category" value="ng_enemy_soldier_barbarian" /></properties></object>
+  <object height="32" name="barbarian" type="enemy" width="32" x="2368" y="672"><properties><property name="category" value="ng_enemy_soldier_barbarian" /></properties></object>
+  <object height="32" name="skirmisher" type="enemy" width="32" x="2368" y="992"><properties><property name="category" value="ng_enemy_soldier_skirmisher" /></properties></object>
+  <object height="32" name="skirmisher" type="enemy" width="32" x="2368" y="928"><properties><property name="category" value="ng_enemy_soldier_skirmisher" /></properties></object>
+  <object height="32" name="skirmisher" type="enemy" width="32" x="2368" y="864"><properties><property name="category" value="ng_enemy_soldier_skirmisher" /></properties></object>
+  <object height="32" name="skirmisher" type="enemy" width="32" x="2368" y="800"><properties><property name="category" value="ng_enemy_soldier_skirmisher" /></properties></object>
+  <object height="32" name="mage" type="enemy" width="32" x="1568" y="800"><properties><property name="category" value="ng_enemy_soldier_mage" /></properties></object>
+  <object height="32" name="Boss" type="enemy" width="32" x="608" y="1024"><properties><property name="category" value="ng_boss_general" /></properties></object>
+  <object height="32" name="skeleton mage" type="enemy" width="32" x="576" y="896"><properties><property name="category" value="ng_enemy_skeleton_mage_elite" /></properties></object>
+  <object height="32" name="skeleton mage" type="enemy" width="32" x="576" y="1152"><properties><property name="category" value="ng_enemy_skeleton_mage_elite" /></properties></object>
+  <object height="32" name="mage" type="enemy" width="32" x="448" y="896"><properties><property name="category" value="ng_enemy_soldier_mage" /></properties></object>
+  <object height="32" name="mage" type="enemy" width="32" x="448" y="1088"><properties><property name="category" value="ng_enemy_soldier_mage" /></properties></object>
+  <object height="32" name="mage" type="enemy" width="32" x="1248" y="1248"><properties><property name="category" value="ng_enemy_soldier_mage" /></properties></object>
  </objectgroup>
 </map>

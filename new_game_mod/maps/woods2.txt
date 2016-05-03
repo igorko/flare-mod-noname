@@ -631,25 +631,29 @@ data=
 
 [event]
 # to Sage Home
-type=on_trigger
+type=event
 location=47,137,2,1
+activate=on_trigger
 intermap=maps/sage_home.txt,12,5
 
 [event]
 # to abandoned mine
-type=on_trigger
+type=event
 location=146,109,2,1
+activate=on_trigger
 intermap=maps/abandoned_mine.txt,26,39
 
 [enemy]
 # Fire Antlion Quest
-type=ng_boss_antlion_fire
+type=enemy
 location=44,57,1,1
+category=ng_boss_antlion_fire
 
 [enemy]
 # Woods2
-type=woods2
+type=enemy
 location=23,45,155,145
+category=woods2
 level=15,20
 number=80,100
 

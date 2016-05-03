@@ -181,25 +181,29 @@ data=
 
 [event]
 # to dungeon 4
-type=on_trigger
+type=event
 location=3,18,1,2
+activate=on_trigger
 intermap=maps/dungeon4.txt,6,19
 
 [event]
 # to dungeon 6
-type=on_trigger
+type=event
 location=5,44,2,1
+activate=on_trigger
 intermap=maps/dungeon6.txt,5,43
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=12,6,37,25
+category=dungeon_skeleton
 level=20,30
 number=8,15
 
 [enemy]
 # demon
-type=ng_enemy_demon
+type=enemy
 location=15,35,1,1
+category=ng_enemy_demon
 

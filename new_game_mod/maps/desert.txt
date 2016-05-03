@@ -327,89 +327,102 @@ data=
 
 [event]
 # to Goblin Caves
-type=on_trigger
+type=event
 location=42,99,2,1
+activate=on_trigger
 intermap=maps/goblin_caves.txt,37,4
 
 [event]
 # to Asylum
-type=on_trigger
+type=event
 location=62,2,3,1
+activate=on_trigger
 intermap=maps/asylum.txt,16,44
 
 [event]
 # to desert 2
-type=on_trigger
+type=event
 location=0,34,1,3
+activate=on_trigger
 intermap=maps/desert2.txt,184,44
 
 [enemy]
 # Zombie
-type=zombie
+type=enemy
 location=17,54,15,14
+category=zombie
 level=10,13
 number=8,12
 
 [enemy]
 # Zombie
-type=zombie
+type=enemy
 location=49,71,17,15
+category=zombie
 level=10,12
 number=8,12
 
 [enemy]
 # Antlion
-type=antlion
+type=enemy
 location=23,22,26,22
+category=antlion
 level=10,13
 number=10,18
 
 [enemy]
 # Zombie
-type=zombie
+type=enemy
 location=60,15,9,14
+category=zombie
 level=10,13
 number=10,12
 
 [enemy]
 # Ghost
-type=ghost
+type=enemy
 location=56,15,17,6
+category=ghost
 level=10,15
 number=4,5
 
 [enemy]
 # Zombie
-type=zombie
+type=enemy
 location=63,46,15,10
+category=zombie
 level=10,13
 number=10,15
 
 [enemy]
 # Skeleton
-type=skeleton
+type=enemy
 location=64,40,10,22
+category=skeleton
 level=10,13
 number=8,12
 
 [enemy]
 # Desert
-type=desert
+type=enemy
 location=38,48,21,19
+category=desert
 level=10,13
 number=6,8
 
 [enemy]
 # Zombie
-type=zombie
+type=enemy
 location=12,5,37,12
+category=zombie
 level=10,13
 number=8,10
 
 [enemy]
 # Zombie
-type=zombie
+type=enemy
 location=49,29,10,9
+category=zombie
 level=10,13
 number=10,12
 

@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="150" height="100" tilewidth="64" tileheight="32">
+<map height="100" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="150">
  <properties>
-  <property name="music" value="music/overworld_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
-  <property name="title" value="Bloody Fields Copse"/>
+  <property name="music" value="music/overworld_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt" />
+  <property name="title" value="Bloody Fields Copse" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../grassland/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../grassland/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="grassland" tilewidth="64" tileheight="128">
-  <image source="../grassland/grassland.png" width="1024" height="1024"/>
+ <tileset firstgid="16" name="grassland" tileheight="128" tilewidth="64">
+  <image height="1024" source="../grassland/grassland.png" width="1024" />
  </tileset>
- <tileset firstgid="144" name="water" tilewidth="64" tileheight="64">
-  <tileoffset x="0" y="32"/>
-  <image source="../grassland/grassland_water.png" width="1024" height="256"/>
+ <tileset firstgid="144" name="water" tileheight="64" tilewidth="64">
+  <tileoffset x="0" y="32" />
+  <image height="256" source="../grassland/grassland_water.png" width="1024" />
  </tileset>
- <tileset firstgid="208" name="tall structures" tilewidth="64" tileheight="256">
-  <image source="../grassland/grassland_structures.png" width="1024" height="512"/>
+ <tileset firstgid="208" name="tall structures" tileheight="256" tilewidth="64">
+  <image height="512" source="../grassland/grassland_structures.png" width="1024" />
  </tileset>
- <tileset firstgid="240" name="trees" tilewidth="128" tileheight="256">
-  <tileoffset x="-32" y="0"/>
-  <image source="../grassland/grassland_trees.png" width="1024" height="512"/>
+ <tileset firstgid="240" name="trees" tileheight="256" tilewidth="128">
+  <tileoffset x="-32" y="0" />
+  <image height="512" source="../grassland/grassland_trees.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../grassland/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../grassland/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_grassland_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../grassland/tiled_grassland_2x2.png" width="512" height="512"/>
+ <tileset firstgid="264" name="tiled_grassland_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="512" source="../grassland/tiled_grassland_2x2.png" width="512" />
  </tileset>
- <layer name="background" width="150" height="100">
+ <layer height="100" name="background" width="150">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -133,7 +132,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="150" height="100">
+ <layer height="100" name="object" width="150">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -237,7 +236,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="150" height="100">
+ <layer height="100" name="collision" width="150">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -342,83 +341,83 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to battlefield 2" type="on_trigger" x="4096" y="1472" width="32" height="224">
+  <object height="224" name="to battlefield 2" type="event" width="32" x="4096" y="1472">
    <properties>
-    <property name="intermap" value="maps/battlefield2.txt,5,22"/>
-   </properties>
+    <property name="intermap" value="maps/battlefield2.txt,5,22" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to battlefield 4" type="on_trigger" x="160" y="832" width="32" height="352">
+  <object height="352" name="to battlefield 4" type="event" width="32" x="160" y="832">
    <properties>
-    <property name="intermap" value="maps/battlefield4.txt,166,63"/>
-   </properties>
+    <property name="intermap" value="maps/battlefield4.txt,166,63" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="archers" type="battlefield_archer" x="960" y="672" width="1184" height="768">
+  <object height="768" name="archers" type="enemy" width="1184" x="960" y="672">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="25,30"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="25,30" />
+   <property name="category" value="battlefield_archer" /></properties>
   </object>
-  <object name="archers" type="battlefield_archer" x="2560" y="1280" width="1088" height="704">
+  <object height="704" name="archers" type="enemy" width="1088" x="2560" y="1280">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="15,25"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="15,25" />
+   <property name="category" value="battlefield_archer" /></properties>
   </object>
-  <object name="barricade" type="wooden_barricade" x="1472" y="1472" width="32" height="320">
+  <object height="320" name="barricade" type="enemy" width="32" x="1472" y="1472">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="10,10"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="10,10" />
+   <property name="category" value="wooden_barricade" /></properties>
   </object>
-  <object name="barricade" type="wooden_barricade" x="2112" y="1536" width="32" height="480">
+  <object height="480" name="barricade" type="enemy" width="32" x="2112" y="1536">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="15,15"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="15,15" />
+   <property name="category" value="wooden_barricade" /></properties>
   </object>
-  <object name="barricade" type="wooden_barricade" x="1696" y="1664" width="32" height="384">
+  <object height="384" name="barricade" type="enemy" width="32" x="1696" y="1664">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="12,12"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="12,12" />
+   <property name="category" value="wooden_barricade" /></properties>
   </object>
-  <object name="barricade" type="wooden_barricade" x="1152" y="1568" width="32" height="448">
+  <object height="448" name="barricade" type="enemy" width="32" x="1152" y="1568">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="14,14"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="14,14" />
+   <property name="category" value="wooden_barricade" /></properties>
   </object>
-  <object name="barricade" type="wooden_barricade" x="1376" y="1728" width="32" height="416">
+  <object height="416" name="barricade" type="enemy" width="32" x="1376" y="1728">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="13,13"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="13,13" />
+   <property name="category" value="wooden_barricade" /></properties>
   </object>
-  <object name="mage" type="battlefield_mage" x="1216" y="1504" width="128" height="608">
+  <object height="608" name="mage" type="enemy" width="128" x="1216" y="1504">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="4,8"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="4,8" />
+   <property name="category" value="battlefield_mage" /></properties>
   </object>
-  <object name="mage" type="battlefield_mage" x="1504" y="1504" width="160" height="640">
+  <object height="640" name="mage" type="enemy" width="160" x="1504" y="1504">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="6,12"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="6,12" />
+   <property name="category" value="battlefield_mage" /></properties>
   </object>
-  <object name="mage" type="battlefield_mage" x="1824" y="1504" width="288" height="544">
+  <object height="544" name="mage" type="enemy" width="288" x="1824" y="1504">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="8,12"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="8,12" />
+   <property name="category" value="battlefield_mage" /></properties>
   </object>
-  <object name="battlefield" type="battlefield" x="2240" y="480" width="1376" height="768">
+  <object height="768" name="battlefield" type="enemy" width="1376" x="2240" y="480">
    <properties>
-    <property name="level" value="22,30"/>
-    <property name="number" value="8,12"/>
-   </properties>
+    <property name="level" value="22,30" />
+    <property name="number" value="8,12" />
+   <property name="category" value="battlefield" /></properties>
   </object>
  </objectgroup>
 </map>

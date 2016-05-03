@@ -181,70 +181,81 @@ data=
 
 [event]
 # to dungeon way
-type=on_trigger
+type=event
 location=94,17,1,2
+activate=on_trigger
 intermap=maps/dungeon_way.txt,6,20
 
 [event]
 # to battlefield 2
-type=on_trigger
+type=event
 location=3,18,1,4
+activate=on_trigger
 intermap=maps/battlefield2.txt,110,35
 
 [npc]
 # Evan
-type=npcs/evan.txt
+type=npc
 location=83,21,1,1
+filename=npcs/evan.txt
 requires_status=minotaur_complete
 
 [npc]
 # Ieuan
-type=npcs/ieuan.txt
+type=npc
 location=82,26,1,1
+filename=npcs/ieuan.txt
 requires_status=minotaur_complete
 
 [npc]
 # Vlad
-type=npcs/vlad.txt
+type=npc
 location=86,10,1,1
+filename=npcs/vlad.txt
 requires_status=minotaur_complete
 
 [npc]
 # Bryn
-type=npcs/bryn.txt
+type=npc
 location=90,29,1,1
+filename=npcs/bryn.txt
 requires_status=minotaur_complete
 
 [npc]
 # Bethan
-type=npcs/bethan.txt
+type=npc
 location=83,15,1,1
+filename=npcs/bethan.txt
 requires_status=minotaur_complete
 
 [npc]
 # ivan
-type=npcs/ivan3.txt
+type=npc
 location=85,13,1,1
+filename=npcs/ivan3.txt
 requires_status=minotaur_complete
 
 [enemy]
 # battlefield
-type=battlefield
+type=enemy
 location=10,3,30,41
+category=battlefield
 level=20,30
 number=15,25
 
 [enemy]
 # barricades
-type=wooden_barricade
+type=enemy
 location=66,8,1,28
+category=wooden_barricade
 level=20,30
 number=28,28
 
 [enemy]
 # scouts
-type=scout
+type=enemy
 location=54,11,10,21
+category=scout
 level=22,30
 number=10,15
 

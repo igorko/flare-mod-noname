@@ -181,22 +181,25 @@ data=
 
 [event]
 # to dungeon 9
-type=on_trigger
+type=event
 location=6,43,1,2
+activate=on_trigger
 intermap=maps/dungeon9.txt,6,39
 
 [event]
 # Greenwood Point wp
-type=on_trigger
+type=event
 location=44,3,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/town.txt,14,47
 tooltip=Greenwood Point
 
 [event]
 # wp activate
-type=on_trigger
+type=event
 location=42,1,6,6
+activate=on_trigger
 mapmod=object,44,4,265
 msg=Waypoint discovered
 repeat=false
@@ -205,81 +208,95 @@ set_status=wp_dungeon_10
 
 [event]
 # wp mapmod
-type=on_load
+type=event
 location=41,7,1,1
+activate=on_load
 mapmod=object,44,4,265
 requires_status=wp_dungeon_10
 
 [enemy]
 # Minotaur
-type=ng_boss_minotaur
+type=enemy
 location=22,6,1,1
+category=ng_boss_minotaur
 requires_not_status=minotaur_complete
 requires_status=progress_arrived_dungeon
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=15,2,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=19,2,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=23,2,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=27,2,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=31,2,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # skeleton mage
-type=ng_enemy_skeleton_mage
+type=enemy
 location=18,5,1,1
+category=ng_enemy_skeleton_mage
 
 [enemy]
 # skeleton mage
-type=ng_enemy_skeleton_mage
+type=enemy
 location=26,5,1,1
+category=ng_enemy_skeleton_mage
 
 [enemy]
 # skeleton knight
-type=ng_enemy_skeleton_knight
+type=enemy
 location=17,9,1,1
+category=ng_enemy_skeleton_knight
 
 [enemy]
 # skeleton knight
-type=ng_enemy_skeleton_knight
+type=enemy
 location=27,9,1,1
+category=ng_enemy_skeleton_knight
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=18,20,9,25
+category=dungeon_skeleton
 level=20,30
 number=6,12
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=32,21,15,26
+category=dungeon_skeleton
 level=20,30
 number=8,16
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=2,21,12,12
+category=dungeon_skeleton
 level=20,30
 number=4,6
 

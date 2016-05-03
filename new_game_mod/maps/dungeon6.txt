@@ -181,54 +181,63 @@ data=
 
 [event]
 # to dungeon 5
-type=on_trigger
+type=event
 location=3,42,1,2
+activate=on_trigger
 intermap=maps/dungeon5.txt,6,42
 
 [event]
 # to dungeon 7
-type=on_trigger
+type=event
 location=14,35,2,1
+activate=on_trigger
 intermap=maps/dungeon7.txt,12,36
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=12,17,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=19,11,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=26,33,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # cursed grave
-type=ng_enemy_cursed_grave
+type=enemy
 location=33,23,1,1
+category=ng_enemy_cursed_grave
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=19,12,13,19
+category=dungeon_skeleton
 level=20,30
 number=6,12
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=1,1,48,10
+category=dungeon_skeleton
 level=20,30
 number=6,12
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=34,31,15,18
+category=dungeon_skeleton
 level=20,30
 number=4,8
 

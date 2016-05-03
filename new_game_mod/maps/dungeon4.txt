@@ -181,42 +181,49 @@ data=
 
 [event]
 # to dungeon 3
-type=on_trigger
+type=event
 location=43,4,1,2
+activate=on_trigger
 intermap=maps/dungeon3.txt,42,3
 
 [event]
 # to dungeon 5
-type=on_trigger
+type=event
 location=5,21,2,1
+activate=on_trigger
 intermap=maps/dungeon5.txt,5,19
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=1,28,48,21
+category=dungeon_skeleton
 level=20,30
 number=8,12
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=15,1,24,27
+category=dungeon_skeleton
 level=20,30
 number=6,12
 
 [enemy]
 # demon statue
-type=ng_enemy_demon_statue
+type=enemy
 location=2,9,1,1
+category=ng_enemy_demon_statue
 
 [enemy]
 # demon statue
-type=ng_enemy_demon_statue
+type=enemy
 location=2,3,1,1
+category=ng_enemy_demon_statue
 
 [enemy]
 # demon statue
-type=ng_enemy_demon_statue
+type=enemy
 location=2,6,1,1
+category=ng_enemy_demon_statue
 

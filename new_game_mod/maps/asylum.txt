@@ -181,62 +181,71 @@ data=
 
 [event]
 # to Desert
-type=on_trigger
+type=event
 location=16,46,2,1
+activate=on_trigger
 intermap=maps/desert.txt,63,4
 
 [event]
 # to asylum 2
-type=on_trigger
+type=event
 location=25,3,2,1
+activate=on_trigger
 intermap=maps/asylum2.txt,58,65
 
 [event]
 # set arrival status
-type=on_load
+type=event
 location=15,45,1,1
+activate=on_load
 requires_not_status=progress_arrived_asylum
 set_status=progress_arrived_asylum
 
 [enemy]
 # Spirits
-type=spirit
+type=enemy
 location=5,14,16,9
+category=spirit
 level=10,16
 number=6,8
 
 [enemy]
 # Spirits
-type=spirit
+type=enemy
 location=30,4,17,20
+category=spirit
 level=10,16
 number=10,20
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=5,4,10,9
+category=spirit
 level=10,16
 number=8,10
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=23,32,24,14
+category=spirit
 level=10,16
 number=6,10
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=5,25,42,5
+category=spirit
 level=10,16
 number=4,5
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=23,5,6,19
+category=spirit
 level=10,16
 number=4,6
 

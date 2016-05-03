@@ -1,36 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="50" height="50" tilewidth="64" tileheight="32">
+<map height="50" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="50">
  <properties>
-  <property name="music" value="music/dungeon_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt"/>
-  <property name="title" value="Asylum"/>
+  <property name="music" value="music/dungeon_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt" />
+  <property name="title" value="Asylum" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../dungeon/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../dungeon/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="dungeon" tilewidth="64" tileheight="128">
-  <image source="../dungeon/tiled_dungeon.png" width="1024" height="1920"/>
+ <tileset firstgid="16" name="dungeon" tileheight="128" tilewidth="64">
+  <image height="1920" source="../dungeon/tiled_dungeon.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../dungeon/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../dungeon/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_dungeon_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../dungeon/tiled_dungeon_2x2.png" width="512" height="256"/>
+ <tileset firstgid="264" name="tiled_dungeon_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="256" source="../dungeon/tiled_dungeon_2x2.png" width="512" />
  </tileset>
- <tileset firstgid="280" name="door_left" tilewidth="64" tileheight="128">
-  <tileoffset x="-16" y="-8"/>
-  <image source="../dungeon/door_left.png" width="128" height="128"/>
+ <tileset firstgid="280" name="door_left" tileheight="128" tilewidth="64">
+  <tileoffset x="-16" y="-8" />
+  <image height="128" source="../dungeon/door_left.png" width="128" />
  </tileset>
- <tileset firstgid="282" name="door_right" tilewidth="64" tileheight="128">
-  <tileoffset x="16" y="-8"/>
-  <image source="../dungeon/door_right.png" width="128" height="128"/>
+ <tileset firstgid="282" name="door_right" tileheight="128" tilewidth="64">
+  <tileoffset x="16" y="-8" />
+  <image height="128" source="../dungeon/door_right.png" width="128" />
  </tileset>
- <tileset firstgid="284" name="stairs" tilewidth="256" tileheight="256">
-  <tileoffset x="0" y="48"/>
-  <image source="../dungeon/stairs.png" width="1024" height="256"/>
+ <tileset firstgid="284" name="stairs" tileheight="256" tilewidth="256">
+  <tileoffset x="0" y="48" />
+  <image height="256" source="../dungeon/stairs.png" width="1024" />
  </tileset>
- <layer name="background" width="50" height="50">
+ <layer height="50" name="background" width="50">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -84,7 +83,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="50" height="50">
+ <layer height="50" name="object" width="50">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -138,7 +137,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="50" height="50" visible="0">
+ <layer height="50" name="collision" visible="0" width="50">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -193,59 +192,59 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to Desert" type="on_trigger" x="512" y="1472" width="64" height="32">
+  <object height="32" name="to Desert" type="event" width="64" x="512" y="1472">
    <properties>
-    <property name="intermap" value="maps/desert.txt,63,4"/>
-   </properties>
+    <property name="intermap" value="maps/desert.txt,63,4" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to asylum 2" type="on_trigger" x="800" y="96" width="64" height="32">
+  <object height="32" name="to asylum 2" type="event" width="64" x="800" y="96">
    <properties>
-    <property name="intermap" value="maps/asylum2.txt,58,65"/>
-   </properties>
+    <property name="intermap" value="maps/asylum2.txt,58,65" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="set arrival status" type="on_load" x="480" y="1440" width="32" height="32">
+  <object height="32" name="set arrival status" type="event" width="32" x="480" y="1440">
    <properties>
-    <property name="requires_not_status" value="progress_arrived_asylum"/>
-    <property name="set_status" value="progress_arrived_asylum"/>
-   </properties>
+    <property name="requires_not_status" value="progress_arrived_asylum" />
+    <property name="set_status" value="progress_arrived_asylum" />
+   <property name="activate" value="on_load" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="Spirits" type="spirit" x="160" y="448" width="512" height="288">
+  <object height="288" name="Spirits" type="enemy" width="512" x="160" y="448">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="6,8"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="6,8" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="Spirits" type="spirit" x="960" y="128" width="544" height="640">
+  <object height="640" name="Spirits" type="enemy" width="544" x="960" y="128">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="10,20"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="10,20" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="Spirit" type="spirit" x="160" y="128" width="320" height="288">
+  <object height="288" name="Spirit" type="enemy" width="320" x="160" y="128">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="8,10"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="8,10" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="Spirit" type="spirit" x="736" y="1024" width="768" height="448">
+  <object height="448" name="Spirit" type="enemy" width="768" x="736" y="1024">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="6,10"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="6,10" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="Spirit" type="spirit" x="160" y="800" width="1344" height="160">
+  <object height="160" name="Spirit" type="enemy" width="1344" x="160" y="800">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="4,5"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="4,5" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="Spirit" type="spirit" x="736" y="160" width="192" height="608">
+  <object height="608" name="Spirit" type="enemy" width="192" x="736" y="160">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="4,6"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="4,6" />
+   <property name="category" value="spirit" /></properties>
   </object>
  </objectgroup>
 </map>

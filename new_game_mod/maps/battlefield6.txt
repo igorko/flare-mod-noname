@@ -181,67 +181,77 @@ data=
 
 [event]
 # to battlefield 5
-type=on_trigger
+type=event
 location=69,28,1,2
+activate=on_trigger
 intermap=maps/battlefield5.txt,4,31
 
 [event]
 # to end
-type=on_trigger
+type=event
 location=4,16,1,2
+activate=on_trigger
 intermap=maps/end.txt,32,32
 
 [enemy]
 # Boss
-type=ng_boss_big
+type=enemy
 location=22,18,1,1
+category=ng_boss_big
 
 [enemy]
 # assassins
-type=assassin
+type=enemy
 location=20,9,2,2
+category=assassin
 level=20,30
 number=4,4
 
 [enemy]
 # assassins
-type=assassin
+type=enemy
 location=20,26,2,2
+category=assassin
 level=22,30
 number=4,4
 
 [enemy]
 # skeleton knights
-type=skeleton_knight_elite
+type=enemy
 location=23,13,1,11
+category=skeleton_knight_elite
 level=22,30
 number=11,11
 
 [enemy]
 # skirmishers
-type=skirmisher
+type=enemy
 location=18,11,1,15
+category=skirmisher
 level=22,30
 number=15
 
 [enemy]
 # barricades
-type=wooden_barricade
+type=enemy
 location=27,21,1,8
+category=wooden_barricade
 level=20,30
 number=8,8
 
 [enemy]
 # barricades
-type=wooden_barricade
+type=enemy
 location=27,8,1,8
+category=wooden_barricade
 level=20,30
 number=8,8
 
 [enemy]
 # barricades
-type=wooden_barricade
+type=enemy
 location=31,13,1,11
+category=wooden_barricade
 level=20,30
 number=11
 

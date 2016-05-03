@@ -151,34 +151,39 @@ data=
 
 [event]
 # to wyvern cave 3
-type=on_trigger
+type=event
 location=36,23,1,2
+activate=on_trigger
 intermap=maps/wyvern_cave3.txt,9,21
 
 [event]
 # to woods2
-type=on_trigger
+type=event
 location=12,3,2,1
+activate=on_trigger
 intermap=maps/woods2.txt,47,135
 
 [event]
 # to marshlands
-type=on_trigger
+type=event
 location=3,19,1,2
+activate=on_trigger
 intermap=maps/marshlands.txt,73,78
 
 [event]
 # Greenwood Point wp
-type=on_trigger
+type=event
 location=15,24,2,2
+activate=on_trigger
 hotspot=location
 intermap=maps/town.txt,20,50
 tooltip=Greenwood Point
 
 [event]
 # Activate
-type=on_trigger
+type=event
 location=13,22,6,6
+activate=on_trigger
 mapmod=object,15,25,265
 msg=Waypoint discovered
 repeat=false
@@ -187,15 +192,17 @@ set_status=wp_sage_home
 
 [event]
 # waypoint mapmod
-type=on_load
+type=event
 location=12,28,1,1
+activate=on_load
 mapmod=object,15,25,265
 requires_status=wp_sage_home
 
 [event]
 # Shared stash
-type=on_trigger
+type=event
 location=15,14,1,1
+activate=on_trigger
 hotspot=location
 soundfx=soundfx/wood_open.ogg
 stash=true
@@ -203,21 +210,24 @@ tooltip=Shared Stash
 
 [npc]
 # Bethan
-type=npcs/bethan.txt
+type=npc
 location=15,16,1,1
+filename=npcs/bethan.txt
 requires_not_status=minotaur_complete
 
 [npc]
 # Ieuan
-type=npcs/ieuan.txt
+type=npc
 location=20,11,1,1
+filename=npcs/ieuan.txt
 requires_not_status=minotaur_complete
 requires_status=werebear_complete
 
 [npc]
 # ivan
-type=npcs/ivan2.txt
+type=npc
 location=9,14,1,1
+filename=npcs/ivan2.txt
 requires_not_status=minotaur_complete
 requires_status=werebear_complete
 

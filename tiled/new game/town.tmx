@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" width="100" height="100" tilewidth="64" tileheight="32">
+<map height="100" orientation="isometric" tileheight="32" tilewidth="64" version="1.0" width="100">
  <properties>
-  <property name="music" value="music/overworld_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
-  <property name="title" value="Greenwood Point"/>
+  <property name="music" value="music/overworld_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt" />
+  <property name="title" value="Greenwood Point" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../grassland/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../grassland/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="grassland" tilewidth="64" tileheight="128">
-  <image source="../grassland/grassland.png" width="1024" height="1024"/>
+ <tileset firstgid="16" name="grassland" tileheight="128" tilewidth="64">
+  <image height="1024" source="../grassland/grassland.png" width="1024" />
  </tileset>
- <tileset firstgid="144" name="water" tilewidth="64" tileheight="64">
-  <tileoffset x="0" y="32"/>
-  <image source="../grassland/grassland_water.png" width="1024" height="256"/>
+ <tileset firstgid="144" name="water" tileheight="64" tilewidth="64">
+  <tileoffset x="0" y="32" />
+  <image height="256" source="../grassland/grassland_water.png" width="1024" />
  </tileset>
- <tileset firstgid="208" name="tall structures" tilewidth="64" tileheight="256">
-  <image source="../grassland/grassland_structures.png" width="1024" height="512"/>
+ <tileset firstgid="208" name="tall structures" tileheight="256" tilewidth="64">
+  <image height="512" source="../grassland/grassland_structures.png" width="1024" />
  </tileset>
- <tileset firstgid="240" name="trees" tilewidth="128" tileheight="256">
-  <tileoffset x="-32" y="0"/>
-  <image source="../grassland/grassland_trees.png" width="1024" height="512"/>
+ <tileset firstgid="240" name="trees" tileheight="256" tilewidth="128">
+  <tileoffset x="-32" y="0" />
+  <image height="512" source="../grassland/grassland_trees.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../grassland/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../grassland/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_grassland_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../grassland/tiled_grassland_2x2.png" width="512" height="512"/>
+ <tileset firstgid="264" name="tiled_grassland_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="512" source="../grassland/tiled_grassland_2x2.png" width="512" />
  </tileset>
- <layer name="background" width="100" height="100">
+ <layer height="100" name="background" width="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -133,7 +132,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="100" height="100">
+ <layer height="100" name="object" width="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -237,7 +236,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="100" height="100">
+ <layer height="100" name="collision" width="100">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -341,123 +340,123 @@
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 </data>
  </layer>
- <objectgroup name="event" width="100" height="100">
-  <object name="to Fern Valley" type="on_trigger" x="1248" y="2880" width="128" height="32">
+ <objectgroup height="100" name="event" width="100">
+  <object height="32" name="to Fern Valley" type="event" width="128" x="1248" y="2880">
    <properties>
-    <property name="intermap" value="maps/fern_valley.txt,17,2"/>
-   </properties>
+    <property name="intermap" value="maps/fern_valley.txt,17,2" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to Woods" type="on_trigger" x="1184" y="384" width="64" height="32">
+  <object height="32" name="to Woods" type="event" width="64" x="1184" y="384">
    <properties>
-    <property name="intermap" value="maps/woods.txt,165,184"/>
-   </properties>
+    <property name="intermap" value="maps/woods.txt,165,184" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="River Road wp" type="on_trigger" x="256" y="1536" width="64" height="64">
+  <object height="64" name="River Road wp" type="event" width="64" x="256" y="1536">
    <properties>
-    <property name="hotspot" value="location"/>
-    <property name="intermap" value="maps/river_road.txt,18,15"/>
-    <property name="requires_status" value="wp_end"/>
-    <property name="tooltip" value="River Road"/>
-   </properties>
+    <property name="hotspot" value="location" />
+    <property name="intermap" value="maps/river_road.txt,18,15" />
+    <property name="requires_status" value="wp_end" />
+    <property name="tooltip" value="River Road" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="Journeys End wp" type="on_trigger" x="416" y="1632" width="64" height="64">
+  <object height="64" name="Journeys End wp" type="event" width="64" x="416" y="1632">
    <properties>
-    <property name="hotspot" value="location"/>
-    <property name="intermap" value="maps/end.txt,11,8"/>
-    <property name="requires_status" value="wp_end"/>
-    <property name="tooltip" value="Journeys End"/>
-   </properties>
+    <property name="hotspot" value="location" />
+    <property name="intermap" value="maps/end.txt,11,8" />
+    <property name="requires_status" value="wp_end" />
+    <property name="tooltip" value="Journeys End" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="set arrive status" type="on_load" x="768" y="2208" width="32" height="32">
+  <object height="32" name="set arrive status" type="event" width="32" x="768" y="2208">
    <properties>
-    <property name="requires_not_status" value="progress_arrived_town"/>
-    <property name="set_status" value="progress_arrived_town"/>
-   </properties>
+    <property name="requires_not_status" value="progress_arrived_town" />
+    <property name="set_status" value="progress_arrived_town" />
+   <property name="activate" value="on_load" /></properties>
   </object>
-  <object name="Northwood Cottage wp" type="on_trigger" x="544" y="1632" width="64" height="64">
+  <object height="64" name="Northwood Cottage wp" type="event" width="64" x="544" y="1632">
    <properties>
-    <property name="hotspot" value="location"/>
-    <property name="intermap" value="maps/sage_home.txt,16,22"/>
-    <property name="requires_status" value="wp_sage_home"/>
-    <property name="tooltip" value="Northwood Cottage"/>
-   </properties>
+    <property name="hotspot" value="location" />
+    <property name="intermap" value="maps/sage_home.txt,16,22" />
+    <property name="requires_status" value="wp_sage_home" />
+    <property name="tooltip" value="Northwood Cottage" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="wp mapmod sage home" type="on_load" x="512" y="1696" width="32" height="32">
+  <object height="32" name="wp mapmod sage home" type="event" width="32" x="512" y="1696">
    <properties>
-    <property name="mapmod" value="object,17,52,265"/>
-    <property name="requires_status" value="wp_sage_home"/>
-   </properties>
+    <property name="mapmod" value="object,17,52,265" />
+    <property name="requires_status" value="wp_sage_home" />
+   <property name="activate" value="on_load" /></properties>
   </object>
-  <object name="Ancient Dungeon Level 10 wp" type="on_trigger" x="416" y="1408" width="64" height="64">
+  <object height="64" name="Ancient Dungeon Level 10 wp" type="event" width="64" x="416" y="1408">
    <properties>
-    <property name="hotspot" value="location"/>
-    <property name="intermap" value="maps/dungeon10.txt,42,4"/>
-    <property name="requires_status" value="wp_dungeon_10"/>
-    <property name="tooltip" value="Ancient Dungeon Level 10"/>
-   </properties>
+    <property name="hotspot" value="location" />
+    <property name="intermap" value="maps/dungeon10.txt,42,4" />
+    <property name="requires_status" value="wp_dungeon_10" />
+    <property name="tooltip" value="Ancient Dungeon Level 10" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="Ancient Pass wp" type="on_trigger" x="544" y="1408" width="64" height="64">
+  <object height="64" name="Ancient Pass wp" type="event" width="64" x="544" y="1408">
    <properties>
-    <property name="hotspot" value="location"/>
-    <property name="intermap" value="maps/dungeon_way.txt,15,26"/>
-    <property name="requires_status" value="wp_dungeon_way"/>
-    <property name="tooltip" value="Ancient Pass"/>
-   </properties>
+    <property name="hotspot" value="location" />
+    <property name="intermap" value="maps/dungeon_way.txt,15,26" />
+    <property name="requires_status" value="wp_dungeon_way" />
+    <property name="tooltip" value="Ancient Pass" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="wp mapmod dungeon way" type="on_load" x="512" y="1472" width="32" height="32">
+  <object height="32" name="wp mapmod dungeon way" type="event" width="32" x="512" y="1472">
    <properties>
-    <property name="mapmod" value="object,17,45,265"/>
-    <property name="requires_status" value="wp_dungeon_way"/>
-   </properties>
+    <property name="mapmod" value="object,17,45,265" />
+    <property name="requires_status" value="wp_dungeon_way" />
+   <property name="activate" value="on_load" /></properties>
   </object>
-  <object name="wp mapmod dungeon 10" type="on_load" x="384" y="1472" width="32" height="32">
+  <object height="32" name="wp mapmod dungeon 10" type="event" width="32" x="384" y="1472">
    <properties>
-    <property name="mapmod" value="object,13,45,265"/>
-    <property name="requires_status" value="wp_dungeon_10"/>
-   </properties>
+    <property name="mapmod" value="object,13,45,265" />
+    <property name="requires_status" value="wp_dungeon_10" />
+   <property name="activate" value="on_load" /></properties>
   </object>
-  <object name="wp mapmod end" type="on_load" x="384" y="1696" width="32" height="32">
+  <object height="32" name="wp mapmod end" type="event" width="32" x="384" y="1696">
    <properties>
-    <property name="mapmod" value="object,13,52,265"/>
-    <property name="requires_status" value="wp_end"/>
-   </properties>
+    <property name="mapmod" value="object,13,52,265" />
+    <property name="requires_status" value="wp_end" />
+   <property name="activate" value="on_load" /></properties>
   </object>
-  <object name="wp mapmod river road" type="on_load" x="224" y="1600" width="32" height="32">
+  <object height="32" name="wp mapmod river road" type="event" width="32" x="224" y="1600">
    <properties>
-    <property name="mapmod" value="object,8,49,265"/>
-    <property name="requires_status" value="wp_end"/>
-   </properties>
+    <property name="mapmod" value="object,8,49,265" />
+    <property name="requires_status" value="wp_end" />
+   <property name="activate" value="on_load" /></properties>
   </object>
-  <object name="Shared stash" type="on_trigger" x="2880" y="1184" width="32" height="32">
+  <object height="32" name="Shared stash" type="event" width="32" x="2880" y="1184">
    <properties>
-    <property name="hotspot" value="location"/>
-    <property name="soundfx" value="soundfx/wood_open.ogg"/>
-    <property name="stash" value="true"/>
-    <property name="tooltip" value="Shared Stash"/>
-   </properties>
+    <property name="hotspot" value="location" />
+    <property name="soundfx" value="soundfx/wood_open.ogg" />
+    <property name="stash" value="true" />
+    <property name="tooltip" value="Shared Stash" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="Shared stash" type="on_trigger" x="1248" y="1696" width="32" height="32">
+  <object height="32" name="Shared stash" type="event" width="32" x="1248" y="1696">
    <properties>
-    <property name="hotspot" value="location"/>
-    <property name="soundfx" value="soundfx/wood_open.ogg"/>
-    <property name="stash" value="true"/>
-    <property name="tooltip" value="Shared Stash"/>
-   </properties>
+    <property name="hotspot" value="location" />
+    <property name="soundfx" value="soundfx/wood_open.ogg" />
+    <property name="stash" value="true" />
+    <property name="tooltip" value="Shared Stash" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
- <objectgroup name="npc" width="100" height="100">
-  <object name="Ieuan" type="npcs/ieuan.txt" x="1152" y="1760" width="32" height="32">
+ <objectgroup height="100" name="npc" width="100">
+  <object height="32" name="Ieuan" type="npc" width="32" x="1152" y="1760">
    <properties>
-    <property name="requires_not_status" value="bethan_quests_complete"/>
-   </properties>
+    <property name="requires_not_status" value="bethan_quests_complete" />
+   <property name="filename" value="npcs/ieuan.txt" /></properties>
   </object>
-  <object name="Evan" type="npcs/evan.txt" x="1536" y="640" width="32" height="32">
+  <object height="32" name="Evan" type="npc" width="32" x="1536" y="640">
    <properties>
-    <property name="requires_not_status" value="minotaur_complete"/>
-   </properties>
+    <property name="requires_not_status" value="minotaur_complete" />
+   <property name="filename" value="npcs/evan.txt" /></properties>
   </object>
-  <object name="Branwen" type="npcs/branwen.txt" x="1888" y="1728" width="32" height="32"/>
-  <object name="farmer" type="npcs/farmer_pitchfork_working.txt" x="2752" y="1280" width="32" height="32"/>
-  <object name="horse" type="npcs/horse_southeast.txt" x="2624" y="928" width="32" height="32"/>
+  <object height="32" name="Branwen" type="npc" width="32" x="1888" y="1728"><properties><property name="filename" value="npcs/branwen.txt" /></properties></object>
+  <object height="32" name="farmer" type="npc" width="32" x="2752" y="1280"><properties><property name="filename" value="npcs/farmer_pitchfork_working.txt" /></properties></object>
+  <object height="32" name="horse" type="npc" width="32" x="2624" y="928"><properties><property name="filename" value="npcs/horse_southeast.txt" /></properties></object>
  </objectgroup>
 </map>

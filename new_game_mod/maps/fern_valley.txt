@@ -631,55 +631,63 @@ data=
 
 [event]
 # to Town
-type=on_trigger
+type=event
 location=15,0,5,1
+activate=on_trigger
 intermap=maps/town.txt,39,88
 
 [npc]
 # Ieuan
-type=npcs/ieuan.txt
+type=npc
 location=17,184,1,1
+filename=npcs/ieuan.txt
 requires_not_status=progress_arrived_town
 
 [enemy]
 # Small Spiders
-type=small_spider
+type=enemy
 location=5,145,33,25
+category=small_spider
 level=1,5
 number=5,6
 
 [enemy]
 # Spiders
-type=spider
+type=enemy
 location=9,119,25,25
+category=spider
 level=1,5
 number=3,4
 
 [enemy]
 # Zombies
-type=rotting_zombie
+type=enemy
 location=2,91,17,12
+category=rotting_zombie
 level=1,5
 number=5,6
 
 [enemy]
 # Undead
-type=fern_valley_undead
+type=enemy
 location=9,60,28,30
+category=fern_valley_undead
 level=1,5
 number=6,8
 
 [enemy]
 # Undead
-type=fern_valley_undead
+type=enemy
 location=5,32,33,27
+category=fern_valley_undead
 level=1,5
 number=8,10
 
 [enemy]
 # Spiders
-type=spider
+type=enemy
 location=21,18,15,13
+category=spider
 level=1,5
 number=4,5
 

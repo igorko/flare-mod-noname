@@ -181,35 +181,40 @@ data=
 
 [event]
 # to dungeon way
-type=on_trigger
+type=event
 location=3,43,1,2
+activate=on_trigger
 intermap=maps/dungeon_way.txt,14,22
 
 [event]
 # to Dungeon 2
-type=on_trigger
+type=event
 location=43,3,1,2
+activate=on_trigger
 intermap=maps/dungeon2.txt,41,6
 
 [event]
 # set arrive status
-type=on_load
+type=event
 location=4,42,1,1
+activate=on_load
 requires_not_status=progress_arrived_dungeon
 requires_status=minotaur_intro
 set_status=progress_arrived_dungeon
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=1,1,34,36
+category=dungeon_skeleton
 level=20,30
 number=10,20
 
 [enemy]
 # skeletons
-type=dungeon_skeleton
+type=enemy
 location=30,11,19,38
+category=dungeon_skeleton
 level=20,30
 number=5,10
 

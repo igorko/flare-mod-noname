@@ -1,36 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="100" height="50" tilewidth="64" tileheight="32">
+<map height="50" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="100">
  <properties>
-  <property name="music" value="music/dungeon_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt"/>
-  <property name="title" value="Asylum Governors Wing"/>
+  <property name="music" value="music/dungeon_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_dungeon.txt" />
+  <property name="title" value="Asylum Governors Wing" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../dungeon/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../dungeon/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="dungeon" tilewidth="64" tileheight="128">
-  <image source="../dungeon/tiled_dungeon.png" width="1024" height="1920"/>
+ <tileset firstgid="16" name="dungeon" tileheight="128" tilewidth="64">
+  <image height="1920" source="../dungeon/tiled_dungeon.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../dungeon/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../dungeon/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_dungeon_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../dungeon/tiled_dungeon_2x2.png" width="512" height="256"/>
+ <tileset firstgid="264" name="tiled_dungeon_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="256" source="../dungeon/tiled_dungeon_2x2.png" width="512" />
  </tileset>
- <tileset firstgid="280" name="door_left" tilewidth="64" tileheight="128">
-  <tileoffset x="-16" y="-8"/>
-  <image source="../dungeon/door_left.png" width="128" height="128"/>
+ <tileset firstgid="280" name="door_left" tileheight="128" tilewidth="64">
+  <tileoffset x="-16" y="-8" />
+  <image height="128" source="../dungeon/door_left.png" width="128" />
  </tileset>
- <tileset firstgid="282" name="door_right" tilewidth="64" tileheight="128">
-  <tileoffset x="16" y="-8"/>
-  <image source="../dungeon/door_right.png" width="128" height="128"/>
+ <tileset firstgid="282" name="door_right" tileheight="128" tilewidth="64">
+  <tileoffset x="16" y="-8" />
+  <image height="128" source="../dungeon/door_right.png" width="128" />
  </tileset>
- <tileset firstgid="284" name="stairs" tilewidth="256" tileheight="256">
-  <tileoffset x="0" y="48"/>
-  <image source="../dungeon/stairs.png" width="1024" height="256"/>
+ <tileset firstgid="284" name="stairs" tileheight="256" tilewidth="256">
+  <tileoffset x="0" y="48" />
+  <image height="256" source="../dungeon/stairs.png" width="1024" />
  </tileset>
- <layer name="background" width="100" height="50">
+ <layer height="50" name="background" width="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -84,7 +83,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="100" height="50">
+ <layer height="50" name="object" width="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -138,7 +137,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="100" height="50" visible="0">
+ <layer height="50" name="collision" visible="0" width="100">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -193,52 +192,52 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to asylum 2" type="on_trigger" x="2688" y="1024" width="64" height="32">
+  <object height="32" name="to asylum 2" type="event" width="64" x="2688" y="1024">
    <properties>
-    <property name="intermap" value="maps/asylum2.txt,13,6"/>
-   </properties>
+    <property name="intermap" value="maps/asylum2.txt,13,6" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="npc">
-  <object name="The Governor" type="npcs/governor.txt" x="128" y="704" width="32" height="32"/>
+  <object height="32" name="The Governor" type="npc" width="32" x="128" y="704"><properties><property name="filename" value="npcs/governor.txt" /></properties></object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="Spirit" type="spirit" x="896" y="384" width="320" height="800">
+  <object height="800" name="Spirit" type="enemy" width="320" x="896" y="384">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="14,20"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="14,20" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="Zombie" type="zombie" x="1440" y="640" width="384" height="352">
+  <object height="352" name="Zombie" type="enemy" width="384" x="1440" y="640">
    <properties>
-    <property name="level" value="9,11"/>
-    <property name="number" value="10,12"/>
-   </properties>
+    <property name="level" value="9,11" />
+    <property name="number" value="10,12" />
+   <property name="category" value="zombie" /></properties>
   </object>
-  <object name="Headless Horseman" type="headless_horseman" x="736" y="576" width="64" height="224">
+  <object height="224" name="Headless Horseman" type="enemy" width="64" x="736" y="576">
    <properties>
-    <property name="level" value="18,18"/>
-    <property name="number" value="3,3"/>
-   </properties>
+    <property name="level" value="18,18" />
+    <property name="number" value="3,3" />
+   <property name="category" value="headless_horseman" /></properties>
   </object>
-  <object name="Spirit" type="spirit" x="384" y="128" width="320" height="160">
+  <object height="160" name="Spirit" type="enemy" width="320" x="384" y="128">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="6,8"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="6,8" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="Spirit" type="spirit" x="384" y="1280" width="352" height="256">
+  <object height="256" name="Spirit" type="enemy" width="352" x="384" y="1280">
    <properties>
-    <property name="level" value="10,16"/>
-    <property name="number" value="8,10"/>
-   </properties>
+    <property name="level" value="10,16" />
+    <property name="number" value="8,10" />
+   <property name="category" value="spirit" /></properties>
   </object>
-  <object name="Poltergeist" type="poltergeist" x="448" y="416" width="32" height="544">
+  <object height="544" name="Poltergeist" type="enemy" width="32" x="448" y="416">
    <properties>
-    <property name="level" value="15,15"/>
-    <property name="number" value="4,6"/>
-   </properties>
+    <property name="level" value="15,15" />
+    <property name="number" value="4,6" />
+   <property name="category" value="poltergeist" /></properties>
   </object>
-  <object name="commander" type="ng_boss_ghost_commander" x="608" y="640" width="32" height="32"/>
+  <object height="32" name="commander" type="enemy" width="32" x="608" y="640"><properties><property name="category" value="ng_boss_ghost_commander" /></properties></object>
  </objectgroup>
 </map>

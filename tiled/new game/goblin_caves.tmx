@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="100" height="100" tilewidth="64" tileheight="32">
+<map height="100" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="100">
  <properties>
-  <property name="music" value="music/cave_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_cave.txt"/>
-  <property name="title" value="Goblin Caves"/>
+  <property name="music" value="music/cave_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_cave.txt" />
+  <property name="title" value="Goblin Caves" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../cave/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../cave/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="cave" tilewidth="64" tileheight="128">
-  <image source="../cave/tiled_cave.png" width="1024" height="1920"/>
+ <tileset firstgid="16" name="cave" tileheight="128" tilewidth="64">
+  <image height="1920" source="../cave/tiled_cave.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../cave/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../cave/set_rules.png" width="128" />
  </tileset>
- <layer name="background" width="100" height="100">
+ <layer height="100" name="background" width="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -118,7 +117,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="100" height="100">
+ <layer height="100" name="object" width="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -222,7 +221,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="100" height="100" visible="0">
+ <layer height="100" name="collision" visible="0" width="100">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -327,54 +326,54 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to Woods" type="on_trigger" x="1664" y="2848" width="64" height="32">
+  <object height="32" name="to Woods" type="event" width="64" x="1664" y="2848">
    <properties>
-    <property name="intermap" value="maps/woods.txt,22,24"/>
-   </properties>
+    <property name="intermap" value="maps/woods.txt,22,24" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
-  <object name="to Desert" type="on_trigger" x="1120" y="64" width="128" height="32">
+  <object height="32" name="to Desert" type="event" width="128" x="1120" y="64">
    <properties>
-    <property name="intermap" value="maps/desert.txt,42,97"/>
-   </properties>
+    <property name="intermap" value="maps/desert.txt,42,97" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="npc">
-  <object name="Vlad" type="npcs/vlad.txt" x="1632" y="2464" width="32" height="32">
+  <object height="32" name="Vlad" type="npc" width="32" x="1632" y="2464">
    <properties>
-    <property name="requires_not_status" value="minotaur_complete"/>
-   </properties>
+    <property name="requires_not_status" value="minotaur_complete" />
+   <property name="filename" value="npcs/vlad.txt" /></properties>
   </object>
-  <object name="Ivan" type="npcs/ivan.txt" x="736" y="2176" width="32" height="32">
+  <object height="32" name="Ivan" type="npc" width="32" x="736" y="2176">
    <properties>
-    <property name="requires_not_status" value="werebear_complete"/>
-   </properties>
+    <property name="requires_not_status" value="werebear_complete" />
+   <property name="filename" value="npcs/ivan.txt" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="Spiders" type="arachnid" x="1792" y="320" width="480" height="736">
+  <object height="736" name="Spiders" type="enemy" width="480" x="1792" y="320">
    <properties>
-    <property name="level" value="1,10"/>
-    <property name="number" value="8,12"/>
-   </properties>
+    <property name="level" value="1,10" />
+    <property name="number" value="8,12" />
+   <property name="category" value="arachnid" /></properties>
   </object>
-  <object name="Spiders" type="arachnid" x="192" y="704" width="512" height="704">
+  <object height="704" name="Spiders" type="enemy" width="512" x="192" y="704">
    <properties>
-    <property name="level" value="8,12"/>
-    <property name="number" value="6,8"/>
-   </properties>
+    <property name="level" value="8,12" />
+    <property name="number" value="6,8" />
+   <property name="category" value="arachnid" /></properties>
   </object>
-  <object name="Spiders" type="arachnid" x="544" y="256" width="896" height="768">
+  <object height="768" name="Spiders" type="enemy" width="896" x="544" y="256">
    <properties>
-    <property name="level" value="8,12"/>
-    <property name="number" value="15,20"/>
-   </properties>
+    <property name="level" value="8,12" />
+    <property name="number" value="15,20" />
+   <property name="category" value="arachnid" /></properties>
   </object>
-  <object name="Spiders" type="arachnid" x="928" y="1472" width="544" height="320">
+  <object height="320" name="Spiders" type="enemy" width="544" x="928" y="1472">
    <properties>
-    <property name="level" value="8,12"/>
-    <property name="number" value="5,6"/>
-   </properties>
+    <property name="level" value="8,12" />
+    <property name="number" value="5,6" />
+   <property name="category" value="arachnid" /></properties>
   </object>
-  <object name="Shelob" type="ng_boss_shelob" x="864" y="480" width="32" height="32"/>
+  <object height="32" name="Shelob" type="enemy" width="32" x="864" y="480"><properties><property name="category" value="ng_boss_shelob" /></properties></object>
  </objectgroup>
 </map>

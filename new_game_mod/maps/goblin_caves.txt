@@ -327,58 +327,67 @@ data=
 
 [event]
 # to Woods
-type=on_trigger
+type=event
 location=52,89,2,1
+activate=on_trigger
 intermap=maps/woods.txt,22,24
 
 [event]
 # to Desert
-type=on_trigger
+type=event
 location=35,2,4,1
+activate=on_trigger
 intermap=maps/desert.txt,42,97
 
 [npc]
 # Vlad
-type=npcs/vlad.txt
+type=npc
 location=51,77,1,1
+filename=npcs/vlad.txt
 requires_not_status=minotaur_complete
 
 [npc]
 # Ivan
-type=npcs/ivan.txt
+type=npc
 location=23,68,1,1
+filename=npcs/ivan.txt
 requires_not_status=werebear_complete
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=56,10,15,23
+category=arachnid
 level=1,10
 number=8,12
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=6,22,16,22
+category=arachnid
 level=8,12
 number=6,8
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=17,8,28,24
+category=arachnid
 level=8,12
 number=15,20
 
 [enemy]
 # Spiders
-type=arachnid
+type=enemy
 location=29,46,17,10
+category=arachnid
 level=8,12
 number=5,6
 
 [enemy]
 # Shelob
-type=ng_boss_shelob
+type=enemy
 location=27,15,1,1
+category=ng_boss_shelob
 

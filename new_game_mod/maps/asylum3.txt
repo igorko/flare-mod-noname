@@ -181,59 +181,68 @@ data=
 
 [event]
 # to asylum 2
-type=on_trigger
+type=event
 location=84,32,2,1
+activate=on_trigger
 intermap=maps/asylum2.txt,13,6
 
 [npc]
 # The Governor
-type=npcs/governor.txt
+type=npc
 location=4,22,1,1
+filename=npcs/governor.txt
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=28,12,10,25
+category=spirit
 level=10,16
 number=14,20
 
 [enemy]
 # Zombie
-type=zombie
+type=enemy
 location=45,20,12,11
+category=zombie
 level=9,11
 number=10,12
 
 [enemy]
 # Headless Horseman
-type=headless_horseman
+type=enemy
 location=23,18,2,7
+category=headless_horseman
 level=18,18
 number=3,3
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=12,4,10,5
+category=spirit
 level=10,16
 number=6,8
 
 [enemy]
 # Spirit
-type=spirit
+type=enemy
 location=12,40,11,8
+category=spirit
 level=10,16
 number=8,10
 
 [enemy]
 # Poltergeist
-type=poltergeist
+type=enemy
 location=14,13,1,17
+category=oltergeist
 level=15,15
 number=4,6
 
 [enemy]
 # commander
-type=ng_boss_ghost_commander
+type=enemy
 location=19,20,1,1
+category=ng_boss_ghost_commander
 

@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="40" height="200" tilewidth="64" tileheight="32">
+<map height="200" orientation="isometric" renderorder="right-down" tileheight="32" tilewidth="64" version="1.0" width="40">
  <properties>
-  <property name="music" value="music/overworld_theme.ogg"/>
-  <property name="tileset" value="tilesetdefs/tileset_grassland.txt"/>
-  <property name="title" value="Fern Valley"/>
+  <property name="music" value="music/overworld_theme.ogg" />
+  <property name="tileset" value="tilesetdefs/tileset_grassland.txt" />
+  <property name="title" value="Fern Valley" />
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
-  <image source="../grassland/tiled_collision.png" width="960" height="32"/>
+ <tileset firstgid="1" name="collision" tileheight="32" tilewidth="64">
+  <image height="32" source="../grassland/tiled_collision.png" width="960" />
  </tileset>
- <tileset firstgid="16" name="grassland" tilewidth="64" tileheight="128">
-  <image source="../grassland/grassland.png" width="1024" height="1024"/>
+ <tileset firstgid="16" name="grassland" tileheight="128" tilewidth="64">
+  <image height="1024" source="../grassland/grassland.png" width="1024" />
  </tileset>
- <tileset firstgid="144" name="water" tilewidth="64" tileheight="64">
-  <tileoffset x="0" y="32"/>
-  <image source="../grassland/grassland_water.png" width="1024" height="256"/>
+ <tileset firstgid="144" name="water" tileheight="64" tilewidth="64">
+  <tileoffset x="0" y="32" />
+  <image height="256" source="../grassland/grassland_water.png" width="1024" />
  </tileset>
- <tileset firstgid="208" name="tall structures" tilewidth="64" tileheight="256">
-  <image source="../grassland/grassland_structures.png" width="1024" height="512"/>
+ <tileset firstgid="208" name="tall structures" tileheight="256" tilewidth="64">
+  <image height="512" source="../grassland/grassland_structures.png" width="1024" />
  </tileset>
- <tileset firstgid="240" name="trees" tilewidth="128" tileheight="256">
-  <tileoffset x="-32" y="0"/>
-  <image source="../grassland/grassland_trees.png" width="1024" height="512"/>
+ <tileset firstgid="240" name="trees" tileheight="256" tilewidth="128">
+  <tileoffset x="-32" y="0" />
+  <image height="512" source="../grassland/grassland_trees.png" width="1024" />
  </tileset>
- <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
-  <image source="../grassland/set_rules.png" width="128" height="128"/>
+ <tileset firstgid="256" name="set_rules" tileheight="32" tilewidth="64">
+  <image height="128" source="../grassland/set_rules.png" width="128" />
  </tileset>
- <tileset firstgid="264" name="tiled_grassland_2x2" tilewidth="128" tileheight="64">
-  <tileoffset x="0" y="16"/>
-  <image source="../grassland/tiled_grassland_2x2.png" width="512" height="512"/>
+ <tileset firstgid="264" name="tiled_grassland_2x2" tileheight="64" tilewidth="128">
+  <tileoffset x="0" y="16" />
+  <image height="512" source="../grassland/tiled_grassland_2x2.png" width="512" />
  </tileset>
- <layer name="background" width="40" height="200">
+ <layer height="200" name="background" width="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,18,16,16,17,18,19,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,24,29,24,25,26,27,16,17,16,16,17,18,20,24,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -233,7 +232,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,27,28,29,19,29,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="object" width="40" height="200">
+ <layer height="200" name="object" width="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,56,68,93,93,93,93,93,65,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0,0,0,65,57,0,56,53,53,57,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -437,7 +436,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,59,51,67,0,0,0,70,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="collision" width="40" height="200">
+ <layer height="200" name="collision" width="40">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,0,0,0,0,0,1,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,1,0,0,0,0,0,0,0,1,1,3,1,1,1,1,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -642,55 +641,55 @@
 </data>
  </layer>
  <objectgroup name="event">
-  <object name="to Town" type="on_trigger" x="480" y="0" width="160" height="32">
+  <object height="32" name="to Town" type="event" width="160" x="480" y="0">
    <properties>
-    <property name="intermap" value="maps/town.txt,39,88"/>
-   </properties>
+    <property name="intermap" value="maps/town.txt,39,88" />
+   <property name="activate" value="on_trigger" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="npc">
-  <object name="Ieuan" type="npcs/ieuan.txt" x="544" y="5888" width="32" height="32">
+  <object height="32" name="Ieuan" type="npc" width="32" x="544" y="5888">
    <properties>
-    <property name="requires_not_status" value="progress_arrived_town"/>
-   </properties>
+    <property name="requires_not_status" value="progress_arrived_town" />
+   <property name="filename" value="npcs/ieuan.txt" /></properties>
   </object>
  </objectgroup>
  <objectgroup name="enemy">
-  <object name="Small Spiders" type="small_spider" x="160" y="4640" width="1056" height="800">
+  <object height="800" name="Small Spiders" type="enemy" width="1056" x="160" y="4640">
    <properties>
-    <property name="level" value="1,5"/>
-    <property name="number" value="5,6"/>
-   </properties>
+    <property name="level" value="1,5" />
+    <property name="number" value="5,6" />
+   <property name="category" value="small_spider" /></properties>
   </object>
-  <object name="Spiders" type="spider" x="288" y="3808" width="800" height="800">
+  <object height="800" name="Spiders" type="enemy" width="800" x="288" y="3808">
    <properties>
-    <property name="level" value="1,5"/>
-    <property name="number" value="3,4"/>
-   </properties>
+    <property name="level" value="1,5" />
+    <property name="number" value="3,4" />
+   <property name="category" value="spider" /></properties>
   </object>
-  <object name="Zombies" type="rotting_zombie" x="64" y="2912" width="544" height="384">
+  <object height="384" name="Zombies" type="enemy" width="544" x="64" y="2912">
    <properties>
-    <property name="level" value="1,5"/>
-    <property name="number" value="5,6"/>
-   </properties>
+    <property name="level" value="1,5" />
+    <property name="number" value="5,6" />
+   <property name="category" value="rotting_zombie" /></properties>
   </object>
-  <object name="Undead" type="fern_valley_undead" x="288" y="1920" width="896" height="960">
+  <object height="960" name="Undead" type="enemy" width="896" x="288" y="1920">
    <properties>
-    <property name="level" value="1,5"/>
-    <property name="number" value="6,8"/>
-   </properties>
+    <property name="level" value="1,5" />
+    <property name="number" value="6,8" />
+   <property name="category" value="fern_valley_undead" /></properties>
   </object>
-  <object name="Undead" type="fern_valley_undead" x="160" y="1024" width="1056" height="864">
+  <object height="864" name="Undead" type="enemy" width="1056" x="160" y="1024">
    <properties>
-    <property name="level" value="1,5"/>
-    <property name="number" value="8,10"/>
-   </properties>
+    <property name="level" value="1,5" />
+    <property name="number" value="8,10" />
+   <property name="category" value="fern_valley_undead" /></properties>
   </object>
-  <object name="Spiders" type="spider" x="672" y="576" width="480" height="416">
+  <object height="416" name="Spiders" type="enemy" width="480" x="672" y="576">
    <properties>
-    <property name="level" value="1,5"/>
-    <property name="number" value="4,5"/>
-   </properties>
+    <property name="level" value="1,5" />
+    <property name="number" value="4,5" />
+   <property name="category" value="spider" /></properties>
   </object>
  </objectgroup>
 </map>
