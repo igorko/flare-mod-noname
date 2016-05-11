@@ -15,7 +15,7 @@ animations=animations/enemies/horse.txt
 
 
 # combat stats
-hp=200
+stat=hp,200
 speed=7.5
 melee_range=1.1875
 threat_range=2.0
@@ -23,17 +23,17 @@ turn_delay=133ms
 chance_pursue=1
 power=melee,1,8
 
-accuracy=78
-avoidance=28
+stat=accuracy,78
+stat=avoidance,28
 
-dmg_melee_min=10
-dmg_melee_max=30
-absorb_min=20
-absorb_max=20
+stat=dmg_melee_min,10
+stat=dmg_melee_max,30
+stat=absorb_min,20
+stat=absorb_max,20
 cooldown=500ms
 
 convert_status=horse_tamed
 #chance_flee=50
 waypoint_pause=33ms
 
-hp_regen=50
+stat=hp_regen,50

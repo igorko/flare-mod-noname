@@ -12,8 +12,8 @@ sfx_critdie=soundfx/enemies/zombie_critdie.ogg
 animations=animations/enemies/zombie.txt
 
 # combat stats
-hp=60
-hp_regen=50
+stat=hp,60
+stat=hp_regen,50
 speed=2.5
 melee_range=1.1875
 threat_range=8.0
@@ -22,13 +22,13 @@ chance_pursue=10
 power=melee,1100,10
 power=beacon,1101,100
 
-accuracy=75
-avoidance=25
-absorb_min=0
-absorb_max=0
+stat=accuracy,75
+stat=avoidance,25
+stat=absorb_min,0
+stat=absorb_max,0
 
-dmg_melee_min=10
-dmg_melee_max=12
+stat=dmg_melee_min,10
+stat=dmg_melee_max,12
 cooldown=333ms
 
 loot=loot/leveled_low.txt

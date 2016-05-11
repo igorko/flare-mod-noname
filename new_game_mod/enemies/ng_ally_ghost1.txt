@@ -12,7 +12,7 @@ sfx_critdie=soundfx/enemies/zombie_critdie.ogg
 animations=animations/enemies/pirate_ghost_crewman.txt
 
 # combat stats
-hp=100
+stat=hp,100
 speed=4.5
 melee_range=1.125
 threat_range=8.0
@@ -23,17 +23,17 @@ power=melee,820,20
 power=ranged,830,1
 power=beacon,132,100
 
-accuracy=75
-avoidance=30
+stat=accuracy,75
+stat=avoidance,30
 
-dmg_melee_min=5
-dmg_melee_max=25
-dmg_ment_min=15
-dmg_ment_max=30
-absorb_min=3
-absorb_max=3
+stat=dmg_melee_min,5
+stat=dmg_melee_max,25
+stat=dmg_ment_min,15
+stat=dmg_ment_max,30
+stat=absorb_min,3
+stat=absorb_max,3
 
 cooldown=666ms
 
-hp_regen=50
-poise=50
+stat=hp_regen,50
+stat=poise,50

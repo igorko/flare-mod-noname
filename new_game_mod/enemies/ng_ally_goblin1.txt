@@ -14,7 +14,7 @@ sfx_critdie=soundfx/enemies/goblin_critdie.ogg
 animations=animations/enemies/goblin.txt
 
 # combat stats
-hp=30
+stat=hp,30
 speed=4.0
 melee_range=1.125
 threat_range=8.0
@@ -23,11 +23,11 @@ chance_pursue=10
 power=beacon,132,100
 power=melee,1,2
 
-accuracy=69
-avoidance=19
+stat=accuracy,69
+stat=avoidance,19
 
-dmg_melee_min=5
-dmg_melee_max=15
+stat=dmg_melee_min,5
+stat=dmg_melee_max,15
 cooldown=1s
 
-hp_regen=50
+stat=hp_regen,50

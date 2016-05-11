@@ -13,7 +13,7 @@ animations=animations/enemies/spider_giant.txt
 
 
 # combat stats
-hp=500
+stat=hp,500
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
@@ -22,15 +22,15 @@ chance_pursue=30
 power=melee,1,20
 power=beacon,132,100
 
-accuracy=72
-avoidance=22
-absorb_min=1
-absorb_max=12
+stat=accuracy,72
+stat=avoidance,22
+stat=absorb_min,1
+stat=absorb_max,12
 
-dmg_melee_min=10
-dmg_melee_max=35
+stat=dmg_melee_min,10
+stat=dmg_melee_max,35
 cooldown=333ms
 
 defeat_status=goblin_cave_clear
 
-hp_regen=50
+stat=hp_regen,50

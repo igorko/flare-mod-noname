@@ -12,7 +12,7 @@ animations=animations/enemies/fire_ant.txt
 
 
 # combat stats
-hp=140
+stat=hp,140
 speed=5.0
 melee_range=1.1875
 threat_range=8.0
@@ -22,20 +22,20 @@ power=melee,1,5
 power=ranged,1119,10
 power=beacon,132,100
 
-accuracy=87
-avoidance=37
+stat=accuracy,87
+stat=avoidance,37
 
-dmg_melee_min=10
-dmg_melee_max=30
-dmg_ment_min=20
-dmg_ment_max=50
-absorb_min=21
-absorb_max=21
-vulnerable_fire=50
-vulnerable_ice=200
+stat=dmg_melee_min,10
+stat=dmg_melee_max,30
+stat=dmg_ment_min,20
+stat=dmg_ment_max,50
+stat=absorb_min,21
+stat=absorb_max,21
+vulnerable=fire,50
+vulnerable=ice,200
 
 cooldown=833ms
 
 quest_loot=bethan_init,ant_heart,206
 
-hp_regen=50
+stat=hp_regen,50

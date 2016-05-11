@@ -12,8 +12,8 @@ sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/orc_elite.txt
 
 # combat stats
-hp=650
-hp_regen=50
+stat=hp,650
+stat=hp_regen,50
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
@@ -23,13 +23,13 @@ power=melee,1100,25
 power=ranged,1112,25
 power=beacon,1101,100
 
-accuracy=85
-avoidance=15
-absorb_min=1
-absorb_max=10
+stat=accuracy,85
+stat=avoidance,15
+stat=absorb_min,1
+stat=absorb_max,10
 
-dmg_melee_min=80
-dmg_melee_max=140
+stat=dmg_melee_min,80
+stat=dmg_melee_max,140
 cooldown=333ms
 
 loot=loot/leveled_high.txt

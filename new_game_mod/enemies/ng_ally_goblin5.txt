@@ -15,7 +15,7 @@ animations=animations/enemies/goblin_elite.txt
 
 
 # combat stats
-hp=700
+stat=hp,700
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
@@ -25,15 +25,15 @@ power=melee,1,6
 power=ranged,32,30
 power=beacon,132,100
 
-accuracy=84
-avoidance=28
+stat=accuracy,84
+stat=avoidance,28
 
-dmg_melee_min=40
-dmg_melee_max=60
-dmg_ranged_min=60
-dmg_ranged_max=100
-absorb_min=10
-absorb_max=40
+stat=dmg_melee_min,40
+stat=dmg_melee_max,60
+stat=dmg_ranged_min,60
+stat=dmg_ranged_max,100
+stat=absorb_min,10
+stat=absorb_max,40
 cooldown=833ms
 
-hp_regen=50
+stat=hp_regen,50

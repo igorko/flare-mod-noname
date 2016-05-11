@@ -14,7 +14,7 @@ animations=animations/enemies/horse_tack.txt
 
 
 # combat stats
-hp=1000
+stat=hp,1000
 speed=7.5
 melee_range=1.1875
 threat_range=4.0
@@ -22,15 +22,15 @@ turn_delay=133ms
 chance_pursue=10
 power=melee,1,20
 
-accuracy=78
-avoidance=28
+stat=accuracy,78
+stat=avoidance,28
 
-dmg_melee_min=50
-dmg_melee_max=150
-absorb_min=20
-absorb_max=20
+stat=dmg_melee_min,50
+stat=dmg_melee_max,150
+stat=absorb_min,20
+stat=absorb_max,20
 cooldown=500ms
 
-hp_regen=50
+stat=hp_regen,50
 
 loot=loot/leveled_high.txt

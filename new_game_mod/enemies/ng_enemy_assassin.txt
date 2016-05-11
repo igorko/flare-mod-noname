@@ -12,8 +12,8 @@ sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/stealth.txt
 
 # combat stats
-hp=100
-hp_regen=50
+stat=hp,100
+stat=hp_regen,50
 speed=2.0
 melee_range=1.1875
 threat_range=16.0
@@ -22,13 +22,13 @@ chance_pursue=20
 power=melee,1100,35
 power=beacon,1101,100
 
-accuracy=85
-avoidance=15
-absorb_min=1
-absorb_max=5
+stat=accuracy,85
+stat=avoidance,15
+stat=absorb_min,1
+stat=absorb_max,5
 
-dmg_melee_min=150
-dmg_melee_max=350
+stat=dmg_melee_min,150
+stat=dmg_melee_max,350
 cooldown=333ms
 
 loot=loot/leveled_high.txt

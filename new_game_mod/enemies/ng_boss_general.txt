@@ -11,8 +11,8 @@ sfx_critdie=soundfx/enemies/antlion_critdie.ogg
 animations=animations/enemies/grisbon.txt
 
 # combat stats
-hp=15000
-hp_regen=50
+stat=hp,15000
+stat=hp_regen,50
 speed=6.5
 melee_range=1.1875
 threat_range=8.0
@@ -22,13 +22,13 @@ power=melee,1100,40
 power=ranged,1109,15
 power=beacon,1101,100
 
-accuracy=90
-avoidance=50
-absorb_min=20
-absorb_max=100
+stat=accuracy,90
+stat=avoidance,50
+stat=absorb_min,20
+stat=absorb_max,100
 
-dmg_melee_min=150
-dmg_melee_max=300
+stat=dmg_melee_min,150
+stat=dmg_melee_max,300
 cooldown=333ms
 
-poise=80
+stat=poise,80

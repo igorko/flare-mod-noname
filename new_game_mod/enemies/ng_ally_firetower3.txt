@@ -12,7 +12,7 @@ animations=animations/enemies/cursed_grave.txt
 
 
 # combat stats
-hp=400
+stat=hp,400
 speed=0
 facing=0
 melee_range=2.375
@@ -23,11 +23,11 @@ chance_pursue=0
 power=ranged,803,100
 power=melee,803,100
 
-accuracy=90
-avoidance=0
+stat=accuracy,90
+stat=avoidance,0
 
-dmg_ment_min=60
-dmg_ment_max=80
+stat=dmg_ment_min,60
+stat=dmg_ment_max,80
 
 cooldown=1166ms
-poise=100
+stat=poise,100

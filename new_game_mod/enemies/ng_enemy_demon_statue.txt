@@ -6,8 +6,8 @@ categories=ng_enemy_demon_statue,ground
 animations=animations/enemies/demon_statue.txt
 
 # combat stats
-hp=2000
-hp_regen=50
+stat=hp,2000
+stat=hp_regen,50
 speed=0
 #facing=0
 melee_range=2.375
@@ -20,15 +20,15 @@ power=melee,1100,80
 power=ranged,1111,20
 power=beacon,1101,100
 
-accuracy=75
-avoidance=0
-absorb_min=1
-absorb_max=10
+stat=accuracy,75
+stat=avoidance,0
+stat=absorb_min,1
+stat=absorb_max,10
 
-dmg_ment_min=20
-dmg_ment_max=60
-dmg_melee_min=30
-dmg_melee_max=85
+stat=dmg_ment_min,20
+stat=dmg_ment_max,60
+stat=dmg_melee_min,30
+stat=dmg_melee_max,85
 
 cooldown=333ms
 

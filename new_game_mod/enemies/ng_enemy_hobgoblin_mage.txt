@@ -12,8 +12,8 @@ sfx_critdie=soundfx/enemies/goblin_critdie.ogg
 animations=animations/enemies/hobgoblin.txt
 
 # combat stats
-hp=60
-hp_regen=50
+stat=hp,60
+stat=hp_regen,50
 speed=5.0
 melee_range=1.1875
 threat_range=8.0
@@ -23,15 +23,15 @@ power=melee,1100,10
 power=ranged,1103,10
 power=beacon,1101,100
 
-accuracy=75
-avoidance=25
-absorb_min=1
-absorb_max=2
+stat=accuracy,75
+stat=avoidance,25
+stat=absorb_min,1
+stat=absorb_max,2
 
-dmg_ment_min=15
-dmg_ment_max=30
-dmg_melee_min=5
-dmg_melee_max=10
+stat=dmg_ment_min,15
+stat=dmg_ment_max,30
+stat=dmg_melee_min,5
+stat=dmg_melee_max,10
 cooldown=333ms
 
 chance_flee=15

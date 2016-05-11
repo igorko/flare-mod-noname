@@ -7,7 +7,7 @@ animations=animations/enemies/barricade_stone.txt
 
 
 # combat stats
-hp=4000
+stat=hp,4000
 speed=0
 facing=0
 melee_range=2.375
@@ -15,7 +15,7 @@ threat_range=4.0
 
 chance_pursue=0
 
-avoidance=0
+stat=avoidance,0
 
 cooldown=3s
 

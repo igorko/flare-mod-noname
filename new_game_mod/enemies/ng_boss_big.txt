@@ -11,8 +11,8 @@ sfx_critdie=soundfx/enemies/antlion_critdie.ogg
 animations=animations/enemies/scathelocke.txt
 
 # combat stats
-hp=25000
-hp_regen=100
+stat=hp,25000
+stat=hp_regen,100
 speed=7.0
 melee_range=1.1875
 threat_range=8.0
@@ -24,19 +24,19 @@ power=ranged,1111,50
 power=ranged,1108,20
 power=beacon,1101,100
 
-accuracy=95
-avoidance=45
-absorb_min=20
-absorb_max=100
+stat=accuracy,95
+stat=avoidance,45
+stat=absorb_min,20
+stat=absorb_max,100
 
-dmg_ment_min=150
-dmg_ment_max=400
-dmg_melee_min=100
-dmg_melee_max=350
+stat=dmg_ment_min,150
+stat=dmg_ment_max,400
+stat=dmg_melee_min,100
+stat=dmg_melee_max,350
 cooldown=333ms
 
 chance_flee=50
 
-poise=95
+stat=poise,95
 
 defeat_status=battle_complete

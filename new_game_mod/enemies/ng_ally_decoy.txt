@@ -6,7 +6,7 @@ xp=20
 animations=animations/enemies/training_dummy.txt
 
 # combat stats
-hp=2000
+stat=hp,2000
 speed=0
 facing=0
 melee_range=2.375
@@ -14,7 +14,7 @@ threat_range=8.0
 
 chance_pursue=0
 
-avoidance=0
+stat=avoidance,0
 cooldown=666ms
 
 power=melee,851,25
@@ -22,7 +22,7 @@ power=melee,850,25
 power=ranged,850,25
 power=ranged,851,25
 
-accuracy=75
+stat=accuracy,75
 
-dmg_melee_min=1
-dmg_melee_max=10
+stat=dmg_melee_min,1
+stat=dmg_melee_max,10

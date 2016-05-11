@@ -11,8 +11,8 @@ sfx_critdie=soundfx/enemies/antlion_critdie.ogg
 animations=animations/enemies/antlion.txt
 
 # combat stats
-hp=250
-hp_regen=50
+stat=hp,250
+stat=hp_regen,50
 speed=5.0
 melee_range=1.1875
 threat_range=8.0
@@ -21,13 +21,13 @@ chance_pursue=20
 power=melee,1100,15
 power=beacon,1101,100
 
-accuracy=75
-avoidance=25
-absorb_min=20
-absorb_max=30
+stat=accuracy,75
+stat=avoidance,25
+stat=absorb_min,20
+stat=absorb_max,30
 
-dmg_melee_min=30
-dmg_melee_max=45
+stat=dmg_melee_min,30
+stat=dmg_melee_max,45
 cooldown=333ms
 
 loot=loot/leveled_mid.txt

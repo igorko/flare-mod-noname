@@ -13,8 +13,8 @@ animations=animations/enemies/spider_giant.txt
 
 
 # combat stats
-hp=70
-hp_regen=50
+stat=hp,70
+stat=hp_regen,50
 speed=5.0
 melee_range=1.1875
 threat_range=8.0
@@ -23,13 +23,13 @@ chance_pursue=30
 power=melee,1,20
 power=beacon,132,100
 
-accuracy=72
-avoidance=22
-absorb_min=1
-absorb_max=4
+stat=accuracy,72
+stat=avoidance,22
+stat=absorb_min,1
+stat=absorb_max,4
 
-dmg_melee_min=10
-dmg_melee_max=15
+stat=dmg_melee_min,10
+stat=dmg_melee_max,15
 cooldown=333ms
 
 loot=currency,5,8,20

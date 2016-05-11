@@ -13,8 +13,8 @@ animations=animations/enemies/werewolf.txt
 
 
 # combat stats
-hp=180
-hp_regen=50
+stat=hp,180
+stat=hp_regen,50
 speed=9.0
 melee_range=1.1875
 threat_range=8.0
@@ -24,15 +24,15 @@ power=melee,1,10
 power=melee,10,25
 power=beacon,132,100
 
-accuracy=90
-avoidance=40
+stat=accuracy,90
+stat=avoidance,40
 
-dmg_melee_min=20
-dmg_melee_max=55
-dmg_ment_min=10
-dmg_ment_max=30
-absorb_min=21
-absorb_max=21
+stat=dmg_melee_min,20
+stat=dmg_melee_max,55
+stat=dmg_ment_min,10
+stat=dmg_ment_max,30
+stat=absorb_min,21
+stat=absorb_max,21
 cooldown=666ms
 
 passive_powers=777

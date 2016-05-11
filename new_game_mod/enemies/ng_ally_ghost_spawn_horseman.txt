@@ -12,8 +12,8 @@ sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/steel_armor.txt
 
 # combat stats
-hp=800
-hp_regen=50
+stat=hp,800
+stat=hp_regen,50
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
@@ -22,11 +22,11 @@ chance_pursue=20
 power=melee,1100,20
 power=beacon,1101,100
 
-accuracy=80
-avoidance=25
-absorb_min=15
-absorb_max=25
+stat=accuracy,80
+stat=avoidance,25
+stat=absorb_min,15
+stat=absorb_max,25
 
-dmg_melee_min=60
-dmg_melee_max=100
+stat=dmg_melee_min,60
+stat=dmg_melee_max,100
 cooldown=333ms

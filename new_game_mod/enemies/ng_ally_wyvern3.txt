@@ -14,7 +14,7 @@ animations=animations/enemies/wyvern.txt
 
 
 # combat stats
-hp=400
+stat=hp,400
 speed=7.0
 flying=1
 melee_range=1.125
@@ -28,17 +28,17 @@ power=melee,5,15
 # fire spit
 power=ranged,31,6
 
-accuracy=82
-avoidance=32
+stat=accuracy,82
+stat=avoidance,32
 
-dmg_melee_min=40
-dmg_melee_max=60
-dmg_ment_min=30
-dmg_ment_max=110
-absorb_min=15
-absorb_max=15
+stat=dmg_melee_min,40
+stat=dmg_melee_max,60
+stat=dmg_ment_min,30
+stat=dmg_ment_max,110
+stat=absorb_min,15
+stat=absorb_max,15
 
 cooldown=1s
 
-hp_regen=50
-poise=50
+stat=hp_regen,50
+stat=poise,50

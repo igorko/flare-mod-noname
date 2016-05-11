@@ -13,7 +13,7 @@ animations=animations/enemies/minotaur.txt
 
 
 # combat stats
-hp=600
+stat=hp,600
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
@@ -23,17 +23,17 @@ power=melee,1,15
 power=melee,10,25
 power=beacon,132,100
 
-accuracy=90
-avoidance=40
+stat=accuracy,90
+stat=avoidance,40
 
-dmg_melee_min=40
-dmg_melee_max=100
-dmg_ment_min=20
-dmg_ment_max=80
-absorb_min=21
-absorb_max=21
+stat=dmg_melee_min,40
+stat=dmg_melee_max,100
+stat=dmg_ment_min,20
+stat=dmg_ment_max,80
+stat=absorb_min,21
+stat=absorb_max,21
 cooldown=666ms
 
-hp_regen=50
+stat=hp_regen,50
 
-poise=70
+stat=poise,70

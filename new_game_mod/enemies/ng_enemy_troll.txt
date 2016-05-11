@@ -11,8 +11,8 @@ sfx_critdie=soundfx/enemies/antlion_critdie.ogg
 animations=animations/enemies/troll.txt
 
 # combat stats
-hp=3000
-hp_regen=50
+stat=hp,3000
+stat=hp_regen,50
 speed=2.5
 melee_range=2.0
 threat_range=8.0
@@ -21,18 +21,18 @@ chance_pursue=20
 power=melee,1100,15
 power=beacon,1101,100
 
-accuracy=95
-avoidance=10
-absorb_min=50
-absorb_max=60
+stat=accuracy,95
+stat=avoidance,10
+stat=absorb_min,50
+stat=absorb_max,60
 
-dmg_melee_min=100
-dmg_melee_max=150
+stat=dmg_melee_min,100
+stat=dmg_melee_max,150
 cooldown=666ms
 
 loot=loot/leveled_high.txt
 
-poise=100
+stat=poise,100
 
 #gauntlets of ogre power
 loot=255,2

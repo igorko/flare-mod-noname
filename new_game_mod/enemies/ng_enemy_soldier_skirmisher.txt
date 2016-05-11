@@ -13,8 +13,8 @@ sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/orc_archer.txt
 
 # combat stats
-hp=500
-hp_regen=50
+stat=hp,500
+stat=hp_regen,50
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
@@ -24,15 +24,15 @@ power=melee,1100,15
 power=ranged,1106,35
 power=beacon,1101,100
 
-accuracy=80
-avoidance=40
-absorb_min=1
-absorb_max=10
+stat=accuracy,80
+stat=avoidance,40
+stat=absorb_min,1
+stat=absorb_max,10
 
-dmg_ranged_min=30
-dmg_ranged_max=60
-dmg_melee_min=10
-dmg_melee_max=35
+stat=dmg_ranged_min,30
+stat=dmg_ranged_max,60
+stat=dmg_melee_min,10
+stat=dmg_melee_max,35
 cooldown=333ms
 
 chance_flee=50

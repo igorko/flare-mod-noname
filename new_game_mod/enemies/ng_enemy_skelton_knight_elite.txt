@@ -12,8 +12,8 @@ sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/skeleton_knight.txt
 
 # combat stats
-hp=1500
-hp_regen=50
+stat=hp,1500
+stat=hp_regen,50
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
@@ -22,13 +22,13 @@ chance_pursue=30
 power=melee,1100,30
 power=beacon,1101,100
 
-accuracy=85
-avoidance=35
-absorb_min=30
-absorb_max=50
+stat=accuracy,85
+stat=avoidance,35
+stat=absorb_min,30
+stat=absorb_max,50
 
-dmg_melee_min=100
-dmg_melee_max=150
+stat=dmg_melee_min,100
+stat=dmg_melee_max,150
 cooldown=333ms
 
 loot=loot/leveled_high.txt

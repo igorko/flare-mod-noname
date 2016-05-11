@@ -11,8 +11,8 @@ sfx_critdie=soundfx/enemies/antlion_critdie.ogg
 animations=animations/enemies/ice_ant.txt
 
 # combat stats
-hp=350
-hp_regen=50
+stat=hp,350
+stat=hp_regen,50
 speed=5.0
 melee_range=1.1875
 threat_range=8.0
@@ -22,15 +22,15 @@ power=melee,1100,15
 power=ranged,1117,10
 power=beacon,1101,100
 
-accuracy=75
-avoidance=25
-absorb_min=10
-absorb_max=30
+stat=accuracy,75
+stat=avoidance,25
+stat=absorb_min,10
+stat=absorb_max,30
 
-dmg_ment_min=30
-dmg_ment_max=60
-dmg_melee_min=10
-dmg_melee_max=35
+stat=dmg_ment_min,30
+stat=dmg_ment_max,60
+stat=dmg_melee_min,10
+stat=dmg_melee_max,35
 cooldown=333ms
 
 chance_flee=10

@@ -13,8 +13,8 @@ sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/vesuvvio.txt
 
 # combat stats
-hp=600
-hp_regen=50
+stat=hp,600
+stat=hp_regen,50
 speed=5.0
 melee_range=1.1875
 threat_range=8.0
@@ -26,15 +26,15 @@ power=ranged,1124,25
 power=melee,1129,4
 power=beacon,1101,100
 
-accuracy=75
-avoidance=25
-absorb_min=1
-absorb_max=10
+stat=accuracy,75
+stat=avoidance,25
+stat=absorb_min,1
+stat=absorb_max,10
 
-dmg_ment_min=50
-dmg_ment_max=80
-dmg_melee_min=10
-dmg_melee_max=35
+stat=dmg_ment_min,50
+stat=dmg_ment_max,80
+stat=dmg_melee_min,10
+stat=dmg_melee_max,35
 cooldown=333ms
 
 chance_flee=20

@@ -11,7 +11,7 @@ sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
 animations=animations/enemies/cursed_grave.txt
 
 # combat stats
-hp=450
+stat=hp,450
 speed=0
 facing=0
 melee_range=2.375
@@ -22,11 +22,11 @@ chance_pursue=0
 power=ranged,804,100
 power=melee,804,100
 
-accuracy=90
-avoidance=0
+stat=accuracy,90
+stat=avoidance,0
 
-dmg_ment_min=70
-dmg_ment_max=90
+stat=dmg_ment_min,70
+stat=dmg_ment_max,90
 
 cooldown=1166ms
-poise=100
+stat=poise,100

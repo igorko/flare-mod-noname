@@ -11,8 +11,8 @@ sfx_critdie=soundfx/enemies/antlion_critdie.ogg
 animations=animations/enemies/spider_large.txt
 
 # combat stats
-hp=30
-hp_regen=50
+stat=hp,30
+stat=hp_regen,50
 speed=4.0
 melee_range=1.1875
 threat_range=8.0
@@ -21,13 +21,13 @@ chance_pursue=15
 power=melee,1100,15
 power=beacon,1101,100
 
-accuracy=75
-avoidance=25
-absorb_min=0
-absorb_max=1
+stat=accuracy,75
+stat=avoidance,25
+stat=absorb_min,0
+stat=absorb_max,1
 
-dmg_melee_min=5
-dmg_melee_max=10
+stat=dmg_melee_min,5
+stat=dmg_melee_max,10
 cooldown=333ms
 
 loot=loot/leveled_low.txt

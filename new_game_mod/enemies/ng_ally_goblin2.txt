@@ -15,7 +15,7 @@ animations=animations/enemies/goblin_runner.txt
 
 
 # combat stats
-hp=150
+stat=hp,150
 speed=5.5
 melee_range=1.1875
 threat_range=8.0
@@ -25,15 +25,15 @@ power=melee,1,3
 power=melee,5,1
 power=beacon,132,100
 
-accuracy=75
-avoidance=25
+stat=accuracy,75
+stat=avoidance,25
 
-dmg_melee_min=15
-dmg_melee_max=30
-dmg_ment_min=15
-dmg_ment_max=35
+stat=dmg_melee_min,15
+stat=dmg_melee_max,30
+stat=dmg_ment_min,15
+stat=dmg_ment_max,35
 cooldown=666ms
-absorb_min=3
-absorb_max=3
+stat=absorb_min,3
+stat=absorb_max,3
 
-hp_regen=50
+stat=hp_regen,50

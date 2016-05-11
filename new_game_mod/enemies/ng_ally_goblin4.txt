@@ -15,7 +15,7 @@ animations=animations/enemies/goblin.txt
 
 
 # combat stats
-hp=500
+stat=hp,500
 speed=5.0
 melee_range=2.375
 threat_range=8.0
@@ -26,13 +26,13 @@ power=ranged,11,5
 power=ranged,6,15
 power=beacon,132,100
 
-accuracy=84
-avoidance=34
+stat=accuracy,84
+stat=avoidance,34
 
-dmg_ment_min=35
-dmg_ment_max=70
-absorb_min=9
-absorb_max=9
+stat=dmg_ment_min,35
+stat=dmg_ment_max,70
+stat=absorb_min,9
+stat=absorb_max,9
 cooldown=833ms
 
-hp_regen=50
+stat=hp_regen,50
