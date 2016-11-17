@@ -4,7 +4,8 @@ level=8
 categories=ng_transform_werewolf3,minotaur,dungeon,ground
 xp=200
 
-sfx_phys=soundfx/enemies/minotaur_phys.ogg
+sfx_attack=swing,soundfx/enemies/minotaur_phys.ogg
+sfx_attack=shoot,soundfx/enemies/minotaur_phys.ogg
 sfx_hit=soundfx/enemies/minotaur_hit.ogg
 sfx_die=soundfx/enemies/minotaur_die.ogg
 sfx_critdie=soundfx/enemies/minotaur_critdie.ogg

@@ -3,8 +3,9 @@ level=3
 categories=ng_ally_firetower2,ground
 xp=5
 
-sfx_phys=soundfx/powers/fireball.ogg
-sfx_ment=soundfx/powers/fireball.ogg
+sfx_attack=swing,soundfx/powers/fireball.ogg
+sfx_attack=shoot,soundfx/powers/fireball.ogg
+sfx_attack=cast,soundfx/powers/fireball.ogg
 sfx_hit=soundfx/enemies/skeleton_hit.ogg
 sfx_die=soundfx/enemies/skeleton_die.ogg
 sfx_critdie=soundfx/enemies/skeleton_critdie.ogg

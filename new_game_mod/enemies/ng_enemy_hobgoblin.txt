@@ -3,8 +3,9 @@ level=7
 categories=ng_enemy_hobgoblin,hobgoblin,ground,living_humanoid
 xp=50
 
-sfx_phys=soundfx/enemies/goblin_phys.ogg
-sfx_ment=soundfx/enemies/goblin_ment.ogg
+sfx_attack=swing,soundfx/enemies/goblin_phys.ogg
+sfx_attack=shoot,soundfx/enemies/goblin_phys.ogg
+sfx_attack=cast,soundfx/enemies/goblin_ment.ogg
 sfx_hit=soundfx/enemies/goblin_hit.ogg
 sfx_die=soundfx/enemies/goblin_die.ogg
 sfx_critdie=soundfx/enemies/goblin_critdie.ogg

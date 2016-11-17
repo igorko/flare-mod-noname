@@ -4,7 +4,8 @@ categories=ng_boss_ghost_commander,ground
 xp=1800
 intangible=true
 
-sfx_phys=soundfx/enemies/antlion_phys.ogg
+sfx_attack=swing,soundfx/enemies/antlion_phys.ogg
+sfx_attack=shoot,soundfx/enemies/antlion_phys.ogg
 sfx_hit=soundfx/enemies/antlion_hit.ogg
 sfx_die=soundfx/enemies/antlion_die.ogg
 sfx_critdie=soundfx/enemies/antlion_critdie.ogg

@@ -3,8 +3,9 @@ level=20
 categories=ng_enemy_hobgoblin_charger_mage,hobgoblin,ground,woods2,marshlands,living_humanoid
 xp=450
 
-sfx_phys=soundfx/enemies/goblin_phys.ogg
-sfx_ment=soundfx/enemies/goblin_ment.ogg
+sfx_attack=swing,soundfx/enemies/goblin_phys.ogg
+sfx_attack=shoot,soundfx/enemies/goblin_phys.ogg
+sfx_attack=cast,soundfx/enemies/goblin_ment.ogg
 sfx_hit=soundfx/enemies/goblin_hit.ogg
 sfx_die=soundfx/enemies/goblin_die.ogg
 sfx_critdie=soundfx/enemies/goblin_critdie.ogg
