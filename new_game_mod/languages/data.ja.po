@@ -1932,15 +1932,15 @@ msgstr ""
 
 #: ../quests/goblin_caves.txt:15
 msgid "Clear the goblin caves of the infestation"
-msgstr ""
+msgstr "ゴブリンのどうくつの敵をかたづけよう"
 
 #: ../quests/goblin_caves.txt:20
 msgid "Return to Vlad"
-msgstr ""
+msgstr "Vlad のもとに もどる"
 
 #: ../quests/horse_whisperer.txt:4
 msgid "Speak to Ieuan"
-msgstr ""
+msgstr "Ieuan に話しかける"
 
 #: ../quests/horse_whisperer.txt:9
 msgid "Meet Ieuan at the settlement at the end of Fern Valley"
@@ -1948,15 +1948,15 @@ msgstr "集落で Ieuan と再会するため、 Fern Valley を終わりまで�
 
 #: ../quests/horse_whisperer.txt:14
 msgid "Speak to the woodsman"
-msgstr ""
+msgstr "木こりに話しかける"
 
 #: ../quests/horse_whisperer.txt:19
 msgid "Head to the woods north of town and use the apples Evan gave you to coax the beast."
-msgstr ""
+msgstr "町の北の森に行き、 Evanのくれたリングを使い、動物をなだめて、つかまえよう。"
 
 #: ../quests/horse_whisperer.txt:24
 msgid "Go back to town and tell Evan of your deeds."
-msgstr ""
+msgstr "町にもどって、結果を Evan に話そう。"
 
 #: ../quests/lycanthropy.txt:4
 msgid "Unlocked the 'Summon Wyvern Ally' skill. Investigate the beast at the cave to the southeast of the Northwood"
@@ -1964,7 +1964,7 @@ msgstr ""
 
 #: ../quests/lycanthropy.txt:9
 msgid "Return to tell bethan of your fight"
-msgstr ""
+msgstr "戦いの結果を bethan に伝えるために もどろう"
 
 #: ../quests/lycanthropy.txt:14
 msgid "Return to the cave where you fought the beast"
@@ -1992,7 +1992,7 @@ msgstr ""
 
 #: ../quests/wyvern.txt:9
 msgid "Find a Fire Antlion heart in the Northwood and return to Bethan with the heart and the elemental wyvern tails."
-msgstr ""
+msgstr "ノースウッドでファイアアントリオンの心臓を見つけたら、エレメンタルワイバーンの尻尾といっしょにBethanのもとに持っていこう。"
 
 #: ../npcs/bethan.txt:2
 msgid "Bethan"
@@ -2492,15 +2492,15 @@ msgstr ""
 
 #: ../npcs/evan.txt:25
 msgid "In the woods to the north lives a stallion. He's a little flighty but can be friendly if he trusts you."
-msgstr ""
+msgstr "北の森の中に、良い馬が住んでいる。 彼はやや戦闘的であるが、 信用した相手には友好的だ。"
 
 #: ../npcs/evan.txt:26
 msgid "Here take these apples. If you can get close to him, give him one of these."
-msgstr ""
+msgstr "ここにリンゴがある。もし彼と遭遇したら、彼に これらのリンゴをあげてくれ。"
 
 #: ../npcs/evan.txt:28
 msgid "Getting close to him might not be so easy. Take a few of these traps aswell. They wont hurt him but will give you a chance to get close."
-msgstr ""
+msgstr "彼に近付くことは、そう簡単ではない。 このワナを使ってくれ。 彼を傷つけずに、近付くことができる。"
 
 #: ../npcs/evan.txt:30
 msgid "Come back and see me when you manage to gain his trust."
@@ -2508,7 +2508,7 @@ msgstr ""
 
 #: ../npcs/evan.txt:31
 msgid "And please, do not kill him. Use only apples and traps."
-msgstr ""
+msgstr "りんごを使ってくれ。かれを殺さないでくれ。 使うのはリンゴとワナだけだ。"
 
 #: ../npcs/evan.txt:32
 msgid "Sounds easy enough"
@@ -2516,11 +2516,11 @@ msgstr ""
 
 #: ../npcs/evan.txt:40
 msgid "If you're having trouble catching the horse, use the traps I gave you to slow him down."
-msgstr ""
+msgstr "もし、捕まえるのが大変なら、私のあげたワナを使って、彼のうごきを遅くしてくれ。"
 
 #: ../npcs/evan.txt:41
 msgid "When you get the chance, give him some apples. Come and see me when you're successful."
-msgstr ""
+msgstr "彼に近付くチャンスがあれば、リンゴをいくつかプレゼントしてくれ。 そして、成功したら、私のところに来て、見せてくれ。"
 
 #: ../npcs/evan.txt:47
 msgid "So how are you getting on?"
