@@ -55,9 +55,7 @@ msgid "Wood Buckler"
 msgstr "木のバックラー"
 
 #: ../items/items.txt:174
-msgid ""
-"Use: Raise your shield to raise your avoidance by 10% and absorb by 1-5. "
-"Chance to reflect missiles increased by 50%."
+msgid "Use: Raise your shield to raise your avoidance by 10% and absorb by 1-5. Chance to reflect missiles increased by 50%."
 msgstr ""
 
 #: ../items/items.txt:179
@@ -65,9 +63,7 @@ msgid "Iron Buckler"
 msgstr "鉄のバックラー"
 
 #: ../items/items.txt:190
-msgid ""
-"Use: Raise your shield to raise your avoidance by 20% and absorb by 1-5. "
-"Chance to reflect missiles increased by 60%."
+msgid "Use: Raise your shield to raise your avoidance by 20% and absorb by 1-5. Chance to reflect missiles increased by 60%."
 msgstr ""
 
 #: ../items/items.txt:195
@@ -75,9 +71,7 @@ msgid "Crest Shield"
 msgstr ""
 
 #: ../items/items.txt:206
-msgid ""
-"Use: Raise your shield to raise your avoidance by 20% and absorb by 2-5. "
-"Chance to reflect missiles increased by 60%."
+msgid "Use: Raise your shield to raise your avoidance by 20% and absorb by 2-5. Chance to reflect missiles increased by 60%."
 msgstr ""
 
 #: ../items/items.txt:211
@@ -85,9 +79,7 @@ msgid "Tower Shield"
 msgstr ""
 
 #: ../items/items.txt:222
-msgid ""
-"Use: Raise your shield to raise your avoidance by 25% and absorb by 2-5. "
-"Chance to reflect missiles increased by 65%."
+msgid "Use: Raise your shield to raise your avoidance by 25% and absorb by 2-5. Chance to reflect missiles increased by 65%."
 msgstr ""
 
 #: ../items/items.txt:229
@@ -503,9 +495,7 @@ msgid "Shock"
 msgstr ""
 
 #: ../powers/powers.txt:628
-msgid ""
-"Electrocute an enemy from a distance; +25% crit chance against movement-"
-"impaired enemies."
+msgid "Electrocute an enemy from a distance; +25% crit chance against movement-impaired enemies."
 msgstr ""
 
 #: ../powers/powers.txt:665
@@ -545,8 +535,7 @@ msgid "Conversion 5"
 msgstr ""
 
 #: ../powers/powers.txt:767
-msgid ""
-"Convert humanoids, better success rate, larger range and greater duration"
+msgid "Convert humanoids, better success rate, larger range and greater duration"
 msgstr ""
 
 #: ../powers/powers.txt:795
@@ -714,8 +703,7 @@ msgid "Curse 5"
 msgstr ""
 
 #: ../powers/powers.txt:1260
-msgid ""
-"Massively increased radius, lower elemental resistance and increased potency"
+msgid "Massively increased radius, lower elemental resistance and increased potency"
 msgstr ""
 
 #: ../powers/powers.txt:1293
@@ -1247,27 +1235,19 @@ msgid "Block"
 msgstr ""
 
 #: ../powers/powers.txt:2804
-msgid ""
-"Raise your shield to raise your avoidance by 10% and absorb by 1-5. Chance "
-"to reflect missiles increased by 50%."
+msgid "Raise your shield to raise your avoidance by 10% and absorb by 1-5. Chance to reflect missiles increased by 50%."
 msgstr ""
 
 #: ../powers/powers.txt:2818
-msgid ""
-"Raise your shield to raise your avoidance by 20% and absorb by 1-5. Chance "
-"to reflect missiles increased by 60%."
+msgid "Raise your shield to raise your avoidance by 20% and absorb by 1-5. Chance to reflect missiles increased by 60%."
 msgstr ""
 
 #: ../powers/powers.txt:2832
-msgid ""
-"Raise your shield to raise your avoidance by 20% and absorb by 2-5. Chance "
-"to reflect missiles increased by 60%."
+msgid "Raise your shield to raise your avoidance by 20% and absorb by 2-5. Chance to reflect missiles increased by 60%."
 msgstr ""
 
 #: ../powers/powers.txt:2846
-msgid ""
-"Raise your shield to raise your avoidance by 25% and absorb by 2-5. Chance "
-"to reflect missiles increased by 65%."
+msgid "Raise your shield to raise your avoidance by 25% and absorb by 2-5. Chance to reflect missiles increased by 65%."
 msgstr ""
 
 #: ../powers/powers.txt:2943
@@ -1919,9 +1899,7 @@ msgid "Wyrmwold Cavern"
 msgstr ""
 
 #: ../quests/asylum.txt:5
-msgid ""
-"Unlocked the 'Summon Goblin Ally' Skill. Continue through the north exit of "
-"the caves and travel East through the desert to the asylum."
+msgid "Unlocked the 'Summon Goblin Ally' Skill. Continue through the north exit of the caves and travel East through the desert to the asylum."
 msgstr ""
 
 #: ../quests/asylum.txt:11
@@ -1933,9 +1911,7 @@ msgid "Find the Governor"
 msgstr ""
 
 #: ../quests/battle.txt:4
-msgid ""
-"Unlocked the 'Summon Minotaur Ally' skill. Continue north past the Ancient "
-"Pass and meet Ieuan at the approaching battle front."
+msgid "Unlocked the 'Summon Minotaur Ally' skill. Continue north past the Ancient Pass and meet Ieuan at the approaching battle front."
 msgstr ""
 
 #: ../quests/battle.txt:9
@@ -1943,9 +1919,7 @@ msgid "Prepare for battle and push back the advancing forces."
 msgstr ""
 
 #: ../quests/battle.txt:14
-msgid ""
-"You have halted the advancing forces. Return to Greenwood Point and use the "
-"final waypoint to continue your adventure in distant lands."
+msgid "You have halted the advancing forces. Return to Greenwood Point and use the final waypoint to continue your adventure in distant lands."
 msgstr ""
 
 #: ../quests/goblin_caves.txt:5
@@ -1953,9 +1927,7 @@ msgid "Unlocked the 'Conversion' skill. Return to talk to Ieuan"
 msgstr ""
 
 #: ../quests/goblin_caves.txt:10
-msgid ""
-"Travel north through the Goblin caves leading to the desert. Keep an eye out "
-"for Vlad."
+msgid "Travel north through the Goblin caves leading to the desert. Keep an eye out for Vlad."
 msgstr ""
 
 #: ../quests/goblin_caves.txt:15
@@ -1979,9 +1951,7 @@ msgid "Speak to the woodsman"
 msgstr ""
 
 #: ../quests/horse_whisperer.txt:19
-msgid ""
-"Head to the woods north of town and use the apples Evan gave you to coax the "
-"beast."
+msgid "Head to the woods north of town and use the apples Evan gave you to coax the beast."
 msgstr ""
 
 #: ../quests/horse_whisperer.txt:24
@@ -1989,9 +1959,7 @@ msgid "Go back to town and tell Evan of your deeds."
 msgstr ""
 
 #: ../quests/lycanthropy.txt:4
-msgid ""
-"Unlocked the 'Summon Wyvern Ally' skill. Investigate the beast at the cave "
-"to the southeast of the Northwood"
+msgid "Unlocked the 'Summon Wyvern Ally' skill. Investigate the beast at the cave to the southeast of the Northwood"
 msgstr ""
 
 #: ../quests/lycanthropy.txt:9
@@ -2011,9 +1979,7 @@ msgid "Talk to Ieuan at the Northwood Cottage"
 msgstr ""
 
 #: ../quests/minotaur.txt:14
-msgid ""
-"Head west through the marshlands and look for the entrance to the ancient "
-"dungeon"
+msgid "Head west through the marshlands and look for the entrance to the ancient dungeon"
 msgstr ""
 
 #: ../quests/minotaur.txt:19
@@ -2021,15 +1987,11 @@ msgid "Explore the dungeon and locate the legendary guardian"
 msgstr ""
 
 #: ../quests/wyvern.txt:4
-msgid ""
-"Unlocked the 'Summon Ghost Ally' skill. Continue exploring North beyond the "
-"desert and through the Wyrmwold Caves."
+msgid "Unlocked the 'Summon Ghost Ally' skill. Continue exploring North beyond the desert and through the Wyrmwold Caves."
 msgstr ""
 
 #: ../quests/wyvern.txt:9
-msgid ""
-"Find a Fire Antlion heart in the Northwood and return to Bethan with the "
-"heart and the elemental wyvern tails."
+msgid "Find a Fire Antlion heart in the Northwood and return to Bethan with the heart and the elemental wyvern tails."
 msgstr ""
 
 #: ../npcs/bethan.txt:2
@@ -2049,15 +2011,11 @@ msgid "I have travelled from Cambria in the south."
 msgstr "私は南にある Cambria から旅をしてきた。"
 
 #: ../npcs/bethan.txt:15
-msgid ""
-"Impressive. You must have come through the Wyrmwold cave. Not many can make "
-"it through. Now what brings you up here?"
+msgid "Impressive. You must have come through the Wyrmwold cave. Not many can make it through. Now what brings you up here?"
 msgstr ""
 
 #: ../npcs/bethan.txt:16
-msgid ""
-"Battle preparations. Cambria was attacked by the Sarlinian some time ago and "
-"we are expecting a larger attack soon."
+msgid "Battle preparations. Cambria was attacked by the Sarlinian some time ago and we are expecting a larger attack soon."
 msgstr ""
 
 #: ../npcs/bethan.txt:17
@@ -2069,9 +2027,7 @@ msgid "Indeed..."
 msgstr ""
 
 #: ../npcs/bethan.txt:19
-msgid ""
-"If they think they can throw their weight around here, theyll find a jolly "
-"good talking to waiting for them."
+msgid "If they think they can throw their weight around here, theyll find a jolly good talking to waiting for them."
 msgstr ""
 
 #: ../npcs/bethan.txt:20
@@ -2091,10 +2047,7 @@ msgid "I might be able to help with that. Let me consult my spell book now..."
 msgstr ""
 
 #: ../npcs/bethan.txt:24
-msgid ""
-"Yes here it is. The wyverns power can be harnessed. All I need is a wyvern "
-"tail from each of the elemental wyverns. If you didnt get those, you had "
-"better go back to the Wyvern cave."
+msgid "Yes here it is. The wyverns power can be harnessed. All I need is a wyvern tail from each of the elemental wyverns. If you didnt get those, you had better go back to the Wyvern cave."
 msgstr ""
 
 #: ../npcs/bethan.txt:25
@@ -2110,9 +2063,7 @@ msgid "Collect one? You mean take one from a Fire Antlion?"
 msgstr ""
 
 #: ../npcs/bethan.txt:28
-msgid ""
-"Well of course the Fire Antlions might not hand it to you willingly. Dont be "
-"so squeamish."
+msgid "Well of course the Fire Antlions might not hand it to you willingly. Dont be so squeamish."
 msgstr ""
 
 #: ../npcs/bethan.txt:29
@@ -2168,9 +2119,7 @@ msgid "Dont be such a baby. Its done."
 msgstr ""
 
 #: ../npcs/bethan.txt:57
-msgid ""
-"You might need to invest a little training in it before you can get the full "
-"benefit."
+msgid "You might need to invest a little training in it before you can get the full benefit."
 msgstr ""
 
 #: ../npcs/bethan.txt:58
@@ -2182,9 +2131,7 @@ msgid "I dont remember anything about payment."
 msgstr ""
 
 #: ../npcs/bethan.txt:60
-msgid ""
-"you dont expect something for nothing. Dont worry I just need a small errand "
-"taken care of."
+msgid "you dont expect something for nothing. Dont worry I just need a small errand taken care of."
 msgstr ""
 
 #: ../npcs/bethan.txt:61
@@ -2192,10 +2139,7 @@ msgid "What errand?"
 msgstr ""
 
 #: ../npcs/bethan.txt:62
-msgid ""
-"In the woods I have recently seen a large beast roaming around. I dont know "
-"what it is but I think its coming from a cave in the southeast part of the "
-"wood."
+msgid "In the woods I have recently seen a large beast roaming around. I dont know what it is but I think its coming from a cave in the southeast part of the wood."
 msgstr ""
 
 #: ../npcs/bethan.txt:63
@@ -2203,14 +2147,11 @@ msgid "Go and check it out for me."
 msgstr ""
 
 #: ../npcs/bethan.txt:70
-msgid ""
-"You dont have the Wyvern tails? Well you had better get back into the caves."
+msgid "You dont have the Wyvern tails? Well you had better get back into the caves."
 msgstr ""
 
 #: ../npcs/bethan.txt:75
-msgid ""
-"The fire ants live in the woods to the east of here. Go and fetch one a Fire "
-"Ant heart for the spell."
+msgid "The fire ants live in the woods to the east of here. Go and fetch one a Fire Ant heart for the spell."
 msgstr ""
 
 #: ../npcs/bethan.txt:80
@@ -2230,9 +2171,7 @@ msgid "Strange. We dont usually get bears in these woods."
 msgstr ""
 
 #: ../npcs/bethan.txt:88
-msgid ""
-"It seemed a little strange. Its eyes seemed almost human. I feel a bit funny "
-"after fighting it."
+msgid "It seemed a little strange. Its eyes seemed almost human. I feel a bit funny after fighting it."
 msgstr ""
 
 #: ../npcs/bethan.txt:89
@@ -2280,10 +2219,7 @@ msgid "Thanks for taking care of that. Good luck on the rest of your journey."
 msgstr ""
 
 #: ../npcs/bethan.txt:110
-msgid ""
-"Specialise in your favourite skills. You will get more benefit from "
-"investing a lot of training into a small set of skills, rather than a small "
-"amount of training in a lot of skills."
+msgid "Specialise in your favourite skills. You will get more benefit from investing a lot of training into a small set of skills, rather than a small amount of training in a lot of skills."
 msgstr ""
 
 #: ../npcs/bethan.txt:114
@@ -2303,9 +2239,7 @@ msgid "The troops we encountered so far are probably the advance party."
 msgstr ""
 
 #: ../npcs/bethan.txt:118
-msgid ""
-"The main force wont be far behind and the elite forces will probably be "
-"following at the rear."
+msgid "The main force wont be far behind and the elite forces will probably be following at the rear."
 msgstr ""
 
 #: ../npcs/bethan.txt:119
@@ -2341,15 +2275,11 @@ msgid "Its not good. Spirits started appearing 3 days back."
 msgstr ""
 
 #: ../npcs/bryn.txt:17
-msgid ""
-"It all started when Tarlek left the asylum. He was taken away by a group of "
-"the Sarlinian."
+msgid "It all started when Tarlek left the asylum. He was taken away by a group of the Sarlinian."
 msgstr ""
 
 #: ../npcs/bryn.txt:18
-msgid ""
-"After a while, the governor started acting strange and talking to himself. "
-"Then the spirits started to appear."
+msgid "After a while, the governor started acting strange and talking to himself. Then the spirits started to appear."
 msgstr ""
 
 #: ../npcs/bryn.txt:19
@@ -2361,15 +2291,11 @@ msgid "You seem to be unharmed. How did you survive?"
 msgstr ""
 
 #: ../npcs/bryn.txt:21
-msgid ""
-"The wardens started getting edgy when the spirits appeared. They started "
-"losing their minds after a while and I havent seen them now for a couple of "
-"days."
+msgid "The wardens started getting edgy when the spirits appeared. They started losing their minds after a while and I havent seen them now for a couple of days."
 msgstr ""
 
 #: ../npcs/bryn.txt:22
-msgid ""
-"Somehow the asylum residents didnt seem to be affected by the dark presence."
+msgid "Somehow the asylum residents didnt seem to be affected by the dark presence."
 msgstr ""
 
 #: ../npcs/bryn.txt:23
@@ -2385,9 +2311,7 @@ msgid "At the moment im fine. Not all days are so good."
 msgstr ""
 
 #: ../npcs/bryn.txt:26
-msgid ""
-"If you're planning to investigate the goings on, you should head towards the "
-"governors office at the end of the asylum."
+msgid "If you're planning to investigate the goings on, you should head towards the governors office at the end of the asylum."
 msgstr ""
 
 #: ../npcs/bryn.txt:27
@@ -2395,9 +2319,7 @@ msgid "What about you? Will you be okay?"
 msgstr ""
 
 #: ../npcs/bryn.txt:28
-msgid ""
-"Ill be fine. Ill make my way out as soon as... well never mind that now. Go "
-"on ahead."
+msgid "Ill be fine. Ill make my way out as soon as... well never mind that now. Go on ahead."
 msgstr ""
 
 #: ../npcs/bryn.txt:29
@@ -2421,8 +2343,7 @@ msgid "After I left the asylum, I needed to find a safe place to hide out."
 msgstr ""
 
 #: ../npcs/bryn.txt:43
-msgid ""
-"You had better be careful. There was a wild bear on the loose around here."
+msgid "You had better be careful. There was a wild bear on the loose around here."
 msgstr ""
 
 #: ../npcs/bryn.txt:44
@@ -2438,15 +2359,11 @@ msgid "Not exactly. Theres nothing in here except for me."
 msgstr ""
 
 #: ../npcs/bryn.txt:47
-msgid ""
-"That bear you saw. That would be me. That was quite a performance last time."
+msgid "That bear you saw. That would be me. That was quite a performance last time."
 msgstr ""
 
 #: ../npcs/bryn.txt:48
-msgid ""
-"I go through a physical transformation, causing me to take the form of a "
-"bear. I was inflicted with this many years ago when I was attacked by such a "
-"creature."
+msgid "I go through a physical transformation, causing me to take the form of a bear. I was inflicted with this many years ago when I was attacked by such a creature."
 msgstr ""
 
 #: ../npcs/bryn.txt:49
@@ -2462,15 +2379,11 @@ msgid "So im going to get hairy and grow big teeth?"
 msgstr ""
 
 #: ../npcs/bryn.txt:52
-msgid ""
-"With training, some can control the beast, but it requires great physical "
-"strength."
+msgid "With training, some can control the beast, but it requires great physical strength."
 msgstr ""
 
 #: ../npcs/bryn.txt:53
-msgid ""
-"Come and see me if you run into trouble. I may be able to offer some "
-"assistance, but for now, I need to get back on my feet."
+msgid "Come and see me if you run into trouble. I may be able to offer some assistance, but for now, I need to get back on my feet."
 msgstr ""
 
 #: ../npcs/bryn.txt:54
@@ -2478,9 +2391,7 @@ msgid "Okay. Stay out of trouble."
 msgstr ""
 
 #: ../npcs/bryn.txt:60
-msgid ""
-"Use the transformation effect to your advantage in battle. The beast is "
-"fierce and powerful if controlled properly."
+msgid "Use the transformation effect to your advantage in battle. The beast is fierce and powerful if controlled properly."
 msgstr ""
 
 #: ../npcs/bryn.txt:64
@@ -2496,28 +2407,19 @@ msgid "Its my pleasure. Allow me to offer my serices as a crafter."
 msgstr ""
 
 #: ../npcs/bryn.txt:67
-msgid ""
-"Back before I lived in solitude, I used to spend my time creating magical "
-"artifacts."
+msgid "Back before I lived in solitude, I used to spend my time creating magical artifacts."
 msgstr ""
 
 #: ../npcs/bryn.txt:68
-msgid ""
-"Its been some time since I created anything but I still have a few tricks up "
-"my sleeve."
+msgid "Its been some time since I created anything but I still have a few tricks up my sleeve."
 msgstr ""
 
 #: ../npcs/bryn.txt:69
-msgid ""
-"I remember a formula for a magic ring. I dont know how useful it will be but "
-"I need a bit of practice again before I will be able to perform the most "
-"powerful craftings."
+msgid "I remember a formula for a magic ring. I dont know how useful it will be but I need a bit of practice again before I will be able to perform the most powerful craftings."
 msgstr ""
 
 #: ../npcs/bryn.txt:70
-msgid ""
-"To create the ring, I will need a spider leg, a yellow rose and a vial of "
-"dew."
+msgid "To create the ring, I will need a spider leg, a yellow rose and a vial of dew."
 msgstr ""
 
 #: ../npcs/bryn.txt:71
@@ -2541,14 +2443,11 @@ msgid "Indeed I am. And you're with the party from Cambria."
 msgstr ""
 
 #: ../npcs/evan.txt:13
-msgid ""
-"Well met neighbour. I heared about the troubles in Cambria. What news from "
-"there?"
+msgid "Well met neighbour. I heared about the troubles in Cambria. What news from there?"
 msgstr ""
 
 #: ../npcs/evan.txt:14
-msgid ""
-"Its not looking good im afraid. Theres word of a larger force on its way."
+msgid "Its not looking good im afraid. Theres word of a larger force on its way."
 msgstr ""
 
 #: ../npcs/evan.txt:15
@@ -2560,9 +2459,7 @@ msgid "Actually we are looking for some good men to join us in combat."
 msgstr ""
 
 #: ../npcs/evan.txt:17
-msgid ""
-"My bow has not seen that kind of combat. Im afraid I would be of no use to "
-"you. I am a hunter not a fighter."
+msgid "My bow has not seen that kind of combat. Im afraid I would be of no use to you. I am a hunter not a fighter."
 msgstr ""
 
 #: ../npcs/evan.txt:18
@@ -2574,26 +2471,19 @@ msgid "Hmm, I wonder..."
 msgstr ""
 
 #: ../npcs/evan.txt:20
-msgid ""
-"Perhaps I can be of some help. During my years I have gained an affinity "
-"with the local wildlife."
+msgid "Perhaps I can be of some help. During my years I have gained an affinity with the local wildlife."
 msgstr ""
 
 #: ../npcs/evan.txt:21
-msgid ""
-"I have come to think of some as comrades. If treated right, they can be the "
-"most loyal of companions."
+msgid "I have come to think of some as comrades. If treated right, they can be the most loyal of companions."
 msgstr ""
 
 #: ../npcs/evan.txt:22
-msgid ""
-"Thanks all the same but im not sure how much help a few woodland critters "
-"would be."
+msgid "Thanks all the same but im not sure how much help a few woodland critters would be."
 msgstr ""
 
 #: ../npcs/evan.txt:23
-msgid ""
-"Dont underestimate the power of nature. Some of these creatures are fierce."
+msgid "Dont underestimate the power of nature. Some of these creatures are fierce."
 msgstr ""
 
 #: ../npcs/evan.txt:24
@@ -2601,20 +2491,15 @@ msgid "Humor me if you will. Lets see if youve got what it takes."
 msgstr ""
 
 #: ../npcs/evan.txt:25
-msgid ""
-"In the woods to the north lives a stallion. He's a little flighty but can be "
-"friendly if he trusts you."
+msgid "In the woods to the north lives a stallion. He's a little flighty but can be friendly if he trusts you."
 msgstr ""
 
 #: ../npcs/evan.txt:26
-msgid ""
-"Here take these apples. If you can get close to him, give him one of these."
+msgid "Here take these apples. If you can get close to him, give him one of these."
 msgstr ""
 
 #: ../npcs/evan.txt:28
-msgid ""
-"Getting close to him might not be so easy. Take a few of these traps aswell. "
-"They wont hurt him but will give you a chance to get close."
+msgid "Getting close to him might not be so easy. Take a few of these traps aswell. They wont hurt him but will give you a chance to get close."
 msgstr ""
 
 #: ../npcs/evan.txt:30
@@ -2630,15 +2515,11 @@ msgid "Sounds easy enough"
 msgstr ""
 
 #: ../npcs/evan.txt:40
-msgid ""
-"If you're having trouble catching the horse, use the traps I gave you to "
-"slow him down."
+msgid "If you're having trouble catching the horse, use the traps I gave you to slow him down."
 msgstr ""
 
 #: ../npcs/evan.txt:41
-msgid ""
-"When you get the chance, give him some apples. Come and see me when you're "
-"successful."
+msgid "When you get the chance, give him some apples. Come and see me when you're successful."
 msgstr ""
 
 #: ../npcs/evan.txt:47
@@ -2650,9 +2531,7 @@ msgid "Not so good. I used all of the traps already."
 msgstr ""
 
 #: ../npcs/evan.txt:49
-msgid ""
-"Ok heres a couple more. Try to anticipate where he is moving to and place "
-"the trap in his path."
+msgid "Ok heres a couple more. Try to anticipate where he is moving to and place the trap in his path."
 msgstr ""
 
 #: ../npcs/evan.txt:52
@@ -2668,10 +2547,7 @@ msgid "No not yet. I dont have any apples left."
 msgstr ""
 
 #: ../npcs/evan.txt:58
-msgid ""
-"Make sure you're close enough to give them to him. If you cant catch him, "
-"try to use those traps I gave you to slow him down. Heres a couple more "
-"apples."
+msgid "Make sure you're close enough to give them to him. If you cant catch him, try to use those traps I gave you to slow him down. Heres a couple more apples."
 msgstr ""
 
 #: ../npcs/evan.txt:61
@@ -2695,10 +2571,7 @@ msgid "Hah I knew you had it in you."
 msgstr ""
 
 #: ../npcs/evan.txt:70
-msgid ""
-"Keep improving and it will become more natural to you. I heared that the "
-"best tamers can apply their skill to undead or even people. I dont know if "
-"thats true or not."
+msgid "Keep improving and it will become more natural to you. I heared that the best tamers can apply their skill to undead or even people. I dont know if thats true or not."
 msgstr ""
 
 #: ../npcs/evan.txt:71
@@ -2714,9 +2587,7 @@ msgid "I dont know. I guess its time to head out."
 msgstr ""
 
 #: ../npcs/evan.txt:74
-msgid ""
-"Ok good luck out there. If you happen by Vlad on your way north, say hi from "
-"me."
+msgid "Ok good luck out there. If you happen by Vlad on your way north, say hi from me."
 msgstr ""
 
 #: ../npcs/evan.txt:75
@@ -2732,9 +2603,7 @@ msgid "Good luck on your journey."
 msgstr ""
 
 #: ../npcs/evan.txt:99
-msgid ""
-"I once heared a rumour of a great beast to the north beyond the desert. I "
-"wonder if such a creature could be tamed?"
+msgid "I once heared a rumour of a great beast to the north beyond the desert. I wonder if such a creature could be tamed?"
 msgstr ""
 
 #: ../npcs/evan.txt:107
@@ -2750,9 +2619,7 @@ msgid "I couldnt leave you to face the Sarlinian hordes alone."
 msgstr ""
 
 #: ../npcs/evan.txt:115
-msgid ""
-"It looks like you have quite a gathering here. You must have made quite an "
-"impression."
+msgid "It looks like you have quite a gathering here. You must have made quite an impression."
 msgstr ""
 
 #: ../npcs/farmer_pitchfork_working.txt:1
@@ -2804,9 +2671,7 @@ msgid "With it, I was able to call on lost souls."
 msgstr ""
 
 #: ../npcs/governor.txt:22
-msgid ""
-"Before I knew it, the power grew out of control and we were overrun with "
-"undead."
+msgid "Before I knew it, the power grew out of control and we were overrun with undead."
 msgstr ""
 
 #: ../npcs/governor.txt:23
@@ -2822,9 +2687,7 @@ msgid "Get out before its too late."
 msgstr ""
 
 #: ../npcs/governor.txt:31
-msgid ""
-"I can feel it. My mind and body are becoming consumed by the darkness. Get "
-"out before I lose control completely."
+msgid "I can feel it. My mind and body are becoming consumed by the darkness. Get out before I lose control completely."
 msgstr ""
 
 #: ../npcs/ieuan.txt:2
@@ -2832,31 +2695,23 @@ msgid "Ieuan"
 msgstr ""
 
 #: ../npcs/ieuan.txt:14
-msgid ""
-"Thank heavens you're safe! That was a close call back there. Are you hurt?"
-msgstr ""
-"あなたの安全を天に感謝します! That was a close call back there. あなたはケガ"
-"していますか?"
+msgid "Thank heavens you're safe! That was a close call back there. Are you hurt?"
+msgstr "あなたの安全を天に感謝します! That was a close call back there. あなたはケガしていますか?"
 
 #: ../npcs/ieuan.txt:15
 msgid "A few bruises maybe. I can handle myself."
 msgstr "ちょっとした打撲くらいです。 自分で処置できます。"
 
 #: ../npcs/ieuan.txt:16
-msgid ""
-"Hah! I dont doubt it my friend. But dont get careless. We arent safe yet."
-msgstr ""
-"ハハ! 私は友人を疑いはしません。 しかし不注意にはならないでください。 私たち"
-"は、まだ安全ではないのです。"
+msgid "Hah! I dont doubt it my friend. But dont get careless. We arent safe yet."
+msgstr "ハハ! 私は友人を疑いはしません。 しかし不注意にはならないでください。 私たちは、まだ安全ではないのです。"
 
 #: ../npcs/ieuan.txt:17
 msgid "What are we facing?"
 msgstr "私たちは何に直面していますか?"
 
 #: ../npcs/ieuan.txt:18
-msgid ""
-"A few of the Sarlinian got through ahead of us. No doubt we can expect a few "
-"of their undead minions."
+msgid "A few of the Sarlinian got through ahead of us. No doubt we can expect a few of their undead minions."
 msgstr ""
 
 #: ../npcs/ieuan.txt:19
@@ -2864,23 +2719,16 @@ msgid "Could be tricky."
 msgstr "やっかいですね。"
 
 #: ../npcs/ieuan.txt:20
-msgid ""
-"There will still be a few of the Sarlinian behind us. Ill guard the rear and "
-"make sure none make it through."
+msgid "There will still be a few of the Sarlinian behind us. Ill guard the rear and make sure none make it through."
 msgstr ""
 
 #: ../npcs/ieuan.txt:21
 msgid "Up ahead is a small settlement. We should be safe there for the moment."
-msgstr ""
-"先に進めば、小さな集落に たどりつきます。 私たちはそこで、安全であるべきで"
-"しょう。"
+msgstr "先に進めば、小さな集落に たどりつきます。 私たちはそこで、安全であるべきでしょう。"
 
 #: ../npcs/ieuan.txt:22
-msgid ""
-"I'll go on ahead and clear a path. Meet me at the settlement when you're "
-"ready."
-msgstr ""
-"私は先に進んで、パスを掃除します。 あなたが準備できたら、集落で会いましょう。"
+msgid "I'll go on ahead and clear a path. Meet me at the settlement when you're ready."
+msgstr "私は先に進んで、パスを掃除します。 あなたが準備できたら、集落で会いましょう。"
 
 #: ../npcs/ieuan.txt:23
 msgid "Understood."
@@ -2915,35 +2763,23 @@ msgid "Its unusual to see them this far south. What are they up to?"
 msgstr ""
 
 #: ../npcs/ieuan.txt:43
-msgid ""
-"Before we left Cambria, I spoke to Kai. He thinks that this was just a scout "
-"party and that the Sarlinian will be back with a greater force."
-msgstr ""
-"Cambria を離れる前に、私は Kai と話しました。 He thinks that this was just a "
-"scout party and that the Sarlinian will be back with a greater force."
+msgid "Before we left Cambria, I spoke to Kai. He thinks that this was just a scout party and that the Sarlinian will be back with a greater force."
+msgstr "Cambria を離れる前に、私は Kai と話しました。 He thinks that this was just a scout party and that the Sarlinian will be back with a greater force."
 
 #: ../npcs/ieuan.txt:44
-msgid ""
-"Just a scout party? If thats true then we're in trouble. Theres no way we "
-"could withstand a larger force."
+msgid "Just a scout party? If thats true then we're in trouble. Theres no way we could withstand a larger force."
 msgstr ""
 
 #: ../npcs/ieuan.txt:45
-msgid ""
-"Our best chance is to increase our own numbers. It could be difficult since "
-"theres not much civilisation around these parts."
+msgid "Our best chance is to increase our own numbers. It could be difficult since theres not much civilisation around these parts."
 msgstr ""
 
 #: ../npcs/ieuan.txt:46
-msgid ""
-"I'll talk to the folk around here and see what we can find out about the "
-"area."
+msgid "I'll talk to the folk around here and see what we can find out about the area."
 msgstr ""
 
 #: ../npcs/ieuan.txt:47
-msgid ""
-"The Woodsman at the north of town is handy with a bow. It might be worth "
-"talking to him."
+msgid "The Woodsman at the north of town is handy with a bow. It might be worth talking to him."
 msgstr "町の北にいる木こりは handy with a bow. 彼と話す価値がある。"
 
 #: ../npcs/ieuan.txt:48
@@ -2951,16 +2787,11 @@ msgid "Ok thanks for the tip. We will have a small army before you know it."
 msgstr ""
 
 #: ../npcs/ieuan.txt:49
-msgid ""
-"I wouldn't count on it. But in the mean time, I suggest you get more "
-"familiar with your weapon. If we are going to face the Sarlinian again, we "
-"will need to be much better prepared."
+msgid "I wouldn't count on it. But in the mean time, I suggest you get more familiar with your weapon. If we are going to face the Sarlinian again, we will need to be much better prepared."
 msgstr ""
 
 #: ../npcs/ieuan.txt:50
-msgid ""
-"Kai sees a lot of potential in you but you're still lacking in combat "
-"experience."
+msgid "Kai sees a lot of potential in you but you're still lacking in combat experience."
 msgstr ""
 
 #: ../npcs/ieuan.txt:57
@@ -2968,9 +2799,7 @@ msgid "We need to prepare for battle. Lets see if we can find some help."
 msgstr ""
 
 #: ../npcs/ieuan.txt:62
-msgid ""
-"I hear that Evan has you running around the woods after a horse. That must "
-"be a sight."
+msgid "I hear that Evan has you running around the woods after a horse. That must be a sight."
 msgstr ""
 
 #: ../npcs/ieuan.txt:67
@@ -2978,22 +2807,15 @@ msgid "I think its time to move on."
 msgstr ""
 
 #: ../npcs/ieuan.txt:68
-msgid ""
-"Yes I fear you are right. Theres no telling when the Sarlinian might be on "
-"us again."
+msgid "Yes I fear you are right. Theres no telling when the Sarlinian might be on us again."
 msgstr ""
 
 #: ../npcs/ieuan.txt:69
-msgid ""
-"Alas I'll be staying here a while longer. I want to get a message back to "
-"Kai before I leave here."
+msgid "Alas I'll be staying here a while longer. I want to get a message back to Kai before I leave here."
 msgstr ""
 
 #: ../npcs/ieuan.txt:70
-msgid ""
-"Evan tells me of an asylum built in a desert to the north. A couple of the "
-"Sarlinian generals were supposedly previous residents of the asylum. I bet "
-"we would find out more information from there."
+msgid "Evan tells me of an asylum built in a desert to the north. A couple of the Sarlinian generals were supposedly previous residents of the asylum. I bet we would find out more information from there."
 msgstr ""
 
 #: ../npcs/ieuan.txt:71
@@ -3001,8 +2823,7 @@ msgid "Okay I'll head north from here."
 msgstr ""
 
 #: ../npcs/ieuan.txt:72
-msgid ""
-"I dont know how long I will stay here but I'll catch up to you on the road."
+msgid "I dont know how long I will stay here but I'll catch up to you on the road."
 msgstr ""
 
 #: ../npcs/ieuan.txt:73
@@ -3018,15 +2839,11 @@ msgid "The asylum is on the eastern side of a desert to the north of here."
 msgstr ""
 
 #: ../npcs/ieuan.txt:97
-msgid ""
-"Keep up your training. When you reach your potential, you will be a force to "
-"be reckoned with."
+msgid "Keep up your training. When you reach your potential, you will be a force to be reckoned with."
 msgstr ""
 
 #: ../npcs/ieuan.txt:105
-msgid ""
-"Dont forget about our goal. We will need to be prepared when we meet the "
-"Sarlinian again."
+msgid "Dont forget about our goal. We will need to be prepared when we meet the Sarlinian again."
 msgstr ""
 
 #: ../npcs/ieuan.txt:112
@@ -3050,31 +2867,23 @@ msgid "I have learned a thing or two on my travels."
 msgstr ""
 
 #: ../npcs/ieuan.txt:117
-msgid ""
-"You seem much stronger than the last time I saw you. How fares the search "
-"for allies?"
+msgid "You seem much stronger than the last time I saw you. How fares the search for allies?"
 msgstr ""
 
 #: ../npcs/ieuan.txt:118
-msgid ""
-"I met a few friends on my journey and have a few troops to fight with me."
+msgid "I met a few friends on my journey and have a few troops to fight with me."
 msgstr ""
 
 #: ../npcs/ieuan.txt:119
-msgid ""
-"Thats good news. I hope it will be enough. I come with news of the Sarlinian."
+msgid "Thats good news. I hope it will be enough. I come with news of the Sarlinian."
 msgstr ""
 
 #: ../npcs/ieuan.txt:120
-msgid ""
-"They are advancing already. We need to make our final battle preperations "
-"soon."
+msgid "They are advancing already. We need to make our final battle preperations soon."
 msgstr ""
 
 #: ../npcs/ieuan.txt:121
-msgid ""
-"We knew this day would come. This is the time to show our worth. Is there "
-"anything else we can do?"
+msgid "We knew this day would come. This is the time to show our worth. Is there anything else we can do?"
 msgstr ""
 
 #: ../npcs/ieuan.txt:122
@@ -3086,32 +2895,23 @@ msgid "Hmm. I'm sure theres some better equipment for you to get hold of yet."
 msgstr ""
 
 #: ../npcs/ieuan.txt:124
-msgid ""
-"But first, theres a dungeon not too far from here. I found an old tome back "
-"in the town."
+msgid "But first, theres a dungeon not too far from here. I found an old tome back in the town."
 msgstr ""
 
 #: ../npcs/ieuan.txt:125
-msgid ""
-"It tells of an ancient guardian locked away at the bottom of the dungeon."
+msgid "It tells of an ancient guardian locked away at the bottom of the dungeon."
 msgstr ""
 
 #: ../npcs/ieuan.txt:126
-msgid ""
-"If we had such an ancient power fighting with us, I'm sure it would give us "
-"an advantage."
+msgid "If we had such an ancient power fighting with us, I'm sure it would give us an advantage."
 msgstr ""
 
 #: ../npcs/ieuan.txt:127
-msgid ""
-"So its a friendly guardian? I just toddle down the dungeon and ask it if it "
-"wants to join us?"
+msgid "So its a friendly guardian? I just toddle down the dungeon and ask it if it wants to join us?"
 msgstr ""
 
 #: ../npcs/ieuan.txt:128
-msgid ""
-"Okay I admit, the text was not too clear on all the details. You could have "
-"a fight on your hands."
+msgid "Okay I admit, the text was not too clear on all the details. You could have a fight on your hands."
 msgstr ""
 
 #: ../npcs/ieuan.txt:129
@@ -3139,8 +2939,7 @@ msgid "You made it!"
 msgstr ""
 
 #: ../npcs/ieuan.txt:144
-msgid ""
-"I hope you're prepared for battle. We have been holding them back up to now."
+msgid "I hope you're prepared for battle. We have been holding them back up to now."
 msgstr ""
 
 #: ../npcs/ieuan.txt:145
@@ -3156,9 +2955,7 @@ msgid "No pressure then."
 msgstr ""
 
 #: ../npcs/ieuan.txt:148
-msgid ""
-"I know you can do it. You have become a powerhouse since we first started on "
-"this."
+msgid "I know you can do it. You have become a powerhouse since we first started on this."
 msgstr ""
 
 #: ../npcs/ivan.txt:1
@@ -3194,8 +2991,7 @@ msgid "Um... here you go."
 msgstr ""
 
 #: ../npcs/vlad.txt:18
-msgid ""
-"Aaaaaaarg! Why ye tryin to poison me! It tastes like orc feet! Git out Evan."
+msgid "Aaaaaaarg! Why ye tryin to poison me! It tastes like orc feet! Git out Evan."
 msgstr ""
 
 #: ../npcs/vlad.txt:19
@@ -3223,8 +3019,7 @@ msgid "Work?"
 msgstr ""
 
 #: ../npcs/vlad.txt:25
-msgid ""
-"There be some creepy crawlies sneaked into my cave! Go and take care o them!"
+msgid "There be some creepy crawlies sneaked into my cave! Go and take care o them!"
 msgstr ""
 
 #: ../npcs/vlad.txt:26
@@ -3264,8 +3059,7 @@ msgid "Ye stick with me now boy."
 msgstr ""
 
 #: ../npcs/vlad.txt:44
-msgid ""
-"If ye be needing a good goblin axe to cover ye out there, call the name Vlad."
+msgid "If ye be needing a good goblin axe to cover ye out there, call the name Vlad."
 msgstr ""
 
 #: ../npcs/vlad.txt:45
