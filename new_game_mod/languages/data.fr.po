@@ -1,0 +1,3100 @@
+# Copyright (C) 2011 Clint Bellanger
+# This file is distributed under the same license as the FLARE package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-07 18:58+\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../items/items.txt:7
+msgid "Dagger"
+msgstr "Dague"
+
+#: ../items/items.txt:21
+msgid "Shortsword"
+msgstr "Épée courte"
+
+#: ../items/items.txt:35
+msgid "Longsword"
+msgstr "Épée longue"
+
+#: ../items/items.txt:49
+msgid "Greatsword"
+msgstr "Grande épée"
+
+#: ../items/items.txt:65
+msgid "Slingshot"
+msgstr "Fronde"
+
+#: ../items/items.txt:89
+msgid "Shortbow"
+msgstr "Arc court"
+
+#: ../items/items.txt:113
+msgid "Longbow"
+msgstr "Arc Long"
+
+#: ../items/items.txt:137
+msgid "Greatbow"
+msgstr "Grand Arc"
+
+#: ../items/items.txt:163
+msgid "Wood Buckler"
+msgstr "Bouclier en bois"
+
+#: ../items/items.txt:174
+msgid "Use: Raise your shield to raise your avoidance by 10% and absorb by 1-5. Chance to reflect missiles increased by 50%."
+msgstr "Utiliser : Soulevez votre bouclier pour augmenter votre esquive de 10% et absorber de 1 à 5. Les chances de renvoyer les projectiles sont augmenté de 50%."
+
+#: ../items/items.txt:179
+msgid "Iron Buckler"
+msgstr "Bouclier en Fer"
+
+#: ../items/items.txt:190
+msgid "Use: Raise your shield to raise your avoidance by 20% and absorb by 1-5. Chance to reflect missiles increased by 60%."
+msgstr "Utiliser : Soulevez votre bouclier pour augmenter votre esquive de 20% et absorber de 1 à 5. Les chances de renvoyer les projectiles sont augmenté de 60%."
+
+#: ../items/items.txt:195
+msgid "Crest Shield"
+msgstr "Bouclier Héraldique"
+
+#: ../items/items.txt:206
+msgid "Use: Raise your shield to raise your avoidance by 20% and absorb by 2-5. Chance to reflect missiles increased by 60%."
+msgstr "Utiliser : Soulevez votre bouclier pour augmenter votre esquive de 20% et absorber de 2 à 5. Les chances de renvoyer les projectiles sont augmenté de 60%."
+
+#: ../items/items.txt:211
+msgid "Tower Shield"
+msgstr "Pavois"
+
+#: ../items/items.txt:222
+msgid "Use: Raise your shield to raise your avoidance by 25% and absorb by 2-5. Chance to reflect missiles increased by 65%."
+msgstr "Utiliser : Soulevez votre bouclier pour augmenter votre esquive de 25% et absorber de 2 à 5. Les chances de renvoyer les projectiles sont augmenté de 65%."
+
+#: ../items/items.txt:229
+msgid "Cloth Shirt"
+msgstr "Chemise d'étoffe"
+
+#: ../items/items.txt:241
+msgid "Cloth Gloves"
+msgstr "Gants d'étoffes"
+
+#: ../items/items.txt:253
+msgid "Cloth Trousers"
+msgstr "Pantalon d'étoffe"
+
+#: ../items/items.txt:265
+msgid "Cloth Sandals"
+msgstr "Sandales d'étoffe"
+
+#: ../items/items.txt:280
+msgid "Leather Hood"
+msgstr "Capuche de cuir"
+
+#: ../items/items.txt:293
+msgid "Leather Chest"
+msgstr "Plastron de cuir"
+
+#: ../items/items.txt:306
+msgid "Leather Gloves"
+msgstr "Gants de cuir"
+
+#: ../items/items.txt:319
+msgid "Leather Trousers"
+msgstr "Panatalon de cuir"
+
+#: ../items/items.txt:332
+msgid "Leather Boots"
+msgstr "Bottes de cuir"
+
+#: ../items/items.txt:348
+msgid "Chain Coif"
+msgstr "Coiffe de chaînes"
+
+#: ../items/items.txt:361
+msgid "Chain Cuirass"
+msgstr "Cuirasse de chaînes"
+
+#: ../items/items.txt:374
+msgid "Chain Gloves"
+msgstr "Gants de chaînes"
+
+#: ../items/items.txt:387
+msgid "Chain Greaves"
+msgstr "Jambières de chaînes"
+
+#: ../items/items.txt:400
+msgid "Chain Boots"
+msgstr "Bottes de chaînes"
+
+#: ../items/items.txt:424
+msgid "Bear Trap"
+msgstr "Piège à Ours"
+
+#: ../items/items.txt:428
+msgid "Immobilizes the target"
+msgstr "Immobilise la cible"
+
+#: ../items/items.txt:437
+msgid "Apple"
+msgstr "Pomme"
+
+#: ../items/items.txt:441
+msgid "Tastes Good"
+msgstr "c'est bon"
+
+#: ../items/items.txt:450
+msgid "Earth Wyvern Tail"
+msgstr "Queue de Vouivre de Terre"
+
+#: ../items/items.txt:452
+msgid "A Wyverns Tail"
+msgstr "Une queue de Vouivre"
+
+#: ../items/items.txt:460
+msgid "Fire Wyvern Tail"
+msgstr "Queue de Vouivre de Feu"
+
+#: ../items/items.txt:470
+msgid "Ice Wyvern Tail"
+msgstr "Queue de Vouivre de Glace"
+
+#: ../items/items.txt:480
+msgid "Lightning Wyvern Tail"
+msgstr "Queue de Vouivre de Foudre"
+
+#: ../items/items.txt:490
+msgid "Fire Antlion Heart"
+msgstr "Coeur d'Antilion de Feu"
+
+#: ../items/items.txt:492
+msgid "An Antlion Heart"
+msgstr "Un coeur d'Antilion"
+
+#: ../items/items.txt:513
+msgid "Ring of Protection"
+msgstr "Anneau de la Protection"
+
+#: ../items/items.txt:525
+msgid "Bear Figurine +1"
+msgstr "Figurine de l'Ours +1"
+
+#: ../items/items.txt:537
+msgid "Owl Figurine +1"
+msgstr "Figurine de la Chouette +1"
+
+#: ../items/items.txt:549
+msgid "Cat Figurine +1"
+msgstr "Figurine du Chat +1"
+
+#: ../items/items.txt:561
+msgid "Turtle Figurine +1"
+msgstr "Figurine de la Tortue +1"
+
+#: ../items/items.txt:573
+msgid "Gauntlets of Ogre Power"
+msgstr "Gantelets de la puissance de l'Ogre"
+
+#: ../items/items.txt:588
+msgid "Bear Figurine +2"
+msgstr "Figurine de l'Ours +2"
+
+#: ../items/items.txt:600
+msgid "Owl Figurine +2"
+msgstr "Figurine de la Chouette +2"
+
+#: ../items/items.txt:612
+msgid "Cat Figurine +2"
+msgstr "Figurine du Chat +2"
+
+#: ../items/items.txt:624
+msgid "Turtle Figurine +2"
+msgstr "Figurine de la Tortue +2"
+
+#: ../items/items.txt:636
+msgid "Ring of Strength"
+msgstr "Anneau de Force"
+
+#: ../items/items.txt:648
+msgid "Ring of Dexterity"
+msgstr "Anneau de Dextérité"
+
+#: ../items/items.txt:660
+msgid "Ring of Magic"
+msgstr "Anneau de Magie"
+
+#: ../items/items.txt:672
+msgid "Dark Talisman"
+msgstr "Anneau Sombre"
+
+#: ../items/items.txt:673
+msgid "Better not know how to use this"
+msgstr "Mieux vaut ne pas savoir comment l'utiliser"
+
+#: ../powers/powers.txt:20
+msgid "Swing"
+msgstr "Frapper"
+
+#: ../powers/powers.txt:23
+msgid "Basic melee attack"
+msgstr "Attaque de melée basique"
+
+#: ../powers/powers.txt:34
+msgid "Swing 2"
+msgstr "Frapper 2"
+
+#: ../powers/powers.txt:37
+msgid "150% Attack Damage"
+msgstr "Dégats d'Attaque de 150 %"
+
+#: ../powers/powers.txt:49
+msgid "Swing 3"
+msgstr "Frapper 3"
+
+#: ../powers/powers.txt:52
+msgid "200% Attack Damage"
+msgstr "Dégats d'Attaque de 200 %"
+
+#: ../powers/powers.txt:64
+msgid "Swing 4"
+msgstr "Frapper 4"
+
+#: ../powers/powers.txt:67
+msgid "Attack multiple enemies in range"
+msgstr "Attaque plusieurs ennemis à portée"
+
+#: ../powers/powers.txt:80
+msgid "Swing 5"
+msgstr "Frapper 5"
+
+#: ../powers/powers.txt:101
+msgid "Shoot 1"
+msgstr "Tirer"
+
+#: ../powers/powers.txt:104
+msgid "Basic ranged attack"
+msgstr "Attaque à distance basique"
+
+#: ../powers/powers.txt:110
+msgid "Shoot 2"
+msgstr "Tirer 2"
+
+#: ../powers/powers.txt:113
+msgid "120% Damage"
+msgstr "120 % de dégats"
+
+#: ../powers/powers.txt:119
+msgid "Shoot 3"
+msgstr "Tirer 3"
+
+#: ../powers/powers.txt:122
+msgid "150% Damage"
+msgstr "150 % de dégats"
+
+#: ../powers/powers.txt:128
+msgid "Shoot 4"
+msgstr "Tirer 4"
+
+#: ../powers/powers.txt:131
+msgid "Missiles pass through multiple enemies"
+msgstr "Les projectiles traversent plusieurs ennemis"
+
+#: ../powers/powers.txt:137
+msgid "Shoot 5"
+msgstr "Tirer 5"
+
+#: ../powers/powers.txt:140
+msgid "Missiles pierce enemy armour and deal 180% damage"
+msgstr "Les pojectiles percent les armures des ennemis et font 180 % de dégats"
+
+#: ../powers/powers.txt:151
+msgid "Multishot 1"
+msgstr "Tir Multiple"
+
+#: ../powers/powers.txt:154
+msgid "Shoot three projectiles simultaneously"
+msgstr "Tire 3 projectiles simultanément"
+
+#: ../powers/powers.txt:160
+msgid "Multishot 2"
+msgstr "Tir Multiple 2"
+
+#: ../powers/powers.txt:163
+msgid "Shoot five projectiles simultaneously"
+msgstr "Tire 5 projectiles simultanément"
+
+#: ../powers/powers.txt:169
+msgid "Multishot 3"
+msgstr "Tir Multiple 3"
+
+#: ../powers/powers.txt:172
+msgid "Shoot seven projectiles simultaneously"
+msgstr "Tire 7 projectiles simultanément"
+
+#: ../powers/powers.txt:178
+msgid "Multishot 4"
+msgstr "Tir Multiple 4"
+
+#: ../powers/powers.txt:181
+msgid "Shoot nine projectiles simultaneously"
+msgstr "Tire 9 projectiles simultanément"
+
+#: ../powers/powers.txt:187
+msgid "Multishot 5"
+msgstr "Tir Multiple 5"
+
+#: ../powers/powers.txt:190
+msgid "Shoot eleven projectiles simultaneously"
+msgstr "Tire 11 projectiles simultanément"
+
+#: ../powers/powers.txt:202
+msgid "Quake"
+msgstr "Séisme"
+
+#: ../powers/powers.txt:205
+msgid "Earth attack damaging surrounding enemies"
+msgstr "Attaque de terre endommageant les ennemis environnants"
+
+#: ../powers/powers.txt:224
+msgid "Quake 2"
+msgstr "Séisme 2"
+
+#: ../powers/powers.txt:227
+msgid "More powerful earth atack"
+msgstr "Attaque de terre plus puissante"
+
+#: ../powers/powers.txt:247
+msgid "Quake 3"
+msgstr "Séisme 3"
+
+#: ../powers/powers.txt:250
+msgid "Adds stun chance to attack"
+msgstr "Ajoute des chances de paralysie à l'attaque"
+
+#: ../powers/powers.txt:271
+msgid "Quake Stun Effect"
+msgstr "Effet d'étourdissement du séisme"
+
+#: ../powers/powers.txt:274
+msgid "Applied the stun effect for 617 with accuracy mod"
+msgstr "Applique l'effet paralysant pour 617 avec un mod de précision"
+
+#: ../powers/powers.txt:286
+msgid "Quake 4"
+msgstr "Séisme 4"
+
+#: ../powers/powers.txt:289
+msgid "More Powerful Attack"
+msgstr "Attaque plus puissante"
+
+#: ../powers/powers.txt:313
+msgid "Applied the stun effect for 619 with accuracy mod"
+msgstr "Applique l'effet paralysant pour 619 avec un mod de précision"
+
+#: ../powers/powers.txt:325
+msgid "Quake 5"
+msgstr "Séisme 5"
+
+#: ../powers/powers.txt:349
+msgid "Quake stun Effect"
+msgstr "Effet d'étourdissement du séisme"
+
+#: ../powers/powers.txt:352
+msgid "Applied the stun effect for 621 with accuracy mod"
+msgstr "Applique l'effet paralysant pour 621 avec un mod de précision"
+
+#: ../powers/powers.txt:365
+msgid "Quake knockback Effect"
+msgstr ""Effet de recul du Séisme
+
+#: ../powers/powers.txt:368
+msgid "Applied the knockback effect for 621 with accuracy mod"
+msgstr "Applique l'effet paralysant pour 621 avec un mod de précision"
+
+#: ../powers/powers.txt:386
+msgid "Ice Bolt"
+msgstr "Éclair de Glace"
+
+#: ../powers/powers.txt:387
+msgid "Blast enemies with ice"
+msgstr "Explose les ennemis avec de la glace"
+
+#: ../powers/powers.txt:409
+msgid "Blue Spark"
+msgstr "Éincelle bleue"
+
+#: ../powers/powers.txt:421
+msgid "Ice Bolt 2"
+msgstr "Éclair de Glace 2"
+
+#: ../powers/powers.txt:422
+msgid "More powerful attack"
+msgstr "Attaque plus puissante"
+
+#: ../powers/powers.txt:445
+msgid "Ice Bolt 3"
+msgstr "Éclair de Glace 3"
+
+#: ../powers/powers.txt:446
+msgid "Fires 3 bolts"
+msgstr "Tire 3 éclairs"
+
+#: ../powers/powers.txt:471
+msgid "Ice Bolt 4"
+msgstr "Éclair de Glace 4"
+
+#: ../powers/powers.txt:472
+msgid "Adds a chance of freezing target"
+msgstr "Ajoute une chance de geler la cible"
+
+#: ../powers/powers.txt:498
+msgid "Ice bolt freeze effect"
+msgstr "Effet de gel de l'éclair de glace"
+
+#: ../powers/powers.txt:501
+msgid "Applied the freeze effect for 628 with accuracy mod"
+msgstr "Applique l'effet gel pour 628 avec un mod de précision"
+
+#: ../powers/powers.txt:510
+msgid "Ice Bolt 5"
+msgstr "Éclair de Glace 5"
+
+#: ../powers/powers.txt:511
+msgid "Fires 5 bolts"
+msgstr "Tire 5 éclairs"
+
+#: ../powers/powers.txt:555
+msgid "Apocalypse"
+msgstr "Apocalypse"
+
+#: ../powers/powers.txt:558
+msgid "Call the elements to destroy your enemies"
+msgstr "Appelle les éléments à détruire vos ennemis"
+
+#: ../powers/powers.txt:580
+msgid "Burn"
+msgstr "Brûler"
+
+#: ../powers/powers.txt:583
+msgid "Blast enemies in a distant area with fire"
+msgstr "Explose les ennemis dans une zine distante avec du feu"
+
+#: ../powers/powers.txt:625
+msgid "Shock"
+msgstr "Décharge"
+
+#: ../powers/powers.txt:628
+msgid "Electrocute an enemy from a distance; +25% crit chance against movement-impaired enemies."
+msgstr "Électrocute un ennemi à distance + 25% de chances de coup critique contre les ennemis à mobilité réduite."
+
+#: ../powers/powers.txt:665
+msgid "Conversion"
+msgstr "Conversion"
+
+#: ../powers/powers.txt:668
+msgid "Convert undead enemies to fight for you"
+msgstr "Convertie les ennemis vivants à se battre pour vous"
+
+#: ../powers/powers.txt:689
+msgid "Conversion 2"
+msgstr "Conversion 2"
+
+#: ../powers/powers.txt:692
+msgid "Increased duration, Higher success rate and convert multiple enemies"
+msgstr "Augmentation de la durée, Taux de réussite supérieur et conversion de plusieurs ennemis"
+
+#: ../powers/powers.txt:714
+msgid "Conversion 3"
+msgstr "Convrsion 3"
+
+#: ../powers/powers.txt:717
+msgid "Gain ability to convert animals"
+msgstr "Gagne la capacité de convertir des animaux"
+
+#: ../powers/powers.txt:739
+msgid "Conversion 4"
+msgstr "Conversion 4"
+
+#: ../powers/powers.txt:742
+msgid "Better range and sucess rate"
+msgstr "Meilleure portée et plus de chances de succès"
+
+#: ../powers/powers.txt:764
+msgid "Conversion 5"
+msgstr "Conversion 5"
+
+#: ../powers/powers.txt:767
+msgid "Convert humanoids, better success rate, larger range and greater duration"
+msgstr "Converti les humanoïdes, plus de chances de succès, plus grande portée et plus grande durée"
+
+#: ../powers/powers.txt:795
+msgid "Summon Goblin Ally"
+msgstr "Invoquer un Gobelin allié"
+
+#: ../powers/powers.txt:798
+msgid "Call a goblin ally to fight by your side"
+msgstr "Appelez un Gobelin allié pour se battre à vos côtés"
+
+#: ../powers/powers.txt:810
+msgid "Summon Goblin Ally 2"
+msgstr "Invoquer un Gobelin allié 2"
+
+#: ../powers/powers.txt:813
+msgid "More powerful ally which gets stronger along with your defense stat"
+msgstr "Allié plus puissant qui devient plus fort avec vos stats de défense"
+
+#: ../powers/powers.txt:825
+msgid "Summon Goblin Ally 3"
+msgstr "Invoquer un Gobelin allié "
+
+#: ../powers/powers.txt:828
+msgid "More powerful ally"
+msgstr "Allié plus puissant"
+
+#: ../powers/powers.txt:840
+msgid "Summon Goblin Ally 4"
+msgstr "Invoquer un Gobelin allié "
+
+#: ../powers/powers.txt:855
+msgid "Summon Goblin Ally 5"
+msgstr "Invoquer un Gobelin allié "
+
+#: ../powers/powers.txt:876
+msgid "Summon Ghost Ally"
+msgstr "Invoquer un Fantôme allié"
+
+#: ../powers/powers.txt:879
+msgid "Call a Ghost ally to fight by your side"
+msgstr "Appelez un Fantôme allié pour se battre à vos côtés"
+
+#: ../powers/powers.txt:891
+msgid "Summon Ghost Ally 2"
+msgstr "Invoquer un Fantôme allié 2"
+
+#: ../powers/powers.txt:894
+msgid "More powerful ally which gets stronger along with your mental stat"
+msgstr "Allié plus puissant qui devient plus fort avec vos stats de mental"
+
+#: ../powers/powers.txt:906
+msgid "Summon Ghost Ally 3"
+msgstr "Invoquer un Fantôme allié 3"
+
+#: ../powers/powers.txt:921
+msgid "Summon Ghost Ally 4"
+msgstr "Invoquer un Fantôme allié 4"
+
+#: ../powers/powers.txt:936
+msgid "Summon Ghost Ally 5"
+msgstr "Invoquer un Fantôme allié 5"
+
+#: ../powers/powers.txt:957
+msgid "Summon Wyvern Ally"
+msgstr "Invoquer une Vouivre alliée"
+
+#: ../powers/powers.txt:960
+msgid "Call a Wyvern ally to fight by your side"
+msgstr "Appelez une Vouivre alliée pour se battre à vos côtés"
+
+#: ../powers/powers.txt:972
+msgid "Summon Wyvern Ally 2"
+msgstr "Invoquer une Vouivre alliée 2"
+
+#: ../powers/powers.txt:975
+msgid "More powerful ally which gets stronger along with your offense stat"
+msgstr "Allié plus puissant qui devient plus fort avec vos stats d'attaque"
+
+#: ../powers/powers.txt:987
+msgid "Summon Wyvern Ally 3"
+msgstr "Invoquer une Vouivre alliée 3"
+
+#: ../powers/powers.txt:1002
+msgid "Summon Wyvern Ally 4"
+msgstr "Invoquer une Vouivre alliée 4"
+
+#: ../powers/powers.txt:1017
+msgid "Summon Wyvern Ally 5"
+msgstr "Invoquer une Vouivre alliée 5"
+
+#: ../powers/powers.txt:1020
+msgid "Call a second Wyvern"
+msgstr "Appeller une deuxième Vouivre"
+
+#: ../powers/powers.txt:1039
+msgid "Summon Minotaur Ally"
+msgstr "Invoquer un Minotaure allié"
+
+#: ../powers/powers.txt:1042
+msgid "Call a Minotaur ally to fight by your side"
+msgstr "Appelez un Minotaure allié pour se battre à vos côtés"
+
+#: ../powers/powers.txt:1054
+msgid "Summon Minotaur Ally 2"
+msgstr "Invoquer un Minotaure allié  2"
+
+#: ../powers/powers.txt:1057
+msgid "More powerful ally which gets stronger along with your physical stat"
+msgstr "Allié plus puissant qui devient plus fort avec vos stats de physique"
+
+#: ../powers/powers.txt:1069
+msgid "Summon Minotaur Ally 3"
+msgstr "Invoquer un Minotaure allié 3"
+
+#: ../powers/powers.txt:1084
+msgid "Summon Minotaur Ally 4"
+msgstr "Invoquer un Minotaure allié 4"
+
+#: ../powers/powers.txt:1099
+msgid "Summon Minotaur Ally 5"
+msgstr "Invoquer un Minotaure allié 5"
+
+#: ../powers/powers.txt:1120
+msgid "Recruit"
+msgstr ""
+
+#: ../powers/powers.txt:1123
+msgid "Convert an enemy that remains loyal until death - limit of 2"
+msgstr ""
+
+#: ../powers/powers.txt:1158
+msgid "Curse"
+msgstr ""
+
+#: ../powers/powers.txt:1161
+msgid "Enemies take more damage from attacks"
+msgstr ""
+
+#: ../powers/powers.txt:1182
+msgid "Curse 2"
+msgstr ""
+
+#: ../powers/powers.txt:1185
+msgid "Increased radius, duration and potency"
+msgstr ""
+
+#: ../powers/powers.txt:1206
+msgid "Curse 3"
+msgstr ""
+
+#: ../powers/powers.txt:1209
+msgid "Additional reduction of enemy avoidance"
+msgstr ""
+
+#: ../powers/powers.txt:1231
+msgid "Curse 4"
+msgstr ""
+
+#: ../powers/powers.txt:1234
+msgid "Increased range and lowers poise"
+msgstr ""
+
+#: ../powers/powers.txt:1257
+msgid "Curse 5"
+msgstr ""
+
+#: ../powers/powers.txt:1260
+msgid "Massively increased radius, lower elemental resistance and increased potency"
+msgstr ""
+
+#: ../powers/powers.txt:1293
+msgid "Weaken"
+msgstr ""
+
+#: ../powers/powers.txt:1296
+msgid "Enemies deal less damage"
+msgstr ""
+
+#: ../powers/powers.txt:1321
+msgid "Weaken 2"
+msgstr ""
+
+#: ../powers/powers.txt:1324
+msgid "More potent"
+msgstr ""
+
+#: ../powers/powers.txt:1349
+msgid "Weaken 3"
+msgstr ""
+
+#: ../powers/powers.txt:1352
+msgid "Additional lower critical hit rate"
+msgstr ""
+
+#: ../powers/powers.txt:1378
+msgid "Weaken 4"
+msgstr ""
+
+#: ../powers/powers.txt:1407
+msgid "Weaken 5"
+msgstr ""
+
+#: ../powers/powers.txt:1410
+msgid "Additionally reduces accuracy"
+msgstr ""
+
+#: ../powers/powers.txt:1443
+msgid "Warcry"
+msgstr ""
+
+#: ../powers/powers.txt:1446
+msgid "Let out a warcry causing surrounding enemies to flee"
+msgstr ""
+
+#: ../powers/powers.txt:1459
+msgid "Warcry 2"
+msgstr ""
+
+#: ../powers/powers.txt:1462
+msgid "Increased radius and duration"
+msgstr ""
+
+#: ../powers/powers.txt:1475
+msgid "Warcry 3"
+msgstr ""
+
+#: ../powers/powers.txt:1491
+msgid "Warcry 4"
+msgstr ""
+
+#: ../powers/powers.txt:1494
+msgid "Enemies are stunned with fear before fleeing"
+msgstr ""
+
+#: ../powers/powers.txt:1508
+msgid "Warcry 5"
+msgstr ""
+
+#: ../powers/powers.txt:1531
+msgid "Traps"
+msgstr ""
+
+#: ../powers/powers.txt:1534
+msgid "Lay a bear trap which immobilizes the target and deals 1-40 damage"
+msgstr ""
+
+#: ../powers/powers.txt:1564
+msgid "Traps 2"
+msgstr ""
+
+#: ../powers/powers.txt:1567
+msgid "Lay 2 bear traps dealing 1-60 damage"
+msgstr ""
+
+#: ../powers/powers.txt:1585
+msgid "Traps 3"
+msgstr ""
+
+#: ../powers/powers.txt:1588
+msgid "Lay 4 bear traps dealing 1-80 damage"
+msgstr ""
+
+#: ../powers/powers.txt:1606
+msgid "Traps 4"
+msgstr ""
+
+#: ../powers/powers.txt:1609
+msgid "Lay 6 bear traps dealing 1-100 damage"
+msgstr ""
+
+#: ../powers/powers.txt:1627
+msgid "Traps 5"
+msgstr ""
+
+#: ../powers/powers.txt:1630
+msgid "Lay 10 bear traps dealing 1-150 damage"
+msgstr ""
+
+#: ../powers/powers.txt:1654
+msgid "Fire Tower"
+msgstr ""
+
+#: ../powers/powers.txt:1657
+msgid "Raise a single tower which shoots fireballs at your enemies"
+msgstr ""
+
+#: ../powers/powers.txt:1667
+msgid "Fire Tower 2"
+msgstr ""
+
+#: ../powers/powers.txt:1670
+msgid "The tower shoots multiple fireballs"
+msgstr ""
+
+#: ../powers/powers.txt:1680
+msgid "Fire Tower 3"
+msgstr ""
+
+#: ../powers/powers.txt:1683
+msgid "More powerful tower"
+msgstr ""
+
+#: ../powers/powers.txt:1693
+msgid "Fire Tower 4"
+msgstr ""
+
+#: ../powers/powers.txt:1696
+msgid "Fires even more fireballs"
+msgstr ""
+
+#: ../powers/powers.txt:1706
+msgid "Fire Tower 5"
+msgstr ""
+
+#: ../powers/powers.txt:1726
+msgid "Decoy"
+msgstr ""
+
+#: ../powers/powers.txt:1729
+msgid "Create a decoy which takes enemy attacks and tries to snare them"
+msgstr ""
+
+#: ../powers/powers.txt:1753
+msgid "HP Boost"
+msgstr ""
+
+#: ../powers/powers.txt:1755
+msgid "Raises HP by 50"
+msgstr ""
+
+#: ../powers/powers.txt:1763
+msgid "HP Boost 2"
+msgstr ""
+
+#: ../powers/powers.txt:1765
+msgid "Raises HP boost to 100"
+msgstr ""
+
+#: ../powers/powers.txt:1773
+msgid "HP Boost 3"
+msgstr ""
+
+#: ../powers/powers.txt:1775
+msgid "Raises HP boost to 150"
+msgstr ""
+
+#: ../powers/powers.txt:1783
+msgid "HP Boost 4"
+msgstr ""
+
+#: ../powers/powers.txt:1785
+msgid "Raises HP boost to 200"
+msgstr ""
+
+#: ../powers/powers.txt:1793
+msgid "HP Boost 5"
+msgstr ""
+
+#: ../powers/powers.txt:1795
+msgid "Raises HP boost to 300"
+msgstr ""
+
+#: ../powers/powers.txt:1809
+msgid "Melee Boost"
+msgstr ""
+
+#: ../powers/powers.txt:1811
+msgid "Raises Melee damage by 5"
+msgstr ""
+
+#: ../powers/powers.txt:1820
+msgid "Melee Boost 2"
+msgstr ""
+
+#: ../powers/powers.txt:1822
+msgid "Raises Melee damage boost to 10"
+msgstr ""
+
+#: ../powers/powers.txt:1831
+msgid "Melee Boost 3"
+msgstr ""
+
+#: ../powers/powers.txt:1833
+msgid "Raises Melee damage boost to 20"
+msgstr ""
+
+#: ../powers/powers.txt:1842
+msgid "Melee Boost 4"
+msgstr ""
+
+#: ../powers/powers.txt:1844
+msgid "Raises Melee damage boost to 30"
+msgstr ""
+
+#: ../powers/powers.txt:1853
+msgid "Melee Boost 5"
+msgstr ""
+
+#: ../powers/powers.txt:1855
+msgid "Raises Melee damage boost to 50"
+msgstr ""
+
+#: ../powers/powers.txt:1870
+msgid "Protection"
+msgstr ""
+
+#: ../powers/powers.txt:1872
+msgid "Raises all allies hp by 50"
+msgstr ""
+
+#: ../powers/powers.txt:1881
+msgid "Protection 2"
+msgstr ""
+
+#: ../powers/powers.txt:1883
+msgid "Additional bonus to damage absorb"
+msgstr ""
+
+#: ../powers/powers.txt:1894
+msgid "Protection 3"
+msgstr ""
+
+#: ../powers/powers.txt:1896
+msgid "Additional bonus to avoidance"
+msgstr ""
+
+#: ../powers/powers.txt:1908
+msgid "Protection 4"
+msgstr ""
+
+#: ../powers/powers.txt:1910
+msgid "Additional bonus to Elemental resistances"
+msgstr ""
+
+#: ../powers/powers.txt:1926
+msgid "Protection 5"
+msgstr ""
+
+#: ../powers/powers.txt:1928
+msgid "More effective and longer duration"
+msgstr ""
+
+#: ../powers/powers.txt:1950
+msgid "Revert Form"
+msgstr ""
+
+#: ../powers/powers.txt:1955
+msgid "Transform back to human"
+msgstr ""
+
+#: ../powers/powers.txt:1959
+msgid "Werewolf"
+msgstr ""
+
+#: ../powers/powers.txt:1960
+msgid "Transform into Werewolf"
+msgstr ""
+
+#: ../powers/powers.txt:1973
+msgid "Werewolf 2"
+msgstr ""
+
+#: ../powers/powers.txt:1987
+msgid "Werewolf 3"
+msgstr ""
+
+#: ../powers/powers.txt:2001
+msgid "Werewolf 4"
+msgstr ""
+
+#: ../powers/powers.txt:2015
+msgid "Werewolf 5"
+msgstr ""
+
+#: ../powers/powers.txt:2035
+msgid "Werewyvern"
+msgstr ""
+
+#: ../powers/powers.txt:2036
+msgid "Transform into Werewyvern"
+msgstr ""
+
+#: ../powers/powers.txt:2049
+msgid "Werewyvern 2"
+msgstr ""
+
+#: ../powers/powers.txt:2063
+msgid "Werewyvern 3"
+msgstr ""
+
+#: ../powers/powers.txt:2077
+msgid "Werewyvern 4"
+msgstr ""
+
+#: ../powers/powers.txt:2091
+msgid "Werewyvern 5"
+msgstr ""
+
+#: ../powers/powers.txt:2111
+msgid "Channel Spirit"
+msgstr ""
+
+#: ../powers/powers.txt:2112
+msgid "Take the form of a ghost"
+msgstr ""
+
+#: ../powers/powers.txt:2179
+msgid "Orange Spark"
+msgstr ""
+
+#: ../powers/powers.txt:2299
+msgid "Fear Swing"
+msgstr ""
+
+#: ../powers/powers.txt:2302
+msgid "Melee attack with chance of fear"
+msgstr ""
+
+#: ../powers/powers.txt:2314
+msgid "Swing flee effect"
+msgstr ""
+
+#: ../powers/powers.txt:2316
+msgid "Chance of flee effect"
+msgstr ""
+
+#: ../powers/powers.txt:2328
+msgid "Fear Swing 2"
+msgstr ""
+
+#: ../powers/powers.txt:2331
+msgid "Melee attack with greater chance of fear"
+msgstr ""
+
+#: ../powers/powers.txt:2357
+msgid "Fear Swing 3"
+msgstr ""
+
+#: ../powers/powers.txt:2397
+msgid "Conversion Swing"
+msgstr ""
+
+#: ../powers/powers.txt:2400
+msgid "Melee attack with chance of conversion"
+msgstr ""
+
+#: ../powers/powers.txt:2412
+msgid "Swing conversion effect"
+msgstr ""
+
+#: ../powers/powers.txt:2414
+msgid "Chance of conversion effect"
+msgstr ""
+
+#: ../powers/powers.txt:2427
+msgid "Conversion Swing 2"
+msgstr ""
+
+#: ../powers/powers.txt:2457
+msgid "Conversion Swing 3"
+msgstr ""
+
+#: ../powers/powers.txt:2497
+msgid "Summon Zombie1"
+msgstr ""
+
+#: ../powers/powers.txt:2500
+msgid "spawn zombie1"
+msgstr ""
+
+#: ../powers/powers.txt:2510
+msgid "Summon Zombie2"
+msgstr ""
+
+#: ../powers/powers.txt:2513
+msgid "spawn zombie2"
+msgstr ""
+
+#: ../powers/powers.txt:2523
+msgid "Summon Zombie3"
+msgstr ""
+
+#: ../powers/powers.txt:2526
+msgid "spawn zombie3"
+msgstr ""
+
+#: ../powers/powers.txt:2536
+msgid "Summon Skeleton 1"
+msgstr ""
+
+#: ../powers/powers.txt:2539
+msgid "spawn skeleton 1"
+msgstr ""
+
+#: ../powers/powers.txt:2549
+msgid "Summon Skeleton 2"
+msgstr ""
+
+#: ../powers/powers.txt:2552
+msgid "spawn skeleton 2"
+msgstr ""
+
+#: ../powers/powers.txt:2562
+msgid "Summon Skeleton 3"
+msgstr ""
+
+#: ../powers/powers.txt:2565
+msgid "spawn skeleton 3"
+msgstr ""
+
+#: ../powers/powers.txt:2575
+msgid "Summon Skeleton archer 1"
+msgstr ""
+
+#: ../powers/powers.txt:2578
+msgid "spawn skeleton archer 1"
+msgstr ""
+
+#: ../powers/powers.txt:2588
+msgid "Summon Skeleton archer 2"
+msgstr ""
+
+#: ../powers/powers.txt:2591
+msgid "spawn skeleton archer 2"
+msgstr ""
+
+#: ../powers/powers.txt:2601
+msgid "Summon Horseman"
+msgstr ""
+
+#: ../powers/powers.txt:2604
+msgid "spawn horseman"
+msgstr ""
+
+#: ../powers/powers.txt:2614
+msgid "Summon Ghost1"
+msgstr ""
+
+#: ../powers/powers.txt:2617
+msgid "spawn ghost1"
+msgstr ""
+
+#: ../powers/powers.txt:2626
+msgid "Summon Ghost2"
+msgstr ""
+
+#: ../powers/powers.txt:2629
+msgid "spawn ghost2"
+msgstr ""
+
+#: ../powers/powers.txt:2638
+msgid "Summon Ghost3"
+msgstr ""
+
+#: ../powers/powers.txt:2641
+msgid "spawn ghost3"
+msgstr ""
+
+#: ../powers/powers.txt:2650
+msgid "Summon Ghost4"
+msgstr ""
+
+#: ../powers/powers.txt:2653
+msgid "spawn ghost4"
+msgstr ""
+
+#: ../powers/powers.txt:2662
+msgid "Summon Ghost5"
+msgstr ""
+
+#: ../powers/powers.txt:2665
+msgid "spawn ghost5"
+msgstr ""
+
+#: ../powers/powers.txt:2686
+msgid "Decoy Bear Trap"
+msgstr ""
+
+#: ../powers/powers.txt:2706
+msgid "Caltrops"
+msgstr ""
+
+#: ../powers/powers.txt:2709
+msgid "This trap deals 75% ranged weapon damage and slows the target."
+msgstr ""
+
+#: ../powers/powers.txt:2753
+msgid "Lay a bear trap which immobilizes the target"
+msgstr ""
+
+#: ../powers/powers.txt:2776
+msgid "Tastes good"
+msgstr ""
+
+#: ../powers/powers.txt:2802
+msgid "Block"
+msgstr ""
+
+#: ../powers/powers.txt:2804
+msgid "Raise your shield to raise your avoidance by 10% and absorb by 1-5. Chance to reflect missiles increased by 50%."
+msgstr ""
+
+#: ../powers/powers.txt:2818
+msgid "Raise your shield to raise your avoidance by 20% and absorb by 1-5. Chance to reflect missiles increased by 60%."
+msgstr ""
+
+#: ../powers/powers.txt:2832
+msgid "Raise your shield to raise your avoidance by 20% and absorb by 2-5. Chance to reflect missiles increased by 60%."
+msgstr ""
+
+#: ../powers/powers.txt:2846
+msgid "Raise your shield to raise your avoidance by 25% and absorb by 2-5. Chance to reflect missiles increased by 65%."
+msgstr ""
+
+#: ../powers/powers.txt:2943
+msgid "Channel"
+msgstr ""
+
+#: ../powers/powers.txt:2946
+msgid "Basic magic attack"
+msgstr ""
+
+#: ../powers/powers.txt:3008
+msgid "Arrow Wall Strike"
+msgstr ""
+
+#: ../powers/powers.txt:3020
+msgid "Static (end boss)"
+msgstr ""
+
+#: ../powers/powers.txt:3049
+msgid "Swing (end boss)"
+msgstr ""
+
+#: ../powers/powers.txt:3088
+msgid "Throw Axe"
+msgstr ""
+
+#: ../powers/powers.txt:3091
+msgid "Throw an axe to deal 150% of melee weapon damage"
+msgstr ""
+
+#: ../powers/powers.txt:3105
+msgid "Fire Storm"
+msgstr ""
+
+#: ../powers/powers.txt:3124
+msgid "Lightning ball"
+msgstr ""
+
+#: ../powers/powers.txt:3145
+msgid "Lightning Bolt"
+msgstr ""
+
+#: ../powers/powers.txt:3166
+msgid "Leaf Storm"
+msgstr ""
+
+#: ../powers/powers.txt:3187
+msgid "Freeze"
+msgstr ""
+
+#: ../powers/powers.txt:3190
+msgid "Create a ray of piercing cold that slows enemies"
+msgstr ""
+
+#: ../powers/powers.txt:3208
+msgid "Nova"
+msgstr ""
+
+#: ../powers/powers.txt:3231
+msgid "Ember Shot"
+msgstr ""
+
+#: ../powers/powers.txt:3234
+msgid "Fire a spray of burning embers at close range"
+msgstr ""
+
+#: ../powers/powers.txt:3281
+msgid "Lightning Ball"
+msgstr ""
+
+#: ../powers/powers.txt:3325
+msgid "Energy Ball"
+msgstr ""
+
+#: ../powers/powers.txt:3457
+msgid "Swing2"
+msgstr ""
+
+#: ../powers/powers.txt:3460
+msgid "Use on second swing animation"
+msgstr ""
+
+#: ../powers/powers.txt:3481
+msgid "Shoot"
+msgstr ""
+
+#: ../powers/powers.txt:3708
+msgid "Multishot"
+msgstr ""
+
+#: ../engine/elements.txt:3
+msgid "Fire Resistance"
+msgstr ""
+
+#: ../engine/elements.txt:7
+msgid "Ice Resistance"
+msgstr ""
+
+#: ../engine/elements.txt:11
+msgid "Earth Resistance"
+msgstr ""
+
+#: ../engine/elements.txt:15
+msgid "Lightning Resistance"
+msgstr ""
+
+#: ../engine/classes.txt:6
+msgid "Adventurer"
+msgstr ""
+
+#: ../engine/classes.txt:7
+msgid "Your basic sword wielding, dragon slaying adventurer"
+msgstr ""
+
+#: ../enemies/antlion.txt:3
+msgid "Antlion"
+msgstr ""
+
+#: ../enemies/antlion_blinker.txt:3
+msgid "Antlion Blinker"
+msgstr ""
+
+#: ../enemies/antlion_burster.txt:3
+msgid "Antlion Burster"
+msgstr ""
+
+#: ../enemies/antlion_freezer.txt:3
+msgid "Antlion Freezer"
+msgstr ""
+
+#: ../enemies/antlion_hatchling.txt:3
+msgid "Antlion Hatchling"
+msgstr ""
+
+#: ../enemies/antlion_slasher.txt:3
+msgid "Antlion Slasher"
+msgstr ""
+
+#: ../enemies/antlion_spitter.txt:3
+msgid "Antlion Spitter"
+msgstr ""
+
+#: ../enemies/cursed_grave.txt:3
+msgid "Cursed Grave"
+msgstr ""
+
+#: ../enemies/goblin.txt:3
+msgid "Goblin"
+msgstr ""
+
+#: ../enemies/goblin_charger.txt:3
+msgid "Goblin Charger"
+msgstr ""
+
+#: ../enemies/goblin_charger_elite.txt:3
+msgid "Goblin Charger Elite"
+msgstr ""
+
+#: ../enemies/goblin_shaman.txt:3
+msgid "Goblin Shaman"
+msgstr ""
+
+#: ../enemies/goblin_spearman.txt:3
+msgid "Goblin Spearman"
+msgstr ""
+
+#: ../enemies/goblin_spearman_elite.txt:3
+msgid "Goblin Spearman Elite"
+msgstr ""
+
+#: ../enemies/grisbon.txt:3
+msgid "Grisbon"
+msgstr ""
+
+#: ../enemies/krakatoa.txt:3
+msgid "Krakatoa, Antlion Burster"
+msgstr ""
+
+#: ../enemies/miner.txt:3
+msgid "Miner"
+msgstr ""
+
+#: ../enemies/minotaur.txt:3
+msgid "Minotaur"
+msgstr ""
+
+#: ../enemies/necromancer_apprentice.txt:3
+msgid "Apprentice Necromancer"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost1.txt:1
+msgid "Ghost"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost3.txt:1
+msgid "Ghost Captain"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost_spawn_horseman.txt:1
+msgid "Headless Horseman"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost_spawn_skeleton1.txt:1
+msgid "Skeleton"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost_spawn_skeleton2.txt:1
+msgid "Skeleton Fighter"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost_spawn_skeleton3.txt:1
+msgid "Skeleton Knight"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost_spawn_skeleton_archer1.txt:1
+msgid "Skeleton Archer"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost_spawn_zombie1.txt:1
+msgid "Zombie"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost_spawn_zombie2.txt:1
+msgid "Fresh Zombie"
+msgstr ""
+
+#: ../enemies/ng_ally_ghost_spawn_zombie3.txt:1
+msgid "Ravenous Zombie"
+msgstr ""
+
+#: ../enemies/ng_ally_wyvern1.txt:1
+msgid "Adult Wyvern"
+msgstr ""
+
+#: ../enemies/ng_boss_big.txt:1
+msgid "Zaltor the Bloody"
+msgstr ""
+
+#: ../enemies/ng_boss_general.txt:1
+msgid "Tarlek the Cruel"
+msgstr ""
+
+#: ../enemies/ng_boss_ghost_commander.txt:1
+msgid "Ghostly Commander"
+msgstr ""
+
+#: ../enemies/ng_boss_horse.txt:1
+msgid "Horse"
+msgstr ""
+
+#: ../enemies/ng_boss_shelob.txt:1
+msgid "Shelob"
+msgstr ""
+
+#: ../enemies/ng_boss_werebear.txt:1
+msgid "Werebear"
+msgstr ""
+
+#: ../enemies/ng_boss_wyvern_earth.txt:1
+msgid "Earth Wyvern"
+msgstr ""
+
+#: ../enemies/ng_boss_wyvern_fire.txt:1
+msgid "Fire Wyvern"
+msgstr ""
+
+#: ../enemies/ng_boss_wyvern_ice.txt:1
+msgid "Ice Wyvern"
+msgstr ""
+
+#: ../enemies/ng_boss_wyvern_lightning.txt:1
+msgid "Lightning Wyvern"
+msgstr ""
+
+#: ../enemies/ng_enemy_antlion_hatcher.txt:1
+msgid "Antlion Hatcher"
+msgstr ""
+
+#: ../enemies/ng_enemy_antlion_scorcher.txt:1
+msgid "Antlion Scorcher"
+msgstr ""
+
+#: ../enemies/ng_enemy_assassin.txt:1
+msgid "Assassin"
+msgstr ""
+
+#: ../enemies/ng_enemy_demon.txt:1
+msgid "Demon"
+msgstr ""
+
+#: ../enemies/ng_enemy_demon_statue.txt:1
+msgid "Living Statue"
+msgstr ""
+
+#: ../enemies/ng_enemy_ghoul.txt:1
+msgid "Ghoul"
+msgstr ""
+
+#: ../enemies/ng_enemy_hobgoblin.txt:1
+msgid "Hobgoblin"
+msgstr ""
+
+#: ../enemies/ng_enemy_hobgoblin_archer.txt:1
+msgid "Hobgoblin Spearman"
+msgstr ""
+
+#: ../enemies/ng_enemy_hobgoblin_charger.txt:1
+msgid "Hobgoblin Elite"
+msgstr ""
+
+#: ../enemies/ng_enemy_hobgoblin_charger_archer.txt:1
+msgid "Hobgoblin Elite Spearman"
+msgstr ""
+
+#: ../enemies/ng_enemy_hobgoblin_charger_mage.txt:1
+msgid "Hobgoblin Elite Mage"
+msgstr ""
+
+#: ../enemies/ng_enemy_hobgoblin_mage.txt:1
+msgid "Hobgoblin Mage"
+msgstr ""
+
+#: ../enemies/ng_enemy_poltergeist.txt:1
+msgid "Poltergeist"
+msgstr ""
+
+#: ../enemies/ng_enemy_shade.txt:1
+msgid "Shade"
+msgstr ""
+
+#: ../enemies/ng_enemy_skeleton_apprentice.txt:1
+msgid "Skeleton Apprentice"
+msgstr ""
+
+#: ../enemies/ng_enemy_skeleton_mage.txt:1
+msgid "Skeleton Mage"
+msgstr ""
+
+#: ../enemies/ng_enemy_skeleton_mage_elite.txt:1
+msgid "Skeleton Mage Elite"
+msgstr ""
+
+#: ../enemies/ng_enemy_skeleton_old.txt:1
+msgid "Old Skeleton"
+msgstr ""
+
+#: ../enemies/ng_enemy_skelton_knight_elite.txt:1
+msgid "Skeleton Knight Elite"
+msgstr ""
+
+#: ../enemies/ng_enemy_soldier_archer.txt:1
+msgid "Archer"
+msgstr ""
+
+#: ../enemies/ng_enemy_soldier_barbarian.txt:1
+msgid "Barbarian"
+msgstr ""
+
+#: ../enemies/ng_enemy_soldier_berserker.txt:1
+msgid "Berserker"
+msgstr ""
+
+#: ../enemies/ng_enemy_soldier_infantry.txt:1
+msgid "Infantry"
+msgstr ""
+
+#: ../enemies/ng_enemy_soldier_mage.txt:1
+msgid "Battle Mage"
+msgstr ""
+
+#: ../enemies/ng_enemy_soldier_scout.txt:1
+msgid "Scout"
+msgstr ""
+
+#: ../enemies/ng_enemy_soldier_skirmisher.txt:1
+msgid "Skirmisher"
+msgstr ""
+
+#: ../enemies/ng_enemy_spider.txt:1
+msgid "Spider"
+msgstr ""
+
+#: ../enemies/ng_enemy_spider_giant.txt:1
+msgid "Giant Spider"
+msgstr ""
+
+#: ../enemies/ng_enemy_spider_small.txt:1
+msgid "Small Spider"
+msgstr ""
+
+#: ../enemies/ng_enemy_stone_barricade.txt:1
+msgid "Stone Barricade"
+msgstr ""
+
+#: ../enemies/ng_enemy_troll.txt:1
+msgid "Troll"
+msgstr ""
+
+#: ../enemies/ng_enemy_warhorse.txt:1
+msgid "Warhorse"
+msgstr ""
+
+#: ../enemies/ng_enemy_wooden_barricade.txt:1
+msgid "Wooden Barricade"
+msgstr ""
+
+#: ../enemies/ng_enemy_wyvern.txt:1
+msgid "Wyvern"
+msgstr ""
+
+#: ../enemies/ng_enemy_zombie_rotting.txt:1
+msgid "Rotting Zombie"
+msgstr ""
+
+#: ../enemies/professor_langlier.txt:3
+msgid "Professor Langlier"
+msgstr ""
+
+#: ../enemies/reanimated_skeleton.txt:3
+msgid "Reanimated Skeleton"
+msgstr ""
+
+#: ../enemies/rilrak.txt:3
+msgid "Rilrak, Goblin Shaman"
+msgstr ""
+
+#: ../enemies/scathelocke.txt:3
+msgid "Scathelocke"
+msgstr ""
+
+#: ../enemies/sir_evan_maddox.txt:3
+msgid "Sir Evan Maddox"
+msgstr ""
+
+#: ../enemies/skeletal_archer.txt:3
+msgid "Skeletal Archer"
+msgstr ""
+
+#: ../enemies/skeletal_knight.txt:3
+msgid "Skeletal Knight"
+msgstr ""
+
+#: ../enemies/skeletal_mage.txt:3
+msgid "Skeletal Mage"
+msgstr ""
+
+#: ../enemies/skeletal_occultist.txt:3
+msgid "Skeletal Occultist"
+msgstr ""
+
+#: ../enemies/skeletal_prophet.txt:3
+msgid "Skeletal Prophet"
+msgstr ""
+
+#: ../enemies/skeletal_sniper.txt:3
+msgid "Skeletal Sniper"
+msgstr ""
+
+#: ../enemies/skeletal_thundersword.txt:3
+msgid "Skeletal Thundersword"
+msgstr ""
+
+#: ../enemies/skeletal_warrior.txt:3
+msgid "Skeletal Warrior"
+msgstr ""
+
+#: ../enemies/stealth.txt:1
+msgid "Stealth"
+msgstr ""
+
+#: ../enemies/the_warden.txt:3
+msgid "The Warden"
+msgstr ""
+
+#: ../enemies/ukkonen.txt:3
+msgid "Ukkonen, Goblin Chieftain"
+msgstr ""
+
+#: ../enemies/vesuvvio.txt:3
+msgid "Vesuvvio (the Destroyer)"
+msgstr ""
+
+#: ../enemies/wyvern.txt:3
+msgid "Venom Wyvern"
+msgstr ""
+
+#: ../enemies/zombie_bloodthirsty.txt:3
+msgid "Bloodthirsty Zombie"
+msgstr ""
+
+#: ../enemies/zombie_brute.txt:3
+msgid "Zombie Brute"
+msgstr ""
+
+#: ../enemies/zombie_iceclaw.txt:3
+msgid "Iceclaw Zombie"
+msgstr ""
+
+#: ../maps/abandoned_mine.txt:9
+msgid "Collapsed Mine"
+msgstr ""
+
+#: ../maps/asylum.txt:9
+msgid "Asylum"
+msgstr ""
+
+#: ../maps/asylum2.txt:9
+msgid "Asylum Living Quarters"
+msgstr ""
+
+#: ../maps/asylum3.txt:9
+msgid "Asylum Governors Wing"
+msgstr ""
+
+#: ../maps/battlefield1.txt:9
+msgid "Bloody Fields"
+msgstr ""
+
+#: ../maps/battlefield2.txt:9
+msgid "Bloody Fields Crossing"
+msgstr ""
+
+#: ../maps/battlefield3.txt:9
+msgid "Bloody Fields Copse"
+msgstr ""
+
+#: ../maps/battlefield4.txt:9
+msgid "Bloody Fields Camp"
+msgstr ""
+
+#: ../maps/battlefield5.txt:9
+msgid "Bloody Fields Plain"
+msgstr ""
+
+#: ../maps/battlefield6.txt:9
+msgid "Death Valley"
+msgstr ""
+
+#: ../maps/desert.txt:9
+msgid "Desert"
+msgstr ""
+
+#: ../maps/desert2.txt:9
+msgid "Desert North"
+msgstr ""
+
+#: ../maps/dungeon1.txt:9
+msgid "Ancient Dungeon Level 1"
+msgstr ""
+
+#: ../maps/dungeon10.txt:9
+msgid "Ancient Dungeon Level 10"
+msgstr ""
+
+#: ../maps/dungeon10.txt:196
+msgid "Greenwood Point"
+msgstr ""
+
+#: ../maps/dungeon10.txt:204
+msgid "Waypoint discovered"
+msgstr ""
+
+#: ../maps/dungeon2.txt:9
+msgid "Ancient Dungeon Level 2"
+msgstr ""
+
+#: ../maps/dungeon3.txt:9
+msgid "Ancient Dungeon Level 3"
+msgstr ""
+
+#: ../maps/dungeon4.txt:9
+msgid "Ancient Dungeon Level 4"
+msgstr ""
+
+#: ../maps/dungeon5.txt:9
+msgid "Ancient Dungeon Level 5"
+msgstr ""
+
+#: ../maps/dungeon6.txt:9
+msgid "Ancient Dungeon Level 6"
+msgstr ""
+
+#: ../maps/dungeon7.txt:9
+msgid "Ancient Dungeon Level 7"
+msgstr ""
+
+#: ../maps/dungeon8.txt:9
+msgid "Ancient Dungeon Level 8"
+msgstr ""
+
+#: ../maps/dungeon9.txt:9
+msgid "Ancient Dungeon Level 9"
+msgstr ""
+
+#: ../maps/dungeon_way.txt:9
+msgid "Ancient Pass"
+msgstr ""
+
+#: ../maps/end.txt:9
+msgid "Journeys End"
+msgstr ""
+
+#: ../maps/fern_valley.txt:9
+msgid "Fern Valley"
+msgstr ""
+
+#: ../maps/goblin_caves.txt:9
+msgid "Goblin Caves"
+msgstr ""
+
+#: ../maps/marshlands.txt:9
+msgid "Marshlands"
+msgstr ""
+
+#: ../maps/river_road.txt:9
+msgid "River Road"
+msgstr ""
+
+#: ../maps/sage_home.txt:9
+msgid "Northwood Cottage"
+msgstr ""
+
+#: ../maps/sage_home.txt:209
+msgid "Shared Stash"
+msgstr ""
+
+#: ../maps/secret_cave.txt:9
+msgid "Hidden Alcove"
+msgstr ""
+
+#: ../maps/woods.txt:9
+msgid "Greenwood Forest"
+msgstr ""
+
+#: ../maps/woods2.txt:9
+msgid "Northwood"
+msgstr ""
+
+#: ../maps/wyvern_cave.txt:9
+msgid "Wyrmwold Cave"
+msgstr ""
+
+#: ../maps/wyvern_cave2.txt:9
+msgid "Wyrmwold Tunnels"
+msgstr ""
+
+#: ../maps/wyvern_cave3.txt:9
+msgid "Wyrmwold Cavern"
+msgstr ""
+
+#: ../quests/asylum.txt:5
+msgid "Unlocked the 'Summon Goblin Ally' Skill. Continue through the north exit of the caves and travel East through the desert to the asylum."
+msgstr ""
+
+#: ../quests/asylum.txt:11
+msgid "Find the asylum living quarters and see if anybody has some answers"
+msgstr ""
+
+#: ../quests/asylum.txt:16
+msgid "Find the Governor"
+msgstr ""
+
+#: ../quests/battle.txt:4
+msgid "Unlocked the 'Summon Minotaur Ally' skill. Continue north past the Ancient Pass and meet Ieuan at the approaching battle front."
+msgstr ""
+
+#: ../quests/battle.txt:9
+msgid "Prepare for battle and push back the advancing forces."
+msgstr ""
+
+#: ../quests/battle.txt:14
+msgid "You have halted the advancing forces. Return to Greenwood Point and use the final waypoint to continue your adventure in distant lands."
+msgstr ""
+
+#: ../quests/goblin_caves.txt:5
+msgid "Unlocked the 'Conversion' skill. Return to talk to Ieuan"
+msgstr ""
+
+#: ../quests/goblin_caves.txt:10
+msgid "Travel north through the Goblin caves leading to the desert. Keep an eye out for Vlad."
+msgstr ""
+
+#: ../quests/goblin_caves.txt:15
+msgid "Clear the goblin caves of the infestation"
+msgstr ""
+
+#: ../quests/goblin_caves.txt:20
+msgid "Return to Vlad"
+msgstr ""
+
+#: ../quests/horse_whisperer.txt:4
+msgid "Speak to Ieuan"
+msgstr ""
+
+#: ../quests/horse_whisperer.txt:9
+msgid "Meet Ieuan at the settlement at the end of Fern Valley"
+msgstr ""
+
+#: ../quests/horse_whisperer.txt:14
+msgid "Speak to the woodsman"
+msgstr ""
+
+#: ../quests/horse_whisperer.txt:19
+msgid "Head to the woods north of town and use the apples Evan gave you to coax the beast."
+msgstr ""
+
+#: ../quests/horse_whisperer.txt:24
+msgid "Go back to town and tell Evan of your deeds."
+msgstr ""
+
+#: ../quests/lycanthropy.txt:4
+msgid "Unlocked the 'Summon Wyvern Ally' skill. Investigate the beast at the cave to the southeast of the Northwood"
+msgstr ""
+
+#: ../quests/lycanthropy.txt:9
+msgid "Return to tell bethan of your fight"
+msgstr ""
+
+#: ../quests/lycanthropy.txt:14
+msgid "Return to the cave where you fought the beast"
+msgstr ""
+
+#: ../quests/minotaur.txt:4
+msgid "Unlocked the 'Werewolf' skill. Go and report your findings to Bethan"
+msgstr ""
+
+#: ../quests/minotaur.txt:9
+msgid "Talk to Ieuan at the Northwood Cottage"
+msgstr ""
+
+#: ../quests/minotaur.txt:14
+msgid "Head west through the marshlands and look for the entrance to the ancient dungeon"
+msgstr ""
+
+#: ../quests/minotaur.txt:19
+msgid "Explore the dungeon and locate the legendary guardian"
+msgstr ""
+
+#: ../quests/wyvern.txt:4
+msgid "Unlocked the 'Summon Ghost Ally' skill. Continue exploring North beyond the desert and through the Wyrmwold Caves."
+msgstr ""
+
+#: ../quests/wyvern.txt:9
+msgid "Find a Fire Antlion heart in the Northwood and return to Bethan with the heart and the elemental wyvern tails."
+msgstr ""
+
+#: ../npcs/bethan.txt:2
+msgid "Bethan"
+msgstr ""
+
+#: ../npcs/bethan.txt:12
+msgid "Good day."
+msgstr ""
+
+#: ../npcs/bethan.txt:13
+msgid "Oh a visitor. I dont get many around here. Now where did you come from?"
+msgstr ""
+
+#: ../npcs/bethan.txt:14
+msgid "I have travelled from Cambria in the south."
+msgstr ""
+
+#: ../npcs/bethan.txt:15
+msgid "Impressive. You must have come through the Wyrmwold cave. Not many can make it through. Now what brings you up here?"
+msgstr ""
+
+#: ../npcs/bethan.txt:16
+msgid "Battle preparations. Cambria was attacked by the Sarlinian some time ago and we are expecting a larger attack soon."
+msgstr ""
+
+#: ../npcs/bethan.txt:17
+msgid "Now that wont do at all. I'll have none of that fighting nonsense here."
+msgstr ""
+
+#: ../npcs/bethan.txt:18
+msgid "Indeed..."
+msgstr ""
+
+#: ../npcs/bethan.txt:19
+msgid "If they think they can throw their weight around here, theyll find a jolly good talking to waiting for them."
+msgstr ""
+
+#: ../npcs/bethan.txt:20
+msgid "Thats one approach."
+msgstr ""
+
+#: ../npcs/bethan.txt:21
+msgid "So what are you doing about it?"
+msgstr ""
+
+#: ../npcs/bethan.txt:22
+msgid "Im looking for allies to help tip the balance"
+msgstr ""
+
+#: ../npcs/bethan.txt:23
+msgid "I might be able to help with that. Let me consult my spell book now..."
+msgstr ""
+
+#: ../npcs/bethan.txt:24
+msgid "Yes here it is. The wyverns power can be harnessed. All I need is a wyvern tail from each of the elemental wyverns. If you didnt get those, you had better go back to the Wyvern cave."
+msgstr ""
+
+#: ../npcs/bethan.txt:25
+msgid "I will also need a catalyst of some kind. Hmm yes that should work."
+msgstr ""
+
+#: ../npcs/bethan.txt:26
+msgid "Head into the woods east of here and collect a Fire Antlion heart."
+msgstr ""
+
+#: ../npcs/bethan.txt:27
+msgid "Collect one? You mean take one from a Fire Antlion?"
+msgstr ""
+
+#: ../npcs/bethan.txt:28
+msgid "Well of course the Fire Antlions might not hand it to you willingly. Dont be so squeamish."
+msgstr ""
+
+#: ../npcs/bethan.txt:29
+msgid "Okay im going."
+msgstr ""
+
+#: ../npcs/bethan.txt:40
+msgid "Ive got everything."
+msgstr ""
+
+#: ../npcs/bethan.txt:41
+msgid "Okay give them here."
+msgstr ""
+
+#: ../npcs/bethan.txt:47
+msgid "Now what?"
+msgstr ""
+
+#: ../npcs/bethan.txt:48
+msgid "Dont be so impatient young man."
+msgstr ""
+
+#: ../npcs/bethan.txt:49
+msgid "Young man? Im older than you."
+msgstr ""
+
+#: ../npcs/bethan.txt:50
+msgid "Whats that got to do with it? Now let me see."
+msgstr ""
+
+#: ../npcs/bethan.txt:51
+msgid "Put this here... Rub this... turn this... Whats this part?..."
+msgstr ""
+
+#: ../npcs/bethan.txt:52
+msgid "Hey presto."
+msgstr ""
+
+#: ../npcs/bethan.txt:53
+msgid "Whats that?"
+msgstr ""
+
+#: ../npcs/bethan.txt:54
+msgid "You need to drink this. Here. Make sure it all goes down."
+msgstr ""
+
+#: ../npcs/bethan.txt:55
+msgid "Bleaugh. That tastes foul."
+msgstr ""
+
+#: ../npcs/bethan.txt:56
+msgid "Dont be such a baby. Its done."
+msgstr ""
+
+#: ../npcs/bethan.txt:57
+msgid "You might need to invest a little training in it before you can get the full benefit."
+msgstr ""
+
+#: ../npcs/bethan.txt:58
+msgid "Now time for payment."
+msgstr ""
+
+#: ../npcs/bethan.txt:59
+msgid "I dont remember anything about payment."
+msgstr ""
+
+#: ../npcs/bethan.txt:60
+msgid "you dont expect something for nothing. Dont worry I just need a small errand taken care of."
+msgstr ""
+
+#: ../npcs/bethan.txt:61
+msgid "What errand?"
+msgstr ""
+
+#: ../npcs/bethan.txt:62
+msgid "In the woods I have recently seen a large beast roaming around. I dont know what it is but I think its coming from a cave in the southeast part of the wood."
+msgstr ""
+
+#: ../npcs/bethan.txt:63
+msgid "Go and check it out for me."
+msgstr ""
+
+#: ../npcs/bethan.txt:70
+msgid "You dont have the Wyvern tails? Well you had better get back into the caves."
+msgstr ""
+
+#: ../npcs/bethan.txt:75
+msgid "The fire ants live in the woods to the east of here. Go and fetch one a Fire Ant heart for the spell."
+msgstr ""
+
+#: ../npcs/bethan.txt:80
+msgid "Find the beast."
+msgstr ""
+
+#: ../npcs/bethan.txt:85
+msgid "What did you find?"
+msgstr ""
+
+#: ../npcs/bethan.txt:86
+msgid "There was some kind of bear."
+msgstr ""
+
+#: ../npcs/bethan.txt:87
+msgid "Strange. We dont usually get bears in these woods."
+msgstr ""
+
+#: ../npcs/bethan.txt:88
+msgid "It seemed a little strange. Its eyes seemed almost human. I feel a bit funny after fighting it."
+msgstr ""
+
+#: ../npcs/bethan.txt:89
+msgid "Could it be..."
+msgstr ""
+
+#: ../npcs/bethan.txt:90
+msgid "What is it?"
+msgstr ""
+
+#: ../npcs/bethan.txt:91
+msgid "Im not certain but I think you should go back and check on it again."
+msgstr ""
+
+#: ../npcs/bethan.txt:92
+msgid "(Time for round 2)"
+msgstr ""
+
+#: ../npcs/bethan.txt:98
+msgid "You wont believe it. When I got back there, there was..."
+msgstr ""
+
+#: ../npcs/bethan.txt:99
+msgid "A man."
+msgstr ""
+
+#: ../npcs/bethan.txt:100
+msgid "You knew?"
+msgstr ""
+
+#: ../npcs/bethan.txt:101
+msgid "I couldnt be certain. So does that mean you were affected?"
+msgstr ""
+
+#: ../npcs/bethan.txt:102
+msgid "Yes."
+msgstr ""
+
+#: ../npcs/bethan.txt:103
+msgid "It could have its advantages on the battlefield."
+msgstr ""
+
+#: ../npcs/bethan.txt:104
+msgid "Thanks for taking care of that. Good luck on the rest of your journey."
+msgstr ""
+
+#: ../npcs/bethan.txt:110
+msgid "Specialise in your favourite skills. You will get more benefit from investing a lot of training into a small set of skills, rather than a small amount of training in a lot of skills."
+msgstr ""
+
+#: ../npcs/bethan.txt:114
+msgid "About time you got here."
+msgstr ""
+
+#: ../npcs/bethan.txt:115
+msgid "Good to see you too."
+msgstr ""
+
+#: ../npcs/bethan.txt:116
+msgid "Dont get all sentamental now. Time to focus."
+msgstr ""
+
+#: ../npcs/bethan.txt:117
+msgid "The troops we encountered so far are probably the advance party."
+msgstr ""
+
+#: ../npcs/bethan.txt:118
+msgid "The main force wont be far behind and the elite forces will probably be following at the rear."
+msgstr ""
+
+#: ../npcs/bethan.txt:119
+msgid "This will be your biggest challenge yet. Good luck."
+msgstr ""
+
+#: ../npcs/branwen.txt:1
+msgid "Branwen"
+msgstr ""
+
+#: ../npcs/bryn.txt:2
+msgid "Bryn"
+msgstr ""
+
+#: ../npcs/bryn.txt:12
+msgid "Back foul beast!"
+msgstr ""
+
+#: ../npcs/bryn.txt:13
+msgid "Take it easy feller"
+msgstr ""
+
+#: ../npcs/bryn.txt:14
+msgid "Wait? You're of this world?"
+msgstr ""
+
+#: ../npcs/bryn.txt:15
+msgid "Last time I checked. Whats going on here?"
+msgstr ""
+
+#: ../npcs/bryn.txt:16
+msgid "Its not good. Spirits started appearing 3 days back."
+msgstr ""
+
+#: ../npcs/bryn.txt:17
+msgid "It all started when Tarlek left the asylum. He was taken away by a group of the Sarlinian."
+msgstr ""
+
+#: ../npcs/bryn.txt:18
+msgid "After a while, the governor started acting strange and talking to himself. Then the spirits started to appear."
+msgstr ""
+
+#: ../npcs/bryn.txt:19
+msgid "Before long, the whole place was overrun by undead."
+msgstr ""
+
+#: ../npcs/bryn.txt:20
+msgid "You seem to be unharmed. How did you survive?"
+msgstr ""
+
+#: ../npcs/bryn.txt:21
+msgid "The wardens started getting edgy when the spirits appeared. They started losing their minds after a while and I havent seen them now for a couple of days."
+msgstr ""
+
+#: ../npcs/bryn.txt:22
+msgid "Somehow the asylum residents didnt seem to be affected by the dark presence."
+msgstr ""
+
+#: ../npcs/bryn.txt:23
+msgid "Either that or their minds were too far gone to begin with."
+msgstr ""
+
+#: ../npcs/bryn.txt:24
+msgid "Your mind seems to be intact. What are you here for?"
+msgstr ""
+
+#: ../npcs/bryn.txt:25
+msgid "At the moment im fine. Not all days are so good."
+msgstr ""
+
+#: ../npcs/bryn.txt:26
+msgid "If you're planning to investigate the goings on, you should head towards the governors office at the end of the asylum."
+msgstr ""
+
+#: ../npcs/bryn.txt:27
+msgid "What about you? Will you be okay?"
+msgstr ""
+
+#: ../npcs/bryn.txt:28
+msgid "Ill be fine. Ill make my way out as soon as... well never mind that now. Go on ahead."
+msgstr ""
+
+#: ../npcs/bryn.txt:29
+msgid "Okay. Ill be back."
+msgstr ""
+
+#: ../npcs/bryn.txt:35
+msgid "I'm sure the governor knows something about this."
+msgstr ""
+
+#: ../npcs/bryn.txt:40
+msgid "Hello again."
+msgstr ""
+
+#: ../npcs/bryn.txt:41
+msgid "Hey you made it out of the asylum. What on earth are you doing here."
+msgstr ""
+
+#: ../npcs/bryn.txt:42
+msgid "After I left the asylum, I needed to find a safe place to hide out."
+msgstr ""
+
+#: ../npcs/bryn.txt:43
+msgid "You had better be careful. There was a wild bear on the loose around here."
+msgstr ""
+
+#: ../npcs/bryn.txt:44
+msgid "Dont worry about that."
+msgstr ""
+
+#: ../npcs/bryn.txt:45
+msgid "You have taken care of one?"
+msgstr ""
+
+#: ../npcs/bryn.txt:46
+msgid "Not exactly. Theres nothing in here except for me."
+msgstr ""
+
+#: ../npcs/bryn.txt:47
+msgid "That bear you saw. That would be me. That was quite a performance last time."
+msgstr ""
+
+#: ../npcs/bryn.txt:48
+msgid "I go through a physical transformation, causing me to take the form of a bear. I was inflicted with this many years ago when I was attacked by such a creature."
+msgstr ""
+
+#: ../npcs/bryn.txt:49
+msgid "So does that mean that im going to be affected."
+msgstr ""
+
+#: ../npcs/bryn.txt:50
+msgid "Its possibly yes."
+msgstr ""
+
+#: ../npcs/bryn.txt:51
+msgid "So im going to get hairy and grow big teeth?"
+msgstr ""
+
+#: ../npcs/bryn.txt:52
+msgid "With training, some can control the beast, but it requires great physical strength."
+msgstr ""
+
+#: ../npcs/bryn.txt:53
+msgid "Come and see me if you run into trouble. I may be able to offer some assistance, but for now, I need to get back on my feet."
+msgstr ""
+
+#: ../npcs/bryn.txt:54
+msgid "Okay. Stay out of trouble."
+msgstr ""
+
+#: ../npcs/bryn.txt:60
+msgid "Use the transformation effect to your advantage in battle. The beast is fierce and powerful if controlled properly."
+msgstr ""
+
+#: ../npcs/bryn.txt:64
+msgid "Well met brother."
+msgstr ""
+
+#: ../npcs/bryn.txt:65
+msgid "Good to see you again. Thanks for joining us."
+msgstr ""
+
+#: ../npcs/bryn.txt:66
+msgid "Its my pleasure. Allow me to offer my serices as a crafter."
+msgstr ""
+
+#: ../npcs/bryn.txt:67
+msgid "Back before I lived in solitude, I used to spend my time creating magical artifacts."
+msgstr ""
+
+#: ../npcs/bryn.txt:68
+msgid "Its been some time since I created anything but I still have a few tricks up my sleeve."
+msgstr ""
+
+#: ../npcs/bryn.txt:69
+msgid "I remember a formula for a magic ring. I dont know how useful it will be but I need a bit of practice again before I will be able to perform the most powerful craftings."
+msgstr ""
+
+#: ../npcs/bryn.txt:70
+msgid "To create the ring, I will need a spider leg, a yellow rose and a vial of dew."
+msgstr ""
+
+#: ../npcs/bryn.txt:71
+msgid "Bring these to me, and I will craft the ring."
+msgstr ""
+
+#: ../npcs/bryn.txt:72
+msgid "#TODO. Item crafting not yet implemented."
+msgstr ""
+
+#: ../npcs/evan.txt:1
+msgid "Evan"
+msgstr ""
+
+#: ../npcs/evan.txt:11
+msgid "Are you the local woodsman?"
+msgstr ""
+
+#: ../npcs/evan.txt:12
+msgid "Indeed I am. And you're with the party from Cambria."
+msgstr ""
+
+#: ../npcs/evan.txt:13
+msgid "Well met neighbour. I heared about the troubles in Cambria. What news from there?"
+msgstr ""
+
+#: ../npcs/evan.txt:14
+msgid "Its not looking good im afraid. Theres word of a larger force on its way."
+msgstr ""
+
+#: ../npcs/evan.txt:15
+msgid "In that case we are all in danger. If I could be of any assistance..."
+msgstr ""
+
+#: ../npcs/evan.txt:16
+msgid "Actually we are looking for some good men to join us in combat."
+msgstr ""
+
+#: ../npcs/evan.txt:17
+msgid "My bow has not seen that kind of combat. Im afraid I would be of no use to you. I am a hunter not a fighter."
+msgstr ""
+
+#: ../npcs/evan.txt:18
+msgid "I understand."
+msgstr ""
+
+#: ../npcs/evan.txt:19
+msgid "Hmm, I wonder..."
+msgstr ""
+
+#: ../npcs/evan.txt:20
+msgid "Perhaps I can be of some help. During my years I have gained an affinity with the local wildlife."
+msgstr ""
+
+#: ../npcs/evan.txt:21
+msgid "I have come to think of some as comrades. If treated right, they can be the most loyal of companions."
+msgstr ""
+
+#: ../npcs/evan.txt:22
+msgid "Thanks all the same but im not sure how much help a few woodland critters would be."
+msgstr ""
+
+#: ../npcs/evan.txt:23
+msgid "Dont underestimate the power of nature. Some of these creatures are fierce."
+msgstr ""
+
+#: ../npcs/evan.txt:24
+msgid "Humor me if you will. Lets see if youve got what it takes."
+msgstr ""
+
+#: ../npcs/evan.txt:25
+msgid "In the woods to the north lives a stallion. He's a little flighty but can be friendly if he trusts you."
+msgstr ""
+
+#: ../npcs/evan.txt:26
+msgid "Here take these apples. If you can get close to him, give him one of these."
+msgstr ""
+
+#: ../npcs/evan.txt:28
+msgid "Getting close to him might not be so easy. Take a few of these traps aswell. They wont hurt him but will give you a chance to get close."
+msgstr ""
+
+#: ../npcs/evan.txt:30
+msgid "Come back and see me when you manage to gain his trust."
+msgstr ""
+
+#: ../npcs/evan.txt:31
+msgid "And please, do not kill him. Use only apples and traps."
+msgstr ""
+
+#: ../npcs/evan.txt:32
+msgid "Sounds easy enough"
+msgstr ""
+
+#: ../npcs/evan.txt:40
+msgid "If you're having trouble catching the horse, use the traps I gave you to slow him down."
+msgstr ""
+
+#: ../npcs/evan.txt:41
+msgid "When you get the chance, give him some apples. Come and see me when you're successful."
+msgstr ""
+
+#: ../npcs/evan.txt:47
+msgid "So how are you getting on?"
+msgstr ""
+
+#: ../npcs/evan.txt:48
+msgid "Not so good. I used all of the traps already."
+msgstr ""
+
+#: ../npcs/evan.txt:49
+msgid "Ok heres a couple more. Try to anticipate where he is moving to and place the trap in his path."
+msgstr ""
+
+#: ../npcs/evan.txt:52
+msgid "Thanks."
+msgstr ""
+
+#: ../npcs/evan.txt:56
+msgid "Have you tamed the beast yet?"
+msgstr ""
+
+#: ../npcs/evan.txt:57
+msgid "No not yet. I dont have any apples left."
+msgstr ""
+
+#: ../npcs/evan.txt:58
+msgid "Make sure you're close enough to give them to him. If you cant catch him, try to use those traps I gave you to slow him down. Heres a couple more apples."
+msgstr ""
+
+#: ../npcs/evan.txt:61
+msgid "And try not to eat them!"
+msgstr ""
+
+#: ../npcs/evan.txt:66
+msgid "Are you impressed?"
+msgstr ""
+
+#: ../npcs/evan.txt:67
+msgid "Congratulations. See if you can do it a bit faster next time."
+msgstr ""
+
+#: ../npcs/evan.txt:68
+msgid "Are you kidding?"
+msgstr ""
+
+#: ../npcs/evan.txt:69
+msgid "Hah I knew you had it in you."
+msgstr ""
+
+#: ../npcs/evan.txt:70
+msgid "Keep improving and it will become more natural to you. I heared that the best tamers can apply their skill to undead or even people. I dont know if thats true or not."
+msgstr ""
+
+#: ../npcs/evan.txt:71
+msgid "Okay it has some promise."
+msgstr ""
+
+#: ../npcs/evan.txt:72
+msgid "Of course. Whats your next move?"
+msgstr ""
+
+#: ../npcs/evan.txt:73
+msgid "I dont know. I guess its time to head out."
+msgstr ""
+
+#: ../npcs/evan.txt:74
+msgid "Ok good luck out there. If you happen by Vlad on your way north, say hi from me."
+msgstr ""
+
+#: ../npcs/evan.txt:75
+msgid "Thanks for your help."
+msgstr ""
+
+#: ../npcs/evan.txt:83
+msgid "Keep training hard. The road ahead wont be easy"
+msgstr ""
+
+#: ../npcs/evan.txt:91
+msgid "Good luck on your journey."
+msgstr ""
+
+#: ../npcs/evan.txt:99
+msgid "I once heared a rumour of a great beast to the north beyond the desert. I wonder if such a creature could be tamed?"
+msgstr ""
+
+#: ../npcs/evan.txt:107
+msgid "Curse these spiders hiding in my log pile."
+msgstr ""
+
+#: ../npcs/evan.txt:113
+msgid "You came."
+msgstr ""
+
+#: ../npcs/evan.txt:114
+msgid "I couldnt leave you to face the Sarlinian hordes alone."
+msgstr ""
+
+#: ../npcs/evan.txt:115
+msgid "It looks like you have quite a gathering here. You must have made quite an impression."
+msgstr ""
+
+#: ../npcs/farmer_pitchfork_working.txt:1
+msgid "Garth"
+msgstr ""
+
+#: ../npcs/governor.txt:2
+msgid "The Governor"
+msgstr ""
+
+#: ../npcs/governor.txt:12
+msgid "Stop! Dont attack!"
+msgstr ""
+
+#: ../npcs/governor.txt:13
+msgid "You're alive?"
+msgstr ""
+
+#: ../npcs/governor.txt:14
+msgid "For now."
+msgstr ""
+
+#: ../npcs/governor.txt:15
+msgid "Who are you?"
+msgstr ""
+
+#: ../npcs/governor.txt:16
+msgid "I was the governor of the asylum."
+msgstr ""
+
+#: ../npcs/governor.txt:17
+msgid "What happened here?"
+msgstr ""
+
+#: ../npcs/governor.txt:18
+msgid "It all happened so fast."
+msgstr ""
+
+#: ../npcs/governor.txt:19
+msgid "A talisman. Left behind by an ex inmate."
+msgstr ""
+
+#: ../npcs/governor.txt:20
+msgid "The artifact contains a dark and mysterious power."
+msgstr ""
+
+#: ../npcs/governor.txt:21
+msgid "With it, I was able to call on lost souls."
+msgstr ""
+
+#: ../npcs/governor.txt:22
+msgid "Before I knew it, the power grew out of control and we were overrun with undead."
+msgstr ""
+
+#: ../npcs/governor.txt:23
+msgid "Here. Take it. Take it far away from here."
+msgstr ""
+
+#: ../npcs/governor.txt:25
+msgid "Are you okay?"
+msgstr ""
+
+#: ../npcs/governor.txt:26
+msgid "Get out before its too late."
+msgstr ""
+
+#: ../npcs/governor.txt:31
+msgid "I can feel it. My mind and body are becoming consumed by the darkness. Get out before I lose control completely."
+msgstr ""
+
+#: ../npcs/ieuan.txt:2
+msgid "Ieuan"
+msgstr ""
+
+#: ../npcs/ieuan.txt:14
+msgid "Thank heavens you're safe! That was a close call back there. Are you hurt?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:15
+msgid "A few bruises maybe. I can handle myself."
+msgstr ""
+
+#: ../npcs/ieuan.txt:16
+msgid "Hah! I dont doubt it my friend. But dont get careless. We arent safe yet."
+msgstr ""
+
+#: ../npcs/ieuan.txt:17
+msgid "What are we facing?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:18
+msgid "A few of the Sarlinian got through ahead of us. No doubt we can expect a few of their undead minions."
+msgstr ""
+
+#: ../npcs/ieuan.txt:19
+msgid "Could be tricky."
+msgstr ""
+
+#: ../npcs/ieuan.txt:20
+msgid "There will still be a few of the Sarlinian behind us. Ill guard the rear and make sure none make it through."
+msgstr ""
+
+#: ../npcs/ieuan.txt:21
+msgid "Up ahead is a small settlement. We should be safe there for the moment."
+msgstr ""
+
+#: ../npcs/ieuan.txt:22
+msgid "I'll go on ahead and clear a path. Meet me at the settlement when you're ready."
+msgstr ""
+
+#: ../npcs/ieuan.txt:23
+msgid "Understood."
+msgstr ""
+
+#: ../npcs/ieuan.txt:31
+msgid "Be careful out there. I'll meet you at the settlement."
+msgstr ""
+
+#: ../npcs/ieuan.txt:37
+msgid "What took you so long? Had a little trouble?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:38
+msgid "What the..."
+msgstr ""
+
+#: ../npcs/ieuan.txt:39
+msgid "Never mind that now. What are we going to do about the Sarlinian scum?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:40
+msgid "Keep your head Ieuan."
+msgstr ""
+
+#: ../npcs/ieuan.txt:41
+msgid "I know, i know."
+msgstr ""
+
+#: ../npcs/ieuan.txt:42
+msgid "Its unusual to see them this far south. What are they up to?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:43
+msgid "Before we left Cambria, I spoke to Kai. He thinks that this was just a scout party and that the Sarlinian will be back with a greater force."
+msgstr ""
+
+#: ../npcs/ieuan.txt:44
+msgid "Just a scout party? If thats true then we're in trouble. Theres no way we could withstand a larger force."
+msgstr ""
+
+#: ../npcs/ieuan.txt:45
+msgid "Our best chance is to increase our own numbers. It could be difficult since theres not much civilisation around these parts."
+msgstr ""
+
+#: ../npcs/ieuan.txt:46
+msgid "I'll talk to the folk around here and see what we can find out about the area."
+msgstr ""
+
+#: ../npcs/ieuan.txt:47
+msgid "The Woodsman at the north of town is handy with a bow. It might be worth talking to him."
+msgstr ""
+
+#: ../npcs/ieuan.txt:48
+msgid "Ok thanks for the tip. We will have a small army before you know it."
+msgstr ""
+
+#: ../npcs/ieuan.txt:49
+msgid "I wouldn't count on it. But in the mean time, I suggest you get more familiar with your weapon. If we are going to face the Sarlinian again, we will need to be much better prepared."
+msgstr ""
+
+#: ../npcs/ieuan.txt:50
+msgid "Kai sees a lot of potential in you but you're still lacking in combat experience."
+msgstr ""
+
+#: ../npcs/ieuan.txt:57
+msgid "We need to prepare for battle. Lets see if we can find some help."
+msgstr ""
+
+#: ../npcs/ieuan.txt:62
+msgid "I hear that Evan has you running around the woods after a horse. That must be a sight."
+msgstr ""
+
+#: ../npcs/ieuan.txt:67
+msgid "I think its time to move on."
+msgstr ""
+
+#: ../npcs/ieuan.txt:68
+msgid "Yes I fear you are right. Theres no telling when the Sarlinian might be on us again."
+msgstr ""
+
+#: ../npcs/ieuan.txt:69
+msgid "Alas I'll be staying here a while longer. I want to get a message back to Kai before I leave here."
+msgstr ""
+
+#: ../npcs/ieuan.txt:70
+msgid "Evan tells me of an asylum built in a desert to the north. A couple of the Sarlinian generals were supposedly previous residents of the asylum. I bet we would find out more information from there."
+msgstr ""
+
+#: ../npcs/ieuan.txt:71
+msgid "Okay I'll head north from here."
+msgstr ""
+
+#: ../npcs/ieuan.txt:72
+msgid "I dont know how long I will stay here but I'll catch up to you on the road."
+msgstr ""
+
+#: ../npcs/ieuan.txt:73
+msgid "Got it."
+msgstr ""
+
+#: ../npcs/ieuan.txt:81
+msgid "Take care of yourself."
+msgstr ""
+
+#: ../npcs/ieuan.txt:89
+msgid "The asylum is on the eastern side of a desert to the north of here."
+msgstr ""
+
+#: ../npcs/ieuan.txt:97
+msgid "Keep up your training. When you reach your potential, you will be a force to be reckoned with."
+msgstr ""
+
+#: ../npcs/ieuan.txt:105
+msgid "Dont forget about our goal. We will need to be prepared when we meet the Sarlinian again."
+msgstr ""
+
+#: ../npcs/ieuan.txt:112
+msgid "Good to see you again."
+msgstr ""
+
+#: ../npcs/ieuan.txt:113
+msgid "Its about time you got here."
+msgstr ""
+
+#: ../npcs/ieuan.txt:114
+msgid "Hey! I havent been sitting on my laurels."
+msgstr ""
+
+#: ../npcs/ieuan.txt:115
+msgid "It looks like you have been busy too. How are battle preparations?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:116
+msgid "I have learned a thing or two on my travels."
+msgstr ""
+
+#: ../npcs/ieuan.txt:117
+msgid "You seem much stronger than the last time I saw you. How fares the search for allies?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:118
+msgid "I met a few friends on my journey and have a few troops to fight with me."
+msgstr ""
+
+#: ../npcs/ieuan.txt:119
+msgid "Thats good news. I hope it will be enough. I come with news of the Sarlinian."
+msgstr ""
+
+#: ../npcs/ieuan.txt:120
+msgid "They are advancing already. We need to make our final battle preperations soon."
+msgstr ""
+
+#: ../npcs/ieuan.txt:121
+msgid "We knew this day would come. This is the time to show our worth. Is there anything else we can do?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:122
+msgid "Lets see what you've got here..."
+msgstr ""
+
+#: ../npcs/ieuan.txt:123
+msgid "Hmm. I'm sure theres some better equipment for you to get hold of yet."
+msgstr ""
+
+#: ../npcs/ieuan.txt:124
+msgid "But first, theres a dungeon not too far from here. I found an old tome back in the town."
+msgstr ""
+
+#: ../npcs/ieuan.txt:125
+msgid "It tells of an ancient guardian locked away at the bottom of the dungeon."
+msgstr ""
+
+#: ../npcs/ieuan.txt:126
+msgid "If we had such an ancient power fighting with us, I'm sure it would give us an advantage."
+msgstr ""
+
+#: ../npcs/ieuan.txt:127
+msgid "So its a friendly guardian? I just toddle down the dungeon and ask it if it wants to join us?"
+msgstr ""
+
+#: ../npcs/ieuan.txt:128
+msgid "Okay I admit, the text was not too clear on all the details. You could have a fight on your hands."
+msgstr ""
+
+#: ../npcs/ieuan.txt:129
+msgid "Well it'll be some sword practice in any case."
+msgstr ""
+
+#: ../npcs/ieuan.txt:130
+msgid "The dungeon is to the west of here, beyond the marshlands."
+msgstr ""
+
+#: ../npcs/ieuan.txt:131
+msgid "I'll head there now."
+msgstr ""
+
+#: ../npcs/ieuan.txt:132
+msgid "Next time we meet, we will be heading into battle."
+msgstr ""
+
+#: ../npcs/ieuan.txt:133
+msgid "Good luck."
+msgstr ""
+
+#: ../npcs/ieuan.txt:143
+msgid "You made it!"
+msgstr ""
+
+#: ../npcs/ieuan.txt:144
+msgid "I hope you're prepared for battle. We have been holding them back up to now."
+msgstr ""
+
+#: ../npcs/ieuan.txt:145
+msgid "Our line is holding, but we dont have the force to make an advance."
+msgstr ""
+
+#: ../npcs/ieuan.txt:146
+msgid "We need to push them back. We are all counting on you."
+msgstr ""
+
+#: ../npcs/ieuan.txt:147
+msgid "No pressure then."
+msgstr ""
+
+#: ../npcs/ieuan.txt:148
+msgid "I know you can do it. You have become a powerhouse since we first started on this."
+msgstr ""
+
+#: ../npcs/ivan.txt:1
+msgid "Ivan"
+msgstr ""
+
+#: ../npcs/vlad.txt:1
+msgid "Vlad"
+msgstr ""
+
+#: ../npcs/vlad.txt:11
+msgid "Where ye bin Evan?"
+msgstr ""
+
+#: ../npcs/vlad.txt:12
+msgid "um..."
+msgstr ""
+
+#: ../npcs/vlad.txt:13
+msgid "Well? Where be this so called aa-pel?"
+msgstr ""
+
+#: ../npcs/vlad.txt:14
+msgid "Apple?"
+msgstr ""
+
+#: ../npcs/vlad.txt:15
+msgid "Aye thats what a sed. What ye tryin to pull on old Vlad?"
+msgstr ""
+
+#: ../npcs/vlad.txt:16
+msgid "Um... here you go."
+msgstr ""
+
+#: ../npcs/vlad.txt:18
+msgid "Aaaaaaarg! Why ye tryin to poison me! It tastes like orc feet! Git out Evan."
+msgstr ""
+
+#: ../npcs/vlad.txt:19
+msgid "But I'm not Evan."
+msgstr ""
+
+#: ../npcs/vlad.txt:20
+msgid "What? Why are ye pretending to be Evan then?"
+msgstr ""
+
+#: ../npcs/vlad.txt:21
+msgid "I look nothing like him."
+msgstr ""
+
+#: ../npcs/vlad.txt:22
+msgid "Ye look exactly the same to me."
+msgstr ""
+
+#: ../npcs/vlad.txt:23
+msgid "Well ye better get to work then."
+msgstr ""
+
+#: ../npcs/vlad.txt:24
+msgid "Work?"
+msgstr ""
+
+#: ../npcs/vlad.txt:25
+msgid "There be some creepy crawlies sneaked into my cave! Go and take care o them!"
+msgstr ""
+
+#: ../npcs/vlad.txt:26
+msgid "Get to it then! Look lively!"
+msgstr ""
+
+#: ../npcs/vlad.txt:27
+msgid "(What just happened?)"
+msgstr ""
+
+#: ../npcs/vlad.txt:33
+msgid "What are ye waitin for? Go and get them critters."
+msgstr ""
+
+#: ../npcs/vlad.txt:38
+msgid "What ye doin back here?"
+msgstr ""
+
+#: ../npcs/vlad.txt:39
+msgid "I got rid of the spiders."
+msgstr ""
+
+#: ../npcs/vlad.txt:40
+msgid "Aha! Ye den gid manthing."
+msgstr ""
+
+#: ../npcs/vlad.txt:41
+msgid "Pardon?"
+msgstr ""
+
+#: ../npcs/vlad.txt:42
+msgid "Ye be alright by Vlad."
+msgstr ""
+
+#: ../npcs/vlad.txt:43
+msgid "Ye stick with me now boy."
+msgstr ""
+
+#: ../npcs/vlad.txt:44
+msgid "If ye be needing a good goblin axe to cover ye out there, call the name Vlad."
+msgstr ""
+
+#: ../npcs/vlad.txt:45
+msgid "Ye wont see Vlad the destroyer hiding from a fight."
+msgstr ""
+
+#: ../npcs/vlad.txt:46
+msgid "(Well, better a friend than a foe... probably)"
+msgstr ""
+
+#: ../npcs/vlad.txt:62
+msgid "Ye can count on Vlad the impaler"
+msgstr ""
+
+#: ../npcs/vlad.txt:70
+msgid "Keep yer nasty aa-pels"
+msgstr ""
+
+#: ../npcs/vlad.txt:84
+msgid "Ready for battle lad."
+msgstr ""
+
+#: ../npcs/vlad.txt:85
+msgid "Watch out! Vlad is coming!"
+msgstr ""
+
+#: ../powers/trees/default.txt:3
+msgid "Attack"
+msgstr ""
+
+#: ../powers/trees/default.txt:7
+msgid "Spawn"
+msgstr ""
+
+#: ../powers/trees/default.txt:11
+msgid "Tactics"
+msgstr ""
+
+#: ../powers/trees/default.txt:15
+msgid "Passive"
+msgstr ""
