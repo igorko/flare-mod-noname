@@ -657,195 +657,195 @@ msgstr "Invoquer un Minotaure allié 5"
 
 #: ../powers/powers.txt:1120
 msgid "Recruit"
-msgstr ""
+msgstr "Recruter"
 
 #: ../powers/powers.txt:1123
 msgid "Convert an enemy that remains loyal until death - limit of 2"
-msgstr ""
+msgstr "Convertir un ennemi qui reste fidèle jusqu'à la mort - limite de 2"
 
 #: ../powers/powers.txt:1158
 msgid "Curse"
-msgstr ""
+msgstr "Malédiction"
 
 #: ../powers/powers.txt:1161
 msgid "Enemies take more damage from attacks"
-msgstr ""
+msgstr "Les ennemis prennent plus de dégâtsaux attaques"
 
 #: ../powers/powers.txt:1182
 msgid "Curse 2"
-msgstr ""
+msgstr "Malédiction 2"
 
 #: ../powers/powers.txt:1185
 msgid "Increased radius, duration and potency"
-msgstr ""
+msgstr "Rayon accru, la durée et la puissance"
 
 #: ../powers/powers.txt:1206
 msgid "Curse 3"
-msgstr ""
+msgstr "Malédiction 3"
 
 #: ../powers/powers.txt:1209
 msgid "Additional reduction of enemy avoidance"
-msgstr ""
+msgstr "Réduction supplémentaire de l'esquive de l'ennemi"
 
 #: ../powers/powers.txt:1231
 msgid "Curse 4"
-msgstr ""
+msgstr "Malédiction 4"
 
 #: ../powers/powers.txt:1234
 msgid "Increased range and lowers poise"
-msgstr ""
+msgstr "Une portée accrue et réduit l'équilibre"
 
 #: ../powers/powers.txt:1257
 msgid "Curse 5"
-msgstr ""
+msgstr "Malédiction 5"
 
 #: ../powers/powers.txt:1260
 msgid "Massively increased radius, lower elemental resistance and increased potency"
-msgstr ""
+msgstr "Rayon massivement augmenté, résistance élémentaire réduite et puissance accrue"
 
 #: ../powers/powers.txt:1293
 msgid "Weaken"
-msgstr ""
+msgstr "Affaiblir"
 
 #: ../powers/powers.txt:1296
 msgid "Enemies deal less damage"
-msgstr ""
+msgstr "Les ennemis font moins de dégâts"
 
 #: ../powers/powers.txt:1321
 msgid "Weaken 2"
-msgstr ""
+msgstr "Affaiblir 2"
 
 #: ../powers/powers.txt:1324
 msgid "More potent"
-msgstr ""
+msgstr "Plus puissant"
 
 #: ../powers/powers.txt:1349
 msgid "Weaken 3"
-msgstr ""
+msgstr "Affaiblir 3"
 
 #: ../powers/powers.txt:1352
 msgid "Additional lower critical hit rate"
-msgstr ""
+msgstr "Taux de succès critique inférieur supplémentaire"
 
 #: ../powers/powers.txt:1378
 msgid "Weaken 4"
-msgstr ""
+msgstr "Affaiblir 4"
 
 #: ../powers/powers.txt:1407
 msgid "Weaken 5"
-msgstr ""
+msgstr "Affaiblir 5"
 
 #: ../powers/powers.txt:1410
 msgid "Additionally reduces accuracy"
-msgstr ""
+msgstr "Réduit la précision"
 
 #: ../powers/powers.txt:1443
 msgid "Warcry"
-msgstr ""
+msgstr "Cri de guerre"
 
 #: ../powers/powers.txt:1446
 msgid "Let out a warcry causing surrounding enemies to flee"
-msgstr ""
+msgstr "Laisse échapper un cri de guerre qui fait fuire les ennemis environnants"
 
 #: ../powers/powers.txt:1459
 msgid "Warcry 2"
-msgstr ""
+msgstr "Cri de guerre 2"
 
 #: ../powers/powers.txt:1462
 msgid "Increased radius and duration"
-msgstr ""
+msgstr "Augmente la durée et le rayon"
 
 #: ../powers/powers.txt:1475
 msgid "Warcry 3"
-msgstr ""
+msgstr "Cri de guerre 3"
 
 #: ../powers/powers.txt:1491
 msgid "Warcry 4"
-msgstr ""
+msgstr "Cri de guerre 4"
 
 #: ../powers/powers.txt:1494
 msgid "Enemies are stunned with fear before fleeing"
-msgstr ""
+msgstr "Les ennemis sont étonnés de peur avant de fuir"
 
 #: ../powers/powers.txt:1508
 msgid "Warcry 5"
-msgstr ""
+msgstr "Cri de guerre 5"
 
 #: ../powers/powers.txt:1531
 msgid "Traps"
-msgstr ""
+msgstr "Piège"
 
 #: ../powers/powers.txt:1534
 msgid "Lay a bear trap which immobilizes the target and deals 1-40 damage"
-msgstr ""
+msgstr "Poser un piège à ours qui immobilise la cible et inflige 1-40 points de dégâts"
 
 #: ../powers/powers.txt:1564
 msgid "Traps 2"
-msgstr ""
+msgstr "Piège 2"
 
 #: ../powers/powers.txt:1567
 msgid "Lay 2 bear traps dealing 1-60 damage"
-msgstr ""
+msgstr "Pose 2 pièges à ours qui infligent 1-60 points de dégâts"
 
 #: ../powers/powers.txt:1585
 msgid "Traps 3"
-msgstr ""
+msgstr "Piège 3"
 
 #: ../powers/powers.txt:1588
 msgid "Lay 4 bear traps dealing 1-80 damage"
-msgstr ""
+msgstr "Pose 4 pièges à ours qui infligent 1-80 points de dégâts"
 
 #: ../powers/powers.txt:1606
 msgid "Traps 4"
-msgstr ""
+msgstr "Piège 4"
 
 #: ../powers/powers.txt:1609
 msgid "Lay 6 bear traps dealing 1-100 damage"
-msgstr ""
+msgstr "Pose 6 pièges à ours qui infligent 1 à 100 dégâts"
 
 #: ../powers/powers.txt:1627
 msgid "Traps 5"
-msgstr ""
+msgstr "Piège 5"
 
 #: ../powers/powers.txt:1630
 msgid "Lay 10 bear traps dealing 1-150 damage"
-msgstr ""
+msgstr "Pose 10 pièges à ours qui infligent 1-150 points de dégâts"
 
 #: ../powers/powers.txt:1654
 msgid "Fire Tower"
-msgstr ""
+msgstr "Tour de feu"
 
 #: ../powers/powers.txt:1657
 msgid "Raise a single tower which shoots fireballs at your enemies"
-msgstr ""
+msgstr "Élever une seule tour qui tire des boules de feu sur vos ennemis"
 
 #: ../powers/powers.txt:1667
 msgid "Fire Tower 2"
-msgstr ""
+msgstr "Tour de feu 2"
 
 #: ../powers/powers.txt:1670
 msgid "The tower shoots multiple fireballs"
-msgstr ""
+msgstr "La tour tire plusieurs boulles de feu"
 
 #: ../powers/powers.txt:1680
 msgid "Fire Tower 3"
-msgstr ""
+msgstr "Tour de feu 3"
 
 #: ../powers/powers.txt:1683
 msgid "More powerful tower"
-msgstr ""
+msgstr "Tour plus puissante"
 
 #: ../powers/powers.txt:1693
 msgid "Fire Tower 4"
-msgstr ""
+msgstr "Tour de feu 4"
 
 #: ../powers/powers.txt:1696
 msgid "Fires even more fireballs"
-msgstr ""
+msgstr "Tire toujours plus de boules de feu"
 
 #: ../powers/powers.txt:1706
 msgid "Fire Tower 5"
-msgstr ""
+msgstr "Tour de feu 5"
 
 #: ../powers/powers.txt:1726
 msgid "Decoy"
