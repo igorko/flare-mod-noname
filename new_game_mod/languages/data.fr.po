@@ -849,163 +849,163 @@ msgstr "Tour de feu 5"
 
 #: ../powers/powers.txt:1726
 msgid "Decoy"
-msgstr ""
+msgstr "Leurre"
 
 #: ../powers/powers.txt:1729
 msgid "Create a decoy which takes enemy attacks and tries to snare them"
-msgstr ""
+msgstr "Crée un leurre qui prend les attaques ennemies et tente de les piéger"
 
 #: ../powers/powers.txt:1753
 msgid "HP Boost"
-msgstr ""
+msgstr "Boost de vie"
 
 #: ../powers/powers.txt:1755
 msgid "Raises HP by 50"
-msgstr ""
+msgstr "Augmente les PV de 50"
 
 #: ../powers/powers.txt:1763
 msgid "HP Boost 2"
-msgstr ""
+msgstr "Boost de vie 2"
 
 #: ../powers/powers.txt:1765
 msgid "Raises HP boost to 100"
-msgstr ""
+msgstr "Augmente les PV de 100"
 
 #: ../powers/powers.txt:1773
 msgid "HP Boost 3"
-msgstr ""
+msgstr "Boost de vie 3"
 
 #: ../powers/powers.txt:1775
 msgid "Raises HP boost to 150"
-msgstr ""
+msgstr "Augmente les PV de 150"
 
 #: ../powers/powers.txt:1783
 msgid "HP Boost 4"
-msgstr ""
+msgstr "Boost de vie 4"
 
 #: ../powers/powers.txt:1785
 msgid "Raises HP boost to 200"
-msgstr ""
+msgstr "Augmente les PV de 200"
 
 #: ../powers/powers.txt:1793
 msgid "HP Boost 5"
-msgstr ""
+msgstr "Boost de vie 5"
 
 #: ../powers/powers.txt:1795
 msgid "Raises HP boost to 300"
-msgstr ""
+msgstr "Augmente les PV de 300"
 
 #: ../powers/powers.txt:1809
 msgid "Melee Boost"
-msgstr ""
+msgstr "Boost de mélée"
 
 #: ../powers/powers.txt:1811
 msgid "Raises Melee damage by 5"
-msgstr ""
+msgstr "Augmente les dégats de mélée de 5"
 
 #: ../powers/powers.txt:1820
 msgid "Melee Boost 2"
-msgstr ""
+msgstr "Boost de mélée 2"
 
 #: ../powers/powers.txt:1822
 msgid "Raises Melee damage boost to 10"
-msgstr ""
+msgstr "Augmente les dégats de mélée de 10"
 
 #: ../powers/powers.txt:1831
 msgid "Melee Boost 3"
-msgstr ""
+msgstr "Boost de mélée 3"
 
 #: ../powers/powers.txt:1833
 msgid "Raises Melee damage boost to 20"
-msgstr ""
+msgstr "Augmente les dégats de mélée de 20"
 
 #: ../powers/powers.txt:1842
 msgid "Melee Boost 4"
-msgstr ""
+msgstr "Boost de mélée 4"
 
 #: ../powers/powers.txt:1844
 msgid "Raises Melee damage boost to 30"
-msgstr ""
+msgstr "Augmente les dégats de mélée de 30"
 
 #: ../powers/powers.txt:1853
 msgid "Melee Boost 5"
-msgstr ""
+msgstr "Boost de mélée 5"
 
 #: ../powers/powers.txt:1855
 msgid "Raises Melee damage boost to 50"
-msgstr ""
+msgstr "Augmente les dégats de mélée de 50"
 
 #: ../powers/powers.txt:1870
 msgid "Protection"
-msgstr ""
+msgstr "Protection"
 
 #: ../powers/powers.txt:1872
 msgid "Raises all allies hp by 50"
-msgstr ""
+msgstr "Augmente les PV des alliés de 50"
 
 #: ../powers/powers.txt:1881
 msgid "Protection 2"
-msgstr ""
+msgstr "Protection 2"
 
 #: ../powers/powers.txt:1883
 msgid "Additional bonus to damage absorb"
-msgstr ""
+msgstr "Bonus supplémentaire d'absorbtion"
 
 #: ../powers/powers.txt:1894
 msgid "Protection 3"
-msgstr ""
+msgstr "Protection 3"
 
 #: ../powers/powers.txt:1896
 msgid "Additional bonus to avoidance"
-msgstr ""
+msgstr "Bonus supplémentaire d'esquive"
 
 #: ../powers/powers.txt:1908
 msgid "Protection 4"
-msgstr ""
+msgstr "Protection 4"
 
 #: ../powers/powers.txt:1910
 msgid "Additional bonus to Elemental resistances"
-msgstr ""
+msgstr "Bonus supplémentaire de résistance élémentaire"
 
 #: ../powers/powers.txt:1926
 msgid "Protection 5"
-msgstr ""
+msgstr "Protection 5"
 
 #: ../powers/powers.txt:1928
 msgid "More effective and longer duration"
-msgstr ""
+msgstr "Plus efficace et plus longue durée"
 
 #: ../powers/powers.txt:1950
 msgid "Revert Form"
-msgstr ""
+msgstr "Rétablir la forme"
 
 #: ../powers/powers.txt:1955
 msgid "Transform back to human"
-msgstr ""
+msgstr "Retransforme en humain"
 
 #: ../powers/powers.txt:1959
 msgid "Werewolf"
-msgstr ""
+msgstr "Loup-Garou"
 
 #: ../powers/powers.txt:1960
 msgid "Transform into Werewolf"
-msgstr ""
+msgstr "Transforme en Loup-Garou"
 
 #: ../powers/powers.txt:1973
 msgid "Werewolf 2"
-msgstr ""
+msgstr "Loup-Garou 2"
 
 #: ../powers/powers.txt:1987
 msgid "Werewolf 3"
-msgstr ""
+msgstr "Loup-Garou 3"
 
 #: ../powers/powers.txt:2001
 msgid "Werewolf 4"
-msgstr ""
+msgstr "Loup-Garou 4"
 
 #: ../powers/powers.txt:2015
 msgid "Werewolf 5"
-msgstr ""
+msgstr "Loup-Garou 5"
 
 #: ../powers/powers.txt:2035
 msgid "Werewyvern"
