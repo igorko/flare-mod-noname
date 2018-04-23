@@ -1009,531 +1009,531 @@ msgstr "Loup-Garou 5"
 
 #: ../powers/powers.txt:2035
 msgid "Werewyvern"
-msgstr ""
+msgstr "Vouivre-Garou"
 
 #: ../powers/powers.txt:2036
 msgid "Transform into Werewyvern"
-msgstr ""
+msgstr "Transforme en Vouivre-Garou"
 
 #: ../powers/powers.txt:2049
 msgid "Werewyvern 2"
-msgstr ""
+msgstr "Vouivre-Garou 2"
 
 #: ../powers/powers.txt:2063
 msgid "Werewyvern 3"
-msgstr ""
+msgstr "Vouivre-Garou 4"
 
 #: ../powers/powers.txt:2077
 msgid "Werewyvern 4"
-msgstr ""
+msgstr "Vouivre-Garou 4"
 
 #: ../powers/powers.txt:2091
 msgid "Werewyvern 5"
-msgstr ""
+msgstr "Vouivre-Garou 5"
 
 #: ../powers/powers.txt:2111
 msgid "Channel Spirit"
-msgstr ""
+msgstr "Canal d'esprit"
 
 #: ../powers/powers.txt:2112
 msgid "Take the form of a ghost"
-msgstr ""
+msgstr "Prend la forme d'un fantôme"
 
 #: ../powers/powers.txt:2179
 msgid "Orange Spark"
-msgstr ""
+msgstr "Étincelle orange"
 
 #: ../powers/powers.txt:2299
 msgid "Fear Swing"
-msgstr ""
+msgstr "Coup de peur"
 
 #: ../powers/powers.txt:2302
 msgid "Melee attack with chance of fear"
-msgstr ""
+msgstr "Attaque de mélée avec des chances de faire peur à l'ennemi"
 
 #: ../powers/powers.txt:2314
 msgid "Swing flee effect"
-msgstr ""
+msgstr "Effet de fuite du coup"
 
 #: ../powers/powers.txt:2316
 msgid "Chance of flee effect"
-msgstr ""
+msgstr "Chances d'effet de fuite"
 
 #: ../powers/powers.txt:2328
 msgid "Fear Swing 2"
-msgstr ""
+msgstr "Coup de peur 2"
 
 #: ../powers/powers.txt:2331
 msgid "Melee attack with greater chance of fear"
-msgstr ""
+msgstr "Attaque de mélée avec de plus grandes chances de faire peur à l'ennemi"
 
 #: ../powers/powers.txt:2357
 msgid "Fear Swing 3"
-msgstr ""
+msgstr "Coup de peur 3"
 
 #: ../powers/powers.txt:2397
 msgid "Conversion Swing"
-msgstr ""
+msgstr "Coup de conversion"
 
 #: ../powers/powers.txt:2400
 msgid "Melee attack with chance of conversion"
-msgstr ""
+msgstr "Attaque de mélée avec des chances de convertir l'ennemi"
 
 #: ../powers/powers.txt:2412
 msgid "Swing conversion effect"
-msgstr ""
+msgstr "Effet de conversion du coup"
 
 #: ../powers/powers.txt:2414
 msgid "Chance of conversion effect"
-msgstr ""
+msgstr "Chances d'effet de conversion"
 
 #: ../powers/powers.txt:2427
 msgid "Conversion Swing 2"
-msgstr ""
+msgstr "Coup de conversion 2"
 
 #: ../powers/powers.txt:2457
 msgid "Conversion Swing 3"
-msgstr ""
+msgstr "Coup de conversion 3"
 
 #: ../powers/powers.txt:2497
 msgid "Summon Zombie1"
-msgstr ""
+msgstr "Invoquer un zombie"
 
 #: ../powers/powers.txt:2500
 msgid "spawn zombie1"
-msgstr ""
+msgstr "Fait apparaître un zombie"
 
 #: ../powers/powers.txt:2510
 msgid "Summon Zombie2"
-msgstr ""
+msgstr "Invoquer un zombie 2"
 
 #: ../powers/powers.txt:2513
 msgid "spawn zombie2"
-msgstr ""
+msgstr "Fait apparaître un zombie"
 
 #: ../powers/powers.txt:2523
 msgid "Summon Zombie3"
-msgstr ""
+msgstr "Invoquer un zombie 3"
 
 #: ../powers/powers.txt:2526
 msgid "spawn zombie3"
-msgstr ""
+msgstr "Fait apparaître un zombie"
 
 #: ../powers/powers.txt:2536
 msgid "Summon Skeleton 1"
-msgstr ""
+msgstr "Invoquer un squelette"
 
 #: ../powers/powers.txt:2539
 msgid "spawn skeleton 1"
-msgstr ""
+msgstr "Fait apparaître un squelette"
 
 #: ../powers/powers.txt:2549
 msgid "Summon Skeleton 2"
-msgstr ""
+msgstr "Invoquer un squelette 2"
 
 #: ../powers/powers.txt:2552
 msgid "spawn skeleton 2"
-msgstr ""
+msgstr "Fait apparaître un squelette"
 
 #: ../powers/powers.txt:2562
 msgid "Summon Skeleton 3"
-msgstr ""
+msgstr "Invoquer un squelette 3"
 
 #: ../powers/powers.txt:2565
 msgid "spawn skeleton 3"
-msgstr ""
+msgstr "Fait apparaître un squelette"
 
 #: ../powers/powers.txt:2575
 msgid "Summon Skeleton archer 1"
-msgstr ""
+msgstr "Invoquer un squelette archer"
 
 #: ../powers/powers.txt:2578
 msgid "spawn skeleton archer 1"
-msgstr ""
+msgstr "Fait apparaître un squelette archer"
 
 #: ../powers/powers.txt:2588
 msgid "Summon Skeleton archer 2"
-msgstr ""
+msgstr "Invoquer un squelette archer 2"
 
 #: ../powers/powers.txt:2591
 msgid "spawn skeleton archer 2"
-msgstr ""
+msgstr "Fait apparaître un squelette archer 2"
 
 #: ../powers/powers.txt:2601
 msgid "Summon Horseman"
-msgstr ""
+msgstr "Invoquer un centaure"
 
 #: ../powers/powers.txt:2604
 msgid "spawn horseman"
-msgstr ""
+msgstr "Fait apparaître un centaure"
 
 #: ../powers/powers.txt:2614
 msgid "Summon Ghost1"
-msgstr ""
+msgstr "Invoquer un fantôme"
 
 #: ../powers/powers.txt:2617
 msgid "spawn ghost1"
-msgstr ""
+msgstr "Fait apparaître un fantôme"
 
 #: ../powers/powers.txt:2626
 msgid "Summon Ghost2"
-msgstr ""
+msgstr "Invoquer un fantôme 2"
 
 #: ../powers/powers.txt:2629
 msgid "spawn ghost2"
-msgstr ""
+msgstr "Fait apparaître un fantôme 2"
 
 #: ../powers/powers.txt:2638
 msgid "Summon Ghost3"
-msgstr ""
+msgstr "Invoquer un fantôme 3"
 
 #: ../powers/powers.txt:2641
 msgid "spawn ghost3"
-msgstr ""
+msgstr "Fait apparaître un fantôme 3"
 
 #: ../powers/powers.txt:2650
 msgid "Summon Ghost4"
-msgstr ""
+msgstr "Invoquer un fantôme 4"
 
 #: ../powers/powers.txt:2653
 msgid "spawn ghost4"
-msgstr ""
+msgstr "Fait apparaître un fantôme 4"
 
 #: ../powers/powers.txt:2662
 msgid "Summon Ghost5"
-msgstr ""
+msgstr "Invoquer un fantôme 5"
 
 #: ../powers/powers.txt:2665
 msgid "spawn ghost5"
-msgstr ""
+msgstr "Fait apparaître un fantôme 5"
 
 #: ../powers/powers.txt:2686
 msgid "Decoy Bear Trap"
-msgstr ""
+msgstr "Piège à ours leurre"
 
 #: ../powers/powers.txt:2706
 msgid "Caltrops"
-msgstr ""
+msgstr "Chausse-trappe"
 
 #: ../powers/powers.txt:2709
 msgid "This trap deals 75% ranged weapon damage and slows the target."
-msgstr ""
+msgstr "Ce piège inflige 75% de dégâts à distance et ralentit la cible."
 
 #: ../powers/powers.txt:2753
 msgid "Lay a bear trap which immobilizes the target"
-msgstr ""
+msgstr "Pose un piège à ours qui immobilise la cible"
 
 #: ../powers/powers.txt:2776
 msgid "Tastes good"
-msgstr ""
+msgstr "C'est bon"
 
 #: ../powers/powers.txt:2802
 msgid "Block"
-msgstr ""
+msgstr "Bloque"
 
 #: ../powers/powers.txt:2804
 msgid "Raise your shield to raise your avoidance by 10% and absorb by 1-5. Chance to reflect missiles increased by 50%."
-msgstr ""
+msgstr "Soulevez votre bouclier pour augmenter votre esquive de 10% et absorber de 1 à 5. Les chances de refléter les projectiles augmentent de 50%."
 
 #: ../powers/powers.txt:2818
 msgid "Raise your shield to raise your avoidance by 20% and absorb by 1-5. Chance to reflect missiles increased by 60%."
-msgstr ""
+msgstr "Soulevez votre bouclier pour augmenter votre esquive de 20% et absorber de 1 à 5. Les chances de refléter les projectiles augmentent de 60%."
 
 #: ../powers/powers.txt:2832
 msgid "Raise your shield to raise your avoidance by 20% and absorb by 2-5. Chance to reflect missiles increased by 60%."
-msgstr ""
+msgstr "Soulevez votre bouclier pour augmenter votre esquive de 20% et absorber de 2 à 5. Les chances de refléter les projectiles augmentent de 60%."
 
 #: ../powers/powers.txt:2846
 msgid "Raise your shield to raise your avoidance by 25% and absorb by 2-5. Chance to reflect missiles increased by 65%."
-msgstr ""
+msgstr "Soulevez votre bouclier pour augmenter votre esquive de 25% et absorber de 2 à 5. Les chances de refléter les projectiles augmentent de 65%."
 
 #: ../powers/powers.txt:2943
 msgid "Channel"
-msgstr ""
+msgstr "Canal"
 
 #: ../powers/powers.txt:2946
 msgid "Basic magic attack"
-msgstr ""
+msgstr "Attque magique basique"
 
 #: ../powers/powers.txt:3008
 msgid "Arrow Wall Strike"
-msgstr ""
+msgstr "Frappe d'un mur de flèches"
 
 #: ../powers/powers.txt:3020
 msgid "Static (end boss)"
-msgstr ""
+msgstr "Static (boss de fin)"
 
 #: ../powers/powers.txt:3049
 msgid "Swing (end boss)"
-msgstr ""
+msgstr "Swing (boss de fin)"
 
 #: ../powers/powers.txt:3088
 msgid "Throw Axe"
-msgstr ""
+msgstr "Jeter une hache"
 
 #: ../powers/powers.txt:3091
 msgid "Throw an axe to deal 150% of melee weapon damage"
-msgstr ""
+msgstr "Jette une hache qui fait 150% des dégats de mélée de votre arme"
 
 #: ../powers/powers.txt:3105
 msgid "Fire Storm"
-msgstr ""
+msgstr "Orage de feu"
 
 #: ../powers/powers.txt:3124
 msgid "Lightning ball"
-msgstr ""
+msgstr "Balle de foudre"
 
 #: ../powers/powers.txt:3145
 msgid "Lightning Bolt"
-msgstr ""
+msgstr "Éclair de foudre"
 
 #: ../powers/powers.txt:3166
 msgid "Leaf Storm"
-msgstr ""
+msgstr "Orage de feuilles"
 
 #: ../powers/powers.txt:3187
 msgid "Freeze"
-msgstr ""
+msgstr "Gel"
 
 #: ../powers/powers.txt:3190
 msgid "Create a ray of piercing cold that slows enemies"
-msgstr ""
+msgstr "Crée un rayon de froid perçant qui ralentit les ennemis"
 
 #: ../powers/powers.txt:3208
 msgid "Nova"
-msgstr ""
+msgstr "Nova"
 
 #: ../powers/powers.txt:3231
 msgid "Ember Shot"
-msgstr ""
+msgstr "Tir de braises"
 
 #: ../powers/powers.txt:3234
 msgid "Fire a spray of burning embers at close range"
-msgstr ""
+msgstr "Lance un jet de braises brûlantes à courte distance"
 
 #: ../powers/powers.txt:3281
 msgid "Lightning Ball"
-msgstr ""
+msgstr "Ball de foudre"
 
 #: ../powers/powers.txt:3325
 msgid "Energy Ball"
-msgstr ""
+msgstr "Balle d'énergie"
 
 #: ../powers/powers.txt:3457
 msgid "Swing2"
-msgstr ""
+msgstr "Frappe 2"
 
 #: ../powers/powers.txt:3460
 msgid "Use on second swing animation"
-msgstr ""
+msgstr "Utiliser sur l'animation de la deuxième frappe"
 
 #: ../powers/powers.txt:3481
 msgid "Shoot"
-msgstr ""
+msgstr "Tir"
 
 #: ../powers/powers.txt:3708
 msgid "Multishot"
-msgstr ""
+msgstr "Tir multiple"
 
 #: ../engine/elements.txt:3
 msgid "Fire Resistance"
-msgstr ""
+msgstr "Résistance au feu"
 
 #: ../engine/elements.txt:7
 msgid "Ice Resistance"
-msgstr ""
+msgstr "Résistance à la glace"
 
 #: ../engine/elements.txt:11
 msgid "Earth Resistance"
-msgstr ""
+msgstr "Résistance à la terre"
 
 #: ../engine/elements.txt:15
 msgid "Lightning Resistance"
-msgstr ""
+msgstr "Résistance à la foudre"
 
 #: ../engine/classes.txt:6
 msgid "Adventurer"
-msgstr ""
+msgstr "Aventurier"
 
 #: ../engine/classes.txt:7
 msgid "Your basic sword wielding, dragon slaying adventurer"
-msgstr ""
+msgstr "Brandissant votre épée basique, l'aventurier tua un dragon"
 
 #: ../enemies/antlion.txt:3
 msgid "Antlion"
-msgstr ""
+msgstr "Antilion"
 
 #: ../enemies/antlion_blinker.txt:3
 msgid "Antlion Blinker"
-msgstr ""
+msgstr "Antilion clignotant"
 
 #: ../enemies/antlion_burster.txt:3
 msgid "Antlion Burster"
-msgstr ""
+msgstr "Antilion explosif"
 
 #: ../enemies/antlion_freezer.txt:3
 msgid "Antlion Freezer"
-msgstr ""
+msgstr "Antilion paralysant"
 
 #: ../enemies/antlion_hatchling.txt:3
 msgid "Antlion Hatchling"
-msgstr ""
+msgstr "Petit Antilion"
 
 #: ../enemies/antlion_slasher.txt:3
 msgid "Antlion Slasher"
-msgstr ""
+msgstr "Antilion tailladeur"
 
 #: ../enemies/antlion_spitter.txt:3
 msgid "Antlion Spitter"
-msgstr ""
+msgstr "Antilion cracheur"
 
 #: ../enemies/cursed_grave.txt:3
 msgid "Cursed Grave"
-msgstr ""
+msgstr "Tombe maudite"
 
 #: ../enemies/goblin.txt:3
 msgid "Goblin"
-msgstr ""
+msgstr "Gobelin"
 
 #: ../enemies/goblin_charger.txt:3
 msgid "Goblin Charger"
-msgstr ""
+msgstr "Chargeur gobelin"
 
 #: ../enemies/goblin_charger_elite.txt:3
 msgid "Goblin Charger Elite"
-msgstr ""
+msgstr "Chargeur gobelin d'élite"
 
 #: ../enemies/goblin_shaman.txt:3
 msgid "Goblin Shaman"
-msgstr ""
+msgstr "Gobelin Shaman"
 
 #: ../enemies/goblin_spearman.txt:3
 msgid "Goblin Spearman"
-msgstr ""
+msgstr "Lancier gobelin"
 
 #: ../enemies/goblin_spearman_elite.txt:3
 msgid "Goblin Spearman Elite"
-msgstr ""
+msgstr "Lancier gobelin d'élite"
 
 #: ../enemies/grisbon.txt:3
 msgid "Grisbon"
-msgstr ""
+msgstr "Grisbon"
 
 #: ../enemies/krakatoa.txt:3
 msgid "Krakatoa, Antlion Burster"
-msgstr ""
+msgstr "Krakatoa, Antilion explosif"
 
 #: ../enemies/miner.txt:3
 msgid "Miner"
-msgstr ""
+msgstr "Mineur"
 
 #: ../enemies/minotaur.txt:3
 msgid "Minotaur"
-msgstr ""
+msgstr "Minotaure"
 
 #: ../enemies/necromancer_apprentice.txt:3
 msgid "Apprentice Necromancer"
-msgstr ""
+msgstr "Apprenti nécromancien"
 
 #: ../enemies/ng_ally_ghost1.txt:1
 msgid "Ghost"
-msgstr ""
+msgstr "Fantôme"
 
 #: ../enemies/ng_ally_ghost3.txt:1
 msgid "Ghost Captain"
-msgstr ""
+msgstr "Capitaine fantôme"
 
 #: ../enemies/ng_ally_ghost_spawn_horseman.txt:1
 msgid "Headless Horseman"
-msgstr ""
+msgstr "Centaure sans-tête"
 
 #: ../enemies/ng_ally_ghost_spawn_skeleton1.txt:1
 msgid "Skeleton"
-msgstr ""
+msgstr "Squelette"
 
 #: ../enemies/ng_ally_ghost_spawn_skeleton2.txt:1
 msgid "Skeleton Fighter"
-msgstr ""
+msgstr "Combattant squelette"
 
 #: ../enemies/ng_ally_ghost_spawn_skeleton3.txt:1
 msgid "Skeleton Knight"
-msgstr ""
+msgstr "Chevalier squelette"
 
 #: ../enemies/ng_ally_ghost_spawn_skeleton_archer1.txt:1
 msgid "Skeleton Archer"
-msgstr ""
+msgstr "Archer squelette"
 
 #: ../enemies/ng_ally_ghost_spawn_zombie1.txt:1
 msgid "Zombie"
-msgstr ""
+msgstr "Zombie"
 
 #: ../enemies/ng_ally_ghost_spawn_zombie2.txt:1
 msgid "Fresh Zombie"
-msgstr ""
+msgstr "Zombie frais"
 
 #: ../enemies/ng_ally_ghost_spawn_zombie3.txt:1
 msgid "Ravenous Zombie"
-msgstr ""
+msgstr "Zombie vorace"
 
 #: ../enemies/ng_ally_wyvern1.txt:1
 msgid "Adult Wyvern"
-msgstr ""
+msgstr "Vouivre adulte"
 
 #: ../enemies/ng_boss_big.txt:1
 msgid "Zaltor the Bloody"
-msgstr ""
+msgstr "Zaltor le Sanglant"
 
 #: ../enemies/ng_boss_general.txt:1
 msgid "Tarlek the Cruel"
-msgstr ""
+msgstr "Tarlek le Cruel"
 
 #: ../enemies/ng_boss_ghost_commander.txt:1
 msgid "Ghostly Commander"
-msgstr ""
+msgstr "Commandant fantômatique"
 
 #: ../enemies/ng_boss_horse.txt:1
 msgid "Horse"
-msgstr ""
+msgstr "Cheval"
 
 #: ../enemies/ng_boss_shelob.txt:1
 msgid "Shelob"
-msgstr ""
+msgstr "Shelob"
 
 #: ../enemies/ng_boss_werebear.txt:1
 msgid "Werebear"
-msgstr ""
+msgstr "Ours-Garou"
 
 #: ../enemies/ng_boss_wyvern_earth.txt:1
 msgid "Earth Wyvern"
-msgstr ""
+msgstr "Vouivre de terre"
 
 #: ../enemies/ng_boss_wyvern_fire.txt:1
 msgid "Fire Wyvern"
-msgstr ""
+msgstr "Vouivre de feu"
 
 #: ../enemies/ng_boss_wyvern_ice.txt:1
 msgid "Ice Wyvern"
-msgstr ""
+msgstr "Vouivre de glace"
 
 #: ../enemies/ng_boss_wyvern_lightning.txt:1
 msgid "Lightning Wyvern"
-msgstr ""
+msgstr "Vouivre de foudre"
 
 #: ../enemies/ng_enemy_antlion_hatcher.txt:1
 msgid "Antlion Hatcher"
-msgstr ""
+msgstr "Larve antilion"
 
 #: ../enemies/ng_enemy_antlion_scorcher.txt:1
 msgid "Antlion Scorcher"
-msgstr ""
+msgstr "Antilion écorcheur"
 
 #: ../enemies/ng_enemy_assassin.txt:1
 msgid "Assassin"
-msgstr ""
+msgstr "Assassin"
 
 #: ../enemies/ng_enemy_demon.txt:1
 msgid "Demon"
-msgstr ""
+msgstr "Démon"
 
 #: ../enemies/ng_enemy_demon_statue.txt:1
 msgid "Living Statue"
