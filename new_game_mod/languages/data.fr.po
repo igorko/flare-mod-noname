@@ -1537,515 +1537,515 @@ msgstr "Démon"
 
 #: ../enemies/ng_enemy_demon_statue.txt:1
 msgid "Living Statue"
-msgstr ""
+msgstr "Statue Vivante"
 
 #: ../enemies/ng_enemy_ghoul.txt:1
 msgid "Ghoul"
-msgstr ""
+msgstr "Goule"
 
 #: ../enemies/ng_enemy_hobgoblin.txt:1
 msgid "Hobgoblin"
-msgstr ""
+msgstr "Hobgobelin"
 
 #: ../enemies/ng_enemy_hobgoblin_archer.txt:1
 msgid "Hobgoblin Spearman"
-msgstr ""
+msgstr "Lancier Hobgobelin"
 
 #: ../enemies/ng_enemy_hobgoblin_charger.txt:1
 msgid "Hobgoblin Elite"
-msgstr ""
+msgstr "Hobgobelin d'Elite"
 
 #: ../enemies/ng_enemy_hobgoblin_charger_archer.txt:1
 msgid "Hobgoblin Elite Spearman"
-msgstr ""
+msgstr "Lancier Hobgobelin d'Elite"
 
 #: ../enemies/ng_enemy_hobgoblin_charger_mage.txt:1
 msgid "Hobgoblin Elite Mage"
-msgstr ""
+msgstr "Mage Hobgobelin d'Elite"
 
 #: ../enemies/ng_enemy_hobgoblin_mage.txt:1
 msgid "Hobgoblin Mage"
-msgstr ""
+msgstr "Mage Hobgobelin"
 
 #: ../enemies/ng_enemy_poltergeist.txt:1
 msgid "Poltergeist"
-msgstr ""
+msgstr "Esprit frappeur"
 
 #: ../enemies/ng_enemy_shade.txt:1
 msgid "Shade"
-msgstr ""
+msgstr "Ombre"
 
 #: ../enemies/ng_enemy_skeleton_apprentice.txt:1
 msgid "Skeleton Apprentice"
-msgstr ""
+msgstr "Apprenti Squelette"
 
 #: ../enemies/ng_enemy_skeleton_mage.txt:1
 msgid "Skeleton Mage"
-msgstr ""
+msgstr "Mage Squelette"
 
 #: ../enemies/ng_enemy_skeleton_mage_elite.txt:1
 msgid "Skeleton Mage Elite"
-msgstr ""
+msgstr "Mage Squelette d'Elite"
 
 #: ../enemies/ng_enemy_skeleton_old.txt:1
 msgid "Old Skeleton"
-msgstr ""
+msgstr "Squelette Ancien"
 
 #: ../enemies/ng_enemy_skelton_knight_elite.txt:1
 msgid "Skeleton Knight Elite"
-msgstr ""
+msgstr "Chevalier Squelette d'Elite"
 
 #: ../enemies/ng_enemy_soldier_archer.txt:1
 msgid "Archer"
-msgstr ""
+msgstr "Archer"
 
 #: ../enemies/ng_enemy_soldier_barbarian.txt:1
 msgid "Barbarian"
-msgstr ""
+msgstr "Barbare"
 
 #: ../enemies/ng_enemy_soldier_berserker.txt:1
 msgid "Berserker"
-msgstr ""
+msgstr "Berseker"
 
 #: ../enemies/ng_enemy_soldier_infantry.txt:1
 msgid "Infantry"
-msgstr ""
+msgstr "Infanterie"
 
 #: ../enemies/ng_enemy_soldier_mage.txt:1
 msgid "Battle Mage"
-msgstr ""
+msgstr "Mage de Bataille"
 
 #: ../enemies/ng_enemy_soldier_scout.txt:1
 msgid "Scout"
-msgstr ""
+msgstr "Eclaireur"
 
 #: ../enemies/ng_enemy_soldier_skirmisher.txt:1
 msgid "Skirmisher"
-msgstr ""
+msgstr "Tirailleur"
 
 #: ../enemies/ng_enemy_spider.txt:1
 msgid "Spider"
-msgstr ""
+msgstr "Araignée"
 
 #: ../enemies/ng_enemy_spider_giant.txt:1
 msgid "Giant Spider"
-msgstr ""
+msgstr "Araignée Géante"
 
 #: ../enemies/ng_enemy_spider_small.txt:1
 msgid "Small Spider"
-msgstr ""
+msgstr "Petite Araignée"
 
 #: ../enemies/ng_enemy_stone_barricade.txt:1
 msgid "Stone Barricade"
-msgstr ""
+msgstr "Barricade de pierre"
 
 #: ../enemies/ng_enemy_troll.txt:1
 msgid "Troll"
-msgstr ""
+msgstr "Troll"
 
 #: ../enemies/ng_enemy_warhorse.txt:1
 msgid "Warhorse"
-msgstr ""
+msgstr "Cheval de guerre"
 
 #: ../enemies/ng_enemy_wooden_barricade.txt:1
 msgid "Wooden Barricade"
-msgstr ""
+msgstr "Barricade en bois"
 
 #: ../enemies/ng_enemy_wyvern.txt:1
 msgid "Wyvern"
-msgstr ""
+msgstr "Vouivre"
 
 #: ../enemies/ng_enemy_zombie_rotting.txt:1
 msgid "Rotting Zombie"
-msgstr ""
+msgstr "Zombie pourrissant"
 
 #: ../enemies/professor_langlier.txt:3
 msgid "Professor Langlier"
-msgstr ""
+msgstr "Professeur Langlier"
 
 #: ../enemies/reanimated_skeleton.txt:3
 msgid "Reanimated Skeleton"
-msgstr ""
+msgstr "Zombie réanimé"
 
 #: ../enemies/rilrak.txt:3
 msgid "Rilrak, Goblin Shaman"
-msgstr ""
+msgstr "Rilrak, Chaman Gobelin"
 
 #: ../enemies/scathelocke.txt:3
 msgid "Scathelocke"
-msgstr ""
+msgstr "Scathelocke"
 
 #: ../enemies/sir_evan_maddox.txt:3
 msgid "Sir Evan Maddox"
-msgstr ""
+msgstr "Seigneur Evan Maddox"
 
 #: ../enemies/skeletal_archer.txt:3
 msgid "Skeletal Archer"
-msgstr ""
+msgstr "Squelette archer"
 
 #: ../enemies/skeletal_knight.txt:3
 msgid "Skeletal Knight"
-msgstr ""
+msgstr "Chevalier Squelette"
 
 #: ../enemies/skeletal_mage.txt:3
 msgid "Skeletal Mage"
-msgstr ""
+msgstr "Mage Squelette"
 
 #: ../enemies/skeletal_occultist.txt:3
 msgid "Skeletal Occultist"
-msgstr ""
+msgstr "Squelette Occulte"
 
 #: ../enemies/skeletal_prophet.txt:3
 msgid "Skeletal Prophet"
-msgstr ""
+msgstr "Prophete Squelette"
 
 #: ../enemies/skeletal_sniper.txt:3
 msgid "Skeletal Sniper"
-msgstr ""
+msgstr "Squelette Sniper"
 
 #: ../enemies/skeletal_thundersword.txt:3
 msgid "Skeletal Thundersword"
-msgstr ""
+msgstr "Squelette Foudrépée"
 
 #: ../enemies/skeletal_warrior.txt:3
 msgid "Skeletal Warrior"
-msgstr ""
+msgstr "Combattant Squelette"
 
 #: ../enemies/stealth.txt:1
 msgid "Stealth"
-msgstr ""
+msgstr "Furtif"
 
 #: ../enemies/the_warden.txt:3
 msgid "The Warden"
-msgstr ""
+msgstr "Le Gardien"
 
 #: ../enemies/ukkonen.txt:3
 msgid "Ukkonen, Goblin Chieftain"
-msgstr ""
+msgstr "Ukkonn, Chef Gobelin"
 
 #: ../enemies/vesuvvio.txt:3
 msgid "Vesuvvio (the Destroyer)"
-msgstr ""
+msgstr "Vesuvvio (le Destructeur)"
 
 #: ../enemies/wyvern.txt:3
 msgid "Venom Wyvern"
-msgstr ""
+msgstr "Vouivre venimeuse"
 
 #: ../enemies/zombie_bloodthirsty.txt:3
 msgid "Bloodthirsty Zombie"
-msgstr ""
+msgstr "Zombie Assoifé de sang"
 
 #: ../enemies/zombie_brute.txt:3
 msgid "Zombie Brute"
-msgstr ""
+msgstr "Brute Zombie"
 
 #: ../enemies/zombie_iceclaw.txt:3
 msgid "Iceclaw Zombie"
-msgstr ""
+msgstr "Zombie Griffeglace"
 
 #: ../maps/abandoned_mine.txt:9
 msgid "Collapsed Mine"
-msgstr ""
+msgstr "Mines effondrées"
 
 #: ../maps/asylum.txt:9
 msgid "Asylum"
-msgstr ""
+msgstr "Refuge"
 
 #: ../maps/asylum2.txt:9
 msgid "Asylum Living Quarters"
-msgstr ""
+msgstr "Quartiers d'habitation du Refuge"
 
 #: ../maps/asylum3.txt:9
 msgid "Asylum Governors Wing"
-msgstr ""
+msgstr "Aile du Gouverneur du Refuge"
 
 #: ../maps/battlefield1.txt:9
 msgid "Bloody Fields"
-msgstr ""
+msgstr "Champs Ensanglantés"
 
 #: ../maps/battlefield2.txt:9
 msgid "Bloody Fields Crossing"
-msgstr ""
+msgstr "Croisement des Champs Ensanglantés"
 
 #: ../maps/battlefield3.txt:9
 msgid "Bloody Fields Copse"
-msgstr ""
+msgstr "Bosquet des Champs Ensanglantés"
 
 #: ../maps/battlefield4.txt:9
 msgid "Bloody Fields Camp"
-msgstr ""
+msgstr "Camp des Champs Ensanlantés"
 
 #: ../maps/battlefield5.txt:9
 msgid "Bloody Fields Plain"
-msgstr ""
+msgstr "Plaine des Champs Ensanglantés"
 
 #: ../maps/battlefield6.txt:9
 msgid "Death Valley"
-msgstr ""
+msgstr "Vallée de la mort"
 
 #: ../maps/desert.txt:9
 msgid "Desert"
-msgstr ""
+msgstr "Désert"
 
 #: ../maps/desert2.txt:9
 msgid "Desert North"
-msgstr ""
+msgstr "Désert du Nord"
 
 #: ../maps/dungeon1.txt:9
 msgid "Ancient Dungeon Level 1"
-msgstr ""
+msgstr "Ancien Donjon Niveau 1"
 
 #: ../maps/dungeon10.txt:9
 msgid "Ancient Dungeon Level 10"
-msgstr ""
+msgstr "Ancien Donjon Niveau 10"
 
 #: ../maps/dungeon10.txt:196
 msgid "Greenwood Point"
-msgstr ""
+msgstr "Point du Bois Vert"
 
 #: ../maps/dungeon10.txt:204
 msgid "Waypoint discovered"
-msgstr ""
+msgstr "Point de Passage découvert"
 
 #: ../maps/dungeon2.txt:9
 msgid "Ancient Dungeon Level 2"
-msgstr ""
+msgstr "Ancien Donjon Niveau 2"
 
 #: ../maps/dungeon3.txt:9
 msgid "Ancient Dungeon Level 3"
-msgstr ""
+msgstr "Ancien Donjon Niveau 3"
 
 #: ../maps/dungeon4.txt:9
 msgid "Ancient Dungeon Level 4"
-msgstr ""
+msgstr "Ancien Donjon Niveau 4"
 
 #: ../maps/dungeon5.txt:9
 msgid "Ancient Dungeon Level 5"
-msgstr ""
+msgstr "Ancien Donjon Niveau 5"
 
 #: ../maps/dungeon6.txt:9
 msgid "Ancient Dungeon Level 6"
-msgstr ""
+msgstr "Ancien Donjon Niveau 6"
 
 #: ../maps/dungeon7.txt:9
 msgid "Ancient Dungeon Level 7"
-msgstr ""
+msgstr "Ancien Donjon Niveau 7"
 
 #: ../maps/dungeon8.txt:9
 msgid "Ancient Dungeon Level 8"
-msgstr ""
+msgstr "Ancien Donjon Niveau 8"
 
 #: ../maps/dungeon9.txt:9
 msgid "Ancient Dungeon Level 9"
-msgstr ""
+msgstr "Ancien Donjon Niveau 9"
 
 #: ../maps/dungeon_way.txt:9
 msgid "Ancient Pass"
-msgstr ""
+msgstr "Ancien Passage"
 
 #: ../maps/end.txt:9
 msgid "Journeys End"
-msgstr ""
+msgstr "La Fin du Voyage"
 
 #: ../maps/fern_valley.txt:9
 msgid "Fern Valley"
-msgstr ""
+msgstr "Vallée des Fougeres"
 
 #: ../maps/goblin_caves.txt:9
 msgid "Goblin Caves"
-msgstr ""
+msgstr "Grottes Gobelines"
 
 #: ../maps/marshlands.txt:9
 msgid "Marshlands"
-msgstr ""
+msgstr "Marais"
 
 #: ../maps/river_road.txt:9
 msgid "River Road"
-msgstr ""
+msgstr "Route de la Riviere"
 
 #: ../maps/sage_home.txt:9
 msgid "Northwood Cottage"
-msgstr ""
+msgstr "Chalet du bois du Nord"
 
 #: ../maps/sage_home.txt:209
 msgid "Shared Stash"
-msgstr ""
+msgstr "Equipement Partagé"
 
 #: ../maps/secret_cave.txt:9
 msgid "Hidden Alcove"
-msgstr ""
+msgstr "Alcove Cachée"
 
 #: ../maps/woods.txt:9
 msgid "Greenwood Forest"
-msgstr ""
+msgstr "Foret du Bois Vert"
 
 #: ../maps/woods2.txt:9
 msgid "Northwood"
-msgstr ""
+msgstr "Bois du Nord"
 
 #: ../maps/wyvern_cave.txt:9
 msgid "Wyrmwold Cave"
-msgstr ""
+msgstr "Grotts de Wyrmwold"
 
 #: ../maps/wyvern_cave2.txt:9
 msgid "Wyrmwold Tunnels"
-msgstr ""
+msgstr "Tunnels de Wyrmwold"
 
 #: ../maps/wyvern_cave3.txt:9
 msgid "Wyrmwold Cavern"
-msgstr ""
+msgstr "Caverne de Wyrmwold"
 
 #: ../quests/asylum.txt:5
 msgid "Unlocked the 'Summon Goblin Ally' Skill. Continue through the north exit of the caves and travel East through the desert to the asylum."
-msgstr ""
+msgstr "Débloqué la compétence 'Invoquer un allié gobelin'. Continuez par la sortie nord des grottes et dirigez-vous vers l'est à travers le désert jusqu'au Refuge."
 
 #: ../quests/asylum.txt:11
 msgid "Find the asylum living quarters and see if anybody has some answers"
-msgstr ""
+msgstr "Trouvez les quartiers d'habitaion du Refuge et voyez si quelqu'un a des réponses"
 
 #: ../quests/asylum.txt:16
 msgid "Find the Governor"
-msgstr ""
+msgstr "Trouvez le Gouverneur"
 
 #: ../quests/battle.txt:4
 msgid "Unlocked the 'Summon Minotaur Ally' skill. Continue north past the Ancient Pass and meet Ieuan at the approaching battle front."
-msgstr ""
+msgstr "Débloqué la compétence "Invoquer un allié Minotaure". Continuez vers le nord après l'Ancien Passage et rencontrez Ieuan au Front."
 
 #: ../quests/battle.txt:9
 msgid "Prepare for battle and push back the advancing forces."
-msgstr ""
+msgstr "Préparez-vous pour la bataille et repoussez les forces en progression."
 
 #: ../quests/battle.txt:14
 msgid "You have halted the advancing forces. Return to Greenwood Point and use the final waypoint to continue your adventure in distant lands."
-msgstr ""
+msgstr "Vous avez arreté les forces en progression. Retournez au Point du Bois Vert et utilisez le Point de Passage Final pou continuer votre aventure dans des terres lointaines."
 
 #: ../quests/goblin_caves.txt:5
 msgid "Unlocked the 'Conversion' skill. Return to talk to Ieuan"
-msgstr ""
+msgstr "Débloqué la compétence 'Conversion'. retournez parler a Ieuan"
 
 #: ../quests/goblin_caves.txt:10
 msgid "Travel north through the Goblin caves leading to the desert. Keep an eye out for Vlad."
-msgstr ""
+msgstr "Voyagez vers le nord à travers les grottes gobelines menant au désert. Gardez un œil sur Vlad."
 
 #: ../quests/goblin_caves.txt:15
 msgid "Clear the goblin caves of the infestation"
-msgstr ""
+msgstr "Nettoyez les Grottes Gobelines de leur Infection"
 
 #: ../quests/goblin_caves.txt:20
 msgid "Return to Vlad"
-msgstr ""
+msgstr "Retournez voir Vlad"
 
 #: ../quests/horse_whisperer.txt:4
 msgid "Speak to Ieuan"
-msgstr ""
+msgstr "Parlez a Ieuan"
 
 #: ../quests/horse_whisperer.txt:9
 msgid "Meet Ieuan at the settlement at the end of Fern Valley"
-msgstr ""
+msgstr "Rencontrez Ieuan à la colonie au bout de la Vallée des Fougeres"
 
 #: ../quests/horse_whisperer.txt:14
 msgid "Speak to the woodsman"
-msgstr ""
+msgstr "Parlez au bucheron"
 
 #: ../quests/horse_whisperer.txt:19
 msgid "Head to the woods north of town and use the apples Evan gave you to coax the beast."
-msgstr ""
+msgstr "Dirigez-vous vers les bois au nord de la ville et utilisez les pommes qu'Evan vous a données pour amadouer la bête."
 
 #: ../quests/horse_whisperer.txt:24
 msgid "Go back to town and tell Evan of your deeds."
-msgstr ""
+msgstr "Retourne en ville et raconte tes actes à Evan."
 
 #: ../quests/lycanthropy.txt:4
 msgid "Unlocked the 'Summon Wyvern Ally' skill. Investigate the beast at the cave to the southeast of the Northwood"
-msgstr ""
+msgstr "Débloqué la compétence 'Invoquer une Vouivre alliée'. Enquêtez sur la bête dans la grotte au sud-est de Northwood"
 
 #: ../quests/lycanthropy.txt:9
 msgid "Return to tell bethan of your fight"
-msgstr ""
+msgstr "Retournez raconter a Bethan votre comabt"
 
 #: ../quests/lycanthropy.txt:14
 msgid "Return to the cave where you fought the beast"
-msgstr ""
+msgstr "Retournez dans la Grotte ou vous avez trouvé la Bete"
 
 #: ../quests/minotaur.txt:4
 msgid "Unlocked the 'Werewolf' skill. Go and report your findings to Bethan"
-msgstr ""
+msgstr "Débloqué la compétence 'Loup-Garou'. Allez raporter vos trouvailles a Bethan"
 
 #: ../quests/minotaur.txt:9
 msgid "Talk to Ieuan at the Northwood Cottage"
-msgstr ""
+msgstr "Discutez avec Ieuan du Chalet des Bois du Nord"
 
 #: ../quests/minotaur.txt:14
 msgid "Head west through the marshlands and look for the entrance to the ancient dungeon"
-msgstr ""
+msgstr "Dirigez-vous vers l'ouest à travers les Marais et cherchez l'entrée de l'Ancien Donjon"
 
 #: ../quests/minotaur.txt:19
 msgid "Explore the dungeon and locate the legendary guardian"
-msgstr ""
+msgstr "Explorez le Donjon et localisez le Grdien Légendaire"
 
 #: ../quests/wyvern.txt:4
 msgid "Unlocked the 'Summon Ghost Ally' skill. Continue exploring North beyond the desert and through the Wyrmwold Caves."
-msgstr ""
+msgstr "Débloqué la compétence 'Invoquer un allié Fantome'. Continuez à explorer le nord au-delà du désert et à travers les grottes de Wyrmwold."
 
 #: ../quests/wyvern.txt:9
 msgid "Find a Fire Antlion heart in the Northwood and return to Bethan with the heart and the elemental wyvern tails."
-msgstr ""
+msgstr "Trouvez un Coeur d'Antilion de Feu dans les Bois du Nord et retournez voir Bethan avec le coeur et les queues des Vouivres Elémentaires"
 
 #: ../npcs/bethan.txt:2
 msgid "Bethan"
-msgstr ""
+msgstr "Bethan"
 
 #: ../npcs/bethan.txt:12
 msgid "Good day."
-msgstr ""
+msgstr "Bonne journée."
 
 #: ../npcs/bethan.txt:13
 msgid "Oh a visitor. I dont get many around here. Now where did you come from?"
-msgstr ""
+msgstr "Oh un visiteur. Je n'en recois pas beaucoup par ici. D'ou viens-tu ?"
 
 #: ../npcs/bethan.txt:14
 msgid "I have travelled from Cambria in the south."
-msgstr ""
+msgstr "J'ai voyagé depuis Cambria dans le Sud"
 
 #: ../npcs/bethan.txt:15
 msgid "Impressive. You must have come through the Wyrmwold cave. Not many can make it through. Now what brings you up here?"
-msgstr ""
+msgstr "Impressionant. Vous devez avoir traversé la Grotte de Wyrmwold. Peu de gens peuvent passer a travers. Qu'est-ce qui vous amenes ici ?"
 
 #: ../npcs/bethan.txt:16
 msgid "Battle preparations. Cambria was attacked by the Sarlinian some time ago and we are expecting a larger attack soon."
-msgstr ""
+msgstr "Les préparatifs de guerre. Cambria a été attaquée par les Sarliniens il y a peu de temps et nous devons nous attendre a une plus grande attaque prochainement."
 
 #: ../npcs/bethan.txt:17
 msgid "Now that wont do at all. I'll have none of that fighting nonsense here."
-msgstr ""
+msgstr "Ca ne vas pas du tout. Je ne veux aucunes de ces betises de combats par ici !"
 
 #: ../npcs/bethan.txt:18
 msgid "Indeed..."
-msgstr ""
+msgstr "Effectivement..."
 
 #: ../npcs/bethan.txt:19
 msgid "If they think they can throw their weight around here, theyll find a jolly good talking to waiting for them."
-msgstr ""
+msgstr "S'ils pensent pouvoir faire ce qu'ils veulent ici, ils trouveront un tres bon interlocuteur pour les attendre."
 
 #: ../npcs/bethan.txt:20
 msgid "Thats one approach."
-msgstr ""
+msgstr "C'est une approche"
 
 #: ../npcs/bethan.txt:21
 msgid "So what are you doing about it?"
-msgstr ""
+msgstr "Donc qu'allez vous faire a p[ropos de cela ?"
 
 #: ../npcs/bethan.txt:22
 msgid "Im looking for allies to help tip the balance"
-msgstr ""
+msgstr "Je cherche des alliés pour m'aider a faire pencher la balance."
 
 #: ../npcs/bethan.txt:23
 msgid "I might be able to help with that. Let me consult my spell book now..."
-msgstr ""
+msgstr "Je vais peut-etre etre capable de vous aider sur ce point. Laissez-moi consulter mes livres de sorts maintenant..."
 
 #: ../npcs/bethan.txt:24
 msgid "Yes here it is. The wyverns power can be harnessed. All I need is a wyvern tail from each of the elemental wyverns. If you didnt get those, you had better go back to the Wyvern cave."
-msgstr ""
+msgstr "Ca y est. Le pouvoir des vouivres peut etre controlé. Tout ce dont j'ai besoin c'est d'une queue de chaque Vouivre élémentaire. Si vous ne les avez pas, vous ferez mieux de retourner dans la Grotte des Vouivres."
 
 #: ../npcs/bethan.txt:25
 msgid "I will also need a catalyst of some kind. Hmm yes that should work."
