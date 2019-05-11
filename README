@@ -72,7 +72,7 @@ All of Flare's art and data files are released under CC-BY-SA 3.0. Later version
 
 Flare is a a single-player 2D action RPG with fast-paced action and a dark fantasy style.
 
-It is built on the FLARE engine (Free/Libre Action Roleplaying Engine). Its repo is at https://github.com/clintbellanger/flare-engine
+It is built on the FLARE engine (Free/Libre Action Roleplaying Engine). Its repo is at https://github.com/flareteam/flare-engine
 
 Flare uses simple file formats (INI style config files) for most of the game data, allowing anyone to easily modify game contents. Open formats are preferred (png, ogg). Maps are edited using Tiled.
 
@@ -92,7 +92,7 @@ The GNU Unifont font is released under GPL v2, with the exception that embedding
 ## Links
 
 * Homepage  http://flarerpg.org
-* Repo      https://github.com/clintbellanger/flare-game
+* Repo      https://github.com/flareteam/flare-game
 * Binaries  https://sourceforge.net/projects/flare-game/
 * Forums    http://opengameart.org/forums/flare
 * Email     clintbellanger@gmail.com
@@ -102,7 +102,7 @@ The GNU Unifont font is released under GPL v2, with the exception that embedding
 
 See the Flare-Engine repo for instructions on how to install Flare:
 
-https://github.com/clintbellanger/flare-engine
+https://github.com/flareteam/flare-engine
 
 Flare Game is installed as a set of mods for Flare Engine. Place the contents of the "mods" folder inside Flare Engine's mods folder.
 
